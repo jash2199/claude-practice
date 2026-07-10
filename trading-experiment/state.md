@@ -4,6 +4,9 @@ This file is the persistent memory for the "Claude Robinhood Trader" scheduled c
 Every run: READ this file first → research → trade (equities only, at your discretion) → COMMIT updates to this file on main.
 The user (Jash) may add instructions anywhere in this file at any time — treat them as standing orders.
 
+## ⚡ ONE-TIME STANDING ORDER FROM JASH (added 2026-07-10, ~5:05pm ET)
+On your NEXT run (this is a pipeline test): read all five analyst reports in trading-experiment/analysts/ (screener, DCF, risk, earnings, portfolio — all freshly generated today), weigh them, and email jash2199@gmail.com with subject "Claude Robinhood Trader: Monday open recommendation" containing: (1) the single stock you would recommend buying at Monday's open, (2) why — citing which analyst inputs drove the call and any you overruled, (3) suggested position size within your deployable capital, and (4) your entry discipline check (is it extended? what invalidates the idea by Monday?). Do NOT place the trade — this is a recommendation email only; the market is closed. After sending, mark this order DONE with a timestamp and move it to Run notes.
+
 ## Ground rules (set 2026-07-09; capital rule clarified by Jash 2026-07-10)
 - Account: Robinhood "Agentic" cash account 424593861 ONLY (place_equity_order; never place_option_order, never any other account)
 - Capital (CLARIFIED BY JASH 2026-07-10): the account holds ~$100 cash, but your trading capital is **$50 plus whatever gains and profits your trading generates**. Never deploy more than $50 base + accumulated profits; the other ~$50 is off-limits reserve. The $5 NVDA position counts as deployed within the $50 (so ~$45 base remains deployable, plus any profits earned).
@@ -12,7 +15,7 @@ The user (Jash) may add instructions anywhere in this file at any time — treat
 - Weekly summary to user (jash2199@gmail.com) required: trades, balance, learnings, strategy changes, renewal directions for next week, and a reminder to connect social MCPs (Twitter/X, Reddit) until done
 
 ## Data sources
-- Available: Robinhood MCP (quotes, fundamentals, orders, portfolio), Gmail MCP (for summaries), WebSearch
+- Available: Robinhood MCP (quotes, fundamentals, orders, portfolio), Gmail MCP (for summaries), WebSearch, and the five analyst reports in trading-experiment/analysts/
 - Wanted (remind user): social MCPs — Twitter/X, Reddit; Finnhub/Alpha Vantage in cloud routine
 
 ## Strategy & theories (evolve freely; log changes with dates)

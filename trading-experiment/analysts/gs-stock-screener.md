@@ -1,118 +1,116 @@
 # GS Stock Screener — Latest Report
-**Date: 2026-07-10 (first run)**
+**Date: 2026-07-13 (Monday, ~intraday)**
 
-*Persona: senior GS equity analyst screening for the "Claude Robinhood Trader" — $50 base + accumulated profits (~$45 deployable + ~$0.21 unrealized gain as of this run), aggressive risk tolerance, days-to-weeks horizon, no sector restriction, fractional shares available.*
+*Persona: senior GS equity analyst screening for the "Claude Robinhood Trader" — $50 base + accumulated profits (~$44.78 deployable + ~$0.22 unrealized NVDA gain as of this run), aggressive risk tolerance, days-to-weeks horizon, no sector restriction, fractional shares available.*
 
 ---
 
-## Top 3 highest-conviction ideas — actionable NOW
+## Top 3 highest-conviction ideas — actionable NOW (with a timing caveat, see below)
 
-1. **TD SYNNEX (SNX)** — the rare name in this AI-adjacent basket still trading at a *distributor's* multiple (~17.5x) while its Hyve AI-infrastructure segment grows near-triple-digit — momentum without the priced-for-perfection tax.
-2. **SK Hynix (SKHY)** — debuted on Nasdaq today (7/10) at a forward P/E *cheaper* than Micron despite holding the dominant 58% HBM share Micron is fighting to take back; genuine new-listing price discovery, not a chase.
-3. **Astera Labs (ALAB)** — pulled back ~11.5% into this week's sector wobble even as Q1 revenue grew 93% YoY with a fortress balance sheet (D/E 0.03); a rare dip-entry into a name with a real, accelerating catalyst (PCIe Gen 6 ramp).
+1. **Micron (MU)** — down ~25% from its recent record high alongside the broader chip selloff, yet UBS just re-underwrote the group as "far from bubble territory" (Philly Semi Index fwd P/E ~26x vs. 150x at the 2000 peak); HBM/AI-memory demand thesis is intact and this is now a materially better entry than my 7/10 screen.
+2. **Broadcom (AVGO)** — same "~25% off highs" repricing as MU, but backed by a disclosed $30B Apple custom-silicon deal and >$100B annual custom-AI-chip revenue target by 2027; a quality compounder now trading at a real discount to where it was two weeks ago.
+3. **Omnicell (OMCL)** — the one name in this list that is *not* moving on chip-sector news at all today; new President appointed (Nnamdi Njoku, ex-Medtronic COO promoted from within), Strong Buy consensus intact, still the cleanest true diversifier in the book, clean of earnings risk until 7/30.
+
+**Timing caveat, and I'm flagging it loudly:** today is a live, unresolved geopolitical shock (US-Iran strikes over the weekend, Iran claiming the Strait of Hormuz "closed until further notice," Brent nearing $80) layered on top of an already-in-progress semiconductor selloff (SK Hynix -15% today alone, KOSPI chip complex -9%, Philly Semi -10.8% over 10 sessions). Per the trader's own 7/13 strategy note, this is exactly a "do not open a new position into an active, still-unfolding macro shock" day. My job is to identify the *ideas* — MU, AVGO and OMCL above are where I'd point fresh capital — but I'm explicitly not calling today the entry day. Wait for the tape to digest the weekend's news (a session or two of stabilization) before sizing in, even though the prices themselves already look attractive.
 
 ---
 
 ## Summary table
 
-| Rank | Ticker | Price (7/10/26) | P/E (trail/fwd) | Sector avg P/E* | 5yr rev trend | D/E | Div yield | Moat | Risk (1–10) |
+| Rank | Ticker | Price (7/13/26 intraday, approx.) | P/E (trail/fwd) | Sector avg P/E* | 5yr rev trend | D/E | Div yield | Moat | Risk (1–10) |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | SNX | ~$237–283 (quote spread) | 17.5x / ~16x | ~28x (IT distribution/hardware) | Steady mid-single-digit distribution growth + Hyve AI infra +117% YoY | Moderate (distributor leverage, not disclosed here in detail) | ~1.0% | Moderate | 6 |
-| 2 | SKHY | $170 (IPO debut, +14–17% day 1) | N/A (new listing) / 5.4x fwd | ~9x (memory peers) | Revenue +46.8% in FY25 to ₩97.15T; Q1'26 record $34.76B | Not yet disclosed to US filers (new ADS) | 0% | Strong | 7 |
-| 3 | ALAB | $416.72 | 283x / 125x (falling fast as earnings catch up) | ~35x (semis/connectivity) | Rev +93% YoY Q1'26 ($308M); guiding $355-365M Q2 | 0.03 (net cash $1.14B) | 0% | Strong | 8 |
-| 4 | MU | $973.70 | 21.5x / 6.4x | ~9x (memory peers) | Deep cyclical: 2022-23 downturn → 2024-26 AI-memory supercycle, current-yr EPS growth guided ~791% | 0.06 | 0.06% | Moderate | 7 |
-| 5 | AVGO | ~mid-$300s** | 66.8x | ~35x (semis/software hybrid) | Steady mid-teens organic + VMware/custom-silicon step-change; custom AI chips guided >$100B annual rev by end-2027 | Elevated (VMware-funded debt load) | ~0.8% | Strong | 6 |
-| 6 | META | $673.39 (+6-10% today) | ~27x | ~24x (mega-cap internet) | Steady teens-20s% ad revenue growth + new Meta Compute cloud unit | Low | ~0.3% | Strong | 6 |
-| 7 | STX | $914.95 | 79–87x | ~9x (memory/storage peers) | Cyclical storage rebound, stock +506% trailing 12mo | **3.16x / 352%** — dangerously leveraged | 0.32% | Moderate | 9 |
-| 8 | OMCL | ~$46–54 range | N/A (recently returned to profitability) | ~25x (healthcare tech) | Q1'26 rev +15% YoY, EPS guide raised to $1.80-2.00 | Moderate | 0% | Moderate | 5 |
-| 9 | FRPT | ~$60–75 range | ~35-40x est. | ~22x (packaged food) | Consistent double-digit growth (8-11% guided '26), improving margins | Low-moderate | 0% | Moderate | 5 |
-| 10 | ISRG | ~$450-470 (down 24% YTD) | ~40x fwd (vs 5yr avg 56.5x — cheapest in years) | ~28x (medtech) | Consistent teens% procedure-volume-driven growth for a decade | Low | 0% | **Strong (~80% soft-tissue robotic surgery share)** | 5 |
+| 1 | MU | ~$730 (down ~25% from record high) | ~16x / ~5x | ~9x (memory peers) | Deep cyclical: 2022-23 downturn → 2024-26 AI-memory supercycle; HBM demand structurally re-rating the group | 0.06 | 0.06% | Moderate | 6 (was 7 on 7/10 — lower now on valuation reset) |
+| 2 | AVGO | ~$400 (down ~25% from record high) | ~60x | ~35x (semis/software hybrid) | Steady mid-teens organic + VMware/custom-silicon step-change; $30B Apple deal, >$100B custom-AI-chip revenue target by end-2027 | Elevated (VMware-funded debt load) | ~0.8% | Strong | 6 |
+| 3 | OMCL | ~$45-46 | N/A (recently returned to profitability) | ~25x (healthcare tech) | Q1'26 rev +15% YoY, EPS guide raised to $1.80-2.00; new President appointed 7/1 | Moderate | 0% | Moderate | 5 |
+| 4 | SNX | ~$237-250 (data conflict across sources, down ~12% over the past month) | 17.5x / ~16x | ~28x (IT distribution/hardware) | Steady mid-single-digit distribution growth + Hyve AI infra; TIME "Best Companies 2026" list | Moderate | ~1.0% | Moderate | 7 (up from 6 — GF Score flags "overvalued" 47.7% above fair value; MS DCF independently calls it only modestly undervalued, not GS's earlier "screaming discount") |
+| 5 | ALAB | ~$400-435 | ~high-100s x / ~110x | ~35x (semis/connectivity) | Rev +93% YoY Q1'26; Q2 earnings call set for 8/4 | 0.03 (net cash $1.14B) | 0% | Strong | 8 |
+| 6 | META | ~$650-670 | ~27x | ~24x (mega-cap internet) | Stock fell today despite Sept AI-chip production report — read-through is chip-sector-wide risk-off, not company-specific | Low | ~0.3% | Strong | 6 |
+| 7 | ISRG | ~$470-490 (up on pre-earnings positioning) | ~40x fwd | ~28x (medtech) | Q1'26 revenue +23%, procedures +17%; BMO initiated Outperform 7/8 | Low | 0% | **Strong (~80% soft-tissue robotic surgery share)** | 6 (JPM: WAIT, earnings 7/16 binary risk — see disagreement flag below) |
+| 8 | FRPT | ~$62-68 | ~35x est. | ~22x (packaged food) | Guided 8-11% '26 growth, but BofA cut PT $75→$70 on soft dog-food sales + new competition (Hill's launched a "fresh" line) | Low-moderate | 0% | Moderate (**newly contested** — see notes) | 6 (up from 5 — fresh competitive threat) |
+| 9 | SKHY | ~$140-145 (after a record -15% single-day drop today) | N/A / ~4.5x fwd (post-selloff) | ~9x (memory peers) | FY25 revenue +46.8%; business fundamentals unchanged, but stock action says otherwise | Not yet disclosed for US ADS | 0% | Strong | 9 (**downgraded hard from 7 on 7/10** — see notes) |
+| 10 | STX | ~$850-900 (range, pulled back from highs) | ~75-85x | ~9x (memory/storage peers) | Cyclical storage rebound, but +3.16x D/E is a genuinely leveraged balance sheet | **3.16x / 352%** | 0.32% | Moderate | 9 |
 
-*Sector average P/Es are directional estimates from GS internal screens, not exact real-time index pulls — treat as approximate for ranking purposes.
-**AVGO price not independently re-confirmed this run vs. its ~$500+ PT quotes; flagging for verification before any live order.
+*Sector average P/Es are directional desk estimates, not a precise index pull.
+
+---
+
+## What changed since 7/10 — the headline story
+
+The three-day gap since my last screen contains two distinct, compounding shocks: (1) a broad semiconductor-sector repricing that took the Philadelphia Semiconductor Index down ~10.8% over ten sessions and wiped out roughly $1T of chip-sector market cap on AI-capex-sustainability worries, and (2) a fresh US-Iran military exchange over the weekend with Iran claiming to have closed the Strait of Hormuz, sending Brent toward $80 and reviving inflation fears just ahead of Tuesday's CPI print. Today, SK Hynix — my #2 idea three days ago on its Nasdaq debut — cratered a record -15% in a single session as post-IPO rotation and earnings jitters overwhelmed the initial pop; South Korea's KOSPI chip complex fell nearly 9%. I am downgrading SKHY sharply (risk 7→9) and pulling it out of the top 3. This is a case study in exactly the "IPO-flip risk in the first weeks" caution I flagged on 7/10 — it played out faster and harder than I expected.
+
+The flip side: institutional voices (JPMorgan, UBS) are calling this a buying opportunity, not a top — UBS notes forward semi valuations (~26x) remain far from bubble territory (dotcom peak was ~150x), and NVDA's own forward P/E has compressed from a 5-year average of ~72x to ~21.7x. MU and AVGO, both down ~25% from recent highs, are where I'd now point new capital in this complex — better risk/reward than three days ago, just not a "buy today into an active geopolitical shock" trade.
 
 ---
 
 ## Detailed notes
 
-### 1. TD SYNNEX (SNX) — Rank 1, HIGH CONVICTION
-- **P/E vs sector**: 17.5x trailing vs. ~28x for IT hardware/distribution peers — a real discount despite the AI tailwind.
-- **Revenue growth**: Distribution core growing mid-single digits; Hyve (AI server/infra) segment gross billings +33% YoY overall, Hyve itself +117% YoY — this is the growth engine masked by the "boring distributor" multiple.
-- **Debt-to-equity**: Moderate, typical of a distribution business model (inventory-financed); not a red flag at this multiple.
-- **Dividend**: modest (~1%), well covered by cash flow — not the reason to own this.
-- **Moat**: Moderate — scale/logistics moat in IT distribution, not a technology moat, but the Hyve AI-infra pivot is real and underappreciated.
-- **Bull case (12mo)**: $340 if Hyve re-rates toward a hardware-multiple as its mix grows.
-- **Bear case (12mo)**: $190 if AI infra capex cools or a customer concentration issue emerges.
-- **Risk 6/10**: Real business, real growth, but distribution margins are thin and a slowdown in enterprise IT spend would hit fast.
-- **Entry zone**: on any pullback toward $220-235. **Stop-loss**: below $205 (below recent base).
+### 1. Micron (MU) — Rank 1, upgraded on valuation reset
+- Down ~25% from its record high alongside the group; UBS explicitly reiterates the AI-memory supercycle thesis at these levels. Forward P/E ~5x is now genuinely cheap even relative to my own 7/10 screen (6.4x). D/E 0.06, $23B+ net cash — balance sheet was never the concern.
+- Bull case (12mo): $1,150 unchanged. Bear case: $650, but the bear case itself is now closer to spot, which mechanically improves the risk/reward of an entry here vs. 7/10.
+- **Risk 6/10** (down from 7) — the valuation reset is real, but this is a name that just proved it can move ±25% inside two weeks; size accordingly.
+- Entry zone: $700-750 once the macro/geopolitical dust settles. Stop-loss: below $650.
 
-### 2. SK Hynix (SKHY) — Rank 2, HIGH CONVICTION, HIGHEST NOVELTY RISK
-- **P/E vs sector**: forward 5.4x vs Micron's 6.7x — cheaper than the #2 player despite being the HBM market leader (58% share vs Micron's 21%).
-- **Revenue growth**: FY25 revenue +46.76% YoY; Q1'26 record $34.76B; gross margins 79%, net margins 77% — exceptional profitability for a hardware name.
-- **Debt-to-equity**: not yet independently verified for the new US ADS listing — flagging as a data gap for next run.
-- **Dividend**: none disclosed on the new ADS.
-- **Moat**: Strong — dominant HBM share directly feeding Nvidia's AI GPU supply chain.
-- **Bull case (12mo)**: $230+ if HBM shortage persists into 2027 and ADS liquidity normalizes.
-- **Bear case (12mo)**: $120 if memory pricing rolls over or ADS technical/lockup dynamics create post-IPO air pockets.
-- **Risk 7/10**: Brand-new US listing (trading as SKHYV today, converts to SKHY 7/13) — genuine business quality, but essentially no US trading history, thin data, and IPO-flip risk in the first weeks.
-- **Entry zone**: wait for the post-debut settle, ideally $150-165 (near/below offer price) rather than chasing today's pop. **Stop-loss**: below $140.
+### 2. Broadcom (AVGO) — Rank 2, upgraded on valuation reset
+- Same repricing dynamic as MU: down ~25% from highs into ~$400, while the underlying franchise (custom AI silicon, Apple deal, VMware) is unchanged. P/E ~60x is still not "cheap" in absolute terms, but it's cheap *relative to its own recent history and growth profile*.
+- Bull case (12mo): $630. Bear case: $390 — spot is now closer to the bear case than it was on 7/10, again improving entry math.
+- **Risk 6/10**, unchanged. Elevated D/E from VMware debt remains the one real balance-sheet caveat.
+- Entry zone: $370-400 (essentially close to today's price, but wait for the macro shock to stabilize per the timing caveat above). Stop-loss: below $350.
 
-### 3. Astera Labs (ALAB) — Rank 3, HIGH CONVICTION ON THE DIP
-- **P/E vs sector**: still rich (125x forward) but has compressed hard (was 128x in Q4'25, now falling faster than the stock as earnings catch up) — the multiple is de-risking even without a further pullback.
-- **Revenue growth**: +93% YoY Q1'26 ($308.4M), guiding $355-365M for Q2 — this is genuine hyper-growth, not narrative.
-- **Debt-to-equity**: 0.03 — essentially debt-free, $1.14B net cash. Balance sheet is not a risk here.
-- **Dividend**: none — full reinvestment growth story.
-- **Moat**: Strong — connectivity chips (retimers/PCIe) sit in a structural AI-server bottleneck with high switching costs once designed in.
-- **Bull case (12mo)**: $550 if PCIe Gen 6 ramp beats guide and AI server unit growth stays elevated.
-- **Bear case (12mo)**: $220 if hyperscaler capex growth decelerates or a customer (reportedly concentrated) diversifies suppliers.
-- **Risk 8/10**: High-multiple, single-digit-billions-revenue name in a fast-moving niche — a beat-and-raise machine today can miss tomorrow, and the stock will move violently either way.
-- **Entry zone**: $390-420 (current pullback zone). **Stop-loss**: below $360 (below recent 52wk-adjacent support).
+### 3. Omnicell (OMCL) — Rank 3, upgraded — cleanest actionable idea today
+- The one name on this list genuinely undisturbed by today's chip/geopolitical noise. New President Nnamdi Njoku appointed 7/1 (promoted from EVP/COO, ex-Medtronic) — continuity, not disruption, reporting still to CEO Randall Lipps. Strong Buy consensus holds, Q1'26 EPS guide raised to $1.80-2.00, next earnings not until 7/30.
+- **This is BW's and BR's own preferred diversifier** — BW's risk report explicitly named OMCL as a way to add a genuinely uncorrelated dollar rather than compounding sector risk, and it's the one idea in today's screen that doesn't require betting on how the Hormuz situation resolves.
+- **Risk 5/10**, unchanged, lowest in the list alongside ISRG.
+- Entry zone: $44-48 (in range now). Stop-loss: below $42. **This remains my top actionable pick once the entry-timing bar clears** — same conclusion the trader reached independently on 7/12/7/13, just re-confirmed with fresher data.
 
-### 4. Micron (MU) — Rank 4
-- P/E 21.5x trailing / **6.4x forward** — cheap on a forward basis, reflecting the current AI-memory supercycle; D/E 0.06 (very strong balance sheet, $23.75B net cash); dividend token (0.06%, not a reason to hold). Moat moderate — memory is inherently cyclical/commoditized even in an upcycle, and SK Hynix's dominant HBM share is now a direct listed competitor for the same trade.
-- Bull $1,150 / Bear $650 (12mo). **Risk 7/10** — already up huge trailing 12mo; this is a "hold if you own it, size carefully if adding" name, not a fresh chase at $973.
-- Entry zone: $850-920 on a pullback. Stop-loss: below $780.
+### 4. TD SYNNEX (SNX) — Rank 4, downgraded on valuation pushback
+- Stock is down ~12% over the past month even before today. GuruFocus's GF Value model now flags SNX as ~47.7% *overvalued* — a meaningfully more cautious read than my 7/10 "distributor's multiple, momentum without the tax" framing. **MS's independent DCF backs this caution**: base case is only "modestly undervalued, roughly fair value" (+10% from spot), nowhere near my 7/10 bull case of $340 (+36%) or the Street's $333.55 consensus PT — MS explicitly called out my 7/10 thesis as directionally right on the business but overstated on magnitude. I'm folding that critique in and downgrading risk 6→7 and rank 1→4.
+- Still own the Hyve AI-infra growth story; TIME "Best Companies 2026" listing (7/9) is a soft positive, not a catalyst.
+- Entry zone: $220-235 pullback zone, unchanged. Stop-loss: below $205.
 
-### 5. Broadcom (AVGO) — Rank 5
-- P/E 66.8x — expensive, but backed by a real, disclosed >$100B annual custom-AI-silicon revenue target by end-2027 and a new $30B+ Apple custom-chip deal through 2031. Moat strong (design + foundry relationships with TSMC are hard to replicate). D/E elevated from VMware-funded debt.
-- Bull $630 / Bear $390 (12mo, per Street range). **Risk 6/10** — large-cap quality, but priced for continued flawless execution.
-- Entry zone: on weakness toward $440-460. Stop-loss: below $400.
+### 5. Astera Labs (ALAB) — Rank 5, unchanged risk, one new flag
+- Fundamentals intact (+93% YoY Q1'26 revenue), Q2 earnings call confirmed for 8/4 (clean of near-term binary risk right now). Debt-free, $1.14B net cash.
+- **New flag**: Chairman Manuel Alba sold ~$60.5M of stock on 7/1 via a 10b5-1 plan (pre-arranged, non-discretionary — not itself alarming, but worth tracking alongside the stock's already-rich multiple). Analyst average 12-month PT of ~$272 vs. a recent print near $435 is a striking gap worth watching — either the Street hasn't caught up to the growth story or the market has gotten ahead of itself; I lean toward the latter given the magnitude.
+- **Risk 8/10**, unchanged. Bull $550 / Bear $220 unchanged.
+- Entry zone: $390-420 on further pullback. Stop-loss: below $360.
 
-### 6. Meta (META) — Rank 6, FLAGGING ENTRY-TIMING CAUTION
-- Real catalyst (Iris custom AI chip + new "Meta Compute" cloud unit), but the stock is **up 6-10% today alone and +15% on the week** — this is exactly the "already-extended, don't chase mid-spike" pattern the trader's own strategy log flagged on 7/10 re: NVDA. Flagging the same discipline here: strong business, bad entry today.
-- P/E ~27x vs ~24x mega-cap-internet peers — reasonable given the growth reframe. D/E low. Moat strong (ad platform + emerging AI infra).
-- Bull $820 / Bear $520 (12mo). **Risk 6/10**.
-- Entry zone: wait for consolidation back toward $600-630. Stop-loss: below $560.
+### 6. Meta (META) — Rank 6, entry-timing caution lifted, valuation caution stays
+- Stock fell today despite a report confirming its custom AI chip stays on track for September 2026 production — a signal this is sector-wide risk-off, not a Meta-specific problem, which actually makes today's weakness a *better* entry than the "already-extended, don't chase" setup I flagged on 7/10.
+- **Risk 6/10**, unchanged. Bull $820 / Bear $520 unchanged.
+- Entry zone: $600-630, now closer to spot. Stop-loss: below $560.
 
-### 7. Seagate (STX) — Rank 7, HIGH RISK FLAG
-- Momentum is real (+506% trailing 12mo) but P/E 79-87x and **D/E 3.16x (352%)** is a genuinely leveraged balance sheet in a historically brutal cyclical hardware business — this combination (high multiple + high leverage + cyclical end-market) is the textbook setup for a violent round-trip when storage demand normalizes.
-- Bull $1,050 / Bear $450 (12mo — wide range reflects leverage risk). **Risk 9/10 — highest risk rating in this screen.**
-- Not recommending a full position; if playing it, entry only on a confirmed pullback ($780-830) with a tight stop below $720.
+### 7. Intuitive Surgical (ISRG) — Rank 7, JPM disagreement flag (see below)
+- Fundamentals continue to strengthen: Q1'26 revenue +23%, procedures +17%, BMO initiated Outperform 7/8. Stock is up on pre-earnings positioning ahead of the 7/16 print.
+- **Disagreement with JPM**: JPM's 7/13 earnings analyzer explicitly says WAIT on ISRG given its history of moving up to 21% on earnings vs. a ~7% implied move, and the account has no cushion for a binary miss. I don't disagree with JPM's timing call for *this specific week* — earnings in 3 trading days is a real binary risk for a $45-account — but I want to flag that the setup (rising into earnings, fresh Outperform initiation, 24% YTD discount to 5yr average multiple) is constructive for anyone willing to hold through the print. For this account: **defer to JPM, do not enter before 7/16.**
+- **Risk 6/10** (up from 5, reflecting the imminent binary event). Entry zone: post-earnings reaction, not before.
 
-### 8. Omnicell (OMCL) — Rank 8, DIVERSIFIER
-- Healthcare-tech, uncorrelated to the AI-chip concentration in ranks 1-7. Just returned to profitability (Q1'26 net income $11.4M), EPS guide raised to $1.80-2.00, Strong Buy consensus (8.8/10), median PT $54-61 vs. current ~$46-54 — modest but real upside with far less volatility.
-- Moat moderate (pharmacy automation installed base + replacement cycle). D/E moderate. **Risk 5/10.**
-- Entry zone: $46-50. Stop-loss: below $42.
+### 8. Freshpet (FRPT) — Rank 8, downgraded on new competitive threat
+- BofA cut its price target from $75 to $70 on 7/x, citing softer dog-food sales, weaker small/mid-cap investor interest, and — the more structural concern — **Hill's Pet Food has launched a competing "fresh" dog food line**, directly contesting FRPT's core moat (fresh/refrigerated distribution build-out). This is the first real competitive challenge to that moat I've seen in this coverage.
+- **Risk 6/10** (up from 5) and moat downgraded from "moderate" to "moderate, newly contested" pending more data on Hill's rollout scale.
+- Entry zone: $60-65 on further weakness. Stop-loss: below $55 (tightened from prior $55 given the new competitive uncertainty — treat any break of that level as thesis-threatening, not just technical).
 
-### 9. Freshpet (FRPT) — Rank 9, DIVERSIFIER
-- Consumer staples/pet food — lowest correlation to tech/semis in this basket. Guided 8-11% revenue growth, expanding margins, 15.2M households penetrated of a revised 36M TAM. Wide analyst PT range ($62-158) reflects execution-risk debate, not balance-sheet risk.
-- Moat moderate (fresh/refrigerated distribution buildout is a real barrier to entry). **Risk 5/10.**
-- Entry zone: on weakness toward $60-65. Stop-loss: below $55.
+### 9. SK Hynix (SKHY) — Rank 9, sharply downgraded
+- Cratered a record -15% today, three trading days after a 13% debut-day pop — this is the single biggest swing of anything in this coverage list and a direct hit to my 7/10 thesis. Business fundamentals (58% HBM share, FY25 revenue +46.8%) haven't changed; what changed is that the market just demonstrated this is an extremely thin, extremely volatile new listing with real air-pocket risk, exactly as I flagged as the "highest novelty risk" pick three days ago — it just resolved to the downside faster and harder than my base case.
+- **Risk 9/10** (up sharply from 7). I'm not calling this "avoid" — a name that's -15% in a day on rotation/earnings jitters rather than a fundamental miss can be a legitimate dip-buy — but the data/liquidity picture is still too thin for me to underwrite an entry price with confidence this soon after listing.
+- Entry zone: no updated call this run: I want at least one more session of price stability before publishing a fresh entry zone. Prior $150-165 zone is stale — spot is already below it.
 
-### 10. Intuitive Surgical (ISRG) — Rank 10, VALUE-ON-A-DIP WATCH
-- Down 24% in 2026, now trading at ~40x forward vs. its 5yr average of 56.5x — cheapest relative valuation in years for the dominant player in robotic soft-tissue surgery (~80% share). Buy consensus (19 analysts). Quality compounder, not a momentum name — the fit here is "the dip may be overdone," not "chase the move."
-- **Risk 5/10** — lowest risk in the list, but also the slowest-moving; may not suit a days-to-weeks horizon as well as ranks 1-3.
-- Entry zone: $440-460. Stop-loss: below $410.
+### 10. Seagate (STX) — Rank 10, unchanged, still the risk-flag name
+- No new company-specific news this run; still the same story — real momentum, real leverage (D/E 3.16x), same brutal cyclical risk if storage demand normalizes.
+- **Risk 9/10**, unchanged — still tied with SKHY for highest risk in the book, for very different reasons (leverage/cyclicality here vs. new-listing volatility there).
+- Not recommending a full position. Entry only on confirmed pullback with a tight stop.
 
 ---
 
 ## Disagreement flags / cross-check with other analysts
-No other analyst reports exist yet in `analysts/` (all first-run pending) — nothing to reconcile against this cycle. Will actively cross-check DCF valuations (MS), earnings quality (JPM), risk sizing (BW), and portfolio construction (BR) against this screen starting next run.
+
+- **MS DCF vs. GS on SNX**: MS's independent DCF (base case +10% from spot) directly contradicts my 7/10 framing of SNX as a "screaming discount." I've folded this in above — downgraded SNX from rank 1 to rank 4. This is the kind of check the process is supposed to produce; I was too bullish on 7/10.
+- **BW Risk vs. GS on sector concentration**: BW's 7/10 risk report flagged that adding SNX/SKHY/ALAB/MU/AVGO on top of NVDA reduces single-name risk but not sector risk, and named OMCL/FRPT/ISRG as the names that actually diversify. I agree with BW's structural point. Given FRPT's new competitive flag and ISRG's imminent earnings, **OMCL is now the cleanest of BW's three suggested diversifiers** — this is reflected in OMCL's rank-3 promotion above.
+- **JPM vs. GS on ISRG timing**: see note #7 above — I defer to JPM's WAIT call given the account's lack of cushion for a binary earnings miss, even though I find the ISRG setup fundamentally attractive.
+- **BR Portfolio Builder**: no update since 7/10; nothing fresh to reconcile against this run. Will re-check once BR posts.
 
 ## Explicit read on trader's current position (NVDA)
-Not re-screening NVDA here since it's an existing hold, not a new idea — but note it sits in the same AI-compute complex as ranks 1-6 above. If the trader is looking to *add* AI exposure rather than diversify, TD SYNNEX and SK Hynix are less-crowded ways to do it than adding to NVDA directly.
+Not re-screening NVDA as a new idea (existing hold). MS's DCF continues to show it ~28% overvalued on a base case — no support for adding here, and today's chip-sector weakness is a headwind, not a reason to buy the dip on this specific name given the valuation gap already flagged. Hold, don't add.
 
 ## Caveats
-- Several exact current quotes (SNX, AVGO, OMCL, FRPT, ISRG) came back with conflicting figures across sources this run (stale caches vs. intraday) — treat the ranges above as directional; verify live price via Robinhood quote tool before any order.
-- Sector-average P/E figures are desk estimates for ranking purposes, not a precise index pull.
-- SK Hynix D/E and full balance-sheet detail not yet available from US-facing sources on IPO day — will fill in next run.
+- Multiple quotes in this report (SNX, ALAB, META, ISRG, MU, AVGO) are approximate/directional — sources disagreed by several percent intraday given today's volatility. **Verify live price via Robinhood quote tool before any order**, more so than usual given today's swings.
+- SKHY's entry zone is intentionally left blank this run — the post-crash price is moving too fast to publish a responsible level; will revisit next run once it shows a session or two of stability.
+- This report identifies *ideas*, not a today's-date buy signal — see the timing caveat at the top: an active geopolitical shock is in progress and the trader's own strategy log (state.md, 7/13) correctly says not to open new positions into it.

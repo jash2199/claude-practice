@@ -1,105 +1,104 @@
-# BW Risk Assessment — Latest Report
-**Date: 2026-07-13, ~10:41 ET (second BW run; first was 2026-07-10)**
+# BW Risk Assessment — Bridgewater-Style Risk Report
+**Date: 2026-07-13 (~15:xx ET update — third BW run today's cycle; supersedes the ~10:41 ET report)**
 
-*Persona: Bridgewater-trained risk analyst, radical transparency stance, applied to the "Claude Robinhood Trader" — account 424593861, $50 trading-capital base + profits inside a ~$100 cash account.*
-
----
-
-## Overall Portfolio Risk Grade: **C**
-## Single biggest risk right now: **The exact same critical concentration flagged three days ago is still fully live — 100% of deployed capital in one AI-compute name, zero hedge, zero diversification — and it is now compounding with a real, unresolved geopolitical shock (the Iran/Strait of Hormuz conflict) hitting the same sector from the macro side, while an already-identified, already-priced diversification trade (OMCL) has sat unexecuted for three straight sessions with no new obstacle other than inertia.**
-
-Grade holds at "C" for the same structural reason as 7/10: 94.8%+ of the account is cash, which mechanically caps dollar risk. That is still not risk management — it's under-deployment. What's changed since 7/10 is that the single risk this desk called out three days ago (single-name/sector concentration, no hedge) is now interacting with a live, escalating macro event in the same complex (semis/oil/rates), and the trader's own strategy log confirms the diversification idea (OMCL) has been correctly *deferred* on macro-timing grounds each of the last two check-ins — deferred is the right call given the active shock, but three sessions of "correctly not acting" is starting to look, in aggregate, like the same idle-capital problem this desk flagged before, just with a better excuse attached. Radical transparency: right now the account is being run tactically well on a day-to-day basis (the "don't open a new position into an active shock" rule is sound), but strategically it is still one geopolitical headline or one earnings surprise away from a disproportionate hit to the *entire* invested book, because there is still only one invested name.
+*Persona: Bridgewater risk desk, radical transparency. Ground truth pulled live via Robinhood (`get_portfolio`, `get_equity_positions`, account 424593861) this run.*
 
 ---
 
-## Ground truth (Robinhood, live pull, 2026-07-13 ~10:41 ET)
-- Total account value: **$100.15** (cash $95.00 + NVDA equity $5.15)
-- Position: **NVDA**, 0.024826 sh, avg cost $201.40, last trade **$207.76** (+3.2% unrealized), down from Friday's $210.96 close and essentially flat vs. this morning's $208.06/$207.76-ish reads
-- Deployed vs. base: $5.15 of the $50 trading-capital base is deployed (10.3%); ~$44.85 sits idle, deployable
-- As % of **total account**: NVDA = 5.1%, cash = 94.9%
-- As % of **deployed/invested capital**: NVDA = **100%**, unchanged from 7/10 — no new position has been opened in the three trading sessions since the last BW report
+## Overall Portfolio Risk Grade: **C-**
+
+## Biggest risk right now
+**100% of the invested sleeve is a single stock (NVDA) sitting directly inside the one sector complex (AI/semiconductors) currently absorbing a live, worsening geopolitical shock (Iran/Strait of Hormuz) plus an independent, sector-specific selloff (SK Hynix profit-miss fears dragging Micron/Seagate/Sandisk down, Philly Semi -3.6% today).** This is not a new risk — it's the same structural concentration this desk has flagged since 2026-07-10 — but today is the first day the abstract "geopolitical shock hits an unhedged, concentrated book" tail scenario this report has warned about is actually live and actively getting worse, not a hypothetical. The dollar amount at stake is small (~$5 of a $100 account), which is the only reason this isn't graded lower — but the *structure* of the book (zero diversification in the invested sleeve, zero hedge, zero stop-loss) is exactly what a risk desk exists to flag regardless of position size, because the structure is what the trader will scale up as the book grows.
 
 ---
 
-## Heat map summary
+## Heat Map Summary
 
-| Risk factor | Level | Notes |
+| Risk Category | Level | Notes |
 |---|---|---|
-| Single-stock concentration | 🔴 **Critical** | 100% of deployed capital in one name (NVDA), unchanged for 3+ sessions since last flagged. |
-| Sector concentration | 🔴 **Critical** | 100% of equity book in AI/semiconductor compute — now additionally exposed to an active oil-price shock and sector-wide semis selloff from the Iran/Hormuz conflict. |
-| Macro/geopolitical shock (live) | 🔴 **Critical** | Per teammates' fresher 7/13 research (GS, MS) and state.md's own run notes: Iran/US Strait of Hormuz conflict was still escalating, not stabilizing, as of the last check this morning. This is a real, unhedged tail event actively in progress, not a hypothetical. |
-| Idle-cash / inaction risk | 🟠 **High** | ~$44.85 (94.9% of account) uninvested for 4+ days. Currently *justified* by the active macro shock — but the justification itself is a risk if it becomes a permanent excuse rather than a temporary hold. |
-| Market/beta risk (NVDA) | 🔴 **Critical** | Beta ~2.2–2.4 (unverified via connector technicals this run — see caveats). NVDA down further from May highs; sector under renewed pressure from the Hormuz shock. |
-| Interest rate sensitivity | 🟠 **High** | Long-duration growth cash flows; unchanged headwind from 7/10 — no fresher rate data confirmed this run (see caveats on WebSearch outage). |
-| Recession/drawdown exposure | 🟡 **Moderate** | No fresher recession-probability read this run (search tool unavailable); treating 7/10's 15–25% range as still-reasonable absent new data, with upside risk given an active oil shock. |
-| Geographic/currency risk | 🟠 **High** | USD-denominated, but NVDA's TSMC/Taiwan fab concentration and China export-policy exposure are unchanged; the Hormuz conflict adds a second, independent geopolitical vector (oil/shipping) layered on top of the pre-existing Taiwan Strait tail risk. |
-| Liquidity risk | 🟢 **Low** | NVDA remains one of the most liquid names on the planet; cash is instantly liquid. |
-| Tail-risk exposure | 🔴 **Critical (upgraded from High)** | The tail scenario flagged abstractly on 7/10 (geopolitical shock hitting an unhedged, concentrated book) is no longer hypothetical — it is the live situation as of this run. |
-| Position sizing discipline | 🟡 **Moderate** | Dollar exposure trivial ($5.15), but the *process* gap (no second position after 3+ sessions of an identified diversifier sitting on the table) is the thing to fix. |
+| Single-stock concentration | 🔴 Critical | 100% of invested capital in NVDA; unaddressed for 4+ days despite repeated flags |
+| Sector concentration | 🔴 Critical | 100% of invested sleeve = AI-compute/semiconductors, the sector currently under the most acute stress in the market |
+| Geopolitical/macro tail risk | 🔴 Critical (newly live) | Iran-Israel-US conflict, Strait of Hormuz partially closed, Brent ~$79-81, first time this year's flagged tail scenario has actually triggered |
+| Correlation risk | 🟠 High | Only one holding, so "correlation" is really "the account's fate = one name's fate"; any future satellite adds (OMCL, AVGO, SNX) sit inside overlapping macro exposure (rates, risk sentiment) even where sector-uncorrelated |
+| Interest rate sensitivity | 🟠 High | NVDA is a long-duration, high-multiple growth name; 10Y at 4.60% and Fed on hold-to-hike footing is a structural headwind, not a one-day event |
+| Recession/drawdown risk | 🟠 High | Est. 35-50% drawdown on the invested sleeve in a hard risk-off scenario (see stress test) |
+| Liquidity risk | 🟢 Low | NVDA is one of the most liquid equities on earth; $5 position size has zero market-impact/execution risk |
+| Idle cash / opportunity risk | 🟡 Moderate | 90%+ of the trading book sitting in cash for 4+ days is defensible risk-avoidance this week specifically, but is starting to look structural rather than tactical |
+| Currency/FX risk | 🟢 Low (direct) / 🟡 Moderate (indirect) | Account and holding are USD-denominated; indirect exposure via NVDA's Taiwan (TSMC) manufacturing dependency and now-zeroed China revenue |
+| Position sizing discipline | 🟢 Low | Absolute dollar risk is trivial ($5.07 of $100.07); the risk here is structural, not size-driven |
 
 ---
 
-## 1. Correlation analysis between holdings
-Still exactly one equity holding (NVDA) and cash (correlation ≈ 0 by definition). Nothing has changed structurally since 7/10 — there is still no second position to dampen a bad NVDA day, and every dollar of market exposure in this account still moves in perfect lockstep with one company's idiosyncratic risk. The difference this run is that the *systemic* backdrop that idiosyncratic risk sits inside of has gotten more dangerous (an active regional conflict touching oil and shipping lanes), which raises the stakes of having no diversification, even though the diversification math itself hasn't changed.
+## 1. Ground-truth portfolio snapshot (live, this run)
 
-## 2. Sector concentration risk
-- **100% of invested equity capital** remains in semiconductors/AI-compute (NVDA).
-- GS's 7/13 refresh still ranks its top ideas (MU, AVGO) inside this same complex, while explicitly deferring on entry timing given the active shock — consistent with the caution this desk raised on 7/10 about compounding sector risk rather than resolving it if diversification dollars go to more AI-compute names.
-- GS's 7/13 report also promotes **OMCL to its #3 idea and "cleanest actionable pick"** — the same name this desk and BR both flagged as the genuine diversifier back on 7/12. That idea is now sitting priced, ranked, and cross-analyst-endorsed, three sessions old, and still unexecuted. This is a coordination/execution risk as much as a market risk: the analysis has converged, the trade hasn't happened.
+- **Total account value**: $100.07 (`get_portfolio`: cash $95.00 + NVDA equity $5.0682)
+- **Position** (`get_equity_positions`): NVDA, 0.024826 sh, avg cost $201.40, implied price ~$204.16 (consistent with state.md's ~14:36 ET read of $203.955)
+- **Trading-book accounting** (per ground rules: $50 base + profits, $50 reserve untouchable): deployed $5.07 (NVDA), deployable cash ~$44.93, reserve $50.00
+- **No trades today** — sixth consecutive no-trade check-in per state.md, all on the same macro-shock deferral rationale (OMCL diversification buy still pending)
 
-## 3. Geographic exposure and currency risk
-- Currency: still 100% USD-denominated, no direct FX risk.
-- Geographic/supply-chain: the pre-existing Taiwan/TSMC and China-policy exposure flagged 7/10 is unchanged and still live. **New this run:** the Iran/Strait of Hormuz conflict adds a second, independent geopolitical exposure — not to NVDA's revenue directly, but to the macro backdrop (oil price, risk appetite, broad tech/semis multiples) the position trades inside of. Two live geopolitical tail vectors (Taiwan Strait, Hormuz) sitting under one undiversified book is worse than one.
+## 2. Correlation analysis between holdings
+There is exactly **one** holding, so a traditional pairwise correlation matrix is degenerate — the account's return series *is* NVDA's return series, scaled by ~5%. The more useful correlation question is forward-looking: the analyst consensus's own candidate diversifiers (AVGO, SNX, MU, ALAB) are all still semiconductor/AI-compute names — adding any of them would reduce single-name risk but do almost nothing for sector-correlation risk. Only OMCL (healthcare tech, GS/BR's flagged diversifier) and, to a lesser extent, FRPT and ISRG, would meaningfully decorrelate the book from the chip complex. **Correlation risk will not improve until a genuinely non-semiconductor name is actually purchased — not just recommended.**
 
-## 4. Interest rate sensitivity
-Unchanged read from 7/10: NVDA is a long-duration growth asset, structurally sensitive to the discount rate. No fresher 10Y/Fed data was independently confirmed this run (WebSearch was unavailable — see caveats); absent evidence of a rate regime change, treating the prior "high sensitivity, hawkish-leaning backdrop" read as still current is the conservative assumption. An oil-price spike from the Hormuz conflict is itself a mild upside inflation risk, which would reinforce rather than ease this exposure if it persists.
+## 3. Sector concentration risk
+- **Invested sleeve**: 100% Technology / Semiconductors (AI-compute) — NVDA
+- **As % of total account**: ~5.1% (small in absolute terms, which is the only mitigant)
+- **As % of the $50 trading book**: ~10.1% deployed, ~89.9% cash
+- This is the third consecutive BW report cycle in which this desk has flagged 100% single-sector concentration in the invested sleeve as unresolved. BR's IPS caps satellite AI-infra exposure at 15% of book and targets 55%/35% core/satellite diversification; the live book has 0% of either core or non-AI satellite exposure.
 
-## 5. Recession stress test
-- No fresher recession-probability data confirmed independently this run (see caveats). Carrying forward 7/10's 15–25% 12-month range as the working assumption; an escalating regional oil-supply shock is a plausible upside risk to that range if it persists or worsens, though not yet enough evidence to move the number today.
-- **Estimated drawdown if a recession hits:** unchanged from 7/10 — a 35–50% peak-to-trough drawdown for NVDA specifically remains a reasonable stress estimate for a high-beta, capex-cyclical name, consistent with the 2022 semis-cycle precedent.
-- On the current $5.15 stake, a 40% drawdown = **-$2.06**, immaterial in dollars, same caveat as before: this is the volatility rate being signed up for per dollar, and it should scale with any future sizing decision, not be forgotten once the position grows.
+## 4. Geographic exposure and currency risk
+- **Direct FX**: none — account and holding are USD-denominated, no direct currency risk.
+- **Indirect / supply-chain geography**: NVDA's fabrication is concentrated at TSMC in Taiwan — a standing tail risk this desk has flagged before (Taiwan Strait scenario) that remains unpriced and unhedged.
+- **China revenue**: per MS's 7/13 DCF update, NVDA's China data-center revenue has gone from ~$4.6B/year run-rate to effectively $0 under current export restrictions — the "downside break" this desk implicitly warned about is now partially realized, not hypothetical.
+- **New this cycle — Middle East/Gulf exposure**: the active Iran-Strait of Hormuz conflict is a live demonstration of how a regional geopolitical shock 7,000 miles from Santa Clara can move the entire semiconductor complex in a single session (Philly Semi -3.6% today) purely on risk sentiment and oil-driven macro spillover, with zero NVDA-specific news required. The account currently has no exposure that would benefit from (rather than merely avoid) this kind of shock — e.g., no energy or defense names that would offset a Gulf-crisis drawdown in tech.
 
-## 6. Liquidity risk rating
-- **NVDA: Low risk.** Still one of the most liquid single names available; full exit possible in a fraction of a second at negligible slippage at this size.
-- **Cash: Low risk.**
-- No change from 7/10 — liquidity remains the one clean "green" on this book.
+## 5. Interest rate sensitivity
+NVDA is a long-duration growth asset — its DCF-implied value (per MS: ~$150.6 base case vs. ~$204 spot) is highly sensitive to the discount rate. Current environment: 10Y UST at 4.60% (up slightly this week), Fed funds held at 3.50-3.75% with PCE inflation projections raised to 3.6% (per BR's 7/10 IPS) — a hawkish-for-longer backdrop that is a structural headwind for high-multiple names, independent of today's geopolitical noise. A 100bps move in long-term rates would move MS's DCF fair value materially at the margins tested in their sensitivity grid (11%→12% WACC moves fair value from $150.6 to $133.4, a ~11.4% swing) — meaningful leverage for a name already trading ~28-35% above every DCF cell MS has published.
 
-## 7. Single stock risk and position sizing
-Unchanged core finding from 7/10, now three sessions stale: NVDA is 10.3% of the $50 trading-book base and **100% of everything actually invested**. That percentage is unchanged since the last report — no diversification has occurred despite this desk's, BR's, and now GS's own analysis converging on OMCL as the actionable next step. **Recommendation, reiterated and sharpened:** the macro-timing deferral of OMCL has been the right call given the active Hormuz shock — but the moment there is genuine evidence of de-escalation (not just "no worse news for an hour"), this should be the first trade executed, specifically to break the 100%-single-name concentration before any further capital goes anywhere near AI-compute names like MU. A repeated pattern of "correct deferral" that never converts into an actual trade once conditions clear is functionally the same outcome as no risk discipline at all.
+## 6. Recession stress test
+Applying BR's IPS-level stress assumption (35-45% peak-to-trough drawdown in a bad year for a tech/AI-tilted book) directly to the invested sleeve:
+- **Base recession scenario** (broad multiple compression, AI capex digestion pause — MS's flagged "downside break"): NVDA -35% to -45% from current ~$204 → **$112-133/share**, i.e. the $5.07 NVDA position would fall to roughly **$2.79-3.29**, a **$1.78-2.28 loss** on this position alone.
+- **Severe/tail scenario** (recession + a confirmed Taiwan/supply-chain disruption or a Gulf-conflict energy/inflation shock compounding a Fed that can't cut): a 50%+ drawdown is plausible given NVDA's beta and the DCF gap already identified — down to roughly **$100-140/share**.
+- **On the total account**: because 94.9% of the account is cash, a full NVDA wipeout to zero would only cost ~5% of total account value. **The account's overall recession resilience today comes entirely from the accident of being mostly in cash, not from any deliberate hedging or diversification decision.** That distinction matters — it will not protect the book once more capital is deployed under the current concentration pattern.
 
-## 8. Tail risk scenarios (with rough probability estimates over the next 1–3 months)
-| Scenario | Est. probability | Impact on NVDA position |
+## 7. Liquidity risk rating (per holding)
+| Holding | Liquidity rating | Notes |
 |---|---|---|
-| Iran/Strait of Hormuz conflict escalates further (already in progress per teammates' 7/13 reads — this is the dominant near-term tail risk, upgraded from a background item on 7/10) | Elevated / actively unfolding, not a discrete future event | Direct: oil spike + broad risk-off tape pressures semis multiples; NVDA itself has no direct revenue exposure but trades on the same tape |
-| AI-bubble unwind accelerates (BofA-style bubble indicators were already flagged elevated on 7/10; no fresher read confirmed this run) | ~20–25% (carried forward, unverified this cycle) | Severe — could extend NVDA's realized drawdown from May highs into a deeper move |
-| China export-policy reversal (H200-type access pulled back rather than expanded) | ~15% (carried forward) | Moderate-severe, single-day gap risk on the headline |
-| Broad recession (12mo) | ~15–25% (carried forward, unverified this cycle) | Severe on NVDA specifically; moderate-to-severe on the account only once capital is deployed at scale |
-| Taiwan Strait geopolitical shock (TSMC fab disruption) | Low-single-digit % (tail, unchanged) | Extreme if realized; now the *second* live geopolitical vector this book is exposed to, alongside Hormuz |
-| MU-style valuation trap (cross-analyst flag): MS's 7/13 DCF finds GS's #1 idea (MU) "sharply overvalued" (~71% downside to base case) despite a real momentum story — a reminder that a hot sector narrative and a sound entry price are not the same claim | N/A (not a holding) | Not a direct NVDA risk, but relevant to this account: if idle capital eventually chases sector momentum into a DCF-unsupported name instead of a genuine diversifier, it compounds rather than reduces this book's risk |
+| NVDA | 🟢 Very Low risk | One of the most liquid single-name equities globally; average daily volume in the hundreds of millions of shares; a $5 position has zero market-impact risk and can be exited instantly at any size relevant to this account |
+| Cash ($95.00) | 🟢 No risk | Fully liquid |
 
-## 9. Hedging strategies (equities-only toolbox — top 3 risks)
-No options available; hedges remain structural:
-1. **Against single-stock/sector concentration (still the #1 unaddressed risk):** execute the already-identified, already-researched OMCL diversification trade as soon as the Hormuz situation shows genuine de-escalation — this is the single highest-leverage action available and has been sitting ready for three sessions.
-2. **Against the live geopolitical/tail shock:** continue holding the outsized cash buffer as dry powder rather than treating the current situation as a reason to freeze indefinitely — cash is the hedge in a no-options book, but "hedge" implies eventual deployment once the acute risk passes, not permanent inaction.
-3. **Against rate/duration sensitivity:** when a second position is finally added, prefer a lower-multiple, cash-generative name over another high-multiple AI-compute name — OMCL fits this description better than MU or AVGO would.
+No liquidity concerns exist at this account size. This will remain true even after a disciplined OMCL-sized diversification buy — flagging only because liquidity risk becomes genuinely relevant if the account ever rotates into thinner names (FRPT's abnormally wide bid/ask spread, flagged by BR/GS on 7/12, is a preview of what illiquidity risk would look like here).
 
-## 10. Rebalancing suggestions (allocation %)
-Current: NVDA 5.1% / cash 94.9% (of total account); NVDA 100% / other 0% (of deployed book) — identical in structure to 7/10, just $0.08 lower in dollar terms.
+## 8. Single stock risk and position sizing recommendations
+- Current NVDA position ($5.07) is **~10.1% of the trading book** — inside BR's 20% soft cap, and inside GS/BR's suggested satellite range. Sizing discipline on the existing position is fine.
+- The risk is not sizing — it's **that there is nothing else in the book to size against**. A single 10% satellite position is appropriate *within* a diversified book; it is not appropriate as *the entire invested sleeve*.
+- **Recommendation, stated plainly, again**: the next dollar deployed should not go to NVDA, MU, AVGO, SNX, or ALAB — every one of those adds exposure to the same sector-correlation and same macro-shock risk already concentrated in the book. It should go to a genuinely uncorrelated name (OMCL remains the cleanest candidate per GS/BR, clean of earnings risk until 7/30) or, per BR's IPS, a broad-market core ETF (VTI/SCHG/QQQM) to establish an actual diversified base before adding more single-name satellite risk.
 
-Unchanged targets from 7/10 (still not implemented):
-- No single name > 30–35% of deployed capital
-- At least one position genuinely uncorrelated to AI-compute before any further AI-adjacent name is added
-- Keep a minimum ~20–30% of the trading-capital base in cash at all times as dry powder, even once more fully deployed — the current ~90%+ cash share is well past a prudent buffer and back into "under-deployed," once the acute shock passes
+## 9. Tail risk scenarios with probability estimates
+| Scenario | Rough probability (next 30 days) | Estimated impact on invested sleeve |
+|---|---|---|
+| Hormuz conflict escalates further (sustained closure, oil >$100, broad equity risk-off) | ~15-20% | -30% to -50% on NVDA via multiple compression; broader account impact limited by cash weighting |
+| Hormuz conflict de-escalates within 1-2 weeks (a plausible base case given historical precedent for these flare-ups) | ~50-55% | Modest relief rally in semis; NVDA likely recovers toward pre-shock levels |
+| AI-capex digestion / hyperscaler spending pause (MS's flagged "downside break," independent of geopolitics) | ~10-15% over 3-6 months | -30%+ on NVDA, potentially larger and more durable than a geopolitical shock since it would hit the demand thesis directly |
+| Taiwan Strait incident (fab disruption) | <5% (low-probability, high-severity) | Potentially -50%+ and durable, given NVDA's TSMC fabrication dependency — genuinely uninsurable with the current equities-only toolbox |
+| China export policy further tightens (already effectively $0 China DC revenue per MS) | Ongoing/already partially realized | Incremental, not a fresh shock — already in the base case |
+| Status quo grind (no clean resolution, no fresh escalation) | ~25-30% | Continued sideways-to-down drift, consistent with the last 6 intraday checks today |
+
+## 10. Hedging strategies (equities-only toolbox — top 3 risks)
+No options are available, which meaningfully constrains this section — flagging that constraint honestly rather than pretending equities alone can fully hedge tail risk.
+
+1. **Single-stock concentration** → the only real equities-only hedge is diversification itself: deploy a portion of the $44.93 deployable cash into a genuinely uncorrelated name (OMCL) and/or a broad index ETF (VTI/QQQM per BR's IPS). This is not a perfect hedge (still long-only, still equity-beta), but it is the only lever available and it has been sitting unused for 4+ days.
+2. **Sector/geopolitical shock risk** → if inverse or defensive-sector ETFs are tradable in this account (e.g., broad market inverse funds, or long energy/defense names that benefit from the same Gulf-crisis conditions hurting tech), a small tactical allocation would let the book benefit from, rather than merely avoid, a continued Hormuz escalation. Untested this cycle — worth confirming tradability next run rather than assuming it's off the table just because options are.
+3. **Rate sensitivity** → equities-only rate hedges are limited, but tilting any new core allocation toward lower-duration, higher-quality-cash-flow names (or simply holding more cash, which the book already does heavily) reduces rate sensitivity by construction. The existing 94.9% cash weighting is, whether intentional or not, already functioning as the account's de facto rate/recession hedge.
+
+## 11. Rebalancing suggestions with allocation percentages
+Endorsing BR's 2026-07-10 IPS target as the correct compass (55% core / 35% satellite / 10% cash on the $50 trading book), with an explicit acknowledgment that **the macro-timing discipline keeping this book 90% cash this week is correct, not a risk failure** — buying into a live, worsening war is not good risk management regardless of how attractive any single name's fundamentals look. But BR's own Trigger 3 (cash >25% of book for 2+ consecutive weekly cycles with no fresh catalyst deployed) is close to firing, and this desk's standing critique stands: **correct deferral, repeated indefinitely with no falsifiable resolution, is functionally the same as no risk discipline.** State.md's 7/13 update already converted the open-ended OMCL wait into three falsifiable triggers (ceasefire holding a full session, Brent back under ~$75, or a hard Friday 7/17 time-box) — that is the right fix, and this desk will hold the trader to that time-box rather than repeating the same concentration warning a fourth time with no mechanism forcing resolution.
+
+**Suggested near-term allocation once any one trigger fires**: deploy $8-10 into OMCL (per GS/BR), leaving ~$35-37 deployable cash — this alone would take the invested sleeve from 100% single-name to a still-concentrated-but-meaningfully-better 2-name book (~50/50 NVDA/OMCL), a first real step toward BR's target structure rather than a full jump to it.
 
 ---
 
-## Disagreement flags / cross-check with other analysts
-- **GS (7/13 refresh):** independently arrived at the same macro-timing caution this desk and state.md applied to OMCL — "not calling today the entry day" given the active geopolitical shock. Alignment, not disagreement, and worth noting as a rare instance of every input converging on the same read.
-- **MS (7/13 DCF):** flags a real data-quality gap on GS's #1 idea (MU) — GS's screener price ($730) doesn't reconcile with MS's/Robinhood's live quote (~$935–979) — and separately finds MU "sharply overvalued" on DCF despite the sector momentum story. This desk flags MU as a name that would *increase*, not reduce, this book's concentration and tail-risk profile if bought, on top of MS's independent valuation objection.
-- **JPM (earnings analyzer):** reaffirms WAIT on STX and ISRG (both report 7/16) — consistent with this desk's general view that a $45-deployable, no-cushion account shouldn't take binary earnings risk. No conflict.
-- **BR (portfolio builder):** no report fresher than 7/10 exists yet — this desk's diversification math still leans on BR's original OMCL/FRPT/ISRG framing, now narrowed further by GS's and MS's fresher work to OMCL as the clear consensus pick. Will re-check once BR posts again.
-
-## Caveats
-- **WebSearch was unavailable this run (persistent 529/overload errors across ~5 attempts).** All macro/geopolitical claims above (Iran/Hormuz status, rate backdrop, recession odds, AI-bubble indicators) are carried forward from the 7/10 report and from teammates' fresher 7/13 reports (GS, MS, JPM) and state.md's own run notes, **not independently re-verified via a fresh search this cycle.** This is a genuine data-quality gap for this specific report — flagging it plainly rather than presenting carried-forward figures as freshly confirmed.
-- NVDA beta (2.2–2.4) remains sourced from the 7/10 web search, still not connector-verified against `get_equity_technical_indicators` — carried forward a second cycle now; should actually be done next run rather than deferred again.
-- Portfolio and quote figures (total value, NVDA price/position) ARE live, connector-verified this run (Robinhood get_portfolio / get_equity_positions / get_equity_quotes) — only the macro/news layer is stale this cycle.
+## Cross-analyst notes
+- **GS (7/13 afternoon)** and this desk are now fully aligned on entry timing — GS explicitly states it is "not calling today the entry day." No disagreement to flag.
+- **MS's DCF** materially reinforces this report's rate-sensitivity and valuation-risk sections — NVDA's ~28% DCF overvaluation is a standing, unaddressed risk factor independent of today's macro noise, and MS's MU call (~71% downside) is a useful cautionary data point against ever treating "cheaper than the analyst screener's stale price" as a green light without an independent valuation check.
+- **JPM** confirms NVDA carries no near-term binary earnings risk (next print 8/26) — the risk profile here is macro/valuation/concentration-driven, not earnings-event-driven, for now.
+- **BR's IPS** remains the most-cited unimplemented recommendation in this book's history — three cycles running now (7/10, 7/12, and this report) have pointed at the same target allocation with zero execution. This desk is not second-guessing the *reason* (a live war is a bad week to force a trade) — it's flagging that the *mechanism* to eventually act needs to actually fire, which is why the 7/17 time-box in state.md is the single most important piece of process discipline in this entire book right now.

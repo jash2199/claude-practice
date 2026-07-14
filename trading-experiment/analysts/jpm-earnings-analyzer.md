@@ -1,5 +1,5 @@
 # JPM Earnings Analyzer — Latest Report
-**Date: 2026-07-13 (Sunday, market closed)**
+**Date: 2026-07-14 (Tuesday)**
 
 *Persona: JPMorgan equity research analyst, pre-earnings catalyst calendar for the "Claude Robinhood Trader." Coverage = trader's current holdings (state.md) + GS screener's top-10 (analysts/gs-stock-screener.md). Full brief for each covered name reporting within ~2 weeks, nearest date first, max 3/run.*
 
@@ -7,126 +7,86 @@
 
 ## Decision summary (top-line)
 
-Same two names as the 2026-07-10 report are now **3 trading days from reporting**: **Seagate (STX)** and **Intuitive Surgical (ISRG)**, both due **July 16, 2026** — neither is a current trader holding. **Recommended play for both, unchanged: WAIT.** Do not open a fresh pre-earnings position in either name. The account's ~$45 deployable base (per state.md) has no cushion for a binary miss on names that have each demonstrated double-digit-percent single-session moves (STX +11.1% on its last print; ISRG +21.0% on its Oct 2025 print vs. a 6.6% implied move). Reassess both **post-print**, on the reaction, not before it.
+**Only one name in coverage reports within the next ~2 weeks: Intuitive Surgical (ISRG), due Thursday July 16, 2026 (after close) — 2 trading days out.** ISRG is not a current trader holding (it's GS's #9 screener idea). **Recommended play, unchanged from the 7/10 and 7/13 reports: WAIT.** Do not open a fresh pre-earnings position. The account's thin capital base (~$45 deployable per state.md) cannot absorb a binary miss on a name whose own history includes a 17-21% single-session move against a ~7% implied move. Reassess **post-print**, on the reaction, not before it.
 
-The trader's only existing position, **NVDA**, has no earnings catalyst before **Aug 26, 2026** — it is not at binary earnings risk right now. No newly-recommended-but-unexecuted name (OMCL) has been added to the book yet per state.md, so it does not enter coverage as a "holding" this run; it remains tracked below under "on deck" (reports July 30).
+**Coverage-universe change since the last report: Seagate (STX) has dropped off this brief.** GS's screener removed STX from its top-10 as of the 7/13 evening update (making room for two new ideas, OXY and AVAV — neither reports within 2 weeks; see below), and STX is not a trader holding. Per the persona's coverage rule (holdings + screener's *current* top-10 only), STX no longer qualifies for a full brief this run. It last reported April 28, 2026, and its next print is not imminent regardless.
 
-What changed since 7/10: STX's share-price discrepancy is resolved ($910.34 as of 7/10 close — the $968.53 figure was stale/wrong); ISRG has kept sliding (now ~$406.78, down from ~$426 a week ago) even as two more sell-side notes came out (BMO initiated Outperform/$518 on 7/9; Evercore cut to $430 from $480 on 7/6) — a split read on the setup heading into Thursday. STX's options-implied move for this specific print and its exact FQ1/FQ2 FY26 day-after reactions remain unresolved data gaps (see below) despite another search pass.
+**The trader's only existing position, NVDA, has no earnings catalyst before August 26, 2026** — not at binary earnings risk right now.
+
+**Everything else in the current GS top-10 reports well outside the 2-week window** (confirmed via fresh search this run, next-report dates):
+- OMCL — July 30 (16 days out; just past the ~2-week cutoff, watch next run)
+- META — July 29
+- FRPT — August 3
+- OXY — August 5
+- ALAB — ~August 11 (call scheduled Aug 4, report expected ~Aug 11)
+- AVAV — September 9
+- MU — September 29
+- AVGO — September 3
+- SNX — exact fiscal Q3 date not yet confirmed by the company, but its Q2 print already happened this cycle per its own IR materials, so a Q3 report inside the next 2 weeks is very unlikely (typically reports ~10-13 weeks apart)
+
+None of these enter a full brief this run; nothing to pad with.
 
 ---
 
-## 1. Seagate Technology (STX) — reports **July 16, 2026, before open** (fiscal Q4 2026)
+## 1. Intuitive Surgical (ISRG) — reports **July 16, 2026, after close** (Q2 2026)
 
 ### Last 4 quarters vs. estimates
-| Fiscal Q | Non-GAAP EPS actual vs. est. | Revenue actual vs. est. | YoY revenue growth | Day-after stock move |
+| Quarter | Non-GAAP EPS actual vs. est. | Revenue actual vs. est. | YoY revenue growth | Day-of/day-after stock move |
 |---|---|---|---|---|
-| FQ1'26 | $2.61 vs. $2.40 est. (beat +8.75%) | $2.63B vs. $2.55B est. (beat +3.06%) | +21.3% | Not confirmed this run (data gap) |
-| FQ2'26 | $3.11 vs. $2.78 est. (beat) | $2.83B, +22% YoY | +22% YoY | Not confirmed this run (data gap) |
-| FQ3'26 (reported Apr 28, 2026) | $4.10 vs. $3.48 est. (beat +16.56%) | $3.1B vs. est. (beat +5.02%) | +44% YoY | **+11.10%** (confirmed) |
-| FQ4'25 (year-ago comp) | Not independently re-verified | — | — | — |
+| Q2 2025 (Jul 22, 2025) | +17.92% EPS surprise, +5.73% revenue surprise | $2.44B, +21% YoY | +21% | **+3.87%** |
+| Q3 2025 (Oct 21, 2025) | $2.40 vs. ~$1.99 est. (beat ~+20.6%) | $2.51B, +23% YoY | +23% | **+17% to +21%** (sources disagree on measurement window — Bloomberg's options-tracking data says +21.0%, other outlets report +17% in extended trading; either way, the largest reaction in this set) |
+| Q4 2025 (Jan 22, 2026) | $2.53 vs. $2.25 est. (beat +12.4%) | $2.87B vs. est. (beat +4.7%) | +19.1% | **-4.2%** (fell despite the beat — a genuine "sell the news" print, implied move had been ~6.1%) |
+| Q1 2026 (Apr 21, 2026) | $2.50 vs. $1.92-2.14 est. depending on source (beat +17-30%) | $2.77B vs. $2.61B est. (beat +6%) | +23% | **+5.4% to +7.2%** (again, source-dependent measurement window) |
 
-Four straight beats, widening not narrowing — the setup coming into this print is the same accelerating-momentum story flagged last run.
-
-### Q4 FY26 consensus / guidance for the upcoming print
-- **Company guidance** (given Apr 28): revenue $3.45B ± $100M (+41% YoY at midpoint); non-GAAP EPS $5.00 ± $0.20; non-GAAP operating margin low-40s%.
-- **Current EPS estimate**: ~$5.08 (per latest tracker pull) — consensus has now converged to, and slightly above, the top of the company's own guided range. **The bar is genuinely high**: the "beat" already assumes a blowout quarter, so even an in-line-with-guidance print could disappoint relative to expectations.
-
-### Key metrics to watch
-- Nearline HDD exabyte shipments (199 EB in FQ3) and ASP/pricing trend
-- Gross margin trajectory (47.0% non-GAAP in FQ3, up from 36.2% YoY)
-- Commentary on FY2027 contract visibility / capacity allocation tightness
-- Data center vs. Edge IoT mix shift
-
-### Segment breakdown (FQ3'26, latest available)
-- **Data center (mass capacity/nearline)**: ~80% of revenue, $2.5B, +55% YoY, +12% QoQ — the whole story
-- **Edge IoT**: ~20% of revenue, $612M, +12% YoY, +2% QoQ — steady, not the driver
-- Nearline products = ~90% of total exabyte shipments; capacity "almost fully allocated through calendar 2027" per management
-
-### Management guidance from last call (Apr 28, 2026)
-CEO Dave Mosley: FQ3 exceeded the high end of both revenue and EPS guidance with record margins and ~$1B free cash flow; raised the **annual revenue growth target to at least 20%**, citing accelerating AI-driven demand and finalized build-to-order nearline contracts through fiscal 2027.
-
-### Options market implied move
-**Still not independently confirmed this run** — a second search pass could not resolve a live implied-move percentage specific to the July 16 print (Barchart/MarketChameleon pages are blocked to fetch from this environment). **Persistent data gap, carried over from 7/10 — flag again for next run.** Qualitatively: the stock has logged 49 moves >5% in the trailing year and jumped +11.1% on its last print, so realized volatility around this name's catalysts has consistently run high regardless of what options imply.
-
-### Historical stock reaction after last 5 reports
-- FQ3'26 (Apr 28, 2026): **+11.10%**
-- FQ1'26, FQ2'26, and the two quarters before that: **exact percentages not independently confirmed this run** (data gap, unresolved from last report too). Qualitatively, the stock's ~500%+ trailing-12-month run has been built substantially on beat-and-raise earnings reactions.
-
-### Bull case
-Current price **$910.34** (resolves the 7/10 discrepancy — the $968.53 figure was stale). 12-month bull targets range as high as $1,150-$1,600 (BofA/Melius). A clean fifth-straight beat-and-raise, especially any extension of FY2027 nearline contract visibility, could push shares toward fresh highs.
-
-### Bear case
-Stock up ~500%+ trailing 12 months, D/E still **3.16x (352%)** — real balance-sheet leverage in a historically cyclical hardware business. Fox Advisors already cut to Equal Weight arguing HDD pricing expectations are "getting ahead of what's likely." With guidance this aggressive already priced in ($5.08 est. vs. $5.00±0.20 guide), even an in-line quarter could read as a disappointment and trigger a sharp reversal — UBS's bear case implies -34.7% downside.
-
-### Recommended play: **WAIT — do not initiate a pre-earnings position**
-Unchanged from 7/10. Not a current holding; the combination of an already-priced-for-perfection guide, real leverage, and unresolved implied-move/historical-reaction data gaps makes this a poor binary bet to open blind with a $45 account. Reassess only on a clean post-earnings pullback that doesn't chase strength.
-
----
-
-## 2. Intuitive Surgical (ISRG) — reports **July 16, 2026, after close** (Q2 2026)
-
-### Last 4 quarters vs. estimates
-| Quarter | EPS actual vs. est. | Revenue actual vs. est. | YoY revenue growth |
-|---|---|---|---|
-| Q2 2025 | Not independently re-verified | $2.44B | +21% |
-| Q3 2025 (Oct 21, 2025) | Not independently re-verified | ~20% procedure growth | — |
-| Q4 2025 | $2.53 vs. $2.25 est. (beat +12.4%) | $2.87B vs. est. (beat +4.7%) | +19.1% |
-| Q1 2026 (Apr 21, 2026) | $2.50 vs. $1.92 est. (beat +30.2%) | $2.77B vs. $2.61B est. (beat +6%) | +23% |
-
-8-consecutive-quarter EPS beat streak intact heading into Thursday.
+Beat streak on EPS intact across all 4 of the last quarters. Note the Q4'25 print is the outlier in this set: a clean beat that still sold off — a reminder that a beat alone hasn't guaranteed a positive reaction even recently.
 
 ### Q2 2026 consensus for the upcoming print
-- Revenue: **~$2.82B consensus** (+15% YoY)
-- EPS: **Most Accurate Estimate $2.55** vs. **Zacks Consensus $2.48**, Zacks consensus figure elsewhere cited at $2.50 — **Earnings ESP +2.78%**, i.e. recent estimate revisions skew bullish into the print
+- **Revenue: ~$2.82B consensus** (+15% YoY, vs. $2.44B in Q2 2025)
+- **EPS: dispersed across sources** — Zacks Consensus ~$2.48, "Most Accurate Estimate" $2.55, one tracker at $2.41, another headline figure of $2.50 (vs. $2.19 a year ago). Treat the consensus as **roughly $2.41-2.55**, not a single clean number — the dispersion itself is a data point: the Street isn't fully aligned on how big this beat "should" be.
 
 ### Key metrics to watch
-- da Vinci procedure growth (FY26 guidance raised to 13.5%–15.5% as of Q1)
-- da Vinci 5 placements/utilization vs. the older Xi platform
-- Ion (lung biopsy platform) procedure growth (+39% YoY in Q1)
-- Gross margin trajectory (raised to 67.5%–68.5% guide)
-- China/Japan softness — flagged by management as an ongoing offset
+- da Vinci procedure growth (FY26 guide raised to 13.5%-15.5% as of Q1)
+- da Vinci 5 system placements/mix vs. legacy Xi (232 of 431 Q1 placements were da Vinci 5)
+- Ion (lung biopsy) procedure growth (+39% YoY in Q1) — the second growth engine
+- Gross margin trajectory (67.5%-68.5% guide)
+- Single-port system utilization — bear-case commentary flags this and Ion utilization as laggards versus the core multi-port fleet
+- Any commentary on trade-in cycle pacing (a slowing trade-in cycle is a named bear-case risk to new system sales)
+- China/Japan commentary (a persistent named offset in prior calls, though this run's search didn't surface fresh country-level detail — flag as a data gap, listen for it live)
 
-### Segment/revenue breakdown
-- Recurring revenue (Instruments & Accessories) = **86% of total revenue**, +23% YoY in Q1
-- da Vinci procedures: 847K in Q1, +16% YoY
-- Ion procedures: 43K in Q1, +39% YoY
+### Segment-by-segment revenue breakdown and trends (Q1 2026, latest available; Q2 print will refresh this)
+- **Recurring revenue (Instruments & Accessories, service)**: **86% of total revenue**, +23% YoY — the dominant, highest-visibility line
+- **da Vinci procedures**: 847K in Q1, +16% YoY (guided 13.5-15.5% for FY26)
+- **Ion procedures**: 43K in Q1, +39% YoY — smaller base, higher growth
+- **System placements**: 431 da Vinci systems in Q1 (232 were da Vinci 5); installed base now 11,395 da Vinci + 1,041 Ion systems
 
-### Management guidance from last call (Q1 2026, Apr 21, 2026)
-Raised FY26 da Vinci procedure growth guidance to 13.5%–15.5% and gross margin guidance to 67.5%–68.5%, despite continued China/Japan weakness.
+### Management guidance from last call (Q1 2026, April 21, 2026)
+Raised FY26 da Vinci procedure growth guidance to 13.5%-15.5% and gross margin guidance to 67.5%-68.5%, on the back of a reported ~40% EBIT jump for the quarter. No fresh Q2-specific guidance update found since — the July 16 call will be the next formal checkpoint.
 
 ### Options market implied move
-**~7%** for the July 16 print, per Bloomberg-sourced options data (confirmed again this run, consistent with the 7/10 read).
+**~7%**, per Bloomberg-sourced options data — consistent with the 7/10 and 7/13 reports' reads, no change. Directionally symmetric (no skew flagged in sourced coverage).
 
-### Historical stock reaction after last 5 reports
-- **Oct 21, 2025**: stock moved **+21.0%** vs. a 6.6% implied move
-- **Oct 17, 2024**: stock moved **+6.3%** vs. a 5.5% implied move (newly confirmed this run)
-- **Apr 21, 2026 (Q1'26)**: stock moved **+5.4%** vs. a 5.8% implied move — in line
-- Other 2 of the last 5 still not independently confirmed this run (persistent data gap)
-- Context: ISRG has exceeded its options-implied move in only 2 of its last 8 prints — usually priced reasonably well, but the Oct 2025 tail case was violent
+### Historical stock price reaction after last 5 reports
+Using the 4 quarters above plus one further back for a 5th data point:
+- Q1 2026: +5.4% to +7.2% (source-dependent)
+- Q4 2025: **-4.2%** (beat, but sold off)
+- Q3 2025: +17% to +21% (largest move in the set, well beyond the implied move that day)
+- Q2 2025: +3.87%
+- Q3 2024 (Oct 17, 2024, 5th data point, per Bloomberg's options-tracking series): +6.3% vs. a 5.5% implied move
+
+**Track record vs. implied move**: ISRG has exceeded its options-implied move in at least 2 of its last 8 reports (including the +21.0% vs. 6.6%-implied Oct 2025 print) — this is a name that can gap well beyond what the options market is pricing, in either direction (see the Q4'25 miss-the-vibe sell-off despite a beat).
 
 ### Bull case
-Price has fallen further to **~$406.78** (from ~$426 a week ago) — even more technically oversold heading into the print than at the last report. BMO initiated Outperform/$518 PT on 7/9 (fresh, bullish). Consensus 12-month target still well above spot; an 8-quarter beat streak plus accelerating da Vinci 5/Ion adoption sets up for a real oversold-bounce on a clean beat-and-raise.
+Current price **~$407** (7/14, intraday range $406.50-$414.58). Consensus PT ~$573-585 (28-33 analysts), high $750 (Bernstein, Jan 2026), 22 Buy/9 Hold/2 Sell. A 24/7 Wall St piece this week frames +35% upside into the print. Bull thesis: durable ~15%+ procedure growth compounding on an 86%-recurring-revenue base, Ion as a genuine second growth leg (+39% YoY), da Vinci 5 mix shift supporting margin, FY26 guidance already raised twice this year. A clean beat-and-raise, especially on Ion/international procedure growth, could extend the stock toward the $450-480 area near-term (in line with the smaller historical up-moves) or meaningfully further if it's a Q3'25-style blowout.
 
 ### Bear case
-Evercore cut its target to $430 from $480 on 7/6 — a bearish revision in the same week BMO turned bullish, underlining genuine sell-side disagreement into the print. The stock's continued slide even after a 30%+ EPS beat last quarter (Q1'26) reinforces the 7/10 read: the market is pricing a multi-year growth-deceleration/valuation reset, not just quarter-to-quarter execution risk. Oct 2025 proves this name can move far beyond its implied range in either direction.
+Named risks: increasing competition in surgical robotics, a "tougher procedural environment," and a **slowing trade-in cycle** that could crimp new system sales even if procedure volume holds up. Single-port and Ion utilization (despite Ion's headline procedure growth) reportedly lag the core multi-port fleet. Valuation is rich (~49x trailing P/E) — priced for continued beat-and-raise, which raises the bar for what counts as "good enough." The Q4'25 precedent (beat, EPS +12.4%, still -4.2%) is the clearest evidence that a clean beat is not sufficient on its own; the stock needs the *composition* of the beat (procedure growth quality, margin trajectory, forward guide) to satisfy an already-bullish setup. Downside on a disappointing print, using the -4.2% print and this name's fat-tail history as a guide, could plausibly run 8-15%.
 
 ### Recommended play: **WAIT — do not initiate a pre-earnings position**
-Unchanged from 7/10, reinforced by the further price decline and split analyst action (BMO up, Evercore down) this week. Not a current holding; a demonstrated history of moving violently beyond implied range plus a $45 account with zero cushion for an adverse tail outcome argues against a blind pre-earnings entry. Reassess post-print: a disciplined dip-buy if "beat but sell the news" plays out again, or accept a modestly higher entry on confirmation of a clean beat-and-hold reaction.
+Unchanged for the third consecutive report (7/10, 7/13, now 7/14). Not a current holding; a name with a documented history of moving 2-3x its options-implied move (both up and down, including a beat that still sold off) is a poor binary bet to open blind two days out with a ~$45 account that has no cushion for an adverse surprise. If the trader wants exposure to this name, the disciplined entry is **after** the print, on a reaction that's digestible — either a controlled pullback from a good beat, or a post-selloff level that re-establishes an attractive risk/reward — not a same-day pre-earnings gamble on which way a coin flip with historically fat tails lands.
 
 ---
 
-## On deck (reports just outside the 2-week window, future coverage)
-- **Omnicell (OMCL)** — July 30, 2026, after close (note: recommended by this desk on 7/12 as a diversification BUY at Monday's open per state.md, but not yet executed — if it becomes a live holding before 7/30, it will move into the binary-risk WAIT framework same as STX/ISRG above once within 2 weeks)
-- **SK Hynix (SKHY)** — July 29, 2026, after close
-- **Meta (META)** — July 29, 2026, after close
-- **Freshpet (FRPT)** — Aug 3, 2026
-- **Astera Labs (ALAB)** — ~Aug 4–11, 2026
-- **NVDA (current holding)** — Aug 26, 2026 (Q2 FY27) — no near-term earnings risk on the existing position
-- **Micron (MU)** — Sep 29, 2026 · **Broadcom (AVGO)** — Sep 3, 2026
-- **TD SYNNEX (SNX)** — reported Q2 FY26 on June 25, 2026 (already occurred, resolves last run's open data gap); next print (Q3 FY26) expected ~late Sept 2026, exact date not yet announced
-
-## Data gaps flagged for next run (carried forward, unresolved after a second search pass)
-- STX options-implied move specific to the July 16, 2026 print
-- STX exact day-after % reaction for FQ1'26 and FQ2'26 (FQ3'26 now confirmed at +11.10%)
-- ISRG exact EPS actual-vs-estimate for Q2/Q3 2025; 2 of last 5 day-after reactions still unconfirmed
-- SNX next confirmed earnings date (Q3 FY26, expected ~late September, no firm date yet)
+## Coverage housekeeping / data gaps
+- China/Japan-specific Q1 2026 procedure commentary was not resurfaced by this run's search (prior reports flagged China/Japan softness as a standing offset factor) — worth confirming directly from the Q2 call rather than treating as stale.
+- The EPS-move-percentage discrepancies across sources (Q1'26: 5.4% vs 7.2%; Q3'25: 17% vs 21%) most likely reflect after-hours/extended-trading vs. next-day-close measurement windows rather than genuine data conflicts — flagging so it isn't mistaken for a MU-style stale-price error, but not fully reconciled this run.
+- Watch OMCL next run: its July 30 report is currently just outside the ~2-week window but will fall inside it within the next couple of runs, and OMCL is also the trader's actively-tracked (not-yet-executed) diversification candidate per state.md — once it enters the window it should get a full brief given its direct relevance to a live pending decision.

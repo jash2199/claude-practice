@@ -1,5 +1,5 @@
 # BR Portfolio Builder — Investment Policy Report
-**Date: 2026-07-13 (evening, post-close)**
+**Date: 2026-07-14 (evening, post-close, ~21:00 ET)**
 
 *Persona: BlackRock portfolio strategist for the "Claude Robinhood Trader" — $50 base + accumulated profits, aggressive risk tolerance, equities/ETFs only, fractional shares. This report is the long-view discipline: judge the book against policy, not the news cycle.*
 
@@ -7,21 +7,19 @@
 
 ## Biggest gap, up front
 
-**The core sleeve is 0% of the book. It has been 0% every single day since inception.** The much-discussed OMCL diversification trade (now an 8-run-old, unexecuted recommendation per state.md) is a satellite-sleeve question. It is not the largest gap in this book — it's the second-largest. The IPS target is **55% core / 35% satellite / 10% cash**. The live book today is **~10% satellite (NVDA) / ~90% cash / 0% core**. On a ~$50.06 trading book, that's roughly **$27.50 that should be sitting in a diversified core ETF sleeve and currently isn't sitting anywhere except idle cash.**
-
-This matters because the core sleeve and the satellite sleeve carry genuinely different risk profiles, and the trader's macro-shock entry-discipline rule (correctly applied to single names like OMCL, MU, AVGO, SNX all week) does not obviously apply with the same force to a broad-market core ETF. A single name can gap on an idiosyncratic headline; VTI cannot be meaningfully moved by an OMCL 8-K or an AVGO customer announcement. The geopolitical shock that has correctly kept the trader out of single-name adds all week *is already reflected in VTI/SCHG/QQQM's price* — buying the diversified core today is buying exposure to the market's current, already-discounted view of the crisis, not making a fresh idiosyncratic bet during an unfolding one. **Recommendation: treat the core-sleeve buildout as a separate decision track from the satellite/OMCL entry-timing debate, and don't let the same macro-shock veto block both indefinitely.** A small starter core position ($10-15 into VTI, split or single) is consistent with the IPS regardless of how the OMCL triggers resolve.
+**Same structural gap as every prior report — core sleeve is 0% of the book, unchanged since inception — but today added a second, distinct kind of gap on top of it: the book went an entire live trading session (seven attempts, 09:37–15:37 ET) unable to execute a single order, at the exact moment the analyst set produced its strongest-ever diversification consensus (GS's #1 OMCL + MS's first-ever agreeing DCF + JPM's clean earnings read).** That second gap is not a discipline failure — it's a broker-side compliance gate (the Robinhood investor-profile questionnaire) outside the trading routine's control — and this desk is explicit about not letting BW's justified D+/F grading pressure bleed into treating a plumbing failure as a strategy failure. But the two gaps compound: on a ~$50.25 trading book, target core allocation is ~$27.6 and actual is $0; that gap has now sat unaddressed through 6+ days *and* through a full session where even the fallback satellite trade (OMCL) also could not fire. **Policy answer, unchanged from 7/13: the moment the blocker clears, the VTI starter buy and the OMCL entry (once a trigger fires, see below) are both queued and correctly reasoned — this is an execution-capacity problem, not an allocation-judgment problem.**
 
 ---
 
 ## Current book vs. target allocation
 
-| Sleeve | Target % | Target $ (on $50.06 book) | Current | Current $ | Gap |
+| Sleeve | Target % | Target $ (on $50.25 trading book) | Current | Current $ | Gap |
 |---|---|---|---|---|---|
-| Core (VTI/SCHG/QQQM) | 55% | ~$27.53 | **0%** | $0 | **-$27.53** |
-| Satellite (max 3 names, 10-15% ea.) | 35% | ~$17.52 | ~10.1% (NVDA only) | $5.06 | -$12.46 |
-| Cash buffer | 10% | ~$5.01 | ~89.8% | ~$44.94 (of which ~$50 further reserve sits outside the trading book entirely) | +$39.93 |
+| Core (VTI/SCHG/QQQM) | 55% | ~$27.64 | **0%** | $0 | **-$27.64** |
+| Satellite (max 3 names, 10-15% ea.) | 35% | ~$17.59 | ~10.4% (NVDA only) | $5.25 | -$12.34 |
+| Cash buffer | 10% | ~$5.03 | ~89.6% | ~$45.00 | +$39.97 |
 
-The cash figure is doing double duty here: some of it is the IPS's intentional 10% dry-powder buffer, and the rest ($39.93 of it) is simply undeployed core+satellite allocation sitting idle. That distinction has gotten lost in seven straight "HOLD, no trade" run notes today — all seven were individually correct given the macro-shock rule, but none of them were core-sleeve decisions, because the core sleeve has never been part of the daily debate.
+Unchanged from the 7/13 IPS in substance: most of the cash figure is not the IPS's intentional 10% dry-powder buffer, it's undeployed core + satellite allocation. Today adds a new wrinkle worth naming precisely because this desk's job is to separate signal from noise: **zero of today's seven blocked VTI attempts were allocation mistakes.** Every one was the correct trade, correctly reasoned, correctly re-attempted, and correctly blocked by something this routine cannot fix. The IPS doesn't get revised because of an outage.
 
 ---
 
@@ -29,47 +27,44 @@ The cash figure is doing double duty here: some of it is the IPS's intentional 1
 
 | Sleeve | Ticker | Role | Target weight | Notes |
 |---|---|---|---|---|
-| Core | VTI | Broad US total market | ~25% | Lowest-duration, most valuation-agnostic core holding — least exposed to a hawkish-Fed multiple compression relative to QQQM/SCHG |
-| Core | SCHG | US large-cap growth | ~15% | Growth tilt within core; more rate-sensitive than VTI, sized smaller for that reason this cycle |
-| Core | QQQM | Nasdaq-100 | ~15% | Overlaps with NVDA satellite exposure — keep this leg smaller until NVDA's satellite weight normalizes |
-| Satellite | NVDA (existing) | AI-compute | ~10-12% | Hold, no add — consistent with MS's DCF (~28% overvalued) and the "no fresh catalyst" rule |
-| Satellite | OMCL (pending) | Healthcare-tech diversifier | ~10-12% | Execute on first trigger fire per state.md's falsifiable 3-trigger framework (ceasefire holding a session / Brent <~$75 / Fri 7/17 time-box) |
-| Satellite | 1 more diversifier, TBD | Non-correlated 3rd leg | ~10%, cap | GS's OXY idea (below) is a candidate but not yet underwritten by MS/BW — don't size it off one screener's say-so |
-| Cash | — | Dry powder | ~10% | True buffer, not a parking spot for undecided allocation |
+| Core | VTI | Broad US total market | ~25% | Still the priority leg — lowest duration, least exposed to the Fed's hawkish pivot of any core option. First execution attempt (7/14) was correctly reasoned and blocked only by the investor-profile gate, not by markets. |
+| Core | SCHG | US large-cap growth | ~15% | Growth tilt within core; keep smaller than VTI while the rate path is unsettled (see Fed section below — the hike-count consensus has actually widened, not narrowed, since 7/13). |
+| Core | QQQM | Nasdaq-100 | ~15% | Overlaps with NVDA satellite exposure — keep this leg smallest of the three core legs until NVDA's satellite weight normalizes relative to the book. |
+| Satellite | NVDA (existing) | AI-compute | ~10-12% | Hold, no add — MS's DCF still shows ~27-29% overvaluation (gap has *widened* intraday today as price ran further with no model change). No fresh catalyst since 7/13; standing "don't add without a fresh catalyst" rule applies. |
+| Satellite | OMCL (pending) | Healthcare-tech diversifier | ~10-12% | **Upgraded conviction since 7/13: MS built its first-ever full DCF on this name today and lands at $56.35 base case (~25% upside) — the first time in this book's history a DCF *agrees* with GS's top idea rather than rebutting it.** Still correctly gated behind the falsifiable 3-trigger framework (ceasefire holding a full session / Brent <~$75 / Friday 7/17 time-box) — none fired today; Brent instead hit a fresh one-month high (~$85-87). This desk's read: when a trigger does fire, size at the full $8-10, not a discount, given how unusually aligned the analyst set now is. |
+| Satellite | 1 more diversifier, TBD | Non-correlated 3rd leg | ~10%, cap | GS's OXY and CRWD ideas both remain candidates, neither ready — see below. |
+| Cash | — | Dry powder | ~10% | True buffer, not a parking spot for undecided allocation. |
 
-*Execution note unchanged from prior reports: at $50 scale, hitting these percentages exactly is not urgent — this is the compass for new deployable cash and profit reinvestment, not a mandate to force odd-lot trades or unwind NVDA today.*
-
----
-
-## On GS's new OXY idea (cross-analyst response)
-
-GS's 2026-07-13 evening report proposes Occidental Petroleum (OXY) as a way to let the book *benefit from*, not just avoid, the Hormuz crisis — explicitly framed as an answer to BW's "no exposure that benefits from the shock" critique. Worth a direct read from the policy desk:
-
-- **It's a legitimate idea, but it's a tactical trade, not a structural diversifier.** OXY's correlation to the crisis is *positive and direct* — GS's own risk score (7/10) says as much ("this is a bet on the crisis continuing — that cuts both ways just as fast"). That's a fundamentally different instrument than OMCL, whose value is that it's *decoupled*. Don't conflate "a position that benefits from today's headline" with "a position that reduces the book's correlation to any one headline." The IPS's satellite sleeve wants more of the latter.
-- OXY is currently ~17.5% above GurusFocus's GF Value estimate ($53.59 vs. $45.59 fair value per their model) and carries a Hold consensus with a $61 PT roughly in line with spot — not a screaming valuation case independent of the oil thesis.
-- **Verdict: don't rule it out, but don't rush it in either.** It hasn't been through MS's DCF or BW's risk framework yet (both flagged this gap themselves). If the trader wants tactical crisis exposure, a very small position sized well under the satellite cap, with an explicit oil-price-based exit rule (not a chart level), is the right way to handle it — but it should not become the 3rd satellite leg by default just because it's the newest idea on the table. OMCL's structural case (decoupled, earnings-clean until 7/30, three independent analysts converged on it since 7/12) remains the stronger, better-vetted diversifier.
+*Execution note unchanged: at ~$50 scale, hitting these percentages exactly is not urgent — this is the compass for new deployable cash and profit reinvestment, not a mandate to force odd-lot trades or unwind NVDA today.*
 
 ---
 
-## Expected return & risk profile — updated for the current macro backdrop
+## On the two candidate 3rd-satellite-leg ideas (cross-analyst response)
 
-- **Expected annual return range**: 12–20% average annual over a full cycle, unchanged from the 7/10 IPS — this is a structural estimate for the target allocation, not a comment on any single week.
-- **Expected maximum drawdown in a bad year**: widening the prior 35–45% band to **35–50%**. Two things changed since the last IPS that justify the wider tail: (1) the Hormuz crisis is now a live, multi-week event rather than a hypothetical tail risk in BW's report, and (2) the Fed has pivoted hawkish under new Chair Kevin Warsh — PCE inflation projection raised to 3.6% (some readings citing headline inflation near 4.2%), with BofA now projecting three 25bp hikes (Sept/Oct/Dec) rather than the cuts markets had priced earlier this year. A simultaneous geopolitical-supply shock and a monetary-tightening pivot hitting a high-multiple satellite sleeve at the same time is a genuinely worse combination than either alone — size and rebalancing discipline exist for exactly this scenario.
+- **OXY** — unchanged verdict from 7/13: a legitimate tactical trade, not a structural diversifier. Its correlation to the Hormuz crisis is positive and direct (GS's own risk score: "a bet on the crisis continuing — cuts both ways just as fast"); today's fresh tanker strikes and Evercore's upgrade only sharpen that it's a crisis-linked instrument, not a decoupling one. Still unvetted by MS's DCF or BW's full risk framework. If ever sized, keep it well under the satellite cap with an oil-price exit rule, not a chart level — and don't let it become the default 3rd leg just because it's the freshest idea on the table.
+- **CRWD (new since 7/13)** — genuinely the best answer this book has produced to BW's "every diversifier still shares NVDA's sector beta" critique: zero oil/semiconductor correlation, a real external catalyst (critical-infrastructure cyber warning), strong fundamentals (97% gross retention, ARR +24% YoY). But it is a **one-cycle-old idea, unvetted by MS's DCF or this desk's framework, up ~10-11% in a single session, and trading at ~188x trailing non-GAAP P/E** — the richest multiple in this book by a wide margin. This desk's policy stance: worth tracking seriously (it's the first name that would actually reduce, not just relabel, the book's correlation risk), but not a candidate to size until it either (a) pulls back toward GS's own $185-195 entry zone, and (b) gets a DCF/risk-framework read from MS/BW. Treating an uncorrelated idea as automatically safe to chase is its own discipline failure.
 
 ---
 
-## Rebalancing schedule & triggers (reaffirmed, one refinement)
+## Expected return & risk profile
+
+- **Expected annual return range**: 12–20% average annual over a full cycle, unchanged from 7/10 and 7/13 — a structural estimate for the target allocation, not a comment on any single week or on today's zero-trade session specifically.
+- **Expected maximum drawdown in a bad year**: holding the 7/13 IPS's widened **35–50%** band. Nothing this run narrows it: the Hormuz conflict is now in its third-plus consecutive day of active strikes (not de-escalating), and the Fed's rate path, if anything, got *more* uncertain rather than clearer — fresh research this run shows a real split between the Fed's own median dot (one more 25bp hike by year-end, holding at ~3.75-4.00%) and BofA's more hawkish 3-hike call cited in the last report, while JPM Global Research's house view is the opposite extreme (no hike at all in 2026, first move pushed to September 2027). That's a wider band of institutional disagreement on rates than this report has seen before — a reason for *more* caution on the growth-tilted core legs (SCHG/QQQM), not less, until the path clarifies.
+
+---
+
+## Rebalancing schedule & triggers (reaffirmed, no changes)
 
 1. **Calendar**: quarterly review, next ~2026-10-10.
-2. **Trigger 1 — concentration cap**: any single satellite position exceeding 20% of book (via appreciation) → trim toward target.
-3. **Trigger 2 — core drift**: combined core sleeve drifting >10pp from 55% target → rebalance next run. *(Currently inapplicable — there is no core sleeve to drift.)*
-4. **Trigger 3 — cash floor**: deployable cash >25% of book for 2+ consecutive weekly cycles with no fresh catalyst deployed → revisit entry-bar calibration. **Status: this book has now run at ~90% cash for the entire life of the experiment (2026-07-09 to present) — trigger 3's spirit is already firing, even though the "2 consecutive weekly cycles" clock (by calendar weeks) hasn't technically completed a second week yet.** Flagging this explicitly so it isn't missed when the second week does complete: if cash is still >25% of book on 2026-07-17 (the same date already set as the OMCL time-box), that's two independent triggers converging on the same date, and the policy answer at that point should default toward action, not another round of deferral.
+2. **Trigger 1 — concentration cap**: any single satellite position exceeding 20% of book (via appreciation) → trim toward target. NVDA is at ~10.4%, well inside this cap; not a live concern.
+3. **Trigger 2 — core drift**: combined core sleeve drifting >10pp from 55% target → rebalance next run. *(Still inapplicable — there is no core sleeve to drift.)*
+4. **Trigger 3 — cash floor**: deployable cash >25% of book for 2+ consecutive weekly cycles with no fresh catalyst deployed → revisit entry-bar calibration. **Status: unchanged from 7/13 — this book has run at ~90% cash since inception (2026-07-09), and the "2 consecutive weekly cycles" clock crosses its first full week on 2026-07-17, the same date already set as the OMCL time-box.** Two independent triggers now converge on Friday. Given today's confirmation that the binding constraint is operational (the Robinhood blocker), not a calibration problem, this desk's pre-registered answer if 7/17 arrives with the blocker *still* unresolved is: don't recalibrate the entry bar — the bar was never the problem this week. If the blocker is resolved by then and cash is still elevated, that's the scenario the recalibration question was actually written for.
 
 ---
 
 ## Tax efficiency strategy (taxable account)
 
-Unchanged in substance from the 7/10 IPS — at $50 scale tax drag is immaterial in dollars, but the habits should be set now:
+Unchanged in substance from 7/10 and 7/13 — at ~$50 scale tax drag is immaterial in dollars, but the habits should be set now:
 - Core sleeve stays low-turnover by construction (ETFs, quarterly-or-slower rebalancing) — inherently tax-efficient.
 - Prefer long-term holds on satellite trims when there's no urgent catalyst-driven reason to sell.
 - Reserve short-term trading behavior for the satellite sleeve only.
@@ -77,25 +72,16 @@ Unchanged in substance from the 7/10 IPS — at $50 scale tax drag is immaterial
 
 ## Dollar-cost-averaging plan for redeploying profits
 
-- Trigger: each time cumulative profit since the last deployment exceeds ~$5 (10% of current book, scales with book size), deploy into whichever sleeve is currently most underweight — right now, unambiguously the core sleeve, not satellite.
-- This is the mechanism that prevents the book from becoming "NVDA plus whatever the newest analyst idea is" by default — profits should be actively routed toward the structurally missing piece (core), not passively left to compound wherever they already sit.
+- Trigger: each time cumulative profit since the last deployment exceeds ~$5 (10% of current book, scales with book size), deploy into whichever sleeve is currently most underweight — right now, unambiguously the core sleeve.
+- This is the mechanism that prevents the book from becoming "NVDA plus whatever the newest analyst idea is" by default — profits should be actively routed toward the structurally missing piece (core), not passively left to compound wherever they already sit. NVDA's unrealized gain (+5.05% today, a new high-water mark) is exactly the kind of profit this rule is written for — it should not be treated as license to add to NVDA itself.
 
 ---
 
 ## Areas to watch — macro/policy update (WEF + Fed)
 
-- **Fed policy pivot is the single most important update since the last IPS.** Under new Chair Kevin Warsh, the Fed has moved from a dovish, rate-cut-leaning posture to bracing markets for hikes (BofA: 3x 25bp Sept/Oct/Dec; Deutsche Bank: 2 more hikes by year-end). PCE inflation projection raised to 3.6%, with some readings of headline inflation near 4.2% — the highest since 2023. This is a direct, structural headwind for the QQQM/SCHG legs of the core sleeve and reinforces this report's decision to weight VTI (lower duration, valuation-agnostic) more heavily than growth-tilted core exposure this cycle.
-- **WEF Global Risks Report 2026** (carried forward from 7/10, still the most recent edition): geoeconomic confrontation ranked #1 global risk; AI-driven adverse outcomes jumped from 30th to 5th among long-term risks; economic downturn and inflation risk both rose 8 places; asset-bubble-burst risk rose 7 places. Only 9% of respondents expect global stability over the next two years — the current live Hormuz crisis and Fed pivot are not black-swan surprises relative to this survey, they're closer to its base case playing out in real time.
-- **Rate-sensitive sector rotation is already visible**: financials, healthcare, and small-caps are reportedly "coming roaring back to life" as tech takes a "healthy correction" — a live illustration of why the IPS's core sleeve is broad-market (VTI) rather than tech-concentrated, and a mild tailwind for a healthcare-adjacent satellite pick like OMCL specifically, independent of its decoupling-from-Hormuz case.
-
-Sources:
-- [Oil prices jump as US and Iran trade attacks over Strait of Hormuz (Al Jazeera)](https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz)
-- [Oil jumps amid fears of prolonged disruption in Strait of Hormuz (The National)](https://www.thenationalnews.com/business/energy/2026/07/13/oil-jumps-amid-fears-of-prolonged-disruption-in-strait-of-hormuz/)
-- [2026 Strait of Hormuz crisis (Wikipedia)](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis)
-- [Occidental Petroleum Corp (OXY) Stock — GF Value / GF Score (GuruFocus)](https://www.gurufocus.com/news/8950392/occidental-petroleum-corp-oxy-stock-up-37-but-gf-value-says-overvalued-gf-score-57100)
-- [Occidental Petroleum (OXY) Stock Forecast: Analyst Ratings, Price Target (Public.com)](https://public.com/stocks/oxy/forecast-price-target)
-- [Fed Interest Rate Outlook July 2026: Hawkish Turn & Inflation Surge (Intellectia)](https://intellectia.ai/blog/fed-interest-rate-outlook-july-2026-hawkish-turn)
-- [Federal Reserve issues FOMC statement, June 2026 (Federal Reserve)](https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm)
+- **Fed policy path has gotten *more* contested since 7/13, not more resolved.** The Fed's own median dot now points to one more 25bp hike by year-end (holding the funds rate around 3.75-4.00%), materially less aggressive than the 3-hike BofA call cited in the last IPS — while JPM Global Research's house view is the dovish opposite, seeing no hike at all in 2026. This spread between the Fed's own guidance and sell-side house views is wide enough that this desk is not adjusting the core-sleeve growth tilt on any single forecast; it's a reason to keep VTI (valuation-agnostic, lowest duration) as the largest core leg until the disagreement narrows, exactly as the 7/13 IPS already positioned it.
+- **WEF Global Risks Report 2026** (no fresher edition since 7/10/7/13 — still the current reference): geoeconomic confrontation ranked #1 global risk, state-based armed conflict close behind; AI-driven adverse outcomes and asset-bubble-burst risk (the AI-driven tech stock surge specifically named) both among the fastest-rising concerns. The live Hormuz conflict and today's full-session trade-execution outage are, in miniature, exactly the kind of "plumbing under geopolitical stress" scenario this survey exists to flag — not a black-swan surprise relative to it.
+- **Sector rotation (healthcare/financials/small-caps vs. tech) is the most directly actionable macro thread for this book**, and it's the second cycle in a row it's shown up: GS's OMCL thesis is now explicitly built on it (Bloomberg's 7/13 "healthcare looks ready to star in rotation trade," Russell-rebalancing flows), and MS's fresh DCF corroborates it independently on fundamentals, not just flow. This is the strongest real-world validation yet of the IPS's original satellite-diversifier logic — the rotation thesis found the same name the IPS was already structurally pointed toward.
 
 ---
 
@@ -105,17 +91,19 @@ Sources:
 
 **Time horizon**: Short-to-medium term trades within a long-term compounding frame. No forced liquidity needs.
 
-**Risk tolerance**: Aggressive. Max single-name satellite weight 20% (soft cap, appreciation-triggered trim). Max drawdown tolerance in a bad year: ~50% (widened this cycle for a simultaneous geopolitical + monetary-tightening shock), understood and accepted, not to be panic-sold through.
+**Risk tolerance**: Aggressive. Max single-name satellite weight 20% (soft cap, appreciation-triggered trim). Max drawdown tolerance in a bad year: ~35-50%, understood and accepted, not to be panic-sold through.
 
 **Constraints**: Equities/ETFs only, no options, no margin implied by ground rules. Taxable account — mind holding periods and wash-sale rules on any loss harvesting. $50 reserve beyond the trading book is untouchable.
 
-**Target allocation**: 55% core (VTI/SCHG/QQQM, VTI-weighted this cycle given the Fed's hawkish pivot) / 35% satellite (max 3 names/themes, 10-15% each) / 10% cash buffer.
+**Target allocation**: 55% core (VTI/SCHG/QQQM, VTI-weighted given continued Fed-path uncertainty) / 35% satellite (max 3 names/themes, 10-15% each) / 10% cash buffer.
 
-**Rebalancing**: Quarterly review + trigger-based (20% single-name cap, 10pp core drift, 25%-cash-for-2-cycles flag — the cash trigger is close to firing, see above).
+**Rebalancing**: Quarterly review + trigger-based (20% single-name cap, 10pp core drift, 25%-cash-for-2-cycles flag — converges with the OMCL time-box on 2026-07-17).
 
 **Tax approach**: Low-turnover core, long-term-hold bias on satellite trims when indifferent, opportunistic loss harvesting respecting the 30-day wash-sale rule.
 
 **Deployment discipline**: New profit increments (~$5 threshold, scaling with book size) go to the most underweight sleeve — currently the core sleeve, unambiguously.
+
+**Execution note (new this cycle)**: When an IPS-consistent trade is correctly identified but cannot execute due to a broker-side operational gate (as with today's VTI/OMCL attempts), that is not a policy failure and should not trigger a target-allocation revision — it's tracked separately as an execution-capacity issue until resolved.
 
 **Review cadence**: This IPS is re-validated each run against the live book in state.md; material target changes require an explicit rationale, not drift-by-inaction.
 
@@ -123,7 +111,14 @@ Sources:
 
 ## Cross-check with other analysts
 
-- **GS (7/13 evening)**: aligned on OMCL as the cleanest satellite diversifier; responded above to GS's new OXY idea — legitimate tactical idea, not a substitute for the core-sleeve gap or a vetted structural diversifier yet.
-- **MS (7/13)**: NVDA ~28% overvalued, no support for adding — consistent with this report's "hold, don't add" satellite stance. MU "sharply overvalued" (~71% downside) — excluded from any sleeve on valuation grounds alone, independent of macro timing.
-- **BW (7/13)**: graded the book C-/C, flagged single-name/single-sector concentration as CRITICAL, and — accurately — noted that three straight cycles of citing this IPS with zero execution is itself a discipline gap. This report's response: the execution gap isn't just the OMCL trade everyone's been tracking, it's the core sleeve that's never been part of the conversation at all. Endorsing BW's push for the falsifiable 7/17 time-box, and extending the same logic to the cash-floor trigger above.
-- **JPM (7/13)**: no near-term binary earnings risk on NVDA (next print 8/26); OMCL clean until 7/30 — nothing here blocks either the satellite or core decisions on earnings-timing grounds.
+- **GS (7/14 evening)**: OMCL remains #1 for a tenth-plus consecutive check-in, now with a structural sector-rotation rationale layered on the decoupling case; OXY #2 (tactical, crisis-linked, agreed above); CRWD #3, new and rich, agreed above it's not a chase-today entry. Fully aligned with this report's satellite framing.
+- **MS (7/14 mid-morning)**: NVDA still ~27-29% overvalued, no support for adding — consistent with this report's "hold, don't add" stance. **OMCL's first-ever full DCF agrees with GS's conviction (~25% upside)** — the single most important cross-analyst development since the 7/13 IPS, and this report's satellite-sleeve conviction on OMCL is upgraded accordingly (see allocation table above).
+- **BW (7/14, downgraded to D+, warning of F)**: this desk agrees with BW's underlying facts — concentration is unaddressed, the blocker is a real structural problem — but explicitly disagrees with letting the grade conflate two different failure modes. A book that identifies the right trade seven times and gets blocked seven times by a compliance gate has a *plumbing* problem, not a *judgment* problem; BW's own report makes this same distinction in its "biggest risk" section. This desk's role is to hold the policy steady through exactly this kind of pressure, not to revise the IPS in response to an outage.
+- **JPM (7/14)**: no near-term binary earnings risk on NVDA (next print 8/26); OMCL clean until 7/30, entering JPM's 2-week coverage window next run given its now-live relevance. Nothing here blocks either the satellite or core decisions on earnings-timing grounds.
+
+Sources:
+- [Oil prices hit 1-month high as US-Iran attacks dim Strait of Hormuz outlook (Al Jazeera)](https://www.aljazeera.com/economy/2026/7/14/oil-hits-1-month-high-as-us-iran-fighting-clouds-strait-of-hormuz-outlook)
+- [Iran ceasefire's end drives up oil prices and uncertainty (The Hill)](https://thehill.com/policy/energy-environment/5960020-iran-ceasefire-gas-prices-strait-of-hormuz/)
+- [Fed Interest Rate Outlook July 2026: Warsh's Hawkish Turn Reshapes Market Expectations (Intellectia)](https://intellectia.ai/blog/fed-interest-rate-outlook-july-2026)
+- [July Fed Decision 2026: Why Wall Street is Bracing for Surprises Under Kevin Warsh (fori.us)](https://fori.us/july-fed-decision-2026-interest-rate-forecast/)
+- [The Global Risks Report 2026 (World Economic Forum)](https://www.weforum.org/publications/global-risks-report-2026/)

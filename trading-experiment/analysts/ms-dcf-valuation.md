@@ -1,7 +1,7 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
-**Date: 2026-07-13 (update run)**
+**Date: 2026-07-14 (Tuesday, mid-morning update)**
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA — the trader's sole current holding (brief update, no material change since 7/10), and (2) Micron (MU) — the new #1 pick from analysts/gs-stock-screener.md's 2026-07-13 report (full new build; replaces SNX, which GS itself downgraded to #4 this cycle after my prior report pushed back on their bull case).*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA — the trader's sole current holding (brief update, no material change since 7/13), and (2) Omnicell (OMCL) — the new #1 pick from analysts/gs-stock-screener.md's 2026-07-14 report (full new build; first time this name has been run through this model — MU, last cycle's #1, has since dropped out of GS's top 3).*
 
 ---
 
@@ -9,23 +9,20 @@
 
 | Ticker | Current Price | DCF Fair Value (base case) | Verdict |
 |---|---|---|---|
-| **NVDA** | ~$208 (7/13) | ~$150.6 (WACC 11%, g 3%) — unchanged model | **OVERVALUED — ~28% downside to DCF fair value.** No material change from 7/10 read; price is essentially flat ($210→$208) and nothing in the last 3 days moves the fundamental model. |
-| **MU** | ~$979 (verified 7/13 quote — see price discrepancy flag below) | ~$287 (WACC 14%, g 3%) | **SHARPLY OVERVALUED — ~71% downside to DCF fair value.** Even the most aggressive corner of my sensitivity grid (12% WACC / 4% terminal growth) only reaches ~$363 — still ~63% below spot. The current price is underwritten by a permanence assumption (peak-cycle 80%+ gross margins, HBM scarcity pricing persisting indefinitely) that a disciplined DCF cannot support for a historically cyclical commodity-memory business. |
+| **NVDA** | ~$207.57 (7/14) | ~$150.6 (WACC 11%, g 3%) — unchanged model | **OVERVALUED — ~27% downside to DCF fair value.** No material change from the 7/13 read; price is essentially flat and nothing this run moves the fundamental model. |
+| **OMCL** | $45.08 (7/14) | ~$56.35 (WACC 9%, g 3%) | **MODESTLY UNDERVALUED — ~25% upside to DCF fair value.** First full build on this name. Unlike MU last cycle, the math here actually supports GS's bullish call — this is a case where the valuation discipline and the momentum case agree, not a rebuttal.
 
-**Bottom line for the trader:** neither name in this cycle's coverage clears my bar for a valuation-driven buy. NVDA remains a hold-for-other-reasons position, not an add. MU — GS's new #1 conviction idea this cycle — is where I want to be loudest: this is a name whose *business* is genuinely having a historic quarter (record results, HBM sold out through 2026), but the *stock* is pricing that historic quarter as the new steady state rather than the peak of a memory supercycle. That's exactly the gap between "great company" and "great price" this persona exists to flag.
+**Bottom line for the trader:** NVDA remains a hold-for-other-reasons position, not an add — the DCF gap hasn't closed. OMCL is the first name in several cycles where my model and GS's screener land in the same place directionally: cheap-ish, low-beta, cash-rich, guidance raised, and priced well below what a conservative 5-year build supports. This doesn't override the macro-timing entry-discipline question that's been running in state.md (that's the trader's call, not mine) — but on valuation grounds alone, OMCL clears the bar in a way MU never did.
 
 ---
 
 ## 1. NVIDIA (NVDA) — brief update, model unchanged
 
-### What changed since 7/10
-Not much, fundamentally. Price is flat (~$210 → ~$208, -1%). No earnings print (next catalyst remains 8/26, per JPM's tracking). Two incremental data points worth logging but not yet model-moving:
-- Reuters reporting DeepSeek is building its own AI chip to reduce Nvidia dependence — a modest negative for the "moat/pricing power" side of the thesis, still speculative/early.
-- NVDA's China data-center revenue has reportedly gone from ~$4.6B/year run-rate to effectively $0 under current export restrictions — this is the "downside break" scenario I flagged on 7/10 (China export policy risk) now partially realized. It doesn't change my base case because my FY2027E-FY2031E revenue path already excluded meaningful China contribution per management guidance at the time, but it's confirmation the risk I flagged is live, not hypothetical.
-- Broader chip-sector selloff (Philly Semi -10.8% over 10 sessions, SK Hynix -15% in a day) is sentiment/multiple compression across the group, not NVDA-specific fundamentals — consistent with my 7/10 view that NVDA's ~$210 print was pricing flawless execution; a sector-wide de-rating is the market starting to agree.
+### What changed since 7/13
+Not much. Price is essentially flat (~$208 → ~$207.57). One incremental data point worth logging but not model-moving: Nvidia is reportedly tightening AI chip sales to Asian customers via a new compliance "white list," excluding more than half of its previous neo-cloud customer base, particularly affecting resellers rather than direct hyperscaler demand. This is directionally consistent with the China/export-control downside risk I've already flagged and partially priced out of the base case since 7/10 — it's a narrower addressable customer base at the margin, not a change to the core US-hyperscaler revenue path my FY2027E-FY2031E build is built on. Also unchanged: no earnings print (next catalyst 8/26), the "Kyber" server cabinet slip to 2028 (already known), and continued broad chip-sector volatility (sentiment/multiple compression, not NVDA-specific fundamentals).
 
 ### Verdict: **OVERVALUED, unchanged**
-Re-running the same 5-year build (FY2027E revenue $380B, FCF margin path 56%→48%, WACC 11% base, g 3% base) against today's ~$208 spot:
+Same 5-year build (FY2027E revenue $380B, FCF margin path 56%→48%, WACC 11% base, g 3% base) against today's $207.57 spot:
 
 | WACC \ Terminal g | 2.0% | 3.0% | 4.0% |
 |---|---|---|---|
@@ -35,89 +32,87 @@ Re-running the same 5-year build (FY2027E revenue $380B, FCF margin path 56%→4
 | 12% | $123.6 | $133.4 | $145.8 |
 | 13% | $111.9 | $119.7 | $129.2 |
 
-Base case ($150.6) implies **~28% downside** from $208 — essentially identical to the 7/10 read (was ~28% downside from $210). No change to the verdict or the key assumptions that could break the model (see 7/10 report / git history for the full writeup — margin durability is the upside break, China/Blackwell-Rubin execution/HBM supply bottleneck are the downside breaks, all still live).
+Base case ($150.6) implies **~27.4% downside** from $207.57 — essentially identical to the 7/13 read (~28% downside from $208). No change to the verdict or the key assumptions that could break the model (margin durability is the upside break; China export policy, Blackwell-Rubin execution, and HBM supply bottleneck remain the downside breaks — see 7/10/7/13 reports via git history for the full writeup).
 
 ---
 
-## 2. Micron (MU) — full new build
+## 2. Omnicell (OMCL) — full new build
 
 ### Snapshot
-- Current price: **$979.30** (verified quote, 7/13/26) — market cap ~$1.11T on ~1.13B shares outstanding
-- **Price discrepancy flag**: GS's 7/13 screener lists MU at "~$730 (down ~25% from record high)." My independently verified quote today is $979.30, down ~20% from the 52-week high of $1,255. I cannot reconcile the $730 figure against any quote source I pulled — it may reference an intraday low, a stale snapshot, or a data error on GS's side. **I'm using $979.30 as the working current price** (it's consistent across market-cap cross-check: $979.30 × 1.13B ≈ $1.11T, which matches independently reported market cap). Flagging this loudly per the same discipline as the 7/12 SNX price-conflict note — verify live Robinhood quote before sizing anything.
-- FY2026 quarterly revenue trajectory: Q1 $13.64B → Q2 $23.86B → Q3 $41.46B (record, +346% YoY) → Q4 guide $50.0B ±$1.0B. Implied FY2026 revenue ≈ **$129.0B**, up from FY2025's much smaller base — a genuine step-change, not incremental growth.
-- FY2026 consensus non-GAAP EPS ≈ $57.71 (vs. $7.68 FY2025, +651%); FY2027 consensus ≈ $97.77 (+69% further).
-- Entire 2026 HBM supply sold out under fixed-price contracts; HBM4 volume production started for Nvidia's Vera Rubin platform. Multi-year customer commitments extend beyond 2027.
-- Balance sheet: cash & investments ~$30.1B, total debt ~$5.7B → **net cash ~$24.4B**, and actively de-levering (>$5B debt repaid over the last three quarters).
-- FY2026 capex >$25B (fab expansion: Idaho, New York, Singapore, Hiroshima). 9-month FY2026 operating cash flow $45.7B vs. capex $19.6B → 9-month FCF ~$26.1B, FCF margin ~33% on 9-month revenue of $78.96B.
-- Beta: 2.1-2.5 depending on source (Google 2.14, CNBC 2.17, GuruFocus 2.50) — I use **2.1** as a reasonably conservative read, still reflecting genuinely high volatility (stock has moved from a 52-week low of $103 to a high of $1,255 — a >12x range).
+- Current price: **$45.08** (7/14/26, day range $44.75-$46.78)
+- Market cap: ~$2.05-2.11B; shares outstanding ≈ **46.8M**
+- Q1 2026 revenue $309.9M, up from $269.7M YoY (+14.9%); FY2025 full-year revenue was **$1.185B** (+7% YoY)
+- **FY2026 guidance (raised after Q1 beat): total revenue $1.215B-$1.255B (midpoint $1.235B, +4.2% over FY2025), non-GAAP EBITDA $153M-$168M (~12.6%-13.3% margin), non-GAAP EPS $1.80-$2.00.** Note the guidance-implied full-year growth rate (~4.2%) is well below Q1's standalone +14.9% YoY print — either a genuinely tougher back half, or conservative guidance with room to raise again (Omnicell has a recent history of guiding low and beating).
+- Margin trend is the real story here: non-GAAP gross margin ~46% in Q1 2026 (up from 42% a year ago); adjusted operating margin 5.4% (+2pp YoY); FCF margin 12.5% in Q1 (up from 5.5% Q1 2025) — management explicitly guiding for margin expansion to outpace revenue growth.
+- Balance sheet (3/31/26): cash & equivalents $239M, total debt $168M → **net cash ~$71M**; $350M undrawn revolver, no near-term liquidity concerns; convertible notes due 2025 already repaid.
+- Beta: **0.78** — notably the lowest-beta name in this book by a wide margin (vs. NVDA ~1.7-2x, MU ~2.1-2.5x per prior builds), consistent with the "decoupled from the chip-sector selloff" behavior every analyst in this book has independently observed over the past week.
+- Analyst backdrop: consensus price targets cluster $49-70 (avg ~$51-57 depending on source), consensus rating Buy. Independent third-party DCF/FCFE reads I could find (Simply Wall St, a 2-stage FCFE model) land at **$53.90-$54.16** — I built my own model independently rather than anchoring to those, but it's a useful sanity check that my own number (below) lands in the same neighborhood rather than a wildly different one.
 
 ### 5-year revenue projection
-Base year FY2026E revenue ≈ $129.0B (actuals through Q3 + Q4 guide midpoint).
+Base year FY2026E revenue ≈ $1.235B (guidance midpoint).
 
 | FY | Revenue ($B) | YoY growth | Basis |
 |---|---|---|---|
-| FY2027E | $165 | +28% | Continued HBM ramp off a sold-out 2026 book and new capacity coming online from the $25B+ FY26 capex program, but decelerating hard off FY26's triple-digit step-change — physical fab capacity, not demand, becomes the binding constraint |
-| FY2028E | $190 | +15% | New capacity (Idaho/NY/Singapore/Hiroshima) reaches volume; competitors (Samsung, SK Hynix) also add HBM capacity, capping further acceleration |
-| FY2029E | $205 | +8% | Supply catches up to demand industry-wide; classic memory-cycle dynamic reasserts — this is the year I'd expect the first real pricing pushback |
-| FY2030E | $215 | +5% | Growth normalizes toward AI-infra-capex-linked, GDP-plus trend |
-| FY2031E | $223 | +4% | Approaching terminal growth |
+| FY2027E | $1.334 | +8% | Reacceleration off FY26's conservative guide base as the healthcare-tech sector-rotation tailwind (per GS's 7/13-14 reporting on the Bloomberg/Russell-rebalancing piece) and hospital capex cycle support bookings; still below Q1's standalone +14.9% pace since that's an easy comp, not a sustainable run-rate |
+| FY2028E | $1.427 | +7% | Continued steady mid-hospital-market penetration; medication-management automation remains a multi-year replacement-cycle category, not a one-time pop |
+| FY2029E | $1.513 | +6% | Growth normalizes toward the category's structural mid-single-digit trend as the current bookings cohort matures into revenue |
+| FY2030E | $1.589 | +5% | Approaching a mature, hospital-capex-linked growth rate |
+| FY2031E | $1.668 | +5% | Terminal-adjacent; no assumption of a step-change catalyst in the model |
 
-### Operating margin / FCF margin — where the model earns its keep
-This is the crux of the valuation. FY2026's ~33% FCF margin (9-month actual) is a **peak-cycle print**: 80-86% gross margins on memory are a historical anomaly driven by a severe, temporary HBM supply shortage, not Micron's normal-state economics. Memory is a commodity, cyclical business — Micron has posted GAAP losses and single-digit-or-negative FCF margins in prior down-cycles (2019, 2022-23). I model mean reversion, not a permanent re-rate to systems-company margins:
+### Operating margin / FCF margin — the crux of the case
+Unlike NVDA/MU, where the model question is "how much does peak margin mean-revert," OMCL's is the opposite: management is guiding for genuine, structural margin **expansion** off a historically thin base (5.4% adjusted operating margin, 12.5% FCF margin in Q1 — both up meaningfully YoY on mix shift toward higher-margin services/software and cost discipline). I'm modeling continued expansion but *not* extrapolating the elevated Q1 FCF print flat, since Q1 working-capital timing can flatter a single quarter:
 
-| FY | FCF margin | FCF ($B) | Rationale |
+| FY | FCF margin | FCF ($M) | Rationale |
 |---|---|---|---|
-| FY2027E | 33% | $54.5 | Sold-out 2026 HBM book still supports pricing through most of FY27 |
-| FY2028E | 26% | $49.4 | New industry-wide HBM capacity starts pressuring ASPs |
-| FY2029E | 20% | $41.0 | Full mean-reversion begins as supply/demand balances |
-| FY2030E | 16% | $34.4 | Approaching a "good cycle, not a supercycle" steady state |
-| FY2031E | 14% | $31.2 | Still structurally above Micron's pre-AI historical average (HBM mix-shift is a real, durable positive), but nowhere near FY26's peak |
-
-Note the FCF *dollar* figure actually declines over the projection window despite revenue growth — margin normalization dominates volume growth. That's the mechanical heart of the overvaluation call, and it's the single assumption most worth stress-testing (see "upside break" below).
+| FY2027E | 7% | $93.4 | Below Q1's 12.5% print — Q1 benefited from working-capital timing that won't repeat every quarter; full-year FY26 guide implies ~12.9% EBITDA margin, and FCF should sit structurally below EBITDA once capex/cash taxes are netted out |
+| FY2028E | 8% | $114.2 | Gross-margin mix shift (46% and rising) continues flowing through; opex leverage improves as revenue scales |
+| FY2029E | 9% | $136.2 | Continued execution on management's "margin expansion outpaces revenue growth" guidance |
+| FY2030E | 10% | $158.9 | Approaching a mature SaaS/med-tech-hybrid margin profile |
+| FY2031E | 11% | $183.5 | Still conservative relative to best-in-class med-tech peers (many run FCF margins in the mid-teens to 20s at maturity) — deliberately not assuming OMCL gets there within this window |
 
 ### WACC
-- Risk-free rate (10Y UST, 7/13): 4.54%
-- Beta: 2.1 (mid-range of 2.14-2.50 sourced; already high, reflecting genuine cyclical volatility)
-- Equity risk premium: ~4.6%
-- Cost of equity = 4.54% + 2.1 × 4.6% ≈ **14.2%**
-- Debt is immaterial to blended WACC: $5.7B debt vs. ~$1.11T market cap (D/V ~0.5%) — company is net-cash and de-levering
-- **WACC range used: 12%-16%, base case 14%**
+- Risk-free rate (10Y UST, 7/14): 4.6%
+- Beta: 0.78 (sourced; notably below-market, consistent with the observed low correlation to this week's chip-sector/geopolitical selloff)
+- Equity risk premium: ~4.6% (same assumption used across this book's other builds for consistency)
+- Cost of equity = 4.6% + 0.78 × 4.6% ≈ **8.2%**
+- Debt: $168M vs. ~$2.1B market cap (D/V ≈ 7%); after-tax cost of debt ≈ 3.2% (assumed ~4% pre-tax on convertible/term debt, 21% tax rate)
+- Blended WACC ≈ 0.93 × 8.2% + 0.07 × 3.2% ≈ **7.8%**, rounded up modestly for small-cap illiquidity — **WACC range used: 7%-11%, base case 9%**
 
 ### Sensitivity table — fair value per share
 
 | WACC \ Terminal g | 2.0% | 3.0% | 4.0% |
 |---|---|---|---|
-| 12% | $318.8 | $338.3 | $362.7 |
-| 13% | $295.0 | $310.3 | $329.2 |
-| **14% (base)** | $275.0 | **$287.3** | $302.2 |
-| 15% | $258.0 | $268.1 | $280.1 |
-| 16% | $243.3 | $251.7 | $261.5 |
+| 7% | $70.30 | $85.26 | $110.19 |
+| 8% | $58.30 | $67.90 | $82.31 |
+| **9% (base)** | $49.73 | **$56.35** | $65.60 |
+| 10% | $43.33 | $48.11 | $54.50 |
+| 11% | $38.36 | $41.95 | $46.56 |
 
-Net cash of ~$24.4B added to enterprise value; 1.13B shares outstanding. Every cell in this 15-cell grid falls between $243 and $363 — **not one combination of WACC/terminal-growth I consider defensible gets within 60% of the $979 spot price.**
-
-### Gut-check against a more bullish margin path
-To stress my own conservatism: even if FY26's ~33% FCF margin were held **flat** (no compression at all) across the full 5-year window on the same revenue path — an aggressive, not-my-base-case assumption that the AI-memory supercycle simply never ends — base-case fair value (WACC 14%, g 3%) rises to only ~$535, still ~45% below spot. To actually justify $979 you need some combination of: FCF margins staying near peak *and* materially faster revenue growth than my path *and* a terminal growth rate well above the 2-4% range I consider defensible for a commodity-cyclical business. That's a lot of "and"s stacked in the market's favor.
+Net cash of ~$71M added to enterprise value; 46.8M shares outstanding. Note the range is wide (as it is for every name in this book — terminal value dominates any 5-year DCF), but 11 of the 15 cells sit at or above the $45.08 spot price, and the base case sits comfortably in the same $50-60 neighborhood as the independent third-party DCF reads cited above ($53.90-$54.16) and the low end of the analyst price-target range ($49-70). This is a much tighter, more mutually-reinforcing cluster of independent estimates than I typically see in this book's coverage — a genuine signal, not just one aggressive model.
 
 ### DCF vs. market price
-Base case ($287.3) implies **~71% downside** from the current $979.30 price. This is the most extreme overvaluation call in this persona's coverage history to date (NVDA's ~28% and 7/10 SNX's "modestly undervalued" both look mild by comparison).
+Base case ($56.35) implies **~25% upside** from the current $45.08 price.
 
-### Verdict: **SHARPLY OVERVALUED**
-The market is capitalizing a single blowout supercycle year (and a bit of FY27 spillover) as if it's the new permanent baseline for a business that has, historically, been one of the most cyclical in all of large-cap tech. GS's own screener leans on "UBS says forward semi valuations aren't bubble territory (~26x vs. dotcom's ~150x)" as the bull argument — but a *sector* forward P/E comparison to the dotcom bubble says nothing about whether *this specific name's* current-year earnings are a representative base for a multi-year DCF. They aren't, by Micron's own history.
+### Verdict: **MODESTLY TO MODERATELY UNDERVALUED**
+This is a different kind of call than NVDA or MU. Those names required disputing a market price that was capitalizing peak-cycle conditions as permanent. OMCL is the opposite situation: the market is pricing a name that just raised full-year guidance, is running net cash-positive with a fortress balance sheet, has the lowest beta in this book by a wide margin, and is executing on a credible margin-expansion story — at a price that a *conservative* (not aggressive) 5-year build still clears by a meaningful margin. I deliberately built the margin path below the Q1 print and below best-in-class med-tech peer margins to stress-test my own optimism, and the stock still comes out undervalued in the base case.
+
+### Verdict vs. GS's screener
+GS has had OMCL as its #1 idea for going on two weeks, citing Strong Buy consensus, a Q1 beat, and — as of the 7/13-14 update — a structural healthcare-sector-rotation tailwind (Russell rebalancing, Bloomberg's "healthcare looks ready to star in rotation trade" framing). **This is the first cycle in this persona's coverage history where the DCF result actually agrees with GS's conviction rather than pushing back on it.** I want to be clear that isn't me being less rigorous here — the assumptions above are, if anything, conservative relative to what OMCL's own recent print and guidance would support (Q1 FCF margin was already 12.5%; I'm modeling FY2027E at 7%, roughly half that). The valuation discipline this persona exists to provide isn't "always find a reason to say no" — it's "show the math, whichever way it points." This time it points the same way as the momentum case.
 
 ### Key assumptions that could break this model
-- **Upside break (the real one to watch)**: if the HBM/AI-memory supply shortage proves structural rather than cyclical — i.e., multi-year customer commitments "beyond 2027" turn into a genuinely new, durable higher-margin equilibrium for the whole industry (not just Micron), rather than the classic pattern of capacity catching up and pricing collapsing — my mean-reversion assumption is wrong and fair value moves substantially higher. This is GS's implicit bet. Watch: (a) whether Samsung/SK Hynix capacity additions actually come online on the timelines currently expected, (b) whether HBM pricing shows the first signs of softening in FY27 contracts, (c) whether the "sold out through 2026" commentary extends into FY28 sold-out language in coming quarters (would be a strong bullish tell).
-- **Downside break**: memory has never NOT eventually cycled down; a demand-side shock (AI capex digestion/pause across hyperscalers) would hit an industry already running near-100% utilization far harder than my base case, given how much fixed-cost operating leverage is currently working in Micron's favor on the way up (and would work against it on the way down).
-- **Data-quality flag carried forward**: the $730 vs. $979 price conflict with GS's report (see above) is itself worth resolving before anyone sizes an entry off either report's numbers.
+- **Upside break**: if FY2026's back-half revenue tracks closer to Q1's +14.9% pace than the guided ~4.2% full-year rate (i.e., guidance proves conservative, as it has in recent history), and margin expansion continues at the Q1 rate rather than the more measured path I've modeled, fair value moves meaningfully higher than the $56 base case — plausibly into the $65-85 range shown in the sensitivity grid's upper-left.
+- **Downside break**: hospital capital-spending cycles are sensitive to rate policy and health-system budget pressure; a renewed rate-hike cycle (BR's hawkish-Fed thesis, partially offset by this week's cooler CPI print per GS) or a health-system capex pullback would hit bookings before it shows up in trailing revenue, and OMCL doesn't have NVDA/MU-scale pricing power to offset a demand slowdown. Also watch: the "sector-rotation tailwind" thesis is only ~1-2 days old as a sourced narrative (Bloomberg 7/13) — worth confirming it has legs over the next several sessions rather than being a single-article flash-in-the-pan explanation for a move that was already happening for other reasons.
+- **Data-quality note**: shares outstanding and market cap figures showed some spread across sources ($1.51B market cap in one stale March-dated pull vs. ~$2.05-2.11B current) — used the more recent, price-consistent figures (46.8M shares × $45.08 ≈ $2.1B) and flagging this per the same standing discipline as prior price-conflict notes in this book.
 
 ---
 
-## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-07-13)
-GS ranks MU #1 this cycle citing a ~25% pullback from highs as a "materially better entry" and cites UBS's sector-level "not bubble territory" call. My DCF doesn't dispute that MU is cheaper today than three weeks ago — it disputes that "cheaper than an all-time-high peak print" is the same claim as "cheap." GS's own bull case of $1,150 (12mo) implies the market needs to re-rate MU *higher* from an already-DCF-unsupportable price; my model finds no scenario in a 15-cell grid that gets within 60% of even today's spot, let alone GS's bull target. I'd frame this the same way I framed the 7/10 SNX disagreement (which GS itself has since folded into a downgrade): the business momentum is real, the price already assumes the momentum is permanent, and those are different claims. GS's own risk score (6/10, down from 7) reflects reduced *entry-price* risk, not reduced *cyclical* risk — I'd argue the cyclical risk here is actually the dominant one for a 2026 memory name and it's structurally under-weighted in GS's framework.
+## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-07-14)
+GS ranks OMCL #1 for a ninth-plus consecutive check-in, now with a structural rotation-tailwind rationale layered on top of the original decoupling observation. My DCF doesn't just fail to contradict that — it independently arrives at a similar undervaluation conclusion using a conservative, bottom-up 5-year build rather than a relative/sector-rotation argument. Where I'd add nuance: GS's case leans partly on sentiment/flow (Russell rebalancing, sector rotation) which can reverse quickly; mine is a fundamentals-only view (guidance, margin trajectory, balance sheet) that would hold up independent of whether the rotation narrative persists. The two arguments are complementary, not redundant — worth noting in case the rotation thesis fades before the fundamental case has time to play out.
 
-No fresh BW risk-assessment or BR portfolio-builder reports to cross-check against this cycle (both last posted 7/10 per prior read — will re-check next run).
+No fresh BW risk-assessment or BR portfolio-builder reports read this cycle in full detail beyond what's referenced in state.md's run notes — will re-check next run per standing practice.
 
 ## Explicit read on trader's NVDA hold
-Unchanged from 7/10: the DCF does not support adding to NVDA at ~$208, and the position (currently ~$5 notional, cost basis $201.40) isn't worth trading out of on valuation grounds alone given the "no trade without a fresh catalyst" discipline. Nothing this run changes that read.
+Unchanged from 7/13: the DCF does not support adding to NVDA at ~$207.57, and the existing ~$5 notional position (cost basis $201.40) isn't worth trading out of on valuation grounds alone given the "no trade without a fresh catalyst" discipline already established in state.md. Nothing this run changes that read.
 
-## Explicit read on MU as a potential new position
-If the trader is weighing GS's #1 pick as the vehicle for deploying idle capital, my model is a clear, loud **no** on valuation grounds — independent of GS's own entry-timing caveat (macro shock in progress) or the sector-wide selloff context. This isn't a "wait for a better entry" call like OMCL was in the 7/12 cross-analyst synthesis; it's a "the entry price would need to be dramatically lower, not just modestly lower, for the DCF to clear" call. Of GS's current top-3 (MU, AVGO, OMCL), I have not yet built AVGO or re-underwritten OMCL this cycle — flagging that gap for a future run rather than implying a comparative verdict I haven't done the work for yet.
+## Explicit read on OMCL as a potential new position
+If the trader is weighing GS's #1 pick as the vehicle for deploying idle capital, my model says **yes, on valuation grounds** — a genuine, if modest, first for this persona's coverage of GS's top idea. This is not a valuation veto the way MU was. Whether *today* is the right entry (geopolitical macro-timing, position sizing, the falsifiable trigger framework already running in state.md) is the trader's discipline to apply, not mine — but if that framework's conditions clear, the DCF is not the thing standing in the way this time.

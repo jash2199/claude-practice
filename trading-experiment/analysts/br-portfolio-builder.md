@@ -1,143 +1,118 @@
 # BR Portfolio Builder — Investment Policy Report
-**Date: 2026-07-27 (Monday, ~16:12 ET, post-close — first update since 7/24 ~16:05 ET, spanning the full weekend)**
+**Date: 2026-07-28 (Tuesday, ~16:12 ET)**
 
-*Persona: BlackRock portfolio strategist for the "Claude Robinhood Trader" — $50 base + accumulated profits, aggressive risk tolerance, equities/ETFs only, fractional shares. This report is the long-view discipline: judge the book against policy, not the news cycle. Figures below use the trader's own latest live Robinhood-verified read (state.md, 2026-07-27 ~15:36 ET check-in, the day's final check-in before the 16:00 ET close — total_value $99.0476, cash $64.00, equity $35.0476, trading pool ~$49.05), cross-checked against today's BW (14:42 ET), GS (three updates, latest ~15:45 ET), MS (10:35 ET) and JPM (09:15 ET) reports, not independently re-pulled, per standing rule 4. This report directly answers BW's explicit 7/27 ask: this desk's own analysis was ~3-4.5 days stale over the weekend and needed refreshing before the 7/31 VTI→VXUS time-box this desk authored arrives.*
-
----
-
-## Biggest gap, up front
-
-**The 7/31 VTI→VXUS time-box is now 4 days out, and this desk's read after a full weekend-plus-today refresh is: hold the line, execute as written, do not pull it forward.** VTI is still ~36.2% of the trading pool / ~50.6% of invested equity — ~11pp over its own 25% core sub-target, unchanged in substance since 7/24. Nothing this weekend or today creates a reason to act early: no fresh capital-allocation catalyst, and the two live binary events sitting directly in front of the time-box (FOMC 7/28-29, OMCL print 7/30) are exactly why this desk built the delay in the first place — reallocating capital into international equities the same week as a Fed decision and an earnings-tail event is timing risk this book doesn't need to take on for its own sake. **Execute the ~$8 VXUS top-up at the first run on/after 2026-07-31, unchanged.**
-
-Second, and now genuinely close: the open 3rd-satellite slot (XLE) remains at exactly $0 but is the nearest it has ever been to its entry trigger — $58.485 as of the 15:36 ET close-adjacent check, just **$0.485** above the $58 zone top. MS's fresh oil-adjusted DCF (delivered today, the specific re-read this desk and GS both asked for) found the overvaluation gap *narrowed* to ~13.8% from ~19.3%, a genuinely counterintuitive result given the weekend's oil de-escalation — the consensus normalization band MS anchors to moved up (GS's own Q4'26 Brent forecast, $71→$80) roughly as much as spot moved down. Cross-vetting is now cleanly cleared; only price discipline remains. **No chase today — the zone hasn't been touched.**
-
-Third, new this cycle and worth naming plainly even though it doesn't change any allocation call yet: **CXMT's IPO (a Chinese state-backed memory chipmaker, ~466% debut pop, ~$488B market cap, global DRAM share jumping from 4.7% to 7.6% in one quarter) is a genuine structural competitive development for the semiconductor complex this book is exposed to via NVDA directly and VTI/VXUS indirectly (tech look-through).** It is not, on its own, a reason to trim anything today — it's a competitive-landscape data point, not a confirmed revenue/margin hit to NVDA specifically — but this desk is flagging it as the first *fundamental* thread (as opposed to a purely macro/financing-optics one) behind this week's chip-sector rotation, worth tracking into MS's next NVDA DCF cycle.
+*Persona: BlackRock-style portfolio strategist for the "Claude Robinhood Trader" — $50 base + accumulated profits inside a ~$100 taxable cash account, aggressive risk tolerance, short-to-medium horizon with a long-run compounding ambition, equities/ETFs only, fractional shares available. Prior BR report: 2026-07-27 ~16:12 ET (~24 hours stale — BW flagged this explicitly in its 14:42 ET report and asked for a fresh read before tomorrow's FOMC; this is that read). Portfolio figures below are sourced from BW's 7/28 ~14:42 ET live `get_portfolio` read (the most recent available) — I do not have direct Robinhood access; per house rule 4, treat any figure here as one refresh-cycle old and re-verify live before executing anything sizing-relevant.*
 
 ---
 
-## Current book vs. target allocation
+## TOP OF REPORT — single biggest gap vs. policy
 
-*Figures as of the trader's ~15:36 ET live read (trading pool $49.0476 = equity $35.0476 + deployable cash $14.00), reconstructed from confirmed share lots at that check-in's quoted prices.*
+**VXUS is the most underweight line in the book (~16.1% of pool vs. a ~25% core sub-target, a ~8.9pp gap) — narrowly the largest single deviation, just ahead of cash sitting ~8.3pp above its 10% target.** These two gaps are not independent: they are the same unresolved decision. The trader has been holding ~$9 of idle cash specifically to fund the VTI→VXUS rebalance I flagged on 2026-07-23, with an explicit 7/31 time-box I set myself. That time-box is now **3 days out (Friday 7/31)** and — by design, not accident — falls the day after both live binary catalysts (FOMC 7/29, OMCL earnings 7/30) clear. **My policy recommendation: do not act early.** Closing this gap the moment both events resolve is the correct sequencing, not a delay. If 7/31 arrives and the gap is still unresolved, that is the point to force the decision rather than let the time-box lapse silently (per the book's own falsifiable-trigger discipline, rule 7 in Strategy & theories).
 
-| Sleeve/ticker | Target | Target $ | Current % (of pool) | Current $ | Gap |
-|---|---|---|---|---|---|
-| **Core total** | 55% | $26.98 | 52.4% | $25.72 | -$1.26 (essentially closed, unchanged) |
-| — VTI | 25% | $12.26 | 36.2% | $17.74 | **+$5.48 over — unchanged, time-boxed to 7/31 (4 days out)** |
-| — VXUS | 15% | $7.36 | 16.3% | $7.98 | +$0.62 (immaterial, on target) |
-| — 3rd core fund (SCHG/QQQM) | 15% | $7.36 | 0% | $0 | -$7.36 (still correctly unopened) |
-| **Satellite total** | 35% | $17.17 | 19.0% | $9.33 | -$7.84 |
-| — NVDA | ~10-12% | ~$4.90-5.89 | 10.0% | $4.91 | on target, drift-neutral, concentration trigger unaffected |
-| — OMCL | ~10-12% | ~$4.90-5.89 | 9.0% | $4.43 | below sub-target — mechanical, price-driven, not a sizing signal |
-| — 3rd satellite (XLE candidate) | ~10% | $4.90 | 0% | $0 | **-$4.90 — closest yet to firing, still not touched** |
-| **Cash** | 10% | $4.90 | 28.5% | $14.00 | +$9.10 over, held deliberately through the FOMC/OMCL window, time-boxed release 7/31 |
-
-No material change in the allocation numbers themselves versus 7/24 — the ~$0.04 pool move over the entire weekend-plus-Monday window is broad-based price drift (NVDA down sharply on the chip rotation, VTI/VXUS up on the oil-relief rally, OMCL up on its own bounce), not a trade. The story this cycle is entirely process and monitoring: confirming the 7/31 time-box holds, and registering how close XLE has come without firing.
+Secondary note: VTI alone is 36.1% of pool / 44.3% of equity — 6.1pp over its own 30% sub-target and the largest single position in the book by a wide margin. The VTI→VXUS rebalance addresses both gaps simultaneously: it is a within-core reallocation, not new net core buying.
 
 ---
 
-## Recommended allocation table (specific tickers)
+## 1. Recommended allocation vs. current book
 
-| Sleeve | Ticker | Role | Target weight | Notes |
-|---|---|---|---|---|
-| Core | VTI (held) | Broad US total market | ~25% | Overweight by ~11pp. **No forced trim** — time-boxed to 7/31, 4 days out, unchanged. |
-| Core | VXUS (held) | Total international (ex-US) | ~15% | Default next core dollar. The 7/31 time-box is the operative discipline, superseding the FOMC/OMCL-window hold once that date arrives. |
-| Core | SCHG or QQQM | US large-cap/Nasdaq growth | ~15% | Still unopened, still last-priority — would compound this book's ~38-39% blended Technology look-through, a risk factor today's CXMT-driven chip rotation just re-illustrated. |
-| Satellite | NVDA (existing) | AI-compute | ~10-12% | **Hold, no add.** MS's DCF gap narrowed further to ~26.8% overvalued on today's price weakness — mechanical, not a fundamental reassessment. Concentration ~10.0% of pool/~14.0% of equity, comfortably below the 18-20% trigger and shrinking further, though on a real dollar loss, not a de-risking. |
-| Satellite | OMCL (existing) | Healthcare-tech diversifier | ~10-12% (currently 9.0%) | **Hold, no add or trim.** Zero structural catalyst found by any of five desks across four-plus consecutive cycles. Rule 4 (no same-minute decisions) governs into the 7/30 print, 3 days out. |
-| Satellite | **XLE (Energy Select Sector SPDR) — candidate** | Energy-sector hedge/diversifier | ~10%, cap | **Standing trigger unchanged: $55-58 entry zone, $5 half-size, hard 2026-08-14 time-box.** MS's fresh DCF clears cross-vetting (~13.8% overvalued, narrowed from ~19.3%). Price is the closest it has been all cycle ($58.485, $0.485 from the zone) — still not fired. Do not chase, do not resize, do not abandon. |
-| Cash | — | Dry powder | ~10% | 28.5% of pool. Held through the FOMC (7/29)/OMCL (7/30) window — explicit 7/31 release date, unchanged, 4 days out. |
+Trading-book value (per BW's 7/28 ~14:42 ET read): **pool ≈ $49.11** = equity $40.11 + deployable cash $9.00. (Reserve: a further ~$50 untouchable, per Jash's 7/10 clarification — excluded from all percentages below.)
 
-*Execution note unchanged: at ~$49 scale, hitting these percentages exactly is not urgent — this is the compass for new deployable cash and profit reinvestment, not a mandate to unwind existing positions today.*
+| Sleeve | Ticker | Role | Target % | Current % | Current $ | Gap |
+|---|---|---|---|---|---|---|
+| Core | VTI (Vanguard Total Stock Market) | Core — broad US equity | 30% | 36.14% | ~$17.75 | **+6.14pp OVER** |
+| Core | VXUS (Vanguard Total International) | Core — ex-US diversifier | 25% | 16.14% | ~$7.93 | **−8.86pp UNDER (largest gap)** |
+| Satellite | NVDA | Satellite — single-name AI/semis conviction | 15% (soft cap 18-20%) | 9.96% | ~$4.89 | −5.04pp under (drifted down mechanically on the chip rout, not a decision) |
+| Satellite | OMCL | Satellite — healthcare-tech diversifier, half-size | 10% | 9.23% | ~$4.53 | −0.77pp ~on target |
+| Satellite | XLE (Energy Select Sector SPDR) | Satellite — energy/oil-cycle diversifier, half-size, day-1 position | 10% | 10.20% | ~$5.01 | +0.20pp ~on target |
+| Cash | — | Dry powder / event-window buffer | 10% | 18.33% | ~$9.00 | **+8.33pp OVER (2nd largest gap)** |
+| **Total** | | | **100%** | **100%** | **~$49.11** | |
 
----
-
-## Expected return & risk profile
-
-- **Expected annual return range**: 12-20% average annual over a full cycle, unchanged.
-- **Expected maximum drawdown in a bad year**: standing **35-50%** band at the equity-sleeve level, unchanged. BW's risk grade holds at **D** for a third straight day. Today's move is a genuine wash by BW's own framing: NVDA/chip risk got both bigger in magnitude (-5.10% intraday, worst since the sector rotation began) and better-understood in mechanism (confirmed sector-wide, plus today's CXMT-specific competitive angle this desk flags above); the FOMC-odds sourcing conflict resolved cleanly lower (~34.7% July-specific hike odds, not the ~46.5% top-end read); a fresh Houthi-strike finding (Jizan/Yanbu, 7/25) argues the oil relief is more fragile than the weekend's headlines conveyed. None of the structural gaps — zero energy hedge, VTI overweight, this desk's own staleness — closed until today. Pool-level estimate (equity + the ~28.5% cash cushion) stays **~25-31%** drawdown — the cash buffer remains the one structural improvement in this metric, doing its job through a 72-hour window that still contains two live binary catalysts.
+**Core / Satellite / Cash roll-up**: Core 55% target vs. 52.3% actual (−2.7pp); Satellite 35% target vs. 29.4% actual (−5.6pp); Cash 10% target vs. 18.3% actual (+8.3pp). The roll-up understates the real story — within Core, VTI and VXUS are each ~7-9pp off their own sub-targets in opposite directions, which nets out to a small headline Core gap while masking a real concentration issue (see §2).
 
 ---
 
-## Rebalancing schedule & triggers
+## 2. Core vs. satellite discipline — status check
 
-1. **Calendar**: quarterly review, next ~2026-10-10.
-2. **Trigger 1 — concentration cap**: any single satellite position exceeding 20% face value (15% while inside an earnings window or valuation stretch) → trim toward target. NVDA ~10.0%, OMCL ~9.0% — neither tripped.
-3. **Trigger 2 — core drift**: combined core sleeve drifting >10pp from 55% target → rebalance next run. Core at 52.4% vs. 55% (-2.6pp) — still effectively closed.
-4. **Trigger 2b — intra-core imbalance**: any single core fund >10pp over its own sub-target → default all subsequent core dollars to the underweight fund. VTI still +11.2pp over its 25% sub-target — **time-boxed to the first run on/after 7/31, now 4 days out, unchanged.**
-5. **Trigger 3 — cash floor**: deployable cash >25% of book for 2+ consecutive cycles with no fresh catalyst deployed → revisit entry-bar calibration. Status: 28.5%, held deliberately through the FOMC/OMCL window — the 7/31 time-box remains this desk's answer.
-6. **Trigger 4 — single-name organic-drift review**: any satellite position's equity weight crossing ~18-20% purely on price action → mandatory trim-review at the next run. Currently live only for NVDA (~10.0% of pool/~14.0% of equity), comfortably below and falling further on price weakness.
-7. **Trigger 5 — OMCL $40 mandatory re-read**: fired and resolved 7/23 (HOLD, no structural break). Not reopened since. Rule 4 (no same-minute decisions on the 7/30 print, 3 days out) is the operative discipline going forward.
-8. **XLE entry trigger**: $55-58 zone, $5 half-size, hard 2026-08-14 time-box. Not fired — closest live check yet ($58.485, $0.485 above the zone) still short.
+- **Core (VTI + VXUS, target 55% of pool)**: functioning as designed in aggregate, but internally unbalanced. VTI has absorbed every core dollar deployed since 7/21 (two buys) while VXUS has had exactly one entry (7/16) and not been topped up since — the imbalance is a sequencing artifact of entry-discipline timing (VTI kept being "more underweight" on the days cash was available), not a rejection of VXUS. This is exactly the situation my 7/23 rebalance plan was written for.
+- **Satellite (NVDA + OMCL + XLE, target 35% of pool, now three names for the first time)**: this is a genuine structural milestone — as BW noted in its 14:42 ET report, today is the first day this book has held three distinct, largely uncorrelated sector exposures (tech/AI, healthcare, energy) rather than two. All three satellite positions are within or near their individual soft caps; none needs trimming. NVDA's underweight is pure price drift (the chip-sector rout), not a signal — do not chase it back to target by buying into a still-unresolved sector rout (rule 2).
+- **Cash (target 10%)**: correctly and deliberately overweight right now. This is not drift, it's policy — BR's own standing plan has been to hold through the FOMC/OMCL window. The overweight should resolve itself the moment the VXUS top-up executes, which is exactly when it's supposed to.
 
 ---
 
-## Tax efficiency strategy (taxable account)
+## 3. Expected annual return range (historical basis)
 
-Unchanged in substance: long-term capital gains/qualified dividends taxed at 0%/15%/20% federal brackets, short-term gains as ordinary income. At ~$49-100 scale the dollar impact stays immaterial, but the habits matter for when the book scales:
-- VTI's two tax lots (7/15/2026, long-term 7/15/2027; 7/21/2026, long-term 7/21/2027) — any future partial trim defaults to the oldest lot first absent a specific tax reason otherwise.
-- VXUS's single lot (7/16/2026) turns long-term 7/16/2027; OMCL's (7/17/2026) turns long-term 7/17/2027; NVDA's (7/9/2026) turns long-term 7/9/2027.
-- Core sleeve stays low-turnover by construction.
-- Satellite sleeve is the only venue for shorter-hold trading, and only on a genuine catalyst — the 7/30 OMCL print is the live test, 3 days out.
-- No opportunistic loss-harvesting candidates today — OMCL is down from cost but is a live, undecided position ahead of a binary catalyst, not a harvest-and-replace candidate; harvesting into the print would be a disguised sell decision under rule 4. NVDA is up from its $201.40 avg cost despite today's slide, so no harvest case there either.
-- A future XLE lot (if the trigger fires) would start a fresh holding-period clock — worth noting now so it isn't a surprise later.
+| Holding | Basis | Expected range (long-run, annualized) |
+|---|---|---|
+| VTI | US total-market index, ~97-year S&P-proxy history | ~9-11% nominal, with real bad-decade outcomes as low as 0-4% |
+| VXUS | Developed + EM ex-US index | ~6-9% nominal; wider dispersion than VTI, currency-adjusted |
+| NVDA | Single-name, AI/semis hypergrowth — MS's own DCF (~$150.6 fair value) implies the stock has been trading well above what a disciplined 11%/3% WACC/g build supports | Historically 25-40%+ CAGR over the past decade; **not a sustainable forward baseline** — treat any single-year projection above ~15-20% as reflecting continued multiple expansion, not base-case fundamentals |
+| OMCL | Small/mid-cap healthcare-tech, high earnings-day beta (±15-21% single-day moves per JPM's reaction history) | ~8-15% long-run, with genuine two-sided binary risk around each print |
+| XLE | Energy sector basket, oil-cycle-driven | ~5-9% long-run with high cyclical variance; can swing to +30%/-30% single years depending on the commodity cycle |
 
-## Dollar-cost-averaging plan for redeploying profits
+**Blended portfolio expectation at current weights**: roughly **10-14% annualized** over a full market cycle, with materially more dispersion around that midpoint than a plain 60/40 or all-core portfolio would carry — consistent with the client's stated aggressive risk tolerance, but worth restating plainly: this is a return range with a genuinely fat left tail, not a smooth compounding path.
 
-- Trigger: each time cumulative profit since the last deployment exceeds ~$5 (10% of current book, scales with book size), deploy into whichever sleeve/ticker is currently most underweight relative to its own target — still unambiguously VXUS.
-- **Timing overlay, unchanged**: hold the ~$14 deployable cash through the FOMC (7/29) and OMCL (7/30) window. If no profit-threshold or early-exit condition fires sooner, the VXUS top-up (~$8) executes at the first run on/after 7/31 regardless of that morning's headlines.
-- No meaningful realized-profit pool currently exists to trigger this on its own terms — any near-term deployment (VXUS or a future XLE entry) would be fresh capital, not reinvested gains.
+## 4. Expected maximum drawdown in a bad year
 
----
+Cross-checked against BW's 7/28 recession stress test (pool-level ~-35.9%, equity-sleeve-only ~-43.9%, both computed at today's live weights): my own independent read, using standard severe-bear-market drawdown assumptions by asset class, lands in the same range. **Policy guidance: in a genuinely bad year (2022-style multiple compression, or worse), expect the equity sleeve to draw down 30-45%, and the pool (including the cash cushion) to draw down 20-30%.** This is within the client's stated aggressive tolerance, but the cash-buffer discipline (holding 10% target dry powder, more during binary-event windows) is precisely the mechanism that keeps the pool-level number meaningfully below the equity-sleeve number — it is doing real work, not just sitting idle.
 
-## Areas to watch — macro/policy update (independent research this cycle)
+## 5. Rebalancing schedule and trigger rules
 
-- **FOMC (7/28-29) is now 1-2 days out.** Fresh independent check this cycle (CME FedWatch-sourced): consensus continues to favor a hold at the current 3.50-3.75% range — one source reads ~65% no-change probability, another ~79.5% — both consistent with BW's own independently-resolved ~34.7% July-specific hike figure (the higher ~46.5% number in circulation this weekend was conflating the July decision with cumulative odds by mid-September, now ~82%). This is a **non-SEP meeting** — no updated dot plot, meaning Chair Warsh's 2:30pm ET press-conference language carries more repricing weight than usual relative to the statement itself. No change to this book's cash-hold-through-the-window discipline. [TradingKey: Fed July FOMC Meeting Preview](https://www.tradingkey.com/analysis/stocks/us-stocks/262054021-july-fomc-fed-oil-us-oil-tradingkey) / [CME Litegroup: FOMC Meeting July 28-29](https://www.cmelitegroup.com/knowledge-hub/fomc-meeting-fed-decision-day/)
-- **CXMT's record Shanghai IPO (today, 7/27) is a genuine structural data point for this book's tech/semiconductor look-through, not just a one-day rotation trigger.** A state-backed Chinese memory chipmaker raised $8.6-10B, closed up ~466-470% on debut, and now carries a ~$488B market cap — China's most valuable listed company, on the heaviest A-share volume day on record. Fresh WebSearch also surfaces reports that a separate state-backed Chinese firm has begun mass production of domestic DUV lithography equipment — a second, distinct supply-chain-independence data point landing the same day. Neither is a reason to trim NVDA today (no confirmed revenue/margin impact, per MS), but both sharpen the "not just financing-optics" thread behind this week's chip-sector weakness and are worth carrying into the next NVDA DCF cycle as a genuine competitive/geopolitical input, not noise. [24/7 Wall St: Markets Rise as Oil Prices Fall But Chip Stocks Drop on China's Competitive Threat](https://247wallst.com/investing/2026/07/27/live-nasdaq-composite-markets-rise-as-oil-prices-fall-but-chip-stocks-drop-on-chinas-competitive-threat/) / [Fool: Dow Jones Holds Gains While S&P 500 Turns Negative on Semiconductor Weakness](https://www.fool.com/investing/2026/07/27/dow-jones-holds-gains-while-sp-500-turns-negative/)
-- **Market close, 7/27**: Dow +0.5% (51,947.25), S&P +0.1% (7,411.98), Nasdaq negative on the chip-driven tech selloff — its worst intraday level in 2.5 months per GS. Weekly: Dow -0.4%, S&P/Nasdaq both down a second straight week (-0.6%/-2%). Brent settled ~$96.78 on the Pakistan-mediated US-Iran peace-talk reports, a partial retracement from the weekend's ~$88-90 low but still well off the pre-weekend ~$100 print — consistent with every desk's "partial, still-fragile de-escalation" framing, not a fresh signal either way for the XLE trigger. [CNBC: S&P 500 falls despite Iran fighting pause as chip stocks tumble](https://www.cnbc.com/2026/07/26/stock-market-today-live-updates.html)
-- **The broader WEF policy-risk framing this desk has carried since 7/24 (energy-transition capital/readiness disconnect, tariff fragmentation) remains the operative backdrop and is reinforced, not superseded, by a fresh check this cycle**: chief-economist surveys continue to flag rising volatility expectations across public debt (74%), private debt (79%), and equity markets (68%) over the next year, alongside continued use of trade measures for non-economic objectives — consistent with treating this book's diversified core (VTI/VXUS) as the primary tool against broad fragmentation risk, and a dedicated, disciplined XLE hedge as the tool for the oil-specific leg once price cooperates. [WEF: Global Economic Outlook Hangs in Balance between Geopolitical Headwinds and AI boost](https://www.weforum.org/press/2026/05/global-economic-outlook-hangs-in-balance-between-geopolitical-headwinds-and-ai-boost-chief-economists-warn/)
-- **Capital-gains tax law remains stable for 2026** — no change to this book's tax-efficiency playbook.
-- **The OMCL WebSearch data-quality gap** persists as a standing, multi-desk-confirmed issue (9+ consecutive cycles), though JPM flagged a single 7/22-dated data point this cycle landing close to the Robinhood-verified range for the first time in a month — noted, not treated as resolved. Unchanged instruction: never size off a WebSearch price for OMCL, verify live via Robinhood only.
+1. **Calendar cadence**: with the book now past its initial four-week buildout phase (five positions live, three satellite slots filled), move from ad hoc/event-driven rebalancing to a **standing bi-weekly allocation check** at a designated Monday-morning run, in addition to any trigger-fired reviews below. This is a lighter cadence than the daily intraday checks other desks run for price/risk purposes — allocation drift doesn't need daily attention, only price/risk does.
+2. **Drift trigger**: any single position drifting more than **5pp from its own target %** (not just the sleeve total) flags for review at the next scheduled run — this catches exactly the VTI/VXUS imbalance current allocation shows, which a pure Core-vs-Satellite roll-up would have missed.
+3. **Satellite concentration trigger** (existing, unchanged): NVDA (or any single satellite name) crossing ~18-20% of equity forces a mandatory trim review — currently well clear at 12.2%.
+4. **Falsifiable-trigger discipline** (existing, unchanged): any open rebalance plan gets a hard time-box up front, honored even under pressure — the VTI→VXUS 7/31 box is the live example; if it fires without execution, that itself becomes the next run's lead item, not a silent extension.
+5. **No rebalancing into a live binary catalyst**: do not execute the VXUS top-up, or any other core rebalance, in the window between now and the FOMC (7/29 2pm) or the OMCL print (7/30 pre-open) — consistent with rule 1 (no fresh-catalyst trades) and rule 2 (don't chase/react same-tick).
+
+## 6. Tax efficiency strategy (taxable cash account)
+
+- **Every position in this book is currently short-term** — the oldest holding (NVDA, entered 7/9) is roughly 3 weeks old, nowhere near the 1-year long-term threshold (first eligible: ~2027-07-09). Any gain realized today, on any position, is taxed as ordinary income, not at the more favorable long-term capital-gains rate. This matters most for NVDA and OMCL, the two positions with the widest single-day swings and thus the highest odds of a near-term forced decision.
+- **Core sleeve (VTI/VXUS) is inherently tax-efficient by design** — low turnover, qualified dividends, broad diversification reduces the odds of ever needing to sell a single name at an inopportune moment. The buy-and-hold posture already in place for both is correct; no change recommended.
+- **Tax-loss harvesting readiness**: if OMCL's 7/30 print triggers a structural-break sell per the contingency plan, or if XLE's oil-cycle thesis breaks down, either would currently be sold at a modest short-term loss — usable to offset any short-term gain elsewhere in the book (e.g., NVDA, if it's ever trimmed on the concentration trigger while still net-positive). Keep this pairing in mind rather than treating each position's tax consequence in isolation.
+- **Wash-sale discipline**: if a satellite position is ever sold at a loss, do not re-buy the same ticker within 30 days — a real constraint to keep in mind given how the book's own entry discipline (pullback-only entries) could otherwise tempt a same-week re-entry.
+- **Materiality caveat**: at ~$49 deployed, the actual tax dollar impact today is trivial. This section exists to establish the discipline now, before the account scales — the goal per the client profile is compounding into a long-running track record, and tax discipline compounds too.
+
+## 7. Dollar-cost-averaging plan for redeploying profits
+
+1. **Next dollar goes to VXUS**, sized **$5-8** (half-to-full standard tranche, consistent with prior core-sleeve buys), executed at the first scheduled run after both the FOMC (7/29) and OMCL print (7/30) have cleared — realistically the 7/30 afternoon run or the 7/31 open, whichever comes first and shows a non-extended VXUS entry point (rule 2: no chasing a post-FOMC relief rally).
+2. **After VXUS closes to within ~2-3pp of its 25% target**, resume the standard "whichever core leg is more underweight" rule for any further core dollars — do not let VTI re-accumulate the same imbalance by defaulting to it out of habit.
+3. **Satellite DCA**: no new satellite dollars recommended until NVDA, OMCL, and XLE have each had a full quarter (or one earnings cycle, for OMCL) to establish a track record at current sizing. A fourth satellite slot is not currently recommended — three uncorrelated exposures at half-to-target size is the right amount of satellite diversification for a ~$49 pool; a fourth would push individual position sizes below the point where transaction/spread costs are worth it on this account size.
+4. **Cash floor going forward**: once the VXUS top-up executes, target cash should mechanically fall back toward the 10% policy target (~$4-5 at current pool size). Do not let it drift back up passively — if a future run shows cash re-accumulating above ~15% for more than a few cycles with no live binary-event justification, that itself should trigger a fresh deployment review under rule 7's falsifiable-trigger discipline.
+
+## 8. Areas to consider from recent WEF / macro-policy discussion (fresh WebSearch this run)
+
+- **AI capex as a macro force, with real bubble risk flagged even by its proponents.** Davos 2026's Chief Economists' Outlook frames AI capex as now driving growth and productivity broadly, but explicitly flags the "jaw-dropping" ratio of capex to revenue still needing to be created, and names an AI bubble as a live concern, not a fringe one. This directly bears on this book's largest look-through exposure: VTI's own ~42% technology weight plus NVDA's satellite position both sit on the same macro thesis this commentary is warning about. **Policy read: this reinforces, rather than changes, the existing NVDA concentration cap and the "don't chase the AI-capex trade on relief rallies" discipline already in place — it's independent confirmation the caution is well-founded, not a reason to trim further today.**
+- **Tariff risk is easing, not worsening.** The 2026 Chief Economists' Outlook found tariff impact milder than feared, aided by an easing of US-China tensions — a mild positive for VXUS's international/EM exposure specifically, and a data point against any defensive de-risking of the international sleeve. This supports, rather than undercuts, closing the VXUS underweight.
+- **Sticky core inflation is explicitly flagged as limiting the Fed's flexibility** — directly relevant to tomorrow's FOMC. Multiple sources this run put the no-hike probability at roughly 60-65%, with real dispersion (some reads as low as ~53%, others citing a wide 38-47% hike-odds band) — not a settled consensus. This is a live binary risk, not background noise, and is the correct reason to hold the VXUS rebalance one more day rather than execute it today.
+- **A two-speed global recovery** is the Davos frame for 2026 more broadly — some economies/sectors accelerating (AI-linked), others lagging. This is itself an argument *for* maintaining genuine geographic diversification (VXUS) rather than concentrating further in the US/tech-led growth story that VTI and NVDA both already carry meaningful exposure to.
 
 ---
 
 ## One-page Investment Policy Statement (for the trader to follow)
 
-**Objective**: Compound a $50 base + accumulated profits into a long-running, disciplined equity track record. Growth-first, but not undiversified.
+**Client**: Claude Robinhood Trader experiment. Capital: $50 base + accumulated profits, inside a ~$100 taxable cash account (the ~$50 beyond trading capital is untouchable reserve). Risk tolerance: aggressive. Horizon: short-to-medium, with an explicit goal of compounding into a long-running track record. Universe: equities/ETFs only, no options, fractional shares available.
 
-**Time horizon**: Short-to-medium term trades within a long-term compounding frame. No forced liquidity needs.
+**Target allocation** (of the ~$49 trading pool): Core 55% (VTI 30% / VXUS 25%) — Satellite 35% (NVDA 15% soft-capped at 18-20%, OMCL 10%, XLE 10%) — Cash 10% (higher during live binary-event windows, by design).
 
-**Risk tolerance**: Aggressive. Max single-name satellite weight 20% face value (soft cap, temporarily 15% inside a live earnings window or widening valuation stretch). Any satellite name whose equity weight organically drifts past ~18-20% on price alone triggers a mandatory trim-review — currently tracking NVDA (~14.0% of equity), comfortably below and falling. Max drawdown tolerance in a bad year: 35-50% at the sleeve level / ~25-31% at the pool level (cash-cushion-adjusted).
+**Standing rules** (see Strategy & theories in state.md for full detail, rules 1-10): no trade without a fresh catalyst; never chase an extended move; diversified-basket buys are exempt from the single-name geopolitical veto; always verify price live via Robinhood before sizing; a DCF "sharply overvalued" call is a hard pass; new ideas need a full cross-vetting cycle before sizing; open theses get a falsifiable trigger with a hard time-box; look-through concentration matters more than headline allocation.
 
-**Constraints**: Equities/ETFs only, no options, no margin. Taxable account — mind lot-level holding periods (VTI 7/15/2027 & 7/21/2027; VXUS 7/16/2027; OMCL 7/17/2027; NVDA 7/9/2027) and wash-sale rules. $50 reserve beyond the trading book is untouchable.
+**Current live decision point**: VTI→VXUS rebalance, time-boxed to 2026-07-31, to be executed the first clean (non-chased) opportunity after the FOMC (7/29) and OMCL print (7/30) both clear.
 
-**Target allocation**: 55% core (VTI ~25% target, currently **overweight at 36.2%, time-boxed to 7/31, 4 days out** / VXUS ~15%, on target / SCHG-or-QQQM ~15%, unopened) / 35% satellite (max 3 names, 10-15% each — NVDA held under the concentration-drift trigger, OMCL held under the 7/30 earnings-tail watch, **XLE the sole candidate for the open 3rd slot — cross-vetting cleared, closest-yet price at $58.485, $5 half-size at $55-58, hard 8/14 time-box**) / 10% cash buffer (currently 28.5%, held through the 7/29 FOMC / 7/30 OMCL window, released on the 7/31 time-box).
-
-**Rebalancing**: Quarterly review + trigger-based (concentration cap, 10pp aggregate core drift, intra-core imbalance time-boxed to 7/31, 25%-cash-for-2-cycles flag, the organic-drift trigger for any satellite name crossing ~18-20% on price alone, the OMCL $40 mandatory-re-read trigger [fired/resolved 7/23], and the XLE $55-58/$5/8-14 entry trigger).
-
-**Tax approach**: Low-turnover core with lot-level tracking, long-term-hold bias on satellite trims when indifferent, opportunistic loss harvesting respecting the 30-day wash-sale rule — not applied to OMCL currently, since a live undecided position ahead of a binary catalyst isn't a harvest candidate, and not applicable to NVDA, which remains up from cost.
-
-**Deployment discipline**: New profit increments (~$5 threshold, scaling with book size) go to the most underweight sleeve/ticker relative to its own target — currently VXUS — held in reserve through the 7/29 FOMC / 7/30 OMCL compounding window, hard release date first run on/after 7/31 absent an earlier trigger.
-
-**Review cadence**: This IPS is re-validated each run against the live book in state.md; material target changes require an explicit rationale, not drift-by-inaction. **Material change this cycle: this is the first refresh since 7/24 (a ~3-4.5-day gap flagged by BW as a process risk) — reaffirms every standing target and trigger unchanged after incorporating the weekend's US-Iran pause, the Houthi Aramco strike, MS's fresh XLE re-read, and today's CXMT-driven chip rotation. No target changed; the 7/31 time-box is confirmed, not pulled forward.**
-
-**Standing instruction to the trader**: hold NVDA and OMCL unchanged through their respective catalysts (FOMC 7/28-29, OMCL print 7/30 under contingency-plan rule 4 — no same-minute decisions). Deploy the ~$14 deployable cash into VXUS (~$8) at the first run on/after 2026-07-31 regardless of that morning's headlines, unless an earlier profit-threshold or cash-ceiling trigger fires first. Execute the pre-committed $5 XLE buy the moment it trades in the $55-58 zone, and only then — do not chase, do not resize, and do not let the 8/14 time-box slide without an explicit revisit if it never fires.
+**Review cadence**: bi-weekly standing allocation check, plus trigger-fired reviews on >5pp single-position drift, satellite concentration crossing 18-20%, or any pre-committed time-box reaching its deadline.
 
 ---
 
 ## Cross-check with other analysts
-
-- **BW (7/27, 14:42 ET, grade D, unchanged)**: this report directly answers BW's explicit ask for a fresh BR view before the 7/31 time-box arrives, incorporating BW's own findings on the resolved FOMC-odds sourcing conflict, the Houthi Jizan/Yanbu spike, and today's confirmed sector-wide chip rotation. Full agreement: hold all four positions, execute the 7/31 time-box as written, do not chase XLE.
-- **GS (7/27, three updates, latest ~15:45 ET)**: XLE still #1, closest-yet price ($58.485) still not actionable; OMCL still #2, contingency plan intact into 7/30. This desk's macro section independently corroborates GS's CXMT-IPO finding as the specific mechanism behind today's memory-chip leg of the selloff.
-- **MS (7/27, ~10:35 ET)**: the fresh oil-adjusted XLE DCF (gap narrowed to ~13.8%) is the key input behind this report's unchanged "endorse the trigger, don't chase" stance — cross-vetting is now cleanly cleared, price discipline is the only remaining gate. NVDA (~26.8% overvalued, narrowing mechanically) and OMCL (~34.4% undervalued, narrowing on the bounce) both directly inform this report's unchanged hold stance on those two names.
-- **JPM (7/27, 09:15 ET)**: OMCL/GEHC/PTCT catalog unchanged, no new catalyst on any covered name. OMCL's 7/30 print (3 days out) remains the real catalyst, not today's price level.
+- **BW (7/28, ~14:42 ET)**: independently identified the same VTI overweight / VXUS underweight and flagged my own staleness directly — this report is the direct response. Confirms XLE's trigger fired cleanly today and that the satellite sleeve crossing from "well short" to "materially closed" is the most structurally positive allocation move the book has made since inception; I concur and elevated it in §2 above.
+- **MS (7/28, ~10:13 ET)**: NVDA DCF gap narrowed to ~22.5% overvalued purely on price decline, no fundamental change — supports holding, not adding, NVDA even as it sits underweight vs. target; XLE's composite gap narrowed to ~12.1%, consistent with treating the new position as correctly sized, not in need of an early add.
+- **GS (7/28, ~15:45 ET)**: OMCL now #1 "by elimination" with XLE converted to a position; flagged a NVDA WebSearch-vs-Robinhood close-of-day discrepancy worth verifying at the next run but doesn't change this report's allocation-level read.
+- **JPM (7/28, ~09:17 ET)**: confirms OMCL (2 days out) and GEHC/PTCT event calendar unchanged; reinforces this report's "don't rebalance into a live binary catalyst" rule 5.
 
 ---
 
 Sources:
-- [Fed July FOMC Meeting Preview: Rate Hike or No Change? (TradingKey)](https://www.tradingkey.com/analysis/stocks/us-stocks/262054021-july-fomc-fed-oil-us-oil-tradingkey)
-- [FOMC Meeting July 28-29: What to Know About Fed Decision Day (CME Litegroup)](https://www.cmelitegroup.com/knowledge-hub/fomc-meeting-fed-decision-day/)
-- [S&P 500 falls despite Iran fighting pause as chip stocks tumble (CNBC, 7/26)](https://www.cnbc.com/2026/07/26/stock-market-today-live-updates.html)
-- [Stock Market Midday, July 27: Dow Edges Higher as Nvidia Drop Weighs on Nasdaq (Motley Fool)](https://www.fool.com/coverage/stock-market-today/2026/07/27/stock-market-midday-july-27-dow-edges-higher-as-nvidia-drop-weighs-on-nasdaq/)
-- [Dow Jones Holds Gains While S&P 500 Turns Negative on Semiconductor Weakness (Motley Fool)](https://www.fool.com/investing/2026/07/27/dow-jones-holds-gains-while-sp-500-turns-negative/)
-- [Live Nasdaq Composite: Markets Rise as Oil Prices Fall But Chip Stocks Drop on China's Competitive Threat (24/7 Wall St)](https://247wallst.com/investing/2026/07/27/live-nasdaq-composite-markets-rise-as-oil-prices-fall-but-chip-stocks-drop-on-chinas-competitive-threat/)
-- [Global Economic Outlook Hangs in Balance between Geopolitical Headwinds and AI boost (World Economic Forum)](https://www.weforum.org/press/2026/05/global-economic-outlook-hangs-in-balance-between-geopolitical-headwinds-and-ai-boost-chief-economists-warn/)
+- [3 things I learned at Davos 2026 on the future of finance (World Economic Forum)](https://www.weforum.org/stories/financial-and-monetary-systems/3-things-i-learned-at-davos-2026-on-the-future-of-finance/)
+- [Davos 2026: Leaders Tackle Global Order Challenges (European Business Magazine)](https://europeanbusinessmagazine.com/business/davos-2026-world-leaders-confront-a-fracturing-global-order/)
+- [Key Takeaways From Davos 2026 According To Oliver Wyman CEO](https://www.oliverwyman.com/our-expertise/insights/2026/jan/ceo-takeaway-insights-davos-2026.html)
+- [Federal Reserve is likely to hold interest rates steady (CNBC, 2026-07-27)](https://www.cnbc.com/2026/07/27/fed-interest-rates-july.html)
+- [FOMC Meeting July 28-29: What to Know About Fed Decision Day (CME Group)](https://www.cmelitegroup.com/knowledge-hub/fomc-meeting-fed-decision-day/)
+- [What to Expect from the July Fed Meeting (Morningstar)](https://www.morningstar.com/economy/what-expect-july-fed-meeting)

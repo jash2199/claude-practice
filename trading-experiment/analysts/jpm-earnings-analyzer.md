@@ -1,5 +1,5 @@
 # JPM Earnings Analyzer — Latest Report
-**Date: 2026-07-28 (Tuesday, ~09:17 ET, verified via `TZ=America/New_York date`)**
+**Date: 2026-07-29 (Wednesday, ~09:15 ET)**
 
 *Persona: JPMorgan equity research analyst, pre-earnings catalyst calendar for the "Claude Robinhood Trader." Coverage = trader's current holdings (state.md) + GS screener's top-10 (analysts/gs-stock-screener.md). Full brief for each covered name reporting within ~2 weeks, nearest date first, max 3/run. No live Robinhood access — all prices below are WebSearch-sourced; defer to the trader's own Robinhood-verified quote for anything sizing-relevant, per standing rule 4.*
 
@@ -7,79 +7,64 @@
 
 ## Decision summary (top-line)
 
-**Coverage lineup unchanged from 7/27: GE HealthCare (GEHC), Omnicell (OMCL), and PTC Therapeutics (PTCT) — now 1 and 2 days out respectively. This is the last scheduled brief before all three print.** EXEL and OXY remain tied at 8 days out (8/5), still outside the 3-brief cap. Given this is the final pre-print cycle, this report rebuilds full detail (last-4-quarters, segment trends, 5-report reaction history) from fresh sourcing rather than a delta-only refresh, so the trader has one complete reference before results land.
+**GEHC has already reported — this is a same-day post-print brief, not a pre-earnings one.** GE HealthCare released actual Q2 2026 results this morning before the open (call at 8:30am ET, in progress/concluded as this brief is written): a clean beat on both lines, stock +8.8% premarket to ~$69.76. This resolves the multi-cycle "beat but sell off anyway" question this desk has been flagging for GEHC — today the beat held. **OMCL and PTCT are now both 1 day out** (both report tomorrow, 7/30 — OMCL before the open, PTCT after close) — today is the last scheduled brief before either prints, so full detail is preserved below with the OMCL contingency plan's rule 4 ("no same-minute decisions") flagged again for the next run.
 
-1. **GE HealthCare (GEHC) — reports July 29, 2026, before market open, 1 day out.** Not a holding, GS screener #9. No new development since the 7/23 pre-announcement; today's search only surfaced that same 7/23 preliminary-results release recirculating with misleading "beats Q2" headlines (Insider Monkey, Yahoo) — **confirmed stale/mislabeled, this is the already-known 7/23 pre-announcement, not a fresh print** (the actual full Q2 release is still tomorrow). **Recommended play: WAIT — no pre-earnings entry**, unchanged.
-2. **Omnicell (OMCL) — reports July 30, 2026, before market open, 2 days out. LIVE HOLDING** (half-size $5 position, entered 7/17, avg cost $46.99), GS screener's #2 idea. Fifth straight cycle with no structural thesis-break catalyst found. WebSearch price ($43.01) is again running well above the Robinhood-verified figure ($41.93 as of state.md's 7/27 09:36 ET read) — **treat as stale per rule 4, defer to Robinhood.**
-3. **PTC Therapeutics (PTCT) — reports July 30, 2026, 4:30pm ET (after close), 2 days out.** Not a holding, GS screener #5. No material new development; RBC raised its PT to $85 (from $82) on 7/7 and Barclays reaffirmed Buy on 7/8 — both already-known, non-fresh actions, noted for completeness only.
+1. **GE HealthCare (GEHC) — REPORTED TODAY, July 29, 2026, before market open.** Not a holding, GS screener #2 this cycle. **Beat on both lines**: adj. EPS $1.13 vs. $1.04 consensus (+8.65% surprise), revenue $5.295B (+5.7% YoY, +3.5% organic) vs. ~$5.264B consensus. FY26 guidance reaffirmed ($4.80-5.00 adj. EPS). Organic orders +11.1%, book-to-bill 1.15x, $23.9B backlog. **Stock traded up 8.8% to ~$69.76** — the first clean "beat and the stock actually goes up" print in 4 quarters for this name (breaks the "beat but sell off" pattern flagged in every prior JPM cycle). **This closes out GEHC's binary-risk window; no further pre-earnings action applies — not a holding, and the event has already resolved.**
+2. **Omnicell (OMCL) — reports July 30, 2026, before market open, 1 day out. LIVE HOLDING** (half-size ~$5 position, entered 7/17, avg cost $46.99), GS screener's #1 idea. Sixth straight cycle with no structural thesis-break catalyst found — same clean setup as last cycle, now imminent.
+3. **PTC Therapeutics (PTCT) — reports July 30, 2026, 4:30pm ET (after close), 1 day out.** Not a holding, GS screener #6. No material new development since last cycle; still bimodal reaction history with no reliable directional skew.
 
-**Carried forward, not re-briefed:**
-- **Exelixis (EXEL)** — confirmed August 5, 2026, after close, 8 days out. Still outside the nearest-3 window.
-
-**Outside the ~2-week window, unchanged reads:**
-- **Occidental (OXY)** — confirmed August 5, 2026, after close, 8 days out, tied with EXEL, still held out by the 3-brief cap.
+**Carried forward, not re-briefed (outside 3-brief cap / outside 2-week window):**
+- **Exelixis (EXEL)** and **Occidental (OXY)** — both confirmed August 5, 2026, 7 days out, tied, still outside the nearest-3 window. Due for a full re-brief once OMCL/PTCT roll off after tomorrow's prints.
 - CRWD (~Aug 26), AVGO (~Sep 3), ALAB (~Aug 11), MU (~Sep 29) — all outside the window, unchanged.
 - **NVDA (holding)** — no near-term catalyst, next report **August 26, 2026** (unchanged). **VTI and VXUS (holdings)** are diversified ETFs with no single earnings event.
 
-**Explicit flag for the next run**: OMCL and PTCT both report before the next scheduled cycle likely sees them (OMCL before Thursday's open, PTCT Thursday after close) — per the OMCL contingency plan's rule 4 ("no same-minute decisions"), the first run after each print should do a fresh full 5-analyst read, not a same-tick reaction.
+**Explicit flag for the next run**: tomorrow (7/30) both OMCL (before open) and PTCT (after close) print. Per the OMCL contingency plan's rule 4, the first run after each print should do a fresh full 5-analyst read rather than react same-tick to the opening print. Today's GEHC result is a useful real-time data point for that: it shows a "beat but sell off" name can still break its own pattern given the right combination (in-line-to-strong orders/backlog, no fresh guidance cut) — worth keeping in mind when reading OMCL's own historically bimodal reaction tomorrow.
 
 ---
 
-## 1. GE HealthCare (GEHC) — reports **July 29, 2026, before market open** (Q2 2026) — 1 day out
+## 1. GE HealthCare (GEHC) — **REPORTED July 29, 2026, before market open** (Q2 2026)
 
-Not a holding. GS screener #9 (still the cleanest pre-earnings setup on that list per GS's own repeated framing, though this desk continues to disagree with sizing it pre-print).
+Not a holding. GS screener #2 this cycle (up from #9 last week — GS's own report flagged this as still the cleanest pre-earnings setup on its list).
 
-### Last 4 quarters — earnings vs. estimates
+### Last 5 quarters (4 prior + today's actual) — earnings vs. estimates
 | Quarter | Adj. EPS actual vs. est. | Surprise | Revenue actual vs. est. | Reaction |
 |---|---|---|---|---|
-| Q1 2025 (4/30/25) | $1.01 vs $0.91 | Beat +10.6% | $4.78B vs ~$4.66B | Beat, but FY25 guide slashed to $3.90-4.10 (from $4.61-4.75) on ~$500M tariff hit — guidance cut dominated the reaction over the beat |
+| Q1 2025 (4/30/25) | $1.01 vs $0.91 | Beat +10.6% | $4.78B vs ~$4.66B | Beat, but FY25 guide slashed on ~$500M tariff hit — guidance cut dominated the reaction |
 | Q2 2025 (7/30/25) | $1.06 vs $0.92 | Beat +15.5% | $5.00B vs $4.96B | **Fell ~7.9% premarket despite the beat** — margin/tariff/China concerns overrode the headline numbers |
-| Q3 2025 (10/29/25) | $1.07 vs $1.05 | Beat +1.9% | Beat | Reaction magnitude not cleanly sourced this cycle (data gap, noted below) |
+| Q3 2025 (10/29/25) | $1.07 vs $1.05 | Beat +1.9% | Beat | Reaction magnitude not cleanly sourced |
 | Q4 2025 (2/4/26) | $1.44 vs $1.41 | Beat +2.1% | $5.70B vs $5.60B | Positive — shares traded higher premarket |
-| Q1 2026 (4/29/26) | $0.99 vs $1.05 | **Miss -5.7%** | $5.13B vs $5.03B (beat, org. +2.9%) | **Crashed -13%** on a full-year guidance cut ($4.95-5.15 → $4.80-5.00), GS downgraded to Neutral |
+| Q1 2026 (4/29/26) | $0.99 vs $1.05 | **Miss -5.7%** | $5.13B vs $5.03B (beat, org. +2.9%) | **Crashed -13%** on a full-year guidance cut, GS downgraded to Neutral |
+| **Q2 2026 (7/29/26) — TODAY** | **$1.13 vs $1.04** | **Beat +8.65%** | **$5.295B vs ~$5.264B (+5.7% YoY, +3.5% organic)** | **+8.8% premarket to ~$69.76** |
 
-**Pattern**: 4 of the last 5 quarters beat on EPS, yet the stock fell on 3 of those 4 beats (Q1'25, Q2'25, and arguably Q3'25 given the muted/unsourced reaction) — guidance/margin commentary has mattered more than the headline beat all year. The one clean miss (Q1'26) produced by far the worst reaction, compounding an EPS miss with a guidance cut and a supplier-quality-driven margin story.
+**Pattern-breaking result**: today is the first quarter in five where a clean beat produced an actual positive reaction of real magnitude — the prior pattern (beat on EPS, stock falls anyway on margin/guidance commentary) held for 3 of the prior 4 quarters. The difference this time: no guidance cut (FY26 reaffirmed, not lowered), plus genuinely strong forward-looking metrics (orders, backlog, book-to-bill) that the market read as confirming, not undercutting, the beat.
 
-### Q2 2026 consensus (reports tomorrow)
-14-analyst consensus: **$1.03-1.04 EPS on $5.26-5.264B revenue** (range $1.01-1.05 / $5.18-5.32B). FY26 guide stands at $4.80-5.00 adjusted EPS.
+### What actually printed (vs. the 7/23 preliminary release)
+The 7/23 pre-announcement gave only top-line revenue/organic-growth figures with no EPS, margin, or segment detail. Today's full release fills every gap this desk flagged as open:
+- **Net income** $561M, 10.6% margin.
+- **Adjusted EBIT** $750M, 14.2% margin (up from Q1'26's crushed 7.6% net margin, though still below the FY26 full-year guided range of 15.4-15.7% — a quarter, not full-year, figure, so not directly comparable).
+- **Organic orders +11.1%**, book-to-bill **1.15x**, backlog **$23.9B** — the forward-indicator trio this desk had no visibility into before today, and the single biggest reason the stock is up rather than down on a beat (a strong backlog/orders read historically de-risks the next 1-2 quarters more than the trailing EPS number itself).
+- **FY26 guidance reaffirmed** (not raised): $4.80-5.00 adjusted EPS, 15.4-15.7% adjusted EBIT margin, ~$1.6B free cash flow.
 
-### What's new since 7/23 — nothing, confirmed
-Today's search surfaced "GE HealthCare Beats Q2 Expectations, Reaffirms Outlook" headlines (Insider Monkey, Yahoo) — **verified against the underlying press release (BusinessWire, dated 2026-07-23): this is the same pre-announcement already on record, not a new print.** The actual full Q2 release with audited EPS/margin detail is still tomorrow. Treat any "beats Q2" headline dated before 7/29 as describing the preliminary release, not the real thing — a mislabeling risk worth flagging explicitly given tomorrow's print will generate genuinely fresh "beat/miss" headlines that need to be distinguished from today's recycled ones.
+### Segment breakdown — first look (GEHC restructured segments this quarter)
+GEHC combined Imaging and Advanced Visualization Solutions into a new reportable segment, **Advanced Imaging Solutions**, effective this quarter — the historical 4-segment structure (Imaging / Ultrasound / Patient Care Solutions / Pharmaceutical Diagnostics) referenced in prior JPM briefs is now 3 segments:
+- **Advanced Imaging Solutions**: $3.771B revenue, +7.9% YoY (organic +5.0%), segment EBIT margin +90bps to 13.9% — strong MRI/CT demand, the single biggest driver of the beat.
+- **Pharmaceutical Diagnostics (PDx)**: $843M, +15.6% YoY (organic +14.6%), margin +30bps to 29.6% — robust contrast-media sales; this was one of Q1'26's two flagged weak spots and it has clearly stabilized/reaccelerated.
+- **Patient Care Solutions (PCS)**: $675M, **-13.3% YoY** (organic -13.5%), segment EBIT swung to a **-$26M loss**, margin -1,150bps to -3.8%. This was Q1'26's other flagged weak spot and it has **not** stabilized — it got materially worse. This is the one genuine blemish in an otherwise strong print and worth tracking into Q3: a segment now running at an operating loss inside an otherwise-beating company.
 
-### Key metrics to watch tomorrow
-- **Organic revenue growth** vs. the 3-4% FY26 target range (Q1'26 organic was 2.9%, below range; the 7/23 prelim showed 3.5%, back inside range — confirm this holds in the audited number).
-- **Margin trajectory**: Q1'26 absorbed a $250M inflation hit (memory chips, oil, freight, raw materials) that crushed net margin to 7.6% from 11.8%. The 7/23 prelim didn't disclose margin detail — this is the single biggest open variable for tomorrow.
-- **Pharmaceutical Diagnostics segment**: Q1'26's supplier-quality issue specifically hit this segment — watch for confirmation it's resolved, not recurring.
-- **Patient Care Solutions**: the other Q1'26 weak spot — watch for stabilization.
-- **Interim-CFO tone**: George Newcomb (Controller/CAO) runs his first call as interim CFO with Jay Saccaro departing 8/14 — credibility on margin guidance matters more than usual with a leadership transition mid-quarter.
-- **Whether the reaffirmed-not-raised FY26 guide gets any directional color** (floor vs. ceiling framing).
+### Management/CFO transition
+George Newcomb (interim CFO) ran his first call this morning; Jay Saccaro departs as previously announced on 8/14. No fresh governance concern surfaced in the release itself — the market's +8.8% reaction suggests the transition read as a non-issue this time, though the call itself (still concluding as this brief is written) may add color not yet reflected in the press release data above.
 
-### Segment breakdown and trends
-GEHC reports four segments: Imaging, Ultrasound, Patient Care Solutions, and Pharmaceutical Diagnostics. Only company-wide preliminary figures were disclosed 7/23 (total revenue $5.295B, +5.7% YoY/+3.5% organic) — **segment-level detail is not yet available and is itself one of the things tomorrow's print resolves**, particularly whether Pharmaceutical Diagnostics and Patient Care Solutions (Q1'26's two problem areas) show sequential improvement.
+### Bull/bear framing — now resolved
+The bull case this desk wrote last cycle (+8% to +15% on a clean beat with credible margin recovery and no fresh guidance cut) is essentially what happened, landing at the low-to-mid end (+8.8%) of that range. The one genuine caveat — Patient Care Solutions' continued deterioration into an outright operating loss — is a real data point for anyone modeling this name forward, even though it didn't stop today's pop.
 
-### Management guidance from last earnings call (Q1 2026, 4/29/26)
-FY26 adjusted EPS guidance cut to $4.80-5.00 (from $4.95-5.15); adjusted EBIT margin guidance cut to 15.4-15.7%; ~$0.17/share of cost-mitigation actions and pricing cited as a partial offset to the $250M inflation hit. The 7/23 8-K reaffirmed (did not raise) this same $4.80-5.00 range alongside the preliminary beat.
-
-### Options market implied move
-Not cleanly sourced this cycle (same recurring gap as prior cycles) — search results reference elevated IV on a September $35 call but that's not a today-to-7/29 expected-move calculation. Recommend the trader's own Robinhood options chain if accessible, as prior cycles have concluded.
-
-### Historical stock price reaction — last 5 reports
-See table above: -7.9% (Q2'25, beat), reaction unclear (Q3'25, beat), positive/higher premarket (Q4'25, beat), **-13% (Q1'26, miss+guide cut)**, and today's still-pending Q2'26. Net read: this name's stock reaction correlates more with margin/guidance commentary than with the EPS beat/miss line itself.
-
-### Bull case
-A clean beat confirmed on both lines, margin shows real sequential recovery from Q1's $250M inflation hit, Pharma Diagnostics/Patient Care Solutions both stabilize, and the interim CFO delivers credible commentary with no fresh governance concern. Price impact estimate: **+8% to +15%**, potentially retesting the low-$70s, consistent with the Street's $79.33 average target (+27% from current levels near $61).
-
-### Bear case
-The preliminary beat holds on revenue but margin commentary disappoints again (inflation hit not fully offset, or a fresh cost item emerges), and/or interim-CFO commentary reads as uncertain — repeating the "beat but sell off" pattern from 3 of the last 5 quarters. Price impact estimate: **-5% to -10%** in the moderate case; a genuine second consecutive guidance cut (unlikely given the 7/23 reaffirmation, but not impossible if margin deteriorated further into June) could approach the Q1'26 **-13%** magnitude.
-
-### Recommended play: **WAIT — no pre-earnings entry** (unchanged)
-Not a holding. The pre-announcement de-risks the pure beat/miss question on revenue, but margin detail and CFO-transition tone remain unresolved and this name's own history shows beats alone don't protect the stock. One day out is too late for a fresh entry ahead of binary information; reassess after the 7/29 call.
+### Recommended play: **CLOSED — event has resolved, not a holding, no action applies**
+This name exits the coverage list until its Q3 2026 report (no confirmed date yet, est. ~late October). No entry recommendation to make post-print on a name that isn't held.
 
 ---
 
-## 2. Omnicell (OMCL) — reports **July 30, 2026, before market open** (Q2 2026) — 2 days out — **LIVE HOLDING**
+## 2. Omnicell (OMCL) — reports **July 30, 2026, before market open** (Q2 2026) — 1 day out — **LIVE HOLDING**
 
-Half-size $5 position, entered 2026-07-17, avg cost $46.99. GS screener's #2 idea (behind XLE).
+Half-size ~$5 position, entered 2026-07-17, avg cost $46.99. GS screener's #1 idea (XLE converted from idea to live position 7/28, elevating OMCL to top of the remaining list).
 
 ### Last 4 quarters (+1 for reaction history) — earnings vs. estimates
 | Quarter | Non-GAAP EPS actual vs. est. | Surprise | Revenue actual vs. est. | Reaction |
@@ -90,123 +75,117 @@ Half-size $5 position, entered 2026-07-17, avg cost $46.99. GS screener's #2 ide
 | Q4 2025 (2/5/26) | $0.40 vs $0.50 | **Miss -20%** | $314M vs $313.39M (slight beat) | **-15% premarket** — EBITDA -21% YoY, real margin compression |
 | Q1 2026 (4/28/26) | $0.55 vs ~$0.33 | Beat +66.7% | $309.88-310M | **+20.65% premarket** |
 
-**Pattern**: 4 beats in the last 5 quarters, each driving a double-digit-percent premarket pop (+14-21%); the one miss (Q4'25) drove a symmetric -15% drop. This is a genuinely high-beta earnings name in both directions — a real consideration for the trader's own binary-risk framing, not just a one-sided crash-risk story.
+**Pattern**: 4 beats in the last 5 quarters, each driving a double-digit-percent premarket pop (+14-21%); the one miss (Q4'25) drove a symmetric -15% drop. Genuinely high-beta binary name in both directions.
 
-### Q2 2026 consensus (reports Thursday)
-Zacks consensus: **$0.48 EPS, implying +6.7% YoY**; revenue consensus **$309.6-310.25M, +6.6% YoY** (two sourcings agree within rounding).
+### Q2 2026 consensus (reports tomorrow, before open)
+Consensus: **~$0.48 EPS, +6.7% YoY**; revenue **$309.6-310.25M, +6.6% YoY** — unchanged from last cycle, confirmed again this run. Q1 2026 revenue of $309.9M (+14.9% YoY) was itself already close to this Q2 revenue estimate, worth noting as context for how the sequential bar sits.
 
 ### Fresh catalyst search this cycle — still nothing new
-Fifth consecutive cycle with no guidance cuts, contract losses, or margin-deterioration news found — the specific structural-thesis-break triggers under the OMCL contingency plan's rule 2. Only background item resurfacing: the 7/1 COO-to-President appointment, already known.
+Sixth consecutive cycle with no guidance cuts, contract losses, or margin-deterioration news found — the specific structural-thesis-break triggers under the OMCL contingency plan's rule 2. No new items surfaced beyond the already-known 7/1 COO-to-President appointment and the previously-flagged ESOP share offering.
 
-### Key metrics to watch
-- **Whether the FY26 non-GAAP EPS guide (raised to $1.80-2.00 at the Q1 print, +8.6%) holds** — this print is the first real test of that raised bar.
-- **Gross margin / EBITDA trajectory** — Q4'25's -21% YoY EBITDA miss is the one real scar on an otherwise strong beat streak; watch whether Q1'26's recovery continues.
-- **Product vs. service/SaaS revenue mix** — Q4'25 showed service +8% YoY offsetting a product -1% decline, a quality-of-earnings shift toward recurring revenue worth tracking as a trend, not a one-off.
-- **Bookings and Titan XT shipment progress** (flagged at Q1 as a 2026 growth driver) and OmniSphere platform adoption.
+### Key metrics to watch tomorrow
+- **Whether the FY26 non-GAAP EPS guide ($1.80-2.00, raised +8.6% at Q1) holds** — this print is the first real test of that raised bar.
+- **Gross margin / EBITDA trajectory** — Q4'25's -21% YoY EBITDA miss remains the one scar on an otherwise strong beat streak.
+- **Product vs. service/SaaS revenue mix** — the shift toward higher-margin recurring service revenue (+8% YoY in Q4 vs. product -1%) is a trend worth confirming continues.
+- **Titan XT hardware shipment start** — H2 2026 per Q1 guidance, so tomorrow is the first quarter this could show up in the numbers or commentary.
+- **~$12M in FY26 tariff-related costs** (newly disclosed detail this cycle) — watch whether this is tracking to plan or pressuring margin faster than modeled.
 
 ### Segment breakdown and trends
-Omnicell splits revenue into **product** and **service** lines rather than product-line segments. FY 2025 exit trend: service revenue growing high-single-digits (+8% YoY in Q4) while product revenue has been flat-to-declining (-1% in Q4) — a recurring-revenue mix shift that, if it continues, would generally be read as margin-supportive over time even if it makes headline product-revenue growth look softer.
+Omnicell splits revenue into **product** and **service** lines rather than product-line segments. Trend: service revenue growing high-single-digits (+8% YoY in Q4) while product revenue has been flat-to-declining (-1% in Q4) — a recurring-revenue mix shift, generally margin-supportive over time even if it makes headline product-revenue growth look softer.
 
 ### Management guidance from last earnings call (Q1 2026, 4/28/26)
-FY26 non-GAAP EPS guidance raised 8.6% to **$1.80-2.00**; management highlighted OmniSphere platform momentum and planned Titan XT shipments as 2026 growth drivers.
+FY26 non-GAAP EPS guidance raised 8.6% to **$1.80-2.00**; management highlighted OmniSphere platform momentum and Titan XT shipments (H2 2026 start) as growth drivers; FY26 revenue guidance $1,215-1,255M.
 
-### Price note — Robinhood vs. WebSearch gap persists
-This cycle's WebSearch pull shows OMCL at **~$43.01** — again well above the Robinhood-verified **$41.93** logged in state.md's 7/27 09:36 ET check-in. This is the same stale-WebSearch-price pattern flagged for 9+ consecutive cycles now. **Do not size off the $43.01 figure — pull the live Robinhood quote before any decision.**
+### Price note
+Verify live via Robinhood before any decision — this desk's WebSearch price feed has run stale/inconsistent vs. the Robinhood-verified quote for 10+ consecutive cycles now (per standing rule 4). No WebSearch price cited here for that reason.
 
 ### Options market implied move
-Not cleanly sourced again this cycle (6th+ consecutive cycle) — barchart/optioncharts/spotgamma access continues to be blocked from this desk. With the print now 2 days out, this data gap will close itself by Thursday regardless. Recommend the trader's own Robinhood options chain as the only remaining path if this figure is needed before the print.
+Not cleanly sourced again this cycle (7th+ consecutive cycle) — searches surface only generic "elevated IV" commentary (e.g., an Aug 21 $65 call referenced as high-IV, not an earnings-specific expected-move calculation) rather than a clean expected-move percentage. With the print now less than 24 hours out, recommend the trader's own Robinhood options chain as the only remaining path if this figure is needed before the print.
 
 ### Historical stock price reaction — last 5 reports
-See table above: +14.48% (Q2'25), +14.81% (Q3'25), -15% (Q4'25), +20.65% (Q1'26) — an unusually clean, large-magnitude binary pattern. Combined with the contingency plan's own framing (roughly -20%/+15% one-day range once Q4'25's -18.4%-adjacent miss is factored in), **this print carries genuine two-sided binary risk on a small ~$4.50 position** — a real move in either direction, not a rounding error for this book.
+See table above: +14.48%, +14.81%, -15%, +20.65% — an unusually clean, large-magnitude binary pattern. GEHC's result today is a useful reminder that a name's own "beat but sell off" or "beat and pop" pattern can and does break when the underlying data changes — don't assume OMCL's pattern is mechanically guaranteed to repeat either direction.
 
 ### Bull case
-A clean beat-and-raise (EPS beat + FY26 guide raised again, service-mix trend continuing, no fresh margin surprise) — consistent with 4 of the last 5 quarters' pattern. Price impact estimate: **+15% to +21%**, in line with the Q1/Q2/Q3'25 premarket reaction range, which would put the position (currently ~-10.7% from the $46.99 avg cost per recent state.md reads) back near or above breakeven.
+A clean beat-and-raise (EPS beat + FY26 guide raised again, service-mix trend continuing, no fresh margin surprise, Titan XT commentary constructive). Price impact estimate: **+15% to +21%**, in line with 4 of the last 5 quarters, which would put the position (currently below the $46.99 avg cost per recent state.md reads) back near or above breakeven.
 
 ### Bear case
-A repeat of Q4'25: an EPS miss (even a modest one) paired with any margin-compression commentary. Price impact estimate: **-15% to -20%**, consistent with both the Q4'25 actual reaction and the contingency plan's own pre-committed range. Per the contingency plan (state.md), a miss alone is **not** an automatic sell signal — only a structural thesis break (guidance cut, contract loss, margin/bookings deterioration trend) should trigger a trim/exit decision, and only at the next scheduled run after the print, not same-tick.
+A repeat of Q4'25: an EPS miss (even modest) paired with margin-compression commentary, or a tariff-cost overrun beyond the newly-disclosed ~$12M figure. Price impact estimate: **-15% to -20%**, consistent with the Q4'25 actual reaction and the contingency plan's own pre-committed range.
 
 ### Recommended play: **binary-risk flag for the trader's own hold/add/trim decision — not a directional call from this brief** (unchanged)
-No add before the print, per the contingency plan. Position is small (~$4.50); risk is genuinely two-sided per the reaction history above, not skewed to the downside. The next scheduled run after Thursday's release should apply the contingency plan's rule 4 (no same-minute decisions) and rule 2 (miss ≠ automatic sell; only a structural break does) with a fresh full 5-analyst read.
+No add before the print, per the contingency plan. Position is small (~$4.50-5); risk is genuinely two-sided, not skewed to the downside. Per the contingency plan (state.md): a miss alone is **not** an automatic sell signal — only a structural thesis break (guidance cut, contract loss, margin/bookings deterioration trend) should trigger a trim/exit decision, and only at the next scheduled run after the print (rule 4: no same-minute decisions), with a fresh full 5-analyst read.
 
 ---
 
-## 3. PTC Therapeutics (PTCT) — reports **July 30, 2026, 4:30pm ET (after market close)** (Q2 2026) — 2 days out
+## 3. PTC Therapeutics (PTCT) — reports **July 30, 2026, 4:30pm ET (after market close)** (Q2 2026) — 1 day out
 
-Not a holding. GS screener #5.
+Not a holding. GS screener #6 this cycle.
 
 ### Last 4 quarters (+1 for reaction history) — earnings vs. estimates
 | Quarter | EPS actual vs. est. | Surprise | Revenue actual vs. est. | Reaction |
 |---|---|---|---|---|
 | Q2 2025 (8/7/25) | -$0.83 vs -$1.02 est | Beat | $178.9M vs $172.3M (but -4.2% YoY on generic Emflaza/Translarna erosion) | **-1.17% premarket** — beat, but net product revenue fell 11.2% YoY, muted reaction |
 | Q3 2025 (11/4/25) | $0.20 vs -$1.19 est | Beat +116.8% | Beat | **+3.67%** (roughly 1 day after) |
-| Q4 2025 (2/19/26) | -$1.67 vs -$0.33 est | **Miss -406%** | Not cleanly sourced | Reaction magnitude not cleanly sourced this cycle (data gap) |
-| Q1 2026 (5/7/26) | -$0.03 vs -$0.45 est | Beat, large | $272.55M vs $217.42M (+43.5% YoY) | **+12.5% to +14.3%**, multi-day (Sephience $124.6M, +36% QoQ, drove the beat; FY26 guidance raised) |
+| Q4 2025 (2/19/26) | -$1.67 vs -$0.33 est | **Miss -406%** | Not cleanly sourced | Reaction magnitude not cleanly sourced (data gap) |
+| Q1 2026 (5/7/26) | -$0.03 vs -$0.45 est | Beat, large | $272.55M vs $217.42M (+43.5% YoY) | **+12.5% to +14.3%**, multi-day (Sephience $124.6M, +36% QoQ; FY26 guidance raised) |
 
-**Pattern**: genuinely bimodal — two muted-to-modest reactions (Q2'25, Q3'25) bracketing one large miss (Q4'25, magnitude driven by a GAAP/non-GAAP quirk more than a real operating miss — flagged in prior cycles as a data-precision issue worth caution) and one large beat-and-raise pop (Q1'26). Average historical earnings-date move for this name is a wide **~3.8%** by one sourcing, though the individual prints above show considerably more dispersion than that average implies.
+**Pattern**: genuinely bimodal — two muted-to-modest reactions (Q2'25, Q3'25) bracketing one large miss (Q4'25, magnitude driven by a GAAP/non-GAAP quirk more than a real operating miss) and one large beat-and-raise pop (Q1'26). No reliable single-direction bias to lean on heading into tomorrow.
 
-### Q2 2026 consensus (reports Thursday after close)
-**$0.2317 EPS / $298.1M revenue** (one sourcing; the GAAP/non-GAAP/blended precision gap flagged in prior cycles remains open and worth treating with caution given Q4'25's outsized "miss" was partly a reporting-convention artifact).
+### Q2 2026 consensus (reports tomorrow after close)
+**$0.2317 EPS / $298.1M revenue** — unchanged from last cycle, confirmed again. The GAAP/non-GAAP/blended precision gap flagged in prior cycles remains open — treat with caution given Q4'25's outsized "miss" was partly a reporting-convention artifact.
 
 ### What's new this cycle
-RBC Capital raised its price target to $85 (from $82) on 7/7; Barclays reaffirmed Buy on 7/8 — both already a few weeks old, not fresh this cycle, noted for completeness. No fresh insider-sale filings beyond the already-known routine 10b5-1 pattern (CFO, CTO ops, both pre-arranged).
+No fresh developments beyond what's already known (RBC's $85 PT from 7/7, Barclays' Buy reaffirm from 7/8 — both several weeks stale, noted for completeness only). No new insider-sale filings beyond the already-known routine 10b5-1 pattern.
 
-### Key metrics to watch
+### Key metrics to watch tomorrow
 - **Sephience (PKU) net product revenue** — the primary growth driver; Q1'26 was $124.6M (+36% QoQ). Sequential growth continuation is the single most important line.
-- **DMD franchise (Translarna + Emflaza) decline rate** — both in structural generic-erosion decline (Emflaza fell from $47.8M to $21.5M YoY in Q1'26); watch whether the decline is decelerating or accelerating.
-- **Evrysdi royalty revenue** (from Roche) — a non-cash-generating but real revenue line ($46.8M in Q1'26, +28.6% YoY) that affects headline beat/miss optics without affecting PTC's own cash position.
+- **DMD franchise (Translarna + Emflaza) decline rate** — both in structural generic-erosion decline; watch whether the decline is decelerating or accelerating.
+- **Evrysdi royalty revenue** (from Roche) — $46.8M in Q1'26, +28.6% YoY, affects headline optics without affecting PTC's own cash position.
 - **FY26 total revenue guidance** ($1.08-1.18B, raised at Q1) — confirm it holds or gets raised further.
-- **Cash position** (~$1.94B at YE2025) against the new $500M 0% convertible note (2031) issued to refinance 2026 notes and fund a ~$50M buyback.
+- **Cash position** (~$1.94B at YE2025) against the $500M 0% convertible note (2031).
 
 ### Segment breakdown and trends
-Q1 2026 revenue mix: **Sephience $124.6M** (36% QoQ growth, the clear growth engine) + **Translarna $59.0M** (down from $86.2M YoY) + **Emflaza $21.5M** (down from $47.8M YoY, generic erosion) + **Evrysdi royalty $46.8M** (up from $36.4M YoY). Net effect: total product+royalty revenue $273M, with Sephience now the single largest line and the DMD franchise in clear structural decline — the growth-vs-decline mix shift is the core story for Thursday's print.
+Q1 2026 revenue mix: Sephience $124.6M (36% QoQ growth, the clear growth engine) + Translarna $59.0M (down from $86.2M YoY) + Emflaza $21.5M (down from $47.8M YoY, generic erosion) + Evrysdi royalty $46.8M (up from $36.4M YoY). Net effect: Sephience is now the single largest line and the DMD franchise is in clear structural decline — the growth-vs-decline mix shift is the core story tomorrow will update.
 
 ### Management guidance from last earnings call (Q1 2026, 5/7/26)
-FY26 product revenue guidance raised to $750-850M (from a prior lower range); total revenue guidance $1.08-1.18B. Management also cited positive 24-month PIVOT-HD interim data for votoplam (Huntington's disease) around the same period as a separate, non-Q2-specific catalyst.
+FY26 product revenue guidance raised to $750-850M; total revenue guidance $1.08-1.18B. Management also cited positive 24-month PIVOT-HD interim data for votoplam (Huntington's disease), a separate non-Q2-specific catalyst.
 
 ### Options market implied move
-Not cleanly sourced this cycle — one source cites a historical average earnings-day move of just 0.06% (implausibly low given the 5-report table above shows moves of -1% to +14%; likely a stale or mis-scoped figure, not trusted). No clean current implied-volatility-derived expected move found. Data gap carried forward, now 6+ cycles running.
+Not cleanly sourced this cycle (7th+ consecutive cycle) — same data gap as OMCL. No clean current implied-volatility-derived expected move found via WebSearch for either name ahead of tomorrow's prints.
 
 ### Historical stock price reaction — last 5 reports
-See table above: -1.17% (Q2'25, muted beat), +3.67% (Q3'25, beat), reaction magnitude unsourced (Q4'25, large GAAP miss), +12.5-14.3% (Q1'26, beat-and-raise). Genuinely bimodal — no reliable single-direction bias to lean on.
+See table above: -1.17%, +3.67%, unsourced (large GAAP miss), +12.5-14.3%. Genuinely bimodal.
 
 ### Bull case
-Sephience sequential growth continues at a similar or accelerating pace, DMD-franchise decline decelerates, and FY26 guidance is reaffirmed or raised again — consistent with the Q1'26 beat-and-raise pattern. Price impact estimate: **+10% to +15%**, potentially retesting the recent $79 area high.
+Sephience sequential growth continues at a similar or accelerating pace, DMD-franchise decline decelerates, and FY26 guidance is reaffirmed or raised again. Price impact estimate: **+10% to +15%**, potentially retesting the recent $79 area high.
 
 ### Bear case
-Sephience growth decelerates meaningfully quarter-over-quarter, or DMD erosion accelerates faster than modeled, or the GAAP/non-GAAP reporting-convention issue that inflated Q4'25's "miss" recurs and spooks headline readers even if the underlying business is fine. Price impact estimate: **-5% to -10%** in the moderate case, with tail risk toward the Q4'25-style large headline miss if the reporting-convention issue repeats.
+Sephience growth decelerates meaningfully quarter-over-quarter, or DMD erosion accelerates faster than modeled, or the GAAP/non-GAAP reporting-convention issue that inflated Q4'25's "miss" recurs. Price impact estimate: **-5% to -10%** moderate case, with tail risk toward a Q4'25-style large headline miss if the reporting-convention issue repeats.
 
 ### Recommended play: **WAIT — no pre-earnings entry** (unchanged)
-Not a current holding. The bimodal reaction history above is itself the core reason to wait — this name doesn't have a reliable historical skew to lean into pre-print, and the GAAP/non-GAAP precision issue makes headline reads unusually noisy. Reassess only after the 7/30 after-close print.
+Not a current holding. The bimodal reaction history is itself the core reason to wait — no reliable historical skew to lean into pre-print, and the GAAP/non-GAAP precision issue makes headline reads unusually noisy. Reassess only after tomorrow's after-close print.
 
 ---
 
 ## Data-gap tracker (for continuity across cycles)
-- **OMCL/GEHC/PTCT options implied move**: still no single clean earnings-specific expected-move percentage sourced for any of the three names, now 6+ cycles running — all three print within 48 hours, so this gap is effectively closing itself. Not worth further dedicated search time.
-- **OMCL WebSearch-vs-Robinhood price gap**: still open, 9+ consecutive cycles — $43.01 (WebSearch) vs $41.93 (Robinhood-verified, state.md 7/27) this cycle. Treat any WebSearch OMCL price as presumptively stale per the book's own standing rule.
-- **PTCT Q3'25/Q4'25 and GEHC Q3'25 reaction-magnitude gaps**: could not source clean same-day/next-day percentage moves for these three specific prints this cycle; noted in the tables above rather than guessed at.
-- **PTCT GAAP/non-GAAP/blended EPS consensus precision**: unresolved discrepancy carried forward from prior cycles, most visible in how it inflated the optics of the Q4'25 "-406% miss" — worth remembering when reading Thursday's headline number.
-- **OXY/EXEL**: both 8 days out, tied, both held out by the 3-brief cap — due for a full re-brief once GEHC/OMCL/PTCT roll off after reporting this week.
+- **OMCL/PTCT options implied move**: still no single clean earnings-specific expected-move percentage sourced for either name, now 7+ cycles running — both print within 36 hours, so this gap closes itself regardless. Not worth further dedicated search time.
+- **PTCT Q4'25 reaction-magnitude and GAAP/non-GAAP precision gap**: unresolved, carried forward — worth remembering when reading tomorrow's headline number.
+- **OXY/EXEL**: both 7 days out (8/5), tied, both held out by the 3-brief cap — due for a full re-brief once OMCL/PTCT roll off after reporting tomorrow.
+- **GEHC segment history**: note for future cycles — GEHC restructured its reportable segments this quarter (Imaging + Advanced Visualization Solutions merged into "Advanced Imaging Solutions"), so any future comparison to the old 4-segment structure needs a like-for-like adjustment.
 
 ---
 
 Sources:
-- [GE HealthCare to announce second quarter 2026 results on July 29, 2026 (StockTitan)](https://www.stocktitan.net/news/GEHC/ge-health-care-to-announce-second-quarter-2026-results-on-july-29-b5uq9ymifig1.html)
-- [GE HealthCare Technologies (GEHC) Expected to Announce Quarterly Earnings on Wednesday (Defense World)](https://www.defenseworld.net/2026/07/28/ge-healthcare-technologies-gehc-expected-to-announce-quarterly-earnings-on-wednesday.html)
-- [GE HealthCare announces CFO transition; reports preliminary second quarter 2026 financial results and reaffirms guidance (BusinessWire, 2026-07-23)](https://www.businesswire.com/news/home/20260723970430/en/GE-HealthCare-announces-CFO-transition-reports-preliminary-second-quarter-2026-financial-results-and-reaffirms-guidance-reflecting-business-momentum)
-- [GE HealthCare Technologies Inc. (GEHC) Beats Q2 Expectations, Reaffirms 2026 Outlook Despite CFO Transition (Insider Monkey) — confirmed describing the 7/23 pre-announcement, not a new print](https://www.insidermonkey.com/blog/ge-healthcare-technologies-inc-gehc-beats-q2-expectations-reaffirms-2026-outlook-despite-cfo-transition-1804551/)
-- [GEHC Maintains 2026 Earnings Guidance Ahead of Q2 Results (GuruFocus)](https://www.gurufocus.com/news/8976318/gehc-maintains-2026-earnings-guidance-ahead-of-q2-results)
-- [GE HealthCare Technologies (GEHC): Analyzing the -13% Drop and What Lies Ahead (Tickeron)](https://tickeron.com/blogs/ge-healthcare-technologies-gehc-analyzing-the-13-drop-and-what-lies-ahead-13181/)
-- [GE HealthCare Cuts 2026 Profit Outlook, Stock Drops 13% (Briefs.co)](https://www.briefs.co/news/ge-healthcare-just-cut-its-profit-forecast-and-the-stock/)
-- [GE HealthCare beats on earnings, slashes full year outlook due to tariffs (CNBC, Q1 2025)](https://www.cnbc.com/2025/04/30/ge-healthcare-earnings-tariffs.html)
-- [GE HealthCare (GEHC) Earnings Report Q4 2025 (24/7 Wall St.)](https://247wallst.com/companies/gehc/earnings/2025/Q4)
-- [GE HealthCare (GEHC) Earnings Report Q1 2026 (24/7 Wall St.)](https://247wallst.com/companies/gehc/earnings)
-- [Omnicell to Release Second Quarter 2026 Financial Results on July 30, 2026 (StockTitan)](https://www.stocktitan.net/news/OMCL/omnicell-to-release-second-quarter-2026-financial-results-on-july-30-bi73lnwuyqp9.html)
-- [Omnicell Q4 2025 slides: EPS miss drives 15% stock drop despite revenue growth (Investing.com)](https://www.investing.com/news/company-news/omnicell-q4-2025-slides-eps-miss-drives-15-stock-drop-despite-revenue-growth-93CH-4488285)
-- [Omnicell (OMCL) Is Down 19.0% After Profit Squeeze Despite Solid 2026 Revenue Outlook (Yahoo Finance)](https://finance.yahoo.com/news/omnicell-omcl-down-19-0-221334856.html)
-- [Assessing Omnicell (OMCL) Valuation After Q1 Earnings Beat And Higher EPS Guidance (Yahoo Finance)](https://finance.yahoo.com/markets/stocks/articles/assessing-omnicell-omcl-valuation-q1-041936157.html)
-- [Omnicell 2025 Q2 Earnings Strong Performance as Net Income Surges 51% (Ainvest)](https://www.ainvest.com/news/omnicell-2025-q2-earnings-strong-performance-net-income-surges-51-2508/)
-- [PTC Therapeutics to Report Second Quarter 2026 Financial Results on Thursday, July 30, 2026 (Morningstar/PR Newswire)](https://www.morningstar.com/news/pr-newswire/20260716ny05662/ptc-therapeutics-to-report-second-quarter-2026-financial-results-on-thursday-july-30-2026)
-- [PTC Therapeutics Provides Corporate Update and Reports First Quarter 2026 Financial Results (PR Newswire)](https://www.prnewswire.com/news-releases/ptc-therapeutics-provides-corporate-update-and-reports-first-quarter-2026-financial-results-302766205.html)
-- [Why PTC Therapeutics (PTCT) Is Up 12.5% After Beating Q1 Estimates And Lifting 2026 Guidance (SahmCapital)](https://www.sahmcapital.com/news/content/why-ptc-therapeutics-ptct-is-up-125-after-beating-q1-estimates-and-lifting-2026-guidance-2026-05-11)
-- [Ptc Therapeutics Q2 2025 Earnings Beat Expectations Despite 4.2% Revenue Decline (Ainvest)](https://www.ainvest.com/news/ptc-therapeutics-q2-2025-earnings-beat-expectations-4-2-revenue-decline-2508/)
-- [PTC Therapeutics (PTCT) Q3 Earnings and Revenues Top Estimates (Yahoo Finance)](https://finance.yahoo.com/news/ptc-therapeutics-ptct-q3-earnings-222503399.html)
+- [GE HealthCare Q2 Revenue Rises 5.7% to $5.3B in Preliminary Results; CFO to Depart (MLQ News)](https://mlq.ai/news/ge-healthcare-q2-revenue-rises-57-to-53b-in-preliminary-results-cfo-to-depart/)
+- [GE HealthCare Q2 Revenue Hits $5.3B, EPS $1.24 | GEHC Stock News (StockTitan)](https://www.stocktitan.net/news/GEHC/ge-health-care-reports-second-quarter-2026-financial-y6l44yyvtohf.html)
+- [GE HealthCare's (NASDAQ:GEHC) Q2 CY2026: Beats On Revenue, Stock Soars (StockStory)](https://stockstory.org/us/stocks/nasdaq/gehc/news/earnings/ge-healthcares-nasdaqgehc-q2-cy2026-beats-on-revenue-stock-soars)
+- [GE HealthCare Q2 2026 earnings beat on imaging demand, tariff refunds (Yahoo Finance)](https://finance.yahoo.com/healthcare/articles/ge-healthcare-q2-2026-earnings-120754541.html)
+- [GE HealthCare: Q2 Earnings Snapshot (Yahoo Finance)](https://finance.yahoo.com/healthcare/articles/ge-healthcare-q2-earnings-snapshot-102735702.html)
+- [GE HealthCare (Nasdaq: GEHC) lifts Q2 revenue 5.7% and reaffirms 2026 outlook (StockTitan 8-K)](https://www.stocktitan.net/sec-filings/GEHC/8-k-ge-health-care-technologies-inc-reports-material-event-e79d7a68ebc1.html)
+- [GE HealthCare Technologies Releases Q2 2026 Financial Results (Alphastreet)](https://news.alphastreet.com/ge-healthcare-technologies-releases-q2-2026-financial-results/)
+- [GE HealthCare (NASDAQ:GEHC) Surges on Q2 Earnings Beat (ChartMill.com)](https://www.chartmill.com/news/GEHC/Chartmill-51952-GE-HealthCare-NASDAQGEHC-Surges-on-Q2-Earnings-Beat)
+- [Omnicell to Release Second Quarter 2026 Financial Results on July 30, 2026 (BioSpace)](https://www.biospace.com/press-releases/omnicell-to-release-second-quarter-2026-financial-results-on-july-30-2026)
+- [Omnicell (OMCL) Reports Q2: Everything You Need To Know Ahead Of Earnings (StockStory/FinancialContent)](https://markets.financialcontent.com/stocks/article/stockstory-2026-7-29-omnicell-omcl-reports-q2-everything-you-need-to-know-ahead-of-earnings)
+- [The Bull Case For Omnicell (OMCL) Could Change Following New President And ESOP Share Offering (Yahoo Finance)](https://finance.yahoo.com/markets/stocks/articles/bull-case-omnicell-omcl-could-231434145.html)
+- [Do Options Traders Know Something About Omnicell Stock We Don't? (Yahoo Finance)](https://finance.yahoo.com/markets/options/articles/options-traders-know-something-omnicell-143600889.html)
+- [PTC Therapeutics to Report Second Quarter 2026 Financial Results on Thursday, July 30, 2026 (TradingView/PR Newswire)](https://www.tradingview.com/news/prnewswire:039ec3ab3880f:0-ptc-therapeutics-to-report-second-quarter-2026-financial-results-on-thursday-july-30-2026/)
+- [PTC Therapeutics to Report Second Quarter 2026 Financial Results on Thursday, July 30, 2026 (PTC Investor Relations)](https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-report-second-quarter-2026-financial-results)

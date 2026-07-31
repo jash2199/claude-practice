@@ -1,21 +1,21 @@
 # BW Risk Assessment — Complete Risk Report
-**Date: 2026-07-30 (Thursday, ~14:41 ET) — seventh run of the day**
+**Date: 2026-07-31 (Friday, ~10:41 ET)**
 
-*Persona: Bridgewater-style risk analyst for the "Claude Robinhood Trader" — Ray Dalio radical-transparency mandate. Portfolio figures below are live, Robinhood-verified this run (`get_portfolio` + `get_equity_positions` + `get_equity_quotes`, account 424593861), not WebSearch-sourced. Trading pool convention per state.md: $50 base reserve is untouchable; the "pool" = total account value − $50.*
+*Persona: Bridgewater-style risk analyst for the "Claude Robinhood Trader" — Ray Dalio radical-transparency mandate. Portfolio figures below are live, Robinhood-verified this run (`get_portfolio` + `get_equity_positions` + `get_equity_quotes`, account 424593861), not WebSearch-sourced. Trading pool convention per state.md: $50 base reserve is untouchable; the "pool" = total account value − $50. **Timing note for transparency**: this run's live Robinhood pull timestamps to ~10:41 ET; GS (14:15 ET), MS (14:30 ET) and JPM (13:15 ET) posted their latest reads later in today's session. Their qualitative findings (the OMCL transcript details, the actual XOM/CVX prints) are used below since those facts don't change intraday; this report's own price/weight table uses this run's own live 10:41 ET snapshot, not their later prices — flagging the gap rather than silently blending two points in time.*
 
 ---
 
 ## TOP OF REPORT
 
 ### Overall portfolio risk grade: **C-**
-(unchanged from this morning's ~10:40 ET upgrade. One genuine process win since then — the standing VTI→VXUS rebalance executed at 11:38 ET, a day ahead of its own 7/31 time-box, closing the procedural risk this desk flagged as hedge #3 this morning. That's a real mark in the "discipline holding" column. But it's offset by a structural fact working the other way: this run's buy dropped deployable cash to an all-time low for this book — **~$4.00, 8.2% of the trading pool** — while a fresh Exxon/Chevron earnings print (tomorrow, pre-market) and OMCL's still-unexplained EPS-reconciliation gap both sit as live, unresolved event risk with almost no dry powder left to react to either outcome. Net: one dated uncertainty resolved cleanly, one buffer thinned to its lowest point yet. Grade holds, doesn't improve.)
+(Held, unchanged from Thursday's 10:40/14:41 ET reports. Two real items resolved cleanly since Thursday afternoon — Friday's XOM/CVX prints landed as a split decision (XOM missed, CVX beat big) and MS's rebuilt composite DCF on actual results essentially confirmed the pre-print estimate (~-13.1% vs. ~-12.7%), no shock to XLE either direction; separately, OMCL's Q2 call transcript posted and fully closed the EPS-reconciliation gap this desk has been flagging since Thursday morning (tariff refund confirmed at exactly $15M, formal Q3 guidance confirmed, no structural break). Genuine progress, and radical transparency requires saying so plainly. But two things got no better, and one got measurably worse: NVDA's credit-market story (CDS spreads, the $250B/$350B OpenAI financing structures) remains completely unresolved and still sitting at record/elevated levels; the deployable-cash buffer is still stuck at its all-time low (~$4.00, 8.2% of pool); and the Iran/Hormuz war escalated from "struck a new country" (Thursday) to **active kinetic interference with commercial oil shipping** today — the IRGC striking and halting tankers directly in the Strait, with US CENTCOM now redirecting, disabling, and boarding vessels to enforce compliance. That is a materially more direct threat to the exact transit lane this book's own energy hedge exists because of. Net: one resolved data-gap risk, one resolved-without-shock earnings catalyst, against one live risk that got more concrete. Grade holds at C-, does not upgrade.)
 
 ### Single biggest risk right now
-**Bond markets are now pricing NVDA credit risk at levels not seen in this cycle — the cost to insure NVDA's debt against default over 5 years has surged by its largest single margin on record (per Bloomberg) — directly tied to the still-unresolved $250B OpenAI Ohio data-center financing backstop and a separate $350B chip-purchase financing structure under discussion.** This is qualitatively different from the "reports it is in talks" framing this desk used this morning: credit markets, not just equity markets, are now actively repricing counterparty/circularity risk on this book's largest single-name position. Nothing has resolved this — no confirmed deal terms, no walk-back — it is getting more concrete, not less, as the week goes on.
+**NVDA's credit-market story remains this book's largest unresolved single-name risk, and it has not de-escalated at all since Thursday.** Fresh WebSearch this run confirms NVDA's 5-year CDS spread is still trading at elevated/record levels (~82-95bps depending on source, the largest single-cycle move on record per multiple outlets), directly tied to the still-unconfirmed $250B OpenAI Ohio data-center financing guarantee and a separate $350B chip-purchase financing structure. No deal terms have been confirmed and no walk-back has occurred — credit markets are still actively pricing counterparty/circularity risk on this book's largest single-name position, exactly as flagged Thursday, with zero new information suggesting resolution either way.
 
-A close second, and now literally widening on the map: **the Iran/Hormuz war struck Egyptian territory for the first time this run** — a drone hit a target inside Egypt, per CNN's live coverage, the conflict's first documented spread beyond the direct US-Iran-Gulf theater into a fourth country. The US and Iran are described as "trading missile barrages" with "hopes dimming for a quick resolution" after five months. One modest offsetting data point: a Qatari LNG tanker transited the Strait for the first time in nearly three weeks — a sign traffic hasn't fully collapsed — but that is flow easing at the margin inside an active war, not de-escalation. This book's mechanical hedge for this factor (XLE) now also carries its own binary catalyst tomorrow (see below).
+**A close second, and arguably now more concrete than "biggest risk" framing from earlier this week: the Strait of Hormuz war escalated from geographic widening to direct shipping interdiction today.** The IRGC says it struck and halted multiple oil tankers in the Strait; Iran's Revolutionary Guards stated the Strait "would remain closed" and threatened further punishment; US CENTCOM has redirected 24 commercial vessels, disabled two, and boarded two since yesterday to enforce shipping restrictions. This is a different — and more acute — risk than Thursday's "war spread to Egypt" data point: it is now active military interference with the specific transit lane underlying this book's XLE position and the oil-price factor generally. One modest offsetting note: Iran's foreign minister held calls with Omani and Saudi counterparts on de-escalation, so diplomacy hasn't fully collapsed — but the kinetic trend line is still pointing the wrong way, five months into the conflict.
 
-**Third, new since this morning's report: Exxon and Chevron both report Q2 earnings tomorrow (7/31) before the open** — the two names that make up the bulk of MS's composite look-through DCF for this book's XLE position. Consensus expects the best results in 15 quarters for both (driven by $100/bbl oil), which is already the market's baseline expectation — a genuine "priced for perfection" setup where an in-line beat could still sell off if capex guidance or production commentary disappoints, exactly the "beat but sell off anyway" pattern this book's own OMCL just lived through five days ago.
+**Third: the cash buffer has now sat at its all-time floor (~$4.00, 8.2% of pool) for a full session with no rebuild**, leaving this book with almost no capacity to react to either of the above two live risks, or to size the OMCL add that GS/MS's desks now consider data-quality-clear (see Single Stock Risk section below for this desk's own sizing view).
 
 ---
 
@@ -23,41 +23,41 @@ A close second, and now literally widening on the map: **the Iran/Hormuz war str
 
 | Position | Concentration Risk | Rate Sensitivity | Liquidity Risk | Binary/Event Risk | Geopolitical Risk | **Overall** |
 |---|---|---|---|---|---|---|
-| NVDA | 🟠 Moderate (double-counted via VTI/VXUS) | 🔴 High | 🟢 Low | 🔴 **Elevated (CDS spread blowout, unresolved OpenAI financing structure; next earnings 8/26)** | 🟡 Moderate (China H200 policy) | 🔴 **High** |
+| NVDA | 🟠 Moderate (double-counted via VTI/VXUS) | 🔴 High | 🟢 Low | 🔴 **Elevated (CDS still at record/elevated levels, $250B/$350B OpenAI financing unresolved; next earnings 8/26)** | 🟡 Moderate (China H200 policy) | 🔴 **High** |
 | VTI | 🔴 High (tech tilt ~42%) | 🟠 Moderate-High | 🟢 Low | 🟢 Low | 🟢 Low | 🟡 **Moderate** |
-| VXUS | 🟡 Moderate (now the book's single largest position by weight) | 🟡 Moderate | 🟢 Low | 🟢 Low | 🟡 Moderate (semi supply chain) | 🟡 **Moderate** |
-| OMCL | 🟡 Moderate | 🟠 Moderate-High | 🟠 Moderate (thin book, proved it Thursday's gap) | 🟡 Moderate (EPS-vs-guidance reconciliation gap still unexplained; next print ~3 months out) | 🟢 Low | 🟡 **Moderate** |
-| XLE | 🟡 Moderate | 🟢 Low | 🟢 Low | 🔴 **Elevated (XOM/CVX report tomorrow pre-market — "priced for perfection" setup)** | 🔴 **High (war widening geographically — Egypt struck)** | 🟠 **High** |
-| Cash (deployable ~$4.00) | — | — | 🟢 Low | — | — | 🔴 **Low buffer — all-time-thin for this book** |
+| VXUS | 🟡 Moderate (still the book's single largest position by weight) | 🟡 Moderate | 🟢 Low | 🟢 Low | 🟡 Moderate (semi supply chain) | 🟡 **Moderate** |
+| OMCL | 🟢 **Improved to Low-Moderate** (EPS-reconciliation gap fully closed by transcript; one new, modest downside item — bookings guide widened at the low end) | 🟠 Moderate-High | 🟠 Moderate (thin book, proved it on the post-earnings gap) | 🟡 Moderate (bookings-range widening at the low end, timing-related per mgmt; next print ~3 months out) | 🟢 Low | 🟡 **Moderate** |
+| XLE | 🟢 **Improved (earnings catalyst resolved without shock)** | 🟢 Low | 🟢 Low | 🟢 **Resolved (XOM/CVX both reported; composite DCF gap essentially unchanged at ~-13.1%)** | 🔴 **Higher (direct tanker strikes/interdiction in the Strait today)** | 🟠 **High** |
+| Cash (deployable ~$4.00) | — | — | 🟢 Low | — | — | 🔴 **Low buffer — still all-time-thin, unchanged since Thursday** |
 
 ---
 
-## Live position snapshot (Robinhood-verified, ~14:41 ET)
+## Live position snapshot (Robinhood-verified, ~10:41 ET)
 
 | Symbol | Qty | Avg cost | Live price | Unrealized | Value | % of equity | % of pool |
 |---|---|---|---|---|---|---|---|
-| NVDA | 0.024826 | $201.40 | $193.22 | -4.06% | $4.80 | 10.76% | 9.87% |
-| VTI | 0.048530 | $370.90 | $365.475 | -1.46% | $17.74 | 39.77% | 36.49% |
-| VXUS | 0.154525 | $84.13 | $84.590 | +0.55% | $13.07 | 29.31% | 26.89% |
-| OMCL | 0.106405 | $46.99 | $36.63 | -22.05% | $3.90 | 8.74% | 8.02% |
-| XLE | 0.086775 | $57.62 | $58.785 | +2.02% | $5.10 | 11.44% | 10.50% |
-| **Total equity** | | | | | **$44.60** | 100% | 91.77% |
+| NVDA | 0.024826 | $201.40 | $197.77 | -1.81% | $4.91 | 10.99% | 10.09% |
+| VTI | 0.048530 | $370.90 | $365.715 | -1.40% | $17.75 | 39.73% | 36.46% |
+| VXUS | 0.154525 | $84.13 | $84.403 | +0.32% | $13.04 | 29.20% | 26.80% |
+| OMCL | 0.106405 | $46.99 | $36.39 | -22.56% | $3.87 | 8.67% | 7.95% |
+| XLE | 0.086775 | $57.62 | $58.76 | +1.96% | $5.10 | 11.41% | 10.47% |
+| **Total equity** | | | | | **$44.67** | 100% | 91.77% |
 | Cash | | | | | $54.00 | — | — |
-| **Total account** | | | | | **$98.60** | | |
+| **Total account** | | | | | **$98.67** | | |
 
-Trading pool ($50 reserve excluded): ~$48.60. **Deployable cash: ~$4.00 (8.2% of pool) — the thinnest cash buffer this book has carried since the routine began**, down from ~$9.00 (18.5%) at this morning's 10:40 ET report, following the 11:38 ET VXUS top-up. Daily moves vs. Wednesday's close: NVDA +1.69%, VTI +1.40%, VXUS +2.67% (a fresh cycle high), OMCL -11.52% (still gapped down post-earnings, has recovered from the $35.95 low but remains deeply red), XLE +0.23%.
+Trading pool ($50 reserve excluded): ~$48.67. **Deployable cash: ~$4.00 (8.2% of pool) — unchanged from Thursday's all-time-thin read**, no rebuild since the 7/30 VXUS top-up. Daily moves vs. Thursday's close: NVDA +1.40%, VTI -0.15%, VXUS -0.43%, OMCL -1.94% (a much calmer session than Thursday's -11.5% gap-continuation, first genuinely quiet OMCL day since the print), XLE -0.34%.
 
 ---
 
 ## Correlation analysis between holdings
 
-Still **three real risk factors wearing five ticker labels** — today's afternoon session is the same structure as this morning, now with VXUS carrying more weight in it:
+Unchanged structural read, now with two catalysts behind rather than ahead of the book:
 
-- **NVDA ↔ VTI ↔ VXUS: high positive correlation, now triply exposed at greater absolute weight.** All three are giving back a modest slice of this morning's chip-sector snap-back (NVDA down from +2.6% at 10:40 ET to +1.69% now; VTI down from +1.4x% to +1.40%; VXUS, notably, is the one holding still extending — now +2.67%, a fresh high even above its own 10:40 ET print). This morning's VXUS buy increased, not decreased, this book's dollar exposure to the "one lever, not three" AI-capex/chip-sector risk factor this desk has flagged since inception — VXUS is not a pure diversifier away from that factor, it just dilutes it modestly per dollar versus NVDA/VTI.
-- **OMCL ↔ everything else: still the book's best true diversifier, holding pattern intact.** OMCL is essentially flat this afternoon versus its midday levels (~$36.6, chopping in the same $36-37.5 band it's held since recovering off the post-print low) while NVDA/VTI/VXUS all moved on the broad tape — still genuinely decoupled today, consistent with 9 of the last 10 sessions logged. Rule 9's caveat stands unchanged: this decoupling held through 7/23's multi-factor convergence right up until it didn't.
-- **XLE ↔ the rest of the book: low, and now carries its own idiosyncratic near-term catalyst (tomorrow's XOM/CVX prints) that the other four positions don't share.** XLE +0.23% today, essentially flat, ahead of what could be the largest single-day move XLE has had since entry once tomorrow's earnings land.
+- **NVDA ↔ VTI ↔ VXUS: still one lever wearing three ticker labels.** All three are essentially flat-to-slightly-mixed today (NVDA +1.40%, VTI -0.15%, VXUS -0.43%) — a genuinely quieter session than Thursday's chip-sector snap-back, but the underlying fact hasn't changed: 79.9% of this book's equity (10.99%+39.73%+29.20%) moves on one dominant factor (US/global tech-and-broad-market beta), not three independent ones.
+- **OMCL ↔ everything else: still the book's best true diversifier, and its own binary-event risk just shrank.** With the transcript now closing the reconciliation gap, OMCL's remaining event risk is narrower (a modest bookings-guide widening, not an open "why doesn't the math add up" question) — a genuine risk reduction on this specific line, not just quieter price action.
+- **XLE ↔ the rest of the book: still low correlation, and its own binary catalyst just resolved.** XOM/CVX both reported; the composite gap barely moved (-12.7%→-13.1%). XLE is behaving exactly as this book's designed hedge should: down modestly today (-0.34%) as oil gives back a sliver of yesterday's gain, while carrying no further earnings-driven surprise risk until its next relevant print.
 
-**Bottom line, unchanged: three independent risk factors (AI-capex/tech, broad-market/rate, Iran-Hormuz/oil), not five — but AI-capex/tech now carries relatively more dollar weight in this book than it did this morning, because today's only trade added to VXUS rather than to OMCL or cash.**
+**Bottom line: three independent risk factors (AI-capex/tech, broad-market/rate, Iran-Hormuz/oil), unchanged — but two of the three factors' most acute near-term binary catalysts (OMCL's data gap, XLE's earnings print) have now both resolved without a structural shock. The tech/broad-market factor carries no comparable resolution; it remains the least-clarified of the three.**
 
 ---
 
@@ -65,20 +65,20 @@ Still **three real risk factors wearing five ticker labels** — today's afterno
 
 | Sector (look-through) | Est. % of equity | Driver |
 |---|---|---|
-| Technology / Semiconductors | **~31%** | NVDA (100%, 10.76%) + VTI's ~42% tech slice (39.77% weight → ~16.7pp) + VXUS's semi-supply-chain sleeve (~3.8pp on its now-larger 29.31% weight) |
-| Healthcare | ~15-16% | OMCL (100%, 8.74%) + VTI/VXUS healthcare slices (~6.9pp, scaled to their combined ~69% weight) |
-| Energy | ~13% | XLE (100%, 11.44%) + VTI/VXUS energy slices (~1.5pp) |
-| All other sectors (financials, industrials, consumer, etc.) | ~40% | Residual diversified slice of VTI/VXUS |
+| Technology / Semiconductors | **~31.5%** | NVDA (100%, 10.99%) + VTI's ~42% tech slice (39.73% weight → ~16.7pp) + VXUS's semi-supply-chain sleeve (~13% of its 29.20% weight → ~3.8pp) |
+| Healthcare | ~15.6% | OMCL (100%, 8.67%) + VTI/VXUS healthcare slices (~6.9pp, scaled to their combined ~68.9% weight) |
+| Energy | ~12.9% | XLE (100%, 11.41%) + VTI/VXUS energy slices (~1.5pp) |
+| All other sectors (financials, industrials, consumer, etc.) | ~40.0% | Residual diversified slice of VTI/VXUS |
 
-Tech/semi look-through concentration has ticked down modestly in percentage terms (~31% vs. ~33-34% this morning) purely as an arithmetic side effect of VXUS growing faster than it dilutes — **not because any deliberate de-risking of the sector occurred.** This desk's standing recommendation (direct the next dollar toward a genuinely uncorrelated sector, not more core-sleeve tech exposure via VTI/VXUS) was not the recommendation actually followed this morning; BR's rebalance thesis and this desk's sector-diversification thesis pulled in different directions on the same dollar, and BR's won. Worth naming plainly rather than letting the percentage improvement read as a deliberate risk reduction.
+Essentially unchanged from Thursday (~31% then, ~31.5% now) — the standing recommendation to direct the next new dollar toward a genuinely uncorrelated sector (GEHC remains the most-flagged, least-acted-on candidate) is still open and still unactioned, now four-plus sessions running.
 
 ---
 
 ## Geographic exposure and currency risk
 
-- **US-domiciled: ~70.4%** of equity (NVDA, VTI, OMCL, XLE combined weight, down from ~79.8% this morning as VXUS's share of equity grew).
-- **Ex-US: ~29.6%** (VXUS only, up from ~20.2% this morning) — the book's entire direct currency exposure (EUR, JPY, GBP, EM currencies embedded in VXUS's holdings), now meaningfully larger in both absolute ($13.07) and relative terms after this morning's top-up.
-- No direct FX hedges exist or are needed at this scale, but the currency-exposure share of the book nearly grew by half in a single trade this morning — flagging the magnitude of that shift for completeness, not as an action item.
+- **US-domiciled: ~70.8%** of equity (NVDA, VTI, OMCL, XLE combined weight) — essentially flat vs. Thursday's ~70.4%.
+- **Ex-US: ~29.2%** (VXUS only) — the book's entire direct currency exposure (EUR, JPY, GBP, EM currencies embedded in VXUS's holdings), flat vs. Thursday.
+- No direct FX hedges exist or are needed at this scale. One geopolitical-currency note worth flagging given today's news: an active Strait of Hormuz interdiction event has second-order effects on EM currencies of oil-importing nations inside VXUS's basket (a modest, indirect transmission channel this desk has not previously quantified and isn't sizing precisely here, but is worth naming as a real, if small, linkage between today's two headline risks).
 
 ---
 
@@ -86,13 +86,13 @@ Tech/semi look-through concentration has ticked down modestly in percentage term
 
 | Position | Sensitivity | Why |
 |---|---|---|
-| NVDA | **High** | High-multiple growth name; discount-rate moves compress valuation disproportionately, now compounded by the fresh credit-spread widening (a second, independent channel by which rate/credit conditions can hit this name) |
+| NVDA | **High** | High-multiple growth name; discount-rate moves compress valuation disproportionately, compounded by the still-unresolved credit-spread widening (a second, independent channel) |
 | VTI | Moderate-High | Mega-cap tech weighting drags the whole index's effective duration up |
-| VXUS | Moderate | Sensitive to both the US rate path (risk-on/off flows) and local-market policy/FX differentials — now the largest single line in the book, so this sensitivity carries more dollar weight than it did this morning |
+| VXUS | Moderate | Sensitive to both the US rate path (risk-on/off flows) and local-market policy/FX differentials — still the largest single line in the book |
 | OMCL | Moderate-High | Small-cap + growth multiple — small caps are historically *more*, not less, rate-sensitive than large caps |
-| XLE | Low | Cash-flow-heavy value sector, low direct duration; dominated by the oil-price/geopolitical catalyst and, as of tomorrow, an earnings catalyst — not discount rates |
+| XLE | Low | Cash-flow-heavy value sector, low direct duration; dominated by the oil-price/geopolitical catalyst, not discount rates |
 
-Unchanged and still live: the Fed's 9-3 hold with three hawkish dissents under new Chair Kevin Warsh (most hawkish dissent count since September 2016) has not been walked back by anything since.
+Unchanged and still live: the Fed's 9-3 hawkish hold (7/29) under new Chair Kevin Warsh has not been walked back by anything since — still the most hawkish dissent count since September 2016.
 
 ---
 
@@ -102,27 +102,27 @@ Unchanged and still live: the Fed's 9-3 hold with three hawkish dissents under n
 
 | Position | Weight | Est. drawdown | Contribution |
 |---|---|---|---|
-| NVDA | 10.76% | -60% | -6.46pp |
-| VTI | 39.77% | -40% | -15.91pp |
-| VXUS | 29.31% | -40% | -11.72pp |
-| OMCL | 8.74% | -45% | -3.93pp |
-| XLE | 11.44% | -45% | -5.15pp |
+| NVDA | 10.99% | -60% | -6.59pp |
+| VTI | 39.73% | -40% | -15.89pp |
+| VXUS | 29.20% | -40% | -11.68pp |
+| OMCL | 8.67% | -45% | -3.90pp |
+| XLE | 11.41% | -45% | -5.13pp |
 | **Equity-value drawdown** | | | **≈ -43.2%** |
 
-That's roughly **$19.25 of the current $44.60 equity value**, pulling total account value from ~$98.60 to **~$79.35** — an **~19.5% total-account drawdown**, up from ~17.5% this morning. This is the structural point flagged at the top of this report made concrete: because this run's trade deployed more of the reserve-excluded pool into equity (equity is now 45.2% of total account value, up from ~40.2% this morning), the *dollar* stress-test exposure grew even though nothing about the underlying risk factors changed. The $50 reserve remains the only real damage cap; it protects total-account value, not the deployed capital itself, and there is now less cash sitting outside the stress scenario than at any prior point in this book's history.
+That's roughly **$19.30 of the current $44.67 equity value**, pulling total account value from ~$98.67 to **~$79.37** — an **~19.6% total-account drawdown**, essentially unchanged from Thursday's ~19.5% (weights barely moved). The $50 reserve remains the only real damage cap; it protects total-account value, not the deployed capital itself.
 
-**Scenario B — stagflation / supply-shock recession** (Hormuz war escalates further — plausible given today's Egypt strike — oil spikes, growth weakens, Fed forced to hold/hike anyway):
+**Scenario B — stagflation / supply-shock recession** (Hormuz war escalates further into a genuine supply disruption — a scenario that moved measurably closer to reality today given the tanker strikes/halting):
 
 | Position | Weight | Est. move | Contribution |
 |---|---|---|---|
-| NVDA | 10.76% | -55% | -5.92pp |
-| VTI | 39.77% | -35% | -13.92pp |
-| VXUS | 29.31% | -35% | -10.26pp |
-| OMCL | 8.74% | -40% | -3.50pp |
-| XLE | 11.44% | **+15%** | +1.72pp |
+| NVDA | 10.99% | -55% | -6.04pp |
+| VTI | 39.73% | -35% | -13.91pp |
+| VXUS | 29.20% | -35% | -10.22pp |
+| OMCL | 8.67% | -40% | -3.47pp |
+| XLE | 11.41% | **+15%** | +1.71pp |
 | **Equity-value drawdown** | | | **≈ -31.9%** |
 
-Total account: ~$98.60 → **~$84.38**, a **~14.4% total-account drawdown** (up from ~12.7% this morning, same mechanism as Scenario A). XLE's hedge value still shows up clearly — the one line that helps rather than hurts in exactly the scenario this book's live geopolitical exposure points toward — but at only 11.44% of equity it remains far too small to offset the rest, and tomorrow's earnings print adds a new, unmodeled source of single-day variance to that one hedge position specifically.
+Total account: ~$98.67 → **~$84.41**, a **~14.4% total-account drawdown**, essentially flat vs. Thursday's ~14.4% in percentage terms — but the underlying probability of this scenario materializing went up today, not the arithmetic itself (see Tail Risk section). XLE's hedge value shows up clearly here — the one line that helps rather than hurts in exactly the scenario today's headlines point toward — but at only 11.41% of equity it remains far too small to offset the rest of the book.
 
 ---
 
@@ -134,37 +134,38 @@ Total account: ~$98.60 → **~$84.38**, a **~14.4% total-account drawdown** (up 
 | VXUS | 🟢 Low | Highly liquid, marginally wider spreads than VTI |
 | NVDA | 🟢 Low | Mega-cap, among the most liquid single names in the market |
 | XLE | 🟢 Low | Large, liquid sector ETF |
-| OMCL | 🟠 **Moderate** | Demonstrated, not theoretical, per Thursday's -13.16% open-gap and the still-wide-relative-to-cap bid/ask observed since. At current trivial dollar sizing it doesn't matter financially, but the mechanism is proven. |
+| OMCL | 🟠 **Moderate** | Demonstrated, not theoretical, per Thursday's -13.16% open-gap. Today's much calmer -1.94% session is a data point in the other direction, but doesn't retire the flag — one calm day doesn't undo a proven gap-risk mechanism. |
 
 ---
 
 ## Single stock risk & position sizing recommendations
 
-- **Combined single-name (non-diversified) exposure: NVDA + OMCL ≈ 19.5% of equity / 17.9% of pool** — down from this morning's 22.4%/18.3%, driven by the arithmetic dilution effect of the larger VXUS position, not by any change to either name's own risk.
-- NVDA is at ~10.76% of equity / ~9.87% of pool — comfortably under the standing 18-20% organic-drift trigger, and now falling mechanically as VXUS grows, not from a real de-risking decision on NVDA itself.
-- **VXUS is now the single largest position in this book by dollar value ($13.07, 29.3% of equity) — larger than VTI was as a fraction of equity for most of this book's history.** This is a new fact worth stating plainly: a name bought explicitly as a *diversifier* has, through repeated top-ups, become the book's largest concentration. It is genuinely less concentrated than a single stock (154 countries, thousands of holdings), but "it's an ETF" should not be allowed to substitute for tracking its now-dominant weight the same way any other 29%-of-equity position would be tracked.
-- **Radical-transparency note on OMCL, unchanged in substance:** down ~22.05% from cost, ten trading days post-entry. The process (pre-committed contingency plan, no same-minute reaction) was sound; the position is still a loser so far. Both remain true.
-- **Sizing discipline recommendation, unchanged:** no single non-diversified name should exceed roughly 15% of equity value at this account's size without a specific, high-conviction, fully cross-vetted case. NVDA and OMCL both remain inside that band. VXUS, as a diversified fund, is exempt from this specific test by design — but its dollar-weight growth is flagged above regardless.
+- **Combined single-name (non-diversified) exposure: NVDA + OMCL ≈ 19.7% of equity / 18.0% of pool** — essentially flat vs. Thursday's ~19.5%/17.9%.
+- NVDA is at ~10.99% of equity / ~10.09% of pool — comfortably under the standing 18-20% organic-drift trigger.
+- **VXUS remains the single largest position in this book by dollar value ($13.04, 29.2% of equity)** — still worth tracking at that weight the same way any other position of this size would be tracked, notwithstanding its diversified-fund status.
+- **Radical-transparency note on OMCL, unchanged in substance:** down ~22.56% from cost, eleven trading days post-entry. The process was sound; the position is still a loser so far. Both remain true.
+- **Explicit risk sign-off on the OMCL add question (contingency-plan rule 3, this desk's half of the gate):** MS has posted a transcript-confirmed DCF (fair value $53.89, ~50.8% upside) with no structural thesis break. From a pure risk-clearance standpoint, this desk has **no outstanding structural objection** to sizing a further OMCL add — the data-quality gap that was this desk's own standing concern is now closed. That said, two things still argue for restraint on timing/size, not on the thesis itself: (1) the newly-widened bookings-guide low end is a genuine, if modest, new downside tail data point that arrived in the same transcript that resolved the bigger question — a partial, not total, clean bill of health; (2) with deployable cash at only ~$4.00 (8.2% of pool), any OMCL add right now would consume nearly the entire remaining buffer at a moment when this book also has its largest unresolved single-name credit risk (NVDA) and an actively escalating geopolitical risk (Hormuz) both still live. **This desk's recommendation: risk-cleared in principle, but size small and only with fresh capital or a deliberate trim elsewhere — not by exhausting the cash buffer to zero while two other live risks remain unresolved.**
+- **Sizing discipline recommendation, unchanged:** no single non-diversified name should exceed roughly 15% of equity value at this account's size without a specific, high-conviction, fully cross-vetted case. NVDA and OMCL both remain inside that band.
 
 ---
 
 ## Tail risk scenarios with probability estimates
 
-1. **Iran/Hormuz war widens further — a fifth country pulled in, or a direct hit on Gulf energy infrastructure — ~20-25% probability over the next 1-2 weeks**, revised up from this morning's 15-20% given today's confirmed first strike on Egyptian territory (CNN). The conflict is now five months old with "hopes dimming for a quick resolution."
-2. **The NVDA/OpenAI financing structure produces a genuine credit-market event (a rating-agency action, a bond-market disruption) rather than staying an equity-narrative overhang — ~15-20% probability over the next month**, revised up from this morning's 10-15% given today's CDS-spread-blowout data point — this is now a fact pattern being priced by bond markets, not just discussed in equity research.
-3. **XOM/CVX's Friday prints disappoint on capex guidance or production commentary despite beating headline numbers — ~25-30% probability**, a new tail item for tomorrow specifically, styled on the same "beat but sell off" pattern OMCL just produced. Would hit XLE directly with no offsetting position elsewhere in the book.
-4. **Sudden Iran ceasefire / de-escalation — ~10-15% probability near-term, unchanged.** If one lands, XLE remains the position with the least valuation cushion (per MS's ~12% overvalued composite DCF) and would be hit hardest.
-5. **The chip-sector "recovery" proves to be a bounce inside a larger correction — ~30-35% probability of a fresh leg down within the next month, unchanged.** Today's partial afternoon give-back in NVDA/VTI (both softer now than at 10:40 ET) while VXUS alone extends is itself a small, live data point consistent with this thesis, not yet confirmation of it.
+1. **Hormuz war escalates into a sustained shipping blockade or a direct hit on major Gulf energy infrastructure — ~25-30% probability over the next 1-2 weeks**, revised up from Thursday's 20-25% given today's confirmed direct tanker strikes/halting and CENTCOM's active vessel-interdiction response. This is no longer a proximity risk (war widening geographically); it is now a live transit-disruption risk to the exact channel behind the oil-price factor.
+2. **The NVDA/OpenAI financing structure produces a genuine credit-market event (a rating-agency action, a bond-market disruption) rather than staying an equity-narrative overhang — ~15-20% probability over the next month, unchanged from Thursday.** Nothing resolved this one either direction today.
+3. **OMCL's newly-widened bookings-guidance low end proves to be the first sign of a genuine demand slowdown, not just deal-timing noise — ~20-25% probability over the next 1-2 quarters.** New tail item this cycle, replacing Thursday's now-resolved "XOM/CVX prints disappoint" item.
+4. **Sudden Iran ceasefire/de-escalation — ~10-15% probability near-term, unchanged.** If one lands, XLE remains the position with the least valuation cushion (per MS's ~13.1% overvalued composite DCF) and would be hit hardest.
+5. **The chip-sector "recovery" proves to be a bounce inside a larger correction — ~30-35% probability of a fresh leg down within the next month, unchanged.** Today's live evidence for the underlying "capex must show demand" regime: Amazon's AWS-acceleration beat was rewarded (+8%+ after-hours) while Apple's supply-constrained guidance was punished (~-8% after-hours) in the same 24 hours — neither is a holding, but both describe the exact market regime this book's NVDA/VTI/VXUS cluster trades inside.
 6. **Fed hikes at the next meeting given the hawkish dissent — ~25-30% probability, unchanged.**
-7. **OMCL's Q3 print disappoints again on the same forward-guidance axis — ~30% probability, unchanged, still ~3 months out.**
+7. **OMCL's Q3 print disappoints again on the same forward-guidance axis — ~30% probability, unchanged, still ~3 months out**, now modestly reinforced by the just-widened bookings low end.
 
 ---
 
 ## Hedging strategies for the top 3 risks (equities-only — no options available)
 
-1. **NVDA credit/circular-financing risk (now a bond-market-confirmed concern, not just an equity narrative):** this desk continues to recommend directing the next deployable dollar away from VTI/NVDA and toward a genuinely uncorrelated sector (GEHC remains the most-flagged, least-acted-on candidate). With only ~$4.00 deployable, this is now a near-term-moot recommendation in dollar terms — worth noting that the thin cash buffer itself limits this book's ability to act on its own hedging advice until either a position is trimmed or fresh capital arrives.
-2. **Iran/Hormuz widening (Egypt strike):** XLE remains the book's equity-only hedge, already sized appropriately (half-position). The correct hedge-for-the-hedge is still **not adding to XLE ahead of tomorrow's earnings** — sizing into a name carrying both an active geopolitical premium and an unresolved earnings catalyst in the same 24 hours would compound two live risks rather than hedge either.
-3. **The thinned cash buffer itself is now a top-3 risk, not just a footnote.** At 8.2% of pool, this book has less flexibility than at any prior point to react to tomorrow's XOM/CVX print, a further OMCL move, or a genuine NVDA credit event, without trimming an existing position. The hedge here is procedural: don't treat the next few runs' "no fresh catalyst, no trade" defaults as costless — with this little dry powder, preserving what's left until a genuinely high-conviction, fully cross-vetted opportunity appears is itself the risk-reducing action, not a missed opportunity.
+1. **NVDA credit/circular-financing risk (still completely unresolved):** this desk continues to recommend directing the next deployable dollar away from VTI/NVDA-tech and toward a genuinely uncorrelated sector (GEHC remains the most-flagged, least-acted-on candidate, now four-plus sessions running with no action). With only ~$4.00 deployable, this remains a near-term-moot recommendation in dollar terms until either a position is trimmed or fresh capital arrives.
+2. **Hormuz interdiction risk (now active, not just proximate):** XLE remains the book's equity-only hedge, already sized appropriately (half-position) and behaving as designed. The correct hedge-for-the-hedge is still **not chasing an add into XLE reactively** — its own binary catalyst just resolved cleanly, which is a reason for patience, not urgency, on sizing further.
+3. **The thinned cash buffer remains a top-3 risk in its own right.** Unchanged at 8.2% of pool for a full session now, it leaves this book with almost no capacity to react to a genuine NVDA credit event or a further Hormuz escalation without trimming an existing position. The hedge here is still procedural: preserving what's left is itself the risk-reducing action while two live risks (NVDA credit, Hormuz) remain unresolved.
 
 ---
 
@@ -172,28 +173,25 @@ Total account: ~$98.60 → **~$84.38**, a **~14.4% total-account drawdown** (up 
 
 No sells are recommended today — rule 1 ("no fresh catalyst, no trade") applies to trimming as much as to adding, and nothing in this run's read constitutes a fresh catalyst to trim any position.
 
-- **The VTI→VXUS core rebalance that was outstanding this morning is now done** — no further action needed there. VXUS sits at 29.31% of equity against BR's 25% core sub-target, arguably now slightly *over* rather than under; this desk would not recommend a further VXUS top-up without a fresh BR re-read confirming the target should move.
-- **Do not deploy the remaining ~$4.00 into anything reactively ahead of tomorrow's XOM/CVX prints.** If those prints move XLE sharply in either direction, treat that as a fresh data point for the next run, not a same-session trade.
-- Sector target unchanged: shift look-through Tech/Semiconductor exposure down toward ~25-28% of equity over time by directing future new capital (not this run's remaining scraps) away from VTI/NVDA/VXUS-tech and toward a genuinely uncorrelated name — GEHC remains the standing, unacted candidate.
-- Hold Healthcare (OMCL) flat — no add without a call-transcript-level resolution of the EPS-reconciliation gap, per this desk's standing flag.
-- Hold Energy (XLE) flat through tomorrow's earnings — no add, no trim, let the binary event resolve before touching this position either direction.
+- **OMCL**: risk-cleared in principle per this desk's sign-off above, but recommend sizing small and only with fresh capital or a deliberate trim elsewhere — not by exhausting the ~$4.00 buffer while NVDA-credit and Hormuz risk both remain live and unresolved.
+- **VXUS**: still sits at 29.20% of equity against BR's 25% core sub-target — arguably still slightly over. This desk would not recommend a further VXUS top-up without a fresh BR re-read confirming the target should move.
+- Sector target unchanged: shift look-through Tech/Semiconductor exposure down toward ~25-28% of equity over time by directing future new capital away from VTI/NVDA/VXUS-tech and toward a genuinely uncorrelated name — GEHC remains the standing, unacted candidate.
+- Hold XLE flat — its own binary catalyst just resolved without a shock; no trim, no add pending a fresh cross-vetting cycle if the Hormuz situation deteriorates further.
 
 ---
 
 ## Stance note
 
-One thing genuinely got better since this morning: the VXUS rebalance that was 24 hours from lapsing got executed cleanly, on a real pullback-adjacent read, validating the falsifiable-trigger discipline (rule 7) for the fourth time. Radical transparency requires saying that plainly. But it should not be allowed to obscure two things that got *worse* in the same few hours: bond markets started pricing real credit concern into this book's largest single-name position, and the war this book is geopolitically exposed to struck a new country for the first time. Layer on a cash buffer now thinner than it has ever been, sitting directly ahead of a real earnings catalyst for this book's own war hedge tomorrow morning, and the honest read is that this book has slightly *less* room to maneuver than it did at 10:40 ET, not more — even though nothing about today's price action looks alarming on the surface. Grade: **C-**, held rather than upgraded, because the structural risks this book carries did not shrink today; if anything, two of them just got a fresh, concrete data point in the wrong direction.
+Radical transparency cuts both ways today, and it would be dishonest to lead with only the bad news. Two real, concrete risks that this desk has been flagging since Wednesday/Thursday got resolved cleanly this week: OMCL's data-quality gap is closed by a primary-source transcript, and XLE's earnings catalyst landed as a split decision that barely moved the valuation needle either way. That is the falsifiable-trigger discipline (rule 7) working exactly as designed, twice in one week. But it would be equally dishonest to let that overshadow what didn't improve: this book's single largest unresolved risk (NVDA's credit-market story) is exactly as unresolved today as it was Thursday, and this book's clearest geopolitical exposure (Hormuz) took a real step from "widening" to "active interdiction" in the same 24 hours those two other risks resolved. Layer on a cash buffer that has now sat at its floor for a full session, and the honest read is that this book has the same amount of room to maneuver it had yesterday — no more, no less — even though the news flow today reads as a net positive on the surface. Grade: **C-**, held, because the standing biggest risks did not shrink even as two secondary ones did.
 
 ---
 
 Sources:
+- [NVIDIA's CDS Surges on $7.5T AI Deals as Debt Concerns Grow — KuCoin](https://www.kucoin.com/news/flash/nvidia-s-cds-spikes-on-7-5t-ai-deals-debt-concerns-rise)
+- [NVIDIA Stock Is Still Up, But $250 Billion AI Risk Has Spooked The Debt Market — Benzinga](https://www.benzinga.com/markets/tech/26/07/60832453/nvidia-stock-is-still-up-but-250-billion-ai-risk-has-spooked-the-debt-market)
+- [Nvidia's rising CDS the talk of Wall Street amid circular financing fears — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/nvidia-rising-cds-talk-wall-123955612.html)
+- [NVIDIA CDS Climb Brings Balance Sheet Risk Into View — Tradingpedia](https://www.tradingpedia.com/2026/07/28/nvidia-cds-climb-brings-balance-sheet-risk-into-view/)
+- [Iran war latest: IRGC says it struck two tankers in the Strait of Hormuz — The National](https://www.thenationalnews.com/news/mena/2026/07/31/live-us-iran-war-houthis-red-sea-threats-saudi-coalition/)
+- [U.S. thwarts Iranian missile attack on U.S. troops, strikes Iranian proxies in Iraq — CBS News](https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-talks-oman/)
 - [2026 Strait of Hormuz crisis — Wikipedia](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis)
-- [2026 Iran war — Britannica](https://www.britannica.com/event/2026-Iran-war)
-- [Live updates: Egypt struck for first time as US-Iran conflict pulls in more countries — CNN](https://www.cnn.com/2026/07/30/world/live-news/iran-war-trump)
-- [Iran live updates: Egypt confirms Mediterranean port fire was caused by drone — ABC News](https://abcnews.com/International/live-updates/iran-live-updates-tehran-progress-made-strait-hormuz/?id=135110405)
-- [NVDA Slides Nearly 5% on $250B OpenAI Backstop as Dot-Com Fears Mount — Cryptonomist](https://en.cryptonomist.ch/2026/07/28/nvda-stock-openai-financing/)
-- [Nvidia reignites "circular" AI concerns — Yahoo Finance](https://finance.yahoo.com/technology/ai/articles/nvidia-reignites-circular-ai-concerns-160152598.html)
-- [Nvidia Funds AI Frenzy: Timeline of its Circular Financing Deals So Far — Benzinga](https://www.benzinga.com/markets/tech/26/07/60713664/nvidia-funds-ai-frenzy-timeline-of-its-circular-financing-deals-so-far)
-- [Nvidia reignites "circular" AI concerns as it weighs OpenAI financing guarantee — Axios](https://www.axios.com/2026/07/27/nvidia-openai-financing-ai-jensen-huang-ssi)
-- [Exxon, Chevron Q2 earnings preview: Eyes on Venezuela assets and margin boosts — Seeking Alpha](https://seekingalpha.com/news/4621913-exxon-chevron-q2-earnings-preview-eyes-on-venezuela-assets-and-margin-boosts)
-- [Chevron, ExxonMobil Earnings Preview: Higher Oil Prices Have Analysts Predicting Best Results in 15 Quarters — Benzinga](https://www.benzinga.com/trading-ideas/previews/26/07/60810684/chevron-exxonmobil-earnings-preview-higher-oil-prices-have-analysts-predicting-best-results-in-15-quarters)
+- Internal: analysts/gs-stock-screener.md (2026-07-31, ~14:15 ET), analysts/ms-dcf-valuation.md (2026-07-31, ~14:30 ET), analysts/jpm-earnings-analyzer.md (2026-07-31, ~13:15 ET), trading-experiment/state.md

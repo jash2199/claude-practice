@@ -1,5 +1,5 @@
 # JPM Earnings Analyzer — Latest Report
-**Date: 2026-08-04 (Tuesday, ~13:30 ET)**
+**Date: 2026-08-05 (Wednesday, ~11:00 ET)**
 
 *Persona: JPMorgan equity research analyst, pre-earnings catalyst calendar for the "Claude Robinhood Trader." Coverage = trader's current holdings (state.md) + GS screener's top-10 (analysts/gs-stock-screener.md). Full brief for each covered name reporting within ~2 weeks, nearest date first, max 3/run. No live Robinhood access — all prices below are WebSearch-sourced; defer to the trader's own Robinhood-verified quote for anything sizing-relevant, per standing rule 4.*
 
@@ -7,23 +7,24 @@
 
 ## Decision summary (top-line)
 
-**Same two names as the last three cycles clear the 2-week window — OXY and IONQ, both reporting tomorrow, Wednesday August 5, 2026, after market close. This is the final scheduled JPM brief before either print lands.** No third name enters the window this cycle: NVDA (holding) reports August 26 (confirmed today via fresh search, 22 days out); CRWD and AVGO (screener names) both now confirmed for **the same date, September 2** (29 days out — previously carried as separate ~8/26 and ~9/3 estimates, now resolved to a single confirmed date for both); AMZN, MU, GEHC, and PTCT (screener names) have all already reported this cycle; VTI/VXUS/XLE are diversified funds with no earnings of their own.
+**Today is the print. Both OXY and IONQ report after market close today, Wednesday August 5, 2026 — this is the last research this desk can deliver before either number lands.** No third name enters the window this cycle: NVDA (holding) reports August 26 (21 days out); CRWD and AVGO (screener names) both confirmed for September 2 (28 days out); AMZN, MU, GEHC, and PTCT (screener names) have all already reported this cycle; VTI/VXUS/XLE are diversified funds with no earnings of their own.
 
-1. **Occidental Petroleum (OXY) — reports Wednesday, August 5, after close** (call Thursday 8/6, 1:00pm ET). Not a holding, GS screener #4. **Recommended play: WAIT — still double-blocked.**
-2. **IonQ (IONQ) — reports Wednesday, August 5, after close** (call 4:30pm ET). Not a holding, GS screener #10. **Recommended play: WAIT — no entry; the "don't chase" case has only gotten stronger.**
+1. **Occidental Petroleum (OXY) — reports today, Wed August 5, after close** (call Thu 8/6, 1:00pm ET). Not a holding, GS screener #4. **Recommended play: WAIT — still double-blocked, but a genuinely bullish, fresh, primary-source data point just landed (see below).**
+2. **IonQ (IONQ) — reports today, Wed August 5, after close** (call 4:30pm ET). Not a holding, GS screener #10. **Recommended play: WAIT — no entry; up another leg since yesterday, priced-for-perfection risk highest of the cycle.**
 
-**What's genuinely new since the 8/3 ~10:30 ET brief:**
-1. **IONQ got a fresh, print-specific price-target raise, and the stock kept running.** Wedbush reissued Outperform and raised its target to **$75 from $60** (10-yr DCF, WACC 22%, terminal growth 5%), explicitly flagging the SkyWater consolidation (closed July 31, now on IonQ's books) as the key input ahead of Wednesday's print — this is a genuinely fresh, dated call, unlike the stale Benchmark/Craig-Hallum/Cantor targets flagged as non-events last cycle. The stock responded by extending its rally further: last Friday's close was $36.44; one fresh read has it at **$40.57** today, a further leg higher on top of Monday's already-flagged pop. (See data-quality flag below — this print showed an internally inconsistent intraday range.)
-2. **OXY moved the other way — down, not up, into the print.** $57.07 on 8/3 has slipped to a **$55.38-56.37** range today, moving further *below* the $64.52 average analyst price target rather than closing the gap. Zacks' Earnings ESP is now +5.33% (Most Accurate Estimate above consensus), a mechanical tell that a beat is more likely than not — consistent with, not a change to, the four-quarter beat streak already on file.
-3. **A standing data-quality gap partially resolves: OXY's most recent earnings reaction is confirmed negative.** The Q1 2026 print (5/5) triggered a **-7.8%** day-after move (Trefis) despite the EPS beat, on the revenue miss — this closely corroborates the -7.11% figure that has been in three-way conflict with a claimed "+4.52% 5-print average" for three straight cycles. Treat the negative, beat-but-sold-off pattern as the reliable read for the most recent print; the multi-quarter average still isn't independently confirmed (see Section 1).
-4. **Oil is a fresh data-quality mess this cycle — flagging rather than resolving.** One read this morning has WTI **up** to $81.08 and Brent to $89.81; that directly conflicts with BW's 8/3 ~14:41 ET Robinhood-adjacent WebSearch read of WTI at $79.62 (-5.97% that day). The two reads are less than 24 hours apart and moving in opposite directions — a wider spread than this desk has seen on oil all cycle. Net: do not treat either figure as settled; the Hormuz/Iran picture remains genuinely contested (per every desk's 8/3 reporting), so a clean pre-print "tailwind" or "headwind" read on realized pricing is not available this cycle.
-5. **IONQ's options-implied move is unchanged at the headline level (19.55%) but now has a second, materially smaller figure in circulation (13.04%)** from a different source — flagging a fresh split on a number that had looked settled last cycle, not resolving one.
+**What's genuinely new since the 8/4 ~13:30 ET brief:**
+1. **OXY pre-announced its Q2 2026 realized pricing via an SEC 8-K, and it resolves the multi-cycle oil-price data-quality conflict decisively in the bullish direction.** Occidental disclosed average realized worldwide oil price of **$96.78/bbl** (international $95.83, U.S. $96.93) for Q2 2026, against index averages of **WTI $92.79/bbl and Brent $97.06/bbl** for the same period — this is a *primary-source company filing*, not a WebSearch-sourced spot quote, and it is the single most reliable data point this desk has had on OXY all cycle. Compare to Q1 2026's realized worldwide price of $69.91/bbl (last report): that's a **~38% sequential jump in realized pricing** quarter-over-quarter. Note this is a Q2 (April-June) realization, not today's spot price — it predates August's Hormuz-de-escalation-driven oil selloff (Brent now ~$79-83 per BW/GS's 8/4 reads) and is not a read on Q3. Diluted shares outstanding: 1,012.2M. Crude collar settlements cost operating cash flow $156M in the quarter — a real but secondary drag against the pricing tailwind.
+2. **A previously-unlogged Evercore double-upgrade adds bullish color, though it's not fresh news (dated 7/8).** Evercore ISI's Stephen Richardson double-upgraded OXY straight from Underperform to Outperform, raising the target to **$65 from $58**, on a deleveraging/FCF-per-share thesis (flat $75 WTI case, ~8% annual FCF/share growth through 2030, buybacks resuming 2H2028) rather than a production-growth call. This roughly matches, and helps explain, the $64.52 average analyst PT already on file — worth surfacing by name since it hadn't been in a prior brief.
+3. **IONQ extended its rally again — now $41.63, +7.16% since yesterday's already-elevated level**, continuing to run into the print rather than settling. The move remains anchored to Wedbush's fresh $75 target (SkyWater-consolidation thesis).
+4. **A second sell-side note reinforces the pre-print bull case: Benchmark's Gary Mobley reinstated coverage at Buy, $60 PT, explicitly flagging expectations for another FY26 guidance raise tonight.** This is the second distinct, dated, print-specific analyst call this week (after Wedbush) — both point the same direction, raising the bar for what counts as a "good" print even as the stock has already run.
+5. **The IONQ options-implied-move split from last cycle is resolving toward the lower figure gaining a second, independent corroboration.** 13.04%/$4.48 now appears from a second source distinct from the original; 19.55% remains the more-cited headline figure. Treat the true priced move as genuinely uncertain in the 13-20% range rather than converging on one number.
+6. **A partial historical stock-reaction table for OXY can finally be built this cycle** (see Section 1) — Q4'25 +4.4%, Q3'25 +1.7%, Q1'26 -7.8% (Trefis-confirmed) are now on file; Q2'25's next-day reaction remains an unresolved gap despite a dedicated search this cycle.
 
 ---
 
-## 1. Occidental Petroleum (OXY) — pre-earnings brief, reports Wed 8/5, after close (call Thu 8/6, 1pm ET)
+## 1. Occidental Petroleum (OXY) — pre-earnings brief, reports TODAY 8/5, after close (call Thu 8/6, 1pm ET)
 
-Not a holding. GS screener #4 this cycle. Third consecutive full JPM brief for this name (prior: 7/31, 8/3) — last scheduled update before the print itself.
+Not a holding. GS screener #4 this cycle. Fourth and final full JPM brief for this name before the print (prior: 7/31, 8/3, 8/4).
 
 ### Last 4 quarters vs. estimates
 (Note: OxyChem was divested to Berkshire, closing Jan 2026 — revenue is not cleanly comparable across this table.)
@@ -32,109 +33,121 @@ Not a holding. GS screener #4 this cycle. Third consecutive full JPM brief for t
 | Q3 2025 | $0.64 vs $0.49-0.52 (beat, +23-31%) | $6.717B vs $6.746B (slight miss) |
 | Q4 2025 | $0.31 vs $0.16-0.19 (beat, +63-84%) | $5.42B vs ~$5.55-5.66B (miss) |
 | Q1 2026 | $1.06 vs $0.59-0.606 (beat, +80%) | $5.11-5.23B vs $5.45-5.67B (miss; GAAP EPS $3.13 incl. OxyChem sale gain) |
-| **Q2 2026 — reports Wed 8/5** | **Consensus: ~$1.88 avg (range $1.84-1.96); Earnings ESP +5.33% (beat-leaning)** | **Consensus: ~$7.107B; Street expects +36.2% YoY revenue growth (vs. -22.9% YoY in the year-ago quarter)** |
+| **Q2 2026 — reports TODAY 8/5** | **Consensus: ~$1.84-1.88 avg; Earnings ESP +5.33% (beat-leaning)** | **Consensus: ~$7.107B; Street expects +36.2% YoY revenue growth** |
 
-Pattern unchanged and now sharper: four consecutive quarters of large EPS beats (avg. surprise well over 50% across the streak) against a backdrop of revenue "misses" that are hard to fully separate from the OxyChem divestiture's effect on the comparison base. The Earnings ESP read (Most Accurate Estimate $1.96 > Zacks Consensus $1.88) is a mechanical, beat-leaning signal specific to this print.
+Pattern unchanged: four consecutive quarters of large EPS beats against revenue "misses" that are hard to separate cleanly from the OxyChem divestiture's effect on the comparison base. The mechanical Earnings ESP signal (Most Accurate Estimate above consensus) still leans toward a fifth straight beat.
 
-### What's new since 8/3 (research update)
-- **Price has moved down, not up, into the print** — $55.38-56.37 range today vs. $57.07 on 8/3 vs. Friday 7/31's $56.04 close. The average analyst PT of $64.52 is now a wider gap from spot than at either prior read this cycle, not a narrower one.
-- **Historical-reaction data-quality flag partially resolved.** Trefis confirms the Q1 2026 (5/5) print triggered a **-7.8%** next-day move despite the EPS beat, driven by the revenue shortfall — closely corroborating the previously-conflicting -7.11% figure and effectively resolving that specific three-cycle conflict in the negative direction. The claimed "+4.52% 5-print average" remains unconfirmed and should be treated as unreliable; no fresh figures found this cycle for the other 3-4 historical prints in the "last 5" window, so a full five-print table still cannot be built responsibly.
-- **Price-target and Hormuz/oil pictures carry forward largely unchanged from 8/3** — the Truist/Morgan Stanley/Barclays/Susquehanna cluster of cuts into this print still stands (no fresher analyst action found this cycle), and the Stratos/1PointFive DAC timeline update is still explicitly slated for tomorrow's call.
-- **Oil: see the decision-summary flag above** — a genuine, unresolved data-quality conflict this cycle (one read up to $81/$90 WTI/Brent, another down to $79.62 less than a day earlier), not a clean tailwind or headwind call.
-- **Options-implied move: still an unresolved data gap**, now a fourth straight cycle. No clean expected-move percentage was found despite a dedicated search this cycle (Barchart, OptionCharts, MarketChameleon, OptionsAI, ApexVol, Unusual Whales, OptionsLam all surfaced as sources that carry this data but none rendered a usable number this cycle). Qualitative color only: multiple sources describe implied volatility as "surging" into the print.
+### What's new since 8/4 — the realized-pricing pre-announcement
+- **Primary-source resolution of the standing oil-price data-quality gap.** Q2 2026 realized worldwide oil price **$96.78/bbl** (int'l $95.83, U.S. $96.93), NGLs $24.64/bbl blended (U.S. $23.79, int'l $33.49), domestic gas $(1.48)/Mcf. Index context for the same period: **WTI $92.79/bbl, Brent $97.06/bbl.** Versus Q1 2026's $69.91/bbl realized price, this is a substantial sequential pricing tailwind baked directly into tonight's number — not a forecast, a disclosed fact.
+- **This is a Q2 print, not a read on Q3 guidance.** The $96.78/bbl figure reflects April-June pricing, before the Hormuz-de-escalation-driven oil selloff that has since pulled Brent down toward ~$79-83 (per BW/GS's 8/4 reads). Do not extrapolate this realized-pricing strength into forward guidance commentary tonight — if anything, the gap between Q2's realized $96.78 and today's much-lower spot price is exactly the kind of sequential deceleration management may need to address on tomorrow's call.
+- **Evercore's 7/8 double-upgrade ($65 PT, Underperform→Outperform)** is context for the $64.52 average analyst target already on file, not a fresh catalyst, but hadn't been named explicitly in a prior brief — flagging for completeness ahead of the print.
+- **Price**: still in the $55.38-56.37 range as of this morning's read — no fresh WebSearch pull materially different from 8/4's level found this cycle. Defer to Robinhood for anything sizing-relevant.
+- **Options-implied move**: still an unresolved data gap, now a fifth straight cycle — no clean expected-move percentage surfaced despite a dedicated search. Qualitative color only: implied volatility described as "surging" into the print.
 
-### Key metrics to watch (carried forward, unchanged)
+### Key metrics to watch (sharpened for tonight)
+- **Realized pricing reconciliation**: does management's Q2 commentary confirm the $96.78/bbl blended realization holds up against the full P&L, and — more importantly for the stock's forward path — how they frame the sequential drop-off into Q3 given today's much lower spot price.
 - Production: Q1'26 was 1.426-1.43 MMboe/d, beat guide; FY26 guide 1.44 MMboe/d.
-- Realized crude pricing vs. Q1'26's $69.91/bbl worldwide average — today's conflicting spot reads (see above) make it impossible to say cleanly whether the quarter's realized pricing tailwind held; this is now the single most important thing to check as the print lands.
-- Debt paydown: $13.30B principal at Q1'26 end (down from $15.0B), next milestone $10B.
+- Debt paydown: $13.30B principal at Q1'26 end (down from $15.0B), next milestone $10B — Evercore's bull case is explicitly a deleveraging/FCF-per-share story, so progress here matters more than usual this print.
+- Diluted share count: 1,012.2M per today's 8-K, a clean baseline for tonight's per-share figures.
 - Berkshire Hathaway stake: ~264.94M shares (~26.64%) per the Q1'26 13F, unchanged.
 - Stratos/1PointFive timeline update — a specific, dated deliverable for tomorrow's call.
 
-### Segment breakdown (Q1 2026, last reported — unchanged, no Q2 data yet)
-Oil & Gas domestic $1,332M + international $365M = $1,697M total O&G earnings. Midstream & Marketing beat guidance by ~$400M on gas marketing/sulphur pricing. OxyChem: divested, no longer a reporting segment.
+### Segment breakdown (Q1 2026, last fully reported segment data — Q2 segment detail not yet out)
+Oil & Gas domestic $1,332M + international $365M = $1,697M total O&G earnings (Q1). Midstream & Marketing beat guidance by ~$400M on gas marketing/sulphur pricing. OxyChem: divested, no longer a reporting segment. Today's 8-K gives realized pricing, not segment P&L — the full Q2 segment breakdown is part of tonight's release.
 
 ### Management guidance from the last call (unchanged)
 FY26 production ~1.44 MMboe/d; capex $5.5-5.9B; debt target $10B next milestone; ~7% new-well cost improvement targeted via longer laterals/simul-frac execution.
 
+### Historical stock price reaction — last 5 reports (partial, resolving)
+| Print date | Next-session move |
+|---|---|
+| Q4 2025 (2/18) | +4.4% |
+| Q3 2025 (11/12) | +1.7% |
+| Q2 2025 | Not resolved this cycle despite a dedicated search — standing gap |
+| Q1 2026 (5/5) | **-7.8%** (Trefis-confirmed) despite an EPS beat, on the revenue miss |
+
+Read: three of four confirmed prints reacted positively (avg. ~+3% across those three), but the most recent print — the one closest in pattern to tonight's beat-heavy-EPS/mixed-revenue setup — sold off hard. The "beat but sold off anyway" precedent from Q1'26 is the more relevant comp for tonight than the older, friendlier reactions.
+
 ### Bull case
-The EPS-beat streak extends a fourth quarter (Earnings ESP leans this way), realized pricing benefits if the higher of today's two conflicting oil reads is closer to right, and debt reduction continues ahead of schedule. Price impact: **stock recovers toward $60-65**, back toward the $64.52 average PT.
+The realized-pricing pre-announcement is a genuine, disclosed tailwind for tonight's headline number — a fifth straight EPS beat looks more likely than not given both the Earnings ESP signal and the confirmed $96.78/bbl realization. If management also frames the debt-paydown trajectory as ahead of schedule (Evercore's core thesis), the stock has a credible path toward the $64.52-65 analyst-target cluster. Price impact: **stock moves toward $60-65** on a clean beat with a confident forward framing.
 
 ### Bear case
-The revenue-miss pattern continues and reads as more than a divestiture artifact, the pre-print PT-cut cluster proves to be the leading edge of a broader sentiment shift, or realized pricing comes in soft if the lower of today's two oil reads is closer to right. **A repeat of the Q1'26 pattern — a clean EPS beat followed by a ~7-8% next-day selloff on a revenue/guidance disappointment — is the single most concrete, evidence-backed downside scenario on file for this name.** Price impact: **downside toward the low-to-mid $50s** on a repeat of that pattern, or toward the newly-lowered analyst targets ($57-58) even on an in-line print.
+The Q1'26 precedent — a clean EPS beat that still sold off ~7.8% on a revenue/guidance disappointment — is the most relevant historical comp for tonight, not the friendlier Q3/Q4 2025 reactions. The realized-pricing tailwind is a Q2-specific, already-past fact; if management's forward commentary instead centers on the sharp Q2-to-Q3 pricing decline (given where spot sits today, well below the $96.78 realized figure), the market could read tonight's beat as backward-looking and sell the guidance, not the print. Price impact: **downside toward the low-to-mid $50s** on a repeat of the Q1'26 pattern, or toward $57-58 on an in-line print with cautious guidance.
 
 ### Recommended play: **WAIT**
-Not a holding; still double-blocked entering the final pre-print session. State.md rule 3's single-name geopolitical veto remains independently active (Hormuz is, if anything, less resolved than 8/3 given today's conflicting oil-price reads), and rule 6's cross-vetting bar (a full MS DCF) has never been cleared for OXY despite repeated multi-cycle requests. A clean beat tomorrow clears neither gate by itself — and given the confirmed Q1'26 "beat but sold off anyway" precedent, holding through this specific print without a position already on is the lower-risk choice, not a missed opportunity.
+Not a holding; still double-blocked entering the print. State.md rule 3's single-name geopolitical veto remains independently active (Hormuz is still genuinely contested per every desk's reporting), and rule 6's cross-vetting bar (a full MS DCF) has never been cleared for OXY despite repeated multi-cycle requests. Tonight's realized-pricing disclosure is a genuine incremental positive — the strongest, most reliable bullish data point this desk has logged on OXY all cycle — but it doesn't clear either gate by itself, and the Q1'26 "beat but sold off" precedent argues for letting the print and the reaction play out with no position on rather than entering blind hours ahead of it.
 
 ---
 
-## 2. IonQ (IONQ) — pre-earnings brief, reports Wed 8/5, after close (call 4:30pm ET)
+## 2. IonQ (IONQ) — pre-earnings brief, reports TODAY 8/5, after close (call 4:30pm ET)
 
-Not a holding. GS screener #10 this cycle, GS's own risk rating 9-10/10 ("speculative/unproven... entirely unvetted by MS/BW"). Third consecutive full JPM brief for this name (prior: 7/31, 8/3).
+Not a holding. GS screener #10 this cycle, GS's own risk rating 9/10 ("speculative/unproven... entirely unvetted by MS/BW"). Fourth and final full JPM brief for this name before the print (prior: 7/31, 8/3, 8/4).
 
 ### Last 4 quarters — earnings vs. estimates
 | Quarter | Revenue actual vs. est. | EPS (adj.) actual vs. est. |
 |---|---|---|
 | Q3 2025 | $39.87M, beat Zacks est. by 47.57% | Large miss, -713.64% surprise despite the revenue beat |
 | Q4 2025 | $61.9M (+429.1% YoY), beat by 53.5% | -$0.20 vs -$0.54 est. (beat) |
-| Q1 2026 | $64.67M (+755% YoY), beat $49.73M est. | -$0.34 vs -$0.25 est. (miss) |
-| **Q2 2026 — reports Wed 8/5** | **Consensus $66.58-66.66M (company guided $65-68M in May)** | **Consensus -$0.29** |
+| Q1 2026 | $64.67M (+755% YoY), beat $49.73M est. | -$0.34 vs -$0.25 est. (miss); GAAP EPS actually $2.24 vs a $(0.14) prior-year loss per one source — flagging a possible GAAP/non-GAAP reporting mismatch across sources, not resolved this cycle |
+| **Q2 2026 — reports TODAY 8/5** | **Consensus $66.58-66.66M (company guided $65-68M in May)** | **Consensus -$0.29 to -$0.54 depending on source** |
 
-Pattern unchanged: consistent, large revenue beats against a rapidly-rising base, with a genuinely mixed EPS-surprise picture.
+Pattern unchanged: consistent, large revenue beats against a rapidly-rising base, with a genuinely mixed and now somewhat inconsistently-reported EPS picture across sources.
 
-### What's new since 8/3 (research update)
-- **A genuinely fresh, print-specific price-target raise landed: Wedbush → $75 (from $60), Outperform reiterated.** Unlike the stale Benchmark/Craig-Hallum/Cantor targets dismissed last cycle, this one is dated to this week, explicitly built on a 10-year DCF (WACC 22%, terminal growth 5%) with SkyWater's now-completed consolidation (closed 7/31) flagged as the key input the analyst expects to move ahead of Wednesday's print. This is the first fresh, earnings-adjacent Street target this desk has logged on IONQ.
-- **The rally has extended further, not faded.** Friday 7/31 close $36.44 → today's read shows $40.57, another leg higher on top of the pop already flagged as "held and modestly extended" last cycle. **Data-quality flag: one source's intraday range for today ($35.43-$40.16) does not bracket its own quoted last price ($40.57) cleanly** — treat today's exact print level with the same skepticism rule 4 already applies to WebSearch-sourced prices generally; the *direction* (up, and by a lot, since Friday) is corroborated by the Wedbush-driven and Motley Fool coverage even if the exact tick isn't.
-- **Options-implied move is now split across sources.** The 19.55%-vs-9.86%-historical-average figure (sourced last cycle) still appears as the headline number, but a second source this cycle surfaces **13.04%** as the priced move — a genuinely new discrepancy, not a confirmation. Treat 19.55% as the more heavily corroborated figure (it recurs across TipRanks, financefeeds, and the original source) but flag that it is no longer uncontested.
+### What's new since 8/4
+- **The rally extended again, not paused.** $41.63 today (+7.16% vs. yesterday's already-elevated close), continuing straight through what was already flagged last cycle as an extended, event-driven pop. From last Friday's $36.44 close, IONQ is up roughly 14% in three sessions heading into the print.
+- **A second, distinct analyst note reinforces the bull setup: Benchmark's Gary Mobley reinstated coverage at Buy with a $60 target, explicitly calling for another guidance raise tonight.** Combined with Wedbush's $75 target from Monday, this is now two independent, dated, print-specific sell-side calls pointing the same direction in the same week — a genuinely stronger consensus bull setup than any prior cycle, but also a higher bar: two analysts are now on record expecting a raise, so an in-line guide without a raise risks reading as a disappointment even if headline numbers beat.
+- **Options-implied move: still split, but the lower figure is gaining independent corroboration.** 13.04% (~$4.48) now appears via a second, distinct source this cycle; 19.55% remains the more heavily-cited headline number. Treat the true priced move as uncertain in the 13-20% range, not resolved to either figure.
+- **No historical day-after stock-reaction table could be built this cycle despite a dedicated search** — sources return earnings-vs-estimate detail but not next-session price-move data for IONQ specifically. Flagging as a standing gap rather than padding with an estimate.
 - **No change to the SkyWater mechanics or the September 8 investor-day date** — both carry forward as previously reported.
-- **Segment/product-line revenue breakdown: still a standing data gap**, not resolved this cycle.
 
-### Key metrics to watch (carried forward, sharpened)
-- Whether management raises the FY26 guide ($260-270M) — the single most-cited thing to watch across this cycle's fresh coverage.
-- Bookings pipeline commentary — explicitly flagged by multiple fresh sources as a focus area alongside the headline numbers.
-- Any quantified update on SkyWater integration costs/synergies now that the deal has actually closed (7/31) and is consolidating onto the balance sheet for the first time this quarter.
-- Whether Wedbush's new $75 target holds up against the actual print or was pricing in more SkyWater upside than management confirms.
+### Key metrics to watch (sharpened for tonight)
+- Whether management raises the FY26 guide ($260-270M) — now explicitly expected by two sell-side analysts (Wedbush, Benchmark), raising the bar for what "good enough" looks like tonight.
+- RPO/bookings pipeline commentary — Q1's $470M RPO (+554% YoY) is the baseline; any deceleration here would matter more than a headline revenue beat given how much of the bull case rests on forward visibility.
+- Quantified SkyWater integration costs/synergies now that the deal is consolidating for the first time this quarter (closed 7/31).
+- Whether the print and guide can plausibly support two fresh $60-75 price targets set just this week, or whether those targets were pricing in more than management confirms.
 
 ### Segment breakdown
-Still a standing data gap — no clean segment-level (quantum-computing-as-a-service vs. hardware vs., as of this quarter, SkyWater's chip-fab revenue) breakdown found across three consecutive cycles of searching.
+Still a standing data gap — no clean segment-level (quantum-computing-as-a-service vs. hardware vs., as of this quarter, SkyWater's chip-fab revenue) breakdown found across four consecutive cycles of searching.
 
 ### Management guidance from the last call (unchanged)
 FY26 revenue guide $260-270M (raised at Q1); Q2 guide $65-68M given in May, consensus $66.58-66.66M sits inside that range.
 
+### Historical stock price reaction
+Standing data gap, not resolved this cycle — no next-session price-move figures found for the last 5 IONQ prints despite a dedicated search. Flagging plainly rather than fabricating a number; the historical average absolute move is 9.86% (cited by TipRanks alongside the 19.55% implied-move figure), which at least sizes the typical swing even without directional/date-specific detail.
+
 ### Bull case
-A clean beat-and-raise, a bookings number that shows the pipeline still expanding, and management framing SkyWater as accretive rather than a distraction — with Wedbush's $75 target as the fresh anchor for how far a genuinely good print could re-rate the stock. Price impact: **a push toward the mid-$40s to low-$50s**, a re-rating move rather than a slow grind, if the print clears the bar Wedbush just set.
+A beat-and-raise that meets the bar two sell-side analysts have now explicitly set this week, strong RPO growth showing the bookings pipeline still expanding, and management framing SkyWater as accretive rather than a distraction. Price impact: **a push toward the mid-$40s to $50s** — a re-rating move, if the print clears the newly-raised bar.
 
 ### Bear case
-The stock is now up roughly 30%+ from its pre-rally base heading into a print with a historically-mixed EPS-surprise record (a beat on revenue, a miss on EPS, in three of the last four quarters) and an options market pricing a swing of somewhere between 13% and 20% either way — a genuinely two-sided setup where "priced for perfection" risk is real. Any SkyWater-integration surprise (cost, dilution, timeline) lands on a stock with very little room for a disappointing read. Price impact: **downside toward the low-to-mid $30s** on a miss or a guidance disappointment, giving back most of the post-SkyWater/Wedbush rally in a single session.
+The stock is now up ~14% in three sessions and roughly 30%+ from its pre-rally base, heading into a print where two analysts have publicly staked out expectations for a guidance raise — meaning even a solid beat-without-raise could disappoint relative to where expectations now sit. The historically mixed EPS-surprise record (a beat on revenue, a miss on EPS, in three of the last four quarters) compounds the risk. Price impact: **downside toward the mid-to-high $30s** on a miss or a guide that merely meets rather than beats the freshly-raised bar, giving back a meaningful chunk of this week's run in a single session.
 
 ### Recommended play: **WAIT**
-Not a holding; rule 6's cross-vetting bar (MS DCF + BW risk read) has never been cleared for IONQ despite standing requests across multiple weeks. Independent of that gate, rule 2's "don't chase an extended move" concern is now more acute than at any prior point this cycle — the stock has run further since the last brief, not less, on top of an already-flagged event-driven pop, right into a print with a historically mixed EPS record. A genuinely good print could still re-rate the stock further per the bull case above, but entering fresh money the day before the print, on top of this rally, into this EPS-surprise history, is exactly the setup rule 2 exists to avoid.
+Not a holding; rule 6's cross-vetting bar (MS DCF + BW risk read) has never been cleared for IONQ despite standing requests across multiple weeks. Rule 2's "don't chase an extended move" concern is now at its most acute point of the entire cycle — the stock ran another 7%+ today, on top of an already-flagged pop, right into a print where the sell-side has now publicly raised the bar for what counts as good news. A genuinely strong beat-and-raise could still re-rate the stock further per the bull case, but entering fresh money hours before the print, on top of this rally, against this EPS-surprise history, is exactly the setup rule 2 exists to avoid — and it applies with more force today than at any prior brief.
 
 ---
 
 ## Coverage note — no third name this cycle
 
-Checked and confirmed today: **NVDA** (holding) reports **August 26** (Nvidia's own scheduled Q2 FY27 call, confirmed via fresh search) — 22 days out, outside the 2-week window. **CRWD and AVGO** (screener names) are now both confirmed for **September 2** — 29 days out, also outside the window (previously carried as separate ~8/26/~9/3 estimates; this cycle's search resolves both to the same September 2 date). AMZN, MU, GEHC, and PTCT have all already reported this cycle and are not due again within 2 weeks. VTI, VXUS, and XLE are diversified funds with no earnings date of their own. No pad added — this section exists per the persona's own instruction to state the calendar plainly when nothing new enters the window.
+Checked and confirmed today: **NVDA** (holding) reports **August 26** — 21 days out, outside the 2-week window. **CRWD and AVGO** (screener names) confirmed for **September 2** — 28 days out, also outside the window. AMZN, MU, GEHC, and PTCT have all already reported this cycle and are not due again within 2 weeks. VTI, VXUS, and XLE are diversified funds with no earnings date of their own. No pad added — this section exists per the persona's own instruction to state the calendar plainly when nothing new enters the window.
 
 ---
 
 Sources:
-- [Occidental Petroleum (OXY) Reports Next Week: Wall Street Expects Earnings Growth (Yahoo Finance)](https://finance.yahoo.com/markets/stocks/articles/occidental-petroleum-oxy-reports-next-140028125.html)
-- [Occidental Petroleum Earnings: What To Look For From OXY (StockStory via FinancialContent)](https://markets.financialcontent.com/stocks/article/stockstory-2026-8-4-occidental-petroleum-earnings-what-to-look-for-from-oxy)
-- [Occidental (OXY) Q2 Earnings Preview: What You Should Know Beyond the Headline Estimates (Finviz)](https://finviz.com/news/126377/occidental-oxy-q2-earnings-preview-what-you-should-know-beyond-the-headline-estimates)
+- [Occidental Petroleum posts Q2 2026 realizations; average diluted shares 1,012.2M (TradingView News)](https://www.tradingview.com/news/tradingview:d8c8811575c0d:0-occidental-petroleum-posts-q2-2026-realizations-average-diluted-shares-1-012-2m/)
+- [Occidental Petroleum Q2 2026 oil price averages $96.78 per barrel (ScanX Trade)](https://scanx.trade/stock-market-news/companies/occidental-petroleum-q2-2026-oil-price-averages-96-78-per-barrel/45269389)
+- [Occidental (NYSE: OXY) outlines Q2 2026 share count, oil prices and hedge cash impact — 8-K filing (StockTitan)](https://www.stocktitan.net/sec-filings/OXY/8-k-occidental-petroleum-corp-de-reports-material-event-874637e1acad.html)
+- [Occidental Petroleum releases Q2 2026 earnings considerations (StreetInsider)](https://www.streetinsider.com/Corporate+News/Occidental+Petroleum+releases+Q2+2026+earnings+considerations/26757633.html?classic=1)
+- [Weekly Recap: Occidental Q2 prices & diluted shares and Evercore $65 target (TradingView News)](https://www.tradingview.com/news/tradingview:da9b0d5a1ed2c:0-weekly-recap-occidental-q2-prices-diluted-shares-and-evercore-65-target/)
+- [Evercore ISI Upgrades Occidental Petroleum to Outperform From Underperform, Raises Price Target to $65 From $58 (MarketScreener)](https://www.marketscreener.com/news/evercore-isi-upgrades-occidental-petroleum-to-outperform-from-underperform-raises-price-target-to--ce7f5ed9d98cf72d)
+- [This Analyst Believes OXY Stock Could Climb 25% From Current Levels (Stocktwits)](https://stocktwits.com/news-articles/markets/equity/oxy-stock-could-climb-25-percent-low-debt-evercore/cZmVt4GR7Np)
+- [Occidental Q2 2026 results set for Aug. 5 (StockTitan)](https://www.stocktitan.net/news/OXY/occidental-to-announce-second-quarter-results-wednesday-august-5-k7qhso9y3ed6.html)
+- [Occidental Petroleum Corp. (OXY) Earnings Dates, Call Summary & Reports (TipRanks)](https://www.tipranks.com/stocks/oxy/earnings)
 - [Why is Occidental Petroleum stock up today? Q2 2026 earnings and $58.38 resistance focus (TradersUnion)](https://tradersunion.com/news/stocks/show/2837050-occidental-petroleum-jumps-3-9percent-today/)
-- [How Will Occidental Petroleum Stock React To Its Upcoming Earnings? (Trefis)](https://www.trefis.com/articles/598132/how-will-occidental-petroleum-stock-react-to-its-upcoming-earnings-2/2026-05-02)
-- [OXY Stock Whipsaws As Earnings Beat Clashes With Caution (StocksToTrade)](https://stockstotrade.com/news/occidental-petroleum-corporation-oxy-news-2026_05_15/)
-- [OXY Occidental Petroleum Corporation Earnings History and Price Movements Analysis (OptionsLam)](https://www.optionslam.com/earnings/stocks/OXY)
-- [IonQ Sets August 5 Earnings Date (Moomoo)](https://www.moomoo.com/community/feed/ionq-inc-ionq-us-ionq-sets-august-5-earnings-date-116979734151174)
+- [IonQ at $35.77: The Aug 5 Earnings Bull and Bear Case (FinanceFeeds)](https://financefeeds.com/ionq-stock-bull-bear-case/)
 - [IONQ Stock Price Braces for a 19.55% Swing as Q2 Earnings Near (TipRanks)](https://www.tipranks.com/news/ionq-stock-price-braces-for-a-19-55-swing-as-q2-earnings-near)
-- [IonQ to Report Second Quarter 2026 Financial Results on August 5, 2026 (IonQ Investor Relations)](https://investors.ionq.com/news/news-details/2026/IonQ-to-Report-Second-Quarter-2026-Financial-Results-on-August-5-2026/default.aspx)
-- [IonQ (IONQ) Reports Q2: Everything You Need To Know Ahead Of Earnings (StockStory via FinancialContent)](https://markets.financialcontent.com/stocks/article/stockstory-2026-8-4-ionq-ionq-reports-q2-everything-you-need-to-know-ahead-of-earnings)
-- [IonQ's (IONQ) Outperform Rating Reaffirmed at Wedbush (MarketBeat)](https://www.marketbeat.com/instant-alerts/ionqs-ionq-outperform-rating-reaffirmed-at-wedbush-2026-08-03/)
-- [Wedbush Raises Price Target on IonQ to $75 From $60, Keeps Outperform Rating (MarketScreener)](https://www.marketscreener.com/news/wedbush-raises-price-target-on-ionq-to-75-from-60-keeps-outperform-rating-ce7f58d3d18cf624)
-- [Why IonQ Stock Popped Today (The Motley Fool)](https://www.fool.com/investing/2026/08/03/why-ionq-stock-popped-today/)
-- [IonQ Stock Is Soaring Monday: What's Going On? (Benzinga)](https://www.benzinga.com/trading-ideas/movers/26/08/60881018/ionq-stock-is-soaring-monday-whats-going-on)
-- [Nvidia schedules Q2 fiscal 2027 earnings call for August 26 (StreetInsider)](https://www.streetinsider.com/Corporate+News/Nvidia+schedules+Q2+fiscal+2027+earnings+call+for+August+26/26836264.html)
-- [CrowdStrike Holdings (CRWD) Earnings Dates, Call Summary & Reports (TipRanks)](https://www.tipranks.com/stocks/crwd/earnings)
-- [Broadcom (AVGO) Earnings, Revenues Date & History (TipRanks)](https://www.tipranks.com/stocks/avgo/earnings)
-- [Current price of oil as of August 4, 2026 (Fortune)](https://fortune.com/article/price-of-oil-08-04-2026/)
-- Internal: trading-experiment/state.md (rules 3, 4, 6; ground rules), analysts/gs-stock-screener.md (8/3 ~15:42 ET, screener top-10 and holdings), analysts/jpm-earnings-analyzer.md prior cycles (8/3, 7/31, this desk's own history)
+- [Why IonQ (IONQ) Stock Is Up Today (Yahoo Finance)](https://finance.yahoo.com/markets/stocks/articles/why-ionq-ionq-stock-today-142122252.html)
+- [IonQ (IONQ) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026 (Public.com)](https://public.com/stocks/ionq/forecast-price-target)
+- [Morgan Stanley Raises IonQ (IONQ) Price Target Amid Growing Quantum Computing Opportunities (Finviz)](https://finviz.com/news/150496/morgan-stanley-raises-ionq-ionq-price-target-amid-growing-quantum-computing-opportunities)
+- [IonQ to Report Second Quarter 2026 Financial Results on August 5 (IonQ Investor Relations)](https://www.ionq.com/news/ionq-to-report-second-quarter-2026-financial-results-on-august-5-2026)
+- [Stock Market Today (Aug. 5, 2026): S&P futures gain ahead of Disney, Shopify earnings (TheStreet)](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-5-2026)
+- Internal: trading-experiment/state.md (rules 3, 4, 6; ground rules; 8/4 15:36 ET run notes for current holdings), analysts/gs-stock-screener.md (8/4 ~15:42 ET, screener top-10 and holdings), analysts/jpm-earnings-analyzer.md prior cycles (8/4, 8/3, 7/31, this desk's own history)

@@ -1,24 +1,24 @@
 # JPM Earnings Analyzer — Latest Report
-**Date: 2026-08-12 (Wednesday)**
+**Date: 2026-08-13 (Thursday), ~09:35 ET**
 
-*Persona: JPMorgan equity research analyst, pre-earnings catalyst calendar for the "Claude Robinhood Trader." Coverage = trader's current holdings (state.md: NVDA, VTI, VXUS, OMCL, XLE) + GS screener's top-10 (analysts/gs-stock-screener.md, dated 2026-08-11 15:41 ET: OMCL, GEHC, PTCT, OXY, XLE, IONQ, AMZN, AVGO, MU, CRWD). No live Robinhood access — all prices/dates below are WebSearch-sourced; defer to the trader's own Robinhood-verified quote for anything sizing-relevant, per standing rule 4.*
+*Persona: JPMorgan equity research analyst, pre-earnings catalyst calendar for the "Claude Robinhood Trader." Coverage = trader's current holdings (state.md: NVDA, VTI, VXUS, OMCL, XLE) + GS screener's top-10 (analysts/gs-stock-screener.md, dated 2026-08-12 16:38 ET: OMCL, GEHC, PTCT, OXY, XLE, IONQ, AMZN, AVGO, MU, CRWD). No live Robinhood access — all prices/dates below are WebSearch-sourced; defer to the trader's own Robinhood-verified quote for anything sizing-relevant, per standing rule 4.*
 
 ---
 
-## Coverage check, 2026-08-12: same two names in the ~2-week window — NVDA and CRWD, both reporting August 26, 2026 (now 14 days out)
+## Coverage check, 2026-08-13: same two names in the ~2-week window — NVDA and CRWD, both reporting August 26, 2026 (now 13 days out)
 
-No new name crossed the window since yesterday. **AVGO** (screener #8) confirmed at **September 2, 2026** (21 days out) — still outside the ~2-week bar, next to cross. **OMCL** (holding/screener #1) reports **November 4** (~84 days out). The remaining screener names — GEHC, PTCT, OXY, IONQ, AMZN, MU — have all already reported their most recent (Q2/FQ2/FQ3) quarter per GS's own summary table, putting their next print on a standard ~11-13 week cycle, comfortably outside the window; no date changes found this run. VTI/VXUS are diversified baskets, not single-name earnings events, and stay outside this brief's scope by design.
+No new name crossed the window since yesterday. **AVGO** (screener #8) confirmed still at **September 2, 2026** (20 days out) — next to cross the window around 2026-08-19/20. **OMCL** (holding/screener #1) reports **November 4** (~83 days out). The remaining screener names — GEHC, PTCT, OXY, IONQ, AMZN, MU — have all already reported their most recent quarter and sit on a standard ~11-13 week cycle, comfortably outside the window; no date changes found this run. VTI/VXUS are diversified baskets, not single-name earnings events, and stay outside this brief's scope by design.
 
-Both NVDA and CRWD briefs are refreshed below with today's prices and a data-quality flag on CRWD's price-target dispersion. No structural change to either recommendation since yesterday — this is a refresh, not a reversal.
+**One incremental, book-relevant finding this run: NVDA's CDS spread has genuinely started retracing, not just plateauing.** Yesterday's brief flagged "no fresh spike, but no retracement either" as an open question — that's now resolved with real data: the 5-year CDS eased from the 82bps record (7/27) to **72.11bps by August 11**, a meaningful ~10bps pullback, while still sitting well above pre-crisis levels (~2x late-May levels per the same reporting). This softens, but does not resolve, the credit-risk overhang — flagged in the NVDA brief below.
 
 ---
 
 # 🔴 NVDA — NVIDIA Corporation
 **Reports: Wednesday, August 26, 2026, after market close. Call 5:00pm ET / 2:00pm PT. Covers fiscal Q2 FY2027 (quarter ended ~July 26, 2026).**
-**Status in book: live holding, ~12% of equity as of the trader's most recent check-in (8/11).**
+**Status in book: live holding, ~12% of equity as of the trader's most recent check-in (8/12).**
 
 ## Decision summary
-**WAIT — hold through the print, no pre-earnings add.** Unchanged from yesterday. NVDA is 14 days from a binary event, trading mid-range (today's pre-market print ~$220.49, well off both the 52-week high ~$236.54 and off deeper pullback levels), with a live CDS spread still sitting at its record ~82bps (no fresh spike found this run, but no retracement either — the circular-financing overhang from the OpenAI $250B/$350B talks is unresolved, still "in discussions... nothing signed" per this run's search). Three of the last four next-day reactions were negative despite beats — the dominant near-term pattern remains "sell the news," not "buy the beat." No fresh catalyst today changes this call.
+**WAIT — hold through the print, no pre-earnings add.** Unchanged from yesterday, though the credit-risk backdrop is incrementally less alarming: NVDA trades at **$223.22 today (+2.63%, range $220.20-225.10)**, and the CDS spread has eased from its 82bps record to **~72.11bps** (as of 8/11) — a genuine retracement, not just a pause. That said, the OpenAI financing structures ($250B Ohio data-center debt guarantee, separate ~$350B chip-purchase financing) remain explicitly **unsigned and could still be scrapped or have terms altered**, per this run's search — so the overhang is easing, not resolved. 13 days from a binary event, and three of the last four next-day reactions were negative despite beats — the dominant near-term pattern remains "sell the news," not "buy the beat." No change to the underlying call.
 
 ### 1. Last 4 quarters vs. estimates
 | Quarter | Report date | Revenue (actual vs. est.) | Beat | EPS non-GAAP (actual vs. est.) | Beat |
@@ -38,10 +38,10 @@ Beat magnitude has been shrinking even as YoY growth held near 60-85% — the ba
 ### 3. Key metrics to watch this print
 - **Data Center growth deceleration** — now ~92% of total revenue; watch qualitative AI-inference-economics and sovereign-AI-deal commentary.
 - **Blackwell Ultra ramp / Rubin transition commentary.**
-- **China/H200 — still essentially zero deliveries.** Fresh this run: a U.S. trade official told Congress in mid-July that "very few" H200 units have shipped to China/Hong Kong — "a very small quantity," reinforcing the guide's zero-China assumption is the safe base case. NVIDIA is separately reported opening Vera CPU sales to China as early as August as an H200 workaround — watch for commentary, but no revenue impact expected this quarter.
+- **China/H200 — still essentially zero deliveries.** No new development found this run beyond the mid-July "very few units shipped" Congressional testimony already on file.
 - **Gross margin durability at ~75%.**
-- **OpenAI financing overhang — unchanged, still unresolved.** As of this run's search, the $250B Ohio data-center debt guarantee and the separate ~$350B chip-purchase financing structure remain in active talks, "nothing signed," "could still collapse or have terms altered." Expect direct analyst Q&A on this 8/26.
-- **CDS/credit risk — still at the record level, not retracing.** 5-year CDS spread hit 82bps intraday 7/27 (largest single-day jump since the contract began trading Nov 2025) and this run's search found no evidence of retracement since. IMF/BIS have both flagged AI circular financing as a systemic risk. This remains the single most JPM-desk-relevant new risk channel.
+- **OpenAI financing overhang — easing but still unresolved.** Both the $250B Ohio data-center debt guarantee and the separate ~$350B chip-purchase financing structure remain in active talks as of this run's search — "not agreed," "terms not final," "could still be scrapped." Expect direct analyst Q&A on this 8/26; any signed/finalized term sheet before then would be a material incremental data point.
+- **CDS/credit risk — retracing, the one real change this run.** 5-year CDS eased from the 82bps record (7/27) to ~72.11bps (8/11) — a genuine, if partial, de-escalation. Still roughly 2x late-May levels, and IMF/BIS have both flagged AI circular financing as a systemic risk generally — this is a softening, not a resolved concern.
 
 ### 4. Segment-by-segment breakdown and trends
 Unchanged from prior brief — NVIDIA now reports only two segments (Data Center, Edge Computing) starting Q1 FY2027.
@@ -52,7 +52,7 @@ Unchanged from prior brief — NVIDIA now reports only two segments (Data Center
 Revenue $91.0B ± 2%; non-GAAP gross margin 75.0% ± 50bps; guidance assumes no China Data Center compute revenue. Unchanged.
 
 ### 6. Options market implied move
-This run's freshest figure: Susquehanna Financial Group pegs the current weekly-straddle-implied move at **~6.5%**, below the ~8% average implied move across NVDA's last 10 earnings prints. That sits between the two reference bands already on file (trailing ~16-quarter average ±8.3%, cooling to a more recent ±5.4% average) — directionally consistent with "elevated but not extreme" pricing. One data point worth flagging: buying the weekly straddle as a pure earnings trade has reportedly lost money in **seven straight quarters** for NVDA (avg return -28.8%), an IV-crush pattern — not directly actionable for this book (equities only, no options), but useful context that the options market has been over-pricing the realized move for a while now. **Action item still open: pull a live ATM straddle from Barchart/ORATS closer to 8/26 for a hard number.**
+No fresher figure than the ~6.5% weekly-straddle-implied move (Susquehanna) already on file, vs. an ~8% average implied move across NVDA's last 10 prints and a trailing ~16-quarter average of ±8.3%. **Action item still open: pull a live ATM straddle from Barchart/ORATS closer to 8/26 for a hard number.**
 
 ### 7. Historical stock price reaction after the last 5 reports
 | Report date | Quarter | Next-day move |
@@ -66,24 +66,24 @@ This run's freshest figure: Susquehanna Financial Group pegs the current weekly-
 Three of the last four next-day reactions were negative despite beats on both lines — unchanged, still the single most important data point in this brief.
 
 ### 8. Bull case
-Street consensus "Strong Buy"; PT range roughly $205-$300+ depending on firm/freshness. SemiAnalysis's independent H2 FY2027 Data Center compute revenue estimate ($203B) still runs ~20% above Street's $169B consensus. Bull thesis: Blackwell Ultra/Rubin ramp, CUDA moat, sovereign AI deal flow, hyperscaler capex durability. **Bull-case estimate: ~$300, roughly +36% from today's ~$220 pre-market print — plausible on a clean beat-and-raise with reassuring OpenAI-financing/China commentary.**
+Street consensus "Strong Buy" (58 of 61 analysts rate Buy/Strong Buy per this run's search); average 12-month PT ~$302-304 (~+35% from today's $223.22). SemiAnalysis's independent H2 FY2027 Data Center compute revenue estimate ($203B) still runs ~20% above Street's $169B consensus. Bull thesis: Blackwell Ultra/Rubin ramp, CUDA moat, sovereign AI deal flow, hyperscaler capex durability, plus today's incremental CDS retracement removing some of the credit-risk tail. **Bull-case estimate: ~$300-304, roughly +35% from today's print — plausible on a clean beat-and-raise with reassuring OpenAI-financing/China commentary and continued CDS normalization.**
 
 ### 9. Bear case
-Bear-case target near $152 cited against the ~$300 bull case. Drivers unchanged: (1) circular-financing criticism (Burry, Bernstein's Rasgon); (2) the still-record CDS spread as live market pricing of credit risk; (3) China H200 sales still stuck near-zero despite Commerce clearance; (4) competitive pressure (Microsoft Maia 300, AMD, Intel, hyperscaler custom silicon); (5) valuation/cyclicality risk at a multi-trillion-dollar market cap; (6) the sell-the-news pattern itself. **Bear-case estimate: high-teens-to-20%+ single-day downside plausible on an in-line (not beat-and-raise) print combined with cautious OpenAI/China commentary, echoing the -5.46% Q4 FY2026 reaction.**
+Bear-case target near $152 cited against the ~$300 bull case. Drivers largely unchanged: (1) circular-financing criticism (Burry, Bernstein's Rasgon) — still live even with the CDS retracement, since the underlying $540B+ of 2026 vendor-financing deals hasn't shrunk, just the market's immediate fear premium; (2) CDS spread still ~2x late-May levels despite easing; (3) China H200 sales still stuck near-zero; (4) competitive pressure (Microsoft Maia 300, AMD, Intel, hyperscaler custom silicon); (5) valuation/cyclicality risk at a multi-trillion-dollar market cap; (6) the sell-the-news pattern itself. **Bear-case estimate: high-teens-to-20%+ single-day downside plausible on an in-line (not beat-and-raise) print combined with cautious OpenAI/China commentary, echoing the -5.46% Q4 FY2026 reaction — the CDS retracement lowers, but doesn't eliminate, this tail.**
 
 ### 10. Recommended play
-**WAIT.** Hold through the print — no pre-earnings add, no pre-earnings trim (no structural break; same standard already applied to OMCL). NVDA remains comfortably inside the book's 18-20% single-name and 25% NVDA+OMCL combined triggers, so dollar risk is contained even given the historical "sell the beat" pattern — but the unresolved OpenAI financing structures and the still-elevated CDS spread mean this book should not add into the print. Treat 8/27's first run as a mandatory fresh-5-analyst-read moment before any post-print sizing action, win or lose.
+**WAIT.** Hold through the print — no pre-earnings add, no pre-earnings trim (no structural break; same standard already applied to OMCL). NVDA remains comfortably inside the book's 18-20% single-name and 25% NVDA+OMCL combined triggers (~21.14% combined per the trader's 8/12 check-in), so dollar risk is contained. The CDS retracement (82bps→72.11bps) is a genuine incremental positive worth noting, but with the OpenAI financing structures still explicitly unsigned, this isn't a green light to add pre-print — it's one fewer reason to be defensive, not a new reason to be aggressive. Treat 8/27's first run as a mandatory fresh-5-analyst-read moment before any post-print sizing action, win or lose.
 
 ---
 
 # 🟡 CRWD — CrowdStrike Holdings
 **Reports: Wednesday, August 26, 2026, after market close. Call 5:00pm ET / 2:00pm PT. Covers fiscal Q2 FY2027 (quarter ended ~July 31, 2026).**
-**Status in book: NOT a holding. Screener rank #10 (GS, 2026-08-11). Never cross-vetted by MS/BW per rule 6.**
+**Status in book: NOT a holding. Screener rank #10 (GS, 2026-08-12). Never cross-vetted by MS/BW per rule 6.**
 
-**Data caveat carried over: CRWD executed a 4-for-1 stock split effective 2026-07-02.** Any PT figure above ~$300 in aggregator data almost certainly needs dividing by 4 — this run's own search surfaced exactly that split: two sources quoting $545.84 and $700.79 (clearly pre-split-contaminated) alongside two others quoting $193.13 and $191.97 (consistent with a post-split-adjusted figure near current price). Flagging this dispersion explicitly rather than picking one number.
+**Data caveat carried over: CRWD executed a 4-for-1 stock split effective 2026-07-02.** Any PT figure above ~$300 in aggregator data almost certainly needs dividing by 4 (this run's search again surfaced a contaminated $533.34 "target" alongside the more credible post-split cluster below) — flagging this dispersion explicitly rather than picking one number.
 
 ## Decision summary
-**WAIT — do not initiate a position before the print.** Unchanged from yesterday, and reinforced by today's data: CRWD trades at **~$221.65** (today's range $219.24-$225.52), sitting *above* the more credible, post-split-adjusted consensus PT cluster (~$191-193) found this run — i.e., the stock is priced ahead of where a meaningful slice of Street consensus already sees fair value, heading into a binary event. Combined with an IV30 rank of 94% (elevated implied-vol percentile, a fresh data point this run) and a valuation near 90x forward earnings, this remains a textbook "don't chase into a print" case per rule 2, independent of the still-open rule 6 cross-vetting gate.
+**WAIT — do not initiate a position before the print.** Unchanged from yesterday. CRWD trades at **~$221.90** today (essentially flat vs. yesterday's $221.65, within 2.2% of its 52-week high), still sitting *above* the more credible post-split-adjusted consensus PT cluster (~$191-192) found this run — the stock is priced ahead of where a meaningful slice of Street consensus sees fair value, heading into a binary event, with the high end of the credible range (~$250) only modestly above today's price and the low end (~$103) a reminder of just how wide analyst dispersion is on this name. Combined with the previously-flagged IV30 rank of 94% and a valuation near 90x forward earnings, this remains a textbook "don't chase into a print" case per rule 2, independent of the still-open rule 6 cross-vetting gate.
 
 ### 1. Last 4 quarters vs. estimates
 | Quarter | Report date | Revenue (actual vs. est.) | Beat | EPS non-GAAP (actual vs. est.) | Beat |
@@ -117,7 +117,7 @@ Unchanged — CRWD doesn't disclose ARR-by-module, only aggregate module-count-p
 Revenue $1.43-1.44B; non-GAAP operating income $346-349M; non-GAAP diluted EPS $1.16-1.17; ARR $5,792.6-5,794.6M. Unchanged.
 
 ### 6. Options market implied move
-No fresher percentage figure than the 8/7/26 scan already on file (~7.1% implied move vs. an ~7.8% trailing-8-quarter median actual move — implied and realized close together). **New this run:** IV30 rank of 94% (30-day implied volatility sitting in the 94th percentile of its own recent range) — a signal the options market has priced in materially more uncertainty around this specific print than CRWD's implied vol typically carries, consistent with the stock sitting near all-time highs into a binary event. Re-check the percentage move closer to 8/26.
+No fresher figure than the ~7.1% implied move (vs. ~7.8% trailing-8-quarter median actual move) and IV30 rank of 94% already on file. Re-check the percentage move closer to 8/26.
 
 ### 7. Historical stock price reaction after the last 5 reports
 | Report date | Quarter | Reaction |
@@ -131,25 +131,24 @@ No fresher percentage figure than the 8/7/26 scan already on file (~7.1% implied
 The dominant recent pattern (most recent print) mirrors NVDA's: a clean beat still sold off hard on "merely in-line" guidance. Unchanged read.
 
 ### 8. Bull case
-44-61 analysts (source-dependent) rate CRWD "Buy." Thesis: platform consolidation (module adoption climbing), record net-new-ARR pace, subscription margin expansion, 2024-outage overhang fully metabolized, recent XM Cyber acquisition adding to the growth narrative. **Bull-case estimate: a beat-and-raise that clears the top of guidance with an ARR re-raise could push CRWD toward the $240-260 area (extrapolating recent post-beat multiple expansion), though this run found no single clean bull-case PT to anchor a harder number given the split-data dispersion noted above.**
+44 analysts (per this run's search) rate CRWD "Buy" on average. Thesis: platform consolidation (module adoption climbing), record net-new-ARR pace, subscription margin expansion, 2024-outage overhang fully metabolized, recent XM Cyber acquisition adding to the growth narrative. **Bull-case estimate: a beat-and-raise that clears the top of guidance with an ARR re-raise could push CRWD toward the $240-260 area (extrapolating recent post-beat multiple expansion and the credible high-end PT of ~$250), though split-data dispersion means this isn't a hard anchor.**
 
 ### 9. Bear case
-Valuation (~90x forward) leaves no room for anything short of a clean beat-and-raise — the 6/3/26 print proved a beat-without-a-raise is enough to trigger a double-digit drop even for this name. IV30 at a 94th-percentile rank signals the market itself is bracing for a large move. **Bear-case estimate: a repeat of the 6/3 pattern (beat both lines, only in-line guide) could plausibly produce another 9-11% single-day drop, and CRWD's post-split-adjusted consensus PT cluster (~$191-193) sitting below today's ~$222 price implies real multiple-compression risk even without a fundamental miss.**
+Valuation (~90x forward) leaves no room for anything short of a clean beat-and-raise — the 6/3/26 print proved a beat-without-a-raise is enough to trigger a double-digit drop even for this name. IV30 at a 94th-percentile rank signals the market itself is bracing for a large move. **Bear-case estimate: a repeat of the 6/3 pattern (beat both lines, only in-line guide) could plausibly produce another 9-11% single-day drop, and CRWD's post-split-adjusted consensus PT cluster (~$191-192) sitting below today's ~$222 price implies real multiple-compression risk even without a fundamental miss.**
 
 ### 10. Recommended play
-**WAIT.** Not a holding — this is purely a new-entry question, and it fails the book's own entry discipline (rule 2, don't chase an extended name into a binary event) before rule 6 (MS/BW cross-vetting, still outstanding) is even considered. Today's data adds a second, independent reason to wait: the stock trades above the more credible consensus PT cluster and options are pricing elevated uncertainty. No pre-earnings entry recommended; revisit post-print with a fresh 5-analyst read if a pullback brings CRWD back toward MS/BW-clearable valuation territory (and only after rule 6 actually clears).
+**WAIT.** Not a holding — this is purely a new-entry question, and it fails the book's own entry discipline (rule 2, don't chase an extended name into a binary event) before rule 6 (MS/BW cross-vetting, still outstanding) is even considered. No pre-earnings entry recommended; revisit post-print with a fresh 5-analyst read if a pullback brings CRWD back toward MS/BW-clearable valuation territory (and only after rule 6 actually clears).
 
 ---
 
 ## Bottom line for this run
-No trade action implied — this desk does not size positions, only flags catalyst risk. Both covered names (NVDA held, CRWD not held) get the same call as yesterday: **WAIT through the 8/26 print, no pre-earnings action either direction.** The one incremental, book-relevant finding today is CRWD's price now sitting above its more credible post-split consensus PT band while implied vol sits in a 94th-percentile rank — tightens, not loosens, the case against a pre-earnings entry. NVDA's CDS spread and the OpenAI financing overhang remain unresolved and unchanged; nothing here alters the trader's existing NVDA+OMCL concentration-trigger math. Next scheduled coverage change to watch for: AVGO crossing the ~2-week window around 2026-08-19/20.
+No trade action implied — this desk does not size positions, only flags catalyst risk. Both covered names (NVDA held, CRWD not held) get the same call as yesterday: **WAIT through the 8/26 print, no pre-earnings action either direction.** The one incremental, book-relevant finding today is NVDA's CDS spread genuinely retracing (82bps record on 7/27 → 72.11bps by 8/11) — a real de-escalation, not just a pause, though still ~2x late-May levels and the OpenAI financing structures remain unsigned. This softens the NVDA risk picture slightly but doesn't change the WAIT call. CRWD is essentially unchanged day-over-day. Next scheduled coverage change to watch for: AVGO crossing the ~2-week window around 2026-08-19/20.
 
 Sources:
-- [NVIDIA Sets Aug. 26 Fiscal Q2 Earnings Call](https://www.stocktitan.net/news/NVDA/nvidia-sets-conference-call-for-second-quarter-financial-t2wo8k69dark.html)
 - [Nvidia's rising CDS the talk of Wall Street amid circular financing fears](https://finance.yahoo.com/markets/stocks/articles/nvidia-rising-cds-talk-wall-123955612.html)
-- [Nvidia in talks to guarantee $250bn of OpenAI data centre debt](https://thenextweb.com/news/nvidia-openai-250-billion-backstop-ohio-data-centre)
-- [U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China](https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html)
-- [Nvidia earnings trading the 8% move the options market is pricing | Saxo](https://www.home.saxo/content/articles/options/nvidia-earnings-trading-the-8-move-the-options-market-is-pricing-18052026)
-- [CrowdStrike Sets Aug. 26 Fiscal Q2 2027 Results Call](https://www.stocktitan.net/news/CRWD/crowd-strike-announces-date-of-fiscal-second-quarter-2027-financial-sfea5p8gm96i.html)
+- [Nvidia Credit Risk Rises Near Record as AI Financing Fuels New Market](https://www.hokanews.com/2026/08/nvidia-credit-risk-rises-near-record-as.html)
+- [Nvidia's $750bn AI deals push its credit default swaps to record](https://thenextweb.com/news/nvidia-announced-750bn-of-ai-deals-its-own-credit-market-flinched)
+- [Nvidia and OpenAI in talks for up to $250 billion backstop to fund AI infrastructure plans](https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html)
+- [NVIDIA Corporation (NVDA) Price Target Increased to $220 at Deutsche Bank](https://finance.yahoo.com/news/nvidia-corporation-nvda-price-target-172908747.html)
 - [CrowdStrike (CRWD) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026](https://public.com/stocks/crwd/forecast-price-target)
 - [Broadcom Sets Q3 Fiscal 2026 Earnings Date Sept. 2](https://www.stocktitan.net/news/AVGO/broadcom-inc-to-announce-third-quarter-fiscal-year-2026-financial-dkaqc3d1n73a.html)

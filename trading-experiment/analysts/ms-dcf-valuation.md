@@ -1,33 +1,33 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
-**Date: 2026-08-14 (~10:3x ET, Friday) — mechanical price-roll update across all five holdings; no verdict flips, no model rebuilds**
+**Date: 2026-08-17 (~10:2x ET, Monday) — mechanical price-roll update across all five holdings; no verdict flips, no model rebuilds**
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE — all five current holdings. GS's current #1 pick (analysts/gs-stock-screener.md, 8/14 intraday report) is again **OMCL**, already in-scope as a holding — no new name to add under this desk's self-feeding mandate this cycle. This desk has no direct Robinhood feed; prices below are WebSearch-sourced intraday 8/14 reads, cross-checked against state.md's most recent live Robinhood check-ins (8/12 15:37 ET position-level read, 8/14 09:4x ET total-value-only read) per rule 4 — the trader should verify live before sizing anything off these numbers.*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE — all five current holdings. GS's current #1 pick (analysts/gs-stock-screener.md, 8/17 late-morning report) is again **OMCL**, already in-scope as a holding — no new name to add under this desk's self-feeding mandate this cycle. This desk has no direct Robinhood feed for XOM/CVX/oil inputs (WebSearch-sourced, cross-checked for staleness), but NVDA/OMCL/VTI/VXUS/XLE prices below are taken directly from state.md's freshest live Robinhood `get_portfolio` check-in (2026-08-17 ~09:39 ET, first run of the day) per rule 4 — the trader should re-verify live before sizing anything off numbers more than a few hours stale.*
 
 ---
 
 ## Verdicts (top line)
 
-| Ticker | Current Price (8/14, ~10:3x ET, WebSearch) | DCF Fair Value (base case) | Verdict |
+| Ticker | Current Price (8/17, ~09:39 ET, Robinhood-verified) | DCF Fair Value (base case) | Verdict |
 |---|---|---|---|
-| **NVDA** | ~$224.82 (+0.32% vs Thursday's $224.11 close) | ~$150.6 (WACC 11%, g 3%) — unchanged model | **OVERVALUED — ~33.0% downside to DCF fair value.** Essentially unchanged from 8/13's ~33.1% — a flat session, no model change. |
-| **OMCL** | ~$37.12 (essentially flat to modestly softer vs. 8/13's $37.74 read) | ~$53.89 (WACC 9%, g 3%), unchanged | **UNDERVALUED — ~45.2% upside to DCF fair value.** Widened from 8/13's ~42.8% on the pullback — a price effect, not a model change. Still the widest discount on the book. |
-| **VTI** | Not independently re-quoted this cycle (mechanical roll, no company-specific catalyst) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
-| **VXUS** | Not independently re-quoted this cycle (mechanical roll, no company-specific catalyst) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
-| **XLE** | ~$61.06 (freshest available print; genuinely live 8/14 XLE quote not found this cycle — flagged below) | Composite (oil-adjusted) fair value ≈ $50.0-50.1/sh | **OVERVALUED, gap widens to ≈ -18.0%** from 8/13's ~-16.2% — WTI extended its pullback (~$82.11→~$81.23) while CVX firmed and XOM held flat, the composite fair value falling faster than the majors' tape. **Do not add.** |
+| **NVDA** | $225.225 (+0.03% vs Friday's $225.16 close) | ~$150.6 (WACC 11%, g 3%) — unchanged model | **OVERVALUED — ~33.1% downside to DCF fair value.** Essentially unchanged from 8/14's ~33.0% — a flat weekend/Monday-open session, no model change. |
+| **OMCL** | $36.99 (-0.83% vs Friday's close) | ~$53.89 (WACC 9%, g 3%), unchanged | **UNDERVALUED — ~45.7% upside to DCF fair value.** Widened slightly from 8/14's ~45.2% on a modest further pullback — a price effect, not a model change. Still the widest discount on the book. |
+| **VTI** | $383.32 (-0.14%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
+| **VXUS** | $88.01 (+0.35%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
+| **XLE** | $62.06 (+0.24% vs Friday's close) | Composite (oil-adjusted) fair value ≈ $50.8-50.9/sh | **OVERVALUED, gap essentially flat at ≈ -18.0%** (from 8/14's -18.0%) — WTI ticked up modestly (~$81.23→~$81.5) while both XOM and CVX firmed too, so the composite fair value and price moved roughly in step. **Do not add.** |
 
-**Bottom line for the trader:** No verdict flips. NVDA is essentially flat on both price and gap. OMCL's discount widened slightly on a soft session with no fresh negative catalyst identified — Piper Sandler's PT cut (to $45 from $55, booking-delay concern) is not new information, already reflected in prior cycles' commentary. XLE remains the desk with the most model movement this cycle: WTI's pullback continued for a second straight day (~$82.11 8/13 → ~$81.23 8/14, ~-1.1%), while CVX firmed modestly and XOM held flat — the same mechanical decoupling pattern flagged 8/13 (composite fair value more sensitive to raw WTI than the majors' equity tape), pushing the overvaluation gap wider again.
+**Bottom line for the trader:** No verdict flips this cycle. NVDA is flat on both price and gap heading into the Aug 26 print (9 days out). OMCL's discount widened marginally on continued softness with no fresh negative catalyst — the late-July/early-August analyst PT cuts (Piper Sandler $45, KeyBanc $65, Wells Fargo $50) are already-known information, not new since 8/14. XLE's composite gap is essentially unchanged for the first time in several cycles — WTI, XOM, and CVX all moved together this time rather than diverging, so the mechanical roll-forward didn't accumulate fresh drift.
 
-**Data-quality flag for the team**: this cycle's WebSearch pulls returned inconsistent CVX prints (a same-day $197.85-$201.12 range from one source vs. a likely-stale ~$196.60-196.77 snapshot from another) and no genuinely fresh 8/14 XLE quote (best available was still tagged to 8/13 data). This mirrors GS's own 8/14 sourcing-quality flag on OMCL/AVGO — logging the same caution here: this desk's WebSearch reads are directional, not a substitute for live Robinhood verification, and today's XLE/CVX inputs carry more uncertainty than usual. Midpoint estimates used below; treat the XLE gap as approximate until a live quote confirms.
+**One item worth flagging for the team, not a model input change**: JPM's 8/17 report and BW's 8/14 read both note NVIDIA's reported OpenAI/Ohio data-center financing guarantee has been scaled back from ~$250B to below $120B (first-phase-only backstop), a genuine de-risking data point on the circular-financing overhang — but it is **not yet confirmed signed**, and NVDA's 5-year CDS spread has **not** moved on it (still reading ~79.8-82bps, within ~2bps of the 7/27 record). This desk's DCF inputs (WACC, growth, margin path) don't change on an unconfirmed financing-structure headline — but if the deal signs and the CDS spread genuinely retraces, that would be the first concrete signal to revisit the WACC assumption (a lower credit-risk premium on the balance sheet could argue for trimming the discount rate slightly). Watching, not acting.
 
 ---
 
 ## 1. NVIDIA (NVDA) — price update, model unchanged
 
-### What changed since 8/13
-Price ~$224.82 (8/14, ~10:3x ET), +0.32% vs. Thursday's $224.11 close — a quiet, essentially flat session, day range $224.13-$227.23. No fresh company-specific catalyst since 8/13: the standing items (small licensed H200 shipments to China, a reported cheaper Blackwell variant in design for the China market, Jensen Huang's open-source-AI push as a demand driver) are all previously-known background, not new data points. August 26 print (12 days out) remains the next point at which this desk revisits the model itself, not just the price.
+### What changed since 8/14
+Price $225.225 (8/17, ~09:39 ET, Robinhood-verified), +0.03% vs. Friday's $225.16 close — essentially flat over the weekend gap, consistent with WebSearch's pre-market read of ~$226.44 (+0.57%) earlier this morning before settling. No fresh company-specific catalyst that moves the 5-year model: the OpenAI/Ohio financing-guarantee scale-back (see note above) is a credit-structure item, not a revenue/margin data point, and remains unconfirmed as signed. China export policy, HBM/Rubin supply commentary, and Blackwell-Rubin execution are all previously-known background. August 26 print (9 days out) remains the next point at which this desk revisits the model itself, not just the price.
 
 ### Why the 5-year model still doesn't move
-No new information changes any of the five build inputs (FY2027E revenue, FCF margin path, WACC, terminal growth, or the Starmind treatment).
+No new information changes any of the five build inputs (FY2027E revenue, FCF margin path, WACC, terminal growth, or the financing-guarantee treatment).
 
 ### Verdict: **OVERVALUED, gap essentially unchanged**
 Same 5-year build (FY2027E revenue $380B, FCF margin path 56%→48%, WACC 11% base, g 3% base):
@@ -36,20 +36,20 @@ Same 5-year build (FY2027E revenue $380B, FCF margin path 56%→48%, WACC 11% ba
 |---|---|---|---|
 | **11% (base)** | $137.8 | **$150.6** | $167.1 |
 
-Base case ($150.6) vs. today's ~$224.82 implies **~33.0% downside**, essentially flat vs. 8/13's ~33.1%. Key breakable assumptions unchanged (margin durability is the upside break; China export policy, Blackwell-Rubin execution, HBM supply bottleneck, custom-silicon competition, and the OpenAI-financing/circularity thread remain the downside breaks). **Hold, no add.** Per state.md's 8/14 ~09:4x ET run notes, NVDA sits ~12.41% of equity — comfortably below the 18-20% single-name trigger; NVDA+OMCL combined ~21.29% of equity, below the 25% combined trigger (~3.71pp buffer). The 8/14 written NVDA earnings contingency plan (state.md, declining BW's pre-earnings de-risking trim ask) references this desk's unchanged model as one input — nothing here changes that decision.
+Base case ($150.6) vs. today's $225.225 implies **~33.1% downside**, essentially flat vs. 8/14's ~33.0%. Key breakable assumptions unchanged (margin durability is the upside break; China export policy, Blackwell-Rubin execution, HBM supply bottleneck, custom-silicon competition, and the OpenAI-financing/circularity thread remain the downside breaks — though the financing thread is now trending toward de-risking rather than worsening for the first time in several cycles, per the note above). **Hold, no add.** Per state.md's 8/17 ~09:39 ET run, NVDA sits ~12.39% of equity / ~10.94% of pool — comfortably below the 18-20% single-name trigger; NVDA+OMCL combined ~21.12% of equity, below the 25% combined trigger (~3.88pp buffer). The 8/14 written NVDA earnings contingency plan (state.md) — which declined BW's pre-earnings de-risking-trim ask and instead adopted a structural-break-only post-print reaction rule — references this desk's model as one input; nothing here changes that decision.
 
 ---
 
 ## 2. Omnicell (OMCL) — price update, model unchanged
 
-### What changed since 8/13
-Price ~$37.12 (8/14, ~10:3x ET) vs. $37.74 (8/13 09:42 ET read), a modest pullback on an otherwise quiet session — no fresh company catalyst identified this cycle. GS's 8/14 report flags a stray WebSearch pull of $46.89 as a sourcing error (inconsistent with every live/mechanical source, including this desk's own read); this desk's $37.12 figure is consistent with GS's "high-$30s" reference and state.md's running post-earnings range, not the stray figure. Piper Sandler's PT cut (to $45 from $55, citing booking delays) is already-known information from late July/early August, not a new development. Next print confirmed **11/4** (Q3), unchanged.
+### What changed since 8/14
+Price $36.99 (8/17, ~09:39 ET, Robinhood-verified) vs. $37.12 (8/14 read), a modest further pullback on no identified fresh company catalyst. **Data-quality note**: this cycle's WebSearch pull returned the familiar stray **$46.89** figure — GS's 8/17 report independently flags and discards the exact same known-bad source, now recurring for a twentieth-plus consecutive cycle across both desks. This memo uses the live Robinhood-verified $36.99 per rule 4, not the WebSearch figure. The late-July/early-August analyst PT cuts (Piper Sandler to $45, KeyBanc to $65, Wells Fargo to $50) remain the most recent sell-side data points and are already reflected in prior cycles' commentary — nothing new since 8/14. Next print confirmed **11/4** (Q3), unchanged.
 
 ### Fair value and verdict (model unchanged, gap recomputed vs. today's price)
-Base case fair value **$53.89** (WACC 9%, g 3% — sensitivity table unchanged since 7/30) vs. today's ~$37.12 implies **~45.2% upside**, widened from 8/13's ~42.8% — a pure price-drift effect (the stock giving back part of its recent bounce), not a fresh data point on either side.
+Base case fair value **$53.89** (WACC 9%, g 3% — sensitivity table unchanged since 7/30) vs. today's $36.99 implies **~45.7% upside**, widened modestly from 8/14's ~45.2% — a pure price-drift effect, not a fresh data point on either side.
 
 ### Verdict: **UNDERVALUED — still the widest discount on the book**
-This desk's job is valuation, not sizing. GS again has OMCL at #1 this cycle (a seventeenth straight report, per its 8/14 read) with nothing structural changed. The standing sizing gate (a fresh post-transcript BW risk sign-off) remains the only thing left between this book and its widest DCF discount.
+This desk's job is valuation, not sizing. GS again has OMCL at #1 this cycle (a twentieth straight report, per its 8/17 read) with nothing structural changed. The standing sizing gate (a fresh post-transcript BW risk sign-off) remains the only thing left between this book and its widest DCF discount.
 
 ### Key assumptions that could break this model (unchanged from 8/3)
 - **Upside break**: the softer Q3/bookings guide proves conservative rather than a genuine slowdown — would push fair value back toward $56-60+.
@@ -58,66 +58,64 @@ This desk's job is valuation, not sizing. GS again has OMCL at #1 this cycle (a 
 ---
 
 ## 3. Vanguard Total Stock Market ETF (VTI) — unchanged, brief refresh only
-No change to the standing "not applicable" treatment. No company-specific catalyst identified this cycle; broad tape was described as mixed-to-flat post-Thursday's record close (per GS's 8/14 report). This desk has no fair-value view on VTI and defers entirely to BR/BW on sizing and drift-band status.
+No change to the standing "not applicable" treatment. No company-specific catalyst identified this cycle; broad tape was mixed at Monday's open per GS's 8/17 report (futures Dow -0.2%, S&P +0.1%, Nasdaq-100 +0.5%). This desk has no fair-value view on VTI and defers entirely to BR/BW on sizing and drift-band status.
 
 ## 4. Vanguard Total International Stock ETF (VXUS) — unchanged, brief refresh only
 No change to the standing "not applicable" treatment. No fresh catalyst identified this cycle. No DCF-based case to add or trim.
 
 ---
 
-## 5. Energy Select Sector SPDR (XLE) — oil-adjusted update, gap widens on a second-day oil pullback
+## 5. Energy Select Sector SPDR (XLE) — oil-adjusted update, gap essentially flat for the first time in several cycles
 
-### What changed since 8/13
-WTI extended its pullback to **~$81.23/bbl** (8/14 futures print, ~-1.1% vs. 8/13's ~$82.11 input) — a second straight down session after breaking the prior five-day winning streak, consistent with continued profit-taking rather than a resolved Hormuz thesis. The underlying standoff itself remains unresolved: Iran-Oman talks reportedly continue toward a temporary 2-4 month shipping-corridor arrangement, but the UAE has separately blamed Iran for drone/missile strikes on two ADNOC tankers transiting the strait this week (confirmed 8/8), and Trump's claim that the US Navy has "swept" and controls the strait is not yet confirmed by shipping data — no genuine de-escalation to report, no change to GS's rule-3 OXY veto. XOM held essentially flat (~$159.76 vs. 8/13's $159.76). CVX's read this cycle carries real sourcing uncertainty (see data-quality flag above) — one source shows a firmer $197.85-$201.12 intraday range, another a likely-stale ~$196.60-196.77 snapshot; this desk uses the midpoint of the fresher range (~$198.5) as the working input.
+### What changed since 8/14
+WTI ticked modestly higher to **~$81.5/bbl** (from 8/14's $81.23 input, +~0.3%), while Brent traded ~$88.3-88.8 (a ~$7/bbl Brent-WTI premium still reflecting Hormuz risk). The underlying situation: Iran and Oman are reportedly finalizing a joint statement on a shipping-transit mechanism (ships routed through Iranian waters entering, Omani waters exiting) — explicitly still **not** a full reopening of the strait, consistent with GS's 8/17 read ("still explicitly not a full reopening... no change from the last several cycles' read"). No genuine de-escalation to report; no change to the standing rule-3 OXY veto. XOM firmed to **$160.10** (Friday's close, +0.94% that session) and CVX firmed to **$200.00** (+1.16%) — both majors moved up roughly in line with the modest oil uptick this time, rather than diverging from it as in the 8/13→8/14 cycle.
 
 ### Oil-adjusted fair value update (mechanical)
-Using 8/13's oil-adjusted fair values as the roll-forward base (XOM ~$110.87, CVX ~$205.09, built off a WTI input of ~$82.11) and applying the same ~1.2x earnings-sensitivity multiplier to today's further WTI pullback (~$82.11 → ~$81.23, -1.07%, i.e. a further ~-1.29% fair-value adjustment):
+Using 8/14's oil-adjusted fair values as the roll-forward base (XOM ~$109.44, CVX ~$202.44, built off a WTI input of ~$81.23) and applying the same ~1.2x earnings-sensitivity multiplier to today's further WTI uptick (~$81.23 → ~$81.5, +0.33%, i.e. a further ~+0.40% fair-value adjustment):
 
 | | XOM | CVX |
 |---|---|---|
-| 8/13 fair value (oil-adjusted) | $110.87 | $205.09 |
-| Further oil adjustment (-~1.29%, from -1.07% WTI move × 1.2x sensitivity) | -$1.43 | -$2.65 |
-| **8/14 fair value (mechanical roll)** | **~$109.44** | **~$202.44** |
-| Current price (8/14, WebSearch, CVX = midpoint of conflicting reads) | $159.76 | ~$198.5 |
-| **Implied gap** | **-31.5% (overvalued)** | **-2.0% (modestly overvalued)** |
+| 8/14 fair value (oil-adjusted) | $109.44 | $202.44 |
+| Further oil adjustment (+~0.40%, from +0.33% WTI move × 1.2x sensitivity) | +$0.44 | +$0.81 |
+| **8/17 fair value (mechanical roll)** | **~$109.88** | **~$203.25** |
+| Current price (8/17, WebSearch) | $160.10 | $200.00 |
+| **Implied gap** | **-31.4% (overvalued)** | **+1.6% (modestly undervalued)** |
 
-Blended composite gap (weighted ~59.6% XOM / ~40.4% CVX, per the standing ~35% AUM look-through split): **weighted gap ≈ -18.0%**, widened from 8/13's **-16.2%**. Applied to XLE's freshest available spot (~$61.06 — no genuinely live 8/14 print sourced this cycle, see data-quality flag): implied fair value roughly **$50.0-50.1/sh**.
+Blended composite gap (weighted ~59.6% XOM / ~40.4% CVX, per the standing ~35% AUM look-through split): **weighted gap ≈ -18.0%**, essentially flat vs. 8/14's **-18.0%** — the first cycle in a while where the mechanical roll-forward didn't accumulate fresh drift in either direction, because XOM and CVX both moved with oil rather than diverging from it. Applied to XLE's live Robinhood-verified price ($62.06): implied fair value roughly **$50.8-50.9/sh**.
 
-Note: CVX's implied gap flipped from 8/13's "+5.0% modestly undervalued" to today's "-2.0% modestly overvalued" primarily because this cycle's CVX price input (~$198.5 midpoint) is firmer than 8/13's $195.38 read, not because of a large fair-value swing — given the sourcing uncertainty flagged above, this flip should be treated as low-confidence pending a live-verified CVX quote.
+Note: CVX's implied gap (+1.6% modestly undervalued) flips back from 8/14's "-2.0% modestly overvalued" read, but this reflects both a firmer today's-price input ($200.00 vs. 8/14's uncertain $198.5 midpoint estimate) and the small mechanical fair-value uptick — treat as noise around a roughly-fair CVX read, not a fresh signal.
 
-### Verdict: **OVERVALUED — gap widens for a second straight session on continued oil weakness**
-Same pattern as 8/13: the composite fair value remains more sensitive to the raw WTI print than either the majors' equity prices or XLE's own tape, which is the expected mechanical effect of a pure oil-linked DCF adjustment, not new information about the underlying thesis. **No trim (rule 1 — no structural break, XLE is a small half-size position), no add** — the position remains overvalued on this desk's math, now by a wider margin than 8/13, and materially wider than the original 7/28 entry-gate read.
+### Verdict: **OVERVALUED — gap holds steady, no longer widening**
+Unlike the 8/13→8/14 cycle (where the composite fair value proved more sensitive to raw WTI than the majors' equity tape), this cycle's inputs moved together — XOM, CVX, and oil all firmed modestly in step. **No trim (rule 1 — no structural break, XLE is a small half-size position), no add** — the position remains overvalued on this desk's math, by essentially the same margin as 8/14, and still materially wider than the original 7/28 entry-gate read (~12.1%).
 
 ### Key assumptions that could break this model
-- **Upside break**: an actual *signed* Hormuz reopening deal that sustainably lifts oil back toward or above GS's $80 Q4'26 house forecast would reverse the recent adjustments in the other direction — the fair-value roll-forward is symmetric. (Note: WTI at ~$81.23 is already close to that $80 house forecast: a further leg down toward the "resolved thesis" price would be more the base case reasserting itself than a new bearish surprise.)
-- **Downside break**: continued oil volatility (multi-day rallies followed by pullbacks) without resolution keeps the composite fair value bouncing on noise rather than settling — this desk repeats its 8/13 flag that the roll-forward mechanic itself accumulates drift over many cycles and may warrant a full ground-up rebuild (fresh XOM/CVX 5-year builds off a stabilized oil assumption) rather than another mechanical adjustment, particularly given this cycle's added CVX sourcing uncertainty.
+- **Upside break**: an actual *signed* Hormuz reopening deal that sustainably lifts oil back toward or above GS's $80 Q4'26 house forecast would reverse the recent adjustments in the other direction — the fair-value roll-forward is symmetric. WTI at ~$81.5 remains close to that $80 house forecast: a further leg down toward the "resolved thesis" price would be the base case reasserting itself, not a new bearish surprise.
+- **Downside break**: this desk repeats its standing flag that the roll-forward mechanic itself accumulates drift over many cycles (even though this cycle didn't add fresh drift) and may warrant a full ground-up rebuild (fresh XOM/CVX 5-year builds off a stabilized oil assumption) at some point rather than an indefinite series of mechanical adjustments.
 
 ---
 
-## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-08-14 intraday report)
-GS again has OMCL at #1 (a seventeenth straight report unchanged), reconfirming the Q3 print date (11/4) and flagging the same stray $46.89 WebSearch mis-pull this desk independently avoided. GS's rule-3 OXY veto stands; Hormuz talks remain unresolved per both desks' independent reads today (GS: "close but not sufficient," this desk: ADNOC tanker strikes confirmed 8/8, no signed deal), consistent with the oil-pullback-without-resolution framing in this desk's XLE section above. GS also flags a fresh sourcing-quality issue on AVGO (not a holding, outside this desk's coverage mandate) — noted for the record only, and echoing this desk's own CVX/XLE data-quality flag this cycle: two desks independently hitting bad WebSearch prices in the same 24-hour window is worth the team's attention as a pattern, not a one-off.
+## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-08-17 late-morning report)
+GS again has OMCL at #1 (a twentieth straight report unchanged), independently flagging and discarding the same stray $46.89 WebSearch mis-pull this desk also avoided — the same known-bad source both desks have now caught for three-plus weeks running. GS's rule-3 OXY veto stands; Hormuz remains unresolved per both desks' independent reads today (GS: Iran-Oman shipping-mechanism statement still "explicitly not a full reopening"; this desk: WTI/Brent both essentially flat-to-modestly-firmer, no de-escalation catalyst), consistent with the essentially-flat XLE gap above. GS also flags AVGO's active VMware vCenter zero-day (CVE-2026-59310) as this cycle's dominant off-book risk story — noted for the record only, outside this desk's coverage mandate (not a holding).
 
 ## Explicit read on trader's current positions (all five: NVDA, OMCL, VTI, VXUS, XLE)
-**NVDA**: hold, no add — DCF does not support adding at ~$224.82 (~33.0% downside to base case), the widest overvaluation gap on the book. Model itself unchanged pending the August 26 print, now 12 days out.
-**OMCL**: hold, no add from this desk's chair (sizing isn't this desk's call) — DCF discount now ~45.2%, still the widest gap on the book. The BW post-transcript sign-off remains the binding constraint.
+**NVDA**: hold, no add — DCF does not support adding at $225.225 (~33.1% downside to base case), the widest overvaluation gap on the book. Model itself unchanged pending the August 26 print, now 9 days out. The OpenAI/Ohio financing-guarantee scale-back is a watch item, not yet a model input.
+**OMCL**: hold, no add from this desk's chair (sizing isn't this desk's call) — DCF discount now ~45.7%, still the widest gap on the book. The BW post-transcript sign-off remains the binding constraint.
 **VTI / VXUS**: hold, no valuation view — diversified core-sleeve holdings, not DCF calls. Defer to BR/BW on drift-band status.
-**XLE**: hold, no trim, no add — do-not-add stance holds; gap widened for a second straight session as WTI extended its pullback faster than XOM/CVX or XLE's own tape. Flagging (not recommending action on) that WTI is now trading close to GS's own $80 Q4'26 house forecast — if that forecast is right, more of today's "gap widening" is the fundamental catching up to the price than a new bearish shock, worth keeping in mind for the next full ground-up rebuild rather than another roll-forward.
+**XLE**: hold, no trim, no add — do-not-add stance holds; gap essentially flat this cycle as WTI, XOM, and CVX all moved together for once rather than diverging. Flagging (not recommending action on) that WTI is now trading close to GS's own $80 Q4'26 house forecast — if that forecast is right, the "overvalued" gap here is more the fundamental sitting close to fair-value-adjacent oil levels than a mispricing, worth keeping in mind for the next full ground-up rebuild.
 
 ---
 
 Sources:
-- [NVDA quote (Nasdaq)](https://www.nasdaq.com/market-activity/stocks/nvda)
-- [OMCL quote (stockanalysis.com)](https://stockanalysis.com/stocks/omcl/)
-- [OMCL quote (CNBC)](https://www.cnbc.com/quotes/OMCL)
-- [Omnicell price target lowered to $45 from $55 at Piper Sandler (TipRanks/Fly)](https://www.tipranks.com/news/the-fly/omnicell-price-target-lowered-to-55-from-57-at-piper-sandler-thefly)
-- [WTI crude quote (CNBC)](https://www.cnbc.com/quotes/@CL.1)
-- [Crude oil price (Investing.com)](https://www.investing.com/commodities/crude-oil)
+- [NVDA quote (Public.com pre-market)](https://public.com/stocks/nvda/pre-market)
+- [NVDA quote (CNBC)](https://www.cnbc.com/quotes/NVDA)
+- [OMCL price target lowered to $45 from $55 at Piper Sandler (TipRanks/Fly)](https://www.tipranks.com/news/the-fly/omnicell-price-target-lowered-to-55-from-57-at-piper-sandler-thefly)
 - [XOM quote (CNBC)](https://www.cnbc.com/quotes/XOM)
+- [XOM quote (Yahoo Finance)](https://finance.yahoo.com/quote/XOM/)
+- [CVX quote (HeyGoTrade)](https://www.heygotrade.com/en/us-stock/cvx/)
 - [CVX quote (TradingView)](https://www.tradingview.com/symbols/NYSE-CVX/)
-- [CVX quote (CNBC)](https://www.cnbc.com/quotes/CVX)
-- [XLE quote (Investing.com)](https://www.investing.com/etfs/spdr-energy-select-sector-fund)
-- [Small amount of Nvidia AI chips shipped to China with US license (Bloomberg)](https://www.bloomberg.com/news/articles/2026-07-14/small-amount-of-nvidia-ai-chips-shipped-to-china-with-us-license)
-- [Nvidia says free AI is great for chips — Jensen Huang's open-source bet (Benzinga)](https://www.benzinga.com/markets/tech/26/08/61205810/nvidia-says-free-ai-is-great-for-chips-jensen-huangs-open-source-bet-could-fuel-gpu-demand)
-- [UAE says Iran targeted ADNOC tanker in Hormuz (Al Jazeera)](https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2)
-- [Iran war live updates (CNN)](https://www.cnn.com/2026/08/11/world/live-news/iran-war-trump)
-- Internal: trading-experiment/state.md (8/14 ~09:4x ET run notes; 8/12 15:37 ET last position-level Robinhood read), analysts/gs-stock-screener.md (8/14 intraday report), analysts/ms-dcf-valuation.md (8/13 ~10:1x ET, this desk's prior report, via git history)
+- [WTI crude quote (OilPriceAPI)](https://www.oilpriceapi.com/oil-prices-today)
+- [WTI crude quote (TradingEconomics)](https://tradingeconomics.com/commodity/crude-oil)
+- [Brent crude quote (TradingEconomics)](https://tradingeconomics.com/commodity/brent-crude-oil)
+- [XLE quote (ETF.com)](https://www.etf.com/XLE)
+- [10-year Treasury yield (TradingEconomics)](https://tradingeconomics.com/united-states/government-bond-yield)
+- Internal: trading-experiment/state.md (8/17 ~09:39 ET live Robinhood run notes), analysts/gs-stock-screener.md (8/17 late-morning report), analysts/jpm-earnings-analyzer.md (8/17 morning report), analysts/bw-risk-assessment.md (8/14 ~14:4x ET, via git history for prior cycle), analysts/ms-dcf-valuation.md (8/14 ~10:3x ET, this desk's prior report, via git history)

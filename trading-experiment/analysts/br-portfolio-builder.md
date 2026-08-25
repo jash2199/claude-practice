@@ -1,48 +1,48 @@
 # BR Portfolio Builder — Investment Policy Report
-**Date: 2026-08-24 (Monday), evening — built on the trader's own 15:36 ET Robinhood-verified read (state.md), BW's 14:45 ET risk read, GS's 15:42 ET screener update, and JPM's 09:32 ET earnings calendar**
+**Date: 2026-08-25 (Tuesday), evening — built on the trader's own 15:36 ET Robinhood-verified read (state.md, seventh and last run of the day), BW's 14:41 ET risk read, GS's evening screener update, and JPM's 10:15 ET earnings calendar**
 
-*Persona: BlackRock-style portfolio strategist for the "Claude Robinhood Trader" — $50 base + accumulated profits inside a ~$100 taxable cash account, aggressive risk tolerance, short-to-medium horizon with a long-run compounding ambition, equities/ETFs only, fractional shares available. Prior BR report: 2026-08-21, evening. I do not have direct Robinhood access; per house rule 4, re-verify live before executing anything sizing-relevant. MS's DCF figures below are 3 days stale (2026-08-21) — flagged where used.*
+*Persona: BlackRock-style portfolio strategist for the "Claude Robinhood Trader" — $50 base + accumulated profits inside a ~$100 taxable cash account, aggressive risk tolerance, short-to-medium horizon with a long-run compounding ambition, equities/ETFs only, fractional shares available. Prior BR report: 2026-08-24, evening. I do not have direct Robinhood access; per house rule 4, re-verify live before executing anything sizing-relevant. All five holding figures below are same-day (2026-08-25), not stale.*
 
 ---
 
 ## TOP OF REPORT — single biggest gap vs. policy
 
-**NVDA remains the single largest line-item gap on the book, and it widened again today: −4.66pp of pool (10.34% actual vs. 15% target), from −4.44pp on 8/21.** The move is entirely price-driven — NVDA is down −2.74% today, the book's worst mover, two days ahead of its own 8/26 print — not a policy or allocation decision. **Nothing changes this desk's recommendation: the resolution is already scheduled for the first run after Wednesday's print (2026-08-27), and this desk said last report it would not re-argue the case again before then. Holding to that.** One number is worth restating plainly because it is now genuinely live risk, not a policy abstraction: the **5pp single-position pool-drift trigger has a buffer of only ~0.34pp** (per state.md's 15:36 ET read; BW's 14:45 ET read has it at 0.38pp) — the tightest any trigger has ever sat on this book, and it could plausibly fire from pure pre-print price weakness before Wednesday's close even arrives. Per rule 12, a pre-committed trigger fires on schedule regardless of "why" — if it fires this week, that is a forced *review*, not an automatic sell, and per BW's own standing recommendation, not a cue to add either.
+**NVDA remains the single largest line-item gap on the book, but it narrowed today rather than widening: −4.50pp of pool (10.50% actual vs. 15% target), from −4.66pp on 8/24.** The move is entirely price-driven — NVDA is +1.82% today, one of the book's best movers, on the eve of tomorrow's after-market print — not a policy or allocation decision. **This desk is holding to its own commitment from the last two reports: no re-argument before the scheduled 2026-08-27 decision run.** Worth restating precisely because it is genuinely live risk into a binary event, not a policy abstraction: the **5pp single-position pool-drift trigger's buffer improved to ~0.50pp** (state.md 15:36 ET; BW's 14:41 ET read agrees at 0.51pp), up from Monday's tightest-ever ~0.34pp and holding roughly flat through today's seven check-ins (0.43–0.52pp range) — the trigger eased on the print-eve rally rather than closing in on it. Per rule 12 it still fires on schedule regardless of direction if crossed; per BW's own standing recommendation, a fire this close to the print would be a forced *review*, not a cue to add.
 
-**No trade recommended today.** Rule 1 applies cleanly — nothing in today's tape is a fresh catalyst for this book, and the no-trade streak since the 8/7 VTI trim now extends past three weeks.
+**No trade recommended today.** Rule 1 applies cleanly — nothing in today's tape is a fresh catalyst for this book, and the no-trade streak since the 8/7 VTI trim now extends to three full weeks plus one day.
 
-**Rule 6a status note:** Friday 8/21's confirmed 30-year close was 5.273% (1-for-2 toward the two-consecutive-close threshold). Today's intraday reads (per BW's 14:45 ET pull) sat back around ~5.24%, which — if it holds into today's 16:00 ET settle — **resets the streak to 0-for-2 rather than advancing it.** This desk does not have a live feed and did not see a confirmed settle as of the freshest data available to it this run; next report should open with Monday's actual confirmed close rather than propagate an intraday number, consistent with the WebSearch-staleness problem GS flagged repeatedly today.
+**Rule 6a status note:** Monday 8/24's confirmed settled closes reset the streak to **0-for-2** on both legs (10yr and 30yr both back under threshold) — the Friday 8/21 30yr print that had it 1-for-2 did not repeat. BW's 14:41 ET intraday reads confirm both legs remain clear for a second straight session. Next dated checkpoint: Fed Chair Warsh's first Jackson Hole keynote, **Friday 2026-08-28, 10:00 ET** — see macro section below, a genuinely two-sided input, not a settled directional call.
 
 ---
 
 ## 1. Recommended allocation vs. current book
 
-Trading-book value (state.md, 15:36 ET Robinhood-verified `get_portfolio`): **pool ≈ $50.1627** = equity $44.1627 + deployable cash $6.00. Base capital $50.00 → **accumulated profit ≈ $0.16** — down from 8/21's ~$0.61, essentially round-tripping most of the week's gain on today's broad red session. (Reserve: a further ~$50 untouchable per Jash's 7/10 clarification, excluded from all percentages. **All percentages are % of pool unless marked "% of equity."**)
+Trading-book value (state.md, 15:36 ET Robinhood-verified `get_portfolio`): **pool ≈ $50.1809** = equity $44.1809 + deployable cash $6.00. Base capital $50.00 → **accumulated profit ≈ $0.18** — up slightly from 8/24's ~$0.16, essentially flat on the week. (Reserve: a further ~$50 untouchable per Jash's 7/10 clarification, excluded from all percentages. **All percentages are % of pool unless marked "% of equity."**)
 
 | Sleeve | Ticker | Role | Target % (pool) | Current % (pool) | Current $ | Gap |
 |---|---|---|---|---|---|---|
-| Core | **VTI** (Vanguard Total Stock Market) | Core — broad US equity | 30% | 32.56% | $16.33 | +2.56pp over (inside band) |
-| Core | **VXUS** (Vanguard Total International) | Core — ex-US diversifier | 25% | 26.87% | $13.48 | +1.87pp over (inside band) |
-| Satellite | **NVDA** | Satellite — single-name AI/semis conviction | 15% *(under formal review — decision 8/27)* | 10.34% | $5.19 | **−4.66pp UNDER — largest gap, tightest ever to the 5pp drift-trigger floor (~0.34pp buffer)** |
-| Satellite | **OMCL** | Satellite — healthcare-tech diversifier, half-size | 10% | 7.37% | $3.70 | −2.63pp under |
-| Satellite | **XLE** (Energy Select Sector SPDR) | Satellite — energy/oil-cycle diversifier, half-size | 10% | 10.92% | $5.48 | +0.92pp over — on target |
+| Core | **VTI** (Vanguard Total Stock Market) | Core — broad US equity | 30% | 32.60% | $16.36 | +2.60pp over (inside band) |
+| Core | **VXUS** (Vanguard Total International) | Core — ex-US diversifier | 25% | 27.10% | $13.60 | +2.10pp over (inside band) |
+| Satellite | **NVDA** | Satellite — single-name AI/semis conviction | 15% *(under formal review — decision 8/27)* | 10.50% | $5.27 | **−4.50pp UNDER — largest gap; drift-trigger buffer ~0.50pp, holding since Monday's ~0.34pp low** |
+| Satellite | **OMCL** | Satellite — healthcare-tech diversifier, half-size | 10% | 7.06% | $3.54 | −2.94pp under |
+| Satellite | **XLE** (Energy Select Sector SPDR) | Satellite — energy/oil-cycle diversifier, half-size | 10% | 10.79% | $5.41 | +0.79pp over — on target |
 | Cash | — | Dry powder / event-window buffer | 10% (hard floor, ~$5.02) | 11.96% | $6.00 | +1.96pp over |
 
-**Position-level prices (15:36 ET, Robinhood-verified via state.md):** NVDA $208.835 (−2.74%, worst mover of the day), VTI $377.19 (−0.28%), VXUS $87.215 (−0.56%), OMCL $34.73 (−2.39%, second-worst mover, now BW's read puts the unrealized loss at −26.4% since the $46.99 average cost — the deepest drawdown in the book's history), XLE $63.12 (−0.82%). All five holdings red for a second consecutive check-in today, per BW.
+**Position-level prices (15:36 ET, Robinhood-verified via state.md):** NVDA $212.275 (+1.82%), VTI $377.85 (+0.21%), VXUS $87.985 (+0.90%), OMCL $33.295 (−3.94%, worst mover of the day for a second straight session, unrealized loss now ~−29.1% since the $46.99 average cost — the deepest drawdown in the book's history, again), XLE $62.405 (−1.12%, the day's other laggard). Four of five holdings green; OMCL and XLE the two red positions.
 
-**No new tickers recommended this run.** The satellite sleeve stays at three names. **GEHC** remains the only candidate to have ever fully cleared rule 6. Its gap to the ≤$70 entry ceiling narrowed slightly on today's broad tape weakness — GS's live-verified read has it at $74.39 (−0.58%), ~6.3% above the ceiling, down from 8/21's ~6.6% — but still not fired, and still well short of a genuine pullback into the zone. Hard time-box 2026-09-10, ~17 days out, still defaulting to lapse per rule 16.
+**No new tickers recommended this run.** The satellite sleeve stays at three names. **GEHC** remains the only candidate to have ever fully cleared rule 6. GS's evening read has it at $74.11 (−0.11%), still ~5.9% above the $70 entry ceiling — no meaningful progress toward the zone today. Hard time-box 2026-09-10, ~16 days out, still defaulting to lapse per rule 16. **CRWD** (not held) sits at $185.70 (−2.61%), still weak into its own 8/26 print alongside NVDA — rule 2/rule 6 both still block entry regardless of tomorrow's outcome for either name.
 
-**AVGO retracted, standing.** MS's 8/21 first-build DCF found AVGO ~30.4% overvalued, a clean hard-pass in the same territory as MU/FRO. This desk deferred its own coverage-priority ask to GS's reordered pick — **PTCT** — last report and has nothing to add; PTCT remains unvetted (no MS/BW coverage started) and is not actionable today regardless.
+**AVGO retracted, standing; PTCT unvetted, standing.** No change from 8/24 — MS's 8/21 AVGO build (~30.4% downside) remains a hard pass; GS's reordered #1 unvetted priority, PTCT, has no MS/BW coverage started and is not actionable today.
 
 ---
 
 ## 2. Core vs. satellite
 
-- **Core — target 55%, actual 59.43% (+4.43pp over).** VTI + VXUS. Essentially flat vs. 8/21's +4.13pp — drifted on relative weight only, no core trade since the 8/7 VTI trim.
-- **Satellite — target 35%, actual 28.63% (−6.37pp under).** NVDA + OMCL + XLE. Widened from 8/20's −5.99pp, purely because NVDA and OMCL both fell harder than the core sleeve today. Still wider than the 5pp single-position drift trigger already enforced elsewhere on this book — for the sleeve as a whole, not any one name; this desk is not proposing a sleeve-level trigger, for the same rule-14 reason given in the last two reports.
-- **Cash — target 10% floor, actual 11.96% ($6.00).** Held deliberately through the 8/26 NVDA/CRWD print and the Jackson Hole window. **Defend this floor through the event window** — unchanged design.
+- **Core — target 55%, actual 59.70% (+4.70pp over).** VTI + VXUS. Widened slightly vs. 8/24's +4.43pp, purely on relative weight (both core names outperformed the satellite sleeve today) — no core trade since the 8/7 VTI trim.
+- **Satellite — target 35%, actual 28.35% (−6.65pp under).** NVDA + OMCL + XLE. Slightly wider than 8/24's −6.37pp, because OMCL and XLE both fell today while NVDA's gain wasn't enough to offset them at the sleeve level. Still well outside the 5pp single-position drift-trigger band applied elsewhere on this book — this desk is again not proposing a sleeve-level trigger, same rule-14 reasoning as the last three reports.
+- **Cash — target 10% floor, actual 11.96% ($6.00).** Held deliberately through the 8/26 NVDA/CRWD print and the Jackson Hole window (now confirmed 8/27-29, keynote 8/28). **Defend this floor through the event window** — unchanged design.
 
-**Sleeve-level observation, restated once more:** the satellite gap is still ~73% attributable to NVDA alone (4.66pp of the 6.37pp total). Resolving the NVDA target at 8/27 resolves most of the sleeve gap arithmetically by construction — same conclusion as the last two reports, carried forward without re-argument.
+**Sleeve-level observation, restated once more and now essentially fully explained by one name:** the satellite gap is ~68% attributable to NVDA alone (4.50pp of the 6.65pp total) even after today's narrowing. Resolving the NVDA target at 8/27 resolves most of the sleeve gap arithmetically by construction — same conclusion as the last three reports, carried forward without re-argument.
 
 ---
 
@@ -52,11 +52,11 @@ Trading-book value (state.md, 15:36 ET Robinhood-verified `get_portfolio`): **po
 |---|---|---|
 | VTI | ~9–11% | Long-run US total-market average; wide single-year dispersion |
 | VXUS | ~6–9% base, skewed higher near-term | Ex-US developed+EM blend; 2026 cyclical tailwind (weaker dollar, wide forward-P/E discount) unchanged |
-| NVDA | ~25–45%+ (or a large negative year) | Single-name semis/AI — the book's highest-variance line by far, now 2 days from a binary catalyst |
-| OMCL | ~10–15% | Small/mid-cap healthcare-tech; idiosyncratic, historically decorrelated from the AI trade — though the range itself is looking increasingly theoretical against a −26.4% realized drawdown with no identified catalyst |
-| XLE | ~8–12% ex-dividend + ~3% yield | Cyclical, oil-driven, mean-reverting; today's session is a live illustration of the hedge's regime-dependence — see WEF/macro section below |
+| NVDA | ~25–45%+ (or a large negative year) | Single-name semis/AI — the book's highest-variance line by far, now less than 24 hours from a binary catalyst |
+| OMCL | ~10–15% | Small/mid-cap healthcare-tech; idiosyncratic, historically decorrelated from the AI trade — the range is looking increasingly theoretical against a ~−29.1% realized drawdown with no identified catalyst, now the deepest yet |
+| XLE | ~8–12% ex-dividend + ~3% yield | Cyclical, oil-driven, mean-reverting; two straight red sessions against green core/NVDA moves is a live illustration of the hedge's regime-dependence — see WEF/macro section below |
 
-**Blended expected return at current actual weights: ~11–15% annualized.** Unchanged from 8/21 — today's moves are all within normal single-session noise for this range, not a regime shift.
+**Blended expected return at current actual weights: ~11–15% annualized.** Unchanged from 8/21 and 8/24 — today's moves are all within normal single-session noise for this range, not a regime shift.
 
 ---
 
@@ -64,13 +64,13 @@ Trading-book value (state.md, 15:36 ET Robinhood-verified `get_portfolio`): **po
 
 | Scenario | Est. peak-to-trough on the trading pool | Driver |
 |---|---|---|
-| Ordinary bad year | **−20% to −28%** (~$10–14 on a $50 pool) | Broad equity bear; VTI/VXUS carry ~59% of the book |
+| Ordinary bad year | **−20% to −28%** (~$10–14 on a $50 pool) | Broad equity bear; VTI/VXUS carry ~60% of the book |
 | Severe / AI-unwind | **−32% to −40%** (~$16–20) | NVDA halving alongside a broad de-rate; satellites offer partial, not full, offset |
-| Tail — rate shock + growth scare | **−40%+** | Rule 9's known blind spot: a rate-driven multi-factor risk-off hits NVDA, VTI, VXUS and OMCL through one channel; today's all-five-red session (per BW) is a live, if modest, instance of exactly this correlation pattern |
+| Tail — rate shock + growth scare | **−40%+** | Rule 9's known blind spot: a rate-driven multi-factor risk-off hits NVDA, VTI, VXUS and OMCL through one channel — this week's mixed, not uniformly-red, sessions are a mild counterexample so far, not a refutation |
 
 **The structural floor remains the book's best risk control and it is not a market call:** the untouchable ~$50 reserve caps total account drawdown at roughly half of any pool drawdown. A −40% pool year is a −20% account year.
 
-**Live stress point:** rule 6a's 30-year leg sits 1-for-2 (Thursday 8/20 under, Friday 8/21 over); today's confirmed close is the actual decision point and was not available to this desk as of its freshest source this run. Separately, and now the sharper near-term risk: the **NVDA pool-drift trigger's ~0.34pp buffer is close enough to fire on ordinary pre-print volatility alone**, independent of any rate move. Both are monitor-only, not action items, until they actually print.
+**Live stress point, updated:** rule 6a is confirmed 0-for-2 as of Monday's settled close — meaningfully de-risked vs. Friday's 1-for-2 reading, with the next real test not arriving until Warsh's 8/28 Jackson Hole keynote (see below), after tomorrow's earnings window closes. The **NVDA pool-drift trigger's buffer improved to ~0.50pp** and has held there through the full trading day — still the tightest trigger on the book by a wide margin, but no longer the closest-to-firing reading on file (that was Monday's ~0.34pp).
 
 ---
 
@@ -79,14 +79,14 @@ Trading-book value (state.md, 15:36 ET Robinhood-verified `get_portfolio`): **po
 **Scheduled review:** monthly full-policy re-underwrite (next: 2026-09-01); daily monitor-only via this report.
 
 **Live triggers — status this run:**
-1. **5pp single-position pool drift** → mandatory review. NVDA −4.66pp; **no fire yet — ~0.34pp of headroom, the tightest reading on file, plausibly closing before Wednesday's print on price action alone.**
-2. **NVDA 18–20% of equity** → mandatory trim review. Actual 11.74%; no fire, ample buffer.
-3. **NVDA+OMCL 25% of equity** combined → mandatory review. Actual ~20.11% (~4.89pp buffer); no fire.
-4. **15% of equity per individual satellite** → OMCL 8.37%, XLE 12.40%; no fire.
-5. **Rule 6a rate shock** (10yr >4.75% or 30yr >5.25% on two consecutive closes) → pause new high-multiple adds. 1-for-2 on the 30-year leg pending today's confirmed close; likely resets to 0-for-2 per BW's intraday read, but unconfirmed to this desk.
-6. **10% cash floor (~$5.02)** → actual 11.96%; defend through the 8/26-29 event window; no discretionary position may breach it.
+1. **5pp single-position pool drift** → mandatory review. NVDA −4.50pp; **no fire — ~0.50pp of headroom, essentially unchanged through today's session, easing rather than closing in.**
+2. **NVDA 18–20% of equity** → mandatory trim review. Actual 11.93%; no fire, ample buffer.
+3. **NVDA+OMCL 25% of equity** combined → mandatory review. Actual ~19.95% (~5.05pp buffer); no fire, widest buffer reading since adoption.
+4. **15% of equity per individual satellite** → OMCL 8.02%, XLE 12.26%; no fire.
+5. **Rule 6a rate shock** (10yr >4.75% or 30yr >5.25% on two consecutive closes) → pause new high-multiple adds. **Confirmed 0-for-2** as of Monday's settled close; next checkpoint is Warsh's 8/28 keynote, not tomorrow's earnings print.
+6. **10% cash floor (~$5.02)** → actual 11.96%; defend through the 8/26–29 event window; no discretionary position may breach it.
 
-**Design principle, reaffirmed (rule 16):** every trigger expires to **no-action**, never to a purchase. Applies to GEHC (9/10 → lapse) and to the NVDA-target question itself (8/27 → default revision to 11% absent an explicit decision). If the NVDA drift trigger fires this week, the same principle governs the *response* — a forced review is not a forced trade, per BW's own explicit recommendation not to average down into a binary event with zero hedging capacity.
+**Design principle, reaffirmed (rule 16):** every trigger expires to **no-action**, never to a purchase. Applies to GEHC (9/10 → lapse) and to the NVDA-target question itself (8/27 → default revision to 11% absent an explicit decision). If the NVDA drift trigger fires before then, the same principle governs the response — a forced review is not a forced trade, per BW's own explicit recommendation not to average down into a binary event with zero hedging capacity.
 
 ---
 
@@ -94,7 +94,7 @@ Trading-book value (state.md, 15:36 ET Robinhood-verified `get_portfolio`): **po
 
 1. **Turnover restraint *is* the tax strategy at this size.** Still nine trades in six-plus weeks; every lot is short-term. Continuing to say no remains the single largest available tax lever.
 2. **Long-term-capital-gains clock — nothing is close.** Earliest eligibility: NVDA 2027-07-10, VTI 2027-07-16, OMCL 2027-07-18, XLE 2027-07-29, VXUS 2027-07-31. Any trim before mid-2027 is short-term by construction; when a trim is needed for funding, prefer the highest-cost-basis lot (HIFO).
-3. **OMCL is now the only harvestable loss and it still should not be harvested.** The unrealized loss has deepened to ~−26.4% since cost (BW, 14:45 ET) — the tax benefit is still cents at this position size, and the cost is closing the book's widest-margin-of-safety position (MS's 8/21 DCF: ~52.8% upside, the widest discount on the sheet) and triggering a 30-day wash-sale window on exactly the name GS has repeatedly flagged as the highest-EV next-dollar destination. The deepening loss makes this *more* true, not less — a bigger unrealized loss on a name the valuation desk still calls the cheapest thing in the book is a reason to hold, not to lock it in.
+3. **OMCL is now the only harvestable loss and it still should not be harvested.** The unrealized loss has deepened again to ~−29.1% since cost (state.md, 15:36 ET) — the tax benefit is still cents at this position size, and the cost is closing the book's widest-margin-of-safety position (MS's 8/25 DCF: ~55.6% upside, the widest discount on the sheet and still widening) and triggering a 30-day wash-sale window on exactly the name GS/MS have repeatedly flagged as the highest-EV next-dollar destination. The deepening loss makes this *more* true, not less — a bigger unrealized loss on a name the valuation desk still calls the cheapest thing in the book is a reason to hold, not to lock it in.
 4. **VXUS foreign tax credit:** withholding at this size is measured in cents, well under the $300 single-filer de minimis — claimable directly on Schedule 3 without Form 1116. No action needed.
 5. **Qualified dividends:** VTI/VXUS both go ex-dividend in late September; avoid discretionary core trims in that window absent a fired trigger, to preserve the >60-day holding-period requirement for qualified treatment.
 
@@ -102,27 +102,28 @@ Trading-book value (state.md, 15:36 ET Robinhood-verified `get_portfolio`): **po
 
 ## 7. Dollar-cost-averaging plan for redeploying profits
 
-The book's deployable capital is $50 base **plus accumulated profits only.** Current accumulated profit: **~$0.16** (pool $50.1627 − $50.00 base) — down from ~$0.61 on 8/21, reflecting today's broad red session more than any structural change.
+The book's deployable capital is $50 base **plus accumulated profits only.** Current accumulated profit: **~$0.18** (pool $50.1809 − $50.00 base) — up modestly from ~$0.16 on 8/24, essentially flat.
 
 **Standing DCA rule (unchanged, still not yet triggerable):**
 - **Tranche size $2.50.** Profits accumulate un-deployed until cumulative profit reaches **≥$2.50**, then one tranche is released. No partial tranches.
-- **Destination: the most-underweight *vetted* sleeve line at release time** — still OMCL (−2.63pp, and the only holding trading below its own DCF fair value, by the widest margin on the book, per MS's 8/21 read). NVDA stays excluded as a DCA destination while MS's overvaluation call stands, regardless of its headline gap — and doubly so two days before its own binary print.
+- **Destination: the most-underweight *vetted* sleeve line at release time** — still OMCL (−2.94pp, and the only holding trading below its own DCF fair value, by the widest and still-widening margin on the book, per MS's 8/25 read). NVDA stays excluded as a DCA destination while MS's overvaluation call stands, regardless of its headline gap — and doubly so on the eve of its own binary print.
 - **Cadence: at most one tranche per calendar month**, never during an unresolved binary-event window on the destination name.
-- **Status: ~$0.16 accumulated — no tranche available. ~$2.34 of further profit required**, further away than 8/21's ~$1.89 gap. No action.
+- **Status: ~$0.18 accumulated — no tranche available. ~$2.32 of further profit required**, essentially unchanged from 8/24's ~$2.34 gap. No action.
 
 ---
 
 ## 8. Areas to consider — recent WEF / macro-policy discussions
 
-No fresh WEF release since the May 2026 Chief Economists' Outlook already on file. One genuinely new data point from today's tape is worth adding to that standing framing rather than repeating the IMF/WEF stagflation case a third time:
+Two genuinely new, dated data points this run, replacing the recycled IMF/WEF stagflation framing carried across the last several reports:
 
-1. **Today's Iran-sanctions rollout ("Operation Economic Outcast," per GS/CNBC) is a useful real-world test of rule 9's diversification-is-regime-dependent caveat.** The US Treasury announced its toughest-yet sanctions campaign against Iran today, global in scope, China explicitly not exempt — and **oil fell on the news** (WTI −2.5% to ~$84.89, Brent −2.5% to ~$92.06) rather than spiking, per GS's same-day report. That is the opposite of the supply-shock pattern XLE is designed to hedge (a genuine Hormuz disruption), and consistent with BW's observation that XLE has now failed to offset two consecutive risk-off sessions. **Read for this book: XLE hedges a physical supply shock, not an enforcement/sanctions announcement — those two categories of "Hormuz risk" have started to diverge in market reaction, and this book's design (rule 9, rule 3) already anticipates that distinction rather than being surprised by it.** No trigger or trade implication; a data point that sharpens, not changes, the standing framework.
-2. **Hormuz itself remains the named transmission channel, still unresolved on the actual reopening question** — Iran-Oman corridor talks remain unsigned. Rule-3 OXY veto holds unchanged.
-3. **On the NVDA-target question:** nothing new to add — the case was made in full across the 8/20 and 8/21 reports (IMF's growth downgrade, WEF's AI-productivity-timing caution), and this desk is holding to its own commitment not to re-argue it before the scheduled 8/27 decision.
+1. **Fed Chair Kevin Warsh's first Jackson Hole keynote is now dated and confirmed: Friday 2026-08-28, 10:00 ET**, symposium theme "Financial Innovation: Implications for Payments and Policy," three weeks ahead of the September FOMC. This is a genuinely two-sided input for rule 6a, not a settled directional call: Warsh has pushed "policy regime reform" and criticized the Fed's 2020 flexible-average-inflation-targeting framework (a hawkish-reading instinct), but has separately argued the AI investment boom itself **could prove disinflationary** (a dovish-reading argument) — and per Benzinga/Regards of Wallstreet, Warsh himself reportedly hasn't decided whether the speech leans "macro big picture" or explicit policy-path guidance. Context sharpening the stakes: the July 29 FOMC hold carried a rare three-way hawkish dissent (Hammack, Kashkari, Logan — the first three-way split since 2016), and markets are pricing roughly 1-in-3 odds of a September hike. **Read for this book:** this lands two days after tomorrow's NVDA/CRWD print, inside the same event window this desk has already told the trader to defend the cash floor through — no change to that instruction, but it sharpens *why* the floor should stay defended past 8/26, not just through it.
+2. **A concrete, sourced number for the market-concentration risk rule 9 and the NVDA-target debate have both been citing qualitatively:** the WEF-linked analysis reviewed this run puts the five largest S&P 500 companies at **~30% of the index — a higher concentration than at the dotcom peak.** This is directly relevant to the 8/27 NVDA-target decision from the other direction than this desk's own prior framing (IMF growth downgrade, AI-productivity-timing caution): even VTI, the book's largest single holding at 32.60% of pool, already carries meaningful single-name AI concentration look-through (rule 8) — so trimming the *explicit* NVDA satellite target while the *implicit* concentration inside VTI stays untouched doesn't fully solve the concentration question rule 9 flags, it just moves it off the sleeve this book can see and measure. Not a recommendation to change VTI — a framing point for whoever weighs the 8/27 decision, since a target revision aimed purely at NVDA's headline % is solving only the visible half of the exposure.
+3. **On the NVDA-target question itself: this desk is holding to its 8/24 commitment not to re-argue the case again before the scheduled 8/27 decision.** The two points above are additive framing, not a new position.
+4. Hormuz remains the named transmission channel behind the OXY veto (rule 3), still unresolved on the actual reopening question as of today's five other analyst reports. No change.
 
 ---
 
-## 9. Investment Policy Statement — one page, as of 2026-08-24
+## 9. Investment Policy Statement — one page, as of 2026-08-25
 
 **Objective.** Compound a $50 trading pool (inside a ~$100 taxable cash account, ~$50 untouchable reserve) at an aggressive risk tolerance over a short-to-medium horizon, building a durable long-run track record. Equities and ETFs only; no options; fractional shares permitted.
 
@@ -130,7 +131,7 @@ No fresh WEF release since the May 2026 Chief Economists' Outlook already on fil
 
 **Permitted actions.** (1) Trigger fires — execute the pre-committed action. (2) DCA tranche release at ≥$2.50 accumulated profit, vetted destinations only, max one per month. (3) A new position that has cleared full rule-6 cross-vetting (MS DCF + BW risk read) and passes rule-2 entry discipline, funded without breaching the cash floor. **Nothing else.**
 
-**Prohibited.** Adding to a position your own valuation desk calls overvalued. Chasing a move already 3%+ priced in. Opening a single-name position during an active geopolitical shock. Breaching the cash floor for a discretionary entry. Buying because a clock ran out (rule 16). Sizing off any price not live-verified via Robinhood (rule 4). Averaging into a satellite position inside a binary-event window on the strength of a drift-trigger fire alone (this week's live case, per BW).
+**Prohibited.** Adding to a position your own valuation desk calls overvalued. Chasing a move already 3%+ priced in. Opening a single-name position during an active geopolitical shock. Breaching the cash floor for a discretionary entry. Buying because a clock ran out (rule 16). Sizing off any price not live-verified via Robinhood (rule 4). Averaging into a satellite position inside a binary-event window on the strength of a drift-trigger fire alone.
 
 **Review cadence.** Daily monitor via this desk; monthly full re-underwrite (next 2026-09-01); triggers evaluated every scheduled run regardless of news flow (rule 12).
 
@@ -141,6 +142,6 @@ No fresh WEF release since the May 2026 Chief Economists' Outlook already on fil
 ---
 
 ## Next scheduled BR report
-Priorities: (1) Monday's confirmed 30-year close, resolving rule 6a either way; (2) the NVDA pool-drift trigger's ~0.34pp buffer — the closest any trigger has come to firing, worth checking first thing next run regardless of what else is happening; (3) the 8/26 NVDA/CRWD print itself, governed by the existing written contingency plans, not a fresh BR call; (4) the 8/27 NVDA-target decision, arriving on schedule; (5) GEHC's price gate ahead of the 9/10 lapse, now ~17 days out.
+Priorities: (1) tomorrow's NVDA/CRWD after-market print itself, governed by the existing written contingency plans, not a fresh BR call; (2) the 8/27 NVDA-target decision, arriving on schedule — this desk holds its view (see 8/24, 8/21) but will not pre-empt it again; (3) Warsh's 8/28 Jackson Hole keynote and its bearing on rule 6a, now dated and confirmed; (4) GEHC's price gate ahead of the 9/10 lapse, now ~16 days out; (5) whether the NVDA pool-drift trigger's ~0.50pp buffer holds or tightens again once the print's price reaction actually lands.
 
-**Sources:** trading-experiment/state.md (2026-08-24, 15:36 ET Robinhood-verified `get_portfolio` read, and 15:52 ET incident-recovery note) · analysts/bw-risk-assessment.md (2026-08-24, ~14:45 ET) · analysts/gs-stock-screener.md (2026-08-24, ~15:42 ET) · analysts/jpm-earnings-analyzer.md (2026-08-24, ~09:32 ET) · analysts/ms-dcf-valuation.md (2026-08-21, ~10:1x ET — 3 days stale, flagged) · [Bessent unveils "Operation Economic Outcast" Iran sanctions (CNBC, 8/24, via GS)] · [IMF World Economic Outlook, April 2026](https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026) · [WEF Chief Economists' Outlook May 2026](https://www.weforum.org/publications/chief-economists-outlook-may-2026/).
+**Sources:** trading-experiment/state.md (2026-08-25, 15:36 ET Robinhood-verified `get_portfolio` read) · analysts/bw-risk-assessment.md (2026-08-25, ~14:41 ET) · analysts/gs-stock-screener.md (2026-08-25, evening) · analysts/jpm-earnings-analyzer.md (2026-08-25, ~10:15 ET) · analysts/ms-dcf-valuation.md (2026-08-25, ~14:2x ET) · [Fed Chair Warsh Heads to Jackson Hole: What Markets Are Bracing For (Benzinga)](https://www.benzinga.com/markets/macro-economic-events/26/08/61373140/kevin-warsh-heads-to-jackson-hole-what-markets-are-bracing-for) · [Jackson Hole 2026: Dates, Schedule, and Warsh's First Speech as Fed Chair (Regards of Wallstreet)](https://www.regardsofwallstreet.com/news/jackson-hole-2026-dates-schedule-warsh-first-speech) · [Anatomy of an AI reckoning — market concentration (World Economic Forum)](https://www.weforum.org/stories/2026/01/how-would-the-bursting-of-an-ai-bubble-actually-play-out/).

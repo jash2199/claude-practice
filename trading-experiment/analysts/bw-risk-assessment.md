@@ -1,19 +1,19 @@
 # BW Risk Assessment — Risk Management Report
-**Date: 2026-08-24 (~14:45 ET, Monday)** — second BW read of the day, following this desk's own 10:45 ET report. Live-verified via Robinhood (`get_portfolio`, `get_equity_positions`, `get_equity_quotes`) on account 424593861 at report time, plus fresh WebSearch verification of rates/CDS/tape developments since the morning read. All weights recomputed fresh this run, not carried from BR/MS/GS/JPM.
+**Date: 2026-08-25 (~10:42 ET, Tuesday)** — 1 trading day before the NVDA/CRWD 8/26 after-market print. Live-verified via Robinhood (`get_portfolio`, `get_equity_positions`, `get_equity_quotes`) on account 424593861 at report time. All weights recomputed fresh this run, not carried from BR/MS/GS/JPM. Prior BW report: 2026-08-24 ~14:45 ET (Grade C).
 
 ---
 
-## Overall Portfolio Risk Grade: **C** (held, unchanged from the 10:45 ET read)
+## Overall Portfolio Risk Grade: **C** (held, unchanged)
 
 ## Single biggest risk right now
-**The NVDA pool-drift trigger buffer is still sitting at its tightest-ever reading — 0.38pp above the 10% pool-weight floor — essentially unmoved from this morning, with the same downside-approach dynamic this desk flagged for the first time at 10:45 ET.** NVDA is now $209.79, **−2.30% vs. Friday's close** (slightly worse than the −2.22% logged this morning), pool weight 10.38%. Nothing has resolved this — it is the same open risk, now four hours closer to Wednesday's 8/26 print with no new catalyst on either side. Radical transparency requires saying this plainly: this run is mostly a **confirmation, not a new development** — the one genuinely fresh, if modest, data points since 10:45 ET are (1) OMCL's unrealized loss deepening further intraday (see below), and (2) the VIX ticking up off its 2026 lows for the first time in weeks.
+**NVDA reports tomorrow (8/26) after the close, and this book has zero hedging capacity for it under the equities-only mandate — full stop.** That has been true for days; what's new today is where the pool-drift math sits going into it. NVDA is $211.24 live, **+1.32% vs. yesterday's $208.48 close**, pool weight **10.44%** — the buffer to the 10% single-position drift-trigger floor actually *widened* slightly today (to ~0.44pp, from Monday's 0.34-0.38pp reading) purely because NVDA rallied. Radical transparency cuts both ways: that buffer improving on a green pre-earnings day is not evidence of safety — it is one ordinary day's price noise sitting on top of a structurally razor-thin trigger, about to face its highest-variance day of the quarter with no options tool available to manage the outcome either direction.
 
-Compounding factors, all still live:
-1. **NVDA/CRWD report Wednesday 8/26 after the close — now 2 trading days out.** Zero hedging capacity under the equities-only mandate.
-2. **Rate-shock trigger (rule 6a) remains unresolved but still directionally favorable.** Friday 8/21's confirmed 30yr close was 5.273% (1-for-2 toward the two-consecutive-close test). Fresh WebSearch this run: 30yr trading ~5.24% (CNBC, intraday, previous close cited as 5.276%), 10yr ~4.71-4.72% — both still short of firing, and if the 30yr's intraday level holds into the 16:00 ET close, the streak **breaks and resets to 0-for-2** rather than advancing. Still not confirmed; the settled close is the only number that matters and hasn't printed yet at this run's timestamp.
-3. **VIX ticked up to ~15.7-15.9 (+3.6% to +5.2% on the day)** — off the ~14.25 2026-low this desk flagged as "growing complacency" back on 8/17. Still a historically low absolute level, but the first directional move in weeks, consistent with today's Iran-sanctions/tariff risk-off tape. Logged as a data point, not a trigger.
-4. **NVDA's 5-year CDS spread**: no fresher confirmed print found this run than the 8/18 read of ~80.77bps (below the 82bps 7/27 record, not fired) — this is now a sixth-plus cycle with no dated update, a standing data-quality gap this desk has flagged repeatedly without resolution.
-5. **Sector rotation, not just broad risk-off**: today's tape shows the Nasdaq (-0.6%) meaningfully underperforming the Dow (+0.2%), with semis specifically cited as the drag — this is chip-sector-specific pre-print pressure layered on top of the Iran/tariff macro story, not a single undifferentiated risk-off move. Reinforces why NVDA fell harder than the book's other four holdings today.
+Compounding factors, status this run:
+1. **NVDA/CRWD report Wednesday 8/26 after the close — now 1 trading day out.** Per the standing NVDA earnings contingency plan (state.md rule 15), no pre-earnings trim, no pre-earnings add — this desk is not relitigating that call, only restating the exposure it leaves open.
+2. **Rule 6a rate-shock trigger: genuinely improved, confirmed.** Monday 8/24's settled closes: 10yr **4.704%** (well clear of the 4.75% line), 30yr **5.234%** (back under the 5.25% line, down from Friday 8/21's confirmed 5.273% close). The streak resets to **0-for-2** rather than advancing — the scenario BR flagged as plausible Monday afternoon did materialize. One real de-escalation data point on an otherwise binary-event-heavy week. Fed Chair Warsh's first Jackson Hole speech (Friday 8/28, 10:00 ET) is the next dated checkpoint for this trigger, not today.
+3. **VIX still modestly elevated off its 2026 low** (~14.25 on 8/17) — WebSearch this run returned a stale/ambiguous "15.1 last week" read, consistent with the elevated-but-calm level BW logged Monday (~15.7-15.9). Not treated as fresh data; logged as unchanged, not improving.
+4. **NVDA's 5-year CDS spread — data-quality gap now unresolved for a full week-plus, and this run's WebSearch made it worse, not better.** Fresh search returned a headline "82bps, largest single-day widening" figure — but cross-checking the sourcing, that is the **7/27 record print recycled**, not a new reading; the same article context references NVDA CDS "at 57.25bps in late July," which is internally inconsistent with an 82bps print the same month. Treating this as another stale/conflated hit, not a real update — the last dated, trustworthy figure remains 8/18's 80.77bps (below the 82bps 7/27 record). This is now the seventh-plus consecutive cycle this desk, JPM, and MS have all independently flagged the same gap. **Escalating past a flag: if no desk can source a dated CDS print by the next earnings-adjacent run, that absence itself should be treated as a risk input** (credit-market opacity into a binary event), not just a data nuisance.
+5. **OMCL's unrealized loss deepened again.** Live $34.20 vs. avg cost $46.99 → **-27.2%**, worse than Monday's -26.4% read, on continued no-catalyst drift. Still the largest single detractor in the book by percentage.
 
 ---
 
@@ -21,96 +21,114 @@ Compounding factors, all still live:
 
 | Risk category | Level | Notes |
 |---|---|---|
-| **NVDA pool-drift trigger proximity** | 🔴 High (unchanged: tightest ever, still approaching from the downside) | 0.38pp of headroom to the 10% floor — essentially flat vs. the 10:45 ET read, 2 days from the print |
-| Single-stock concentration (NVDA+OMCL) | 🟡 Medium | 20.12% of equity combined, ~4.88pp under the 25% trigger |
-| Correlation / lack of true diversification | 🔴 High | All five holdings red again this run; NVDA/OMCL leading the drop, VTI/VXUS/XLE trailing in a tighter band — the same no-ballast pattern as this morning |
-| Binary-event stacking (NVDA/CRWD print + Jackson Hole) | 🔴 High | 2 trading days to the print; zero options hedging capacity |
-| OMCL unrealized loss | 🟠 Medium-High (deepening) | −26.4% since cost (avg $46.99 vs. live $34.60), worse than this morning's −24.6% read, still no identified catalyst |
-| Sector concentration | 🟡 Medium | AI/mega-cap-tech (NVDA + VTI's embedded weight) remains the book's largest single factor bet; today's Nasdaq-vs-Dow divergence shows it pricing in isolation, not just riding the broad tape |
-| Interest-rate / duration sensitivity | 🟡 Medium (improving, still unconfirmed) | 10yr ~4.71-4.72%; 30yr ~5.24% intraday vs. Friday's confirmed 5.273-5.276% close — favorable if it holds, not yet settled |
-| Geopolitical / Hormuz-Iran-sanctions shock | 🟠 Medium-High | Same "Operation Economic Outcast" sanctions story as this morning, now with confirmed detail (China explicitly named); oil eased again today (~$85/bbl WTI, down ~2%) — XLE's hedge continues to lag, not lead, this specific risk factor |
-| Volatility regime | 🟡 Medium (shifting) | VIX ~15.7-15.9, up off 2026 lows for the first time in weeks — a genuinely new, if modest, signal |
-| Geographic / currency exposure | 🟡 Medium | ~69.5% of equity USD-domestic; VXUS (30.5%) the only unhedged FX sleeve |
-| Liquidity risk | 🟡 Medium (OMCL) / 🟢 Low (others) | OMCL smallest, most-volatile, hardest to exit in size of the five holdings |
-| Recession / broad drawdown | 🟡 Medium | See stress test below — no position is recession-proof |
-| Hedging capacity | 🔴 High (structural gap) | Equities-only, ~$50 pool — cash is the only real hedge and sits at ~11.96% of pool, essentially unchanged for weeks |
+| Binary-event stacking (NVDA/CRWD print, zero hedge capacity) | 🔴 High | 1 trading day out; Jackson Hole (Warsh) follows 2 days later — two dated catalysts in the same week |
+| NVDA pool-drift trigger proximity | 🔴 High (marginally eased) | 10.44% actual vs. 10% floor — ~0.44pp buffer, widened slightly today on price alone, still the tightest trigger on the book |
+| Correlation / lack of true diversification | 🔴 High | All five holdings share directional beta to the same handful of macro factors (rates, AI-sentiment, oil); no true ballast position exists in an equities-only, no-bond book |
+| Look-through AI/tech concentration | 🔴 High | ~31% of equity exposed to AI/semis/mega-cap-tech once VTI's/VXUS's embedded weights are added to NVDA direct (detail below) — the real number is materially larger than the 11.86% NVDA line alone suggests |
+| Single-stock concentration (NVDA+OMCL) | 🟡 Medium | 20.09% of equity combined, ~4.91pp under the 25% combined trigger |
+| OMCL unrealized loss | 🟠 Medium-High (deepening) | -27.2% since cost, no identified structural catalyst, small-cap liquidity adds gap-risk on any real news |
+| Interest-rate / duration sensitivity | 🟢 Low-Medium (improved, confirmed) | Both 10yr and 30yr settled Monday back under rule 6a's thresholds; streak reset to 0-for-2 |
+| Data-quality risk (CDS sourcing) | 🟠 Medium-High | 7th+ consecutive cycle with no genuinely fresh NVDA CDS print; today's WebSearch returned an internally-inconsistent recycled figure |
+| Liquidity risk (book-wide) | 🟢 Low | Four of five holdings are mega-cap/large-ETF liquid; OMCL is the one exception (see below) |
+| Geographic/currency risk | 🟡 Medium | ~30.7% of equity (VXUS) carries direct FX exposure; NVDA/XLE carry indirect global-demand exposure without direct currency translation risk |
 
 ---
 
-## Correlation analysis
-- **All five holdings are red again this run** — the second consecutive check-in with a fully correlated down day, reinforcing rather than newly establishing this desk's standing "no true diversification on a red day" flag.
-- **NVDA (−2.30%) and OMCL (−2.75%) are today's two worst movers**, both meaningfully worse than VTI (−0.21%), VXUS (−0.48%), and XLE (−0.91%) — a genuine bifurcation between the two single-name satellite positions and the three diversified/basket holdings.
-- **VTI vs. VXUS**: still moving together (−0.21%, −0.48%), the standard high-correlation pairing holding on this red session as on every other.
-- **XLE vs. everything else**: fell with the tape again today (−0.91%) rather than offsetting it, even as oil itself eased (~$85/bbl WTI, down ~2%) — a second consecutive session where the hedge did not show up, reinforcing this morning's read that its hedge behavior is regime-dependent, not standing.
-- **OMCL**: today's single worst mover in percentage terms, deepening an already-large unrealized loss with still no identified catalyst — "uncorrelated" continues to mean "poorly understood," not "diversifying," for this specific position.
+## 1. Portfolio snapshot (Robinhood-verified, 2026-08-25 ~10:42 ET)
 
-## Sector concentration (equity-value basis)
-- AI/semiconductors (direct): NVDA ≈ 11.79%
-- Broad-market equity beta, mega-cap-tech-weighted: VTI ≈ 36.97% (embeds a further unquantified tech overweight via VTI's own top holdings)
-- International developed + EM: VXUS ≈ 30.52%
-- Healthcare IT: OMCL ≈ 8.33%
-- Energy: XLE ≈ 12.38%
+Pool ≈ equity $44.2252 + deployable cash $6.00 = **$50.2252** (base $50 + ~$0.23 accumulated profit). Reserve: a further ~$50 untouchable per Jash's 7/10 clarification, excluded from all percentages below unless marked "% of account."
 
-Roughly half the book (NVDA direct + VTI's embedded tech weight) remains a single concentrated bet on AI/mega-cap-tech multiples, now 2 trading days from that bet's own binary catalyst — unchanged from this morning's read.
+| Holding | Live price | Chg vs. prior close | Value | % of equity | % of pool |
+|---|---|---|---|---|---|
+| NVDA | $211.24 | +1.32% | $5.24 | 11.86% | 10.44% |
+| VTI | $377.55 | +0.13% | $16.34 | 36.96% | 32.55% |
+| VXUS | $87.84 | +0.73% | $13.57 | 30.69% | 27.03% |
+| OMCL | $34.20 | -1.33% | $3.64 | 8.23% | 7.25% |
+| XLE | $62.55 | -0.89% | $5.43 | 12.27% | 10.81% |
+| Cash | — | — | $6.00 | — | 11.95% |
 
-## Geographic exposure and currency risk
-- USD-domestic: NVDA, OMCL, XLE, VTI ≈ 69.5% of equity.
-- VXUS ≈ 30.5% is the entire non-USD sleeve — developed-ex-US + EM, fully unhedged. A dollar move remains a return driver independent of underlying fundamentals here, as flagged in every prior report; nothing new to add this run.
+## 2. Correlation analysis between holdings
 
-## Interest-rate sensitivity by position
-- **NVDA**: high — every basis point matters more with a binary print 2 days out; MS's most recent DCF (8/21) still shows a wide downside gap that widens directly with the discount rate.
-- **OMCL**: high — small-cap growth healthcare IT, discount-rate sensitive, now compounding an even deeper unexplained drawdown.
-- **VTI**: moderate-high — mega-cap/tech-heavy, inherits much of NVDA's duration in aggregate.
-- **VXUS**: moderate — somewhat lower duration than VTI, not immune.
-- **XLE**: low, arguably inverse — driven by the oil premium, not rates; today's second straight oil pullback despite live sanctions headlines shows this can cut against the position too.
-- **GEHC (candidate, not held)**: moderate — still ~6.0% above the $70 entry ceiling this desk set 8/20; net-debt (~$8.0B) adds a rate-refinancing sensitivity layered on top of duration; not price-eligible this run.
+This book has **no genuine ballast position** — every holding is a positive-beta equity exposed to the same handful of macro drivers, just with different sensitivities:
+- **NVDA, VTI, VXUS** move together on broad risk sentiment and AI-multiple sentiment specifically (VTI's own look-through AI weight makes it a partial NVDA proxy, not an independent asset).
+- **OMCL** is the book's best true diversifier against the chip/AI factor (healthcare-tech, idiosyncratic drivers) — but it is currently *negatively* correlated with the book's P&L for the wrong reason (a standalone -27.2% drawdown), not because it's hedging anything today.
+- **XLE** is the book's best true diversifier against the rate/tech factor (oil-cycle driven) — genuinely uncorrelated on most days, evidenced by it being the lone red holding on several recent green-tape days and vice versa.
+- Empirically: all five holdings were red together on 8/24 (a broad risk-off day) and four of five are green together today (a broad relief bounce) — the *direction* of correlation flips with the macro regime, but the book rarely sees genuine dispersion where one holding zigs while the pool as a whole zags. **Net: 2 of 5 holdings (OMCL, XLE) provide real diversification value; the other 3 (NVDA, VTI, VXUS) are correlated expressions of the same US/AI-equity factor.**
 
-## Recession stress test (illustrative peak drawdown)
-| Position | Est. drawdown in a recessionary bear | Basis |
+## 3. Sector concentration risk
+
+Face-value sector split (equity basis): AI/semis (NVDA) 11.86% direct; broad-market ETFs (VTI/VXUS) 67.65% (diversified by construction, but see look-through below); healthcare-tech (OMCL) 8.23%; energy (XLE) 12.27%.
+
+**Look-through concentration is the number that matters (rule 8).** Using BR's own cited data point (AI-adjacent names ~36% of the Morningstar US index, the most concentrated since 1932) as a proxy for VTI's embedded AI/mega-cap-tech weight, and a materially lower ~20% estimate for VXUS's ex-US, less-tech-heavy composition:
+- NVDA direct: 11.86%
+- VTI embedded (~36% of its 36.96% equity weight): ~13.3%
+- VXUS embedded (~20% of its 30.69% equity weight): ~6.1%
+- **Total look-through AI/mega-cap-tech exposure: ~31.3% of equity** — nearly triple the headline NVDA line, and comfortably the book's single largest true factor bet, concentrated in the one 24-hour window (tomorrow's print) where that factor's binary risk is highest.
+
+## 4. Geographic exposure and currency risk
+
+- **US-domiciled, USD-denominated:** NVDA, OMCL, XLE, and VTI's underlying holdings — no direct FX translation risk, though NVDA and XLE both carry indirect exposure to global demand (China chip demand, global oil demand) without currency pass-through.
+- **Direct FX exposure:** VXUS (30.69% of equity) holds developed and emerging-market ex-US equities — a broad basket across EUR, JPY, GBP, and EM currencies. This is a genuine diversifier against a USD-specific shock, but also means ~31% of the book's equity has a currency-translation risk layer the other four holdings don't carry.
+- **No dedicated FX hedge exists or is warranted at this size** — the position is small enough (~$13.57) that hedging costs would exceed any realistic benefit; flagged for completeness, not as an action item.
+
+## 5. Interest rate sensitivity by position
+
+| Position | Rate sensitivity | Why |
 |---|---|---|
-| NVDA | −45% to −60% | High-beta semis/AI drew down ~45-65% in 2022; recession adds demand downside on top of the current valuation stretch |
-| VTI | −25% to −35% | Broad US market recession range, high end given elevated valuations/duration |
-| VXUS | −25% to −35% | Similar; EM sleeve adds tail variance |
-| OMCL | −35% to −50% | Small-cap growth healthcare IT, compounded by a visible, deepening idiosyncratic drawdown already in progress |
-| XLE | −30% to −55% | Wide by design: a demand-shock recession hits energy hardest; a supply-shock/inflationary recession (still plausible given the live Hormuz/Iran-sanctions situation) could see it hold or rally |
+| NVDA | High | Growth/duration name; MS's own DCF (WACC 11%) shows the fair-value gap moves materially with discount-rate assumptions |
+| OMCL | High | Small-cap growth healthcare-tech; MS's DCF (WACC 9%) is similarly duration-sensitive, and thinner liquidity amplifies rate-driven multiple compression |
+| VTI | Medium | Broad market with a heavy growth/tech tilt (see look-through above) — more rate-sensitive than a pure value index would be |
+| VXUS | Medium-Low | More value/financials-weighted internationally than VTI; historically less duration-sensitive than US mega-cap-tech-heavy indices |
+| XLE | Low / near-zero-to-negative | Value/cyclical, driven by oil price and demand expectations, not discount-rate math — this is exactly why it's the book's best rate-shock hedge |
 
-**Blended estimate**: roughly −30% to −40% peak-to-trough on the ~$44.19 equity sleeve (≈ $13-18), pool-level −26% to −36% since cash is largely untouched. Trivial in absolute dollars at this book size; the percentage remains the number that should discipline sizing as the account scales — unchanged methodology from prior reports.
+With Monday's settled closes back under both rule 6a thresholds, book-wide rate sensitivity is the one risk factor that genuinely improved this run — but Friday's Jackson Hole speech (2 days after the print) is a real re-test, not a closed question.
 
-## Liquidity risk by holding
-- NVDA, VTI, VXUS, XLE: **Low** — effectively unlimited at this account size.
-- OMCL: **Medium** — mid/small-cap, the one position with non-negligible exit cost if sold in size, and the one whose price action remains least explicable of the five, now with the deepest unrealized loss on the book.
+## 6. Recession stress test — estimated drawdown
 
-## Single-stock risk and position-sizing recommendations
-- NVDA (11.79% of equity) and OMCL (8.33%) remain the only true single-name risk; combined 20.12% sits comfortably under the 25% hard trigger, but **the pool-drift trigger (a separate, tighter mechanism) is unchanged from this morning at 0.38pp of headroom — still the closest any trigger on this book has ever come to firing.**
-- **Recommendation, unchanged and restated**: do not treat today's NVDA weakness as a buying opportunity to "average down" pre-print — any purchase now pushes exposure into a binary event with zero hedging capacity, exactly the wrong trade-off 2 days out. Equally, do not panic-trim if the drift trigger fires through the floor; let it force the review it exists to force, per the same discipline this desk has argued for the upside case all month.
-- **OMCL, sharpened this run**: the position is now −26.4% since cost, the deepest drawdown in the book's history, with no fresh catalyst identified across two BW reads today. This desk is not calling for a trim (no structural break, per the standing OMCL contingency plan — a price move alone isn't a decision point) but flags plainly that the size of the unrealized loss itself is starting to be a notable single-stock risk data point on its own terms, independent of MS's valuation-discount framing, and worth an explicit question to JPM/GS: is there *any* company-specific explanation yet, or is this now purely macro/flow-driven drift?
-- Rule 6a (rate shock): still unresolved — **the confirmed 16:00 ET close is the only number that matters; the next run must pull it, not another intraday snapshot.**
-- On GEHC sizing: unchanged — endorse $2.50 quarter-size only paired with entry ≤ ~$70. Still not price-eligible this run (~$74.21, ~6.0% above ceiling).
+Rough beta-adjusted drawdown estimates under a genuine recession/multiple-compression scenario (not a base case — a stress test):
 
-## Tail risk scenarios
-| Scenario | Rough probability (next 2-5 trading days) | Portfolio impact |
+| Position | Estimated drawdown | Basis |
 |---|---|---|
-| NVDA prints in-line-to-good but the market sells it anyway (JPM: 3 of last 4 next-day reactions negative despite beats) | ~50-60% | Concentrated hit to NVDA + VTI's embedded tech weight; the book's written contingency plan is the live test case, 2 days away |
-| NVDA's pool-drift trigger fires from further pre-print risk-off weakness (no NVDA-specific catalyst needed — only 0.38pp of headroom) | ~30-40% (unchanged from this morning — tightest buffer on record, flat over the last 4 hours despite continued risk-off tape) | Mandatory review forced from the downside, mid-event-week — the scenario this desk flagged as untested at 10:45 ET remains untested |
-| Iran-sanctions escalation triggers a genuine Hormuz supply disruption (beyond today's rhetoric) | ~20-25% | Oil has now eased for a second straight session on sanctions news rather than spiking — the hedge (XLE) continues to look lagging, not leading, this specific risk |
-| Rate-shock trigger (rule 6a) fires on today's close despite the intraday pullback | ~15-20% (unchanged — intraday 30yr still reads below Friday's confirmed close) | Multiple-compression concentrated in NVDA/OMCL/VTI's tech-heavy core |
-| Chip-sector-specific stress reasserts into the print (CDS still elevated near 80.77bps, unresolved sourcing for a sixth-plus cycle; today's Nasdaq-vs-Dow divergence is a live symptom) | ~25-30% (raised slightly — today's sector-specific underperformance is a fresh, dated data point for this exact risk) | Compounds the earnings-reaction risk rather than being independent of it |
-| Broad risk-off (Iran sanctions + US-Canada tariff standoff) extends through the print and Jackson Hole | ~25-30% | Compounds every other risk on this list simultaneously; VIX's uptick off 2026 lows is the leading indicator this desk will keep tracking |
+| NVDA | -40% to -50% | High-beta AI/semis name already trading at a ~29% premium to MS's DCF fair value before any recession discount |
+| OMCL | -35% to -45% | Small-cap growth healthcare-tech; thin liquidity amplifies drawdowns; already -27.2% from cost with no recession priced in yet |
+| VTI | -25% to -35% | Broad US market, historical bear-market range, modestly worse than average given its elevated tech/AI look-through weight |
+| VXUS | -25% to -35% | Similar broad-market range; partial offset possible if a US-specific shock drives capital rotation abroad, partial worsening from FX drag if the shock is global |
+| XLE | -30% to -40% | Energy demand destruction in a genuine recession is severe historically, though a supply-shock-driven recession (e.g., a Hormuz escalation) could see XLE outperform the book even as the broader market falls — scenario-dependent, not a clean hedge in every recession type |
 
-## Hedging strategies for the top 3 risks (equities-only, no options)
-1. **NVDA pool-drift trigger at its tightest-ever buffer, still approaching from the downside (top risk, unchanged from 10:45 ET)**: no options toolbox, so the lever is discipline, not action — do not add into the weakness (would mask the signal the trigger is designed to surface) and do not panic-trim if it breaches (same "forced review, not automatic sell" framing this desk has argued for the upside case). **Standing ask, restated a second time today**: this desk still has no explicit team confirmation that the trigger's response framework applies symmetrically to a downside/macro-driven fire — the closest call yet, and still open.
-2. **Binary-event stacking (NVDA/CRWD print + Iran sanctions + Jackson Hole, compounding into the same 48 hours)**: cash is the only real hedge at this scale. Defend the ~11.96%-of-pool floor through the print; do not spend it down chasing a GEHC entry or averaging into NVDA weakness specifically inside this window.
-3. **Geopolitical / correlation risk (a second consecutive all-five-red session today)**: XLE's hedge behavior is regime-dependent, not standing — it did not offset either of the last two risk-off sessions. No fix available under the equities-only mandate beyond continuing to hold XLE for the scenarios where it does work (a genuine Hormuz supply shock, as opposed to sanctions-announcement rhetoric or sector rotation) and not over-relying on it as a blanket portfolio hedge.
+**Weighted portfolio estimate: roughly -30% to -35% on the $44.23 equity book (~-$13 to -$15) in a genuine recession scenario**, before the ~$6 deployable cash and untouched ~$50 reserve are considered. The reserve structurally caps the experiment's total downside regardless of any single stress scenario — worth restating plainly since it's easy to lose sight of amid position-level percentages.
 
-## Rebalancing suggestions
-- **NVDA**: −4.62pp under the 15% pool target, buffer to the 5pp band's floor at just 0.38pp. **Do not close this gap via purchase before 8/26** — the tightness itself is the signal to leave alone, not fill.
-- VTI +2.56pp over a 30% pool target, VXUS +1.88pp over 25% — both inside the 5pp band, no rebalance action warranted.
-- OMCL −2.66pp under a 10% pool target — standing read unchanged: the drawdown remains unexplained and has deepened further; not a valuation-driven add case regardless of MS's DCF discount.
-- XLE +0.90pp — essentially on target, no action.
-- Cash at ~11.96% of pool, above the 10% floor — **defend this floor through the print and Jackson Hole window**; the one lever the book actually has this week.
-- If new capital deploys, preference order unchanged: (1) let deployable cash sit at or above its current level through the event window; (2) any equity add should favor the lowest-correlation candidate at the right price (GEHC, still not there); NVDA remains the least-preferred add on risk grounds this week specifically, given the drift-trigger proximity.
+## 7. Liquidity risk rating by holding
+
+| Holding | Liquidity rating | Notes |
+|---|---|---|
+| VTI | Very high (Low risk) | One of the largest, most liquid ETFs in existence |
+| VXUS | Very high (Low risk) | Large, liquid international ETF |
+| XLE | High (Low risk) | Large, liquid sector SPDR |
+| NVDA | High (Low risk) | Mega-cap, extremely high daily volume |
+| OMCL | Medium (Medium risk) | Small/mid-cap healthcare-tech — wider spreads, more gap risk on news/earnings than the book's other four holdings; the one name where a bad-news gap could meaningfully exceed the options-free execution price the trader would actually get |
+
+## 8. Single stock risk and position sizing
+
+NVDA and OMCL are this book's only two single-name idiosyncratic risks. **NVDA is well inside every standing trigger** (10.44% of pool vs. 10% floor with ~0.44pp buffer on the downside-drift side; 11.86% of equity vs. the 18-20% overweight cap; 20.09% combined with OMCL vs. the 25% cap) — sizing discipline here has held. **OMCL is small in dollar terms (~$3.64, 8.23% of equity) but carries the highest risk-per-dollar in the book**: -27.2% underwater, no structural catalyst identified, next print not until 11/4 (71 days out, outside near-term binary risk), small-cap liquidity. No sizing change recommended today — position is already half-size by original design and the OMCL earnings contingency plan's structural-break-only standard still applies with no break identified — but this desk will keep stating plainly that OMCL is the book's clearest "small position, large idiosyncratic risk" line item.
+
+## 9. Tail risk scenarios with probability estimates
+
+1. **NVDA post-print move exceeds 2x the options-implied ~5.3-5.6% move (i.e., >~11%), either direction.** Rough tail-probability estimate based on typical post-earnings distribution shapes for high-implied-move mega-caps: **~10-15%.** Zero hedge capacity either direction under the equities-only mandate — this is pure, unmanaged binary exposure on ~$5.24 of the book.
+2. **Rule 6a rate-shock trigger fires within the next 2 weeks** (two consecutive closes above 4.75%/5.25%), catalyzed by a hawkish Jackson Hole surprise from a new Fed chair trying to establish credibility. **~20-25%**, down from this desk's implicit prior last week given Monday's confirmed pullback below both thresholds, but Warsh's speech (8/28) is a real, dated re-test, not a closed question.
+3. **A genuine, dated NVDA CDS re-widening toward/above the 82bps 7/27 record, confirmed by a real print rather than recycled reporting.** Given the sourcing confusion this desk hit today, **probability is genuinely unknown** — and that unknowability, going into a binary earnings event, is itself worth flagging as a distinct risk from the CDS level itself.
+4. **A fresh Hormuz/Red Sea escalation** reversing the recent partial de-escalation, hitting broad risk sentiment while XLE's own directional response is ambiguous (could rally on oil-supply-shock fears or fall on broad risk-off, depending on which effect dominates). **~15-20%** over the next month, roughly unchanged from prior reads — status quo, still unsigned.
+5. **An OMCL-specific negative catalyst** (contract loss, guidance cut, insider-sale pattern turning discretionary) before the 11/4 print. **~5-10%**, low probability but the position is already -27.2% underwater, so any real catalyst would land on an already-impaired cost basis.
+
+## 10. Hedging strategies — top 3 risks (equities-only toolbox, no options)
+
+1. **NVDA/CRWD earnings binary risk (tomorrow AH).** No direct equities-only hedge exists for a single-stock binary print without simply reducing the position — already considered and explicitly declined under rule 15's cost-benefit (small absolute size, JPM's WAIT call, BR's underweight flag). The only remaining equities-only lever is holding the ~$6 cash buffer intact through the print rather than deploying it into anything else this week, which the book is already doing by default (rule 1 — no fresh catalyst for a new buy).
+2. **Look-through AI/tech concentration (~31% of equity).** The only equities-only hedge is continued, deliberate diversification into genuinely uncorrelated satellites rather than adding to VTI or NVDA at current levels — XLE and OMCL already serve this role; GEHC (healthcare, price-gated, pending) would extend it further if it ever fires. No new action recommended today, but this is the standing rationale for not adding to the core sleeve while it already sits over its BR targets (VTI +2.56pp, VXUS +1.87pp).
+3. **Rate/duration sensitivity.** XLE is the book's natural, already-held rate hedge (low/negative duration sensitivity per §5) — no incremental action needed while Monday's rate data improved, but this desk would flag XLE's role explicitly if rule 6a's trigger were to fire post-Jackson-Hole, rather than treating XLE purely as an energy/oil-cycle satellite.
+
+## 11. Rebalancing suggestions
+
+**No rebalancing recommended today** — both because rule 1 (no fresh catalyst) applies and because trading into a binary-event day ahead of a print is exactly the kind of reactive, pressure-driven decision the book's own contingency-plan discipline (rule 15) exists to avoid. For the record, current vs. BR's own pool targets: VTI 32.55% (target 30%, +2.55pp, inside band), VXUS 27.03% (target 25%, +2.03pp, inside band), NVDA 10.44% (target 15%, under formal review, deferred to 8/27), OMCL 7.25% (target 10%, -2.75pp under), XLE 10.81% (target 10%, +0.81pp, on target), cash 11.95% (10% floor, +1.95pp buffer). Nothing here crosses a hard trigger; the NVDA policy-target question stays deferred to the first post-print run per BR's own 8/27 timeline, and this desk will re-read the whole book fresh at that run rather than pre-judge it now.
 
 ---
-*Prior report: consult `git log -p -- trading-experiment/analysts/bw-risk-assessment.md` for history.*
 
-**Sources this run**: [US 10 Year Treasury Note Yield (TradingEconomics)](https://tradingeconomics.com/united-states/government-bond-yield), [US30Y: U.S. 30 Year Treasury (CNBC)](https://www.cnbc.com/quotes/US30Y), [Nvidia's credit default swaps surpass July peak (Seeking Alpha)](https://seekingalpha.com/news/4634471-nvidias-credit-default-swaps-surpass-july-peak), [NVIDIA's five-year CDS sees biggest single-day jump in history (Odaily)](https://www.odaily.news/en/newsflash/504222), [Nvidia's credit risk now exceeds Google's — CDS spreads widen to 69bps (CryptoBriefing)](https://cryptobriefing.com/nvidia-cds-spreads-surpass-google/), [Stock Market Today (Aug. 24, 2026): Nasdaq slides on Iran sanctions, U.S.-Canada tariff threats (Yahoo Finance)](https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-24-134834490.html), [Stock market today: S&P 500, Nasdaq slip as Bessent announces 'economic asphyxiation' campaign against Iran (Yahoo Finance)](https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html), [Stock Market Midday, Aug. 24: Dow Edges Higher as Chip Weakness Pressures Nasdaq (Motley Fool)](https://www.fool.com/coverage/stock-market-today/2026/08/24/stock-market-midday-aug-24-dow-edges-higher-as-chip-weakness-pressures-nasdaq/), plus Robinhood live quotes/positions/portfolio and the sibling analyst reports (GS 8/24, JPM 8/24, MS 8/21, BR 8/21) + state.md.
+*BW Risk Assessment — radical transparency, no softened warnings. Filed 2026-08-25 ~10:42 ET.*

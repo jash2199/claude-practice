@@ -1,204 +1,112 @@
 # JPM Earnings Analyzer — Latest Report
-**Date: 2026-08-27 (Thursday) — FIRST RUN AFTER THE NVDA/CRWD PRINT. This is the structural-break-only review state.md's rule 15 (NVDA earnings contingency plan) explicitly designates this run for.**
+**Date: 2026-08-28 (Friday), ~09:35 ET — FRO reported this morning; this run delivers the post-print recap. AVGO now 5 trading days out.**
 
-*Persona: JPMorgan equity research analyst, pre-earnings catalyst calendar for the "Claude Robinhood Trader." Coverage = trader's current holdings (state.md: NVDA, VTI, VXUS, OMCL, XLE) + GS screener's top-10 (analysts/gs-stock-screener.md, dated 2026-08-26 afternoon: OMCL, GEHC, CRWD, AVGO, PTCT, OXY, XLE, IONQ, MU, FRO — unchanged composition). No live Robinhood access — all prices/dates below are WebSearch-sourced; defer to the trader's own Robinhood-verified quote for anything sizing-relevant, per standing rule 4.*
-
----
-
-## Coverage check, 2026-08-27: NVDA and CRWD both reported after last night's close — closing out prior coverage below. New names entering the ~2-week window: FRO (reports **tomorrow**, 8/28) and AVGO (6 days out, 9/2). Nothing else in the trader's holdings or GS's top-10 reports within 2 weeks (GEHC ~10/28, OMCL ~11/4, MU ~9/29 — all confirmed outside the window this run).
+*Persona: JPMorgan equity research analyst, pre-earnings catalyst calendar for the "Claude Robinhood Trader." Coverage = trader's current holdings (state.md: NVDA, VTI, VXUS, OMCL, XLE) + GS screener's top-10 (analysts/gs-stock-screener.md, dated 2026-08-27 ~15:41 ET: OMCL, GEHC, CRWD, AVGO, PTCT, OXY, XLE, IONQ, MU, FRO — unchanged composition). No live Robinhood access — all prices/dates below are WebSearch-sourced; defer to the trader's own Robinhood-verified quote for anything sizing-relevant, per standing rule 4.*
 
 ---
 
-## 🟢 POST-PRINT RECAP — NVDA (held, ~10-12% of pool/equity as of last check-in)
-**This is the single most decision-relevant item in this brief — it directly resolves state.md's rule 15.**
+## Coverage check, 2026-08-28: FRO reported before today's open — closing out prior coverage below. AVGO remains in the ~2-week window (5 trading days out, 9/2). Nothing else in the trader's holdings or GS's top-10 reports within 2 weeks (GEHC ~10/28, OMCL ~11/4, MU ~9/29 — all confirmed outside the window this run; NVDA and CRWD both already recapped last run and stay out of window until their next prints).
 
-NVIDIA reported Q2 FY2027 (quarter ended 2026-07-26) after last night's close:
+---
+
+## 🟢 POST-PRINT RECAP — FRO (not held, GS screener rank #10)
+
+Frontline reported Q2 2026 (quarter ended ~June 30, 2026) before today's open, call 9:00am ET (already underway/concluded by this run's write-up time).
 
 | Metric | Actual | Consensus | Beat/Miss |
 |---|---|---|---|
-| Revenue | $96.2B (+106% YoY, +18% QoQ) | ~$91-92.1B | **Beat ~4.5%** |
-| Non-GAAP EPS | $2.22 | ~$2.09 | **Beat ~6.3%** |
-| GAAP EPS | $2.46 | — | — |
-| Data Center revenue | $89.0B (+117% YoY) | ~$85.7B guided-implied | **Beat, accelerating, not decelerating** |
-| Gross margin (GAAP & non-GAAP) | 75.0% | 75.0% ± 50bps guided | In line |
+| Adjusted EPS | $2.96 (best adjusted quarterly profit ever, $580.2M) | ~$2.74 | **Beat ~8.0%** |
+| GAAP net profit | $659.2M / $2.96 per share (best quarterly profit ever, one source's headline figure — appears to conflate with adj. EPS; not independently reconciled this run) | — | — |
+| Revenue | **Conflicting across sources: $943.3M (GlobeNewswire, company release) vs. $753.3M (a secondary aggregator) vs. ~$760.1M consensus** | ~$760.1M | Beat under the company's own release; a marginal miss under the secondary aggregator's figure |
+| Dividend declared | $2.61/share | — | — |
 
-**Guidance:** management guided FY2028 revenue growth of **~70% YoY**, with CEO Jensen Huang stating "we have supply for 70% growth." No FY2028 dollar figure was needed to read this as a strong forward statement — a guide-up, not a guide-down or an in-line "sell the news" setup.
+**Revenue figure not resolved cleanly — flagging, not picking a side.** This is the same total-vs-net-voyage-revenue reporting-convention ambiguity this desk has been carrying for FRO across multiple cycles (prior briefs flagged sources "conflict sharply on revenue base" for Q2 2025 too). The company's own GlobeNewswire release states $943.3M, well above consensus; a secondary source's $753.3M sits just under consensus. Treating the EPS beat (sourced consistently across both searches, $2.96 vs. ~$2.74) as the reliable headline number and the revenue print as unresolved.
 
-**Stock reaction:** +4.7% after-hours immediately post-print (touching ~$218.77), extending to **+6% in this morning's premarket**. The options market had priced a ~5.4-6.99% implied move (sources varied); the realized after-hours move sits at the lower end of that range and, critically, **positive** — breaking the pattern this desk flagged repeatedly pre-print (3 of the last 4 next-day reactions were negative despite beats on both lines). This is the first clean "beat and pop" reaction in NVDA's last five prints.
+**TCE rates confirmed strong**: VLCC $152,700/day, Suezmax $111,500/day, LR2/Aframax $92,400/day spot averages for Q2 — all well above the $181,700/82%-covered VLCC *booking* figure cited pre-print was a forward booking rate, not the realized spot average, so these aren't directly comparable, but the absolute levels are consistent with the "elevated-rate environment" bull case GS and this desk have both been carrying.
 
-**Rule 15 structural-break checklist (state.md, adopted 2026-08-14):**
-| Trigger condition | Status |
-|---|---|
-| Cut to forward guidance | **No — guidance raised** (70% YoY FY28 growth framing) |
-| Confirmed unfavorable/scrapped OpenAI financing term sheet | **No news of this on the call per sources reviewed this run** |
-| Material China-export-policy shock | **No — not raised as a print-specific issue** |
-| Data Center growth deceleration beyond what guidance assumed | **No — Data Center accelerated to +117% YoY, beat the implied run-rate** |
-| NVDA 5yr CDS breaks back above the 82bps 7/27 record | **No — still ~79.8bps, below the record, essentially the same stale reading this desk has now carried for eight cycles** |
+**Stock reaction: modest, not explosive.** +6.23% per one source (trading ~$43.75), a separate intraday read shows a $43.80–44.50 range — call it a mid-single-digit pop on a clean EPS beat and a strong dividend, not the outsized move a >8% EPS beat might otherwise produce. Still essentially at/near the 52-week high ($45.15) this desk flagged pre-print as leaving "no discount available under any framing."
 
-**None of the five explicit revisit/trim conditions fired.** Per rule 15's own design, this is a clean case for **no trim** — and unlike the OMCL 7/30 precedent (beat-but-guide-soft), this print didn't even require the "beat and selloff isn't a sell signal" fallback reasoning, since there was no selloff to explain away. This desk's read: the print is a net-positive fundamental data point for the existing thesis, not merely an absence-of-bad-news pass.
+**This desk's read: the print itself doesn't change the standing call.** EPS beat confirms the elevated-rate/Hormuz-tightness bull case is intact, but price was already sitting within $0.70 of its 52-week high pre-print and is now modestly higher still — MS's cross-vetted DCF hard pass (~$18.5–27.4/sh under both scenarios) remains the governing constraint under rule 5, and rule 6 (BW risk read) has never been started for this name. A good quarter does not, by itself, clear either gate.
 
-**Standing CDS ask, now closed out (not resolved, just retired):** the 79.8bps figure never moved off its stale reading across eight straight cycles despite repeated asks to BW/MS for an independent pull. Since the print has now landed and confirmed no credit-market-relevant surprise, this desk is retiring the ask rather than re-flagging a ninth time — any future CDS move is now a fresh, not backlogged, data point.
+**Recommended play: WAIT — still a functional HARD PASS per rule 5.** No entry. If this name is ever prioritized for cross-vetting, today's print (strong TCE rates, raised-guidance-consistent trajectory, but a still-live revenue-figure ambiguity) is a reasonable starting data point for MS to fold into a fresh DCF, but that request is unchanged from prior cycles and this desk isn't re-escalating it given FRO's low priority (rank #10, smallest position size in every prior sizing discussion) relative to the IONQ/PTCT/GEHC backlog already ahead of it in the queue.
 
-**This desk's recommendation to the trader: no post-print trim, no post-print add — hold as-is.** The print resolves the earnings-risk overhang cleanly in the thesis's favor; any sizing decision from here (e.g., whether NVDA's equity weight now needs revisiting given the price pop) is BR's/BW's allocation-trigger territory, not this desk's.
+This closes out FRO's coverage window — the name drops out of this desk's active brief until its next reportable print (approx. mid-to-late November 2026, not yet confirmed).
 
 ---
 
-## 🟡 POST-PRINT RECAP — CRWD (not held, GS screener rank #4)
+# 🆕 AVGO — Broadcom Inc. (update — 5 trading days from print, was 6 days out last run)
 
-CrowdStrike reported fiscal Q2 FY2027 after last night's close: revenue **$1.47B vs. ~$1.44B consensus** (+26% YoY, beat ~2.1%), adjusted EPS **$0.31 vs. ~$0.29 consensus** (beat ~6.9%) — CEO George Kurtz called it "the best quarter in CrowdStrike's history." Full-year guidance was raised: revenue to $5.99-6.01B (from a prior ~$5.93B consensus) and adjusted EPS to $1.25-1.26; net-new-ARR growth guidance was lifted ~520bps to a 27.7% midpoint. Management framed AI-driven security demand (explicitly citing the market response to Anthropic's newly-released Mythos model) as a fresh demand driver.
-
-**Stock reaction: +11% in extended trading**, landing around $189.95 — a clean beat-and-raise reaction that resolves the CTO-departure overhang (Zaitsev, departed 8/20) this desk had been tracking as the name's chief overhang into the print; no successor was confirmed in the sources reviewed this run, but the market's reaction suggests it was not treated as the dominant story tonight.
-
-**This name is still not a holding and rule 6 cross-vetting (MS DCF, BW risk read) has never started.** The pullback-entry window this desk had been watching for ($184-195 pre-print) has been erased by the pop — CRWD now trades above that range, so any future entry consideration starts from a higher base and, per rule 2, should not chase this move. No action implied for the trader; flagging for MS/BW/GS awareness that rule 6 remains the open gate if this name is ever prioritized.
-
----
-
-# 🆕 FRO — Frontline plc
-**Reports: TOMORROW, Friday, August 28, 2026, before market open. Call 9:00am ET / 3:00pm CEST. Covers Q2 2026 (quarter ended ~June 30, 2026).**
-**Status in book: NOT a holding. GS screener rank #10. Never cross-vetted by BW per rule 6; MS's DCF is on file and unfavorable (hard pass, both scenarios).**
-
-## Decision summary
-**WAIT, functionally a HARD PASS per rule 5 — 1 day from the print, price still near its 52-week high with no discount available under any framing.** FRO trades **$44.45** today (52-week range $18.43-45.15), essentially unchanged from the $43.67-43.70 this desk carried two days ago. No fresh FRO-specific catalyst beyond the standing Hormuz-driven tanker-availability tightness. Tomorrow is a binary print against a four-quarter EPS-miss streak and a DCF that already rejects this price under both scenarios tested.
-
-### 1. Last 4 quarters vs. estimates
-| Quarter | Report date | Revenue (actual vs. est.) | Beat/Miss | EPS (actual vs. est.) | Beat/Miss |
-|---|---|---|---|---|---|
-| Q1 2026 | 2026-05-22 | $714.2M vs. ~$562M est. (+27.1%) | Beat | $1.55 adj. (also cited $2.51 in one source) vs. ~$2.25-2.44 est. | **Miss** (magnitude sources vary, but consensus-negative either way) |
-| Q4 2025 | 2026-02-27 | $424.5M (sources vary) | Mixed — sources conflict | $1.02-1.03 adj. | Sources conflict |
-| Q3 2025 | ~Nov 2025 (exact date not re-verified) | $257.0M vs. ~$269M est. (-4.5%) | Miss | $0.19 vs. $0.24 est. | Miss (-$0.05) |
-| Q2 2025 | 2025-08-29 | Sources conflict sharply on revenue base | Conflicting | $0.36 vs. ~$0.42-0.47 est. | Miss |
-
-**EPS has missed consensus in every one of the last four prints**, even in Q1 2026's otherwise-record revenue quarter. Unchanged from prior briefs — still the single most important company-specific data point, independent of price action, and consistent with MS's DCF finding the current price unsupported.
-
-### 2. Consensus + guidance for the upcoming quarter (Q2 2026, reports tomorrow)
-- **Street consensus (fresh pull today):** Revenue ~$760.1M, EPS ~$2.74 — modestly higher than the ~$754.63-757.09M / ~$2.58-2.61 range carried two runs ago; treating as normal estimate drift, not a new data conflict.
-- **Full-year 2026 outlook (management's own guide, 5/22/26 call):** Revenue ~$1.97B, EPS ~$4.85 (both raised from ~$1.87B/~$3.95 pre-Q1).
-- **Price-target sourcing:** prior runs flagged a $41 vs. $44.25 conflict; not re-sourced this run. Either framing still leaves FRO at-or-above its own consensus target at today's $44.45 — no scenario found puts FRO at a discount to consensus.
-
-### 3. Key metrics to watch this print
-- **Realized TCE rates** vs. the $181,700/day pre-booked VLCC figure and the actual spot-rate environment.
-- **EPS-vs-consensus reconciliation** — four-quarter miss streak, now against a Street number that may itself be diverging from management's raised guide.
-- **Dividend declaration** — Q1 2026 was $1.55/share.
-- **Forward guidance for Q3/Q4 2026 bookings** — specifically whether management calls the Hormuz-driven rate spike durable or transitory, the crux of the unbridgeable DCF-vs-price gap MS has flagged.
-
-### 4. Segment-by-segment breakdown and trends
-FRO does not report conventional segments; closest analog is vessel class, unchanged from the Q1 call:
-- **VLCC:** primary earnings driver, Q2 2026 bookings at $181,700/day (82% covered) as of the Q1 call.
-- **Suezmax:** Q2 2026 bookings at $131,300/day (79% covered).
-- **LR2/Aframax:** Q2 2026 bookings at $125,000/day (68% covered).
-
-### 5. Management guidance from the last call (Q1 2026, 5/22/26)
-FY2026 revenue outlook raised to ~$1.97B; FY2026 EPS outlook raised to ~$4.85. Cash-generation sensitivity disclosed: ~$1.5B ($7.00/share) at current rates, ~$2.1B ($9.51/share) on a +30% spot-rate move, ~$1.0B ($4.41/share) on a -30% move.
-
-### 6. Options market implied move
-No figure cleanly sourced for the specific 8/28 print. Baseline unchanged: FRO's average historical Day-0 actual move is ~3.9% — thin options liquidity means any future implied-move figure should be treated with more caution than NVDA/CRWD/AVGO.
-
-### 7. Historical stock price reaction after the last 5 reports
-| Report date | Quarter | Reaction |
-|---|---|---|
-| 2026-05-22 | Q1 2026 | ~-3.13% in premarket, on the EPS miss despite the revenue beat |
-| 2026-02-27 | Q4 2025 | Conflicting characterizations across sources; net reaction not cleanly resolved |
-| ~Nov 2025 | Q3 2025 | Not re-verified; carried as a miss on both lines |
-| 2025-08-29 | Q2 2025 | Not re-verified |
-| Prior | — | Not sourced |
-
-### 8. Bull case
-Wall Street "Buy" consensus; rally driver is geopolitically-tightened VLCC availability and dark/reduced-visibility Gulf shipping amid the still-unsigned Hormuz situation. GS's own house bull case remains $55-65, premised on the elevated-rate environment persisting. **This desk's read, unchanged: MS's cross-vetted DCF has already rejected this thesis under both scenarios tested, and price sits at-or-above the Street's own average target under every framing sourced.**
-
-### 9. Bear case
-**MS's own DCF remains the bear case and the strongest one on this sheet:** hard pass at ~$18.5/sh (mean-reversion) to ~$27.4/sh (elevated-rates-persist) against a ~$44.45 live price — a ~37-58% downside to fair value under the DCF's own bull scenario, before weighting in the four-quarter EPS-miss streak. **Bear-case estimate: MS's own DCF range ($18.5-27.4/sh) remains the operative downside reference.**
-
-### 10. Recommended play
-**WAIT — functionally a HARD PASS per rule 5, unchanged.** Not a holding, still rule-6 unstarted on the risk side. Price sits within $0.70 of its 52-week high, 1 day before a binary print against an unresolved four-quarter EPS-miss streak. No pre-earnings entry recommended; per rule 5 this stays blocked regardless of how tomorrow's print lands, absent a fresh DCF revision from MS.
-
----
-
-# 🆕 AVGO — Broadcom Inc.
 **Reports: Wednesday, September 2, 2026, after market close. Call 2:00pm PT / 5:00pm ET. Covers fiscal Q3 2026 (quarter ended ~August 2026).**
-**Status in book: NOT a holding. GS screener rank #5 (capped out of JPM briefs for seven prior cycles by the max-3/nearest-first rule; now enters as FRO's window is about to close). MS's DCF on file is a hard pass (~30.4% downside at base case, per GS's report).**
+**Status in book: NOT a holding. GS screener rank #6 (per 8/27 report). MS's DCF on file remains a hard pass (~30.4% downside at base case). Rule 6 cross-vetting (BW risk read) never started.**
 
 ## Decision summary
-**WAIT — 6 days from the print, price down modestly today, valuation the swing factor.** AVGO trades **$353.72** today (-0.85%), well below the ~$410-427 and ~$356-357 conflicting reads GS flagged in its own WebSearch pulls yesterday and today — treating $353.72 as this run's best available figure but flagging that AVGO has now shown same-day pricing conflicts across two consecutive desks' pulls (this desk's and GS's), consistent with the team's broader same-day WebSearch data-quality pattern seen this week on OMCL/CRWD/FRO. Rule 6 cross-vetting (BW risk read) has never started for this name.
+**WAIT — 5 days from the print, price extending higher into the event, valuation gate unchanged.** AVGO's WebSearch-sourced price this run is noisy again — one pull returns $371.54 (+4.49%), another shows an intraday range of $410.76–427.58 that is almost certainly a stale/mismatched data point (inconsistent with every other pull this week, including yesterday's $353.72 read and today's $359–367 range cited for 8/27), a third-party aggregator's $363.87. **Treating ~$363–372 as the best-estimate range today, up roughly 3–5% from yesterday's $353.72** — a genuine move, not just noise, and one that extends the stock further from any entry zone rather than toward one. This is now the third consecutive cycle this desk (and GS independently) has flagged AVGO-specific WebSearch price data as unreliable; the trader should treat any AVGO figure from this brief as directional only until Robinhood-verified.
 
 ### 1. Last 4 quarters vs. estimates
+Unchanged from last run — no new quarter has reported since:
 | Quarter | Report date | Revenue (actual vs. est.) | Beat | Non-GAAP EPS (actual vs. est.) | Beat |
 |---|---|---|---|---|---|
 | Q2 FY2026 | 2026-06-03 | $22.19B vs. $22.12B (+48% YoY) | +0.3% | $2.44 vs. $2.40 | +1.8% |
-| Q1 FY2026 | ~March 2026 | Not resolved this pull (guided ~$19.1B) | — | $2.17 vs. $2.02 | +7.4% |
+| Q1 FY2026 | ~March 2026 | Not resolved (guided ~$19.1B) | — | $2.17 vs. $2.02 | +7.4% |
 | Q4 FY2025 | 2025-12-11 | $18.0B vs. ~$17.4-17.5B (+28% YoY) | +2.9-3.4% | $1.95 adj. vs. $1.87 | +4.3% |
 | Q3 FY2025 | 2025-09-04 | $15.95B vs. $15.82B (+22% YoY) | +0.8% | $1.69 vs. $1.66 | +1.6% |
 
-**Eight straight quarters of EPS beats** per one source (a streak this desk did not independently re-verify past the four shown). **Stock-reaction data for the Q2 FY2026 print (6/3/26) is internally contradictory across sources this run** — one figure says the stock declined ~0.7% at the print, another says it "sank more than 12% the day after" — flagging rather than resolving; this is exactly the kind of same-ticker WebSearch conflict GS has been surfacing all week and this desk cannot adjudicate it from search alone.
+Stock-reaction data for the Q2 FY2026 print remains internally contradictory across sources (one figure: ~-0.7% at print; another: "sank more than 12% the day after") — still not resolved, carried forward as an open data-quality flag.
 
 ### 2. Consensus + guidance for the upcoming quarter (fiscal Q3 2026, reports 9/2)
-- **Street consensus:** Revenue ~$29.4-29.44B (+84-85% YoY per GS's prior figure); Non-GAAP EPS ~$3.24 (one source); a separate source cites GAAP EPS ~$2.55 — likely two different bases (GAAP vs. non-GAAP), not a conflict, but flagging the pairing rather than picking one without a clean like-for-like source.
-- **AI semiconductor revenue guide:** >$16B, >200% YoY, more than half of total quarterly revenue.
-- **Infrastructure software (VMware) revenue guide:** ~$8.9B, ~31% YoY, driven by VMware Cloud Foundation and the subscription-based private-cloud shift.
-- **Backlog visibility:** Q2 AI bookings exceeded $30B against $10.8B actually shipped — a large forward backlog extending visibility through fiscal 2028, per sources reviewed.
+- **Street consensus (this run's freshest pull):** EPS ~$3.22-3.24, revenue ~$29.47B (+84-85% YoY) — consistent with last run's figures, drifted marginally (was $3.24/$29.4-29.44B).
+- **AI semiconductor revenue guide:** >$16B, >200% YoY, more than half of total quarterly revenue — unchanged.
+- **Infrastructure software (VMware) revenue guide:** ~$8.9B, ~31% YoY — unchanged.
 
 ### 3. Key metrics to watch this print
-- **AI semiconductor revenue vs. the $16B guide** — the single biggest swing line, and the metric MS's DCF hinges most heavily on per GS's characterization of the ~30.4% downside call.
-- **Custom Silicon / ASIC revenue trajectory** — one bull-case source (Cantor) models $25-30B in 2026 scaling to $40B+ in 2027; watch for confirming or disconfirming commentary.
-- **VMware/Infrastructure software subscription conversion** — durability of the ~31% YoY growth line.
-- **Net debt (~$45.28B per GS) and any update on the reported $60B+ new AI-financing talks** — a leverage/financing-structure watch item analogous to NVDA's OpenAI-financing scrutiny.
-- **Gross/operating margin trend** — one preview source explicitly frames "continued margin contraction" as its central thesis; watch whether this shows up in the actual print.
+Unchanged from last brief: AI semiconductor revenue vs. the >$16B guide (the swing line MS's DCF hinges on most); Custom Silicon/ASIC trajectory (Cantor's $25-30B 2026 → $40B+ 2027 model); VMware subscription-conversion durability; net debt (~$45.28B) and the reported $60B+ new AI-financing talks; margin trend (one preview source's "continued margin contraction" thesis).
 
 ### 4. Segment-by-segment breakdown and trends
-Two reporting segments: Semiconductor Solutions (incl. AI) and Infrastructure Software (VMware).
-- **Q3 FY2025:** Semiconductor Solutions $9.17B (+57% YoY), AI revenue within it $5.2B (+63% YoY, beat the company's own $5.1B prior guide).
-- **Q2 FY2026 guide-into-actual:** AI semiconductor revenue trend continuing to accelerate toward the >$16B Q3 guide, more than triple the Q3 FY2025 AI figure in roughly a year — the growth-rate deceleration/acceleration debate is the crux of the bull/bear split below.
+Unchanged: two segments (Semiconductor Solutions incl. AI, Infrastructure Software/VMware). Q3 FY2025 AI revenue was $5.2B (+63% YoY); the >$16B Q3 FY2026 guide implies roughly tripling that figure in a year — the crux of the bull/bear split remains whether that pace is sustainable or already priced.
 
 ### 5. Management guidance from the last call (Q2 FY2026, 6/3/26)
-Q3 FY2026 revenue guided ~$29.4B (source-consistent with Street consensus); AI semiconductor revenue guided >$16B; infrastructure software guided ~$8.9B. No contradicting guidance figure found this run.
+Unchanged: Q3 FY2026 revenue guided ~$29.4B, AI semiconductor revenue guided >$16B, infrastructure software guided ~$8.9B.
 
 ### 6. Options market implied move
-**Conflicting sourcing this run: figures ranged 7.3% to 9.2%** across different pulls (one source explicitly gave both 7.3% and 9.0% in adjacent sentences) — flagging the spread rather than picking a single number. One source frames the higher end as implying a ~$443-533 post-earnings price range and a ~$210B market-value swing.
+**Fresh figures this run, still a wide spread: 7.3% (Investing.com), 12.4% (a separate pull, "regardless of direction," explicitly compared to AVGO's own 10.8% average reaction over the last 8 quarters).** Last run carried a 7.3-9.2% range; today's pulls widen that spread further (7.3% low end holds, but the high end moved from 9.2% to 12.4% depending on source/methodology). Treating 7-12% as the operative implied-move band — wide enough that this desk will not present a single point estimate as reliable. Historical context: AVGO's actual move exceeded the implied move in 3 of the last 8 prints, including an 11.5% move on 9/4/25 vs. a 6.9% implied move, and a 31.8% move on 12/12/24 vs. a 6.1% implied move — this name has a real history of blowing through its own options-implied range.
 
 ### 7. Historical stock price reaction after the last 5 reports
+Unchanged from last brief — still the least reliable dataset on this desk's sheet, flagged again rather than re-asserted with false precision:
 | Report date | Quarter | Reaction vs. implied move |
 |---|---|---|
-| 2026-06-03 | Q2 FY2026 | **Conflicting sources** — see §1 flag above; not resolved |
-| 2025-09-04 | Q3 FY2025 | Sources disagree: one cites +4.6% (extended trading, on a new $10B custom-chip order), another cites 11.5% vs. a 6.9% implied move — flagging both rather than picking one |
-| 2025-12-11 | Q4 FY2025 | Reaction magnitude not re-sourced this run |
-| ~March 2026 | Q1 FY2026 | Reaction magnitude not re-sourced this run |
-| 2025-05-xx | Q2 FY2025 | Reaction magnitude not re-sourced this run |
-
-**This name's historical-reaction data is the least reliable on this desk's current sheet** — worth a fresh, more targeted pull before any future sizing decision, not just before the print.
+| 2026-06-03 | Q2 FY2026 | Conflicting sources — unresolved |
+| 2025-09-04 | Q3 FY2025 | 11.5% actual vs. 6.9% implied (one source); a separate source cites +4.6% extended-hours on a new $10B custom-chip order — not reconciled |
+| 2025-12-11 | Q4 FY2025 | Not re-sourced |
+| ~March 2026 | Q1 FY2026 | Not re-sourced |
+| 2025-05-xx | Q2 FY2025 | Not re-sourced |
 
 ### 8. Bull case
-Consensus rating "Strong Buy" (49 analysts per one source); average 1-year price target **$525.97** (+47.9% from today) — but with wide dispersion (low $215.88, high $675), a spread this desk flags as unusually large rather than citing the average as a tight consensus. Cantor Fitzgerald (Overweight, PT raised to $350 from $300) models Custom Silicon revenue reaching $25-30B in 2026 and $40B+ in 2027, implying EPS of ~$10 (2026) / ~$13 (2027). **Bull-case estimate: a clean beat-and-raise on the AI semiconductor line, ideally with fresh hyperscaler-customer-count disclosure, could support a move toward the $400-455 target cluster (BMO $455 per GS's prior report, Cantor $350, RBC $400).**
+Unchanged framing: "Strong Buy" consensus (49 analysts), average 1-year target ~$525.97 (wide dispersion, low $215.88/high $675). Cantor Fitzgerald (Overweight, $350 PT) models Custom Silicon at $25-30B (2026) → $40B+ (2027). **Bull-case estimate: a clean beat-and-raise on the AI semiconductor line could support a push toward the $400-455 cluster (BMO $455, Cantor $350, RBC $400)** — note the stock, at today's ~$363-372 estimate, has already moved partway into that range pre-print, narrowing the bull case's remaining upside somewhat versus where it stood a day ago.
 
 ### 9. Bear case
-**MS's own cross-vetted DCF is the operative bear case: base case ~$252.6/sh, ~30.4% downside from current levels** (per GS's characterization of MS's build) — a conservative free-cash-flow read that does not clear despite the AI-semiconductor growth story. RBC (Sector Perform, $400 PT) represents the more moderate Street-side caution; one preview source frames "continued margin contraction" as an independent risk. Net debt (~$45.28B) plus reported new $60B+ AI-financing talks add a leverage dimension not yet stress-tested by any desk on this team. **Bear-case estimate: MS's ~$252.6 base case remains the widest, most credible downside reference on file — a ~30% gap that a beat-and-raise alone may not close if margin-contraction concerns materialize alongside it.**
+**MS's cross-vetted DCF remains the operative bear case: base case ~$252.6/sh, now roughly 30-32% downside from today's ~$363-372 estimate** (the gap widened slightly as the stock rallied into the print since yesterday's $353.72 read). RBC's $400 Sector Perform PT and the "continued margin contraction" thesis flagged by one preview source stand unchanged. Net debt (~$45.28B) plus the reported $60B+ AI-financing talks remain a leverage dimension no desk has stress-tested yet.
 
 ### 10. Recommended play
-**WAIT.** Not a holding, rule 6 cross-vetting (BW risk read) never started, and MS's existing DCF is a standing hard pass under rule 5 — a beat-and-raise print six days out doesn't change either gate on its own. Price data this run is noisier than usual for this name (conflicting current-price and historical-reaction sourcing across two consecutive desks); this desk recommends the team lean on Robinhood-verified or a fresh single-source pull before citing any AVGO figure precisely. Revisit next cycle as the print approaches; full cross-vetting request stands as an open ask to BW.
+**WAIT — reaffirmed, unchanged from last run.** Not a holding, rule 6 cross-vetting (BW risk read) still never started, MS's existing DCF is a standing hard pass under rule 5, and the stock has moved further away from any entry zone (up ~3-5% since yesterday) rather than toward one — the opposite of a pullback per rule 2. A beat-and-raise 5 days out doesn't change either gate on its own, and buying into a rallying, unvetted name ahead of a binary print would violate both rule 2 (don't chase) and rule 6 (no sizing without cross-vetting) simultaneously. This desk repeats its standing ask: AVGO's price data has now been unreliable via WebSearch for three straight cycles — a Robinhood-verified quote should gate any future sizing discussion on this name, not a WebSearch pull.
 
 ---
 
 ## Bottom line for this run
-**The headline item is NVDA's print, and it resolved cleanly in the thesis's favor.** Revenue $96.2B (+4.5% beat), EPS $2.22 (+6.3% beat), Data Center accelerating to +117% YoY, FY28 guide of ~70% revenue growth, stock +4.7% after-hours extending to +6% premarket — the first clean beat-and-pop reaction in five prints, and every one of rule 15's five explicit trim/revisit triggers checked negative. **This desk's recommendation: no trim, no add, hold as-is** — the print is a positive fundamental data point, not merely a risk dodged. **CRWD also beat and raised (+11% after-hours)**, resolving its CTO-departure overhang for now, but remains unheld and rule-6-blocked; its pre-print pullback entry window is gone. **FRO reports tomorrow (8/28)** — still a functional hard pass per rule 5, price at $44.45 with no discount to consensus targets under any framing. **AVGO now enters coverage (9/2, 6 days out)** — still rule-6-unstarted, MS's ~30.4%-downside DCF still governs, and this desk is flagging AVGO specifically as having the noisiest WebSearch data of any name on the sheet this week (current price, EPS basis, implied move, and historical reactions all showed internal conflicts this run) — a fresh, careful re-pull is warranted before the 9/2 print rather than trusting any single figure above.
+**FRO reported and beat on EPS (+8%, $2.96 vs. ~$2.74), with a still-unresolved revenue-figure conflict across sources and a modest (~6%) stock reaction against an already-near-52-week-high price.** The print doesn't change the standing call: MS's DCF hard pass ($18.5-27.4/sh vs. today's ~$43.75-44.50) governs under rule 5, and rule 6 has never started — **WAIT/hard pass, unchanged, this coverage window now closed.** **AVGO enters its final week before the 9/2 print, now 5 days out, with the stock extending higher (~$353.72 → ~$363-372 estimate, +3-5%) rather than pulling back** — moving further from, not toward, any defensible entry, while MS's ~30%+-downside DCF hard pass and the never-started rule-6 gate both remain fully intact. **No action recommended on either name.** AVGO's WebSearch price/reaction data remains the noisiest on this desk's sheet for a third consecutive cycle — flagging again for the team, not re-escalating past that.
 
 Sources:
-- [NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 (GlobeNewswire)](https://www.globenewswire.com/news-release/2026/08/26/3351702/0/en/nvidia-announces-financial-results-for-second-quarter-fiscal-2027.html)
-- [NVIDIA CORP - Form 8-K - FY2026 (SEC)](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm)
-- [Nvidia (NVDA) Q2 2027 earnings report: Live updates (CNBC)](https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html)
-- [Nvidia jumps 6% in premarket trading after blockbuster earnings (CNBC)](https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html)
-- [Nvidia Earnings: Live Updates and Commentary August 2026 (Kiplinger)](https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026)
-- [Nvidia Stock Could Swing 7% after August 26 Earnings (TipRanks)](https://www.tipranks.com/news/3704649-2)
-- [Nvidia's credit default swaps surpass July peak (Seeking Alpha)](https://seekingalpha.com/news/4634471-nvidias-credit-default-swaps-surpass-july-peak)
-- [Nvidia Credit Risk Rises Near Record as AI Financing Fuels New Market (HokaNews)](https://www.hokanews.com/2026/08/nvidia-credit-risk-rises-near-record-as.html)
-- [CrowdStrike (CRWD) earnings Q2 2027 (CNBC)](https://www.cnbc.com/2026/08/26/crowdstrike-crwd-earnings-q2-2027.html)
-- [Frontline (FRO) Earnings Date & Report (Investing.com)](https://www.investing.com/equities/frontline-ltd-earnings)
-- [FRO – Invitation to Q2 2026 Results Conference Call and Webcast (GlobeNewswire)](https://www.globenewswire.com/news-release/2026/08/21/3349093/0/en/fro-invitation-to-q2-2026-results-conference-call-and-webcast.html)
+- [FRO – Second Quarter and Six Months 2026 Results (GlobeNewswire)](https://www.globenewswire.com/news-release/2026/08/28/3352492/0/en/fro-second-quarter-and-six-months-2026-results.html)
+- [FRO – Q2 2026 Presentation (GlobeNewswire)](https://www.globenewswire.com/news-release/2026/08/28/3352667/0/en/fro-q2-2026-presentation.html)
+- [FRO - Q2 2026 Presentation (Manila Times / GlobeNewswire syndication)](https://www.manilatimes.net/2026/08/28/tmt-newswire/globenewswire/fro-q2-2026-presentation/2414121)
+- [Frontline (FRO) Q2 2026 - Shipping News (Motley Fool Community)](https://discussion.fool.com/t/frontline-fro-q2-2026/126181)
 - [Frontline (FRO) Stock Price & Overview (StockAnalysis.com)](https://stockanalysis.com/stocks/fro/)
-- [Broadcom Inc. to Announce Third Quarter Fiscal Year 2026 Financial Results on Wednesday, September 2, 2026 (Yahoo Finance)](https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-announce-third-quarter-120000388.html)
-- [Will Broadcom Stock (AVGO) Move Higher on Q3 Earnings? (TipRanks)](https://www.tipranks.com/news/will-broadcom-stock-avgo-move-higher-on-q3-earnings-heres-what-wall-street-expects)
-- [Broadcom options imply 9.0% move in share price post-earnings (TipRanks/The Fly)](https://www.tipranks.com/news/the-fly/broadcom-options-imply-9-0-move-in-share-price-post-earnings-thefly-news)
-- [History Says This Is What Will Happen to Broadcom Stock After Sept. 2 (Motley Fool)](https://www.fool.com/investing/2026/08/27/history-says-this-is-what-will-happen-to-broadcom/)
-- [Broadcom Inc. Announces Fourth Quarter and Fiscal Year 2025 Financial Results (Broadcom IR)](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025)
-- [Broadcom (AVGO) Q3 2025 earnings report (CNBC)](https://www.cnbc.com/2025/09/04/broadcom-avgo-q3-2025-earnings-report.html)
-- [Broadcom (AVGO) Stock Forecast & Analyst Price Targets (StockAnalysis.com)](https://stockanalysis.com/stocks/avgo/forecast/)
-- [Broadcom stock (AVGO) remains a top pick, lifts price target to $350 (TipRanks)](https://www.tipranks.com/news/broadcom-stock-avgo-remains-a-top-pick-says-5-star-analyst-lifts-price-target-to-350)
-- [GE HealthCare next earnings date (multiple sources, consensus 10/28/2026)](https://www.nasdaq.com/market-activity/stocks/gehc/earnings)
-- Internal: trading-experiment/state.md (holdings, standing rules, NVDA earnings contingency plan/rule 15), analysts/gs-stock-screener.md (2026-08-26 afternoon, screener rankings).
+- [FRO Stock Quote Price and Forecast (CNN)](https://www.cnn.com/markets/stocks/FRO)
+- [Frontline plc (FRO) Stock Price, News, Quote & History (Yahoo Finance)](https://finance.yahoo.com/quote/FRO/)
+- [AVGO: Broadcom Inc - Stock Price, Quote and News (CNBC)](https://www.cnbc.com/quotes/AVGO)
+- [Broadcom Inc. (AVGO) Stock Price, News, Quote & History (Yahoo Finance)](https://finance.yahoo.com/quote/AVGO/)
+- [Broadcom (AVGO) Stock Price & Overview (StockAnalysis.com)](https://stockanalysis.com/stocks/avgo/)
+- [AVGO Stock Quote Price (Morningstar)](https://www.morningstar.com/stocks/xnas/avgo/quote)
+- [Broadcom options signal 7.3% move on Sept. 2 earnings report (Investing.com)](https://uk.investing.com/news/stock-market-news/broadcom-options-signal-73-move-on-sept-2-earnings-report-93CH-4848204)
+- [Broadcom Stock Making Moves Ahead of Earnings (Schaeffer's Investment Research)](https://www.schaeffersresearch.com/content/analysis/2026/08/27/broadcom-stock-making-moves-ahead-of-earnings)
+- [AVGO Earnings: Implied Moves and IV Crush (Market Chameleon)](https://marketchameleon.com/Overview/AVGO/Earnings/Earnings-Charts/)
+- Internal: trading-experiment/state.md (holdings, standing rules), analysts/gs-stock-screener.md (2026-08-27 ~15:41 ET, screener rankings).

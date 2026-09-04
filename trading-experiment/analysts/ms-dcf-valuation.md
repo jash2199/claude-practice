@@ -1,7 +1,7 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
-**Date: 2026-09-03 (Thursday) ~10:15 ET — price-roll update on five holdings; AVGO's Q3 FY26 print (reported last night) processed against the unchanged 8/21 model. No full rebuild triggered on any name.**
+**Date: 2026-09-04 (Friday) ~14:20 ET — first-ever IONQ DCF build (resolves the book's most chronic process gap, now GS's #1 pick), plus price-roll updates on all six holdings including GEHC's first full-holding treatment.**
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE — all five current holdings — plus (6) AVGO, still GS's #1 pick per its 2026-09-03 report (unchanged rank from 9/2, now post-earnings). Holding prices are taken from state.md's freshest Robinhood-verified snapshot, the trader's own 2026-09-03 ~09:37 ET run: NVDA $226.10, VTI $378.99, VXUS $87.435, OMCL $35.365, XLE $65.155. Per rule 4, this desk treats that live-verified figure as authoritative over WebSearch for held names. AVGO and GEHC are not held, so no live Robinhood quote exists for them independently — this desk uses state.md's own live-verified read where the trader logged it this morning (AVGO $346.84, GEHC $70.66) since that is fresher and more reliable than a fragmented WebSearch pull on AVGO the morning after a volatile print. CVX and Brent are fresh WebSearch this run, continuing the standing XLE composite reassessment.*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — all six current holdings per state.md's 2026-09-04 ~09:37 ET live Robinhood snapshot (NVDA $233.10, VTI $380.535, VXUS $88.04, OMCL $34.37, XLE $63.77, GEHC $68.96) — plus (7) IONQ, GS's new #1 pick as of its 2026-09-04 ~09:41 ET report (moved up from an unranked/lower slot; GS's own framing: "a screening-priority change, not a valuation change," reflecting the 9/8 Investor Day 4 days out, not fresh conviction). Per rule 4, live Robinhood-verified prices from state.md take precedence over WebSearch for every name. IONQ's price is state.md's own live-verified read ($39.185, +0.42% vs. prior close) — GS's fresh WebSearch pull this morning ($37.87) is treated as the less reliable figure and discarded, consistent with the standing sourcing discipline this desk and GS have both applied to AVGO/GEHC/OXY/FRO all week.*
 
 ---
 
@@ -9,134 +9,171 @@
 
 | Ticker | Current Price | DCF Fair Value (base case) | Verdict |
 |---|---|---|---|
-| **NVDA** | $226.10 (state.md, 9/3 ~09:37 ET, +0.75% vs. 9/2 close) | **~$206.2** (WACC 11%, g 3% — model unchanged since 8/27) | **MILDLY OVERVALUED — ~8.8% downside to base case**, wider than 9/2's ~6.0% gap as the rally continues. Bull case ($235.5) sits ~4.2% above today's price — the gap to even the bull case is closing. |
-| **OMCL** | $35.365 (state.md, +1.89%) | ~$53.89 (WACC 9%, g 3%, unchanged since 7/30) | **UNDERVALUED — ~52.4% upside to DCF fair value.** Discount narrowed from 9/2's ~55.4% on today's broad gain — still the widest mispricing on the book by a wide margin. |
-| **VTI** | $378.99 (+0.56%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
-| **VXUS** | $87.435 (+0.32%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
-| **XLE** | $65.155 (state.md, +0.08%) | Composite (oil-adjusted) fair value ≈ **$53.3/sh** (refreshed this run, roughly flat vs. 9/2's $53.0) | **OVERVALUED, gap ≈ -18.1%** (essentially flat vs. 9/2's -18.2% — a quiet day on both legs of the composite). **Do not add.** |
-| **AVGO** *(not held — GS #1 pick, unchanged rank)* | $346.84 (state.md, 9/3 ~09:37 ET, -5.55% vs. 9/2's $367.24 close — post-earnings selloff) | ~$252.6 (WACC 10%, g 3%, unchanged since 8/21) | **SHARPLY OVERVALUED — ~27.2% downside to base case**, narrower than 9/2's ~31.2% purely because the post-print drop moved price toward this desk's number, not because the model moved. **Rule 6 still not open — 13+ cycles, no BW risk read. Not buyable regardless of last night's print or today's drop.** |
+| **IONQ** *(not held — GS's new #1 pick, first-ever DCF build)* | $39.185 (state.md, 9/4 ~09:37 ET, live Robinhood) | **~$6.50** (WACC 13%, g 3% — extended 10-yr build, see §0) | **SHARPLY OVERVALUED — ~83% downside to base case. Hard pass**, joining MU/FRO/AVGO as a DCF-driven veto. Even the bull scenario (~$12.50) implies ~68% downside. |
+| **NVDA** | $233.10 (state.md, +2.04%) | **~$206.2** (WACC 11%, g 3% — model unchanged since 8/27) | **MILDLY OVERVALUED — ~11.5% downside to base case**, wider than 9/3's ~8.8%. Price ($233.10) is now within ~1.0% of the bull case ($235.5) — the gap to even this desk's most generous scenario has nearly closed. |
+| **OMCL** | $34.37 (state.md, -1.29%) | ~$53.89 (WACC 9%, g 3%, unchanged since 7/30) | **UNDERVALUED — ~56.8% upside to DCF fair value**, widened from 9/3's ~52.4% on today's pullback. Still the widest mispricing on the book by a wide margin. |
+| **VTI** | $380.535 (-0.10%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
+| **VXUS** | $88.04 (+0.08%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
+| **XLE** | $63.77 (-1.32%) | Composite (oil-adjusted) fair value ≈ **$53.2/sh** (refreshed this run, essentially flat vs. 9/3's $53.3) | **OVERVALUED, gap ≈ -16.4%**, narrowed from 9/3's -18.1% purely on today's price pullback (CVX ~$205-211, Brent ~$95.2-96.9, both essentially flat/quiet vs. 9/3 — no anchor revision). **Do not add.** |
+| **GEHC** *(now a holding — first full-holding treatment since the 9/3 entry)* | $68.96 (-1.09% vs. 9/3 close, +0.39% vs. $68.69 entry cost) | ~$70.2 (WACC 8.5%, g 3%, unchanged since 8/21) | **MILDLY UNDERVALUED — ~1.8% upside to base case.** First time this desk has read GEHC below its own fair value since coverage began — a genuine (if small) flip from the mild-overvaluation read that stood through the entire entry-trigger saga. |
 
-**Bottom line for the trader:** The dominant news item this cycle is confirmation, not rumor — Nvidia's Hugging Face acquisition (~$12.93B all-cash, signed 9/2, SEC 8-K filed, closing expected H1 2027) is now a completed deal per Nvidia's own 9/3 announcement and multi-source coverage (Bloomberg, TechCrunch, CNBC), not the "advanced discussions" framing this desk and the trader carried as recently as this morning. Quantitatively this changes nothing in the NVDA model: $12.93B against a market cap north of $5.4T is roughly a quarter of one percent of enterprise value — immaterial to a 5-year DCF regardless of how strategically significant the tooling-platform consolidation may be. NVDA's gap actually widened today, to -8.8%, purely on the rally continuing with the model unchanged. AVGO delivered the third consecutive "beat and sell off anyway" print in JPM's tracked pattern — a genuine beat on every headline line (revenue $29.59B +86% YoY, EPS $3.32, AI-ASIC $16.7B +221% YoY) against a Q4 guide ($34.8B) that undershot the Street's ~$35.05B ask, and the stock dropped ~5.5-6%. This desk's 8/21 base case ($252.6) held up without needing revision through an actual print rather than an estimate — the drop closed part of the gap (to ~27.2% from ~31.2%) but AVGO remains sharply overvalued on this desk's numbers and is independently blocked by rule 6 regardless. OMCL's discount narrowed on today's broad-market gain but remains the cheapest name on the book by a wide margin. XLE had a genuinely quiet day on both legs of its composite — CVX +0.65%, Brent flat near $95, no anchor revision. Nothing here crosses a pre-committed threshold.
+**Bottom line for the trader:** The headline item this cycle is process, not price action — this desk is finally closing the single most chronic gap in the book's history (6+ weeks, longer than GEHC's gate ever ran) with a first-ever IONQ DCF, delivered the same week GS moved it to #1 ahead of the 9/8 Investor Day. The verdict is an unambiguous hard pass: on a conservative-but-not-punitive extended build, IONQ's operating business is worth close to nothing on discounted cash flows today — essentially all of its ~$15.9B market cap is optionality on a commercialization path this model cannot see within any reasonable explicit window, not cash flow the model can price. This is not a claim the technology bet is wrong; it is a claim that a DCF is the wrong tool to underwrite it, which is exactly the disclosure rule 6 exists to force before any capital moves. Separately: NVDA's rally has pushed price to within ~1% of this desk's own bull case for the first time — worth flagging even though the model itself is unchanged and no rebuild is triggered. GEHC has quietly flipped to mildly undervalued, the first time that's happened since this desk started covering it back in August — small, but notable given the entire entry saga played out with the stock at or above this desk's fair-value line. OMCL's discount widened back out on today's pullback, still the cheapest name on the book. XLE's overvaluation gap narrowed on a weaker tape for the ETF itself, not a fresh oil-anchor read (today was another quiet day for both CVX and Brent). Nothing here crosses a pre-committed action threshold on its own — these are valuation reads, not trade signals.
 
 ---
 
-## 1. NVIDIA (NVDA) — price-roll update, model unchanged, Hugging Face deal moves from rumor to signed fact
+## 0. IonQ (IONQ) — first-ever DCF build, closing the book's most chronic process gap
 
-### What changed since 9/2
-Price $226.10 (state.md, 9/3 09:37 ET), +0.75% vs. yesterday's close, continuing the same broad chip/AI-capex-complex rally this desk has tracked all week. The substantive news is the Hugging Face deal itself: fresh WebSearch this run (Bloomberg, TechCrunch, CNBC, all dated 9/3) confirms Nvidia signed a definitive ~$12.93B all-cash agreement on 9/2, filed an SEC 8-K the same day, and expects to close H1 2027 — Jensen Huang's own blog post is on record. This corrects the "advanced discussions, no final agreement" framing GS flagged as stale in the trader's own 9/3 09:37 ET run notes. The 8/27 full rebuild (Q2 FY27 actuals, Q3 guide, first-ever FY28 70% growth guide) remains unchanged in every input — the deal is real and strategically relevant (AI-tooling/open-source platform consolidation, per Huang's own framing) but is two orders of magnitude too small relative to NVDA's revenue base and market cap to move a 5-year FCF projection or a WACC/terminal-growth assumption. Retiring BW's carried tail-risk scenario ("the deal falls through, NVDA gives back the gain") from this desk's own assumption list as moot, per GS's same recommendation.
+### Why this build, why now
+GS's 2026-09-04 ~09:41 ET report moved IONQ to #1 on its sheet, explicitly and honestly framed as a screening-priority change (4 trading days to the 9/8/26 Investor Day, a scheduled, dated catalyst) rather than a fresh valuation call — GS itself has no DCF or risk read to lean on and says so. This desk has never opened an IONQ model despite repeated GS asks stretching back 6+ weeks, longer than GEHC's rule-6 gate ever ran before it fired. Per this desk's own mandate (value the current #1 pick every run) and the team's standing complaint about this exact gap, this is that build.
 
-### Fair value and verdict (model unchanged, gap recomputed vs. today's price)
-| Scenario | Fair value/share | vs. $226.10 live price |
+### The core valuation problem: a hyper-growth, deeply cash-negative business with no near-term path to FCF breakeven
+IonQ is not a mature, cash-generative company — it is a pre-commercial-scale quantum computing hardware/software provider that just closed a $1.8B all-stock acquisition (SkyWater, closed 7/31/26) to build out semiconductor-based manufacturing capacity. The financial profile:
+- **Q2 2026 revenue**: $80.1M (+287% YoY), full-year 2026 guidance raised to **$280-290M** (company's own 8-K/press release, corroborated by Quantum Computing Report's independent coverage). **Data-quality flag**: a separate WebSearch pull this run surfaced a conflicting $260-270M full-year figure attached to a reiterated "$(310)-$(330)M adjusted EBITDA loss" guide — that figure traces to pre-Q2-raise commentary recirculating under a current date, the same stale-recirculation failure mode rule 4 has caught repeatedly this month (the 8/27 CDS and 8/28 OpenAI examples already on file). This desk uses the higher, company-sourced $280-290M figure as primary (midpoint $285M) since it is the more authoritative and more recent source, but is flagging the conflict for the team rather than silently picking a side.
+- **Cash burn**: Q2 GAAP operating loss $337.2M on $80.1M revenue; net cash used in operating activities **$254.8M in H1 2026 alone** (~$510M annualized run-rate). This is the honest cash-burn figure this model uses — it is materially worse than the adjusted-EBITDA-loss guide because it captures real working-capital and cash effects the adjusted metric excludes.
+- **Balance sheet strength**: cash + investments **$2.96B** as of 6/30/26 (pre-dating the 7/31 SkyWater close, so this figure may not fully reflect deal-related cash use — a genuine data gap this desk is flagging rather than papering over). This is the one clearly strong input: at the current burn rate, IonQ is not at any near-term insolvency or dilution-crisis risk.
+- **Shares outstanding**: ~405M as of late August 2026 (up from ~367.7M diluted average just one quarter earlier — meaningful, ongoing dilution, itself a structural headwind to per-share value not fully captured in the cash-flow build below).
+
+### Build methodology — why this is a 10-year, not 5-year, explicit window
+IonQ's own guidance shows no path to EBITDA breakeven inside a standard 5-year DCF window. Forcing a 5-year explicit period onto a company that is still burning >100% of revenue in operating losses would produce a terminal-value calculation on a deeply negative Year-5 FCF number — mechanically invalid (Gordon growth requires a stabilized, typically positive, terminal cash flow). This desk instead built a two-stage, 10-year extended model: Stage 1 (FY26-30) uses the company's own near-term growth/burn trajectory; Stage 2 (FY31-35) fades growth toward a terminal rate and margin toward a mature, semiconductor/specialty-hardware-like terminal FCF margin, consistent with how this desk would treat any pre-profit growth name once its business model is at least directionally legible. **The need for a 10-year build itself is a valuation red flag, not a technical footnote** — a DCF this dependent on assumptions 8-10 years out is inherently fragile, and this desk is flagging that fragility explicitly rather than dressing the model up as more precise than it is.
+
+**Revenue path** (FY26 base $285M, growth decelerating from the current 100%+ pace):
+| FY26 | FY27 | FY28 | FY29 | FY30 | FY31 | FY32 | FY33 | FY34 | FY35 |
+|---|---|---|---|---|---|---|---|---|---|
+| $285M | $485M (+70%) | $728M (+50%) | $1,020M (+40%) | $1,326M (+30%) | $1,591M (+20%) | $1,830M (+15%) | $2,013M (+10%) | $2,154M (+7%) | $2,262M (+5%) |
+
+**FCF margin path** (from today's ~-179% of revenue toward a 15% terminal margin, breakeven landing in FY32/33 — beyond the standard explicit window, which is the point):
+-175% → -110% → -70% → -40% → -20% → -5% → +5% → +10% → +13% → +15% (terminal)
+
+### Fair value and verdict
+| Scenario | Fair value/share | vs. $39.185 live price |
 |---|---|---|
-| Bear (guide disappoints, WACC 12%, g 2%) | $124.3 | **-45.0% (sharply overvalued)** |
-| Base (partial credit, WACC 11%, g 3%) | **$206.2** | **-8.8% (mildly overvalued)** |
-| Bull (full credit to mgmt's own guide, WACC 11%, g 3%) | $235.5 | **+4.2% (mildly undervalued)** |
+| Bear (perpetual burn, no sustained breakeven within the model horizon — effectively a cash-floor-only valuation) | ~$3.50 | **-91% (sharply overvalued)** |
+| **Base (breakeven ~FY32-33, 15% terminal margin, WACC 13%, g 3%)** | **~$6.50** | **-83% (sharply overvalued)** |
+| Bull (breakeven ~FY31, 20% terminal margin, WACC 11%, g 3% — de-risked scenario) | ~$12.50 | **-68% (sharply overvalued)** |
 
-The base-case gap widened from 9/2's -6.0% to today's -8.8% — model unchanged, entirely a price move. Notably, today's price has drifted close enough to the bull case that only a ~4.2% further rally would put NVDA above even this desk's most generous credible scenario — worth flagging as the gap compresses toward the top of the model's own range.
+**Sensitivity table (base-case cash-flow path, $/share, varying WACC and terminal growth):**
+| WACC \\ Terminal g | 2% | 3% | 4% |
+|---|---|---|---|
+| 11% | $7.3 | $7.7 | $8.1 |
+| **13% (base)** | $6.3 | **$6.5** | $6.9 |
+| 15% | $5.6 | $5.9 | $6.2 |
 
-### CDS/credit check — still unresolved, now a sixth consecutive cycle
-No dated print for late August/September on NVDA's CDS beyond the same July 27 record (82bps) already digested five cycles running. Repeating the standing recommendation: hand this to the trader's own live monitoring rather than re-flag with no new information every cycle.
+Every cell in this grid — including the most generous bull-case scenario — implies substantial downside to the live price. As a sanity floor: net cash of $2.96B ÷ ~405M shares ≈ **$7.31/share** if the entire operating business were valued at exactly zero; the base-case DCF ($6.50) lands close to but below that floor, meaning this model assigns slightly negative value to the operating business itself once the multi-year cash burn is discounted back — consistent with, not an outlier from, the cash-floor check.
 
-### Verdict: **MILDLY OVERVALUED, gap widened on a continuing rally — no rebuild, no verdict flip**
-**Hold, no add, no trim from this desk's chair.** Per state.md's 9/3 09:37 ET read, NVDA sits at ~12.49% equity/~11.02% pool — comfortably below the 18-20% single-name trigger. NVDA+OMCL combined ~20.86% is below the 25% combined trigger, buffer ~4.14pp.
+**WACC rationale (13% base, the highest on this desk's entire coverage list)**: reflects genuine, stacked risk factors none of this book's other names carry simultaneously — GAAP unprofitability with no near-term breakeven line of sight, ongoing share-count dilution (~10% growth in shares outstanding in a single quarter), integration risk on a recently-closed $1.8B acquisition, and a technology-commercialization timeline that is inherently harder to underwrite than a mature semiconductor, healthcare, or energy business.
+
+### Verdict: **SHARPLY OVERVALUED — hard pass, the book's fourth DCF-driven veto (after MU, FRO, AVGO)**
+This is a valuation-discipline call, not a technology call. IonQ may well be a legitimate long-run winner in quantum computing — that is precisely the kind of claim a standard discounted-cash-flow model is the wrong tool to price, because essentially none of the value the market is assigning today ($15.9B market cap vs. a ~$0 to slightly-negative DCF-derived operating value) shows up as cash flow inside any horizon this model can respons­ibly forecast. Per rule 5 (a DCF "sharply overvalued" call is a hard pass, full stop, regardless of how good a screener's case looks), and consistent with GS's own framing that its #1 ranking is a timing/urgency call, not a valuation one, this desk's read is: **do not buy IONQ into the 9/8 Investor Day on this model.** Rule 6 (cross-vetting) still requires a BW risk read before this could ever be actionable regardless of this desk's verdict — that gate remains open and is BW's to close, not this desk's.
+
+### Key assumptions that could break this model
+- **Upside break**: if the 9/8 Investor Day delivers a credible, quantified path to EBITDA/FCF breakeven materially faster than this model's mid-2030s assumption (e.g., SkyWater's manufacturing scale economies compressing the cost base faster than modeled), that would justify a meaningfully higher bull-case rebuild — this desk will revisit after 9/8 regardless of whether BW has opened a risk read by then.
+- **Downside break**: continued share-count dilution at anywhere near this quarter's pace (~10%/quarter) would erode per-share value faster than this model captures, since the build above holds share count flat at ~405M throughout.
+- **Data-quality flag carried forward**: the $2.96B cash figure predates the SkyWater close (7/31); the true post-close cash position is likely lower and is a concrete, checkable input the next rebuild should source directly from IonQ's next 10-Q rather than carry forward as-is.
+- **Framing risk**: this is fundamentally a real-options/story-stock valuation problem. A reader should take the "-83%" headline as "cannot be justified on discounted cash flows today," not as a prediction the stock must fall 83% — DCF blindness to optionality value is a known, structural limitation of this method on pre-commercial technology names, the same caveat this desk has applied to every prior hard-pass call (MU, FRO, AVGO).
+
+---
+
+## 1. NVIDIA (NVDA) — price-roll update, model unchanged, gap widens as price nears the bull case
+
+Price $233.10 (state.md, 9/4 09:37 ET, +2.04% vs. 9/3 close), continuing the same rally this desk has tracked all week. No new company-specific catalyst beyond the already-digested, now-confirmed Hugging Face acquisition (signed 9/2, ~$12.93B, immaterial to this model's size). Model unchanged since the 8/27 full rebuild.
+
+| Scenario | Fair value/share | vs. $233.10 live price |
+|---|---|---|
+| Bear (guide disappoints, WACC 12%, g 2%) | $124.3 | **-46.7% (sharply overvalued)** |
+| Base (partial credit, WACC 11%, g 3%) | **$206.2** | **-11.5% (mildly overvalued)** |
+| Bull (full credit to mgmt's own guide, WACC 11%, g 3%) | $235.5 | **+1.0% (essentially at fair value)** |
+
+**Notable this run**: the gap to the bull case has compressed to ~1.0% — the closest this desk's model has ever come to being fully caught by the price. A further ~1% rally would put NVDA above even this desk's most generous credible scenario, which would be the first time that's happened on this name. Worth a fresh full rebuild if that line is crossed, rather than continuing to roll the same 8/27 numbers forward.
+
+### Verdict: **MILDLY OVERVALUED, gap widened to ~11.5% on a continuing rally — no rebuild, no verdict flip (yet)**
+Hold, no add, no trim from this desk's chair. Per state.md's 9/4 09:37 ET read, NVDA sits at ~12.85% equity/~11.34% pool — comfortably below the 18-20% single-name trigger. NVDA+OMCL combined ~20.97% — below the 25% combined trigger, buffer ~4.03pp.
 
 ### Key assumptions that could break this model (unchanged from 8/27)
-- Upside break: the 70% FY28 guide proves genuinely supply-constrained (a floor, not a ceiling); a confirmed Hugging Face integration that measurably lifts developer-ecosystem lock-in could support a bull-case terminal-growth bump in a future rebuild, but is not modeled today — too early, too small in isolation.
-- Downside break #1: AVGO/hyperscaler custom-silicon competition erodes the 75% gross-margin assumption in years 3-5 — AVGO's own print last night (AI-ASIC $16.7B, +221% YoY) is a live data point for this line, worth a closer look at the next full rebuild.
-- Downside break #2: the CDS record, if it sustains a confirmed close decisively above 82bps, argues for the bear-case WACC (12%) rather than base (11%) — still unresolved after six cycles.
-- Downside break #3: law of large numbers — any plateau (not even reversal) in AI capex growth collapses the bull/base case toward the bear case fast.
+- Upside break: the 70% FY28 guide proves genuinely supply-constrained (a floor, not a ceiling).
+- Downside break: AVGO/hyperscaler custom-silicon competition erodes the 75% gross-margin assumption in years 3-5; the CDS record (still unresolved after seven cycles) sustaining a confirmed close above 82bps would argue for the bear-case WACC.
+- Downside break: any plateau in AI capex growth collapses the bull/base case toward the bear case fast — worth watching given how close price now sits to the bull-case ceiling.
 
 ---
 
-## 2. Omnicell (OMCL) — price update, model unchanged, discount narrows on a broad-market gain
+## 2. Omnicell (OMCL) — price update, model unchanged, discount widens on today's pullback
 
-### What changed since 9/2
-Price $35.365 (state.md, 9/3 09:37 ET), +1.89% vs. yesterday's close — a genuine bounce, though this desk has no fresh company-specific catalyst to attach it to; today's broad-market strength (VTI +0.56%, VXUS +0.32%) suggests at least part of this is market-wide rather than OMCL-specific. No new analyst-target or news items found this run beyond the same recirculated late-July/August cuts (Piper Sandler $45, KeyBanc $65, Wells Fargo $50) already priced into every prior read.
+Price $34.37 (state.md, 9/4 09:37 ET, -1.29% vs. 9/3 close). No fresh company-specific catalyst found this run — WebSearch this run surfaced nothing beyond the already-known Q2 print and the 10/29 next-earnings date.
 
-### Fair value and verdict (model unchanged, gap recomputed vs. today's price)
-Base case fair value **$53.89** (WACC 9%, g 3% — sensitivity table unchanged since 7/30) vs. today's $35.365 implies **~52.4% upside**, narrower than 9/2's ~55.4% as the price recovered part of its prior-session pullback. This remains, by a wide margin, the largest DCF discount on the book.
+Base case fair value **$53.89** (WACC 9%, g 3% — unchanged since 7/30) vs. today's $34.37 implies **~56.8% upside**, widened from 9/3's ~52.4% on today's pullback. This remains, by a wide margin, the largest DCF discount on the book.
 
 ### Verdict: **UNDERVALUED — still the widest mispricing on the book, still gated**
-The two-way, no-catalyst volatility this desk has flagged for weeks continues — a bounce today, a pullback yesterday, nothing that reads as a fundamental re-rating in either direction. The standing sizing gate (BW's post-transcript risk sign-off, conditionally granted 8/31 pending the DCA plan's own accumulated-profit threshold, per state.md's 9/3 run notes sitting close to fully cleared) remains the operative timing mechanism, not this desk's valuation call, which has said "undervalued" consistently since 7/30.
+The two-way, no-catalyst volatility this desk has flagged for weeks continues. The standing sizing gate (BW's risk sign-off / the OMCL DCA accumulated-profit threshold, per state.md's 9/4 run notes sitting further from firing today as the pool value dipped) remains the operative timing mechanism, not this desk's valuation call, which has read "undervalued" consistently since 7/30.
 
 ### Key assumptions that could break this model (unchanged)
-- **Upside break**: the softer Q3/bookings guide proves conservative rather than a genuine slowdown — would push fair value toward $56-60+.
-- **Downside break**: continued high-amplitude, no-catalyst price action is itself a signal of unusually high name-specific volatility relative to this book's other holdings — an argument for sizing discipline, not for revising this desk's valuation call.
+- Upside break: the softer Q3/bookings guide proves conservative rather than a genuine slowdown — would push fair value toward $56-60+.
+- Downside break: continued high-amplitude, no-catalyst price action is itself a signal of unusually high name-specific volatility relative to this book's other holdings — an argument for sizing discipline, not for revising this desk's valuation call.
 
 ---
 
 ## 3. Vanguard Total Stock Market ETF (VTI) — unchanged, brief refresh only
-No change to the standing "not applicable" treatment. $378.99 (+0.56%). This desk has no fair-value view on VTI and defers entirely to BR/BW on sizing and drift-band status.
+No change to the standing "not applicable" treatment. $380.535 (-0.10%). This desk has no fair-value view on VTI and defers entirely to BR/BW on sizing and drift-band status.
 
 ## 4. Vanguard Total International Stock ETF (VXUS) — unchanged, brief refresh only
-No change to the standing "not applicable" treatment. $87.435 (+0.32%). No fair-value case to add or trim. Defer to BR/BW.
+No change to the standing "not applicable" treatment. $88.04 (+0.08%). No fair-value case to add or trim. Defer to BR/BW.
 
 ---
 
-## 5. Energy Select Sector SPDR (XLE) — oil-adjusted composite re-read, a quiet day on both legs
+## 5. Energy Select Sector SPDR (XLE) — oil-adjusted composite re-read, gap narrows on a weaker tape for the ETF itself
 
-### What changed since 9/2 — CVX up modestly, Brent essentially flat, forward anchor unmoved
-Fresh WebSearch this run: CVX ~$212.42 (up ~0.65% from 9/2's $211.05 read; intraday range reported $207.80-211.08 by some sources, with one outlier source — heygotrade, $191.86 — that does not reconcile with any other feed and is discarded as a likely data error, the same discipline this desk applies to the recurring CRWD/PTCT dispersion cases GS has flagged). Brent is $95.04-95.25 (Reuters/TradingEconomics), essentially flat vs. 9/2's $94.86-96.55 range — still elevated on the live Hormuz conflict, but no directional move worth reacting to. Per this desk's standing methodology the composite is anchored to a forward-looking reference band (GS's own house $80 Q4'26 Brent forecast), which GS has not revised. Applying CVX's modest equity move to the composite lifts the oil-adjusted fair value only marginally, to **~$53.3/sh** (from 9/2's $53.0).
+Fresh WebSearch this run: CVX trading roughly $205-211 (some dispersion across sources; using ~$208 as a working midpoint), essentially flat-to-modestly-softer vs. 9/3's $212.42 read. Brent $95.2-96.9 (dispersion across sources/times, consistent with the same range this desk has carried all week) — still elevated on the live Hormuz conflict, no directional break. GS's own $80 Q4'26 Brent house forecast remains unrevised. Applying the modest CVX pullback to the composite leaves the oil-adjusted fair value essentially flat at **~$53.2/sh** (from 9/3's $53.3) — another quiet day on the oil-anchor leg of this model.
 
-### Fair value and verdict (composite re-run, forward oil anchor still held)
-Applied to XLE's live price ($65.155, flat on the day), the implied gap is **~-18.1%** (from 9/2's ~-18.2%) — essentially unchanged, a genuinely quiet session on both legs of the composite for the first time in several cycles.
+Applied to XLE's live price ($63.77, -1.32% on the day), the implied gap is **~-16.4%**, narrowed from 9/3's ~-18.1% — the ETF itself pulled back today while the composite anchor barely moved, closing part of the gap on price action rather than a fundamentals revision.
 
-### Verdict: **OVERVALUED — gap essentially flat, do-not-add stance unchanged**
-**No trim (no structural break in the held position's own thesis; the Hormuz conflict remains live per today's WebSearch, the confirming case for holding XLE as a hedge, not a reason to touch it), no add.** The equity-comp-leg-only adjustment this desk has run since 8/31 remains a stopgap; a full ground-up composite rebuild (last done 7/24-7/28) remains overdue and is again the standing recommendation.
+### Verdict: **OVERVALUED — gap narrows on price action alone, do-not-add stance unchanged**
+No trim (no structural break in the held position's own thesis; the Hormuz conflict remains live per today's WebSearch — the confirming case for holding XLE as a hedge, not a reason to touch it), no add. The equity-comp-leg-only adjustment this desk has run since 8/31 remains a stopgap; a full ground-up composite rebuild (last done 7/24-7/28) remains overdue and is again the standing recommendation.
 
 ### Key assumptions that could break this model
-- **Upside break (narrows the overvaluation)**: if GS revises its own $80 Q4'26 Brent house forecast upward given the sustained spot climb (Brent now ~$95, well above the forward anchor), this desk would follow with a genuine anchor revision — watch GS's next report for any change to that specific number.
-- **Downside break**: OPEC's 2026 demand-cut framing (flagged in prior reports) would, if the forward anchor moves at all, argue for moving it down, not up — unchanged this cycle.
+- Upside break (narrows the overvaluation further): if GS revises its own $80 Q4'26 Brent house forecast upward given the sustained spot climb (Brent still well above the forward anchor), this desk would follow with a genuine anchor revision.
+- Downside break: OPEC's 2026 demand-cut framing would, if the forward anchor moves at all, argue for moving it down, not up — unchanged this cycle.
 
 ---
 
-## 6. Broadcom (AVGO) — Q3 FY26 print processed, model unchanged and validated, still GS's #1 pick
+## 6. GE HealthCare (GEHC) — first full-holding treatment since the 9/3 entry, and a genuine flip to mildly undervalued
 
-### What happened — the third consecutive "beat and sell off" print, exactly as JPM's pattern called it
-AVGO reported Q3 FY26 results after Wednesday's close: revenue $29.59B (+86% YoY, beat consensus ~$29.43-29.44B), adjusted EPS $3.32 (beat), AI-ASIC segment revenue $16.7B (+221% YoY, above the ~$16B guide). Every headline number beat. The stock still dropped: Wednesday's $367.24 close fell to $346.84 by this morning's live Robinhood-verified read (state.md, -5.55%), corroborated by fresh WebSearch (FXLeaders, Yahoo Finance) describing a 5-6%+ post-earnings decline. The driver was forward guidance, not the quarter itself: Q4 revenue guide of $34.8B fell short of the ~$35.05B Street wanted, despite AI backlog/forecast commentary reportedly reaching $230B cumulative. This is the third straight AVGO print to beat and sell off, per JPM's own tracked base-rate pattern already on file.
+### Why this section is new
+GEHC fired its entry trigger and became this book's sixth holding on 2026-09-03 (~10:38 ET, $2.50 quarter-size buy at ~$68.69 avg cost). Every prior mention of this name in this desk's reports was in the "non-holding names carried forward" section; this is the first time it gets the same full treatment as the other five positions.
 
-### Fair value and verdict (model unchanged since 8/21 — the print validated it rather than requiring a revision)
-| Scenario | Fair value/share | vs. $346.84 (state.md, post-print) |
-|---|---|---|
-| Base (WACC 10%, g 3%) | **$252.6** | **-27.2% (sharply overvalued)** |
+### What changed since 8/21 (the last full build)
+Nothing in the model — no rebuild triggered, no GEHC-specific structural news found this run beyond the already-known Grogan CFO transition (effective 9/14) and the Wells Fargo Health Conference (9/9). What changed is the price: GEHC has drifted from $70.66-71.30 (hovering above this desk's own $70.2 base case through most of the entry-trigger saga) down to **$68.96** today (state.md, 9/4 09:37 ET, -1.09% vs. 9/3 close, but +0.39% vs. the $68.69 entry cost — a genuine, if small, gain on the position).
 
-Narrower than 9/2's ~-31.2% gap purely because the post-print drop moved price toward this desk's number, not because any input changed. This desk's 8/21 model was built on consensus estimates (~$29.43-29.44B revenue, ~$2.55 EPS); actual results came in modestly ahead of those estimates on revenue and meaningfully ahead on EPS ($3.32 actual vs. ~$2.55 consensus), which if anything argues the 8/21 base case was, if slightly conservative on the income statement, still correctly capturing the valuation risk — the stock fell anyway on a guide that undershot even higher expectations than the model assumed. No rebuild triggered: the actual print is a genuine real-world stress test of this desk's discipline (a model built on estimates, not moved by an actual beat), and it held. Sell-side consensus (avg target ~$526, due for revision post-print) remains roughly double this desk's own number — unchanged from 8/21's framing, and the textbook case for this desk's stance: when the screener loves a name and the DCF says otherwise, say so plainly, beat quarter or not.
+### Fair value and verdict
+Base case fair value **$70.2/sh** (WACC 8.5%, g 3%, unchanged since 8/21) vs. today's $68.96 implies **~1.8% upside** — the first time this desk has read GEHC as undervalued, even mildly, since coverage began. For context: undervalued ~+7% at 8% WACC (≈ BTIG's $79 target); overvalued ~-14% at 9% WACC. The position sits in the narrow, defensible middle of that band this desk has described from the start — "a genuine close call, not a hard pass."
 
-### Verdict: **SHARPLY OVERVALUED — hard pass on valuation grounds, independently blocked by rule 6, now validated through an actual print**
-**Not buyable, last night's beat and today's drop notwithstanding.** Two independent reasons unchanged from 9/2: (1) a ~27% DCF gap even after a 5.5%+ drop is not closed by one session's move, and (2) rule 6 (a full cross-vetting cycle, MS + BW, before sizing) has never opened on this name — 13+ cycles per GS's own repeated flag. Rule 2 (don't chase an extended move) would separately caution against buying into any post-drop stabilization bounce even if both gates were open.
+### Verdict: **MILDLY UNDERVALUED — a small, genuine flip, not a reason to add**
+Hold, no add from this desk's chair — a ~1.8% DCF discount on a name this desk has always described as "assumption-dependent" is not a green light for further sizing, and this is a quarter-size satellite position already at its intended weight. Worth flagging for BR/BW as the first hard evidence that the entry was, on this desk's own numbers, priced reasonably rather than at a premium as it looked for most of August.
 
-### Key assumptions that could break this model
-- **Upside break**: if the $230B cumulative AI backlog/forecast figure (reported this print) proves durable at a materially higher terminal growth rate than this model's 3%, a bull-case re-run could close much of the gap — worth a full rebuild once BW's risk read exists, not on this desk's say-so alone.
-- **Downside break**: the guide-miss pattern repeating a third consecutive quarter is itself a data point worth weighing at the next full rebuild — if elevated expectations structurally outrun even genuinely strong execution, that argues for treating the bear case, not the base case, as the more representative scenario going forward.
-- This desk will re-run a full model (not just a price roll) once BW's risk read exists — flagging that as overdue given 13+ cycles of required-coverage status with no rebuild since 8/21.
+### Key assumptions that could break this model (unchanged from 8/21)
+- Upside break: FCF conversion improving toward ~10% faster than modeled (the central assumption behind this desk's fair-value line) would push fair value higher.
+- Downside break: net debt sourced worse than BW's 10-Q-corrected ~$8.0B (this desk's illustrative $7.5B was already ~$0.5B optimistic per BW's own correction) would pull fair value down further; a backlog/book-to-bill reversal would be a genuine structural break, not modeled here.
 
 ---
 
-## Non-holding names carried forward, unchanged (no rebuild this cycle)
-- **GEHC** (not held): 8/21 verdict stands — base case ~$70.2/sh (WACC 8.5%, g 3%), **essentially fair value, mildly overvalued at the margin**. Per state.md's 9/3 09:37 ET read, GEHC is $70.66 (~0.66% above the $70.2 base case, ~0.94% above the trader's own $70 entry ceiling) — the closest this trigger has ever traded, 7 days from the 9/10 hard time-box. This desk's model has not moved; the entry ceiling is already at this desk's own fair-value line, so a fill at or below $70 would be a fill at or slightly below this desk's base case, not a bargain relative to it — worth noting for whoever executes the trigger.
+## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-09-04 report)
+GS moved IONQ to #1 this cycle, explicitly and correctly framing it as a screening-priority/urgency call (4 days to the 9/8 Investor Day) rather than a valuation call — GS has no DCF or risk read of its own on this name and says so directly. This desk's first-ever build supplies exactly the valuation check that framing was missing: **sharply overvalued, hard pass**, the fourth name on this book to draw that verdict (after MU, FRO, AVGO). This is the textbook case this desk's stance exists for — when the screener's #1 pick is driven by timing rather than conviction, the valuation desk's job is to say plainly whether the price can be justified on the numbers, and here it cannot. No disagreement with GS's other reads or rankings.
 
-## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-09-03 report)
-GS ranks AVGO #1 again this cycle (unchanged from 9/2, now describing the print exactly as this desk models it: a clean beat sold off on guidance) and OMCL #2 — both consistent with this desk's own reads above. GS also independently flags the Hugging Face deal's confirmation and recommends retiring BW's "deal falls through" tail-risk scenario, which this desk adopts above without disagreement. No disagreement with GS's ranking or with any name's treatment above; this desk's AVGO hard-pass, now validated through an actual print rather than an estimate, is the explicit counterweight GS's own #1 ranking is designed to be checked against.
-
-## Explicit read on trader's current positions (all five: NVDA, OMCL, VTI, VXUS, XLE) plus AVGO
-**NVDA**: hold, no add, no trim — base-case DCF gap widened to ~8.8% overvalued as the rally continues; model unchanged. Hugging Face deal confirmed (signed, not rumored) but immaterial in size to this model. Gap to the bull case has compressed to ~4.2% — worth watching if the rally keeps running.
-**OMCL**: hold, no add from this desk's chair (sizing isn't this desk's call) — DCF discount narrowed to ~52.4% (from ~55.4% on 9/2) on today's broad gain, still by far the widest mispricing on the book. The DCA plan's own profit-threshold gate remains the actual timing mechanism.
+## Explicit read on trader's current positions (all six: NVDA, OMCL, VTI, VXUS, XLE, GEHC) plus IONQ
+**NVDA**: hold, no add, no trim — base-case DCF gap widened to ~11.5% overvalued; price now within ~1.0% of this desk's bull case for the first time. Model unchanged, but worth a fresh rebuild if the bull-case line is crossed.
+**OMCL**: hold, no add from this desk's chair — DCF discount widened to ~56.8% (from ~52.4% on 9/3) on today's pullback, still by far the widest mispricing on the book. The DCA plan's own profit-threshold gate remains the actual timing mechanism.
 **VTI / VXUS**: hold, no valuation view — diversified core-sleeve holdings, not DCF calls. Defer to BR/BW on drift-band status.
-**XLE**: hold, no trim, no add — gap essentially flat at ~-18.1% on a quiet day for both CVX and Brent. A full ground-up rebuild remains overdue and is again this desk's standing recommendation.
-**AVGO** *(not held, required coverage)*: hard pass on valuation (~-27.2% to base case even after last night's post-print drop), independently blocked by rule 6 (no BW risk read after 13+ cycles). Not actionable; this desk's 8/21 model held up through an actual print without needing revision.
-**GEHC** *(not a holding)*: verdict carried forward unchanged from 8/21 — now trading essentially at this desk's own base-case fair value, 7 days from its entry-ceiling time-box.
+**XLE**: hold, no trim, no add — gap narrowed to ~-16.4% on the ETF's own pullback, not a fresh oil-anchor read. A full ground-up composite rebuild remains overdue and is again this desk's standing recommendation.
+**GEHC**: hold, no add — first-ever mildly-undervalued read (~+1.8%) since this desk started covering the name, a small but genuine flip. Not a sizing signal on its own for a position already at its intended quarter-size weight.
+**IONQ** *(not held, GS's new #1 pick)*: hard pass on valuation — first-ever DCF build finds ~83% downside to base case, ~68% downside even under a generous bull scenario. Rule 6 (a BW risk read) has never opened on this name and remains the independent, separate gate. Not actionable regardless of the 9/8 Investor Day outcome unless a future rebuild finds a materially faster path to cash-flow breakeven than this model assumes.
 
 ---
 
 Sources:
-- [Broadcom (AVGO) Stock Price & Overview (StockAnalysis)](https://stockanalysis.com/stocks/avgo/)
-- [AVGO Stock Falls Below $350 Testing Support (FX Leaders)](https://www.fxleaders.com/news/2026/09/02/avgo-stock-falls-below-350-testing-support-as-investors-question-the-outlook-after-broadcom-earnings/)
-- [Broadcom's price sinks over 6% after releasing Q3 earnings (Yahoo Finance)](https://finance.yahoo.com/video/broadcoms-price-sinks-over-6-after-releasing-q3-earnings-204118312.html)
-- [Broadcom Stock Slides After Earnings Even as AI Forecast Jumps to $230 Billion (Coinpaper)](https://coinpaper.com/35203/broadcom-stock-slides-after-earnings-even-as-ai-forecast-jumps-to-230-billion)
-- [Nvidia confirms it will buy Hugging Face for $12.9 billion (TechCrunch)](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/)
-- [Nvidia Agrees to $13 Billion Deal for AI Platform Hugging Face (Bloomberg)](https://www.bloomberg.com/news/articles/2026-09-03/nvidia-agrees-to-13-billion-deal-for-ai-platform-hugging-face)
-- [Hugging Face approached Nvidia's Huang weeks ahead of $12.9B acquisition (CNBC)](https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html)
-- [Chevron (CVX) Stock Price & Overview (StockAnalysis)](https://stockanalysis.com/stocks/cvx/)
+- [IonQ Reports Record Q2 2026 Financial Results: Revenue Soars 287% to $80.1M, Full-Year Guidance Raised to $290M (Quantum Computing Report)](https://quantumcomputingreport.com/ionq-reports-record-q2-2026-financial-results-revenue-soars-287-to-80-1m-full-year-guidance-raised-to-290m/)
+- [IonQ, Inc. - Form 10-Q - FY2026 (SEC)](https://www.sec.gov/Archives/edgar/data/0001824920/000119312526341001/ionq-20260630.htm)
+- [IonQ posts Q2 2026 loss on warrant charges (StockTitan)](https://www.stocktitan.net/sec-filings/IONQ/10-q-ion-q-inc-quarterly-earnings-report-78417cbb5121.html)
+- [IonQ, Inc. (IONQ) Statistics & Valuation (StockAnalysis)](https://stockanalysis.com/stocks/ionq/statistics/)
+- [IONQ Shares Outstanding (GuruFocus)](https://www.gurufocus.com/term/Shares+Outstanding/NYSE:IONQ)
+- [IonQ, Inc. (IONQ) Market Cap & Net Worth (StockAnalysis)](https://stockanalysis.com/stocks/ionq/market-cap/)
+- [Chevron Corporation (CVX) Stock Price, News, Quote & History (Yahoo Finance)](https://finance.yahoo.com/quote/CVX/)
 - [Brent oil - Price - Chart - Historical Data (TradingEconomics)](https://tradingeconomics.com/commodity/brent-crude-oil)
-- [Current price of oil as of Sept. 3, 2026 (Fortune)](https://fortune.com/article/price-of-oil-09-03-2026/)
-- Internal: trading-experiment/state.md (9/3 09:37 ET live Robinhood run notes), analysts/gs-stock-screener.md (9/3 report), analysts/ms-dcf-valuation.md (9/2 report, this desk's prior report — full detail via git history)
+- [Current price of oil as of Sept. 4, 2026 (Fortune)](https://fortune.com/article/price-of-oil-09-04-2026/)
+- Internal: trading-experiment/state.md (9/4 09:37 ET live Robinhood run notes), analysts/gs-stock-screener.md (9/4 09:41 ET report), analysts/ms-dcf-valuation.md (9/3 report, this desk's prior report — full detail via git history)

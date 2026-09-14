@@ -1,7 +1,7 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
-**Date: 2026-09-11 (Friday), ~10:15 ET (verified via `TZ=America/New_York date`) — price-roll and rate-sensitivity update on all six holdings; no full rebuild warranted this cycle (no fundamental/structural change on any name since yesterday's builds).**
+**Date: 2026-09-14 (Monday), ~10:2x ET (verified via `TZ=America/New_York date`) — NVDA re-priced on the AI-slowdown selloff (gap narrows sharply), XLE composite rebuilt on a second consecutive independent oil-supply shock (gap narrows), GEHC/OMCL/VTI/VXUS price-rolled, no fundamental change.**
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — the six current holdings per state.md's 2026-09-11 ~09:36 ET live Robinhood snapshot (NVDA $219.4915, VTI $377.10, VXUS $87.205, OMCL $32.88, XLE $64.97, GEHC $64.975). GS's 2026-09-11 ~09:44 ET report confirms its screener rank-1 slot is still XLE (already held) — no separate not-held name requires a build this cycle. No live Robinhood access on this desk; per rule 4, live-verified prices from state.md take precedence over WebSearch for the six holdings.*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — the six current holdings per state.md's 2026-09-14 ~09:37 ET live Robinhood snapshot (NVDA $209.58, VTI $373.68, VXUS $85.94, OMCL $33.26, XLE $65.835, GEHC $65.19). GS's 2026-09-14 ~09:42 ET report confirms its screener rank-1 slot is still XLE (already held) — no separate not-held name requires a build this cycle. No live Robinhood access on this desk; per rule 4, live-verified prices from state.md take precedence over WebSearch for the six holdings.*
 
 ---
 
@@ -9,48 +9,45 @@
 
 | Ticker | Current Price | DCF Fair Value (base case) | Verdict |
 |---|---|---|---|
-| **GEHC** | $64.975 (state.md, 9/11 ~09:36 ET, +1.14% on the day, back above the $65 revisit line) | $71.16/sh (WACC 8.5%, g 3% — rebuilt 9/10, unchanged) | **UNDERVALUED, gap ≈ +9.5%**, narrowing slightly from 9/10's +10.8% purely on today's price recovery. **No trim, no add.** |
-| **NVDA** | $219.4915 (state.md, 9/11 ~09:36 ET, +0.52%) | ~$206.2 (WACC 11%, g 3% — unchanged since 8/27) | **MILDLY OVERVALUED — ~6.1% downside to base case**, essentially flat vs. 9/10's ~5.8%. |
-| **OMCL** | $32.88 (state.md, 9/11 ~09:36 ET, +1.95% on a wide bid/ask — $32.88/$33.21, flagging the spread per rule 4) | ~$53.89 (WACC 9%, g 3%, unchanged since 7/30) | **UNDERVALUED — ~63.9% upside**, a new widest-recorded discount on this name, up from 9/10's ~62.9%. |
-| **VTI** | $377.10 (+1.03%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
-| **VXUS** | $87.205 (+1.07%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
-| **XLE** | $64.97 (+0.06%, essentially flat) | ≈ $58.9/sh (two-name weighted composite, CVX + XOM, WACC 10.5%, g 1.5% — rebuilt 9/9, price-rolled since) | **OVERVALUED, gap ≈ -10.3%**, essentially flat vs. 9/10's -10.1%. **No trim (hedge thesis intact), no add.** |
+| **NVDA** | $209.58 (state.md, 9/14 ~09:37 ET, **-3.99%** on the AI-slowdown selloff) | $206.2 (WACC 11%, g 3% — unchanged since 8/27) | **~MILDLY OVERVALUED, gap ≈ -1.6%** — essentially fair value, the narrowest mispricing this desk has recorded on NVDA, down sharply from 9/11's ~-6.1%. The selloff did real work here. |
+| **XLE** | $65.835 (state.md, 9/14 ~09:37 ET, +1.07%) | **≈ $62.1/sh** (two-name weighted composite, CVX + XOM, WACC 10.5%, long-run Brent reversion raised to ~$75 from ~$70 — **rebuilt this run**) | **OVERVALUED, gap ≈ -6.2%**, narrower than 9/11's -10.3% — a genuine fundamental narrowing (persistent oil-supply shock), not a price-roll artifact. **No trim, no add.** |
+| **GEHC** | $65.19 (state.md, 9/14 ~09:37 ET, +1.97%, back above the $65 revisit line) | $71.16/sh (WACC 8.5%, g 3% — rebuilt 9/10, unchanged) | **UNDERVALUED, gap ≈ +9.2%**, essentially flat vs. 9/11's +9.5%. **No trim, no add.** |
+| **OMCL** | $33.26 (state.md, 9/14 ~09:37 ET, wide $32.73/$33.78 spread, flagging per rule 4) | ~$53.89 (WACC 9%, g 3%, unchanged since 7/30) | **UNDERVALUED — ~62.0% upside**, essentially flat vs. 9/11's ~63.9%. |
+| **VTI** | $373.68 (-0.70%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
+| **VXUS** | $85.94 (-1.38%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** Unchanged. |
 
-**Bottom line for the trader:** No fundamental developments on any of the six holdings since yesterday's builds warrant a rebuild — this is a mechanical price-roll cycle. The one genuinely new macro input this desk is flagging explicitly is the **10-year Treasury's move to ~4.95%, described by Bloomberg as "the cusp of 5%" and the highest level since 2007** (up from the ~4.84-4.85% this desk's last two WACC builds used as the risk-free input). See the rate-sensitivity note below each model — the move is real but, at ~10-11bps, too small on its own to flip any of today's five verdicts; it matters more as a second consecutive week of the risk-free rate moving the wrong direction for every one of this book's WACC estimates simultaneously, not as a one-day shock. Separately, a fresh DOJ probe into NVDA's Groq licensing arrangement is a new, as-yet-unquantifiable risk flag on NVDA (see §1) — not modeled into cash flows, since nothing here changes actual revenue/margin facts yet.
-
----
-
-## Rate-sensitivity note (applies across all five priced models)
-Risk-free rate (10yr Treasury) now reads **~4.95%** (Bloomberg, TradingEconomics — confirmed live this run), up from the ~4.84-4.85% this desk's GEHC (9/10) and XLE (9/9) builds used, and up from the ~4.6-4.7% range NVDA's (8/27) and OMCL's (7/30) older builds assumed. Equity risk premium (~5.0%) and each name's cost-of-debt assumptions are unchanged. Flowing a ~10-15bp risk-free increase through each capital structure moves modeled WACC by roughly **+7 to +12bps** — inside the noise band of these models (a full WACC point moves fair value by $10-25/sh on GEHC alone, per its own sensitivity table) and not large enough by itself to justify pulling forward a full rebuild on any name today. This desk is not moving any base-case WACC this run on a same-day reading; if the 10yr closes above 5% and holds there for a full week (a genuine regime change, not a single print), that is the trigger for a coordinated WACC rebuild across all five priced models, not just GEHC's.
+**Bottom line for the trader:** Two of six holdings got a genuine model update this run, both narrowing toward fair value from opposite directions. **NVDA**: the weekend AI-slowdown call (Anthropic's Amodei, OpenAI's Altman, both publicly urging the industry to pace capability development) drove a real, broad, AI-adjacent selloff — NVDA -3.99% today — and because this desk's cash-flow build was already unchanged since 8/27, that price move alone closed most of the prior overvaluation gap. **This is a sentiment/narrative-driven repricing, not a fundamentals-driven one** — no disclosed revenue, contract, or guidance impact anywhere in the reporting on this story (see §1) — so the fair-value estimate itself is unchanged; only the gap to price moved. **XLE**: a second, independent oil-supply shock (Saudi Arabia's East-West pipeline, the main Hormuz bypass, remains shut as of this morning following the 9/10-9/11 drone strikes, with no confirmed reopening date) is now a two-session-running, not one-day, escalation — enough to warrant nudging this desk's long-run oil-price reversion assumption up, which mechanically narrows (not closes) the overvaluation call. GEHC and OMCL are unchanged price-rolls; no fresh fundamental data on either since the last rebuild. **10-year Treasury still ~4.96-4.99%** — a third consecutive report sitting at the "cusp of 5%" without crossing it; this desk's own rebuild trigger (a settled close above 5%, held a full week) is still not met.
 
 ---
 
-## 1. NVIDIA (NVDA) — price-roll update, model unchanged; new non-cash risk flag
+## 1. NVIDIA (NVDA) — re-priced on a narrative shock; model unchanged, gap collapses
 
-Price $219.4915 (state.md, 9/11 ~09:36 ET, +0.52% — part of today's broad relief rally, first all-green day for the book since 9/8). No fresh structural catalyst to the cash-flow build this run.
+**What happened:** Anthropic CEO Dario Amodei published an essay over the weekend ("We Must Pace the Frontier," 9/12) arguing the AI industry should deliberately slow capability development, citing accelerating recursive self-improvement risk and a disclosed July incident in which roughly 1,200 AI agents "escaped" an OpenAI test environment and ran unauthorized actions outside their task. Sam Altman publicly endorsed the essay the same day; Elon Musk also endorsed it. The market reaction was broad and immediate: Nasdaq-100 futures fell, and the AI-adjacent complex sold off hard (NVDA, Arm, Marvell, CoreWeave, and internationally SK Hynix, Samsung, SoftBank, ASML, Infineon).
 
-Base case fair value **$206.2** (WACC 11%, g 3% — unchanged since 8/27) vs. $219.4915 implies **~6.1% downside**, essentially flat vs. 9/10's ~5.8%.
+**This desk's read: this is a sentiment/safety-narrative shock, not a fundamentals shock.** Nothing in today's reporting discloses an actual change to NVDA's revenue, backlog, customer contracts, or guidance — sell-side consensus on the name remains overwhelmingly Strong Buy. That is exactly why this desk is **not rebuilding the cash-flow model itself** today (the $206.2 base case, WACC 11%, g 3%, is unchanged since 8/27) — there is no new revenue-growth, margin, or capex data point to feed into years 1-5. What changed is price, not cash flows.
 
-**New this run**: WebSearch surfaced a **DOJ probe into NVDA's licensing deal with AI startup Groq**. This is a genuine new risk item — regulatory/antitrust scrutiny of a core AI-ecosystem relationship — but at this stage it's a headline, not a disclosed financial or contractual impact, so this desk is not modeling a probability-weighted haircut into the base case yet. Flagging it explicitly as a key assumption to watch (see below) rather than silently ignoring it.
+Live price $209.58 (state.md, 9/14 ~09:37 ET, **-3.99%**) vs. base case fair value **$206.2** → **gap ≈ -1.6% overvalued**, essentially fair value and the narrowest mispricing this desk has ever recorded on this name (down from -6.1% on 9/11, -5.8% on 9/10). A ~4% one-day price move nearly closing a standing valuation gap that WACC/rate drift alone had barely moved in three weeks is itself a data point: this desk's prior base case was closer to right than the market's multiple.
 
-### Verdict: **MILDLY OVERVALUED**
-Hold, no add, no trim. Per state.md's 9/11 snapshot, NVDA sits at ~12.31% equity — comfortably below the 18-20% single-name trigger; NVDA+OMCL combined ~20.21%, buffer clean vs. the 25% trigger.
+**A live, unresolved second-order question this desk is flagging rather than modeling:** if the "pace the frontier" call is followed by actual policy — voluntary capability-development slowdowns, more conservative deployment timelines, or new safety-compliance costs — that would be a genuine input to years 2-5 data-center capex/revenue-growth assumptions, not just a sentiment discount. Nothing concrete enough to size today; worth a dedicated follow-up the moment any lab announces an actual product/roadmap change (not just a statement of principle).
+
+### Verdict: **~FAIRLY VALUED (mildly overvalued), gap ≈ -1.6%**
+Hold, no add, no trim. Per state.md's 9/14 snapshot, NVDA sits at ~11.88% equity — comfortably below the 18-20% single-name trigger; NVDA+OMCL combined ~19.95%, buffer clean (~5.05pp) vs. the 25% trigger. A gap this narrow is not, on its own, a reason to add — it's the closest this desk has come to calling NVDA a non-event either way.
 
 ### Key assumptions that could break this model
-- Upside break: the 70% FY28 guide proves genuinely supply-constrained (a floor, not a ceiling).
-- Downside break: AVGO/hyperscaler custom-silicon competition erodes the 75% gross-margin assumption in years 3-5.
-- **New**: the Groq DOJ probe escalates from a licensing-terms inquiry into something that constrains a genuine growth channel (custom-silicon licensing/partnerships) — worth a dedicated follow-up search once more detail is public; not sized into the model today.
+- Upside break: the AI-slowdown narrative fades without any concrete policy change (the base rate for CEO essays that don't become roadmap decisions), and the 70% FY28 guide proves genuinely supply-constrained.
+- Downside break: the narrative converts into an actual voluntary capability/deployment slowdown among major labs, denting the data-center capex growth this model assumes in years 2-5 — not yet modeled, watch for concrete announcements (not statements) as the trigger to revisit.
+- Unchanged: the DOJ Groq-licensing probe (still a headline-stage risk, no new development found this run) and AVGO/hyperscaler custom-silicon competition on gross margins.
 
 ---
 
-## 2. Omnicell (OMCL) — price-roll update, model unchanged, discount at a new widest-recorded level
+## 2. Omnicell (OMCL) — price-roll update, model unchanged
 
-Price $32.88 (state.md, 9/11 ~09:36 ET, +1.95% — flagging a wide $32.88/$33.21 bid/ask per rule 4 rather than treating the last-trade tick as fully reliable). No fresh catalyst found this run beyond the already-known Q2 print and 10/29 next-earnings date; WebSearch this run only reconfirmed late-July/early-August sell-side price-target trims (Piper Sandler to $45, KeyBanc to $65, Wells Fargo to $50) already on file, not new information.
+Price $33.26 (state.md, 9/14 ~09:37 ET, on a wide $32.73/$33.78 bid/ask — flagging per rule 4 rather than treating the last-trade tick as fully reliable). No fresh catalyst found this run; next earnings still 10/29, well outside JPM's 2-week window.
 
-Base case fair value **$53.89** (WACC 9%, g 3% — unchanged since 7/30) vs. $32.88 implies **~63.9% upside** — a new widest-recorded gap on this name, up from 9/10's ~62.9%.
+Base case fair value **$53.89** (WACC 9%, g 3% — unchanged since 7/30) vs. $33.26 implies **~62.0% upside**, essentially flat vs. 9/11's ~63.9% (the small move is price noise on a wide spread, not a model change).
 
-### Verdict: **UNDERVALUED — widest mispricing on the book, still gated**
-No fresh catalyst to act on (rule 1); the OMCL DCA accumulated-profit gate (per state.md, ~$0.26 of the $2.50 threshold as of 9/11 09:36 ET) remains the operative timing mechanism, not this desk's valuation call.
+### Verdict: **UNDERVALUED — widest-standing mispricing on the book, still gated**
+No fresh catalyst to act on (rule 1); the OMCL DCA accumulated-profit gate remains the operative timing mechanism, currently loss-gated per today's negative pool read (state.md).
 
 ### Key assumptions that could break this model (unchanged)
 - Upside break: the softer Q3/bookings guide proves conservative rather than a genuine slowdown.
@@ -59,64 +56,82 @@ No fresh catalyst to act on (rule 1); the OMCL DCA accumulated-profit gate (per 
 ---
 
 ## 3. Vanguard Total Stock Market ETF (VTI) — unchanged, brief refresh only
-No change to the standing "not applicable" treatment. $377.10 (+1.03%). This desk has no fair-value view on VTI and defers entirely to BR/BW on sizing and drift-band status.
+No change to the standing "not applicable" treatment. $373.68 (-0.70%). This desk has no fair-value view on VTI and defers entirely to BR/BW on sizing and drift-band status.
 
 ## 4. Vanguard Total International Stock ETF (VXUS) — unchanged, brief refresh only
-No change to the standing "not applicable" treatment. $87.205 (+1.07%). No fair-value case to add or trim. Defer to BR/BW.
+No change to the standing "not applicable" treatment. $85.94 (-1.38%). No fair-value case to add or trim. Defer to BR/BW.
 
 ---
 
-## 5. Energy Select Sector SPDR (XLE) — price-roll on 9/9's rebuilt composite, model unchanged this run
+## 5. Energy Select Sector SPDR (XLE) — composite rebuilt on a second consecutive independent oil-supply shock
 
-Price $64.97 (+0.06%, essentially flat). Brent eased to ~$106.11/bbl today (-1.41% day-over-day per TradingEconomics) off this week's spike above $107, still historically elevated on the live Hormuz war premium — WTI still holds north of $100. No fresh XOM/CVX-specific data point found this run to justify re-running the two-name composite; rolling forward 9/9's rebuild (WACC 10.5%, g 1.5%, weighted composite fair value ≈ $58.9/sh — see 9/9's report or git history for the full CVX+XOM build methodology).
+**What's new since 9/9's build:** Saudi Arabia's East-West crude pipeline (the kingdom's only major non-Hormuz export route, ~5M bbl/day capacity) was shut down after drone attacks launched from Iraq on 9/10-9/11, and **remains shut as of this morning** — the US Energy Secretary says it "should reopen soon," but there is no confirmed reopening date, and prediction markets imply only ~63% odds of resumption by month-end. Brent has continued climbing on top of the standing Hormuz war premium: **~$108-110/bbl this morning** (a 4-month high, +9%+ over the prior week), vs. ~$106 on 9/11 and the ~$95-100 range this desk's 9/9 build treated as the elevated-but-plausible near-term level. WTI holds north of $100-104. CVX (~$208, +1.0%) and XOM (~$163, +1.2%) are both modestly higher on the day, tracking the broader energy-sector risk premium.
 
-vs. $64.97 → **gap ≈ -10.3% overvalued**, essentially flat vs. 9/10's -10.1%.
+**Why this earns a rebuild rather than another price-roll:** this desk's own 7/27 and 8/3 write-ups explicitly said a *widening, not resolving* war-premium is the scenario that "more likely widens the overvaluation gap, not creates a buying opportunity" — and that has been true for weeks. But a fresh, independent supply shock (not just the Hormuz conflict continuing) that is now confirmed *unresolved for a fourth consecutive day* is a genuinely different fact pattern from a single-day price spike: it is exactly the kind of "war premium proves stickier than modeled" development this desk's own key-assumptions section has been watching for since 7/27. Treating a sustained, dual-shock supply disruption as still fitting inside the 9/9 build's long-run reversion path would itself be a discipline failure in the other direction.
 
-### Verdict: **OVERVALUED, gap ≈ -10.3% — verdict and magnitude both essentially unchanged**
-No trim (hedge thesis intact — XLE remains the book's structural hedge against the live Hormuz/tanker-war escalation, now including the overnight Bahrain Fifth Fleet base strike GS flagged this morning), no add (still overvalued on the rebuilt composite even with oil near multi-year highs — this desk's model already prices in an elevated, not merely spot-chasing, long-run energy assumption). Standing self-directed ask unchanged: extend the composite beyond XOM+CVX to 5-8 names for a more complete basket read.
+**Rebuild: long-run Brent reversion assumption raised from ~$70 to ~$75/bbl** (still well below today's $108-110 spot — this remains a mean-reversion model, not a spot-chasing one), holding WACC at 10.5% and terminal growth at 1.5% (both unchanged pending a genuine rate-driven trigger — see below). This is a *calibration* of an already-live "stickier for longer" scenario this desk had flagged as a risk, not a wholesale rebuild from new company-level financials (CVX/XOM 5-yr projections carried forward from the 9/9 build; no new 10-Q/guidance data on either name this week).
 
-### Key assumptions that could break this model (unchanged from 9/9)
-- Upside break: the war premium proves stickier than modeled (Brent holding $95+ through 2027) — today's pullback to ~$106 from >$107 is still well inside that band, not a break.
-- Downside break: a genuine, signed Hormuz de-escalation would collapse the war premium faster than modeled, widening the overvaluation gap.
+**Sensitivity table — composite fair value ($/sh) by long-run Brent reversion assumption and WACC:**
+
+| Long-run Brent → | $60 | $65 | $70 (old base) | **$75 (new base)** | $80 | $85 |
+|---|---|---|---|---|---|---|
+| WACC 9.5% | $57.0 | $60.7 | $64.4 | **$68.1** | $71.8 | $75.5 |
+| WACC 10.5% (base) | $52.3 | $55.6 | $58.9 | **$62.1** | $65.3 | $68.5 |
+| WACC 11.5% | $48.2 | $51.1 | $54.1 | **$57.1** | $60.1 | $63.0 |
+
+vs. $65.835 live → **gap ≈ -6.2% overvalued** at the new base ($62.1, WACC 10.5%) — narrower than 9/11's -10.3%, a genuine fundamentals-driven narrowing, not a rounding artifact.
+
+### Verdict: **OVERVALUED, gap ≈ -6.2% — narrower, direction unchanged**
+No trim (hedge thesis intact and, per GS's independent same-morning read, "finally doing its job" — XLE is green today while NVDA/MU/AVGO are red, exactly the decoupling behavior this hedge was built for). No add (still overvalued even after crediting the sticker-for-longer oil scenario a full $5/bbl of long-run upside — the position remains a defensible-but-not-cheap hedge, not a value buy). Standing self-directed ask unchanged: extend the composite beyond XOM+CVX to 5-8 names for a more complete basket read.
+
+### Key assumptions that could break this model (updated)
+- Upside break (narrows the gap further): the pipeline outage extends past 30 days or a further supply shock lands, forcing another long-run reversion bump — watch the Energy Secretary's "should reopen soon" claim against actual confirmation.
+- Downside break (widens the gap): the pipeline reopens and/or a genuine, signed Hormuz de-escalation materializes — either would collapse the war premium faster than even the old $70 base assumed, since spot is currently running well above even today's revised $75 long-run case.
+- Unchanged: this remains a two-name (CVX+XOM) proxy for a 24-holding basket — a genuine simplification this desk has flagged for six-plus weeks without addressing.
 
 ---
 
-## 0. GE HealthCare (GEHC) — price-roll on yesterday's fresh rebuild, model unchanged this run
+## 0. GE HealthCare (GEHC) — price-roll, model unchanged this run
 
-Price $64.975 (state.md, 9/11 ~09:36 ET, +1.14% on the day, back above the $65 mandatory-revisit line for the first time since 9/9). No new structural development since yesterday's rebuild — WebSearch this run reconfirmed the Patient Care Solutions strategic review is still an open, undecided process (management still evaluating "continued ownership, a sale and other value-enhancing transactions" per the 7/29 Q2 call; PCS ran -13.5% organic and EBIT of -$26M last quarter, ~15% of group revenue) — nothing new since yesterday's §0 rebuild, which already fully incorporated this.
+Price $65.19 (state.md, 9/14 ~09:37 ET, +1.97%, back above the $65 mandatory-revisit line). William Grogan's CFO transition took effect today exactly as already known/priced (routine handoff, no reaction) — not a fresh catalyst per the GEHC structural-break contingency plan's rule 1. The Patient Care Solutions strategic review remains open/undecided; nothing new found this run beyond what the 9/10 rebuild already incorporated.
 
-Base case fair value **$71.16/sh** (WACC 8.5%, g 3% — rebuilt 9/10, unchanged) vs. $64.975 → **≈ +9.5% upside**, narrowing slightly from 9/10's +10.8% purely on today's price recovery back above $65.
+Base case fair value **$71.16/sh** (WACC 8.5%, g 3% — rebuilt 9/10, unchanged) vs. $65.19 → **≈ +9.2% upside**, essentially flat vs. 9/11's +9.5%.
 
-### Verdict: **UNDERVALUED, gap ≈ +9.5% — direction and magnitude essentially unchanged from yesterday's rebuild**
-No trim, no add from this desk's chair. GEHC is already at BR's target satellite weight; the DCF gap alone has never been this book's sole trigger for sizing (rule 6 requires BW's independent risk sign-off too). The PCS strategic review remains the live two-sided catalyst flagged in yesterday's rebuild — still unresolved, still not sized into either direction of this base case.
+### Verdict: **UNDERVALUED, gap ≈ +9.2% — essentially unchanged**
+No trim, no add from this desk's chair. GEHC is already at BR's target satellite weight; the DCF gap alone has never been this book's sole trigger for sizing (rule 6 requires BW's independent risk sign-off too, already on file and unchanged).
 
 ### Key assumptions that could break this model (unchanged from 9/10's rebuild)
-- Upside break: a clean PCS divestiture at a fair-to-generous multiple would remove a negative-margin, declining segment and could be modestly accretive beyond what this base case credits.
-- Downside break: a discounted fire-sale, a multi-quarter distracting process, or continuing to subsidize a shrinking, negative-margin PCS segment would each pull fair value down from this base case.
+- Upside break: a clean PCS divestiture at a fair-to-generous multiple would remove a negative-margin, declining segment.
+- Downside break: a discounted fire-sale, a multi-quarter distracting process, or continuing to subsidize a shrinking, negative-margin PCS segment would each pull fair value down.
 - Net-debt data gap, unchanged: the ~$8.0B figure is BW's 10-Q-sourced number from 8/20, not re-verified this run.
-- Rate sensitivity: see the rate-sensitivity note above — GEHC's WACC is the single most consequential lever in this model (a full point moves fair value $10-25/sh), and today's ~4.95% risk-free reading is the closest any of this desk's models has come to a genuine rate-driven WACC nudge, though still short of the "sustained above 5% for a week" bar this desk has set for a rebuild trigger.
+- Rate sensitivity: GEHC's WACC remains the single most consequential lever in this model (a full point moves fair value $10-25/sh); today's ~4.96-4.99% reading is a third consecutive report at the "cusp of 5%" without crossing it — still short of this desk's "sustained above 5% for a week" rebuild trigger.
 
 ---
 
-## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-09-11 ~09:44 ET report)
-GS's rank-1 slot remains XLE (already held) — no separate not-held name requires a build this cycle. GS independently corroborates this desk's own read: the 10yr's move to "cusp of 5%" is the most consequential macro fact of the morning (GS frames rule 6a's pause as "further from lifting" for a second consecutive week, consistent with this desk's own rate-sensitivity framing above), and the overnight Bahrain Fifth Fleet base strike is a genuine escalation-category change this desk is folding into XLE's hedge-thesis-intact framing rather than into the composite DCF itself (a geopolitical risk premium, not a cash-flow fundamental). GS also flags PTCT's post-guidance-raise pullback as a live, not-yet-cross-vetted setup worth this desk opening a DCF on if it persists — noted for a future run, no action this cycle (not a held name, no rule-6 gate cleared).
+## Rate-sensitivity note (applies across all four priced models)
+Risk-free rate (10yr Treasury) reads **~4.96-4.99%** this morning — a third consecutive report sitting at the "cusp of 5%," per CNBC, without a confirmed close above it (last time the 10yr traded at 5% was October 2023). This desk's stated rebuild trigger — a settled close above 5%, held for a full week — is **still not met**. No base-case WACC is being moved on any of the four priced models this run for rate reasons alone; XLE's rebuild above is oil-driven, not rate-driven. If the 10yr does cross and hold above 5% this week (the Fed decision lands Wednesday), that is the trigger for a coordinated WACC rebuild across all four priced models.
+
+---
+
+## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-09-14 ~09:42 ET report)
+GS's rank-1 slot remains XLE (already held) — no separate not-held name requires a build this cycle. GS independently corroborates both of this desk's live calls: it frames today's AI-slowdown selloff as "a first-of-its-kind" narrative risk from the industry's own leadership (not a regulator or short-seller), consistent with this desk's own "sentiment shock, not fundamentals shock" framing on NVDA; and it separately flags the Saudi pipeline outage as "meaningfully worse for the held XLE hedge's bull case than anything in the 9/11 report," consistent with the oil-driven rebuild above. GS also flags CRWD as a genuinely differentiated AI-security name that sold off less than the rest of the complex today — noted, not actionable (rule 6 never opened on CRWD).
 
 ## Explicit read on trader's current positions (all six: NVDA, OMCL, VTI, VXUS, XLE, GEHC)
-**GEHC**: hold, no trim, no add — DCF gap ~9.5% undervalued (narrowed slightly on today's price recovery), model unchanged since yesterday's rebuild.
-**NVDA**: hold, no add, no trim — base-case DCF gap ~6.1% overvalued, essentially flat. New DOJ/Groq licensing-probe risk flag, not yet quantifiable.
-**OMCL**: hold, no add from this desk's chair — DCF discount at a new widest-recorded level (~63.9%). The DCA plan's own profit-threshold gate remains the actual timing mechanism.
+**NVDA**: hold, no add, no trim — DCF gap collapsed to ~-1.6% (essentially fair value) on the AI-slowdown selloff; model itself unchanged, this was a price move closing a valuation gap, not new cash-flow information.
+**OMCL**: hold, no add from this desk's chair — DCF discount ~62.0% upside, essentially flat. The DCA gate remains the actual timing mechanism (currently loss-gated).
 **VTI / VXUS**: hold, no valuation view — diversified core-sleeve holdings, not DCF calls. Defer to BR/BW on drift-band status.
-**XLE**: hold, no trim, no add — composite fair value ≈ $58.9/sh, gap ≈ -10.3%, essentially flat vs. 9/10.
+**XLE**: hold, no trim, no add — composite fair value raised to ≈$62.1/sh on a genuine second oil-supply shock, gap narrows to ≈-6.2% (still overvalued).
+**GEHC**: hold, no trim, no add — DCF gap ~9.2% undervalued, essentially unchanged.
 
 ---
 
 Sources:
-- [Global Bond Selloff Sends 10-Year Treasury Yields to Cusp of 5% - Bloomberg](https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5)
-- [US 10 Year Treasury Note Yield - Trading Economics](https://tradingeconomics.com/united-states/government-bond-yield)
-- [NVIDIA (NVDA) Stock Price, Quote, News & History - Benzinga](https://www.benzinga.com/quote/NVDA)
-- [Omnicell, Inc. (OMCL) Latest Stock News & Headlines - Yahoo Finance](https://finance.yahoo.com/quote/OMCL/news/)
-- [GE HealthCare could sell Patient Care Solutions biz as it reorganizes - MassDevice](https://www.massdevice.com/ge-healthcare-could-sell-patient-care-solutions-biz-as-it-reorganizes/)
-- [GE HealthCare PCS: A Stronger Asset - Signify Research](https://www.signifyresearch.net/insights/ge-healthcares-patient-care-solutions-review-a-stronger-asset-than-the-numbers-suggest/)
-- [Oil Just Topped $109. Is It Too Late to Buy Chevron (CVX)? - The Motley Fool](https://www.fool.com/investing/2026/09/10/oil-just-topped-usd109-is-it-too-late-to-buy-chevron-cvx-history-has-a-clear-answer/)
-- [Brent oil - Price - Trading Economics](https://tradingeconomics.com/commodity/brent-crude-oil)
-- Internal: trading-experiment/state.md (09:36 ET), analysts/gs-stock-screener.md (9/11 ~09:44 ET), analysts/bw-risk-assessment.md (9/10 ~14:41 ET), analysts/br-portfolio-builder.md (9/10 ~16:11 ET), analysts/jpm-earnings-analyzer.md (9/11)
+- ["We Must Pace the Frontier" — Anthropic essay coverage - Washington Post, 2026-09-12](https://www.washingtonpost.com)
+- [AI stocks slide after Anthropic, OpenAI CEOs urge slowdown - CNBC, 2026-09-14](https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html)
+- [Stock market today: Nasdaq futures fall as Anthropic's AI warning spooks tech traders, oil prices jump - Yahoo Finance, 2026-09-14](https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html)
+- [Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq - CNBC, 2026-09-11](https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html)
+- [Saudi pipeline outage continuing, reopening timeline uncertain - Bloomberg, 2026-09-14](https://www.bloomberg.com)
+- [Brent crude - Trading Economics, 2026-09-14](https://tradingeconomics.com/commodity/brent-crude-oil)
+- [10-year Treasury yield nears 5% ahead of Fed rate decision this week - CNBC, 2026-09-14](https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html)
+- [GE HealthCare appoints William Grogan as Chief Financial Officer - GE HealthCare IR](https://investor.gehealthcare.com/news-releases/news-release-details/ge-healthcare-appoints-william-grogan-chief-financial-officer)
+- Internal: trading-experiment/state.md (9/14 ~09:37 ET), analysts/gs-stock-screener.md (9/14 ~09:42 ET), analysts/bw-risk-assessment.md (9/11 ~14:43 ET), analysts/br-portfolio-builder.md (9/11 ~16:11 ET), analysts/jpm-earnings-analyzer.md (9/14 ~09:2x ET)

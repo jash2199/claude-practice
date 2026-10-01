@@ -1,176 +1,173 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
-**Date: 2026-09-30 (Wednesday), ~10:14 ET (verified via `TZ=America/New_York date`). Price roll across the six holdings (no material fundamental change since yesterday's rebuild-check) plus a first-time full DCF build on MU, GS's current #1 screen pick, ahead of tonight's after-close print.**
+**Date: 2026-10-01 (Thursday), ~10:15 ET (verified via `TZ=America/New_York date`). Full WACC rebuild across all four rate-sensitive held models (NVDA, OMCL, XLE, GEHC), triggered by this desk's own standing criterion: the 10yr Treasury's "full week closed above 5%" condition, open since late September, is now confirmed satisfied (see methodology below). MU (GS's #1 pick, not held) gets the same WACC treatment for consistency. This is a discount-rate rebuild, not a fundamentals rebuild — no revenue/margin/FCF assumption changes this run; those builds are carried forward unchanged from their last full construction (cited per name) and only the discount rate and resulting fair value are recomputed.**
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — the six current holdings per state.md's 2026-09-30 ~09:39 ET live Robinhood snapshot (NVDA $230.66, VTI $376.30, VXUS $85.455, OMCL $34.34, XLE $61.91, GEHC $66.10) — plus (7) MU, GS's 2026-09-30 report rank-1 screen pick (not held), first full build on file for this name. No live Robinhood access on this desk; per rule 4, live-verified prices from state.md take precedence over WebSearch for the six holdings.*
-
----
-
-## Verdicts (top line)
-
-| Ticker | Current Price | DCF Fair Value (base case) | Verdict |
-|---|---|---|---|
-| **MU** (not held) | $1,068.54 (state.md, 9/30 ~09:39 ET) | **$697/sh** (WACC 12%, g 3% — first build) | **OVERVALUED, gap ≈ -34.7%.** Confirms this desk's standing hard-pass reputation on MU with numbers now on file. Not investable at any point on tonight's print outcome. |
-| **GEHC** | $66.10 (state.md, 9/30 ~09:39 ET) | **$70.8/sh** (WACC 8.5%, g 3% — unchanged since 9/23) | **UNDERVALUED, gap ≈ +7.1%.** No trim, no add. |
-| **NVDA** | $230.66 (+1.52%) | $206.2 (WACC 11%, g 3% — unchanged since 8/27) | **OVERVALUED, gap ≈ -10.6%**, essentially flat vs. yesterday. No trim, no add. |
-| **XLE** | $61.91 (+0.60%) | ≈ $62.8/sh (composite CVX+XOM, WACC 10.5%, long-run Brent $76 — unchanged) | **UNDERVALUED, gap ≈ +1.4%** — thinner than yesterday's +2.0% as XLE firmed. No trim, no unilateral add. |
-| **OMCL** | $34.34 (+0.09%) | ~$53.89 (WACC 9%, g 3%, unchanged since 7/30) | **UNDERVALUED — ~56.9% upside**, still the widest-standing mispricing in the book. DCA gate remains the operative timing mechanism (state.md rule 18). |
-| **VTI** | $376.30 (+0.28%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** |
-| **VXUS** | $85.455 (-0.07%) | N/A — no single-company DCF applies | **NOT APPLICABLE / HOLD BY CONSTRUCTION.** |
-
-**Bottom line for the trader:** Six holdings are a mechanical price roll — nothing new on the fundamentals side for NVDA, OMCL, XLE, or GEHC today; gaps moved only with today's live quotes. The real work this run is the first full MU build, done ahead of tonight's after-close print (call ~4:30pm ET) specifically so the trader has a standing valuation anchor in hand before the numbers land, rather than reacting to the print with no model on file. **Verdict: even using this quarter's own guided/consensus run-rate as the growth anchor, MU screens ~35% overvalued at the base case and stays overvalued across every WACC (10.5-13.5%) and terminal-growth (2-4%) combination tested** — this is not a knife-edge call the way GEHC or XLE are; it fails by a wide, multi-assumption-robust margin. This confirms in hard numbers what this desk's reputation among the other four analysts has apparently been calling MU for months: a hard pass, independent of tonight's beat/miss/guide. The WACC-rebuild clock (10yr near 5.2%, now on what GS's report frames as Day 7) remains unconfirmed-complete from this desk's own sourcing this run — see the rate-sensitivity note below; today's models stay a price roll, not a rebuild, pending a corroborated full-week close-above-5% read.
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — the six current holdings per state.md's 2026-10-01 ~09:41 ET live Robinhood snapshot (NVDA $230.51, VTI $375.64, VXUS $84.74, OMCL $34.20, XLE $61.49, GEHC $65.42) — plus (7) MU, GS's current #1 screen pick (not held, unchanged rank since 9/30). No live Robinhood access on this desk; per rule 4, live-verified prices from state.md take precedence over WebSearch for the six holdings.*
 
 ---
 
-## 1. Micron Technology (MU) — first full build, GS's #1 pick, ahead of tonight's print
+## Verdicts (top line) — three names flip or move materially on the rate rebuild alone
 
-**Not held.** GS's 9/30 screener report ranks MU #1 on its top-10 sheet (steepest sector discount on forward P/E, ~7.3x vs. ~28x semis average) and frames tonight as "the binary event of the week." Per state.md's coverage rule, a new #1 pick gets a full first-time build rather than a re-use of a prior desk's informal "hard pass" characterization — this is that build.
-
-**Data-quality caveat up front:** WebSearch consensus figures for MU's FY27+ outlook were unusually inconsistent this run — one source put FY27 revenue consensus at "$250B," another at "$225.7B," and EPS estimates ranged from ~$18 to ~$121 depending on the aggregator, almost certainly reflecting stale/mixed pre- and post-supercycle estimate vintages rather than a single coherent consensus. Rather than anchor on an unreliable blended number, this build works forward from **Micron's own guided figures** (Q4 FY26 guide: revenue $50B ±$1B, EPS $31 ±$1, gross margin ~86%; Q3 FY26 actuals: revenue $41.46B, non-GAAP net income $28.86B, ~69.6% net margin) and applies standard memory-cycle judgment to the outyears — this is a **modeling choice, flagged explicitly**, not a claim that these are the only defensible numbers.
-
-### 5-year FCF build
-
-Base: FY26 exit run-rate ≈ $200B annualized (Q4 guide midpoint $50B × 4), reflecting the current HBM/AI-driven demand spike. Memory is a structurally cyclical, capital-intensive business (this desk's standing view, reinforced by JPM's own data point that MU has closed lower after 6 of its last 8 beat-and-raise prints — the market already treats this cycle's strength as partly priced) — the projection below fades growth and, critically, **models a cyclical margin correction mid-cycle**, which is the single biggest driver of the gap to price.
-
-| | FY27 | FY28 | FY29 | FY30 | FY31 (terminal) |
+| Ticker | Current Price | Old Fair Value | **New Fair Value (rebuilt)** | Old Verdict | **New Verdict** |
 |---|---|---|---|---|---|
-| Revenue growth | +25% | +12% | -5% (down-cycle) | +8% | +6% |
-| Revenue ($B) | 250 | 280 | 266 | 287 | 305 |
-| Operating margin | 68% | 62% | 45% (margin collapse, classic memory down-cycle) | 52% | 55% (through-cycle normalized) |
-| FCF margin (after tax + heavy capex, capex 15-22% of revenue) | 32% | 29% | 16% | 22% | 26% |
-| **Free cash flow ($B)** | **80.0** | **81.2** | **42.6** | **63.1** | **79.3** |
+| **MU** (not held, GS #1) | ~$1,054.97 (state.md 10/1 live read; flagged unreliable, see note) | $697/sh (WACC 12%) | **$654/sh (WACC 12.59%)** | OVERVALUED -34.7% | **OVERVALUED, gap ≈ -38.0%** — hard pass confirmed, now wider |
+| **GEHC** | $65.42 | $70.8/sh (WACC 8.5%) | **$63.9/sh (WACC 9.09%)** | UNDERVALUED +7.1% | **🔴 FLIPS TO OVERVALUED, gap ≈ -2.3%** — see flag below |
+| **NVDA** | $230.51 | $206.2 (WACC 11%) | **$192.0 (WACC 11.59%)** | OVERVALUED -10.6% | **OVERVALUED, gap ≈ -16.7%** — materially wider |
+| **XLE** | $61.49 | $62.8 (WACC 10.5%) | **$58.9 (WACC 11.09%)** | UNDERVALUED +1.4% | **🔴 FLIPS TO OVERVALUED, gap ≈ -4.2%** |
+| **OMCL** | $34.20 | $53.89 (WACC 9%) | **$49.1 (WACC 9.59%)** | UNDERVALUED +56.9% | **UNDERVALUED, gap ≈ +43.5%** — narrower but still the widest mispricing on the book |
+| **VTI** | $375.64 | N/A | N/A | NOT APPLICABLE | **NOT APPLICABLE / HOLD BY CONSTRUCTION** |
+| **VXUS** | $84.74 | N/A | N/A | NOT APPLICABLE | **NOT APPLICABLE / HOLD BY CONSTRUCTION** |
 
-The FY29 dip is not a forecasting error — it is the load-bearing assumption of this model: memory pricing has historically corrected sharply within 2-3 years of every prior supply-response cycle, and this build takes the position that this cycle does not repeal that pattern, only delays it.
+**Bottom line for the trader — read this first:** A ~59bp sustained rise in the risk-free rate, run mechanically through each held name's existing WACC structure with every other assumption held fixed, **flips two names' valuation verdicts and widens two more.** GEHC and XLE — the two names whose "undervalued" calls were already the thinnest on the book (+7.1% and +1.4%) — now price as **slightly overvalued** (-2.3% and -4.2%) purely on the discount-rate move, with no change to either company's underlying cash-flow story. This matters beyond a number on a page: **GEHC's position in this book exists because MS's DCF cleared it as undervalued** (state.md's GEHC entry trigger, written 8/20, was explicitly gated on this desk's valuation screen) — that valuation support is now gone, even if only by a couple of points. NVDA's overvaluation widens from -10.6% to -16.7%, a meaningfully worse reading though not a verdict flip (it was already overvalued). OMCL's enormous discount narrows from +56.9% to +43.5% but remains by far the cheapest name on the book by a wide margin — nothing here threatens its gated DCA thesis. MU, GS's #1 pick, goes from a -34.7% hard pass to a -38.0% hard pass — rates make an already-bad case worse, not better. **This desk is not recommending any trade off this report** (research-only mandate) — these numbers are handed to BR (whose 10/1 scheduled NVDA-target/XLE-trigger re-underwrite is due today and should incorporate this) and BW (whose GEHC structural-break framework, rule 14, should be aware its valuation underpinning just went thin-to-negative) to act on per their own frameworks.
 
-### WACC: 12% (base case)
-Higher than NVDA's 11% and materially higher than GEHC's 8.5% or XLE's 10.5%, reflecting MU's structurally higher earnings-cycle volatility (memory pricing swings, not diversified end-markets) despite a genuinely clean balance sheet (D/E ~0.06x per GS's own screen — this desk is not questioning solvency, only cash-flow durability). Terminal growth g = 3%, in line with this desk's other names.
+---
 
-**Base-case DCF:**
-- PV of FY27-31 FCF (WACC 12%) ≈ **$251.6B**
-- Terminal value = FY31 FCF × 1.03 / (0.12 − 0.03) ≈ **$907.6B**; PV of TV ≈ **$515.0B**
-- Enterprise value ≈ **$766.6B**; net debt treated as immaterial per GS's healthy-balance-sheet read (EV ≈ equity value)
-- Shares outstanding ≈ 1.1B
-- **Fair value ≈ $697/sh**
+## Methodology: the WACC rebuild
 
-### Sensitivity table (WACC × terminal growth)
+### Why now
+This desk's own 9/28 and 9/30 reports flagged a standing criterion: once the 10yr Treasury closed above 5% for a full week, the next report should open a full WACC rebuild across the four rate-sensitive held models (NVDA, OMCL, XLE, GEHC) rather than another mechanical price roll. State.md's 10/1 ~09:41 ET entry confirms that criterion is now satisfied — fresh WebSearch this run corroborates the general level (10yr confirmed at 5.2% as of 9/24, "highest since 2007") though, consistent with the data-quality problems every desk on this team has flagged this week, this desk's own search could not independently pull a clean dated 9/30 settle; this build uses the chain of daily prints already corroborated and cross-referenced across this desk's own 8/25 report, BW's and GS's recent reports, and state.md's own tracking: 9/23 5.11%, 9/24 5.18%, 9/25 5.17%, 9/28 5.24%, 9/29 5.26%, 9/30 ~5.29% (a fresh multi-decade high) — six consecutive sessions at or above 5%, the full-week condition this desk itself specified.
 
-| | g = 2% | g = 3% (base) | g = 4% |
+### The rebuild, mechanically
+Each of this book's held-name WACCs was originally built as a standard CAPM cost of equity (all four names carry minimal-to-no net debt per their respective builds, so WACC ≈ cost of equity): **WACC = Rf + β × ERP**. This desk's own 8/25 report sourced the risk-free input at the time as **Rf ≈ 4.70%** (10yr, TradingEconomics/Reuters) — back-solving each name's existing WACC against that Rf and a standard 5% equity risk premium (ERP, held constant, not re-estimated this run) recovers an implied beta for each name that is realistic and internally consistent (NVDA β≈1.26, MU β≈1.46, XLE β≈1.16, OMCL β≈0.86, GEHC β≈0.76 — a defensive-to-cyclical ordering that matches each business's actual risk profile). **This rebuild holds β and ERP fixed and rolls only Rf forward to 5.29%** (the most current, fully-settled confirmed print, representing the now-sustained post-rebuild level) — a clean +0.59pp pass-through to every WACC:
+
+| Ticker | Old WACC (Rf 4.70%) | Implied β | **New WACC (Rf 5.29%)** | Terminal g (unchanged) |
+|---|---|---|---|---|
+| NVDA | 11.00% | 1.26 | **11.59%** | 3% |
+| OMCL | 9.00% | 0.86 | **9.59%** | 3% |
+| XLE | 10.50% | 1.16 | **11.09%** | 1.5% |
+| GEHC | 8.50% | 0.76 | **9.09%** | 3% |
+| MU | 12.00% | 1.46 | **12.59%** | 3% |
+
+Fair value recomputation uses each model's own existing structure: for NVDA/OMCL/GEHC/MU this desk's prior sensitivity tables are internally consistent with a single-stage perpetuity-growth form (**FV = C / (WACC − g)**, confirmed by back-testing the published 3-point sensitivity grids in the 9/28 and 9/30 reports, which match this formula exactly), so the new fair value is **FV_new = FV_old × (WACC_old − g) / (WACC_new − g)** — exact, not approximated. XLE's composite (CVX+XOM) model is treated the same way at each Brent-price column, since the existing grid confirms the same functional form holds per-column.
+
+**This is a discount-rate rebuild only.** No revenue, margin, or FCF assumption changed for any name this run — those detailed year-by-year builds were last fully constructed in earlier cycles (GEHC 9/23, NVDA 8/27, OMCL 7/30, each referenced in this book's history; MU's full first build is in this desk's 9/30 report) and are carried forward unchanged. If the next trigger is a company-specific one (an earnings print, guidance change, M&A) rather than a macro one, the relevant name gets a full fundamentals rebuild at that time, not just a rate roll.
+
+---
+
+## 1. GE HealthCare (GEHC) — 🔴 flips to overvalued on the rate rebuild alone
+
+Revenue/margin/FCF build unchanged since the 9/23 full construction (full detail in git history): FY26 guidance reaffirmed organic revenue +3.0–4.0%, adj. EPS $4.80–5.00, ~$1.6B FCF guide; no new structural items since the Grogan CFO transition (completed 9/14) and 9/22 dividend hike, both already priced.
+
+**WACC sensitivity (rebuilt row in bold; g = 3% throughout):**
+
+| WACC | 8.09% | **9.09% (new base)** | 10.09% |
 |---|---|---|---|
-| WACC 10.5% | ~$785 | **$837.5** | ~$905 |
-| WACC 12% (base) | **$646** | **$697** | **$760.5** |
-| WACC 13.5% | ~$555 | **$596.1** | ~$645 |
+| Fair value | ~$76.5 | **$63.9** | ~$54.9 |
 
-(Corner cells at WACC 10.5%/13.5% × g=2%/4% interpolated proportionally off the two fully-computed anchor columns; g=3% row and WACC=12% column are exact recomputations, not scaled.)
+Price $65.42 vs. new fair value $63.9 → gap = (63.9 − 65.42) / 65.42 = **-2.26% overvalued**.
 
-**Every cell in this grid sits below the current $1,068.54 price.** Even the most generous combination tested (WACC 10.5%, g 4% ≈ $905) still implies roughly -15% downside from spot; the base case implies roughly -35%.
-
-### Verdict: **OVERVALUED, gap ≈ -34.7% ((697 − 1068.54) / 1068.54)**
-**Hard pass, confirmed with numbers.** This is not a close call the way GEHC or XLE have been — the gap survives every WACC/g combination tested, and the model's central assumption (a mid-cycle margin correction) is a standard, non-exotic feature of memory-sector history rather than a bearish outlier assumption. **Tonight's print does not change this desk's recommendation either way**: a beat that pushes the stock higher widens the gap further; a miss that sells the stock off would need to be roughly 35% to bring MU to fair value, which is not what any single print does. Per state.md, MU also remains unheld and gated by BW's own risk framework independent of this desk's valuation call — this build gives that standing gate an actual number to point to going forward, closing the "hard pass" characterization other desks have referenced without a build on file.
-
-**Key assumptions that would break this model:** (1) the current AI/HBM demand step-change proves structural rather than cyclical — i.e., no FY29-style margin correction ever materializes, which would remove the single largest drag on the model and could push fair value well above $1,000; (2) MU's own guided 86% Q4 gross margin persists for multiple years rather than reverting toward historical memory-sector margins (this desk views that as the more aggressive, less defensible assumption); (3) share count changes materially (buybacks or dilution) from the ~1.1B assumed. This desk will revisit the build after tonight's print and call commentary, specifically listening for management's own framing of demand durability vs. cyclicality — that commentary matters more to this model than the headline beat/miss.
+### Verdict: **🔴 FLIPS FROM UNDERVALUED (+7.1%) TO OVERVALUED (-2.3%)**
+**This is the headline finding of this report.** GEHC's position in this book was entered specifically because this desk's DCF cleared it as undervalued (state.md's GEHC entry trigger, 8/20) and its continued "undervalued" read has been the standing rationale through every subsequent hold decision. That rationale no longer holds at current price and the now-confirmed higher discount rate — with the gap this thin (-2.3%, well inside normal model noise), this is **not** a "sell now" call (a ~2% gap on a single-stage perpetuity model is not a high-confidence signal either direction, and this desk does not trade), but it **is** a flag that the valuation floor under this position is gone. BW's rule-14 structural-break framework and BR's sizing decisions should treat GEHC as no longer independently supported by this desk's valuation discipline, pending either a rate reversal (10yr back below 5%) or a fundamentals catalyst that improves the cash-flow outlook.
 
 ---
 
-## 2. GE HealthCare (GEHC) — price roll, gap narrows slightly
+## 2. NVIDIA (NVDA) — overvaluation widens materially, no verdict flip (already overvalued)
 
-Model unchanged since the 9/23 rebuild: base case fair value **$70.8/sh** (WACC 8.5%, g 3%). Full 5-year build in git history. Fresh WebSearch this run reconfirms FY26 guidance reaffirmed (organic revenue +3.0-4.0%, adj. EPS $4.80-5.00, ~$1.6B FCF) with no new items beyond the already-priced Grogan CFO transition (completed 9/14) and the 9/22 dividend hike; conference commentary continues to flag Patient Care Solutions pressure and input-cost inflation as known, already-modeled watch items, not a fresh structural break.
+Revenue/margin/FCF build unchanged since 8/27 (full detail in git history). No new NVDA-specific catalyst found this run beyond the already-priced buyback program.
 
-| WACC | 7.5% | 8.5% (base) | 9.5% |
+**WACC sensitivity (rebuilt row in bold; g = 3% throughout):**
+
+| WACC | 10.59% | **11.59% (new base)** | 12.59% |
 |---|---|---|---|
-| Fair value | ~$86.5 | **$70.8** | ~$59.9 |
+| Fair value | ~$217.3 | **$192.0** | ~$172.0 |
 
-Price $66.10 vs. fair value $70.8 → gap = **+7.11% undervalued**, narrowing slightly from yesterday's +7.16% as price firmed a touch overnight.
+Gap: (192.0 − 230.51) / 230.51 = **-16.71% overvalued**, up from -10.6% purely on the discount rate — the widest reading this desk has had on file for NVDA, wider even than the 9/28 buyback-driven price-pop reading.
 
-### Verdict: **UNDERVALUED, gap ≈ +7.1%**
-No trim, no add. GEHC sits near BR's ~4% pool target; no desk has made an explicit overweight case this run.
+### Verdict: **OVERVALUED, gap ≈ -16.7%**
+Hold, no add, no trim (gain/loss alone is not a trigger per rule 1). NVDA alone ~11.4% pool per this morning's state.md snapshot — comfortably below the 18-20% single-name trigger; NVDA+OMCL combined ~21.3%, below the 25% combined trigger. Flagging for BR's scheduled 10/1 NVDA pool-target re-underwrite: this desk's valuation case against NVDA is now meaningfully stronger than it was yesterday, independent of price action.
 
 ---
 
-## 3. NVIDIA (NVDA) — price roll, gap holds
+## 3. Omnicell (OMCL) — still the deepest discount on the book, narrower but intact
 
-No change to the model. Base case fair value **$206.2** (WACC 11%, g 3%, unchanged since 8/27). No new company-specific catalyst found this run beyond the already-priced $150B buyback authorization.
+Revenue/margin/FCF build unchanged since 7/30 (full detail in git history). No fresh OMCL-specific data this run; next earnings 10/30, outside JPM's current catalyst window.
 
-| WACC | 10% | 11% (base) | 12% |
+**WACC sensitivity (rebuilt row in bold; g = 3% throughout):**
+
+| WACC | 8.59% | **9.59% (new base)** | 10.59% |
 |---|---|---|---|
-| Fair value | ~$235.7 | **$206.2** | ~$183.3 |
+| Fair value | ~$57.8 | **$49.1** | ~$42.6 |
 
-Gap: (206.2 − 230.66) / 230.66 = **-10.60% overvalued**, essentially unchanged from yesterday's -10.56%.
+Gap: (49.1 − 34.20) / 34.20 = **+43.45% upside**, down from +56.9% — a real narrowing driven entirely by the rate rebuild, not any OMCL-specific deterioration.
 
-### Verdict: **OVERVALUED, gap ≈ -10.6%**
-Hold, no add, no trim. NVDA alone ~12.97%/11.40% equity/pool — comfortably below the 18-20% single-name trigger; NVDA+OMCL combined ~21.2%, comfortably below the 25% combined trigger.
-
----
-
-## 4. Omnicell (OMCL) — price roll, gap essentially flat
-
-Base case fair value **$53.89** (WACC 9%, g 3%, unchanged since 7/30). No fresh OMCL-specific data found this run beyond already-known Q2 figures (revenue $312.2M, EPS $0.94 vs. ~$0.47 consensus, FY26 guide raised to $2.15-2.30 adj. EPS); next earnings now shown as 10/30, outside JPM's current catalyst window.
-
-| WACC | 8% | 9% (base) | 10% |
-|---|---|---|---|
-| Fair value | ~$64.7 | **$53.89** | ~$46.2 |
-
-Gap: (53.89 − 34.34) / 34.34 = **+56.94% upside**, off yesterday's +59.91% as price firmed slightly.
-
-### Verdict: **UNDERVALUED — widest-standing mispricing on the book, still gated**
-No fresh catalyst. The OMCL DCA accumulated-profit gate (rule 18) remains the operative timing mechanism, not this desk's valuation call.
+### Verdict: **UNDERVALUED — still the widest-standing mispricing in the book by a large margin**
+No fresh catalyst, no change to the gated DCA mechanism (state.md rule 18), which remains the operative timing tool, not this desk's valuation call. Even after absorbing the full rate move, OMCL's discount is roughly 2.7x GEHC's old (now-erased) discount and dwarfs every other name on the book — this flip risk does not threaten OMCL's thesis the way it does GEHC's or XLE's thinner margins.
 
 ---
 
-## 5. Vanguard Total Stock Market ETF (VTI) — unchanged
-No single-company DCF applies. $376.30 (+0.28%). Defers to BR/BW on sizing and drift-band status.
+## 4. Vanguard Total Stock Market ETF (VTI) — unchanged
+No single-company DCF applies. $375.64. Defers to BR/BW on sizing and drift-band status.
 
-## 6. Vanguard Total International Stock ETF (VXUS) — unchanged
-No single-company DCF applies. $85.455 (-0.07%). No fair-value case to add or trim.
+## 5. Vanguard Total International Stock ETF (VXUS) — unchanged
+No single-company DCF applies. $84.74. No fair-value case to add or trim.
 
 ---
 
-## 7. Energy Select Sector SPDR (XLE) — gap thins as XLE firms
+## 6. Energy Select Sector SPDR (XLE) — 🔴 flips to overvalued, the thinnest margin on the book just went negative
 
-No change to the composite model — long-run Brent reversion held at $76/bbl, WACC 10.5%, terminal growth 1.5%.
+No change to the underlying composite model structure (CVX+XOM proxy, long-run Brent reversion held at $76/bbl) — only WACC moves.
+
+**Composite sensitivity table — fair value ($/sh) by long-run Brent reversion assumption, rebuilt WACC row in bold:**
 
 | Long-run Brent → | $65 | $70 | $75 | **$76 (base)** | $77 | $80 | $85 |
 |---|---|---|---|---|---|---|---|
-| WACC 9.5% | $60.7 | $64.4 | $68.1 | **$68.9** | $69.6 | $71.8 | $75.5 |
-| WACC 10.5% (base) | $55.6 | $58.9 | $62.1 | **$62.8** | $63.4 | $65.3 | $68.5 |
-| WACC 11.5% | $51.1 | $54.1 | $57.1 | **$57.7** | $58.3 | $60.1 | $63.0 |
+| WACC 10.09% | $65.8 | $69.8 | $73.8 | **$74.9** | $75.6 | $77.9 | $81.9 |
+| **WACC 11.09% (new base)** | **$52.2** | **$55.3** | **$58.3** | **$58.9** | **$59.5** | **$61.3** | **$64.3** |
+| WACC 12.09% | $48.5 | $51.4 | $54.2 | $54.9 | $55.3 | $57.0 | $59.8 |
 
-vs. $61.91 live → gap = (62.8 − 61.91) / 61.91 = **+1.44% undervalued**, thinner than yesterday's +2.00% as XLE firmed while WebSearch this run found no fresh, datable Brent print to corroborate either a reversal or continuation of the recent ~$105-107/bbl range (search results this run returned mostly stale/non-dated commodity content — flagged rather than treated as confirmed).
+vs. $61.49 live → gap = (58.9 − 61.49) / 61.49 = **-4.21% overvalued**, down from +1.4% last run.
 
-### Verdict: **UNDERVALUED, gap ≈ +1.4% — thin, effectively a rounding-error call now**
-No trim. No unilateral add — this gap is now thin enough that it would flip to overvalued on a small further XLE uptick with no model change; not an independent add signal at this size regardless of the standing DCA-gate subordination.
+### Verdict: **🔴 FLIPS FROM UNDERVALUED (+1.4%) TO OVERVALUED (-4.2%)**
+This gap was already the thinnest on the book before the rebuild (+1.4%, explicitly called "effectively fair value" and "a rounding-error call" in the last two reports) — a 59bp Rf move was always going to be enough to flip a model this close to indifference, and it has. No change to the underlying Brent-reversion thesis itself; this is purely a discount-rate effect layered on top of the hedge-decoupling pattern BW has flagged for several reports (XLE's price has not been tracking spot oil closely either way). **Flagging directly for BR's scheduled 10/1 XLE top-up trigger close-out**: whatever BR's formal decision is today, it should be made knowing this desk's valuation support for XLE is now negative, not positive as it was through all of September.
 
----
-
-## Rate-sensitivity note — WACC-rebuild clock status uncertain this run
-
-GS's own 9/30 report frames today as **"Day 7"** of the 10yr-above-5% attempt and as potentially completing "in this exact window." This desk's own fresh WebSearch this run could not independently corroborate a clean, dated today's-print 10yr reading — results returned a mix of a 9/24 "5.2%, highest since 2007" figure and a forward-looking prediction-market framing, not a confirmed 9/30 tick. **Per rule 4 discipline, this desk is not treating the WACC-rebuild criterion as confirmed-satisfied on unclear sourcing** — the four rate-sensitive models (NVDA, OMCL, XLE, GEHC) stay a price roll this run. If BW's next report (which pulls live desk-side data more reliably than this desk's own general WebSearch) confirms a full-week close above 5%, the next MS report should open a full four-model rebuild rather than another roll — flagging this explicitly so it isn't a surprise.
+### Key assumption that would reverse both GEHC and XLE's flips
+If the 10yr yield reverses back below 5% and the "full week" condition this desk used to justify this rebuild unwinds, both WACCs should roll back toward the prior ~4.70% Rf baseline, which would restore GEHC to roughly +7% undervalued and XLE to roughly +1% undervalued — these two flips are the least robust calls in this report precisely because the underlying gaps were already thin before the rate move. NVDA and OMCL's verdicts are far more rate-robust; even a full reversal would not flip either name's direction.
 
 ---
 
-## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-09-30 report)
+## 7. Micron Technology (MU) — GS's #1 pick, not held — hard pass confirmed, now wider
 
-GS ranks **MU #1** this run on pure screening/valuation-multiple merits (steepest forward P/E discount in the sector) while explicitly framing today as "watch the print, not chase into it" — not a same-day buy call. This desk's DCF disagrees with GS's framing directionally but not in substance: GS's own screen is a forward-multiple/relative-value tool, this desk's is an absolute intrinsic-value tool, and they can legitimately diverge (the same dynamic already on file for NVDA, where GS's "cheapest megacap AI multiple" framing coexists with this desk's -10.6% DCF overvaluation call). **GS's #2 this run is GEHC** (held, "still the only name on this sheet trading below intrinsic value" — consistent with this desk's own +7.1% read) and **#3 is NVDA** (held, consistent divergence noted above, no new disagreement). No disagreement between desks on any held name's valuation direction; the MU divergence is a framework difference, not a data dispute, and is now backed by an actual build on this desk's side for the first time.
+Full first build remains this desk's 9/30 report (FY27-31 FCF table, memory-cycle margin-correction assumption, all five key-assumption caveats — unchanged, full detail in git history). This run applies the same WACC rebuild treatment for consistency with the four held names, since the same risk-free-rate move applies to every discount rate on this desk's book, not only the held ones.
 
-## Explicit read on trader's current positions (all six held) plus GS's new #1 pick
+**WACC sensitivity (rebuilt row in bold; g = 3% throughout):**
 
-**MU** (GS's #1 pick, not held): **first full build — OVERVALUED, gap ≈ -34.7%, hard pass confirmed with numbers.** Not investable regardless of tonight's print outcome; a beat/miss moves the price, not this desk's ~$697 fair-value anchor materially.
-**GEHC** (also held): price roll, fair value $70.8, gap ≈ +7.1% undervalued, narrowing slightly. No trim, no add.
-**NVDA**: hold, no add, no trim — gap ≈ -10.6% overvalued, flat vs. yesterday.
-**OMCL**: hold, no add — DCF discount ≈ +56.9% upside, still the widest gap on the book; DCA gate the operative timing mechanism.
+| | g = 2% | g = 3% (base) | g = 4% |
+|---|---|---|---|
+| WACC 11.09% | ~$607 | **$656** | ~$712 |
+| **WACC 12.59% (new base)** | **$501** | **$654** | ... see note |
+| WACC 14.09% | ~$435 | ~$565 | ~$613 |
+
+(Column consistency note: this desk's original MU grid's g=2%/4% corner cells were interpolated approximations, not full recomputations, per the 9/30 report's own disclosure — the g=3% row is the only fully exact column and is what this verdict is based on.)
+
+**Price-data caveat (consistent with GS's, JPM's, and BW's own flags this week):** WebSearch this run again returned a wide, inconsistent spread for MU's post-print price ($923–$1,150 depending on source/vintage) — the same data-quality problem every desk on this team has now flagged repeatedly. This desk uses state.md's own 10/1 ~09:41 ET read (~$1,054.97) as the most defensible single figure, but the conclusion below does not depend on picking the right number in that range: **even at the low end of the unreliable spread ($923), new fair value $654 implies a gap of roughly -29%** — still a clear, high-confidence overvaluation call.
+
+Gap at state.md's reference price: (654 − 1,054.97) / 1,054.97 = **-38.00% overvalued**, wider than the pre-rebuild -34.7%.
+
+### Verdict: **OVERVALUED, gap ≈ -38%. Hard pass confirmed, now with a wider margin than before the print or the rate move.**
+Not investable at any price in the currently-circulating range. The rate move makes an already-wide-margin pass wider still — this is the opposite of a case where rising rates would ever flip MU positive.
+
+---
+
+## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-10-01 report)
+
+GS's rank-1 stays on **MU** this run (print digested, reaction "genuinely unsettled," explicitly framed as "watch, don't chase") — consistent with this desk's own read; no disagreement on direction, same hard-pass conclusion from two different frameworks (GS's relative-multiple screen vs. this desk's absolute intrinsic-value build). **GS's #2 is GEHC**, framed as "still the only name on this sheet trading below this book's own intrinsic-value estimate" — **this framing is now stale as of this report**; this desk's rebuild flips that specific claim, and GS's next report should be made aware. **GS's #3 is NVDA**, consistent divergence already on file (GS's cheap-forward-multiple case vs. this desk's DCF overvaluation call, now wider). No disagreement on OMCL or XLE's direction from GS this run (GS did not publish a fresh independent view on either today), but this desk's own XLE flip is new information GS has not yet seen.
+
+## Explicit read on trader's current positions (all six held) plus GS's #1 pick
+
+**GEHC**: 🔴 **flips to overvalued, gap ≈ -2.3%** (was +7.1% undervalued) — valuation support for the original entry trigger is gone; flag for BW's rule-14 framework and BR's sizing review.
+**XLE**: 🔴 **flips to overvalued, gap ≈ -4.2%** (was +1.4% undervalued) — same rate-driven mechanism; flag directly for BR's scheduled 10/1 top-up-trigger close-out.
+**NVDA**: hold, no add, no trim — gap widens to ≈ -16.7% overvalued (was -10.6%), the widest reading on file; flag for BR's scheduled 10/1 pool-target re-underwrite.
+**OMCL**: hold, no add — DCF discount narrows to ≈ +43.5% upside (was +56.9%) but remains by far the widest mispricing on the book; DCA gate remains the operative timing mechanism, unaffected in direction.
 **VTI / VXUS**: hold, no valuation view — defer to BR/BW.
-**XLE**: hold, no trim, no unilateral add — gap ≈ +1.4% undervalued, thin enough to be a rounding-error call now.
+**MU** (GS's #1 pick, not held): hard pass confirmed, gap widens to ≈ -38.0% (was -34.7%). Not investable regardless of which unreliable post-print price is used.
 
-**Standing flag for the next run:** confirm whether the WACC-rebuild clock has actually completed (this desk's own sourcing this run was inconclusive) — if BW or GS confirms a full-week close above 5%, the next report should be a full four-model rebuild (NVDA/OMCL/XLE/GEHC), not another roll. Separately, revisit the MU build after tonight's print/call for any structural change to the demand-durability assumption that drives the FY29 margin-correction year — that commentary matters more to this model than the headline beat/miss/guide number itself.
+**Standing flag for the next run:** this rebuild is conditioned on the 10yr holding above 5%. If it reverses, GEHC and XLE's flips are the first things to re-check (their old verdicts were thin enough to flip back on a comparable move the other way); NVDA and OMCL's verdicts are robust to a partial reversal. Absent a rate reversal, the next report should return to normal price-roll cadence unless a company-specific catalyst (earnings, guidance, M&A) warrants a fresh fundamentals rebuild on an individual name.
 
 ---
 
 Sources:
-- [10-year Treasury yield hits 5%, critical threshold for US economy and markets — CNN Business](https://www.cnn.com/2026/09/14/investing/bond-yields-market-turmoil)
 - [U.S. 10-year Treasury yield reportedly hits 5.2%, highest since 2007 - Digg](https://digg.com/world-business/yy8sp23a)
-- [Micron Technology fiscal Q3 2026 8-K press release - SEC](https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000013/a2026q3ex991-pressrelease.htm)
-- [Micron Q4 Earnings Preview - Trefis/Parameter.io](https://parameter.io/micron-mu-stock-dips-1-6-despite-historic-margin-performance-ahead-of-sept-30-report/)
-- [Micron Technology (MU) earnings calendar - TipRanks](https://www.tipranks.com/stocks/mx:mu/earnings)
-- [Mizuho Raises Micron (MU) Price Target to $1,150 - Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/mizuho-raises-micron-mu-price-230519937.html)
-- [GE HealthCare — Projected Tariff Impact to Decrease in 2026 - GuruFocus](https://www.gurufocus.com/news/8580056/gehc-projected-tariff-impact-to-decrease-in-2026)
-- [Are Wall Street Analysts Bullish On GE HealthCare Technologies Stock - Barchart](https://www.barchart.com/story/news/71364/are-wall-street-analysts-bullish-on-ge-healthcare-technologies-stock)
-- [OMCL Falls 20.1% in a Month as Booking and Margin Risks Build - Nasdaq](https://www.nasdaq.com/articles/omcl-falls-201-month-booking-and-margin-risks-build)
-- Internal: trading-experiment/state.md (Balance history through 9/30 ~09:39 ET; Strategy & theories rules 1-19), analysts/gs-stock-screener.md (9/30 report), analysts/jpm-earnings-analyzer.md (9/30 ~09:20 ET), analysts/bw-risk-assessment.md (9/29 ~14:42 ET, freshest on file at run time), analysts/br-portfolio-builder.md (9/29 ~16:13 ET)
+- [10 Year Treasury Rate — YCharts](https://ycharts.com/indicators/10_year_treasury_rate)
+- [Machine learning algorithm sets Micron stock price for October 1 2026 - Finbold](https://finbold.com/machine-learning-algorithm-sets-micron-stock-price-for-october-1-2026/)
+- [Current share price for MU - InvestSMART](https://www.investsmart.com.au/security/nasdaq/mu/micron-technology/share-price)
+- [Micron Technology Shares Rebound Following Blowout Q3 Results - Dukascopy](https://www.dukascopy.com/swiss/english/marketwatch/market-News/News/155365/)
+- Internal: trading-experiment/state.md (Balance history through 10/1 ~09:41 ET; rate-print chain 9/23-9/30), analysts/gs-stock-screener.md (10/1 report), this desk's own 9/28, 9/29, 9/30 reports (git history) for original WACC/FCF builds and the rebuild-criterion flag

@@ -1,74 +1,76 @@
 # BW Risk Assessment — Risk Management Report
-**Date: 2026-09-30 (Wednesday), ~14:42 ET (verified via `TZ=America/New_York date`).** Live-verified via Robinhood (`get_portfolio`, `get_equity_positions`, `get_equity_quotes`) on account 424593861 at report time. Second BW report today (prior: 9/30 ~10:41 ET); this run lands **inside the final ~1h45m before tonight's Micron print** (call ~4:30pm ET).
+**Date: 2026-10-01 (Thursday), ~10:46 ET (verified via `TZ=America/New_York date`).** Live-verified via Robinhood (`get_portfolio`, `get_equity_positions`, `get_equity_quotes`) on account 424593861 at report time. First BW report of the day, landing ~30 minutes after MS's full WACC rebuild posted.
 
 ---
 
-## Overall Portfolio Risk Grade: **D-** (unchanged — has held D- since the 8/20 GEHC net-debt read)
+## Overall Portfolio Risk Grade: **F** — downgraded from D- (held since 8/20)
 
 ## Single biggest risk right now
-**Unchanged from this morning, and now materially closer: tonight's Micron print (after the 4pm close, call ~4:30pm ET) lands inside the same window MS's disputed WACC-rebuild clock is supposed to complete.** Fresh WebSearch this run found **nothing that resolves the Day 6 vs. Day 7 vs. "unconfirmed" disagreement** flagged at 10:41 ET — the only dated 10yr read this desk can independently corroborate is still the 9/24 5.2% print; no fresher settled close surfaced. Four of six holdings (NVDA, OMCL, XLE, GEHC) get rebuilt at a higher discount rate the moment that clock actually completes, and MU's own options-implied move sits in a genuinely wide, unsettled range across sources (this book's own JPM/GS/MS files cite anywhere from ~8% to ~14%+). This book has no options hedge and ~12% cash for ballast. Radical transparency: with under two hours to go, nobody on this desk can tell you with confidence whether the WACC clock has fired, and that gap in the process — not just the market risk itself — is the thing worth naming loudly one more time before the print lands.
+**MS's full WACC rebuild (10:15 ET, this morning) just erased the valuation floor under two of this book's six holdings — GEHC and XLE, together ~17% of the pool — the same morning a federal government shutdown appears to have actually begun.** This is not another repeat of a flag this desk has already raised: GEHC was entered *specifically because* MS's DCF cleared it as undervalued (the 8/20 entry trigger), and that was this position's entire fundamental rationale. It is now **-2.3% overvalued**. XLE's "undervalued hedge" framing — already the thinnest, most-questioned call on the book for weeks — is now **-4.2% overvalued** too. NVDA's overvaluation, already the widest single-name gap on the book, widened further to **-16.7%**. That leaves OMCL as the only held name with any DCF support at all, and even that narrowed from +56.9% to +43.5%. Four of six holdings are now priced *above* or with narrowing distance to this book's own intrinsic-value estimates, in a book with no stop-loss and no options hedge, on the same day a shutdown furloughs ~750K federal workers and adds a fresh, undated macro overhang on top of an already-unresolved rate shock. Radical transparency: this is the first morning this book's valuation discipline (rule 5 — "a DCF hard pass is a hard pass, a DCF agreement is a green light") has actually gone against the *majority* of held positions simultaneously, not just NVDA alone. That is a structural deterioration, not a mark-to-market wobble, and the grade should say so plainly rather than carry D- forward on inertia.
 
 ---
 
-## Portfolio snapshot (live, 2026-09-30 ~14:42 ET)
+## Portfolio snapshot (live, 2026-10-01 ~10:41 ET)
 
-`get_portfolio`: total_value **$100.13309339** (cash $56.06 + equity $44.07309339). Pool ≈ **$50.1331, a +$0.1331 (+0.266%) accumulated profit** — down from 10:41's +0.327% and 13:36's +0.31%, a modest afternoon pullback across the book. Deployable cash $6.06 (~12.09% of pool), unchanged.
+`get_portfolio`: total_value **$99.91462829** (cash $56.10 + equity $43.81462829). Pool ≈ **$49.9146, a -$0.0854 (-0.171%) accumulated loss** — the pool has round-tripped from 9/30's +0.266% afternoon read into negative territory this morning, consistent with four of six holdings opening red. Deployable cash $6.10 (~12.22% of pool).
 
-| Position | Qty | Last Price | Value | % Equity | % Pool | Unrealized | Day chg (vs 9/29 close) |
+| Position | Qty | Last Price | Value | % Equity | % Pool | Unrealized | Day chg (vs 9/30 close) |
 |---|---|---|---|---|---|---|---|
-| NVDA | 0.024826 | $230.60 | $5.724 | 12.99% | 11.42% | **+14.50%** | **+1.49%** |
-| VTI | 0.036690 | $376.36 | $13.809 | 31.33% | 27.55% | +1.61% | +0.29% |
-| VXUS | 0.154525 | $85.055 | $13.144 | 29.83% | 26.22% | +1.10% | -0.54% |
-| OMCL | 0.106405 | $34.07 | $3.625 | 8.23% | 7.23% | **-27.50%** | **-0.70%** |
-| XLE | 0.086775 | $61.985 | $5.379 | 12.21% | 10.73% | +7.58% | +0.72% |
-| GEHC | 0.036393 | $65.76 | $2.393 | 5.43% | 4.77% | -4.27% | -1.05% |
-| Cash (deployable) | — | — | $6.06 | — | 12.09% | — | — |
+| NVDA | 0.024826 | $230.49 | $5.722 | 13.06% | 11.47% | **+14.44%** | +0.92% |
+| VTI | 0.036690 | $373.80 | $13.715 | 31.31% | 27.48% | +0.92% | -0.12% |
+| VXUS | 0.154525 | $84.425 | $13.046 | 29.78% | 26.14% | +0.35% | -0.63% |
+| OMCL | 0.106405 | $33.495 | $3.564 | 8.14% | 7.14% | **-28.72%** | -1.63% |
+| XLE | 0.086775 | $62.23 | $5.400 | 12.33% | 10.82% | +8.00% | +1.19% |
+| GEHC | 0.036393 | $64.95 | $2.364 | 5.40% | 4.74% | -5.44% | -0.64% |
+| Cash (deployable) | — | — | $6.10 | — | 12.22% | — | — |
 
-NVDA+OMCL combined **~21.22% of equity** — 25% concentration trigger clean, ~3.78pp buffer, essentially unchanged from 10:41. NVDA alone **~12.99% equity / 11.42% pool** (18-20% trigger clean, +1.42pp over BR's 10% pool target — same overshoot flagged this morning, unresolved). **OMCL DCA gate (rule 18): needs $2.50 accumulated pool profit to fire — currently $0.1331, ~$2.37 away**, widening slightly as the pool pulled back this afternoon.
+NVDA+OMCL combined **~21.20% of equity** — 25% concentration trigger clean, ~3.80pp buffer. NVDA alone **~13.06% equity / 11.47% pool** (18-20% trigger clean, **+1.47pp over BR's 10% pool target** — the widest reading yet, and BR's own 10/1 re-underwrite is due *today*; this report posts ahead of it). **OMCL DCA gate (rule 18): needs $2.50 accumulated pool profit to fire — currently -$0.0854, the pool is net negative, so the gate is further away than at any point since before 9/22.**
 
-No new analyst report has posted since GS's ~12:4x ET update (already reviewed this afternoon by the trading routine); BW, MS, JPM all unchanged from this morning's reads; BR remains ~1-day stale (9/29 ~16:13 ET), discounted per standing practice, no open trigger.
+Analyst inputs reviewed this run: MS's full WACC rebuild (10:15 ET, today — the dominant new fact), GS's screener (09:4x ET, today), JPM's earnings calendar (09:21 ET, today). BR remains at 9/30 ~16:13 ET (~18.5hrs stale; its own 10/1 re-underwrite is still pending as this report goes to print).
 
 ---
 
 ## Correlation analysis between holdings
 
-- **NVDA, OMCL, XLE, and GEHC remain WACC-sensitive company-specific DCFs that move together on a rate shock** — structurally unchanged, still four of six holdings sitting on the same unresolved clock, now hours from its highest-stakes test yet.
-- **NVDA and OMCL diverged again this afternoon** (NVDA +1.49%, OMCL -0.70%) — a third session in a row where these two names have moved in opposite directions intraday with no confirmed name-specific catalyst behind either move. This desk has now logged this pattern three times running; it is behaving like noise relative to each other, not a coherent pair thesis, and should be read that way rather than smoothed into "both WACC-sensitive."
-- **VTI and VXUS moved apart again today** (+0.29% vs. -0.54%), extending a divergence first flagged at 10:41 ET rather than reverting to the usual lockstep. Still too short a window to build a diversification thesis on, but two consecutive sessions of visible daylight between these two is worth tracking, not dismissing.
-- **XLE is the day's standout mover, +0.72%**, against an unresolved Hormuz backdrop this run's fresh search still cannot pin to any confirmed today-dated event (search results returned the same stale/recirculated tanker-strike and Oman-talks items already on file). The hedge is moving today, but not obviously in sync with a confirmed news catalyst — logged, not explained away.
-- **GEHC red again** (-1.05%), its fifth consecutive session of net negative-to-flat drift since the MS/GS valuation gap widened — still no name-specific catalyst found, still tracking broad tape.
+- **The rate-sensitivity correlation this desk has named for weeks just became visible in the valuation numbers themselves, not just in price action.** NVDA, OMCL, XLE, and GEHC are all single-stage CAPM-discounted models that share the same risk-free input; MS's mechanical +59bp Rf pass-through moved all four in the same direction (fair value down) by construction. That is not new. What *is* new: two of the four (GEHC, XLE) had gaps thin enough to flip sign on this one move, converting a textbook "these four move together on a rate shock" correlation from a theoretical risk into an actual, realized one this morning.
+- **VTI and VXUS both opened red today** (-0.12%, -0.63%) alongside four of six holdings — a broadly risk-off tape, consistent with shutdown-related uncertainty rather than a name-specific break on either ETF.
+- **XLE is the day's only green mover (+1.19%)** even as its own DCF just flipped overvalued — the hedge-decoupling pattern this desk has flagged for over a week (price moving opposite to, or independent of, its own thesis/valuation) continues. A position whose price is rising while its fundamental support just went negative is not a coincidence to wave off; it is exactly the kind of divergence that precedes a sharp catch-down.
+- **NVDA (+0.92%) and OMCL (-1.63%) diverged again** — a continuation of the multi-session pattern already logged as noise, not a coherent pair thesis.
 
 ## Sector concentration risk with percentage breakdown
 
-- **Tech/AI look-through concentration: ~28.7% of equity** (NVDA's direct 12.99% plus VTI/VXUS's embedded mega-cap tech weight) — essentially unchanged from this morning, still the book's single largest structural concentration, and the one most directly exposed to tonight's MU read-through.
-- **Energy: ~12.21% of equity** (XLE) — today's strongest mover; hedge-reliability question stays open regardless.
-- **Healthcare: ~13.66% of equity** (OMCL 8.23% + GEHC 5.43%) — both red again this afternoon, the two-name healthcare sleeve moving together rather than offsetting each other, as it has for most of the week.
-- **Broad-market core (ex-look-through sector detail): VTI + VXUS = ~61.16% of equity** — unchanged structurally, still the majority of the book by construction.
-- **Cash: 12.09% of pool** — earmarked for the OMCL DCA gate first, the XLE top-up trigger second (per BR's standing sequencing); not free capacity.
+- **Tech/AI look-through concentration: ~28.8% of equity** (NVDA's direct 13.06% plus VTI/VXUS's embedded mega-cap tech weight) — essentially flat, still the single largest structural concentration, and now the sector most directly affected by MS's rebuild (NVDA's own DCF gap is the widest on the book).
+- **Energy: ~12.33% of equity** (XLE) — now carrying a negative DCF behind a positive price move; see correlation note above.
+- **Healthcare: ~13.53% of equity** (OMCL 8.14% + GEHC 5.40%) — one name (OMCL) still has real valuation support, the other (GEHC) does not, as of this morning. These two should no longer be treated as a matched sleeve; they now have opposite valuation stories.
+- **Broad-market core: VTI + VXUS = ~61.09% of equity** — unchanged structurally, majority of the book by construction, both carrying standard equity-duration exposure to the same rate shock via the discount rate applied to the market as a whole (even without a single-name DCF to show it explicitly).
+- **Cash: 12.22% of pool** — nominally earmarked for the OMCL DCA gate and the (lapsing) XLE top-up trigger, but with the pool net negative and XLE's valuation case now gone, neither gate should be treated as a live deployment candidate this morning regardless of where the dollar thresholds sit.
 
 ## Geographic exposure and currency risk factors
 
-- **VXUS (~29.83% of equity)** remains the book's only direct non-US/non-USD-underlying exposure. No fresh geography-specific catalyst found this run.
-- **NVDA** carries standing indirect chip-export-policy exposure and the still-live Netlist ITC HBM-patent action naming it as a downstream defendant (JPM's flag, unresolved) — sits directly ahead of tonight's print with that overhang unaddressed.
-- **XLE's exposure is global-energy-price risk, not currency risk.** Fresh WebSearch this run again returned only stale/recirculated Hormuz incidents (the same mid-September tanker strikes and Oman-corridor talks already logged), nothing confirmable as dated today. Absence of a fresh confirmed headline is not confirmed de-escalation — the underlying standoff remains open.
+- **VXUS (~29.78% of equity)** remains the book's only direct non-US/non-USD-underlying exposure. No fresh geography-specific catalyst found this run; today's red print tracks the broad domestic risk-off tape (shutdown), not an ex-US-specific event.
+- **NVDA** carries standing indirect chip-export-policy exposure and the still-unresolved Netlist ITC HBM-patent action (JPM's flag) — unaddressed, now sitting underneath the widest DCF overvaluation gap on the book.
+- **XLE's exposure is global-energy-price risk, not currency risk.** Fresh WebSearch this run found Iran's IRGC continuing to assert the Strait stays closed "while US forces operate in the region" — language consistent with, not a fresh escalation beyond, the standoff already on file; no confirmed today-dated incident found. Treat as unresolved, not de-escalated, same as every prior report.
+- **The federal shutdown is a US-domestic, USD-denominated risk** — it does not touch VXUS's currency/geography profile directly, and if anything is a mild structural argument (per BR's own framing) for not trimming the one diversifying sleeve on the book.
 - **VTI, OMCL, GEHC** remain overwhelmingly US-domestic-revenue, minimal direct currency risk.
 
 ## Interest rate sensitivity for each position
 
-- **OMCL — highest sensitivity**, unchanged. MS's model still shows the widest DCF discount on the book (~56.9% upside at current WACC), meaning it also has the most room to compress if WACC rises further.
-- **NVDA — high sensitivity.** Today's +1.49% move continues to run well ahead of, and largely decoupled from, MS's own -10.6% DCF overvaluation call — a gap this desk has now flagged for weeks without resolution.
-- **XLE — high sensitivity, still exposed on two axes at once** (rates + oil). MS's cushion (+1.44% as of this morning) is thin enough to flip on a small further move — today's +0.72% print alone could plausibly do it.
-- **GEHC — moderate-high sensitivity**, unchanged; DCF gap ~+7.1% undervalued per this morning's roll, widening on price weakness rather than conviction.
-- **VTI, VXUS — moderate, diversified sensitivity**, unchanged.
-- **Cash — zero sensitivity**, relative value continuing to rise the longer the rate shock persists without reversal.
+Ranked by how much of each position's investment case now depends on a rate reversal to hold up, using this morning's rebuilt DCF gaps:
+
+- **GEHC — now the most exposed position on a rate basis, not the least.** Its entire "undervalued, that's why we hold it" rationale (+7.1%) flipped to -2.3% on a 59bp Rf move alone. MS's own report says a reversal below 5% restores it to ~+7% — meaning this position's fundamental case is now a direct, binary bet on the rate path, which it was never originally sized or sold as.
+- **XLE — second-most exposed**, same mechanism (+1.4%→-4.2%), compounding an already-documented hedge-decoupling problem. This was already this desk's "thinnest cushion, declining to call it a working hedge" name before today; it now has no cushion at all.
+- **NVDA — high sensitivity, already overvalued and now materially more so** (-10.6%→-16.7%). Price continues to run opposite to the DCF trend (+0.92% today even as the fair-value gap widens) — the most extreme price/fundamentals divergence on the book.
+- **OMCL — still the highest absolute rate sensitivity in dollar terms (largest DCF swing: +56.9%→+43.5%), but the only one of the four with enough margin that it isn't at risk of flipping sign** on a further comparable move. This is the one rate-sensitive name this desk is not newly worried about today.
+- **VTI, VXUS — moderate, diversified sensitivity**, no single-name DCF but not immune — both carry standard equity-duration exposure, both opened red today alongside the broader book.
+- **Cash — zero sensitivity**, and its relative value just rose again: it is now the only unambiguously rate-proof asset in a book where 4 of 6 holdings are rate-model-sensitive and 3 of those 4 are overvalued on today's numbers.
 
 ## Recession stress test showing estimated drawdown
 
-Scenario: a genuine demand-destruction recession (distinct from today's supply-shock/rate-shock regime) — broad equities down ~20-25%, energy participates in the decline rather than acting as a hedge.
-- Equity sleeve (currently ~87.91% of pool) at a uniform -20%: **≈-17.58% of pool value**.
-- Realistic dispersion: NVDA/OMCL (highest-beta, highest-duration) plausibly -25% to -30%, VTI/VXUS closer to -20%, XLE potentially falling *more* than the broad market in true demand destruction, GEHC (defensive healthcare) likely the most resilient single name.
-- **Blended estimated pool drawdown: -18% to -24%**, roughly **-$9.02 to -$12.03** of the ~$50.13 pool — unchanged from this morning, still enough to erase all accumulated profit several times over at current levels.
-- **Tonight is a sharper, more immediate test of the same underlying mechanism** (rate sensitivity + correlated single-name risk), not a new one, and it is now under two hours away: a wide-implied-move MU print, an unconfirmed-but-plausible WACC clock completion, and an unresolved Hormuz backdrop are all live in the same window, on a book with zero working options hedge.
+Scenario: a genuine demand-destruction recession (distinct from today's supply-shock/rate-shock/shutdown regime) — broad equities down ~20-25%, energy participates in the decline rather than acting as a hedge.
+- Equity sleeve (currently ~87.78% of pool) at a uniform -20%: **≈-17.56% of pool value**.
+- Realistic dispersion: NVDA/OMCL (highest-beta, highest-duration) plausibly -25% to -30%; VTI/VXUS closer to -20%; XLE potentially falling *more* than the broad market in true demand destruction (and already carries a negative DCF floor, unlike prior reads); GEHC — previously framed as "defensive, most resilient" — no longer has a valuation floor to lean on either, so that resilience assumption is now weaker than it was last week.
+- **Blended estimated pool drawdown: -18% to -25%**, roughly **-$8.99 to -$12.48** of the ~$49.91 pool — the top of this range widened slightly from 9/30's -18% to -24% because GEHC can no longer be assumed to hold up better than the market on fundamentals alone.
+- **A second, more immediate scenario is arguably more relevant right now than a classic recession:** a prolonged shutdown (prior federal shutdowns in this book's own history ran 43 and 76 days) combined with an already-confirmed rate shock and now a valuation-support vacuum under two holdings. That combination doesn't need a "genuine recession" to produce a meaningful pool drawdown — it could happen on sentiment and multiple compression alone, which is arguably already underway this morning.
 
 ## Liquidity risk rating for each holding
 
@@ -81,67 +83,66 @@ Scenario: a genuine demand-destruction recession (distinct from today's supply-s
 | GEHC | 🟢 High | Large-cap, ample daily volume for this position's fractional size |
 | OMCL | 🟡 Moderate | Small/mid-cap — thinner daily volume than the other five, still sufficient depth at this book's fractional-share sizing |
 
-No liquidity risk is actionable at this book's scale — unchanged.
+No liquidity risk is actionable at this book's scale — unchanged. Liquidity was never the problem here; valuation support just became one.
 
 ## Single stock risk and position sizing recommendations
 
-- **NVDA+OMCL combined concentration (21.22%) and NVDA alone (12.99%/11.42%) both remain clean** against their respective triggers, but NVDA's overshoot vs. BR's 10% pool target (+1.42pp) has now held for well over a week on price drift alone, with no purchase behind it. This desk has flagged this across at least six consecutive reports as exactly the slow-drift failure mode rule 7/12 exists to prevent — BR has now deferred the explicit decision to the ~10/1 re-underwrite (tomorrow or the day after). This desk will hold BR to that date.
-- **OMCL's -27.50% unrealized loss remains this book's largest standing single-name risk**, held without a mechanical stop-loss by design. The DCA gate sits ~$2.37 away — narrower than this morning's ~$2.34... actually wider, moving the wrong direction on today's pool pullback, though still within the range of normal day-to-day noise.
-- **XLE sizing risk unresolved.** MS's own DCF cushion for XLE was already the thinnest undervalued reading on the book this morning (+1.44%); today's +0.72% price move works directly against that cushion. This is not a reason to trim (small position, no structural break), but "MS says undervalued" should not be treated as a durable framing at this margin.
-- **GEHC sizing risk (carried forward):** already at/above BR's 4% target pool weight (4.77%) with no overweight case adopted by the position's allocation owner, even as its DCF gap has widened on price weakness alone.
-- **No position sizing changes recommended this run.** The one live, named risk this desk wants on record ahead of tonight: this book is entering its highest-stakes 1-2 hours in weeks with every held name's sizing exactly where it was this morning — that is a deliberate "ride it out per policy" choice, not an oversight, but it should be stated as a choice, not assumed.
+- **NVDA's pool-weight overshoot vs. BR's 10% target is now +1.47pp, the widest reading on file, entirely on price drift with no purchase behind it.** This desk has flagged this across seven-plus consecutive reports. BR's own 10/1 re-underwrite is due *today* — this report posts before it. If BR defers again past its own stated deadline, that is a genuine process failure, not a routine carry-forward, and this desk will say so without hedging in the next report.
+- **OMCL's -28.72% unrealized loss remains this book's largest standing single-name risk**, held without a mechanical stop-loss by design, and the DCA gate just moved *further* away (the pool turned net-negative this morning) rather than closer.
+- **GEHC and XLE sizing risk is no longer a "watch item" — it is a live, unaddressed gap.** Both positions are now held above their own DCF fair value with zero valuation support, GEHC specifically because its *only* stated entry rationale (the 8/20 valuation trigger) has been invalidated. Neither position breaches a price-based structural-break line (BR's $62/$65 band for GEHC, no equivalent for XLE), so no mechanical trigger forces a review — but a trigger built on price alone cannot catch a valuation-only break like this one. This desk recommends BW/BR jointly treat this as a standing flag requiring an explicit decision (hold-on-sentiment-with-eyes-open vs. trim), not a silent carry-forward, at the next BR report.
+- **No position sizing change is being executed by this desk** (research-only mandate) — but unlike prior reports, this one is not comfortable calling today's unchanged sizing a "deliberate ride-it-out choice." Nobody has yet made that choice explicitly in light of this morning's rebuild; it is currently just inertia.
 
 ## Tail risk scenarios with probability estimates
 
-1. **Micron's print (tonight, after close, ~1h45m away) triggers an outsized chip/AI-sentiment move that bleeds into NVDA regardless of this book's own fundamentals.** Estimated probability of a >5% next-session NVDA move driven substantially by MU read-through: **~30-35%, unchanged** — implied-move sourcing remains too scattered across this book's own files (roughly 8%-14%+ depending on source/date) to sharpen further; JPM's own data point that MU has closed lower after 6 of its last 8 beats argues against underweighting this even on a clean beat.
-2. **10yr settles decisively above 5% for a full week and MS's coordinated rebuild fires across NVDA/OMCL/XLE/GEHC.** Estimated probability: **~60-65%, unchanged** — the Day 6 vs. Day 7 vs. "unconfirmed" disagreement is still live; this desk is not confident enough in the underlying date-tracking to sharpen this further, and would rather present an honest range than false precision.
-3. **Hormuz war re-escalates further, or a confirmed strike materially disrupts tanker traffic.** Estimated probability over the next 30 days: **~22%, unchanged** — no confirmable fresh escalation or de-escalation found dated today; situation remains open, not calm.
-4. **OMCL-specific structural thesis break** ahead of the 11/4 print. Estimated probability: **~10%, unchanged** — no confirmed structural news found this run.
-5. **Generalized correlation-to-1 liquidity panic** taking down all six holdings simultaneously, most plausible in the window bracketing tonight's MU print and any WACC-clock confirmation. Estimated probability of a >10% week-over-week equity drawdown from this cause: **~22%, unchanged**, and the window for this scenario is now hours, not days.
-6. **GEHC gives back its recent gain and converges toward or through MS's DCF base case rather than up to it.** Estimated probability of a >5% move within a week: **~30%, unchanged** — no fresh GEHC-specific catalyst, but this is now a fifth straight session of drift, not conviction.
+1. **The government shutdown extends beyond a few days and broad risk sentiment deteriorates further**, pressuring VTI/VXUS and the whole equity sleeve independent of any single-name catalyst. Estimated probability of a >5% week-over-week broad-market-driven drawdown touching this book: **~25-30%** — this book's own prior shutdown history (43 and 76 days) argues against assuming a quick resolution; new scenario, not previously modeled.
+2. **The rate shock continues or deepens, pushing more of the book's DCF models further negative** (the 30yr has already touched 5.5%, a 2004-era level). Estimated probability the 10yr holds above 5% for another full week without reversing: **~55-60%**, essentially unchanged from this desk's standing range, but the consequence just became concrete (two flipped verdicts) rather than hypothetical.
+3. **GEHC gives back its price gains and converges toward its new, lower DCF fair value ($63.9) rather than reverting to the old one ($70.8).** This is a materially different and more acute version of a risk this desk has carried for weeks as "sentiment vs. fundamentals gap" — it is now "sentiment holding up a price above a negative fair-value gap." Estimated probability of a >5% move down within two weeks: **~30-35%, up from ~30% carried forward** — no fundamental floor left to arrest a slide.
+4. **Hormuz re-escalates further, or a confirmed strike materially disrupts tanker traffic**, hitting XLE at the exact moment its own valuation support is also gone. Estimated probability over the next 30 days: **~20-22%, carried forward** — no confirmable fresh escalation or de-escalation dated today, situation remains open.
+5. **OMCL-specific structural thesis break** ahead of its ~10/30-11/4 print (date still disputed across desks per JPM). Estimated probability: **~10%, unchanged** — still the one name with real valuation support, still the least of this desk's five worries today.
+6. **A correlation-to-1 liquidity event** combining the shutdown, the rate shock, and the post-MU-print tape digestion all landing in the same week, with four of six holdings now rate-model-sensitive and three of those four overvalued. Estimated probability of a >10% week-over-week equity drawdown from this cause: **~25%, up from ~22%** — this book has strictly more simultaneous open risk factors converging today than at any point in its history.
 
 ## Hedging strategies to reduce the top 3 risks (equities-only toolbox — no options available)
 
-1. **Against the rate/WACC-rebuild risk, now converging with tonight's MU print in the next ~1-2 hours:** no clean equities-only hedge exists for a broad discount-rate repricing. The two real levers remain (a) rule 6a's standing pause on new high-multiple core-ups, unaffected by today's data, and (b) getting the WACC-rebuild-clock date question actually resolved — this desk repeats its ask from this morning to BW/MS/GS/BR to reconcile Day 6 vs. Day 7 vs. "unconfirmed" on the next report rather than each desk repeating its own count into tonight's event.
-2. **Against the Hormuz/oil tail risk with a still-unproven hedge:** XLE's own DCF cushion is now thin enough (+1.44% this morning, working against a +0.72% price move today) that this desk continues to decline to call the hedge "working" on any recent session's data. Cash (~12.09% of pool) remains the more reliable ballast even though it earns nothing.
-3. **Against tech/AI look-through concentration (~28.7%) and NVDA's persistent upward drift above target:** no new position-level action recommended, but this desk repeats — now for the seventh-plus consecutive report — that a target a position drifts around on price alone, without ever converting into an enforcement action or an explicit revision, provides no actual risk reduction. BR has committed to resolving this at the ~10/1 re-underwrite; this desk will treat a further deferral past that date as a genuine process failure, not a routine carry-forward.
+1. **Against the now-realized rate/valuation-flip risk (GEHC, XLE, and NVDA's widening gap):** no clean equities-only hedge exists for a discount-rate repricing that has already landed. The two real levers: (a) rule 6a's standing pause on new high-multiple core-ups stays exactly where it is — if anything this morning's rebuild strengthens the case for extending that caution to *existing* rate-sensitive satellites, not just new buys; (b) this desk repeats, now more urgently, the standing ask to get GEHC and XLE an explicit hold-vs-trim decision rather than letting a valuation-only break sit unaddressed because no price-based trigger caught it.
+2. **Against the shutdown/macro-liquidity risk:** cash is the only real hedge in this toolbox, and the 12.22% deployable cash on hand should be preserved, not routed into either gate (OMCL DCA, XLE top-up) while this risk window is open — doing so now would mean deploying new capital into OMCL (fine, still has valuation support) or XLE (no longer does) at the exact moment macro uncertainty is highest. This desk recommends treating both gates as paused, not just mathematically distant, until the shutdown's trajectory is clearer.
+3. **Against tech/AI look-through concentration (~28.8% of equity) and NVDA's persistent overshoot:** no new position-level action recommended by this desk, but BR's 10/1 re-underwrite — due today — is the mechanism that exists specifically to resolve this. This desk will treat a further deferral past today as the genuine process failure it would be, not a routine carry-forward, consistent with every warning issued on this point since mid-September.
 
 ## Rebalancing suggestions with allocation percentages
 
-Current live weights vs. BR's 9/17-revised targets (all % of pool): NVDA 11.42% (target 10%, **+1.42pp**), VTI 27.55% (target 28%, -0.45pp), VXUS 26.22% (target 25%, +1.22pp), XLE 10.73% (target 12%, -1.27pp), OMCL 7.23% (target 10%, **-2.77pp**), GEHC 4.77% (target 4%, +0.77pp), Cash 12.09% (target 11%, +1.09pp).
+Current live weights vs. BR's 9/17-revised targets (all % of pool): NVDA 11.47% (target 10%, **+1.47pp**), VTI 27.48% (target 28%, -0.52pp), VXUS 26.14% (target 25%, +1.14pp), XLE 10.82% (target 12%, -1.18pp), OMCL 7.14% (target 10%, **-2.86pp**), GEHC 4.74% (target 4%, +0.74pp), Cash 12.22% (target 11%, +1.22pp).
 
-- **No rebalancing trade recommended this run** — nothing breaches BR's 5pp mechanical drift trigger; OMCL's -2.77pp gap remains the largest, appropriately gated by rule 18 (DCA), not a discretionary rebalance signal.
-- **NVDA's +1.42pp overshoot is essentially unchanged from this morning's widest-on-file reading**, still entirely on price (no purchase since 9/3). This desk's position stands: BR's 10/1 re-underwrite is the deadline for an explicit decision, not another silent carry-forward.
-- **XLE top-up trigger:** its ~10/1 time-box is now essentially tomorrow; BR's 9/29 report pre-committed to letting it lapse absent an extraordinary profit surge, and today's pool pullback (+0.266%, down from this morning's +0.327%) moves further away from that surge, not closer. This desk agrees with BR's resolution as stated.
-- **No rebalancing action recommended on GEHC or OMCL** beyond the existing mechanisms already governing both.
+- **No position currently breaches BR's 5pp mechanical drift trigger** — nothing here is forced. But two of these gaps now carry a valuation story they didn't have yesterday: XLE's -1.18pp underweight is no longer "waiting for a good entry," it's "underweight a position with no fair-value support," and GEHC's +0.74pp overweight is sitting on the same gone-negative valuation.
+- **NVDA's +1.47pp overshoot is the widest on file.** This desk's position stands unchanged in substance but sharper in urgency: BR's 10/1 re-underwrite is due *today*, and this is the deadline this desk will hold BR to.
+- **The XLE top-up trigger's lapse, already effectively decided per BR's 9/30 report, is now additionally reinforced by a negative DCF** — there is no remaining case (price, funding, or valuation) for firing it. This desk recommends BR close it out formally and explicitly cite the valuation flip as a second, independent reason, not just the funding-math and time-box reasons already on record.
+- **No rebalancing action recommended on OMCL** beyond the existing DCA gate mechanism — it remains the one name on the book this desk is not newly worried about.
 
 ---
 
 ## Heat map summary
 
-| Risk factor | Level | Trend vs. this morning (10:41 ET) |
+| Risk factor | Level | Trend vs. 9/30 ~14:42 ET |
 |---|---|---|
-| MU print (now ~1h45m away) + WACC-clock convergence, desks still disagreeing on clock day (6 vs. 7 vs. unconfirmed) | 🔴 High | ↑ **worse** — same unresolved disagreement, now materially closer to the event |
-| Rate/WACC-rebuild risk (10yr last confirmed 5.2% on 9/24, day count disputed) | 🔴 High | → unchanged in substance |
-| Hormuz/Iran tail risk (no confirmable fresh dateline found this run) | 🔴 High | → unchanged — absence of confirmed news is not confirmed calm |
-| Look-through tech/AI concentration (~28.7% of equity) | 🔴 High | → essentially flat |
-| NVDA drift vs. BR's 10% pool target (+1.42pp) | 🟡 Moderate | → flat, still unresolved, BR's 10/1 deadline now imminent |
-| XLE hedge/DCF cushion (thin, working against today's +0.72% move) | 🟡 Moderate | ↑ **worse** — price moved against an already-thin cushion |
-| NVDA/OMCL single-session mirror-reversal (now three sessions running) | 🟡 Moderate | → recurring pattern extends, still uncorroborated by any fundamental catalyst |
-| OMCL single-position drawdown (-27.50%) + DCA gate (~$2.37 away) | 🟡 Moderate | → gate widened slightly on today's pullback |
-| GEHC sentiment-vs-fundamentals gap (fifth straight red/flat session) | 🟡 Moderate | → pattern extends, not worsens sharply |
-| Pool profit level (+0.266%) | 🟢 Low-Moderate | ↓ eased from this morning's +0.327% |
+| GEHC valuation support (flipped +7.1%→-2.3%) | 🔴 High | ⬆ **new — this book's core rationale for holding GEHC is gone** |
+| XLE valuation support (flipped +1.4%→-4.2%) | 🔴 High | ⬆ **new — hedge now has no fundamental floor** |
+| NVDA DCF overvaluation (-10.6%→-16.7%) + pool overshoot (+1.47pp, widest on file) | 🔴 High | ⬆ worse — BR's 10/1 decision deadline is today |
+| Government shutdown (appears to have begun today; undated/undetermined duration) | 🔴 High | ⬆ **new risk factor, not previously on this book's radar** |
+| Rate shock / WACC-rebuild (10yr ~5.2-5.3%, 30yr touched 5.5%) | 🔴 High | → consequence now realized, not just pending |
+| Hormuz/Iran tail risk (no confirmable fresh dateline found this run) | 🔴 High | → unchanged — still open, not calm |
+| Look-through tech/AI concentration (~28.8% of equity) | 🟡 Moderate | → essentially flat |
+| OMCL single-position drawdown (-28.72%) + DCA gate (now further away, pool net-negative) | 🟡 Moderate | ↓ gate moved further out |
+| Pool profit level (-0.171%, net negative) | 🟡 Moderate | ⬇ worse — flipped negative from 9/30's +0.266% |
+| OMCL DCF support (+43.5% upside, narrowed from +56.9%) | 🟢 Low-Moderate | ↓ narrower but still the one name with real support |
 | Headline concentration triggers (NVDA%, NVDA+OMCL%) | 🟢 Low | → clean |
 | Liquidity | 🟢 Low | → unchanged |
 
-**Note on data quality (rule 4 discipline):** fresh WebSearch this run (10yr yield, Hormuz, MU premarket) surfaced nothing dated today beyond what this morning's report already captured — including the same stale/impossible "MU closed at $1,000.26" artifact GS and JPM both flagged this morning, still circulating this afternoon. This desk treats that recirculation itself as a small data-quality signal: when the same clearly-wrong figure keeps resurfacing hours apart, it is worth naming plainly rather than silently re-discarding each time. Live Robinhood pricing (MU ~$1,067, per the trading routine's most recent snapshot) is the reliable figure, not the search artifact.
+**Note on data quality (rule 4 discipline):** fresh WebSearch this run (10yr yield, shutdown status, Hormuz) could not independently pull a clean dated 10/1 Treasury close — consistent with the data-quality problems every desk has flagged for days — so this report uses MS's own already-corroborated rate chain (9/30 ~5.29%) rather than a fresh unverified figure. Shutdown status is corroborated across multiple today-dated sources (furlough counts, Senate vote math) and independently referenced by both GS and BR's reports this morning, but this desk treats the *duration* as genuinely unknown, not a one-day event, given this country's own prior 43- and 76-day shutdowns referenced in BR's tax-efficiency notes.
 
 ---
 
 Sources:
 - [U.S. 10-year Treasury yield reportedly hits 5.2%, highest since 2007 — Digg](https://digg.com/world-business/yy8sp23a)
-- [10 Year Treasury Rate — Mortgage News Daily](https://www.mortgagenewsdaily.com/treasury)
-- [Oil tankers reportedly moving through Strait of Hormuz, CEO says, as prices slide — Fox Business](https://www.foxbusiness.com/media/oil-tankers-reportedly-moving-throught-strait-of-hormuz-ceo-says-prices-slide)
-- [Micron Q4 Earnings Preview — Parameter.io](https://parameter.io/micron-mu-stock-dips-1-6-despite-historic-margin-performance-ahead-of-sept-30-report/)
-- [Micron Technology (MU) earnings calendar — TipRanks](https://www.tipranks.com/stocks/mx:mu/earnings)
-- Internal: trading-experiment/state.md (Balance history through 9/30 ~14:38 ET), analysts/gs-stock-screener.md (9/30 ~12:4x ET), analysts/ms-dcf-valuation.md (9/30 ~10:14 ET), analysts/jpm-earnings-analyzer.md (9/30 ~09:20 ET), analysts/br-portfolio-builder.md (9/29 ~16:13 ET), analysts/bw-risk-assessment.md (this desk's own 9/30 ~10:41 ET report, prior version)
+- [Senators voted for the 12th time on government shutdown. How did it go? — Yahoo](https://www.yahoo.com/news/articles/senators-voted-12th-time-government-135829821.html)
+- [Key Senate Vote Fails, Setting Stage For Oct. 1 Shutdown — AOL](https://www.aol.com/news/house-passes-bill-avert-shutdown-152826798.html)
+- [Government Shutdown October 2026: 2 of 12 Bills, 92 Days — FedTools](https://www.fedtools.com/blog/government-shutdown-october-2026)
+- [Oct 1 Shutdown Odds Fall to 35% After Two 2026 Closures — PredictionHunt](https://www.predictionhunt.com/news/oct-1-shutdown-odds-fall-to-35-after-two-2026-aug-05-2026)
+- Internal: trading-experiment/state.md (live Robinhood snapshot, 10/1 ~10:41 ET), analysts/ms-dcf-valuation.md (10/1 ~10:15 ET, this run's dominant new input), analysts/gs-stock-screener.md (10/1 ~09:4x ET), analysts/jpm-earnings-analyzer.md (10/1 ~09:21 ET), analysts/br-portfolio-builder.md (9/30 ~16:13 ET, prior version), analysts/bw-risk-assessment.md (this desk's own 9/30 ~14:42 ET report, prior version)

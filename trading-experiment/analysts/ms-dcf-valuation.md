@@ -1,53 +1,56 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
-**Date: 2026-10-05 (Monday), ~10:1x ET (verified via `TZ=America/New_York date`). Price-roll update only — no WACC rebuild, no fundamentals rebuild this run.** Checked for a rate reversal per the 10/1 rebuild's standing flag: fresh WebSearch this run returned no clean, current-dated 10yr print at all (results ranged from a March 2026 4.145% read to a June 2026 4.420% read to unrelated forecast pages) — the same dateline-confusion wall every desk has hit for weeks. Per rule 4, an unconfirmed read doesn't get to unwind a prior rebuild: **the 10/1 WACC rebuild (Rf 5.29%) stays in effect, fair values unchanged, only live prices roll forward.**
+**Date: 2026-10-06 (Tuesday), ~10:15 ET (verified via `TZ=America/New_York date`). Price-roll update only — no WACC rebuild, no fundamentals rebuild this run.** Fresh WebSearch for a rate reversal check again hit the same wall every desk has flagged for weeks (results ranged from a March 2026 4.145% print to a June 2026 4.420% print, nothing dated to this week); per rule 4 an unconfirmed read doesn't get to unwind a prior rebuild, so **the 10/1 WACC rebuild (Rf 5.29%) stays in effect, fair values unchanged, only live prices roll forward.**
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — the six current holdings per state.md's 2026-10-05 ~09:38 ET live Robinhood snapshot (NVDA $236.3477, VTI $378.46, VXUS $85.49, OMCL $33.44, XLE $62.42, GEHC $63.47) — plus (7) MU, GS's current #1 screen pick (not held, unchanged rank). No live Robinhood access on this desk; per rule 4, state.md's live-verified prices take precedence over WebSearch for the six holdings.*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — the six current holdings per state.md's 2026-10-06 ~09:38 ET live Robinhood snapshot (NVDA $241.765, VTI $382.41, VXUS $86.125, OMCL $34.74, XLE $63.135, GEHC $66.415) — plus (7) MU, GS's current #1 screen pick (not held, unchanged rank per GS's fresh 10/6 ~09:4x ET report). No live Robinhood access on this desk; per rule 4, state.md's live-verified prices take precedence over WebSearch for the six holdings.*
+
+**One correction flagged up front: MU's price input.** My 10/5 report priced MU off a WebSearch figure ($935.93) that GS's own 10/5 report had already identified as a non-live artifact repeating across six-plus consecutive reports. What I missed is that state.md's own trader tooling *did* pull a genuinely live MU quote twice on 10/5 (13:36 ET: $1,065.81; 12:37 ET: $1,065.24), and GS's fresh 10/6 report carries that forward as "$1,065-1,074, no fresher live read this run" — a materially better number than the stale WebSearch print. I'm switching to that carryforward figure this run. It makes MU *more* overvalued on this model, not less — see verdict below.
 
 ---
 
 ## Verdicts (top line) — same fair values as the 10/1 rebuild, prices roll forward
 
-| Ticker | Current Price (10/5) | Fair Value (unchanged, 10/1 rebuild) | Gap | Verdict |
+| Ticker | Current Price (10/6, ~09:38 ET) | Fair Value (unchanged, 10/1 rebuild) | Gap | Verdict |
 |---|---|---|---|---|
-| **MU** (not held, GS #1) | $935.93 (WebSearch — confirmed by GS's 10/5 report as an identical cached figure across 6+ consecutive reports, non-live, used only because no fresher number exists) | $654/sh (WACC 12.59%) | **-30.1%** | **OVERVALUED — hard pass confirmed, unchanged from 10/2 since neither the model nor (as far as can be confirmed) the price moved** |
-| **GEHC** | $63.47 (was $64.17) | $63.9/sh (WACC 9.09%) | **+0.7%** | **Parity, nominally flipped sign vs. 10/2's -0.4% — still noise, not signal; see flag below** |
-| **NVDA** | $236.3477 (was $235.89) | $192.0 (WACC 11.59%) | **-18.8%** | **OVERVALUED, widest reading yet** — price ticked further above an unmoved fair value |
-| **XLE** | $62.42 (was $62.35) | $58.9 (WACC 11.09%) | **-5.6%** | **OVERVALUED**, essentially flat vs. 10/2's -5.5% |
-| **OMCL** | $33.44 (was $33.61) | $49.1 (WACC 9.59%) | **+46.8%** | **UNDERVALUED — still the widest mispricing on the book by a wide margin** |
-| **VTI** | $378.46 | N/A | N/A | **HOLD BY CONSTRUCTION** |
-| **VXUS** | $85.49 | N/A | N/A | **HOLD BY CONSTRUCTION** |
+| **MU** (not held, GS #1) | ~$1,070 (GS 10/6 carryforward of 10/5's live-verified $1,065.24-1,065.81 read; **not** the stale $935.93 WebSearch figure used in error last run) | $654/sh (WACC 12.59%) | **-38.9%** | **OVERVALUED — hard pass, and the gap is wider than this desk previously reported once priced correctly** |
+| **GEHC** | $66.415 (was $63.47) | $63.9/sh (WACC 9.09%) | **-3.8%** | **OVERVALUED — flips from last run's nominal +0.7% "parity, noise" read on a genuine ~4.7% price move, not noise this time** |
+| **NVDA** | $241.765 (was $236.3477) | $192.0 (WACC 11.59%) | **-20.6%** | **OVERVALUED, new widest reading yet** — fourth consecutive report of a fresh worst-ever gap, driven entirely by price |
+| **XLE** | $63.135 (was $62.42) | $58.9 (WACC 11.09%) | **-6.7%** | **OVERVALUED**, widening from 10/5's -5.6% |
+| **OMCL** | $34.74 (was $33.44) | $49.1 (WACC 9.59%) | **+41.3%** | **UNDERVALUED — still the widest mispricing on the book, narrowed slightly as price rallied** |
+| **VTI** | $382.41 | N/A | N/A | **HOLD BY CONSTRUCTION** |
+| **VXUS** | $86.125 | N/A | N/A | **HOLD BY CONSTRUCTION** |
 
-**Bottom line for the trader — read this first:** nothing changed in any model today, and nothing changed enough in any price to matter either — this is the fourth-straight quiet weekend/Monday-open reading (consistent with state.md's own 10/5 ~09:38 ET note). Two things worth flagging on top of the mechanical roll:
+**Bottom line for the trader — read this first:**
 
-1. **GEHC's gap flipped sign again (-0.4% → +0.7%) purely on a further ~$0.70 price pullback.** This is the second consecutive report where this desk has had to say the same thing: a gap this thin on a single-stage perpetuity model is noise, not a genuine undervaluation signal. **Do not read this as "GEHC is now cheap."** Treat it as valuation-neutral until the rate moves cleanly or a fresh fundamentals catalyst arrives — earnings now confirmed ~10/28-10/29 per JPM/GS, still ~3+ weeks out.
-2. **MU's price is now unverifiable, not just unchanged.** GS's 10/5 report flags that WebSearch has returned the identical $935.93 figure across six consecutive reports spanning a full weekend — this desk is treating that figure as a non-live artifact, not a confirmed current quote. The verdict is unaffected either way: at $935.93 the gap is -30.1%; even a double-digit-percent further pullback from here would not close a 30-point DCF gap. **Hard pass stands regardless of which number is actually correct today.**
+1. **GEHC just turned a real corner on this model, not a noise-band wobble.** Last run's +0.7% read was explicitly flagged as too thin to mean anything (a single-stage perpetuity model's noise floor). This run's -3.8% is a different story: GEHC is up from $63.47 to $66.415 (+4.6%) in one session with zero fundamentals change, which is enough to move it cleanly into overvalued territory on an unmoved fair value. This is now the sixth-plus consecutive live check sitting above the $62-65 continuation band's top edge (per BR's/GS's tracking) — valuation and the band question agree for the first time: GEHC is not cheap here. BR formally closed the "no upside trigger" design question on 10/5, so this is **not** a sell signal under any standing rule — but it is this desk's job to say plainly that the valuation case for adding here is gone, and the case for *trimming* on valuation grounds (not yet a rule, just a flag) is starting to build if the price keeps extending against a flat model.
+2. **MU's price was wrong in my last report, and fixing it makes the hard pass stronger, not weaker.** At the corrected ~$1,070 carryforward figure, the DCF gap widens to roughly -38.9% from the -30.1% I reported 10/5 off the stale $935.93 print. The verdict doesn't change (hard pass either way), but the magnitude does, and GS's own screen is still citing bull price targets as high as $1,500 against a $654 DCF fair value — the disconnect here is now the widest on the book by dollar terms, even if OMCL's is wider by percentage.
+3. **NVDA keeps setting new records purely on price drift against a fair value this desk hasn't touched since 9/23.** -20.6% is the fourth straight session-over-session worst-ever reading. No rule treats price drift alone as a trigger (rule 1), and BR's standing no-new-cash instruction already governs sizing — this desk's job is only to keep saying, plainly, that nothing in the fundamentals supports the current price, and the gap is still getting wider, not narrower.
 
 No trade recommended off this report (research-only mandate, as always).
 
 ---
 
-## Per-name detail (brief — full builds unchanged, see 10/1 report in git history for full methodology: 5-yr revenue projections, margin bridges, FCF build, WACC derivation)
+## Per-name detail (brief — full builds unchanged since the 10/1 rebuild; see that report in git history for full methodology: 5-yr revenue projections, margin bridges, FCF build, WACC derivation)
 
-### 1. GE HealthCare (GEHC) — parity, nominal flip is noise
-Fair value $63.9 (WACC 9.09%, unchanged since 9/23 fundamentals build). Price $63.47 (was $64.17, was $65.42). Gap = (63.9 − 63.47) / 63.47 = **+0.68%**. Verdict: **valuation-neutral** — this crossed from a nominal -0.4% overvaluation to a nominal +0.7% undervaluation purely on a sub-1% price move; a single-stage model's noise floor is wider than that. No revenue/margin/FCF change. Next earnings confirmed ~10/28-10/29, ~23-24 days out — outside any near-term catalyst window. Fresh WebSearch this run found only the already-known Q3 dividend increase (+14% q/q, payable 11/13) and the same ~10/28 earnings estimate — no structural news.
+### 1. GE HealthCare (GEHC) — flips to overvalued on a real price move
+Fair value $63.9 (WACC 9.09%, unchanged since 9/23 fundamentals build). Price $66.415 (was $63.47). Gap = (63.9 − 66.415) / 66.415 = **-3.79%**. Verdict: **overvalued**, a genuine flip from last run's noise-band +0.7% — this time the move (+4.6% on no news) is large enough to mean something on this model, not just cross the zero line. No revenue/margin/FCF change; next earnings confirmed Wednesday 10/29 before market open, consensus EPS $1.05 (-7.9% YoY) per fresh WebSearch (Barchart) matching GS's own 10/6 figure — now ~23 days out, still outside any near-term catalyst window but getting closer. One stale WebSearch snippet this run ($82.58, from an old "profit miss and guidance cut" story already traced to a prior period) discarded per rule 4 — live Robinhood price used.
 
 ### 2. NVIDIA (NVDA) — widest overvaluation on file, extends again
-Fair value $192.0 (WACC 11.59%, unchanged). Price $236.3477 (was $235.89). Gap = (192.0 − 236.3477) / 236.3477 = **-18.76%**, a new widest-ever reading from this desk, driven entirely by price drift against an unmoved fair value. Hold, no add, no trim — price drift alone is not a trigger (rule 1); BR's standing no-new-cash instruction already governs the sizing side. Note for the book: GS's 10/5 report flagged a same-morning WebSearch NVDA quote ($219.74) that materially diverged from the live Robinhood print this desk is using ($236.3477) — this desk's fair-value gap is computed off the Robinhood-verified figure per rule 4, consistent with the rest of the team.
+Fair value $192.0 (WACC 11.59%, unchanged). Price $241.765 (was $236.3477). Gap = (192.0 − 241.765) / 241.765 = **-20.58%**, a new widest-ever reading from this desk for the fourth consecutive report, driven entirely by price drift against an unmoved fair value (now 12 consecutive trading days over BR's 10% pool target per BR's own tracking). Hold, no add, no trim — price drift alone is not a trigger (rule 1); BR's standing no-new-cash instruction already governs the sizing side.
 
-### 3. Omnicell (OMCL) — unchanged, still the book's deepest discount
-Fair value $49.1 (WACC 9.59%, unchanged). Price $33.44 (was $33.61). Gap = (49.1 − 33.44) / 33.44 = **+46.83%**, widening slightly on a small further pullback. Fresh WebSearch found no structural catalyst — only the already-known ~10/30 earnings date and consensus estimates already on JPM's calendar. DCA gate (rule 18) remains the operative timing mechanism, not this desk's valuation call.
+### 3. Omnicell (OMCL) — unchanged model, still the book's deepest discount
+Fair value $49.1 (WACC 9.59%, unchanged). Price $34.74 (was $33.44). Gap = (49.1 − 34.74) / 34.74 = **+41.33%**, narrowing from 10/5's +46.8% purely on the rally, not a model change. Fresh WebSearch confirms the ~10/29-10/30 earnings window already on JPM's calendar (consensus EPS $0.24, revenue ~$313M) — no structural catalyst yet. DCA gate (rule 18) remains the operative timing mechanism, not this desk's valuation call; per state.md, the gate is now its closest-ever reading (~$1.47 from firing).
 
 ### 4. Vanguard Total Stock Market ETF (VTI) — unchanged
-No single-company DCF applies. $378.46. Defers to BR/BW on sizing and drift-band status.
+No single-company DCF applies. $382.41. Defers to BR/BW on sizing and drift-band status.
 
 ### 5. Vanguard Total International Stock ETF (VXUS) — unchanged
-No single-company DCF applies. $85.49. No fair-value case to add or trim.
+No single-company DCF applies. $86.125. No fair-value case to add or trim.
 
-### 6. Energy Select Sector SPDR (XLE) — overvaluation essentially flat
-Fair value $58.9 (WACC 11.09%, Brent $76/bbl base case, unchanged). Price $62.42 (was $62.35). Gap = (58.9 − 62.42) / 62.42 = **-5.64%**, essentially flat vs. 10/2's -5.53% — consistent with BW's repeatedly-flagged hedge-decoupling pattern (XLE's price action still not tracking its own oil thesis cleanly). No change to the underlying composite model.
+### 6. Energy Select Sector SPDR (XLE) — overvaluation widens further
+Fair value $58.9 (WACC 11.09%, Brent $76/bbl base case, unchanged). Price $63.135 (was $62.42). Gap = (58.9 − 63.135) / 63.135 = **-6.71%**, widening from 10/5's -5.64% — consistent with BW's repeatedly-flagged (and once self-corrected) hedge-decoupling pattern. No change to the underlying composite model.
 
-### 7. Micron (MU) — GS's #1 pick, not held — hard pass confirmed, price unverifiable but immaterial to the verdict
-Fair value $654/sh (WACC 12.59%, g=3%, unchanged — see 10/1 report for the full FY27-31 build). Price $935.93 (WebSearch; GS's 10/5 report independently confirms this is an identical, non-live cached figure spanning six consecutive reports and a full weekend — treated here the same way, as the best available but unconfirmed number). Gap = (654 − 935.93) / 935.93 = **-30.13% overvalued**, unchanged. **This desk's answer remains no.** Even allowing for meaningful price uncertainty, nothing close to a 30-point DCF gap closure is plausible from a stale-quote artifact alone. Not investable at current levels.
+### 7. Micron (MU) — GS's #1 pick, not held — hard pass, now on a corrected and wider gap
+Fair value $654/sh (WACC 12.59%, g=3%, unchanged — see 10/1 report for the full FY27-31 build). Price ~$1,070 (GS's 10/6 carryforward of the last genuinely live-verified reads from 10/5, $1,065.24-1,065.81 — replacing the stale $935.93 WebSearch figure this desk used in error last run). Gap = (654 − 1,070) / 1,070 = **-38.88% overvalued**, materially wider than the -30.1% previously reported once correctly priced. **This desk's answer remains no, more firmly than before.** Not investable at current levels.
 
 ---
 
@@ -65,20 +68,31 @@ Fair value $654/sh (WACC 12.59%, g=3%, unchanged — see 10/1 report for the ful
 
 ---
 
-## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-10-05 ~09:42 ET report)
+## Key assumptions that could break this model (persona-mandated, standing list — reviewed, no changes this run)
 
-Full agreement on MU: GS's own screen reaches an identical "zone reached (days ago), still don't touch it" conclusion from a relative-multiple framework, now independently corroborating this desk's flag that the $935.93 print itself may be a stale artifact — GS traced it across six consecutive reports and a weekend. GS's GEHC framing ("hold, no add, no change," -0.4%-at-the-time DCF near-parity acknowledged) is consistent with today's nominal flip to +0.7% — still inside the same "near-parity, noise" band this desk is calling. No disagreement on NVDA or OMCL direction; GS separately flagged a serious NVDA price-quote discrepancy (WebSearch $219.74 vs. Robinhood $236.3477, same morning) — this desk used the Robinhood figure, consistent with GS's own recommendation and rule 4. GS's priority ask (a pre-10/6-Investor-Day MRVL cross-vet) remains outstanding on this desk — no MRVL model exists yet (rule 6 gate not opened); this is now the third consecutive report carrying that ask per GS, and this desk notes it but cannot build a same-day full DCF without a dedicated request and lead time.
+- **Risk-free rate (Rf 5.29%, set 10/1).** Every ticker's WACC is keyed off this. GEHC and XLE have the thinnest gaps on the book and are the first to flip on any confirmed rate move in either direction; NVDA and OMCL's verdicts are robust to a partial reversal. Six calendar days now without an independently confirmable fresh rate print of any kind — longer than any prior stretch this desk has logged. This is the single largest source of model risk right now, simply because of how stale the input is.
+- **NVDA's growth/margin trajectory vs. the FY28 guidance embedded in the build.** A confirmed slip in Data Center growth or a margin compression surprise would lower fair value further (worse for the stock); a confirmed beat-and-raise on the scale of 8/27's print could close some of the -20.6% gap without a model change, same mechanism that happened in August.
+- **GEHC's net-debt and tariff-cost assumptions** (last refreshed in the 9/23 fundamentals build) — the China/tariff/Patient Care Solutions overhang BW and GS have both flagged repeatedly hasn't materially moved the model yet; a confirmed structural deterioration there would lower fair value, widening the newly-overvalued gap further.
+- **OMCL's margin-recovery assumption behind the ~$49.1 fair value** — this is the widest discount on the book, and it rests on a recovery thesis that the 10/29-30 print (both the 29th and 30th appear across sources, a minor dateline inconsistency worth JPM re-verifying) will either confirm or break.
+- **XLE/Brent base case ($76/bbl)** — unchanged since 7/27's partial rollback from $77; any confirmed move in the oil benchmark re-opens this one specifically, and BW's hedge-decoupling flag means XLE's price has not been tracking this assumption cleanly regardless.
+- **MU's HBM/AI-cycle growth assumption** — the single biggest swing factor on the book's widest-dollar gap; Street bull targets ($950-1,500, per GS's own flagged internal inconsistency) assume a demand/pricing cycle this model does not fully credit. If that cycle proves durable rather than cyclical, this fair value is the one most likely to be revised up at the next full rebuild.
+
+---
+
+## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-10-06 ~09:4x ET report)
+
+Full agreement on MU's direction (hard pass) — and GS's own report is the source of this desk's price correction: GS flags MU's price as "$1,065-1,074 (carryforward, no fresh live read this run)," distinct from the stale $935.93 WebSearch artifact GS separately traced across six-plus consecutive reports. This desk adopts GS's carryforward figure this run, which is why the reported gap widened materially from last run. On GEHC, GS's own screen table lists "DCF ~parity per MS's 10/5 roll" — written before this run's price move; this report supersedes that with a fresh -3.8% overvalued read, worth flagging back to GS and BR given GEHC is now a sixth-plus consecutive check above its continuation band *and* valuation-overextended for the first time. No disagreement on NVDA or OMCL direction. GS's priority ask (a pre/post-10/6-Investor-Day MRVL cross-vet) remains outstanding on this desk — no MRVL model exists yet (rule 6 gate not opened); noted but not buildable same-day without a dedicated request.
 
 ## Explicit read on trader's current positions (all six held) plus GS's #1 pick
 
-**GEHC**: valuation-neutral, gap ≈ +0.7% (was -0.4%) — nominal flip is noise, not a buy signal; hold.
-**XLE**: overvalued, gap ≈ -5.6% (was -5.5%) — hold, no add, hedge-decoupling pattern persists.
-**NVDA**: overvalued, gap ≈ -18.8% (was -18.6%), new widest reading — hold, no add, no trim; BR's no-new-cash instruction stands.
-**OMCL**: undervalued, gap ≈ +46.8% (was +46.1%) — still the widest mispricing on the book; DCA gate unaffected.
+**GEHC**: now overvalued, gap ≈ -3.8% (was +0.7%, noise) — the valuation case for adding is gone; still hold, not a sell trigger under any standing rule.
+**XLE**: overvalued, gap ≈ -6.7% (was -5.6%) — hold, no add, hedge-decoupling pattern persists per BW.
+**NVDA**: overvalued, gap ≈ -20.6% (was -18.8%), fourth consecutive new-widest reading — hold, no add, no trim; BR's no-new-cash instruction stands.
+**OMCL**: undervalued, gap ≈ +41.3% (was +46.8%, narrowing on the rally) — still the widest mispricing on the book by percentage; DCA gate unaffected, now ~$1.47 from firing per state.md.
 **VTI / VXUS**: hold, no valuation view — defer to BR/BW.
-**MU** (GS's #1 pick, not held): hard pass confirmed, gap ≈ -30.1% (unchanged) — price itself now flagged as a likely stale artifact by this desk and GS alike, but immaterial to the verdict. Not investable.
+**MU** (GS's #1 pick, not held): hard pass, gap ≈ -38.9% (was -30.1%, now corrected for a pricing error — see note above). Not investable.
 
-**Standing flag for the next run, unchanged from 10/1-10/2:** this desk's models are still conditioned on the 10/1 WACC rebuild (Rf 5.29%) holding — five full calendar days now without an independently confirmable rate print of any kind, a longer stretch than usual. GEHC and XLE are the first things to re-check on any confirmed rate move in either direction (their gaps are thin enough to flip again); NVDA and OMCL's verdicts are robust to a partial reversal. The next full rebuild should be triggered by either (a) a clean, independently-confirmed reversal of the 10yr below 5% sustained for a comparable period, or (b) a company-specific catalyst (earnings, guidance, M&A) on any individual name, whichever comes first — GEHC's ~10/28-29 print is the nearest such date on the book, with OMCL's ~10/30 print close behind.
+**Standing flag for the next run, unchanged in substance from 10/1-10/5:** this desk's models remain conditioned on the 10/1 WACC rebuild (Rf 5.29%) holding — now six full calendar days without an independently confirmable rate print, the longest stretch yet. GEHC and XLE are the first things to re-check on any confirmed rate move in either direction (their gaps are thin enough to flip again, and GEHC just demonstrated how quickly that can happen on price alone); NVDA and OMCL's verdicts are robust to a partial reversal. The next full rebuild should be triggered by either (a) a clean, independently-confirmed reversal of the 10yr below 5% sustained for a comparable period, or (b) a company-specific catalyst (earnings, guidance, M&A) on any individual name, whichever comes first — GEHC's confirmed 10/29 print is now the nearest such date on the book, with OMCL's ~10/29-30 print essentially concurrent.
 
 ---
 
@@ -87,6 +101,6 @@ Sources:
 - [10-Year Treasury Yield Rises to 4.145% — Morningstar/Dow Jones](https://www.morningstar.com/news/dow-jones/202603059767/10-year-treasury-yield-rises-to-4145-data-talk)
 - [10-Year Treasury Yield Rises to 4.420% — Morningstar/Dow Jones](https://www.morningstar.com/news/dow-jones/202606307321/10-year-treasury-yield-rises-to-4420-data-talk)
 - [Current share price for MU — InvestSmart](https://www.investsmart.com.au/security/nasdaq/mu/micron-technology/share-price)
-- [GE HealthCare announces cash dividend increase for third quarter of 2026 — Finviz](https://finviz.com/news/394504/ge-healthcare-announces-cash-dividend-increase-for-third-quarter-of-2026)
-- [Omnicell Stock Surges 57.3% in a Year — Nasdaq](https://www.nasdaq.com/articles/omnicell-stock-surges-573-year-whats-driving-it)
-- Internal: trading-experiment/state.md (Balance history through 10/5 ~09:38 ET), analysts/gs-stock-screener.md (10/5 ~09:42 ET report), this desk's own 10/1 report (git history) for the full WACC-rebuild methodology and all per-name FCF builds
+- [GE HealthCare Technologies earnings preview — Barchart](https://www.barchart.com/story/news/35328829/ge-healthcare-technologies-earnings-preview-what-to-expect)
+- [Omnicell (OMCL) earnings date — nextearningsdate.com](https://www.nextearningsdate.com/omnicell.html)
+- Internal: trading-experiment/state.md (Balance history through 10/6 ~09:38 ET), analysts/gs-stock-screener.md (10/6 ~09:4x ET report), this desk's own 10/1 report (git history) for the full WACC-rebuild methodology and all per-name FCF builds

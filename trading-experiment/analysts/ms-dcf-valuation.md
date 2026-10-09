@@ -1,7 +1,7 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
-**Date: 2026-10-08 (Thursday), ~10:14 ET (verified via `TZ=America/New_York date`). First full model build in this coverage's history for an eighth name — SNDK — alongside a price-roll-only update on the six holdings. No WACC rebuild on the legacy six; 10/1's Rf 5.29% input stands (see rate-check note below).**
+**Date: 2026-10-09 (Friday), ~10:3x ET. First full model build for AVGO (GS's new #1 unvetted ask as of its 2026-10-09 report), alongside a price-roll-only update on the six holdings. No WACC rebuild on the legacy six this run — 10/1's Rf 5.29% input stands (see rate-check note below, same chronic WebSearch-dateline wall every desk has hit all week).**
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — the six current holdings per state.md's 2026-10-08 ~09:36 ET live Robinhood snapshot (NVDA $234.46, VTI $379.865, VXUS $84.10, OMCL $34.995, XLE $64.69, GEHC $64.31) — plus (7) **SNDK (SanDisk), GS's new #1 screen pick as of its 2026-10-08 ~09:4x ET report**, superseding MRVL in that slot now that MRVL's hard-pass verdict (set by this desk 10/7) is fully adopted and SNDK has been GS's repeated top unvetted ask for 23+ days running. No live Robinhood access on this desk; per rule 4, state.md's live-verified prices take precedence over WebSearch for the six holdings. MRVL drops out of this report's top-line coverage now that it is no longer GS's #1 (last verdict on file, 10/7: hard pass, -35% to -61% gap — unchanged, not rebuilt this run, available in git history on request).*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: (1) NVDA, (2) OMCL, (3) VTI, (4) VXUS, (5) XLE, (6) GEHC — the six current holdings per state.md's 2026-10-09 ~09:43 ET live Robinhood snapshot (NVDA $231.26, VTI $380.92, VXUS $84.70, OMCL $35.185, XLE $65.365, GEHC $64.785) — plus (7) **AVGO (Broadcom), GS's #1 screen pick as of its 2026-10-09 report**, now that SNDK (10/8, hard pass, -45%/-72%) has been fully adopted and AVGO has been GS's repeated, explicitly-named "single biggest process gap" top ask for multiple weeks running. No live Robinhood access on this desk; per rule 4, state.md's live-verified prices take precedence over WebSearch for the six holdings.*
 
 ---
 
@@ -9,20 +9,20 @@
 
 | Ticker | Current Price | Fair Value | Gap | Verdict |
 |---|---|---|---|---|
-| **SNDK** (not held, GS #1 — first-ever MS build) | ~$1,787.6 (carryforward, undated but multi-source-consistent per GS 10/8) | **$984/sh** (bull/supercycle-persists case) to **$493/sh** (mean-reversion case) — see below | **-45% to -72%** | **OVERVALUED, bluntly — even the most aggressive defensible supercycle-persistence case falls far short** |
-| **XLE** | $64.69 (was $64.37) | $58.9/sh (WACC 11.09%, Brent $76/bbl — unchanged, see note) | **-9.0%** | **OVERVALUED, new widest reading yet** — fourth straight widening |
-| **NVDA** | $234.46 (was $238.235) | $192.0 (WACC 11.59%) | **-18.1%** | **OVERVALUED**, narrowed further on today's pullback, still the structural story |
-| **GEHC** | $64.31 (was $64.97) | $63.9/sh (WACC 9.09%) | **-0.64%** | **Near-parity** — essentially at fair value |
-| **OMCL** | $34.995 (was $35.225) | $49.1/sh (WACC 9.59%) | **+40.3%** | **UNDERVALUED — still the widest mispricing on the book**, narrowing slightly on today's pullback |
-| **VTI** | $379.865 | N/A | N/A | **HOLD BY CONSTRUCTION** |
-| **VXUS** | $84.10 | N/A | N/A | **HOLD BY CONSTRUCTION** |
+| **AVGO** (not held, GS #1 — first-ever MS build) | ~$362.51 (carryforward, undated but repeatedly best-sourced per GS; today's WebSearch again returned a $350-378 unreconciled spread) | **$238.6/sh** (bull case) to **$178.8/sh** (base case) — see below | **-34.2% to -50.7%** | **OVERVALUED, bluntly — even the generous bull case falls well short** |
+| **XLE** | $65.365 (was $64.69) | $58.9/sh (WACC 11.09%, Brent $76/bbl — unchanged, see note) | **-9.89%** | **OVERVALUED**, a fifth straight widening |
+| **NVDA** | $231.26 (was $234.46) | $192.0 (WACC 11.59%) | **-16.98%** | **OVERVALUED**, narrowing further on this week's pullback |
+| **GEHC** | $64.785 (was $64.31) | $63.9/sh (WACC 9.09%) | **-1.37%** | **Slightly overvalued** — back out of near-parity, inside noise band |
+| **OMCL** | $35.185 (was $34.995) | $49.1/sh (WACC 9.59%) | **+39.55%** | **UNDERVALUED — still the widest mispricing on the book**, essentially flat |
+| **VTI** | $380.92 | N/A | N/A | **HOLD BY CONSTRUCTION** |
+| **VXUS** | $84.70 | N/A | N/A | **HOLD BY CONSTRUCTION** |
 
 **Bottom line for the trader:**
 
-1. **SNDK is this report's headline, and the answer to GS's 23-day-repeated priority ask is a clean, hard pass.** Even crediting a sustained AI-storage supercycle that triples revenue to ~$53B by FY31 while holding non-GAAP operating margins near 48-58% (a scenario this desk already considers aggressive), fair value tops out around **$984/share against a ~$1,787.6 live reference price — a -45% gap**. A more disciplined mean-reversion case, where NAND's historically cyclical pricing and margins normalize over the forecast window (as even bullish third-party commentary cautions "a 78% gross margin is not a steady state"), collapses fair value to **~$493/share, a -72% gap**. This is a wider gap than MRVL's (-35% to -61%, 10/7) — don't chase the print.
-2. **XLE just set a new worst-ever reading on this model for the fourth consecutive report**, still on the unmoved $76/bbl Brent assumption flagged as overdue since 7/27. This desk attempted a fresh oil-price WebSearch this run specifically to address that overdue item; results were internally contradictory and unusable (see note below, consistent with the chronic WebSearch-staleness problem GS/BW have independently flagged all week) — the rebuild remains blocked on reliable data, not on priority.
-3. **NVDA's gap narrowed further on today's pullback but the story hasn't changed** — fair value untouched since 9/23, gap easing purely on price to -18.1% from five straight "new widest ever" reports before this week's pullback began. No rule treats price drift as a trigger; nothing here changes that.
-4. **GEHC is sitting essentially at fair value right now** — the second round-trip in two days (overvalued → near-parity → near-parity), a clean illustration of how thin this model's margin of error is at this price level. No action implied.
+1. **AVGO is this report's headline, and the answer to GS's long-repeated priority ask is a clean, hard pass — wider than SNDK's.** Even crediting management's own high-end guidance (AI chip revenue reaching $115B in FY27, sustained ~66% non-GAAP operating margins) fair value tops out around **$238.6/share against a ~$362.51 live reference price — a -34.2% gap**. A more disciplined base case using the low end of management's own $100-115B FY27 AI-chip guidance range and modest margin compression collapses fair value to **~$178.8/share, a -50.7% gap** — wider than SNDK's -45%/-72% spread was narrow at its low end, and roughly in the same zone at the high end. GS's own sell-side-sourced average target (~$504.93, with some outliers to $550) is itself not a cash-flow framework — exactly the screener-vs-valuation tension this desk exists to flag, same dynamic as SNDK and MRVL before it.
+2. **XLE just set a new worst-ever reading for a fifth consecutive report**, still on the unmoved $76/bbl Brent assumption flagged as overdue since 7/27. A fresh attempt to refresh that input this run was not separately re-run (no material new oil-price signal surfaced in this run's AVGO-focused research); the rebuild remains blocked on reliable same-day Brent data, not on priority — see legacy section below.
+3. **NVDA's gap narrowed further on this week's pullback but the story hasn't changed** — fair value untouched since 9/23, gap easing purely on price to -16.98%. No rule treats price drift as a trigger.
+4. **GEHC flipped back from last report's near-parity (-0.64%) to a modest -1.37% overvalued reading** on today's small bounce — still well inside this model's noise band (sub-2% swings have round-tripped sign twice in the last week), not a re-rating.
 
 No trade recommended off this report (research-only mandate, as always).
 
@@ -30,77 +30,83 @@ No trade recommended off this report (research-only mandate, as always).
 
 ## Rate-check note (Rf input)
 
-Fresh WebSearch this run for a same-day 10-year Treasury print returned conflicting, dateline-muddled figures across sources: a mid-September data point near 5.00-5.01%, a 9/30-dated report citing 5.29% (consistent with the standing book input, set 10/1), and an unrelated late-June 4.42% figure clearly stale. No independently confirmable 10/8 print surfaced. Per rule 4, an unconfirmed-but-roughly-consistent read doesn't trigger a rebuild — **Rf 5.29% stands, fair values on the legacy five non-ETF holdings stay exactly as set 10/1, only live prices roll forward.**
+Fresh WebSearch this run for a same-day 10-year Treasury print again hit the same wall every desk has flagged for over a week: one source attributed to the U.S. Treasury cited a 10/1 close of 5.24% (down from 5.29%), while another source's weekly reading for late July showed 4.66-4.69% — a gap too large to be a normal daily move, suggesting at least one of these figures is mis-dated or mis-scraped. No independently confirmable 10/8 or 10/9 print surfaced. Per rule 4, this doesn't meet the bar for a rebuild — **Rf 5.29% stands, fair values on the legacy five non-ETF holdings stay exactly as set 10/1, only live prices roll forward.**
 
 ---
 
-## 1. SanDisk (SNDK) — first-ever DCF build, GS's new #1 pick
+## 1. Broadcom (AVGO) — first-ever DCF build, GS's new #1 pick
 
 ### Why now, and why two scenarios
-This is SNDK's first appearance in this desk's coverage. GS has flagged it as "the single highest-conviction unvetted idea on the sheet" across its last several reports, now citing a 10/29 earnings print only 21 days out with zero cross-desk coverage — rule 6 (MS DCF + BW risk read required before any new name is investable) has been the only thing blocking it. SanDisk (the NAND/flash storage business spun off from Western Digital in 2025) is in the middle of an extraordinary AI-storage-driven supply shortage: fiscal Q3 FY2026 revenue came in at **$5.95B, +251% YoY and +97% sequentially**, data-center revenue grew **233% sequentially to $1.467B**, and the company signed five multiyear supply agreements worth **$42B in minimum contractual revenue** covering over a third of FY27 bit volume. Q4 FY26 guidance calls for **$7.75-8.25B revenue, 79-81% gross margin, and $30-33 non-GAAP EPS** — guidance well above the already-beaten Q3 print.
+AVGO has been GS's top-ranked unvetted ask for weeks, explicitly named in its 10/9 report as "this sheet's single biggest process gap" given 27-of-30 sell-side Buy ratings, a ~$1.7-1.8T market cap, and two dated catalysts ahead (NVDA's 11/18 print as a read-through on AI capex, and AVGO's own 12/9 print). Rule 6 (MS DCF + BW risk read required before any new name is investable) is the only thing that has kept this gated. Broadcom's fiscal Q3 2026 (ended 8/2/26) revenue hit **$29.6B, +86% YoY**, with AI semiconductor revenue of **$16.7B**; GAAP net income was **$13.1B** (+215% YoY); free cash flow was **$13.7B, 46% of revenue**. Management has raised its FY2027 AI-chip-revenue outlook from an initial "line of sight to $100B" framing toward a more recent **$100-115B** range, backed by a **$73B AI backlog** (custom accelerators + networking) it expects to deliver over the next 18 months.
 
-The honest problem for a DCF: NAND is a historically cyclical commodity-memory business. Gross margins in the high-70s/low-80s are not a steady state — even bullish third-party commentary on this exact print says so explicitly. A model that simply extrapolates the current run-rate forward would be misleading, so this desk built two scenarios bracketing the plausible range: a bull case crediting a longer, higher-margin supercycle (the closest analog to what the ~$1,787.6 live price appears to require), and a mean-reversion case consistent with NAND's own multi-decade cyclical history.
+The honest problem for a DCF: this is a step-change in scale (total company revenue roughly doubling in two years) that the market is already pricing aggressively — sell-side average targets (~$505, GS's own figure) assume the guidance lands cleanly and the multiple holds. This desk built two scenarios: a bull case that credits management's guidance at the high end with margins holding, and a base case using the low end of the same guidance range with modest margin normalization — deliberately not building a true bear case, since even the more conservative of these two already implies a hard pass.
 
 ### Inputs (common to both scenarios)
-- **FY2026 actual revenue (fiscal year ended 7/3/26):** $20.248B (SEC-filing-sourced per ahasignals; Digrin's independent pull shows consistent full-year totals)
-- **Shares outstanding:** 148.09M (Motley Fool quote page; roic.ai's weighted-average basic count runs slightly lower at ~146M — used the higher, more conservative-for-fair-value-per-share figure)
-- **Balance sheet:** cash & equivalents ~$4.8B, total debt ~$0.393B (as of 7/3/26 per Digrin) → **net cash ≈ $4.4B** (one source, VCP Scanner, claims the company is fully debt-free as of Q3 — flagged as a conflicting data point, not resolved; using the more conservative net-cash figure)
-- **Beta:** 1.7 (memory/NAND names run high-beta through supply cycles; comparable in spirit to MRVL's 1.8 estimate for a volatile, customer/cycle-concentrated semis-adjacent name — no single clean consensus beta surfaced this run)
-- **Cost of equity (CAPM):** Rf 5.29% (book-standing input, see rate-check note above) + 1.7 × 5.0% ERP = **13.79%**
-- **Cost of debt (pre-tax):** ~5.5%; effective tax rate: 21% (standard US corporate rate; no SNDK-specific effective-rate data surfaced)
-- **Capital structure:** market-value weights — at a ~$264B market cap (148.09M sh × $1,787.6) vs. ~$0.393B debt, D/(D+E) ≈ 0.15%, immaterial
-- **WACC = 0.9985 × 13.79% + 0.0015 × 5.5% × (1-0.21) ≈ 13.78%**
+- **FY2026E total revenue (implied from reported + guided quarters):** Q1 $19.31B + Q2 $22.2B + Q3 $29.6B + Q4 guide $34.8B ≈ **$105.9B** (own arithmetic from company-reported/guided figures, not a published consensus total — flagged as a data-quality caveat)
+- **Shares outstanding:** ~4.90B (diluted, blending a 10/5 Google Finance spot count of ~4.77B with management's guided Q4 non-GAAP diluted count of ~4.94B — used the higher, more conservative-for-fair-value-per-share figure)
+- **Balance sheet:** cash & equivalents **$24.0B** (Q3 10-Q-sourced); total debt **~$57.2B** (aggregator-sourced, flagged by the source itself as AI-extracted and unverified against the 10-Q — this desk could not independently confirm) → **net debt ≈ $33.2B**
+- **Beta:** 1.4 (sources ranged from 1.24 to 1.65 across different windows, with one clearly erroneous -0.06 outlier discarded; 1.4 is this desk's own midpoint estimate, not a single clean consensus figure)
+- **Cost of equity (CAPM):** Rf 5.29% (book-standing input, see rate-check note above) + 1.4 × 5.0% ERP = **12.29%**
+- **Cost of debt (pre-tax):** ~4.5% (investment-grade issuer); effective tax rate: 21% (standard US corporate rate, consistent with this book's convention; Broadcom's actual effective rate has historically run lower, which would modestly understate FCF in both scenarios)
+- **Capital structure:** market-value weights — at a ~$1,776B market cap (4.90B sh × $362.51) vs. ~$57.2B debt, D/(D+E) ≈ 3.1%
+- **WACC = 0.969 × 12.29% + 0.031 × 4.5% × (1-0.21) ≈ 11.91% + 0.11% ≈ 12.02%**
 - **Terminal growth (g):** 3.0%, consistent with this book's other names
-- **FCF build:** NAND fabrication is capital-intensive (unlike fabless MRVL) — modeled capex ~15% of revenue, D&A ~12% of revenue, ΔNWC drag ~2% of revenue → net incremental drag beyond NOPAT ≈ 5% of revenue in both scenarios
+- **FCF build:** Broadcom is fabless/asset-light (Q3 capex was only ~1.7% of revenue) relative to this book's other semis names — modeled combined capex/D&A/NWC drag at a lower **4% of revenue (base) / 3.5% of revenue (bull)** than SNDK's fab-heavy 5%, reflecting the genuinely different capital intensity
 
-### Scenario A — Mean-reversion case (NAND's historical cyclicality reasserts over the forecast window)
+### Scenario A — Base case (low end of management's own $100-115B FY27 AI-chip guidance, margins normalize modestly)
 
-| | FY27E | FY28E | FY29E | FY30E | FY31E |
-|---|---|---|---|---|---|
-| Revenue ($B) | 27.0 | 29.5 | 31.0 | 32.0 | 33.0 |
-| YoY growth | +33% | +9% | +5% | +3% | +3% |
-| Non-GAAP op margin | 55% | 48% | 42% | 38% | 35% |
-| EBIT ($B) | 14.85 | 14.16 | 13.02 | 12.16 | 11.55 |
-| NOPAT ($B) | 11.73 | 11.19 | 10.29 | 9.61 | 9.12 |
-| Less: capex/D&A/NWC drag (5% rev, $B) | 1.35 | 1.48 | 1.55 | 1.60 | 1.65 |
-| FCF ($B) | 10.38 | 9.72 | 8.74 | 8.01 | 7.47 |
-| PV factor @13.78% | 0.8787 | 0.7721 | 0.6785 | 0.5963 | 0.5240 |
-| PV of FCF ($B) | 9.12 | 7.50 | 5.93 | 4.78 | 3.91 |
-
-Sum of PV(FCF, FY27-31) = **$31.2B**
-Terminal value (FY31 FCF × 1.03 / (0.1378-0.03)) = $7.69B / 0.1078 = **$71.3B**; PV = **$37.4B**
-**Enterprise value ≈ $68.6B** → plus net cash $4.4B → **Equity value ≈ $73.0B** → ÷ 148.09M shares = **≈$493/share**
-
-**Gap vs. $1,787.6 = -72.4% overvalued.**
-
-### Scenario B — Bull/supercycle-persists case (crediting the $42B supply agreements and a longer, higher-margin cycle)
+AI-chip revenue path: FY27 $100B, then decelerating growth (+20%, +12%, +8%, +6%) to FY31. Non-AI (legacy semi + software/VMware) run-rate ≈ $51.6B annualized off Q3's implied pace, growing modestly (6% → 3%).
 
 | | FY27E | FY28E | FY29E | FY30E | FY31E |
 |---|---|---|---|---|---|
-| Revenue ($B) | 32.0 | 40.0 | 46.0 | 50.0 | 53.0 |
-| YoY growth | +58% | +25% | +15% | +9% | +6% |
-| Non-GAAP op margin | 58% | 55% | 52% | 50% | 48% |
-| EBIT ($B) | 18.56 | 22.00 | 23.92 | 25.00 | 25.44 |
-| NOPAT ($B) | 14.66 | 17.38 | 18.90 | 19.75 | 20.10 |
-| Less: capex/D&A/NWC drag (5% rev, $B) | 1.60 | 2.00 | 2.30 | 2.50 | 2.65 |
-| FCF ($B) | 13.06 | 15.38 | 16.60 | 17.25 | 17.45 |
-| PV of FCF ($B) | 11.47 | 11.88 | 11.26 | 10.29 | 9.15 |
+| AI-chip revenue ($B) | 100.0 | 120.0 | 134.4 | 145.2 | 153.9 |
+| Non-AI revenue ($B) | 54.0 | 56.7 | 59.0 | 60.8 | 62.6 |
+| Total revenue ($B) | 154.0 | 176.7 | 193.4 | 206.0 | 216.5 |
+| YoY growth | +45% | +15% | +9.5% | +6.5% | +5% |
+| Non-GAAP op margin | 64% | 63% | 62% | 61% | 60% |
+| EBIT ($B) | 98.56 | 111.32 | 119.91 | 125.66 | 129.90 |
+| NOPAT ($B) | 77.86 | 87.94 | 94.73 | 99.27 | 102.62 |
+| Less: capex/D&A/NWC drag (4% rev, $B) | 6.16 | 7.07 | 7.74 | 8.24 | 8.66 |
+| FCF ($B) | 71.70 | 80.87 | 86.99 | 91.03 | 93.96 |
+| PV factor @12.02% | 0.8927 | 0.7968 | 0.7112 | 0.6349 | 0.5668 |
+| PV of FCF ($B) | 64.00 | 64.42 | 61.86 | 57.80 | 53.24 |
 
-Sum of PV(FCF) = **$54.1B**. Terminal value = $17.97B/0.1078 = **$166.6B**; PV = **$87.3B**
-**Enterprise value ≈ $141.4B** → plus net cash $4.4B → equity ≈ $145.8B → ÷ 148.09M = **≈$984/share**
+Sum of PV(FCF, FY27-31) = **$301.3B**
+Terminal value (FY31 FCF × 1.03 / (0.1202-0.03)) = $96.78B / 0.0902 = **$1,073.0B**; PV = **$608.2B**
+**Enterprise value ≈ $909.5B** → less net debt $33.2B → **Equity value ≈ $876.3B** → ÷ 4.90B shares = **≈$178.8/share**
 
-**Gap vs. $1,787.6 = -44.9% overvalued.**
+**Gap vs. $362.51 = -50.7% overvalued.**
+
+### Scenario B — Bull case (high end of guidance, margins hold, lighter capex drag)
+
+AI-chip revenue path: FY27 $115B, decelerating (+25%, +15%, +10%, +8%). Non-AI revenue growing slightly faster (6%/5%/4%/3%) as legacy semi recovers alongside the AI ramp.
+
+| | FY27E | FY28E | FY29E | FY30E | FY31E |
+|---|---|---|---|---|---|
+| Total revenue ($B) | 170.0 | 202.0 | 226.5 | 245.4 | 261.8 |
+| YoY growth | +60.5% | +18.8% | +12.1% | +8.3% | +6.7% |
+| Non-GAAP op margin | 66% | 66% | 66% | 66% | 66% |
+| EBIT ($B) | 112.20 | 133.32 | 149.49 | 161.96 | 172.79 |
+| NOPAT ($B) | 88.64 | 105.32 | 118.10 | 127.95 | 136.50 |
+| Less: capex/D&A/NWC drag (3.5% rev, $B) | 5.95 | 7.07 | 7.93 | 8.59 | 9.16 |
+| FCF ($B) | 82.69 | 98.25 | 110.17 | 119.36 | 127.34 |
+| PV of FCF ($B) | 73.80 | 78.27 | 78.35 | 75.79 | 72.17 |
+
+Sum of PV(FCF) = **$378.4B**. Terminal value = $131.16B/0.0902 = **$1,454.1B**; PV = **$823.9B**
+**Enterprise value ≈ $1,202.3B** → less net debt $33.2B → equity ≈ $1,169.1B → ÷ 4.90B = **≈$238.6/share**
+
+**Gap vs. $362.51 = -34.2% overvalued.**
 
 ### Sensitivity table (bull case, WACC × terminal growth, fair value $/sh)
 
-| Scenario | WACC -1pp (12.78%) | WACC base (13.78%) | WACC +1pp (14.78%) | g +0.5pp (base WACC) | g -0.5pp (base WACC) |
+| Scenario | WACC -1pp (11.02%) | WACC base (12.02%) | WACC +1pp (13.02%) | g +0.5pp (base WACC) | g -0.5pp (base WACC) |
 |---|---|---|---|---|---|
-| Fair value | $1,118 | **$984** | $876 | $1,035 | $939 |
+| Fair value | $270.5 | **$238.6** | $213.3 | $249.4 | $229.1 |
 
-Even the single most favorable cell in this table — a full point of WACC relief stacked on the already-aggressive bull case — tops out at **$1,118/share, still -37.5% below the live $1,787.6 print.** There is no combination of inputs this desk is willing to defend that closes this gap.
+Even the single most favorable cell in this table — a full point of WACC relief stacked on the already-aggressive bull case — tops out at **$270.5/share, still -25.4% below the live $362.51 print.** There is no combination of inputs this desk is willing to defend that closes this gap.
 
 ### Verdict: OVERVALUED, bluntly
-GS's own screen calls this "the single highest-conviction unvetted idea on the sheet," and the underlying business momentum is real and well-corroborated: a 251%-YoY quarter, a 233%-sequential data-center ramp, and $42B of contracted minimum revenue are not hype. The disagreement, as always, is about price. The market at ~$1,787.6/share is pricing in a supercycle that runs longer, scales larger, and holds margins higher than even this desk's bull case — which already credits management's supply agreements and a tripling of revenue by FY31 — can support. A reverse-engineered check: closing the gap on the bull case's cash flows alone would require a WACC near 7-8%, i.e., the market is discounting SNDK closer to an investment-grade industrial than a cyclical memory name mid-shortage. That is exactly the setup this desk exists to flag. **Hard pass at ~$1,787.6; this desk would revisit only on a substantial pullback or the 10/29 print delivering guidance that independently re-rates the out-year bridge, not before.**
+GS's case for AVGO is real: 27-of-30 sell-side Buy ratings, a genuine AI-backlog-driven re-rating, and two dated catalysts ahead are not hype. The disagreement is about price. The market at ~$362.51/share is pricing in AI-chip revenue growth and margin durability that sits at or above even this desk's bull case — which already credits the top of management's own guidance range. A reverse-engineered check: closing the gap on the bull case's cash flows alone would require a WACC near 8-9%, implying the market is discounting AVGO closer to a mega-cap-software multiple than a semiconductor name mid-capex-cycle with real customer-concentration risk (a handful of hyperscaler relationships). That is exactly the setup this desk exists to flag. **Hard pass at ~$362.51; this desk would revisit only on a substantial pullback or the 11/18 (NVDA) / 12/9 (AVGO's own print) catalysts delivering guidance that independently re-rates the out-year bridge, not before.**
 
 ---
 
@@ -108,67 +114,68 @@ GS's own screen calls this "the single highest-conviction unvetted idea on the s
 
 | Ticker | Fair Value (unchanged) | Price (was → now) | Gap (was → now) | Verdict |
 |---|---|---|---|---|
-| XLE | $58.9 (WACC 11.09%, Brent $76/bbl) | $64.37 → **$64.69** | -8.5% → **-9.0%** | **OVERVALUED, new widest-ever reading, fourth straight widening** |
-| NVDA | $192.0 (WACC 11.59%) | $238.235 → **$234.46** | -19.4% → **-18.1%** | **OVERVALUED**, easing further on this week's pullback |
-| GEHC | $63.9 (WACC 9.09%) | $64.97 → **$64.31** | -1.65% → **-0.64%** | **Near-parity**, essentially at fair value |
-| OMCL | $49.1 (WACC 9.59%) | $35.225 → **$34.995** | +39.4% → **+40.3%** | **UNDERVALUED**, still the book's widest discount, widening slightly on today's pullback |
-| VTI | N/A | $379.865 | N/A | HOLD BY CONSTRUCTION |
-| VXUS | N/A | $84.10 | N/A | HOLD BY CONSTRUCTION |
+| XLE | $58.9 (WACC 11.09%, Brent $76/bbl) | $64.69 → **$65.365** | -9.0% → **-9.89%** | **OVERVALUED, new worst-ever reading, fifth straight widening** |
+| NVDA | $192.0 (WACC 11.59%) | $234.46 → **$231.26** | -18.1% → **-16.98%** | **OVERVALUED**, easing further on this week's pullback |
+| GEHC | $63.9 (WACC 9.09%) | $64.31 → **$64.785** | -0.64% → **-1.37%** | **Slightly overvalued**, back out of near-parity, inside noise band |
+| OMCL | $49.1 (WACC 9.59%) | $34.995 → **$35.185** | +40.3% → **+39.55%** | **UNDERVALUED**, still the book's widest discount, essentially flat |
+| VTI | N/A | $380.92 | N/A | HOLD BY CONSTRUCTION |
+| VXUS | N/A | $84.70 | N/A | HOLD BY CONSTRUCTION |
 
-**XLE's Brent assumption remains overdue, and this desk tried to close that gap this run rather than let it roll a fifth time.** A dedicated WebSearch for a same-day Brent print returned three mutually-contradictory numbers from the same aggregator (commodity.com showing $74.32, $91.77, and $92.37 on different cached snapshots) plus a prediction-market read implying ~$100 in early October and an unrelated futures-page figure ($84.41) with no usable date — none independently confirmable against today. Per rule 4, this desk will not rebuild a WACC/fair-value input off contradictory, unconfirmable data; the $76/bbl assumption stays exactly as it has since 7/27 until a reliable print surfaces. Flagging to the desk below and to BW/GS, who have independently hit the identical wall this week — this is now a shared, chronic data-source constraint, not a gap in this desk's diligence.
+**XLE's Brent assumption remains overdue, now flagged for a fifth straight report.** This run's research focused on the new AVGO build; no dedicated same-day Brent WebSearch was separately re-run after last run's contradictory, unusable results (three mutually-inconsistent figures from the same aggregator plus an unconfirmable futures-page number). The $76/bbl assumption stays exactly as it has since 7/27 until a reliable print surfaces — this is now the single most overdue input on this desk's book and should be the dedicated focus of the next run that isn't absorbing a new-name build.
 
-**GEHC sitting at essentially exact fair value (-0.64%) is worth noting plainly: this is the tightest this model has read all week**, after two straight sessions of round-tripping (overvalued → near-parity → near-parity again). No fresh fundamentals moved either direction; treat as noise-band, not a re-rating. The 10/29 earnings print (~21 days out) remains the next thing that could move this model for real reasons.
+**GEHC's small flip back to slightly overvalued (-1.37% from -0.64%) is noise, not signal** — a ~$0.47 price move against an unchanged $63.9 fair value. The 10/28 earnings print (confirmed by JPM, 19 days out) remains the next thing that could move this model for real reasons.
 
 ---
 
 ## Key assumptions that could break these models
 
-**SNDK-specific:**
-- **The FY27-31 margin-normalization path is the single biggest swing factor.** Both scenarios assume gross/operating margins eventually compress from today's ~79-81%/mid-50s%+ levels — the mean-reversion case compresses faster and further (to 35% operating margin by FY31) than the bull case (48%). A confirmed Q4 FY26 print (already guided $30-33 non-GAAP EPS) landing materially above guide, or a sixth supply agreement extending contracted visibility well past FY27, would argue for shading toward the bull case; a miss or a guidance cut on 10/29 would argue the opposite.
-- **Beta (1.7) is this desk's own estimate, not a consensus figure** — no clean consensus beta surfaced for a 2025-spinoff memory name mid-supercycle. A lower beta (say 1.3) would lower WACC to roughly 11.8% and lift the bull-case fair value toward ~$1,250/share — still a -30%+ gap, directionally unchanged.
-- **Net cash figure (~$4.4B) has one conflicting data point** (a source claims SNDK is fully debt-free as of Q3) — using the more conservative figure; resolving this would move fair value by at most a few dollars per share either way, immaterial to the verdict.
-- **The 15%/12%/2% capex/D&A/NWC assumption is a NAND-fab-appropriate estimate, not SNDK-specific disclosed guidance** — actual fab capex intensity during a supply-expansion phase (new capacity to meet the $42B of contracted demand) could run higher, which would widen the overvaluation gap further in both scenarios.
-- **Price itself is the weakest input in this entire build.** The ~$1,787.6 reference is a carryforward/undated figure (per GS's 10/8 report, internally consistent across sources but not a confirmed same-day tick) — this desk has no live Robinhood terminal for an unheld name. If the true live price is meaningfully lower than $1,787.6, the percentage gap narrows proportionally, but the underlying verdict (overvalued under any defensible scenario) would need a price well below either scenario's fair value, not a modest correction, to flip.
+**AVGO-specific:**
+- **The FY27 AI-chip-revenue landing point is the single biggest swing factor, full stop.** Management's own guidance spans $100-115B for FY27 — a 15% range that alone separates this desk's base and bull cases. The 12/9 AVGO print (and 11/18's NVDA print as an AI-capex read-through) are the two nearest events that could move this materially in either direction; a confirmed beat-and-raise toward the high end, or evidence the $73B backlog is pulling forward rather than adding demand, would each shift the calculus.
+- **Beta (1.4) is this desk's own estimate, not a clean consensus figure** — sources ranged from 1.24 to 1.65. A lower beta (1.2) would lower WACC to roughly 11.1% and lift the bull-case fair value toward ~$265/share — still a -27% gap, directionally unchanged.
+- **Total debt (~$57.2B) comes from a single aggregator that flagged its own figure as AI-extracted and unverified** — this desk could not independently confirm against the 10-Q this run. Net debt would need to be overstated by over $800B (i.e., essentially impossible) to close this gap through the balance-sheet bridge alone; this is a data-quality flag, not a verdict-moving risk.
+- **The 4%/3.5% capex/D&A/NWC drag assumption reflects Broadcom's genuinely lower capital intensity (fabless model, Q3 capex only ~1.7% of revenue) relative to this book's fab-heavy names** — if AI-backlog fulfillment requires Broadcom to fund more packaging/test capacity or working capital than modeled, both scenarios' fair values would compress further, widening the gap.
+- **Price itself is, again, the weakest input.** The ~$362.51 reference is a repeated carryforward (this desk's and GS's independent searches both returned unreconciled same-day spreads, $350-378 this run) — no live Robinhood terminal exists for an unheld name. A materially lower true price would narrow the percentage gap, but closing it fully would require a price near or below this desk's own bull-case fair value, not a modest pullback.
 
 **Legacy five non-ETF holdings (standing, unchanged in substance since 10/1):**
-- **Risk-free rate (Rf 5.29%, set 10/1).** Now eight calendar days without an independently confirmable same-day print; this run's search returned conflicting mid-September figures (5.00-5.01% and a stale 4.42%) alongside one 5.29%-consistent data point. GEHC and XLE have the thinnest/most sensitive gaps on the book — GEHC in particular is now reading inside noise-band of its fair value, so even a small rate move could flip its sign.
-- **XLE/Brent base case ($76/bbl)** — unchanged since 7/27, now the subject of four straight widening-gap flags from this desk and three from BW; this run's dedicated attempt to refresh the input hit contradictory, unusable data (see above) rather than a lack of effort. Revisit at the next run a reliable print is available.
-- **GEHC's net-debt/tariff assumptions** (9/23 build) — unmoved; GEHC's confirmed 10/29 print (~21 days out) is the nearest scheduled catalyst on the book, same date as SNDK's.
-- **NVDA's growth/margin trajectory vs. FY28 guidance embedded in the build** — unchanged since 9/23; next print ~11/18 per JPM's calendar check, well outside any near-term window.
+- **Risk-free rate (Rf 5.29%, set 10/1).** Now nine calendar days without an independently confirmable same-day print; this run's search returned a 10/1-dated 5.24% figure alongside a mid-summer reading too far off to reconcile, reinforcing rather than resolving the standing conflict. GEHC and XLE have the thinnest/most sensitive gaps on the book.
+- **XLE/Brent base case ($76/bbl)** — unchanged since 7/27, now the subject of five straight widening-gap flags from this desk; not independently re-attempted this run given the AVGO build's research load. Top priority for the next cycle with bandwidth.
+- **GEHC's net-debt/tariff assumptions** (9/23 build) — unmoved; GEHC's confirmed 10/28 print (~19 days out) is the nearest scheduled catalyst on the book.
+- **NVDA's growth/margin trajectory vs. FY28 guidance embedded in the build** — unchanged since 9/23; next print ~11/18, which doubles as AVGO's AI-capex read-through catalyst.
 - **OMCL's margin-recovery assumption behind the $49.1 fair value** — unchanged; the 10/29-30 print still the thesis-confirming event.
 
 ---
 
-## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-10-08 ~09:4x ET report)
+## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-10-09 ~09:4x ET report)
 
-**Direct disagreement on SNDK, stated plainly as the persona's stance requires.** GS calls SNDK "the single highest-conviction unvetted idea on the sheet," and its catalyst (the AI-storage supply crunch, the $42B of contracted revenue, the Q3 beat-and-raise) is real and well-corroborated — this desk doesn't dispute any of that. The disagreement is purely about price: even this desk's most generous defensible bull case lands 45% below the live reference price. GS's own bull consensus targets on file ($2,136.54 average, with outliers to $3,000) are themselves built off sell-side price-target averages, not a discounted-cash-flow framework — exactly the screener-vs-valuation tension this desk exists to surface. GS's rule-6 ask is now answered, and the answer is no, with the added caveat that this is a wider gap than MRVL's (-35% to -61%, the prior "no" this desk delivered 10/7).
+**Direct disagreement on AVGO, stated plainly as the persona's stance requires.** GS calls AVGO its top ask, citing 27-of-30 sell-side Buy ratings, an average target near $505, and two dated catalysts (11/18, 12/9) — this desk doesn't dispute the underlying business momentum (the $73B backlog and FY27 AI guidance are real and well-corroborated). The disagreement is purely about price: even this desk's most generous defensible bull case lands 34% below the live reference price, and the base case lands over 50% below. This is a wider gap than SNDK's at the bull-case end and in the same range at the base-case end — AVGO joins MU, FRO, MRVL, and SNDK as this book's fifth DCF-driven hard pass. GS's rule-6 ask, repeatedly named as this sheet's biggest process gap, is now answered, and the answer is no.
 
-No disagreement with GS on NVDA, GEHC, XLE, or OMCL direction — GS's 10/8 report carries forward the same live-price inputs this desk used (state.md's 09:36 ET snapshot) and raises no new fundamental flag on any of the four (its one GEHC note, an uncorroborated/unconfirmed 10/19 print-date rumor, is explicitly routed to JPM, not framed as a valuation concern — this desk treats it the same way).
+No disagreement with GS on NVDA, GEHC, XLE, or OMCL direction — GS's 10/9 report carries forward the same live-price inputs this desk used (state.md's 10/9 09:43 ET snapshot) and raises no new fundamental flag on any of the four held names.
 
 ## Explicit read on trader's current positions (all six held) plus GS's #1 pick
 
-**SNDK** (GS's #1 pick, not held): hard pass, gap ≈ **-45% (bull case) to -72% (mean-reversion case)**. Not investable at ~$1,787.6 under either scenario.
-**XLE**: overvalued, gap ≈ -9.0% (was -8.5%), new worst-ever reading, fourth straight widening — hold, no add, Brent assumption still overdue but blocked on unreliable data this run.
-**NVDA**: overvalued, gap ≈ -18.1% (was -19.4%), easing further on price alone — hold, no add, no trim; BR's no-new-cash instruction stands.
-**GEHC**: near-parity, gap ≈ -0.64% (was -1.65%) — the tightest read all week; still hold, not a sell or add trigger under any standing rule.
-**OMCL**: undervalued, gap ≈ +40.3% (was +39.4%, widening slightly on today's pullback) — still the widest mispricing on the book by percentage; DCA gate unaffected, per state.md ~$1.97 from firing this morning.
+**AVGO** (GS's #1 pick, not held): hard pass, gap ≈ **-34.2% (bull case) to -50.7% (base case)**. Not investable at ~$362.51 under either scenario.
+**XLE**: overvalued, gap ≈ -9.89% (was -9.0%), new worst-ever reading, fifth straight widening — hold, no add, Brent assumption still overdue.
+**NVDA**: overvalued, gap ≈ -16.98% (was -18.1%), easing further on price alone — hold, no add, no trim; BR's no-new-cash instruction stands.
+**GEHC**: slightly overvalued, gap ≈ -1.37% (was -0.64%) — inside noise band, not a sell or add trigger under any standing rule.
+**OMCL**: undervalued, gap ≈ +39.55% (was +40.3%, essentially flat) — still the widest mispricing on the book by percentage; DCA gate unaffected, per state.md ~$1.82 from firing this morning.
 **VTI / VXUS**: hold, no valuation view — defer to BR/BW.
 
-**Standing flag for the next run:** this desk's five-name non-ETF book remains conditioned on the 10/1 WACC rebuild (Rf 5.29%) holding — now eight calendar days without an independently confirmable same-day print. XLE's Brent assumption is the single most overdue item for a dedicated re-check; this run's attempt hit unusable, contradictory data rather than being skipped, and should be retried at the next run. SNDK's model is new and its two biggest sources of uncertainty (the margin-normalization path and the reference price's own freshness) are both worth revisiting once the 10/29 print lands or a live Robinhood-quality quote becomes available.
+**Standing flag for the next run:** this desk's five-name non-ETF book remains conditioned on the 10/1 WACC rebuild (Rf 5.29%) holding — now nine calendar days without an independently confirmable same-day print. XLE's Brent assumption is now the single most overdue item on this book (fifth straight widening without a refresh attempt this run) and should be the dedicated focus of the next run with bandwidth to do so. AVGO's model is new and its two biggest sources of uncertainty (the FY27 AI-chip landing point within management's own $100-115B range, and the reference price's own freshness) are both worth revisiting once the 11/18/12/9 catalysts land or a live Robinhood-quality quote becomes available.
 
 ---
 
 Sources:
-- [SanDisk Q3 Earnings Crush Estimates With 251% Revenue Surge — MarketBeat](https://www.marketbeat.com/articles/sandisk-q3-earnings-crush-estimates-with-251-revenue-surge/)
-- [SanDisk Lifts Q3 Guidance After Strong Results — AlphaStreet](https://beta-news.alphastreet.com/sandisk-lifts-q3-guidance-after-strong-results)
-- [SanDisk SNDK Q3 Earnings Preview — Blockonomi](https://blockonomi.com/sandisk-sndk-q3-earnings-preview-wall-street-braces-for-21-post-report-swing/)
-- [SNDK Q3 2026 Earnings Call Summary — Stock Taper](https://www.stocktaper.com/earningsCallSummary/SNDK/2026/Q3)
-- [Sandisk Corporation Financials — Digrin](https://www.digrin.com/stocks/detail/SNDK/financials)
-- [Sandisk Corporation — roic.ai](https://www.roic.ai/quote/SNDK)
-- [SNDK · CIK 0002023554 — ahasignals](https://ahasignals.com/company-evidence/0002023554/)
-- [Sandisk Corp Balance Sheet — AlphaSpread](https://new.alphaspread.com/security/nasdaq/sndk/financials/balance-sheet)
-- [VCP Scanner — SNDK Balance Sheet](https://www.vcpscanner.com/stock/sndk/balance-sheet)
-- [Mortgage News Daily — US Treasury Yield Curve and Data](https://www.mortgagenewsdaily.com/treasury)
-- [Treasury Yields & Bond Market · October 2026 — stockmarketwatch.com](https://stockmarketwatch.com/bonds/reports/october-2026)
-- [commodity.com — Brent Crude](https://commodity.com/energy/oil/price/brent-crude/)
-- Internal: trading-experiment/state.md (Balance history through 10/8 ~09:36 ET), analysts/gs-stock-screener.md (10/8 ~09:4x ET report), this desk's own 10/1 and 10/7 reports (git history) for the legacy holdings' full WACC-rebuild methodology and FCF builds
+- [Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results — SeekingAlpha/PR](https://seekingalpha.com/pr/20639031)
+- [Broadcom Inc. - Form 8-K - FY2026 (Q3 exhibit) — SEC](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm)
+- [Broadcom Inc. - Form 8-K - FY2026 (Q1/Q2 exhibit) — SEC](https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000051/avgo-05032026x8kxex99.htm)
+- [Broadcom Q3 Revenue Reaches $29.6 Billion as GAAP Net Income Hits $13.1 Billion — QuiverQuant](https://www.quiverquant.com/news/Broadcom+Q3+Revenue+Reaches+%2429.6+Billion+as+GAAP+Net+Income+Hits+%2413.1+Billion)
+- [Broadcom's AI Chip Revenue Just Doubled Year Over Year and the CEO Says $100 Billion Is Coming in 2027 — TIKR](https://www.tikr.com/blog/broadcoms-ai-chip-revenue-just-doubled-year-over-year-and-the-ceo-says-100-billion-is-coming-in-2027)
+- [Broadcom Stock Locks In Six AI Customers and Eyes $100 Billion in 2027 Chip Revenue — TIKR](https://www.tikr.com/blog/broadcom-stock-locks-in-six-ai-customers-and-eyes-100-billion-in-2027-chip-revenue)
+- [Broadcom Shares Jump 3% as AI Revenue Outlook Soars to $115B — Sentisense](https://app.sentisense.ai/stories/broadcom-shares-jump-3-percent-as-ai-revenue-outlook-soars-to-115b-09082026)
+- [We're Upgrading Our Broadcom Price Target and Rating — TheStreet Pro](https://wp.thestreetpro.com/were-upgrading-our-broadcom-price-target-and-rating/)
+- [Citi Names Broadcom Stock Top Pick — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/citi-names-broadcom-stock-top-191300964.html)
+- [Google Finance — AVGO:NASDAQ](https://www.google.com/finance/quote/AVGO:NASDAQ)
+- [Broadcom (AVGO) — TipRanks Statistics](https://www.tipranks.com/stocks/mx:avgo/statistics)
+- [Mortgage News Daily — US Treasury Yield Curve and Data](https://www.mortgagenewsdaily.com/treasury/10yr)
+- [10 Year Treasury Rate — YCharts](https://ycharts.com/indicators/10_year_treasury_rate)
+- Internal: trading-experiment/state.md (Balance history through 10/9 ~09:43 ET), analysts/gs-stock-screener.md (10/9 ~09:4x ET report), this desk's own 10/1, 10/7, and 10/8 reports (git history) for the legacy holdings' full WACC-rebuild methodology and FCF builds

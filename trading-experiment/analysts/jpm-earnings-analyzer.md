@@ -1,81 +1,78 @@
 # JPM Earnings Analyzer — Pre-Earnings Catalyst Calendar
 
-**2026-10-09 (Friday), ~09:27 ET.**
+**2026-10-12 (Monday), ~09:40 ET.**
 
 ## Decision summary (top)
 
-**CORRECTION to yesterday's (10/8 ~13:21 ET) report: INTC's Q3 2026 report date is now company-confirmed as Thursday, 2026-10-29 (after close) — not 10/22.** Intel's own press release ("Intel to Report Third-Quarter 2026 Financial Results," dated 2026-10-06, intc.com) sets the date; the 10/22 figure this desk used yesterday was always labeled "unconfirmed/projected" by every third-party calendar on file, and that projection turned out wrong. With the real date now in hand, INTC is **20 days out today, not 14 — it no longer clears the ~2-week coverage window.** Yesterday's full brief (binary setup, 9-11% planning-level implied move, WAIT recommendation) is not retracted on substance — the fundamental analysis, segment detail, and historical-reaction pattern remain valid reference material for whenever INTC does enter the window — but its urgency framing ("clears the window today") is void. Treat INTC as a watch name again, re-entering the 2-week window around **~2026-10-15**, when this desk will re-trigger the full brief with fresher options and price data from closer to the print.
-
-**No name in coverage reports within 2 weeks as of today.** Full recheck below (holdings + GS screener top-10), with two more dates newly company-confirmed this run (GEHC: 10/28; AMD: 11/3) and one still genuinely unresolved (OMCL). Per the mandate, no padded brief follows — next known report dates listed below, nearest first.
+**No name in coverage reports within 2 weeks as of today (window runs through ~2026-10-26).** Full recheck below (six holdings + GS screener's current top-10), with two dates now independently **company-confirmed via fresh primary-source checks this run** (GEHC: Wed 2026-10-28, before open; SNDK: Thu 2026-10-29, 1:30pm PT call) and OMCL narrowed — but still not resolved — to a two-way split between 10/29 and 10/30. Nearest name on the board (GEHC, held) sits **16 days out — 2 days short of the trigger.** Per the mandate's "do not pad" instruction, no full brief follows this run. Expect the next trigger around **2026-10-14**, when GEHC crosses into the 14-day window.
 
 ---
 
 ## Coverage check (self-feeding rule)
 
-Scanned the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC — unchanged since the 9/3 GEHC entry; no new trades per state.md) and the GS screener's current top-10 per its 2026-10-08 ~15:4x ET report (AVGO, GEHC, SNDK, MRVL, MU, ALAB, NVDA, AMD, INTC, ARM) for reports due within ~2 weeks (through ~2026-10-23):
+Scanned the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC — unchanged since the 9/3 GEHC entry; confirmed via state.md, no trades since) and the GS screener's current top-10, unchanged since its 2026-10-09 ~15:41 ET report (AMD, GEHC, AVGO, SNDK, MRVL, MU, ALAB, NVDA, INTC, ARM — no newer screener commit on file), for reports due within ~2 weeks of today (through ~2026-10-26):
 
-| Ticker | Status this run | Days out (from 10/9) |
+| Ticker | Status this run | Days out (from 10/12) |
 |---|---|---|
-| **GEHC** (held, screener #2) | **Newly company-confirmed this run: Wed 2026-10-28, before open**, per a third-party reproduction of GE HealthCare's own press release (investor.gehealthcare.com webcast at 8:30 ET listed, but the IR page itself remains unreachable from this environment — same egress block GS flagged 10/8; relying on the secondary source's fidelity to the release language) | 19 |
-| **SNDK** (screener #3) | Company-confirmed 10/29/2026 (carried from prior reports, unchanged this run) | 20 |
-| **OMCL** (held) | **Still genuinely unconfirmed** — sources disagree across 10/29 (projected), 10/30 (expected, pre-open), and 11/4 (labeled "Confirmed" but that listing is for the Mexican ticker MX:OMCL, not the US listing — treat as unreliable) | 20–26 (range, unresolved) |
-| **AMD** (screener #8) | **Newly company-confirmed this run: Tue 2026-11-03, after close**, per AMD's own IR press release (ir.amd.com, dated 2026-10-06) — supersedes the prior split 11/2-11/3 estimate | 25 |
-| **ARM** (screener #10) | Confirmed-leaning 11/5 (carried from prior reports, not re-checked this run — outside window by a wide enough margin not to warrant a fresh search cycle today) | ~27 |
-| **ALAB** (screener #6) | Split 11/5–11/10 (carried from prior reports) | ~27–32 |
-| **INTC** (screener #9) | **Corrected this run: company-confirmed 10/29/2026, after close** (see Decision summary) — was erroneously treated as 10/22 in yesterday's report | 20 |
-| **NVDA** (held, screener #7) | ~11/18 after close (carried) | ~40 |
-| **MRVL** (screener #4) | 11/26 after close (carried) | ~48 |
-| **AVGO** (screener #1) | 12/10, confirmed-cadence (carried) | ~62 |
-| **MU** (screener #5) | 12/16-12/17 (carried) | ~68–69 |
+| **GEHC** (held, screener #2) | **Re-verified this run via fresh WebSearch**: a Business Wire release dated 2026-10-07 confirms Wed 2026-10-28, before market open, call 8:30am ET at investor.gehealthcare.com — matches JPM's 10/9 figure, now cross-checked against the primary release language itself rather than a secondary reproduction (the IR page's own egress block, flagged by GS and this desk previously, persists, but the Business Wire release text is unambiguous) | 16 |
+| **SNDK** (screener #4) | **Re-verified this run**: investor.sandisk.com's own release confirms Thu 2026-10-29, call 1:30pm PT — direct primary-source hit this time (the IR-egress problem that has dogged GEHC/other names did not recur here), supersedes the prior third-party carryforward | 17 |
+| **INTC** (screener #9) | Company-confirmed 10/29/2026, after close (per Intel's own 10/6 press release, carried unchanged from 10/9 report — no reason to re-search a name already confirmed at the primary source) | 17 |
+| **OMCL** (held) | **Narrowed but still unresolved this run.** Fresh WebSearch surfaces two live headline-level claims — a Finviz-reproduced headline reading "Omnicell to release third quarter 2026 financial results on October 29, 2026," and an EarningsWhispers estimate of October 30, before open. Neither is a direct hit on Omnicell's own IR site (ir.omnicell.com), and the Finviz page's underlying announcement text didn't resolve on this pull. Down from the prior 3-way split (10/29 / 10/30 / a mistranslated 11/4 MX:OMCL listing) to a 2-way split — progress, not resolution. Treat as 17-18 days out; needs one more direct-IR check once inside the window. | 17–18 (range) |
+| **AMD** (screener #1) | Company-confirmed 11/3/2026, after close (AMD's own IR press release dated 10/6, carried unchanged — no reason to re-check a primary-confirmed date three days later) | 22 |
+| **ARM** (screener #10) | Confirmed-leaning ~11/5 (carried, not re-checked — well outside window) | ~24 |
+| **ALAB** (screener #7) | Split 11/5–11/10 (carried, not re-checked — well outside window) | ~24–29 |
+| **NVDA** (held, screener #8) | ~11/18, after close (carried) | ~37 |
+| **MRVL** (screener #5) | 11/26, after close (carried) | ~45 |
+| **AVGO** (screener #3) | 12/10, confirmed-cadence (carried) | ~59 |
+| **MU** (screener #6) | 12/16–12/17 (carried) | ~65–66 |
 | VTI, VXUS | N/A — diversified funds, no single earnings event | — |
 
-**Nothing crosses the ~14-day window today.** The nearest names (GEHC 10/28, INTC/SNDK 10/29, OMCL ~10/29-11/4) sit 19-26 days out. Per the mandate's "do not pad" instruction, no full brief is written this run.
+**Nothing crosses the ~14-day window today.** The nearest name (GEHC, held, 10/28) sits 16 days out — 2 days short. Per the mandate's "do not pad" instruction, no full brief is written this run.
 
 ---
 
-## What changed since yesterday's report (10/8 ~13:21 ET)
+## What changed since Friday's report (10/9 ~09:27 ET)
 
-1. **INTC's date was wrong, now fixed.** Intel issued its own confirmation (10/6 press release) that Q3 2026 results land 10/29, not the 10/22 projection every third-party aggregator was carrying and that this desk relied on yesterday. This is exactly the kind of error the mandate's "company-confirmed vs. projected" distinction exists to catch — yesterday's brief did flag the date as "still company-unconfirmed," which was the correct caveat, but the 14-day trigger fired on a projection that turned out to be a week early. **Going forward, this desk will treat a third-party "unconfirmed/projected" date as insufficient to trigger a full brief once a name is within ~3-4 weeks of its *projected* date — i.e., do one verification search for a company press release before trusting the projection to set the 2-week trigger**, rather than waiting for the trigger to fire and finding out after the fact. This would have caught yesterday's miss one cycle earlier.
-2. **GEHC's date firmed to 10/28** (from a prior 10/28-11/2 range) via a press-release reproduction, though the primary IR source remains unreachable from this environment (GS's standing egress-block finding, reconfirmed by this desk's own attempt this run hitting the same wall indirectly — did not retry the direct fetch, no reason to expect a different result).
-3. **AMD's date firmed to 11/3** (from a prior 11/2-11/3 split) via AMD's own IR press release — clean confirmation, no caveat needed.
-4. **OMCL remains the one genuinely unresolved date in coverage**, with three disagreeing third-party estimates (10/29, 10/30, a mistranslated 11/4). Worth a dedicated check once it approaches the window (~10/15 onward) rather than now.
+1. **GEHC and SNDK both now independently re-verified this run against primary-source releases**, rather than relying on carryforward figures — both confirm the same dates already on file (10/28 and 10/29 respectively). This follows the rule this desk adopted after the 10/8 INTC misdate: verify a name's primary source once it's within ~3-4 weeks of a projected or previously-confirmed date, rather than waiting for the trigger to fire blind. No discrepancy found on either name this time.
+2. **OMCL's disagreement narrowed from three candidate dates to two** (10/29 vs. 10/30), but still no direct hit on Omnicell's own IR site. This is a held position with an active DCA gate (per state.md/BR's framework), so it's worth one more dedicated check once it's inside the 2-week window rather than resolving it off secondary sources today.
+3. No change to AMD, ARM, ALAB, NVDA, MRVL, AVGO, or MU dates — all carried forward from 10/9, none due for re-verification yet given how far out they sit.
+4. No new trades in the trader's book since the 9/3 GEHC entry (confirmed via state.md) — coverage list itself is unchanged.
 
 ---
 
 ## Next known report dates (nearest first, for reference — not full briefs)
 
-1. GEHC (held) — 10/28, before open (newly confirmed)
-2. SNDK, INTC — 10/29, after close (both confirmed)
-3. OMCL (held) — 10/29–11/4 (unresolved, needs its own confirmation check closer to the window)
-4. AMD — 11/3, after close (newly confirmed)
-5. ARM — ~11/5 (leaning-confirmed, not re-verified this run)
-6. ALAB — 11/5–11/10 (split, not re-verified this run)
-7. NVDA (held) — ~11/18, after close
-8. MRVL — 11/26, after close
-9. AVGO — 12/10
-10. MU — 12/16–12/17
+1. GEHC (held) — 10/28, before open (confirmed, re-verified this run)
+2. SNDK — 10/29, after close (confirmed, re-verified this run)
+3. INTC — 10/29, after close (confirmed, carried)
+4. OMCL (held) — 10/29–10/30 (narrowed, still unresolved)
+5. AMD — 11/3, after close (confirmed, carried)
+6. ARM — ~11/5 (leaning-confirmed, carried)
+7. ALAB — 11/5–11/10 (split, carried)
+8. NVDA (held) — ~11/18, after close
+9. MRVL — 11/26, after close
+10. AVGO — 12/10
+11. MU — 12/16–12/17
 
-**Next trigger expected ~2026-10-15**, when GEHC (10/28) and INTC/SNDK (10/29) all cross into the 2-week window within the same few days — likely a 2-3-name cycle rather than today's single-name misfire. Max-3-per-run cap will bind that run; GEHC (held position) and INTC (this desk's own prior work product, easiest to refresh) are the likely priorities, nearest-date-first per the mandate, with OMCL's own held-position status weighed against whatever its date resolves to by then.
+**Next trigger expected ~2026-10-14**, when GEHC (10/28) crosses into the 2-week window. SNDK and INTC (both 10/29) follow a day or two after that, likely making the first full-brief cycle a 2-3-name one within the same week rather than a single-name release. OMCL's held-position status and still-unresolved date make it the priority to re-confirm directly from ir.omnicell.com before that cycle, given the max-3-per-run cap would otherwise force a choice between it and GEHC/SNDK/INTC on nearest-date-first grounds alone.
 
 ---
 
 ## Disagreements with other analysts' current outputs
 
-- **No disagreement with GS's 10/8 screener** on rankings or the GEHC IR-egress-block finding — this desk's own attempt to reach a primary GEHC source this run again relied on a secondary reproduction rather than the IR page directly, consistent with GS's finding that the direct path is blocked, not just stale.
-- **Correction, not disagreement, with this desk's own 10/8 report**: the INTC date and window-entry call made yesterday is superseded above. No other analyst's output assumed or depended on the 10/22 date (GS's 10/8 screener already carried INTC as "unresolved on price, JPM's WAIT call governs" without asserting a specific date), so this correction does not conflict with anything MS, BW, or BR has published.
+- **No disagreement with GS's 10/9 screener** on rankings, constituents, or the GEHC IR-egress-block finding (reconfirmed again this run — Business Wire reproduction accessible, direct IR page still not).
+- **No disagreement with this desk's own 10/9 report** — this run's re-verification of GEHC and SNDK confirms rather than revises prior figures; no repeat of the 10/8 INTC-style miss.
 - No position taken on MS's, BW's, or BR's current frameworks — nothing in this run's earnings-calendar work bears on valuation, risk, or allocation calls.
 
 ---
 
 Sources:
-- [Intel to Report Third-Quarter 2026 Financial Results — intc.com](https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results)
-- [Intel Reports Third-Quarter 2026 Financial Results (newsroom) — intel.com](https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html)
-- [Intel Q2 2026 8-K — SEC](https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm)
-- [Intel Corporation (NASDAQ: INTC) earnings calendar — Wall Street Horizon](https://www.wallstreethorizon.com/intel-earnings-calendar)
-- [Intel options implied move / earnings history — EarningsWatcher](https://earnings-watcher.com/wiki/intc-implied-move)
-- [GE HealthCare Q3 2026 results coverage — biopharmawatch.com](https://www.biopharmawatch.com/news/GEHC/ge-healthcare-third-quarter-2026-results)
+- [GE HealthCare to Announce Third Quarter 2026 Results on October 28, 2026 — Finviz/Business Wire](https://finviz.com/news/399775/ge-healthcare-to-announce-third-quarter-2026-results-on-october-28-2026)
 - [GE HealthCare next earnings date — nextearningsdate.com](https://nextearningsdate.com/ge-healthcare-techs.html)
-- [Omnicell next earnings date — nextearningsdate.com](https://www.nextearningsdate.com/omnicell.html)
-- [Omnicell earnings — TipRanks (MX:OMCL listing)](https://www.tipranks.com/stocks/mx:omcl/earnings)
-- [AMD to Report Fiscal Third Quarter 2026 Financial Results — ir.amd.com](https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results)
-- Internal: trading-experiment/state.md (holdings, trade log); analysts/gs-stock-screener.md (2026-10-08 ~15:4x ET top-10); this desk's own 2026-10-08 ~13:21 ET report (git history, INTC full brief — substance still valid, date framing corrected above)
+- [GE HealthCare Technologies earnings preview — Barchart](https://www.barchart.com/story/news/35328829/ge-healthcare-technologies-earnings-preview-what-to-expect)
+- [Sandisk to Report First Quarter Fiscal Year 2027 Results on October 29, 2026 — investor.sandisk.com](https://investor.sandisk.com/news-releases/news-release-details/sandisk-report-first-quarter-fiscal-year-2027-results-october-29)
+- [Sandisk to Report First Quarter Fiscal Year 2027 Results — Finviz reproduction](https://finviz.com/news/396794/sandisk-to-report-first-quarter-fiscal-year-2027-results-on-october-29-2026)
+- [Omnicell to release third quarter 2026 financial results on October 29, 2026 — Finviz](https://finviz.com/news/400634/omnicell-to-release-third-quarter-2026-financial-results-on-october-29-2026)
+- [Omnicell next earnings date (10/30 estimate) — nextearningsdate.com](https://www.nextearningsdate.com/omnicell.html)
+- [Omnicell earnings — EarningsWhispers](https://beta.earningswhispers.com/go/w/OMCL)
+- Internal: trading-experiment/state.md (holdings, trade log); analysts/gs-stock-screener.md (2026-10-09 ~15:41 ET top-10); this desk's own 2026-10-09 ~09:27 ET report (git history, INTC full brief — substance still valid reference material)

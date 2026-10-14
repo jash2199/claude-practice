@@ -1,79 +1,80 @@
 # BW Risk Assessment — Risk Management Report
-**Date: 2026-10-14 (Wednesday), ~10:4x ET (verified via live quote timestamps, `venue_last_trade_time` ≈14:41:50 UTC).** Live-verified via Robinhood (`get_portfolio`, `get_equity_positions`, `get_equity_quotes`) on account 424593861 at report time. Nineteenth BW report overall, first of the day — follows this desk's own 2026-10-13 ~14:42 ET report, JPM's fresh 09:2x ET GEHC brief, GS's 09:4x ET screener, and MS's 10:1x ET price-roll.
+**Date: 2026-10-14 (Wednesday), ~14:45 ET (verified via `TZ=America/New_York date` and live quote timestamps, `venue_last_trade_time` ≈18:42 UTC).** Live-verified via Robinhood (`get_portfolio`, `get_equity_positions`, `get_equity_quotes`) on account 424593861 at report time. Twentieth BW report overall, second of the day — follows this desk's own 2026-10-14 ~10:4x ET report and seven subsequent no-trade state.md run notes through 14:36 ET, plus GS's 12:4x ET screener (freshest analyst commit on file; BW 10:4x, MS 10:1x, JPM 09:2x, BR 10/13 16:1x all otherwise unchanged).
 
 ---
 
-## Overall Portfolio Risk Grade: **D-** — held, unchanged from 10/9–10/13
+## Overall Portfolio Risk Grade: **D-** — held, but on an explicit one-report grace period before **F**
+
+Today is the sharpest, most synchronized down-day this book has logged all week — and the team still cannot tell you why. That combination is the definition of this grade. It is not dropping to F this run only because no mechanical trigger has actually fired and the team's own discipline (declining to react to an unsourced move) is being followed correctly. But "correctly declining to act on noise" and "structurally unable to identify signal" are two different things, and this run proves the second one is still true after 8+ weeks. **Explicit, falsifiable threshold for the next report: if the team still cannot attribute today's move — or produce the actual September CPI print that was supposed to resolve the rate-input staleness — this grade drops to F next run, full stop, the same way a 5pp drift band or a $2.50 DCA gate is a number, not a feeling.**
 
 ## Single biggest risk right now
-**The whole book just sold off together, with no sourced catalyst, for the third time this week — and the team still can't tell whether that's noise or the start of something, because the data feed behind every model has now gone two full weeks without an independent confirmation.** This morning: NVDA -2.10%, VTI -0.75%, VXUS -0.92%, OMCL -1.62%, GEHC -0.28% — five of six holdings red in lockstep, only XLE green (+0.11%). Fresh WebSearch this run for a same-day 10-year Treasury print, a post-CPI market reaction, and GEHC- or Hormuz-specific news all came back empty — the identical dateline wall MS, GS, and this desk have each flagged independently all week, now stretching into a second week on the rate input specifically (Rf 5.29%, set 10/1, **13 calendar days unconfirmed**). A risk desk that cannot attribute a simultaneous five-name down-move to anything — rate shock, growth scare, profit-taking, or plain noise — is not distinguishing signal from noise; it is reporting a number with no explanation attached, run after run. The one piece of good news hiding in today's data: **XLE's behavior (the only green name, +0.11%) is exactly what the hedge was bought to do on a risk-off morning** — see §1. That doesn't resolve the attribution problem; it's a single data point, not a pattern, and this desk isn't ready to call it confirmation yet. Separately, **GEHC flipped back to a net loss this morning** (-0.14% vs. the $68.69 cost), erasing the two-session "genuine gain" that drove BW's and BR's exchange yesterday on whether the no-upside-trigger band should reopen — BR's answer (no, on price/valuation-gap movement alone) stands either way, but the reversal is a reminder of how little one or two green closes actually tell this team.
+
+**The book just had its worst, most broadly synchronized day of the week, and the one piece of data the team was counting on to explain it — a scheduled, pre-announced, dated government release — simply did not surface.** Live `get_equity_quotes` this run: NVDA **-3.57%**, OMCL -3.29%, VTI -1.41%, VXUS -1.21%, GEHC -1.00%, all vs. yesterday's official close — five of six holdings red, and NVDA's move alone is larger than any single-name move logged anywhere this week (prior worst: Monday's -1.70% intraday NVDA dip). This desk ran its own fresh, independent WebSearch this run specifically to test GS's 12:4x flag that today's September CPI release (scheduled 8:30am ET, now 6+ hours past) had vanished into the dateline wall — **and independently reproduced the exact same result.** The actual print was not found anywhere; only pre-release previews (Cleveland Fed nowcast 3.60%/2.39%, street consensus ~3.7% headline, up from August's 3.4%) turned up, each explicitly dated *before* today. If that forecast direction is right — inflation accelerating, less room for the Fed to ease before the 10/27-28 FOMC — it is a plausible, rational explanation for a correlated risk-off afternoon. But "plausible if the forecast was right" is not confirmation, and treating it as one would be exactly the error rule 4 exists to prevent. **The honest state of today's single worst day: still unexplained, 14 calendar days into the Rf-input blackout, now directly coinciding with the input's own scheduled resolution catalyst disappearing too.** Second-order risk, not to be buried under the first: XLE (+0.62% today, +17.35% unrealized — a new best-ever reading) is now the sole source of "good news" on this book for a third-plus consecutive session, and its entire rationale rests on a Hormuz data picture this desk's own fresh search confirms is still genuinely contradictory and three days stale (nothing found past 10/11) — see §1 and §9.
 
 ---
 
-## Portfolio snapshot (live, 2026-10-14 ~10:4x ET)
+## Portfolio snapshot (live, 2026-10-14 ~14:45 ET)
 
-`get_portfolio`: total_value **$100.6334426935** (cash $56.10 + equity $44.5334426935). Pool ≈ **$50.6334426935**, a **+$0.6334426935 (+1.267%) accumulated profit** — essentially flat vs. the prior check-in's +1.28% (10:37 ET), down from this morning's open-of-day high of +1.60% (09:36 ET). Deployable cash **$6.10 (~12.05% of pool)**, unchanged.
-
-`get_equity_quotes` (live last-trade vs. 10/13's official close):
+`get_portfolio`: total_value **$100.37093218** (cash $56.10 + equity $44.27093218). Pool ≈ **$50.37093218, a +$0.37093218 (+0.742%) accumulated profit** — down sharply from yesterday's (10/13) all-time-high close of +2.06% ($101.03), and down further still from this morning's open-of-day +1.60% (09:36 ET). Deployable cash **$6.10 (~12.11% of pool)**, unchanged.
 
 | Position | Qty | Last Price | Value | % Equity | % Pool | Unrealized P&L (cost) | Day Δ (vs 10/13 close) |
 |---|---|---|---|---|---|---|---|
-| NVDA | 0.024826 | $223.715 | $5.554 | 12.47% | 10.97% | +11.08% ($201.40) | **-2.10%** |
-| VTI | 0.036690 | $378.477 | $13.886 | 31.17% | 27.43% | +2.18% ($370.40) | -0.75% |
-| VXUS | 0.154525 | $83.766 | $12.944 | 29.07% | 25.57% | -0.43% ($84.13) | -0.92% |
-| OMCL | 0.106405 | $35.860 | $3.816 | 8.57% | 7.54% | **-23.69% ($46.99)** | -1.62% |
-| XLE | 0.086775 | $67.275 | $5.838 | 13.11% | 11.53% | **+16.76% ($57.62)** | **+0.11% — today's only green holding** |
-| GEHC | 0.036393 | $68.595 | $2.496 | 5.61% | 4.93% | **-0.14% ($68.69) — flipped negative again** | -0.28% |
-| Cash (deployable) | — | — | $6.10 | — | 12.05% | — | — |
+| NVDA | 0.024826 | $220.35 | $5.471 | 12.35% | 10.86% | +9.41% ($201.40) | **-3.57% — today's and this week's largest single-name move** |
+| VTI | 0.036690 | $375.96 | $13.794 | 31.16% | 27.38% | +1.50% ($370.40) | -1.41% |
+| VXUS | 0.154525 | $83.52 | $12.906 | 29.14% | 25.62% | -0.73% ($84.13) | -1.21% |
+| OMCL | 0.106405 | $35.25 | $3.751 | 8.47% | 7.45% | **-24.98% ($46.99) — book's largest unrealized loss, a new worst** | -3.29% |
+| XLE | 0.086775 | $67.615 | $5.867 | 13.25% | 11.65% | **+17.35% ($57.62) — book's largest unrealized gain, a new best-ever** | +0.62% — today's only green holding |
+| GEHC | 0.036393 | $68.10 | $2.478 | 5.60% | 4.92% | -0.86% ($68.69) | -1.00% |
+| Cash (deployable) | — | — | $6.10 | — | 12.11% | — | — |
 
-NVDA+OMCL combined concentration: **21.04% of equity** — 3.96pp buffer to the 25% backstop trigger. NVDA alone: **12.47% of equity / 10.97% of pool**, +0.97pp over BR's 10% target, inside the 5pp drift band. **OMCL's DCA gate (rule 18, fires at $2.50 accumulated pool profit): accumulated profit $0.633 vs. threshold, ~$1.867 away** — widened slightly from the 10:37 ET reading (~$1.862) as the morning's small further pullback moved the pool's own profit print the wrong way. Still not fired, and now moving away from the gate rather than toward it for the first time in several sessions.
+NVDA+OMCL combined concentration: **20.82% of equity** — 4.18pp buffer to the 25% backstop trigger (clean, but the two names driving this bucket are also today's two worst movers). NVDA alone: 12.35% of equity / 10.86% of pool, +0.86pp over BR's 10% target, inside the 5pp drift band. **OMCL's DCA gate (rule 18, fires at $2.50 accumulated pool profit): accumulated profit $0.371 vs. threshold, ~$2.13 away** — the widest reading logged since this run-sequence began deteriorating this morning, continuing to move away from firing, not toward it, for the sixth-plus consecutive intraday check.
 
 ---
 
 ## 1. Correlation analysis between holdings
 
-- **Today's defining fact: five of six holdings moved down together, in lockstep, with no sourced catalyst.** NVDA -2.10%, VTI -0.75%, VXUS -0.92%, OMCL -1.62%, GEHC -0.28% — a correlation-to-1 morning across the non-energy sleeve, exactly the kind of simultaneous-drawdown scenario this desk's recession stress test (§5) and tail-risk table (§8) model as a probability, now visible in miniature on an ordinary Wednesday with zero attribution.
-- **XLE (+0.11%) is the one name that diverged — and that divergence is the entire point of holding it.** This is the cleanest real-time evidence yet that the XLE hedge is structurally uncorrelated with the NVDA/VTI/VXUS/OMCL/GEHC cluster on a risk-off morning, which is encouraging, but one data point does not confirm a hedge works; it only fails to disconfirm it. This desk will not call this a validated pattern until it recurs on a dated, sourced risk-off catalyst rather than an unattributed one.
-- **NVDA / VTI / VXUS**: still the shared mega-cap/US-market-beta/AI-look-through cluster — all three red today, directionally identical, consistent with the standing read.
-- **OMCL / GEHC**: both red today (-1.62% and -0.28% respectively) — the first time in several sessions these two have moved the same direction rather than diverging; too small a sample to revise the standing "low correlation beyond the healthcare label" read, but worth tracking.
-- **XLE vs. Hormuz**: fresh search this run again found nothing dated past 10/11 (the straits.live brief BR cited yesterday — 4 transits on 10/4 vs. an 85/day pre-crisis baseline, strait "effectively closed," Brent ~$104.72). The hedge thesis's underlying catalyst is unchanged and still live, not resolved either way.
+- **Today is the clearest, largest-magnitude illustration yet of this book's correlation-to-1 risk, live, on an ordinary Wednesday.** NVDA -3.57%, VTI -1.41%, VXUS -1.21%, OMCL -3.29%, GEHC -1.00% — five names, five different asset classes/caps/sectors in theory, moving the same direction with no sourced catalyst. This is not a new finding in kind (this desk flagged the pattern starting 10/12), but it is new in degree: today's magnitude is roughly double the prior worst reading this week.
+- **XLE (+0.62%) is again the sole divergent name — now a third-plus consecutive session of this exact pattern.** That is mechanically what the hedge was bought to do, and it is tempting to call it validated. This desk will not: one uncorrelated green print in a correlated red week is still consistent with ordinary single-name noise in a thinly-attributed oil/geopolitics trade, not proof the hedge mechanism is reliably firing for the reason intended. The distinction matters because the team is now leaning on XLE as the entire diversification case for the book — see §9.
+- **NVDA / VTI / VXUS**: the mega-cap/US-beta/AI-look-through cluster, again moving directionally identically and again the largest dollar-weighted contributors to today's drawdown.
+- **OMCL / GEHC**: both red again today (-3.29%/-1.00%), a second straight session moving the same direction — still too small a sample to revise the standing "low correlation beyond the shared healthcare label" read, but two in a row is worth tracking into a third.
+- **XLE vs. Hormuz**: this desk's own fresh WebSearch this run found the identical split picture every desk has now flagged — an early-October "recovery" framing (Kpler-sourced, non-Iranian Gulf/Iraq crude flow near pre-war levels per dated Oct 1-2 coverage) standing against the straits.live closure framing (IMF PortWatch: 4 transits/day on 10/4 vs. an 85/day pre-crisis baseline, strait "effectively closed," Brent ~$104.72 as of 10/11) — nothing dated past 10/11 found by this desk either. **The hedge thesis's own evidentiary basis has not been refreshed in three days while the position it governs just hit a new all-time-best unrealized gain.** That gap between "the facts we're relying on" and "how large the bet has grown" is itself a risk, independent of which side of the Hormuz debate is eventually right.
 
 ## 2. Sector concentration (% of equity, look-through where estimable)
 
 | Sector / bucket | % of equity | Note |
 |---|---|---|
-| Technology / Semis / AI (look-through: direct NVDA + VTI's/VXUS's own tech weight) | **~27-30% (estimate)** | Direct NVDA alone is 12.47%; remainder is look-through via the two core ETFs — standing estimate |
-| Diversified US equity (VTI, ex-tech-look-through) | 31.17% (gross) | Largest single line item, a basket not a sector bet |
-| Diversified ex-US equity (VXUS, ex-tech-look-through) | 29.07% (gross) | Second-largest line item, same caveat |
-| Energy (XLE) | 13.11% | Satellite/hedge sleeve — today's only green holding, now the book's largest unrealized winner at +16.76% |
-| Healthcare — tech/services (OMCL) | 8.57% | Smallest-cap, least liquid holding |
-| Healthcare — medtech/equipment (GEHC) | 5.61% | Over BR's 4% target, inside the 5pp band |
+| Technology / Semis / AI (direct NVDA + look-through via VTI/VXUS) | **~27-30% (estimate)** | Direct NVDA alone is 12.35%; remainder is look-through via the two core ETFs — standing estimate, unchanged |
+| Diversified US equity (VTI, ex-tech-look-through) | 31.16% (gross) | Largest single line item, a basket not a sector bet |
+| Diversified ex-US equity (VXUS, ex-tech-look-through) | 29.14% (gross) | Second-largest line item, same caveat |
+| Energy (XLE) | 13.25% | Satellite/hedge sleeve — now the book's single largest unrealized winner, and today's sole source of positive return |
+| Healthcare — tech/services (OMCL) | 8.47% | Smallest-cap, least liquid holding, now at its deepest unrealized loss on record |
+| Healthcare — medtech/equipment (GEHC) | 5.60% | Over BR's 4% target, inside the 5pp band |
 
-**Combined healthcare (OMCL+GEHC): 14.18% of equity.** **Combined satellite/conviction sleeve (NVDA+OMCL+XLE+GEHC): 39.76% of equity** vs. **60.24% in the two core ETFs** — unchanged in shape from yesterday.
+**Combined healthcare (OMCL+GEHC): 14.07% of equity.** **Combined satellite/conviction sleeve (NVDA+OMCL+XLE+GEHC): 39.67% of equity** vs. **60.30% in the two core ETFs** — essentially unchanged in shape from yesterday, but today's move shows the satellite sleeve carrying both the book's best (XLE) and worst (OMCL) single-day and single-position outcomes simultaneously.
 
 ## 3. Geographic exposure and currency risk
 
 - **VTI**: 100% US-domiciled, USD-denominated. No direct FX risk.
-- **VXUS**: ~100% ex-US (developed + EM), underlying holdings in EUR/JPY/GBP/EM currencies — the book's only real currency-translation exposure at the fund level. Unchanged.
+- **VXUS**: ~100% ex-US (developed + EM), underlying holdings in EUR/JPY/GBP/EM currencies — the book's only real currency-translation exposure at the fund level. Unchanged, and today down -1.21% in lockstep with the USD sleeve rather than offsetting it — a reminder that geographic diversification does not reliably decorrelate on a broad macro-driven day.
 - **NVDA**: USD revenue, with Taiwan/China supply-chain and end-market exposure — geopolitical/export-control risk that rhymes with currency risk.
-- **OMCL**: essentially pure US domestic revenue — no meaningful geographic/currency risk.
-- **XLE**: US-domiciled integrated/E&P majors (XOM/CVX-weighted) with global operations; oil itself is a globally USD-priced commodity. Hormuz picture still reads as "effectively closed," not normalizing — unchanged from yesterday's finding, no fresher dated data located.
-- **GEHC**: meaningful international revenue (global medtech sales) — some currency-translation exposure, smaller in dollar terms than VXUS's fund-level exposure given GEHC's 5.61% weight.
+- **OMCL**: essentially pure US domestic revenue — no meaningful geographic/currency risk; today's -3.29% move is idiosyncratic/domestic, not FX-driven.
+- **XLE**: US-domiciled integrated/E&P majors with global operations; oil itself is a globally USD-priced commodity. Hormuz picture unchanged from 10/11's last dated read — see §1.
+- **GEHC**: meaningful international revenue (global medtech sales) — some currency-translation exposure, smaller in dollar terms than VXUS's fund-level exposure given GEHC's 5.60% weight.
 
-**Net: still a USD-heavy book.** VXUS remains the only deliberate non-US/non-USD diversifier, modestly over its 25% pool target (+0.57pp) — adequate as designed, no concern this run.
+**Net: still a USD-heavy book, and today is a clean example of why that matters** — the one real currency/geography diversifier (VXUS) moved with, not against, the broader USD-domestic sell-off.
 
 ## 4. Interest rate sensitivity (per position)
 
 | Position | Rate sensitivity | Why |
 |---|---|---|
-| NVDA | **High** | Long-duration growth cash flows; MS's DCF gap (-14.55%) rests entirely on a Rf input now 13 calendar days unconfirmed |
-| GEHC | **High** | Same DCF/WACC mechanism; MS's gap sits at a new worst-ever -8.01%, now widening for a third straight report even as price flipped back negative today |
-| XLE | **High (via valuation channel) / Low-moderate (via cash flows)** | MS's DCF gap sits at a new worst-ever -12.59% (eighth straight widening) while price is today's only green holding — the price/valuation divergence flagged repeatedly this week, still unresolved |
-| OMCL | **Moderate-high** | DCF-dependent valuation (widest discount on the book, +35.41% undervalued per MS's 10/14 build, itself WACC-sensitive), partially offset by contracted/recurring revenue |
+| NVDA | **High** | Long-duration growth cash flows; MS's DCF gap (-14.55%) rests entirely on a Rf input now **14 calendar days unconfirmed** |
+| GEHC | **High** | Same DCF/WACC mechanism; MS's gap sits at a new worst-ever -8.01%, widening for a third straight report |
+| XLE | **High (via valuation channel) / Low-moderate (via cash flows)** | MS's DCF gap sits at a new worst-ever -12.59% (eighth straight widening) while price just hit its own best-ever reading — the price/valuation divergence this desk has flagged repeatedly, still unresolved and now wider on both sides at once |
+| OMCL | **Moderate-high** | DCF-dependent valuation (widest discount on the book, +35.41% undervalued per MS's 10/14 build, itself WACC-sensitive), only partially offset by contracted/recurring revenue |
 | VTI | **Moderate** | Broad market including heavy mega-cap-growth/tech weighting, diversified by cyclicals/value too |
 | VXUS | **Moderate-low** | Less mega-cap-growth-heavy than the US market; EM components carry independent rate/FX sensitivity |
 
-**Standing flag, now entering its third week unresolved and getting worse, not better:** this desk's own fresh search this run (10-year Treasury print, September CPI reaction) again found nothing reliably dated to today — the same wall GS and MS both independently hit this morning. GS specifically flagged today's scheduled CPI release as the most likely resolution catalyst; this desk's search could not locate the print or any market reaction to it. **This morning's broad, simultaneous five-name down-move is observationally consistent with a hot-CPI, rate-driven risk-off reaction — but this desk cannot confirm that, and treating an unconfirmed hypothesis as an explanation would be exactly the "unattributed move as a signal" error rule 4 exists to prevent.** The honest state of this input is: unknown, for the 13th straight day, now actively coinciding with the broadest down-move of the week.
+**Standing flag, now in its third week and demonstrably getting worse, not better:** this desk's own fresh WebSearch this run for the actual September CPI print and today's 10-year Treasury level came back empty — the identical wall GS and MS each independently hit this morning, now including the dated, scheduled macro release itself, not just stock-specific news. **This is the first time this book's own most severe single-day move has directly coincided with the resolution catalyst for its own biggest standing data gap disappearing too.** Treating today's broad sell-off as "probably the CPI, probably hawkish" would be a guess dressed as an explanation; this desk will not make that guess. The honest state of this input remains: unknown, for the 14th straight day, now on the single worst day of the week to be unknown on.
 
 ## 5. Recession stress test (NBER-style, moderate-recession assumptions, pool-weighted)
 
@@ -82,11 +83,11 @@ NVDA+OMCL combined concentration: **21.04% of equity** — 3.96pp buffer to the 
 | NVDA (high-beta, capex-cyclical) | -45% to -55% | -4.9% to -6.0% |
 | VTI (broad US equity, GFC/2020-style) | -30% to -38% | -8.2% to -10.4% |
 | VXUS (intl equity + FX drag) | -32% to -40% | -8.2% to -10.2% |
-| OMCL (small-cap liquidity discount despite defensive end-market) | -35% to -45% | -2.6% to -3.4% |
+| OMCL (small-cap liquidity discount, already -24.98% underwater) | -35% to -45% **from here** | -2.6% to -3.4% |
 | XLE (demand-driven recession scenario) | -30% to -45% | -3.5% to -5.2% |
 | GEHC (defensive healthcare end-market, but capex-cycle exposed) | -25% to -35% | -1.2% to -1.7% |
 
-**Estimated pool-level drawdown: roughly -28.6% to -36.9%** in a standard demand-driven recession — unchanged in substance from this week's prior reads; no fresher recession-probability figure than GS's (~30%) / Moody's (~49%) pair found this run. **Same standing caveat:** this stress test assumes a *demand-driven* recession where XLE's -30%/-45% applies; if the recession is instead *supply/oil-shock-driven* (the scenario XLE was actually bought to hedge, and the scenario today's own price action briefly illustrated in miniature), XLE's behavior flips, potentially flat-to-positive. §1/§3's Hormuz picture remains unresolved either way.
+**Estimated pool-level drawdown: roughly -28.6% to -36.9%** in a standard demand-driven recession — unchanged in the model's substance from this week's prior reads, but this desk flags a sharper caveat than before: OMCL's starting point is now a fresh record low (-24.98% vs. cost), meaning this model's -35%/-45% band for OMCL is applied against an already-depressed base, not against today's entry cost — the dollar cushion left in that position before a genuine capital-impairment conversation starts is thinner than the percentage alone suggests. **Same standing structural caveat on XLE:** this test assumes a *demand-driven* recession where XLE's -30%/-45% applies; if the recession is instead *supply/oil-shock-driven* (the scenario XLE was actually bought to hedge), XLE's behavior flips, potentially flat-to-positive — today's own price action is a small-scale preview of exactly that divergence, for reasons the team still cannot confirm.
 
 ## 6. Liquidity risk (per holding)
 
@@ -97,79 +98,78 @@ NVDA+OMCL combined concentration: **21.04% of equity** — 3.96pp buffer to the 
 | VXUS | Low risk | Large, liquid diversified international ETF |
 | XLE | Low risk | Large, liquid sector ETF |
 | GEHC | Low-moderate risk | Large-cap, adequate average daily volume |
-| **OMCL** | **Moderate risk — the book's least liquid holding** | Small-cap (~$1.5-2B market cap); meaningfully lower ADV than every other position. Irrelevant at today's $3.82 position size; the DCA gate (~$1.87 away, now widening rather than narrowing) is not imminent this run, but when it does fire, the next tranche should still use a limit order and check the spread |
+| **OMCL** | **Moderate risk — the book's least liquid holding** | Small-cap (~$1.5-2B market cap); meaningfully lower ADV than every other position. Irrelevant at today's $3.75 position size, but now sitting at its deepest unrealized loss on record while the DCA gate (~$2.13 away, widening) is further from firing than it has been all week — if sentiment deteriorates further into the 10/29-10/30 print window, a position this size in this name could see wider-than-usual spreads on any exit, not just the next buy tranche |
 
-**No liquidity risk currently constrains this account's ability to exit any position at its current size.** Standing, low-urgency note, unchanged.
+**No liquidity risk currently constrains this account's ability to exit any position at its current size.** Standing, low-urgency note, unchanged in substance — flagged with slightly more weight this run given OMCL's fresh drawdown record.
 
 ## 7. Single-stock risk and position sizing
 
-- **NVDA (12.47% equity / 10.97% pool):** +0.97pp over BR's 10% pool target, inside the 5pp drift band, well below the 18-20% single-name trigger. Not a trigger. Today's -2.10% is this book's largest single-name move, consistent with high-beta behavior on an unattributed risk-off morning, not news-specific to NVDA.
-- **OMCL (8.57% / 7.54%):** below its 10% pool target by design (DCA-gated, -2.46pp drift) — the mechanism working as intended. The gate (~$1.87 away) moved *away* from firing this run for the first time in several sessions as the pool's own profit print pulled back — a reminder the gate is symmetric and can widen as easily as it narrows.
-- **XLE (13.11% / 11.53%):** modestly underweight its 12% pool target by equity basis but now essentially at target on pool basis, the book's single largest unrealized winner (+16.76%) and today's only green holding — see §1 for why that matters more than the number alone.
-- **GEHC (5.61% / 4.93%):** +0.93pp over its 4% pool target, inside the 5pp drift band (4.07pp headroom). Flipped back to a net loss this morning (-0.14% vs. $68.69) after two sessions positive — this desk and BR's exchange yesterday about whether a gain reopens the no-upside-trigger band is, as of this morning, moot on the facts (there is no gain to debate), though BR's standing answer (no, on price movement alone) was never contingent on today's reversal anyway.
-- **Combined NVDA+OMCL (21.04% of equity):** 3.96pp from the 25% backstop. No sizing action triggered.
-- **No position-sizing changes recommended this run.**
+- **NVDA (12.35% equity / 10.86% pool):** +0.86pp over BR's 10% pool target, inside the 5pp drift band, well below the 18-20% single-name trigger. Today's -3.57% is this book's largest single-name move of the week by a wide margin — high-beta behavior on an unattributed risk-off afternoon, not NVDA-specific news found by any desk. **No sizing change recommended**, but this desk notes the concentration trigger's 4.18pp buffer is itself a function of NVDA's price, which just showed it can move >3.5% in a single session — a buffer that comfortable today can compress materially on a single bad week without a single new share being bought.
+- **OMCL (8.47% / 7.45%):** below its 10% pool target by design (DCA-gated, -2.55pp drift) — the mechanism working as intended, but the position it's gating is now at a fresh all-time-worst unrealized loss (-24.98%). **This desk's concrete, new recommendation this run: the DCA gate (rule 18) currently has exactly one condition — has the pool's accumulated profit reached $2.50 — and says nothing about OMCL's own risk/reward at the moment it fires.** A gate that can fire purely because NVDA or XLE had a good week, directing fresh capital into OMCL regardless of OMCL's own trajectory, is a profit-timing rule wearing a risk-management costume. BR/BW should consider a second, valuation-linked condition before the next tranche actually deploys (e.g., don't add if MS's undervaluation gap has narrowed sharply from today's level, or if the 10/29-10/30 print has not yet confirmed no structural break).
+- **XLE (13.25% / 11.65%):** modestly underweight its 12% pool target on a pool basis despite being the book's largest unrealized winner — see §1 and §9 for why its outsized importance to this book's "does diversification work" question is growing faster than its dollar weight is.
+- **GEHC (5.60% / 4.92%):** +0.92pp over its 4% pool target, inside the 5pp drift band (4.08pp headroom). Down again today (-1.00%, -0.86% vs. cost) — no change to JPM's standing WAIT call into the 10/28 print, 14 days out.
+- **Combined NVDA+OMCL (20.82% of equity):** 4.18pp from the 25% backstop. No sizing action triggered, but see the note above on buffer fragility.
+- **No position-sizing changes recommended this run** beyond the OMCL gate-design proposal above, which this desk is putting to BR/BW explicitly rather than treating as settled.
 
 ## 8. Tail risk scenarios (updated probability estimates)
 
 | Scenario | Probability estimate | Pool-level impact |
 |---|---|---|
-| AI-bubble repricing (NVDA DCF gap persistently wide; seven straight AI-adjacent names rejected by MS/GS on valuation, incl. ALAB) | **~22-27%, held** — no new reject added this run | -6% to -11% pool-level |
-| 10yr yield confirmation gap forces a fresh WACC rebuild in either direction | **~20-25%, now 13 calendar days unconfirmed** — unchanged duration, but today's broad unattributed sell-off is the first morning this desk can point to where the *consequence* of not knowing this input (an unexplained, correlated down-move) is directly visible rather than theoretical | -3% to -8%, concentrated in NVDA/OMCL/XLE/GEHC |
-| Hormuz/Red Sea escalation to a sustained, confirmed closure (or, symmetrically, a confirmed de-escalation that undercuts the hedge) | **~18-25%, held** — no fresher dated data past 10/11 found this run | XLE theoretically +15-25% as intended hedge if escalation; a real downside case to XLE's own price if a genuine, confirmed de-escalation materializes instead |
+| AI-bubble repricing (NVDA DCF gap persistently wide; seven straight AI-adjacent names rejected by MS/GS on valuation, incl. ALAB) | **~22-27%, held** | -6% to -11% pool-level |
+| 10yr yield/CPI confirmation gap forces a fresh WACC rebuild in either direction | **~20-25%, now 14 calendar days unconfirmed** — this run is the first time the *consequence* (today's unexplained, largest-of-the-week drawdown) has coincided directly with the catalyst meant to resolve it also going missing | -3% to -8%, concentrated in NVDA/OMCL/XLE/GEHC |
+| Hormuz escalation to a sustained, confirmed closure (or, symmetrically, a confirmed de-escalation that undercuts the hedge) | **~18-25%, held** — no fresher dated data past 10/11 found by this desk's own independent search this run either | XLE theoretically +15-25% further if escalation confirms; a real downside case to XLE's own price — now sitting at a +17.35% unrealized gain with no fresh supporting data — if a genuine, confirmed de-escalation materializes instead |
 | Broad recession confirmation (NBER-style) | **~20-30% over the next 12 months**, unchanged | -28.6% to -36.9% pool-level (see §5) |
-| An unattributed, correlated five-name down-day recurs without the team ever learning why | **~40-50%, newly flagged** — this is now the third such morning this week (per state.md's own run notes); the pattern itself, not any single day's size, is the thing this desk is flagging | Not quantifiable as a single drawdown — the risk is a persistent inability to distinguish noise from an emerging trend, which compounds the longer the rate/data blindness continues |
-| OMCL DCA gate firing | **~25-35%, lowered from yesterday's ~35-45%** — the gate widened rather than narrowed this run for the first time in several sessions | Mechanical, pre-approved tranche — governed by rule 18, no fresh action needed |
-| GEHC (10/28, now inside JPM's 14-day window) and OMCL (narrowed to 10/29-10/30 per JPM) earnings approach | On schedule, no change | Governed by existing contingency plans — JPM's fresh WAIT call on GEHC stands, no fresh action needed |
+| An unattributed, correlated down-day recurs without the team ever learning why | **~55-65%, raised from yesterday's ~40-50%** — today is the fourth such episode flagged this week and by far the largest in magnitude; the pattern is not just continuing, it is intensifying | Not quantifiable as a single drawdown — the risk is a persistent inability to distinguish noise from an emerging trend, worsening as the magnitude of the unattributed moves grows |
+| OMCL DCA gate firing | **~15-20%, lowered sharply from yesterday's ~25-35%** — the gate widened to its worst reading of the week this run, moving further from firing for the sixth-plus consecutive check | Mechanical, pre-approved tranche — governed by rule 18, no fresh action needed |
+| GEHC (10/28, inside JPM's 14-day window) and OMCL (10/29-10/30 per JPM) earnings approach | On schedule, no change | Governed by existing/proposed contingency plans — JPM's fresh WAIT call on GEHC stands; **this desk recommends BW/BR formalize JPM's proposed GEHC post-print contingency (second straight Patient Care Solutions double-digit organic decline, or a second FY26 EPS cut, as the structural-break trigger) now, before the print, not after** |
 | Government shutdown escalation | ~10%, unchanged (stopgap CR funds through 12/11/2026) | -3% to -6% if it re-escalates |
 
 ## 9. Hedging strategies for the top 3 risks (equities-only — no options)
 
-1. **Rate/data blindness, now 13 calendar days unconfirmed and today coinciding with the broadest unattributed down-move of the week:** no fixed-income sleeve exists in this all-equity mandate, so there is no true hedge — the mitigants remain deployable cash (12.05% of pool) staying uncommitted and treating every DCF-derived "fair value" figure as conditional on an input nobody has checked in two weeks. **Concrete recommendation, repeated from this desk's prior reports and now more urgent given today's visible consequence:** any report citing an MS DCF gap should state the Rf input's staleness in days alongside the gap itself, and this desk recommends the team explicitly treat the next dated CPI/10yr print — whenever it actually surfaces in a search — as a hard trigger for an immediate MS rebuild, not another day of carrying forward.
-2. **NVDA/AI-concentration risk:** unchanged — direct all fresh deployable cash away from NVDA (BR's standing, permanent policy) and toward under-target names once their own gates clear. OMCL's DCA gate (~$1.87 away, now widening) remains the closest live mechanical lever despite moving the wrong direction this run.
-3. **The unattributed, correlated down-day risk (new, see §8):** the only real mitigant inside an equities-only, no-options mandate is discipline, not a position — specifically, resisting the urge to either buy today's dip (no confirmed catalyst means no confirmed opportunity either) or to treat XLE's lone green print as proof the hedge "worked" (one data point, not a pattern). This desk's concrete ask: the next report that finds a dated, sourced explanation for *any* of this week's three unattributed moves should flag it loudly, specifically so the team can finally tell whether this is noise, a slow-building trend, or the rate-shock scenario already modeled in §8.
+1. **Rate/data blindness (now 14 calendar days unconfirmed, and today the first time its consequence showed up as the week's worst drawdown):** no fixed-income sleeve exists in this all-equity mandate, so there is no true hedge — the mitigants remain deployable cash (12.11% of pool, untouched) and treating every DCF-derived "fair value" as conditional on a stale input. **Repeated, now more urgent:** the next report that actually locates a dated CPI/10yr print should treat it as a hard, mandatory MS-rebuild trigger, not another carryforward day.
+2. **Single-point-of-failure hedge reliance on XLE:** this is the new item on this list, and it deserves to be in the top 3 given today's evidence. The book currently has exactly one position providing diversification benefit against the correlated-sell-off scenario, and that position's thesis rests on data no desk has refreshed in three days. **Equities-only mitigants available to this book:** (a) diversify the hedge mechanically rather than relying on a single equity-beta/commodity-correlated name — a genuinely defensive-sector sleeve (e.g., consumer staples or utilities) would decorrelate from a broad risk-off move for different reasons than XLE does, reducing the bet that any one geopolitical read is correct; (b) consider whether XLE's own no-upside-trigger design (BR, extended 10/13) should carry an explicit review condition if XLE is ever the *sole* green holding for N consecutive sessions — today makes three-plus — since that is precisely the condition under which the book is most dependent on the hedge being real and least informed about whether it is. This desk is not proposing a trim; it is proposing BR name a falsifiable condition for revisiting the question, the same discipline this book already applies to OMCL and GEHC.
+3. **OMCL idiosyncratic/earnings risk, now at a fresh drawdown record:** the natural equities-only mitigant for a single small-cap name's risk is breadth, not conviction-sizing a single ticker — diversifying the "healthcare-tech value" satellite thesis across a small-cap healthcare basket (rather than OMCL alone) would preserve the thesis while cutting the idiosyncratic/liquidity tail this desk flagged in §6. Paired with §7's proposed valuation-linked DCA-gate condition, this would address both the sizing mechanism and the liquidity/concentration exposure in one move.
 
 ## 10. Rebalancing suggestions (allocation %, pool basis)
 
 | Position | Current (pool) | BR target | Drift |
 |---|---|---|---|
-| VTI | 27.43% | 28% | -0.57pp |
-| VXUS | 25.57% | 25% | +0.57pp |
-| NVDA | 10.97% | 10% | +0.97pp — governed by the 5pp band, no action needed |
-| XLE | 11.53% | 12% | -0.47pp |
-| GEHC | 4.93% | 4% | +0.93pp — inside band, debate from yesterday now moot on the facts (position is net-negative again) |
-| OMCL | 7.54% | 10% | -2.46pp (DCA-gated by design, gate widened to ~$1.87 away this run) |
-| Cash | 12.05% | 11% | +1.05pp |
+| VTI | 27.38% | 28% | -0.62pp |
+| VXUS | 25.62% | 25% | +0.62pp |
+| NVDA | 10.86% | 10% | +0.86pp — governed by the 5pp band, no action needed |
+| XLE | 11.65% | 12% | -0.35pp |
+| GEHC | 4.92% | 4% | +0.92pp — inside band, unchanged |
+| OMCL | 7.45% | 10% | -2.55pp (DCA-gated by design, gate widened to ~$2.13 away this run — its worst reading of the week) |
+| Cash | 12.11% | 11% | +1.11pp |
 
-**No position breaches the 5pp single-position drift trigger — no rebalance is mechanically required.** This desk's recommendations above (§9.1, §9.3) are requests for disclosure discipline and a pre-committed hard trigger, not proposed trades.
+**No position breaches the 5pp single-position drift trigger — no rebalance is mechanically required.** Beyond the mechanical bands, this desk puts two structural proposals to BR for the next scheduled re-underwrite (~11/1), neither urgent today but both grounded in this week's evidence rather than a one-day reaction: **(1)** trim OMCL's target modestly (e.g., 10% → 8%) with the freed 2pp split between a diversified small-cap healthcare sleeve and cash, addressing §6/§9's liquidity-and-concentration point without abandoning the undervaluation thesis; **(2)** consider a modest increase to the cash/reserve target (11% → 12-13%) given that dry powder is this book's only genuinely uncorrelated asset on a day like today, and the OMCL gate — its sole live deployment mechanism — just had its worst week yet for proximity to firing.
 
 ---
 
 ## Heat Map Summary
 
-| Risk Factor | Level | Trend since 10/13 14:42 ET |
+| Risk Factor | Level | Trend since 10/14 10:4x ET |
 |---|---|---|
-| Unattributed correlated down-day (5 of 6 holdings red, no sourced catalyst, third time this week) | 🔴 High (newly elevated) | New framing this run — the pattern itself, not any one day's size |
-| Rate/macro data blindness (10yr unconfirmed, now 13 calendar days) | 🔴 High | → unchanged duration, but today is the first morning its consequence (an unexplained, book-wide move) is directly visible |
-| XLE price/valuation divergence (new worst-ever DCF gap -12.59%, eighth straight widening; price now the book's largest unrealized winner) | 🔴 High | → unchanged in substance |
-| NVDA valuation gap + AI-bubble commentary (seven-for-seven MS/GS hard passes incl. ALAB) | 🔴 High | → unchanged, no new reject added this run |
-| GEHC price/valuation divergence (DCF gap new worst-ever -8.01%; price flipped back to a net loss this morning) | 🟠 Elevated | ↓ slightly de-escalated — the "genuine gain" framing from yesterday no longer applies on the facts |
-| Hormuz data (strait "effectively closed" per 10/11 brief, still the freshest dated source) | 🟠 Elevated | → unchanged; no fresher dated data this run |
-| Recession probability (GS ~30%, Moody's ~49%, no fresher figure this run) | 🟠 Elevated | → unchanged |
-| OMCL DCA gate proximity (widened from ~$1.47-1.86 to ~$1.87 this run) | 🟡 Moderate | ↓ moved away from firing for the first time in several sessions |
-| Upcoming binary events (GEHC earnings 10/28, now inside JPM's 14-day window; OMCL earnings 10/29-10/30) | 🟡 Moderate | → unchanged |
+| Unattributed correlated down-day (5 of 6 holdings red, no sourced catalyst) | 🔴 Critical (escalated) | ↑ today's magnitude (-3.57% NVDA) is roughly double this week's prior worst reading, and the CPI catalyst meant to resolve it also vanished |
+| Rate/macro data blindness (10yr/CPI unconfirmed, now 14 calendar days) | 🔴 High | ↑ first time its consequence directly coincided with the week's worst drawdown |
+| Single-point-of-failure hedge reliance on XLE | 🔴 High (newly named) | New this run — XLE is now the sole green holding for a third-plus session on three-day-stale data |
+| XLE price/valuation divergence (new worst-ever DCF gap -12.59%, price simultaneously at a new best-ever +17.35%) | 🔴 High | → unchanged in substance, both sides now more extreme |
+| NVDA valuation gap + AI-bubble commentary (seven-for-seven MS/GS hard passes incl. ALAB) | 🔴 High | → unchanged |
+| OMCL drawdown (-24.98%, a new record) vs. DCA gate (~$2.13 away, worst reading of the week) | 🟠 Elevated (escalated) | ↑ both sides of this position's risk picture worsened together this run |
+| GEHC price/valuation divergence (DCF gap -8.01%; price down again, -0.86% vs. cost) | 🟠 Elevated | → unchanged |
+| Hormuz data (strait "effectively closed" per 10/11 brief, still the freshest dated source after this desk's own fresh search) | 🟠 Elevated | → unchanged, now 3 days stale |
+| Recession probability (no fresher figure this run) | 🟠 Elevated | → unchanged |
+| Upcoming binary events (GEHC earnings 10/28, 14 days out; OMCL 10/29-10/30) | 🟡 Moderate | → unchanged; JPM's proposed GEHC contingency still not formalized — recommend BW/BR act before the print |
 | Look-through tech/AI concentration (~27-30% of equity) | 🟡 Moderate | → unchanged |
-| OMCL drawdown (-23.69%) vs. widest DCF discount on book (+35.41%) | 🟡 Moderate | → essentially unchanged |
-| Government shutdown status | 🟢 Low | → stable |
-| Pool profit level (+1.27%, down from this morning's +1.60% open but not a new low) | 🟡 Moderate (reclassified from "positive") | ↓ down from both this morning's and yesterday's all-time-high reads |
-| Headline concentration triggers (NVDA%, NVDA+OMCL% combined) | 🟢 Low | → clean, 3.96pp buffer to the 25% trigger |
-| Liquidity | 🟢 Low | → unchanged |
+| Pool profit level (+0.74%, down from this morning's +1.60% open, the worst intraday fade of the week) | 🟡 Moderate (reclassified down) | ↓ sixth-plus consecutive deterioration today |
+| Headline concentration triggers (NVDA%, NVDA+OMCL% combined) | 🟢 Low | → clean, 4.18pp buffer to the 25% trigger |
+| Liquidity | 🟢 Low | → unchanged, light additional weight on OMCL per §6 |
 
-**Note on data quality (rule 4 discipline):** fresh WebSearch this run on the 10-year yield/CPI reaction, GEHC-specific news, and Hormuz/tanker traffic all returned the same chronic result this desk, GS, and MS have each independently hit this week: nothing reliably dated to today. The CPI-reaction search surfaced only 2025-dated and unrelated-year material; the GEHC search found nothing newer than already-known product/investor-conference items; the Hormuz search's freshest dateable item remained the 10/11 straits.live brief already on file (strait "effectively closed," 4 transits on 10/4 vs. an 85/day baseline, Brent ~$104.72). This is now entering its second week on the rate input specifically and its 7th-plus week on the broader dateline-staleness pattern every desk has flagged. This desk's standing recommendation stands: state explicitly when a cited search result is dated, not just whether a search "found something" — and today adds a sharper version of the same point, that an *unexplained move* should never be read as confirmation of anything, in either direction.
+**Note on data quality (rule 4 discipline):** fresh WebSearch this run independently covered (a) today's stock-market move/catalyst, (b) the Strait of Hormuz/tanker-traffic picture, and (c) the September CPI release — reproducing, not merely citing, the same chronic result every desk has now flagged for 7+ weeks: nothing reliably dated to today surfaced for the market-move or CPI queries (only pre-release forecasts and unrelated-year market recaps), and the Hormuz query's freshest usable data point remained the already-known 10/11 straits.live brief. This is now the first week this desk has seen the pattern's *consequence* — an unexplained, record-magnitude drawdown — arrive on the same day its *cause* (a scheduled, dated release) also failed to surface. That is worse than two separate problems; it is one problem compounding the other.
 
 ---
 
 Sources:
-- Robinhood `get_portfolio` / `get_equity_positions` / `get_equity_quotes` (live, 2026-10-14 ~10:4x ET)
-- Internal: trading-experiment/state.md (Balance history through 2026-10-14 ~10:37 ET), analysts/ms-dcf-valuation.md (2026-10-14 ~10:1x ET, price-roll, no WACC rebuild), analysts/br-portfolio-builder.md (2026-10-13 ~16:1x ET, targets and the GEHC/XLE no-upside-trigger decision still governing), analysts/jpm-earnings-analyzer.md (2026-10-14 ~09:2x ET, GEHC full brief, WAIT verdict), analysts/gs-stock-screener.md (2026-10-14 ~09:4x ET, flags today's CPI release as the key unresolved catalyst), this desk's own 2026-10-13 ~14:42 ET report (prior version, git history)
-- Fresh WebSearch this run: "10 year Treasury yield today October 14 2026 September CPI release reaction" — no result dated this week, closest dated match mid-September 2026 and earlier years; "stock market today October 14 2026 S&P 500 Nasdaq selloff" — no result dated today, closest was a February 2026 item; "GE HealthCare GEHC news October 14 2026" — nothing dated this week, only older product/conference items; "Strait of Hormuz Iran oil tanker October 2026" — freshest dateable item remained 10/11, consistent with BR's 10/13 finding, no newer data located
+- Robinhood `get_portfolio` / `get_equity_positions` / `get_equity_quotes` (live, 2026-10-14 ~14:45 ET)
+- Internal: trading-experiment/state.md (Balance history through 2026-10-14 ~14:36 ET), analysts/ms-dcf-valuation.md (2026-10-14 ~10:1x ET, price-roll, no WACC rebuild), analysts/br-portfolio-builder.md (2026-10-13 ~16:1x ET, targets and the GEHC/XLE no-upside-trigger decision still governing), analysts/jpm-earnings-analyzer.md (2026-10-14 ~09:2x ET, GEHC full brief, WAIT verdict, proposed post-print contingency), analysts/gs-stock-screener.md (2026-10-14 ~12:4x ET, flags the CPI release disappearing into the dateline wall), this desk's own 2026-10-14 ~10:4x ET report (prior version, git history)
+- Fresh WebSearch this run: stock-market-selloff/catalyst query (no result dated 2026-10-14 found); Strait of Hormuz/tanker-traffic query (freshest usable data point remains the 10/11 straits.live brief; an Oct 1-2 "recovery" framing from Kpler-sourced coverage independently reproduces the same contradiction other desks have flagged); September 2026 CPI release query (confirmed scheduled for 8:30am ET today; no published figure found, only pre-release forecasts: Cleveland Fed nowcast 3.60%/2.39%, street consensus ~3.7% headline vs. August's 3.4%)

@@ -1,10 +1,10 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
 
-**Date: 2026-10-20 (Tuesday), ~14:1x ET.** Numbers-only price-roll update. Fresh WebSearch this run (ALAB price, Brent crude, 10yr Treasury, NVDA/GEHC/OMCL news) reproduced the identical chronic dateline wall every desk on this book has now logged for 23+ consecutive runs — nothing reliably dated 2026-10-20 was found for any of five queries. No fundamental or WACC rebuild is warranted on any name this run; fair values stand unchanged from the 10/15 (NVDA/GEHC/OMCL/XLE Brent rebuild) / 10/13 (ALAB) builds — only live Robinhood prices (per state.md's 2026-10-20 ~09:38 ET snapshot, freshest on file) have moved.
+**Date: 2026-10-21 (Wednesday), ~10:1x ET.** Numbers-only price-roll update. Fresh WebSearch this run (10yr Treasury, Brent crude, ALAB price, GEHC/OMCL/NVDA news) reproduced the identical chronic dateline wall every desk on this book has now logged for 30+ consecutive runs — nothing reliably dated 2026-10-21 was found for any of six queries. No fundamental or WACC rebuild is warranted on any name this run; fair values stand unchanged from the 10/15 (NVDA/GEHC/OMCL/XLE Brent rebuild) / 10/13 (ALAB) builds — only live prices (per state.md's 2026-10-21 ~09:38 ET Robinhood snapshot, freshest on file) and the ALAB reference (per GS's 10/20-resolved $286.735, adopted below) have moved.
 
-**ALAB's price-conflict flag (raised by GS this morning) does not resolve this run.** A dedicated re-check found the same spread of undated/stale sources as GS's own 10/20 search (CoinGecko $281.22 today vs. $282.10 on a prior run, MarketChameleon's most recent dated print still August 28 at $289.47) — none confirmed as a live 2026-10-20 quote, none converging on a single number. Per rule 4, the $293.66 last-live-Robinhood-verified reference (10/19) is carried forward unchanged rather than averaging conflicting WebSearch figures. Flagging again, as GS did, that the next run with Robinhood access should re-pull ALAB specifically.
+**ALAB's price-conflict flag is resolved — carrying forward GS's $286.735, not this desk's own stale $293.66.** GS's 10/20 report independently re-pulled and reconciled ALAB's reference price to $286.735; this desk's own search this run reproduced the same unreconciled CoinGecko/MarketChameleon spread GS and this desk both found on 10/19-10/20 (no fresher print), so the correct move is to adopt GS's resolved figure rather than keep carrying this desk's older, now-superseded number. Updated below.
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC) per state.md's 2026-10-20 ~09:38 ET live Robinhood snapshot, plus ALAB, GS's #1 unvetted pick (unheld, per analysts/gs-stock-screener.md's 2026-10-20 report). No live Robinhood access on this desk; per rule 4, state.md's live-verified prices take precedence over WebSearch.*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC) per state.md's 2026-10-21 ~09:38 ET live Robinhood snapshot, plus ALAB, GS's #1 unvetted pick (unheld, per analysts/gs-stock-screener.md's 2026-10-21 report). No live Robinhood access on this desk; per rule 4, state.md's live-verified prices take precedence over WebSearch.*
 
 ---
 
@@ -12,21 +12,21 @@
 
 | Ticker | Current Price | Fair Value | Gap | Verdict |
 |---|---|---|---|---|
-| **ALAB** (not held, GS #1) | **$293.66** (carryforward, unconfirmed — conflicting sources, no change) | $119.3/sh (bull) to $54.8/sh (base) | **-59.4% to -81.3%** | **OVERVALUED — hard pass stands, unchanged** |
-| **OMCL** | $36.19 (was $35.365) | $49.1/sh (WACC 9.59%) | **+35.67%** (was +38.84%) | **UNDERVALUED — narrowing on today's bounce, still the widest mispricing on the book** |
-| **GEHC** | $70.49 (was $69.445) | $63.9/sh (WACC 9.09%) | **-9.35%** (was -7.98%) | **OVERVALUED**, widening again — new post-entry closing high |
-| **XLE** | $67.815 (was $68.15) | $63.4/sh (Brent-rebuild, WACC ~11.0%) | **-6.51%** (was -6.97%) | **OVERVALUED**, narrowing slightly |
-| **NVDA** | $214.525 (was $215.97) | $192.0 (WACC 11.59%) | **-10.50%** (was -11.10%) | **OVERVALUED**, narrowing slightly |
-| **VTI** | $375.315 | N/A | N/A | **HOLD BY CONSTRUCTION** |
-| **VXUS** | $83.235 | N/A | N/A | **HOLD BY CONSTRUCTION** |
+| **ALAB** (not held, GS #1) | **$286.735** (GS-resolved 10/20, adopted this run) | $119.3/sh (bull) to $54.8/sh (base) | **-58.4% to -80.9%** | **OVERVALUED — hard pass stands, unchanged** |
+| **OMCL** | $36.45 (was $36.19) | $49.1/sh (WACC 9.59%) | **+34.70%** (was +35.67%) | **UNDERVALUED — narrowing slightly on today's flat open, still the widest mispricing on the book** |
+| **GEHC** | $69.72 (was $70.49) | $63.9/sh (WACC 9.09%) | **-8.35%** (was -9.35%) | **OVERVALUED**, narrowing on today's pullback off the post-entry high |
+| **XLE** | $67.84 (was $67.815) | $63.4/sh (Brent-rebuild, WACC ~11.0%) | **-6.54%** (was -6.51%) | **OVERVALUED**, essentially flat |
+| **NVDA** | $219.82 (was $214.525) | $192.0 (WACC 11.59%) | **-12.65%** (was -10.50%) | **OVERVALUED**, widening on today's rally |
+| **VTI** | $377.94 | N/A | N/A | **HOLD BY CONSTRUCTION** |
+| **VXUS** | $84.035 | N/A | N/A | **HOLD BY CONSTRUCTION** |
 
 **Bottom line for the trader:**
 
-1. **GEHC keeps climbing against an unchanged fair value.** $70.49 is a new closing-basis high since the 9/3 entry, pushing the overvaluation gap back out to -9.35% (from -7.98%, reversing last run's brief narrowing). No sourced catalyst found for the move — GS/JPM's news sweeps and this desk's own search all come up empty beyond the already-known dividend (ex-div 10/23) and 10/28 print date. This is noise-band price action, not a re-rating; the 10/28 print (8 days out) remains the key resolution date, and BR's 6%-pool earnings-window trigger is the live mechanism to watch, not this desk's valuation gap.
-2. **OMCL's discount narrows but remains this book's widest mispricing by a wide margin.** $36.19 (+1.06% today) narrows the gap to +35.67% from +38.84% — still a large undervaluation under an unchanged $49.1 fair value. The 10/29 print is the thesis-confirming event.
-3. **NVDA and XLE both narrow modestly**, a point or so of gap tightening on today's price action, no model change on either.
-4. **ALAB's price-conflict problem is now two runs old and unresolved.** This desk continues to flag it rather than paper over it with an average of unreliable numbers — the verdict (hard pass) is wide enough on either scenario that the exact reference price doesn't change the investment conclusion, but the discipline of using a confirmed live quote matters for future precision.
-5. **No fresh catalyst found anywhere** — Brent, the 10yr yield, and company-specific searches for NVDA/GEHC/OMCL/ALAB all returned stale, undated, or conflicting results. This is a pure price roll.
+1. **NVDA's gap widens most this run.** Today's +1.55% rally against an unchanged $192.0 fair value pushes the overvaluation gap out to -12.65% from -10.50% — the widest it has traded since the 10/15 rebuild. No sourced catalyst found (today's search returned only late-2025-vintage NVDA coverage). This is price action against an unmoved model, not a fundamentals re-rating; BR's no-new-cash-to-NVDA instruction (rule 20) remains the live mechanism, not this desk's valuation gap.
+2. **GEHC and OMCL both pull back slightly, narrowing their respective gaps.** GEHC ($69.72, -0.73% today) eases off 10/20's fresh post-entry high, narrowing the overvaluation gap to -8.35% from -9.35%. OMCL ($36.45, essentially flat vs. 10/20's $36.49 close) narrows its undervaluation gap marginally to +34.70% from +35.67% — still this book's widest mispricing by a large margin. Both prints (GEHC 10/28, OMCL 10/29) are now inside 8 days.
+3. **XLE is essentially unchanged**, a rounding-error move on both price and gap.
+4. **ALAB's reference price is now resolved, not just carried forward.** Adopting GS's $286.735 (vs. this desk's stale $293.66) tightens the gap slightly to -58.4%/-80.9% from -59.4%/-81.3% — immaterial to the conclusion. This desk defers to GS's independently-reconciled figure going forward rather than re-litigating the source conflict a third time.
+5. **No fresh catalyst found anywhere.** The 10yr yield, Brent, and company-specific searches for NVDA/GEHC/OMCL/ALAB all returned stale, undated, or conflicting results — the same pattern flagged for 30+ consecutive runs. This is a pure price roll.
 
 No trade recommended off this report (research-only mandate, as always).
 
@@ -36,41 +36,41 @@ No trade recommended off this report (research-only mandate, as always).
 
 | Ticker | Fair Value (unchanged) | Price (was → now) | Gap (was → now) | Verdict |
 |---|---|---|---|---|
-| NVDA | $192.0 (WACC 11.59%) | $215.97 → **$214.525** | -11.10% → **-10.50%** | **OVERVALUED**, narrowing slightly |
-| GEHC | $63.9 (WACC 9.09%) | $69.445 → **$70.49** | -7.98% → **-9.35%** | **OVERVALUED**, widening — new post-entry high |
-| OMCL | $49.1 (WACC 9.59%) | $35.365 → **$36.19** | +38.84% → **+35.67%** | **UNDERVALUED**, narrowing, still this book's widest mispricing |
-| XLE | $63.4 (Brent-rebuild, WACC ~11.0%) | $68.15 → **$67.815** | -6.97% → **-6.51%** | **OVERVALUED**, narrowing slightly |
-| VTI | N/A | $375.315 | N/A | HOLD BY CONSTRUCTION |
-| VXUS | N/A | $83.235 | N/A | HOLD BY CONSTRUCTION |
+| NVDA | $192.0 (WACC 11.59%) | $214.525 → **$219.82** | -10.50% → **-12.65%** | **OVERVALUED**, widening on today's rally |
+| GEHC | $63.9 (WACC 9.09%) | $70.49 → **$69.72** | -9.35% → **-8.35%** | **OVERVALUED**, narrowing off the post-entry high |
+| OMCL | $49.1 (WACC 9.59%) | $36.19 → **$36.45** | +35.67% → **+34.70%** | **UNDERVALUED**, narrowing slightly, still this book's widest mispricing |
+| XLE | $63.4 (Brent-rebuild, WACC ~11.0%) | $67.815 → **$67.84** | -6.51% → **-6.54%** | **OVERVALUED**, essentially flat |
+| VTI | N/A | $375.315 → **$377.94** | N/A | HOLD BY CONSTRUCTION |
+| VXUS | N/A | $83.235 → **$84.035** | N/A | HOLD BY CONSTRUCTION |
 
-**GEHC's gap widens back out to -9.35%** as the stock prints a new closing-basis high since entry ($70.49, unrealized +2.62% vs. $68.69 cost per state.md). This reverses last run's narrowing and sits mid-pack within the five-report range this position has traded in since early October (-3.01% to -10.18%). Still zero sourced catalyst in either direction; the 10/28 print (8 days out) is the scheduled resolution, and BR's 6%-pool earnings-window trigger (~5.10% pool weight today, ~0.90pp buffer) is the correct live mechanism — not a trigger for this desk's model.
+**NVDA's gap widens to -12.65%**, the widest reading since the 10/15 rebuild, purely on today's +1.55% price move with zero fundamental input — today's dedicated NVDA search surfaced only stale late-2025 coverage (an H200/China demand item from December 2025, an Intel-investment item with no confirmable date), discarded per rule 4. Next print ~11/18.
 
-**OMCL's discount remains the widest this desk has recorded for any held name**, narrowing modestly to +35.67% on today's bounce against an unchanged $49.1 fair value. The 10/29 print (9 days out) is this name's own thesis-confirming event.
+**GEHC's gap narrows to -8.35%** as the stock eases back off 10/20's fresh post-entry closing high. Still mid-pack within the range this position has traded since early October (-3.01% to -9.35%). Today's dedicated search confirmed the already-known 10/28 print date, the $0.04/sh dividend (ex-div 10/23), the Pascal Desroches board appointment, and the Sofie Biosciences deal — all already on file, nothing incremental to the DCF. The 10/28 print (7 days out) remains the key resolution date; BR's 6%-pool earnings-window trigger (~5.00% pool weight, ~1.00pp buffer) is the correct live mechanism to watch, not this desk's valuation gap.
 
-**XLE's underlying model is unchanged from the 10/15 Brent/Hormuz rebuild** (base case $63.4/sh; bear $50.9/sh at -24.4%; bull $71.8/sh at +6.7%). Today's dedicated Brent search again returned conflicting, undated figures ($62-95/bbl range across sources, none dated 10/20) — discarded per rule 4; the 10/14-10/15 ~$104-105/bbl confirmed print remains the basis for this fair value. Still this desk's lowest-confidence, highest-stakes build on the book.
+**OMCL's discount remains the widest this desk has recorded for any held name**, narrowing marginally to +34.70% on an essentially flat session against an unchanged $49.1 fair value. Today's search reconfirmed the Q2 EPS-guidance raise ($2.15-2.30), the memory-chip cost headwind (~$6M incremental H2 2026), and the 10/29 print (company-confirmed, 8 days out) — this name's thesis-confirming event, now the nearest scheduled catalyst on the book.
 
-**NVDA narrows slightly to -10.50%** on today's modest pullback, no model change.
+**XLE's underlying model is unchanged from the 10/15 Brent/Hormuz rebuild** (base case $63.4/sh; bear $50.9/sh at -24.4%; bull $71.8/sh at +6.7%). Today's dedicated Brent search again returned wildly conflicting, undated figures (a single commodity.com page showing both $74.32 and $92.37 depending on cache state; other undated pages at $77.56, $95.46, $107.95) — discarded per rule 4; the 10/14-10/15 ~$104-105/bbl confirmed print remains the basis for this fair value. Still this desk's lowest-confidence, highest-stakes build on the book.
 
 ---
 
-## 2. Astera Labs (ALAB) — unheld, GS #1 pick — price unresolved, model unchanged
+## 2. Astera Labs (ALAB) — unheld, GS #1 pick — reference price resolved, model unchanged
 
-Full fundamental build (two scenarios, sensitivity table, reverse-engineered check, full assumption writeup) done 2026-10-13; reference price last corrected 2026-10-19 — see git history for both. Nothing in the underlying model changes this run: no 2026-10-20-dated fundamental news on Astera Labs surfaced in today's dedicated search.
+Full fundamental build (two scenarios, sensitivity table, reverse-engineered check, full assumption writeup) done 2026-10-13 — see git history. Nothing in the underlying model changes this run: no 2026-10-21-dated fundamental news on Astera Labs surfaced in today's dedicated search.
 
-**The reference-price problem flagged by GS this morning persists.** Today's dedicated re-check turned up the same unreconciled spread of sources GS's own screener logged a few hours earlier: CoinGecko $281.22 (undated), MarketChameleon's most recent dated print still August 28 at $289.47, and no source confirmed to 2026-10-20. This is now the second consecutive run where ALAB's live price cannot be independently re-verified via WebSearch — consistent with (not contradicting) GS's own finding this morning.
+**Reference price: adopting GS's 10/20-resolved $286.735, retiring this desk's stale $293.66.** This desk's own re-check this run turned up the same unreconciled spread of sources GS logged on 10/20 and this desk logged on 10/19-10/20 (MarketChameleon's most recent dated print still August 28 at $289.47; CoinGecko undated at $282.10; Upstox's early-August snapshot at $333.76) — no source is dated 2026-10-21. Rather than carry forward a now-superseded number for a third consecutive run, this desk adopts GS's independently-reconciled $286.735, consistent with rule 4's spirit (use the best available reference, don't multiply unreconciled numbers across desks).
 
-| Scenario | Fair Value | Price (carryforward, unconfirmed) | Gap |
+| Scenario | Fair Value | Price (GS-resolved reference) | Gap |
 |---|---|---|---|
-| Bull | $119.3/sh | $293.66 | **-59.4%** |
-| Base | $54.8/sh | $293.66 | **-81.3%** |
+| Bull | $119.3/sh | $286.735 | **-58.41%** |
+| Base | $54.8/sh | $286.735 | **-80.89%** |
 
-**Verdict unchanged: OVERVALUED, hard pass stands.** The gap is wide enough under either scenario that the unresolved ~$10-15/share uncertainty in the reference price has no bearing on the investment conclusion. Recommend the next run with Robinhood access re-pull ALAB specifically, as GS also recommended — this is now a two-run-old open item, not a one-off.
+**Verdict unchanged: OVERVALUED, hard pass stands.** The gap is wide enough under either scenario that the ~$7/share reference-price correction has no bearing on the investment conclusion. Standing flag closed — no further ALAB price-reconciliation ask needed unless GS's own figure is challenged again.
 
 ---
 
 ## Rate-check note (Rf input) — still current, no rebuild triggered
 
-Today's dedicated WebSearch for the 10-year Treasury yield again returned no reliably-dated 10/20 figure — results ranged from a stale 6/30/2026 print (4.420%) to an unrelated March reading. Neither is adopted. The standing ~5.19% (10/14-dated) input from the 10/15 report is retained as the most recent reliably-dated figure on file.
+Today's dedicated WebSearch for the 10-year Treasury yield again returned no reliably-dated 10/21 figure — results topped out at a 6/30/2026 print (4.420%) and a 3/5/2026 print (4.145%), both months stale, plus several undated explainer pages. Neither is adopted. The standing ~5.19% (10/14-dated) input from the 10/15 report is retained as the most recent reliably-dated figure on file.
 
 ---
 
@@ -81,35 +81,35 @@ Today's dedicated WebSearch for the 10-year Treasury yield again returned no rel
 - The $45/bbl aggregate sector breakeven assumption is this desk's own estimate, anchored to Chevron's disclosed breakeven but not independently verified across all 24 of XLE's constituents.
 
 **Legacy names (standing, unchanged in substance):**
-- **GEHC's net-debt/tariff assumptions** (9/23 build) — unmoved; the 10/28 print (8 days out) is the nearest scheduled catalyst, and the stock's continued unexplained climb into that print is worth watching for whether it round-trips or reflects something not yet sourced.
+- **GEHC's net-debt/tariff assumptions** (9/23 build) — unmoved; the 10/28 print (7 days out) is the nearest scheduled catalyst. New background item from GS's 10/21 report (four 2026 FDA Class II software/cybersecurity recalls on GE HealthCare imaging/viewer products) is a reputational/regulatory watch item, not a DCF input — no revenue or margin line in this build assumes recall-free execution, but a materially adverse resolution would warrant revisiting the margin trajectory.
 - **NVDA's growth/margin trajectory vs. FY28 guidance** — unchanged since 9/23; next print ~11/18.
-- **OMCL's margin-recovery assumption behind the $49.1 fair value** — unchanged; the 10/29 print is the thesis-confirming event, now 9 days out, given the record-wide (if narrowing) discount.
-- **ALAB's fundamental build (revenue/margin/WACC)** — unchanged since 10/13; the reference price remains unresolved for a second straight run. A genuine change to growth or margin trajectory (not just further price movement or source conflict) would be the trigger for a full rebuild.
+- **OMCL's margin-recovery assumption behind the $49.1 fair value** — unchanged; the 10/29 print is the thesis-confirming event, now 8 days out, given the record-wide (if narrowing) discount.
+- **ALAB's fundamental build (revenue/margin/WACC)** — unchanged since 10/13; the reference-price question is now resolved via GS's figure. A genuine change to growth or margin trajectory (not just further price movement) would be the trigger for a full rebuild.
 
 ---
 
-## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-10-20 ~09:4x ET report)
+## Cross-check with GS screener (analysts/gs-stock-screener.md, 2026-10-21 ~09:5x ET report)
 
-**No disagreement.** GS's report independently surfaced the same ALAB price conflict this desk found (three mutually inconsistent sources, $282-334 spread per GS's search vs. this desk's $281-289 spread) — both desks are carrying forward the same $293.66 last-live-verified reference and flagging it for a fresh Robinhood pull, not treating the conflict as resolved by averaging. No disagreement on GEHC (both desks note the no-catalyst climb into the 10/28 print) or OMCL (both note the narrowing-but-still-wide discount into 10/29). GS's screen added no new name this run; nothing for this desk to action.
+**No disagreement.** GS's report independently resolved the OMCL WebSearch-vs-Robinhood price conflict in Robinhood's favor (consistent with this desk's standing rule-4 discipline) and surfaced the new GEHC recall background item (noted above as a watch item, not a model input). GS's own table cites this desk's NVDA gap at -12.65% and GEHC gap at -8.35% — both match this report's figures exactly, confirming consistent inputs across desks this run. No new name added to GS's screen; nothing for this desk to action.
 
 ## Explicit read on trader's current positions (all six held) plus GS's #1 pick
 
-**ALAB** (GS's #1 pick, not held): hard pass, gap ≈ **-59.4% (bull) to -81.3% (base)** off the carried-forward $293.66 (unconfirmed, conflicting sources for a second straight run). Still not investable under either scenario.
-**GEHC**: overvalued, gap ≈ **-9.35%** (was -7.98%) — widening again on a new post-entry closing high with no sourced catalyst; hold, no trim, no add; 10/28 print is the key date.
-**NVDA**: overvalued, gap ≈ **-10.50%** (was -11.10%), narrowing slightly — hold, no add, no trim; BR's no-new-cash instruction stands.
-**OMCL**: undervalued, gap ≈ **+35.67%** (was +38.84%) — still the widest mispricing this desk has recorded on this book; DCA gate mechanics are BR's domain.
-**XLE**: overvalued, gap ≈ **-6.51%** (was -6.97%), narrowing slightly — the 10/15 Brent/Hormuz rebuild still governs; base case holds, no add, no trim.
+**ALAB** (GS's #1 pick, not held): hard pass, gap ≈ **-58.41% (bull) to -80.89% (base)** off GS's resolved $286.735. Still not investable under either scenario.
+**GEHC**: overvalued, gap ≈ **-8.35%** (was -9.35%) — narrowing off the post-entry high but still above fair value; hold, no trim, no add; 10/28 print (7 days out) is the key date.
+**NVDA**: overvalued, gap ≈ **-12.65%** (was -10.50%), widening on today's rally — hold, no add, no trim; BR's no-new-cash instruction stands.
+**OMCL**: undervalued, gap ≈ **+34.70%** (was +35.67%) — still the widest mispricing this desk has recorded on this book; DCA gate mechanics are BR's domain.
+**XLE**: overvalued, gap ≈ **-6.54%** (was -6.51%), essentially flat — the 10/15 Brent/Hormuz rebuild still governs; base case holds, no add, no trim.
 **VTI / VXUS**: hold, no valuation view — defer to BR/BW.
 
-**Standing flag for the next run:** ALAB's reference price is now unresolved for two consecutive runs — the next run with Robinhood access should re-pull it directly rather than relying on WebSearch. XLE's rebuilt model remains this desk's lowest-confidence build on the book and the top priority for a from-scratch constituent-level rebuild whenever bandwidth allows. GEHC's renewed, still-uncatalyzed climb into its 10/28 print is worth continued tracking. OMCL's narrowing-but-still-record-wide discount makes its 10/29 print the next highest-stakes scheduled catalyst on the book.
+**Standing flag for the next run:** ALAB's reference-price question is now closed (adopted GS's $286.735). XLE's rebuilt model remains this desk's lowest-confidence build on the book and the top priority for a from-scratch constituent-level rebuild whenever bandwidth allows. NVDA's widening gap on a catalyst-free rally is worth continued tracking against BR's pool-weight overshoot. GEHC's and OMCL's prints (7 and 8 days out, respectively) are the two nearest scheduled catalysts on the book.
 
 ---
 
 Sources (this run's searches, all stale/conflicting/unreconciled except calendar items — logged for the record):
-- ALAB price search: no reliably-dated 10/20/2026 quote found; conflicting undated/stale figures ($281.22 CoinGecko, $289.47 MarketChameleon as of 8/28). [coingecko.com](https://www.coingecko.com/en/stocks/astera-labs), [marketchameleon.com](https://marketchameleon.com/Overview/ALAB/Summary)
-- Brent crude search: no reliably-dated 10/20/2026 print found; results ranged $62-95/bbl across undated sources. [commodity.com](https://commodity.com/energy/oil/price/brent-crude/)
-- 10-year Treasury yield search: most recent dated figure found was 6/30/2026 (4.420%). [Morningstar/Dow Jones](https://www.morningstar.com/news/dow-jones/202606307321/10-year-treasury-yield-rises-to-4420-data-talk)
-- NVDA news search: no 10/20/2026-dated items found.
-- GEHC news search: confirmed 10/28 Q3 print date, $0.04/sh dividend (ex-div 10/23, payable 11/13), Pascal Desroches board appointment (effective 1/4/27) — all already on file or immaterial, nothing incremental to the DCF. [businesswire.com](https://www.businesswire.com/news/home/20260630122494/en)
-- OMCL news search: confirmed 10/29 Q3 print date (company's own release, authoritative over a third-party 10/30 estimate), nothing new dated 10/20. [finviz.com](https://finviz.com/news/400634/omnicell-to-release-third-quarter-2026-financial-results-on-october-29-2026)
-- Internal: trading-experiment/state.md (2026-10-20 ~09:38 ET live Robinhood snapshot), analysts/gs-stock-screener.md (2026-10-20 ~09:4x ET report), this desk's own 2026-10-13 (ALAB build) and 10-15 (Brent rebuild) reports (git history).
+- 10-year Treasury yield search: most recent dated figures found were 6/30/2026 (4.420%) and 3/5/2026 (4.145%). [Morningstar/Dow Jones](https://www.morningstar.com/news/dow-jones/202606307321/10-year-treasury-yield-rises-to-4420-data-talk), [Morningstar/Dow Jones](https://www.morningstar.com/news/dow-jones/202603059767/10-year-treasury-yield-rises-to-4145-data-talk)
+- Brent crude search: no reliably-dated 10/21/2026 print found; results ranged $67-108/bbl across undated/conflicting sources. [commodity.com](https://commodity.com/energy/oil/price/brent-crude/)
+- ALAB price search: no reliably-dated 10/21/2026 quote found; most recent dated figure remains 8/28/2026 ($289.47). [marketchameleon.com](https://marketchameleon.com/Overview/ALAB/Summary), [coingecko.com](https://www.coingecko.com/en/stocks/astera-labs)
+- GEHC news search: confirmed 10/28 Q3 print date, $0.04/sh dividend (ex-div 10/23, payable 11/13), Sofie Biosciences deal, Pascal Desroches board appointment — all already on file, nothing incremental to the DCF. [finviz.com](https://finviz.com/news/399775/ge-healthcare-to-announce-third-quarter-2026-results-on-october-28-2026), [businesswire.com](https://www.businesswire.com/news/home/20260630122494/en)
+- OMCL news search: confirmed 10/29 print date, Q2 EPS-guidance raise, memory-chip cost headwind — nothing new dated 10/21. [chartmill.com](https://www.chartmill.com/news/external/119254/omcl-falls-20-1-in-a-month-as-booking-and-margin-risks-build), [nasdaq.com](https://www.nasdaq.com/articles/omnicell-stock-surges-573-year-whats-driving-it)
+- NVDA news search: no 10/21/2026-dated items found; most recent relevant item was December 2025-vintage. [finance.yahoo.com](https://finance.yahoo.com/news/why-nvidia-nvda-stock-today-012247880.html)
+- Internal: trading-experiment/state.md (2026-10-21 ~09:38 ET live Robinhood snapshot), analysts/gs-stock-screener.md (2026-10-21 ~09:5x ET report), this desk's own 2026-10-13 (ALAB build) and 10-15 (Brent rebuild) reports (git history).

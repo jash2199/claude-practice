@@ -1,8 +1,8 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
 
-**Date: 2026-10-30 (Friday), ~10:14 ET** (14:13:58 UTC scheduler fire time, converted; EDT still in effect — DST doesn't flip until Sunday 11/1). **This desk's headline work this run: a full from-scratch DCF build on SNDK**, which GS's screener explicitly asked for this morning ("a direct, explicit ask for MS to rebuild the DCF off real numbers before another cycle carries the stale $493-984/sh range forward") after JPM confirmed SNDK's Q1 FY2027 beat-and-raise-plus-split last night. SNDK is unheld but has displaced ALAB as the #1 *unheld* name on GS's screen this run (OMCL/GEHC, ranks 1-2, are both held and covered separately below) — so this desk treats SNDK, not ALAB, as "GS's #1 pick" for coverage purposes this cycle. OMCL/GEHC/NVDA/XLE fundamentals are unchanged since yesterday's rebuilds/builds — price-roll only for those four, plus a direct response to GS's flag that OMCL's live price has closed to within ~1.1% of this desk's own bear case. ALAB carried forward unchanged, now a secondary name.
+**Date: 2026-11-02 (Monday), ~10:07 ET** (15:07:36 UTC scheduler fire time, converted — EST now in effect, DST flipped Sunday 11/1, confirmed via the same clock-change flag GS's screener raised this morning). **This desk's headline work this run: a corrected GEHC equity bridge off the now-filed Q3 2026 10-Q**, resolving the two open data gaps the 10/28 rebuild flagged explicitly (net debt was Q2-stale at ~$8.0B; shares outstanding were back-solved at ~478M, not 10-Q-verified) — plus folding in the newly-announced $945M SOFIE Biosciences cash acquisition (an October subsequent event, not yet on the Q3 balance sheet). NVDA/OMCL/XLE/SNDK/ALAB fundamentals are unchanged since their last rebuilds — price-roll only for those five, off the trader's freshest live snapshot (state.md, 2026-11-02 ~09:57 ET, second run of the day, regular session).
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC) per state.md's 2026-10-30 ~10:07 ET live Robinhood snapshot (freshest on file, first run of the day), plus SNDK, GS's #1 unheld pick as of today's screen (analysts/gs-stock-screener.md, 2026-10-30 ~10:07 ET report). ALAB, last cycle's #1 unheld pick, carried forward briefly. No live Robinhood access on this desk; per rule 4, state.md's live-verified prices govern for held names. For SNDK, this desk's own fresh WebSearches this run reproduced the identical chronic dateline wall the team has now logged for 62+ consecutive runs — no genuinely 10/30-dated SNDK price found — so the reference price below is derived from JPM's confirmed pre-print close plus its sourced reaction percentage, not a found live quote; this is flagged explicitly throughout §1.*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC) per state.md's 2026-11-02 ~09:57 ET live Robinhood snapshot (freshest on file), plus SNDK, GS's #1 *unheld* pick (analysts/gs-stock-screener.md, 2026-11-02 ~08:44 ET report — OMCL/GEHC, GS's ranks 1-2, are both held and covered separately above). ALAB, the prior cycle's #1 unheld pick, carried forward briefly as a secondary name — now T-1 for its 11/3 after-close print alongside AMD, per JPM's IR-sourced confirmation, though this changes nothing for this desk since both names are already hard-pass-blocked on valuation regardless of outcome. No live Robinhood access on this desk; per rule 4, state.md's live-verified prices govern for held names.*
 
 ---
 
@@ -10,195 +10,182 @@
 
 | Ticker | Current Price | Fair Value | Gap | Verdict |
 |---|---|---|---|---|
-| **SNDK** (not held, GS's new #1 unheld pick) | **~$1,520/sh** (derived — see §1 sourcing note; NOT the $223.50 figure some aggregators show, which this desk rejects as a pre-emptive/erroneous split-adjustment ahead of the still-pending ~11/19-20 split) | **$1,218/sh base** (bull $1,620, bear $792; WACC 11.85%/10.95%/12.75%) | **-19.9%** | **OVERVALUED — fresh from-scratch rebuild off confirmed Q1 FY27 actuals. The beat-and-raise is real, but the stock has already priced in sustained ~65%+ net margins indefinitely; even the bull case barely clears today's price** |
-| **OMCL** (held) | **$35.64** (10/30 10:07 ET live-verified, -3.36%, a fresh post-print low) | **$46.75/sh base** (unchanged, 10/29 rebuild; bull $55.27, bear $35.24) | **+31.2%** | **UNDERVALUED — but GS's flag is correct: today's price sits only ~1.1% above this desk's own bear case, the thinnest live margin of safety since the rebuild** |
-| **GEHC** (held) | **$77.5842** (10/30 10:07 ET live-verified, +1.52%, a seventh straight fresh high) | **$71.2/sh base** (unchanged, 10/28 rebuild) | **-8.23%** | **OVERVALUED, widening further on continued extension** |
-| **NVDA** (held) | **$207.81** (10/30 10:07 ET live-verified, -2.74%) | **$192.0/sh** (WACC 11.59%, unchanged) | **-7.61%** | **OVERVALUED, easing further on today's pullback but still rich** |
-| **XLE** (held) | **$70.03** (10/30 10:07 ET live-verified, +1.92%, a fresh post-entry-area high) | **$63.4/sh** (Brent-rebuild, WACC ~11.0%, unchanged) | **-9.47%** | **OVERVALUED, widening on continued extension** |
-| **ALAB** (not held, GS's prior #1 unheld pick) | **$286.735** (carryforward, 10 consecutive weeks stale) | $119.3/sh (bull) to $54.8/sh (base) | **-58.41% to -80.89%** | **OVERVALUED — hard pass stands, unchanged** |
-| **VTI** | $373.715 | N/A | N/A | **HOLD BY CONSTRUCTION** |
-| **VXUS** | $82.52 | N/A | N/A | **HOLD BY CONSTRUCTION** |
+| **GEHC** (held) | **$79.33** (11/2 ~09:57 ET live-verified, +3.61% vs. 10/30 close, a fresh post-entry high) | **$75.0/sh base** (corrected this run — see §1; bull $98.5, bear $44.4; WACC 8.0%/7.0%/9.0% unchanged) | **-5.46%** | **OVERVALUED, but the gap narrows sharply (from -8.23%) on this desk's own data correction, not a price move** |
+| **OMCL** (held) | **$37.39** (11/2 ~09:57 ET live-verified, +2.02%, a real recovery off Friday's post-print low) | **$46.75/sh base** (unchanged, 10/29 rebuild; bull $55.27, bear $35.24) | **+25.0%** | **UNDERVALUED — bear-case cushion has widened back to ~5.8% as the price recovered away from Friday's ~1.1% near-miss** |
+| **NVDA** (held) | **$207.68** (11/2 ~09:57 ET live-verified, little changed vs. Friday) | **$192.0/sh** (WACC 11.59%, unchanged) | **-7.55%** | **OVERVALUED, essentially flat vs. Friday's -7.61%** |
+| **XLE** (held) | **$68.625** (11/2 ~09:57 ET live-verified, -1.99%, the session's one decliner) | **$63.4/sh** (Brent-rebuild, WACC ~11.0%, unchanged) | **-7.61%** | **OVERVALUED, but the gap narrows (from -9.47%) on the pullback, no fresh Brent catalyst found** |
+| **SNDK** (not held, GS's #1 unheld pick) | **~$1,520/sh** (carryforward — see §4 sourcing note, chronic dateline wall holds for an 8th+ week on this name specifically) | **$1,218/sh base** (bull $1,620, bear $792; WACC 11.85%/10.95%/12.75%, unchanged) | **-19.9%** | **OVERVALUED — unchanged; split mechanics now SEC-confirmed (8-for-1, record 11/9, distribution 11/19, post-split trading opens 11/20) but that's a timing note, not a valuation one** |
+| **ALAB** (not held, secondary) | **$286.735** (carryforward, 11 consecutive weeks stale) | $119.3/sh (bull) to $54.8/sh (base) | **-58.41% to -80.89%** | **OVERVALUED — hard pass stands; T-1 for 11/3 after-close print, irrelevant to this call either way** |
+| **VTI** | $373.96 | N/A | N/A | **HOLD BY CONSTRUCTION** |
+| **VXUS** | $83.135 | N/A | N/A | **HOLD BY CONSTRUCTION** |
 
 **Bottom line for the trader:**
 
-1. **SNDK — this desk's answer to GS's explicit rebuild request: OVERVALUED, not a buy, despite a genuinely excellent print.** Q1 FY2027 was a real beat-and-raise (revenue ~$11.03B vs. a $10.3-10.8B guide, non-GAAP EPS ~$49.51, gross margin expanding to 85.1%, debt-free balance sheet) — GS's upgrade of this name's risk score from "9, hard pass" to a provisional "4, re-screen" is fair on the fundamentals. But this desk's full rebuild, which deliberately does **not** extrapolate the current ~65%+ non-GAAP net margin indefinitely (memory/NAND is a structurally cyclical business; margins this rich have never persisted through a full cycle), lands at a **$1,218/sh base case, -19.9% below** this desk's own derived ~$1,520 reference price. Even the bull case ($1,620, assuming the up-cycle runs longer and margins decay more slowly) is only ~6.6% above today's price — meaning the stock already has very little room for anything to go right from here, and a lot of room to go wrong if the historically normal memory-cycle rollover shows up on schedule. **This is the valuation discipline doing its job: GS is right that the print changes the conversation, but "changes the conversation" is not the same as "is now cheap."**
-2. **OMCL's gap widens to +31.2% on the price pullback, but GS's flag deserves a direct answer: yes, today's $35.64 is genuinely close to this desk's $35.24 bear case — only ~1.1% of daylight.** This desk re-checked the bear-case assumptions (WACC 10.43%, terminal growth 2.5%, FCF path at 90% of base) against today's move and found nothing that requires revision: the bear case was built to capture exactly the scenario now being tested (the soft Q4 revenue guide turning out to be real demand deceleration rather than deal-timing noise), and nothing fundamental has changed since yesterday's rebuild — only the price has moved toward that scenario, not the evidence for it. **The number to watch, unchanged from yesterday: if OMCL trades through $35.24, that is the signal the bear case is becoming the operative one, not a reason to revise the model preemptively today.**
-3. **GEHC's gap widens to -8.23%** as the post-earnings rally extends into a seventh straight session against an unmoved $71.2 base case. No new fundamental input; this desk is not rebuilding GEHC again off the same confirmed print.
-4. **NVDA eases further to -7.61%** (from -9.55% yesterday) on continued pullback against an unmoved $192.0 fair value — still overvalued by this desk's model, now the least extended reading in over a week. Next print ~11/18.
-5. **XLE's gap widens to -9.47%** as the stock pushes to a fresh post-entry-area high against the unmoved 10/15 Brent rebuild — no fresh Brent catalyst found to justify the move.
-6. **ALAB carried forward unchanged for a tenth consecutive week** — hard pass stands; this name is no longer this desk's primary unheld-pick coverage focus now that SNDK has taken that slot, but the valuation call (-58.41% to -80.89%) is unaffected.
-7. **Rate input refined, not rebuilt: a genuine FRED-sourced reading finally broke the chronic dateline wall for this one input** — 10-year Treasury at **5.10%** as of 2026-10-15 (FRED DGS10, updated 10/16), vs. the ~5.19% figure this book has carried since 10/14 from a less clearly sourced page. The ~9bps difference is immaterial to GEHC/NVDA/XLE's existing WACC builds (not worth a full rebuild for this alone) but was used directly in today's SNDK build below. Flagging the more authoritative source for the team to adopt going forward.
+1. **GEHC is this run's real story, and it's a correction, not new news.** The 10/28 rebuild flagged two of its own inputs as weak — net debt stale at a Q2-sourced ~$8.0B, and shares outstanding back-solved (not 10-Q-verified) at ~478M. The Q3 10-Q is now filed: actual net debt is **$7.119B** (total debt $9.973B − cash $2.854B), better than assumed, and actual diluted weighted-average shares are **453M**, fewer than assumed. Both corrections push fair value up — but the newly-disclosed **$945M SOFIE Biosciences acquisition** (cash deal, announced October, expected to close H1 2027, not yet on the Q3 balance sheet) is a known near-term cash outflow this desk is folding in as pro-forma net debt. Net result: **base case rises to $75.0/sh (from $71.2)**, and because the price also kept climbing (+3.61% today, a seventh-plus straight extending session), the overvaluation gap actually **narrows** to -5.46% (from -8.23%) — the data correction did more work than the price move. **This is the valuation discipline doing its job in both directions: not automatically defending the old number, and not letting a cleaner balance-sheet read get mistaken for the stock being cheap — it's still overvalued at base case, now by a smaller, better-sourced margin.**
+2. **OMCL's bear-case cushion widens back to ~5.8%** as the price recovered to $37.39 from Friday's $35.64 (which sat only ~1.1% above the $35.24 bear case). Nothing fundamental changed over the weekend — this is the mirror image of Friday's move, not a reason to revise the model. The number to watch is unchanged: a trade *through* $35.24, not merely a close approach to it, is what would warrant an actual bear-case rebuild.
+3. **NVDA and XLE both ease modestly** on today's price action against unmoved fair values (NVDA -7.55% from -7.61%; XLE -7.61% from -9.47%, the more meaningful move as it was the session's one sleeve decliner). No new fundamental input for either.
+4. **SNDK's split mechanics are now SEC-confirmed** (8-K, filed 10/29): 8-for-1 forward split, record date 11/9, distribution after close 11/19, post-split trading opens 11/20. This matters for *reading* any quote between now and then (a pre-split comparison is still correct), not for the valuation itself — the -19.9% overvaluation call stands unchanged, carried forward on the same working ~$1,520 reference price (no fresher dated quote found again this run).
+5. **ALAB carried forward for an eleventh consecutive week** — hard pass stands, now formally T-1 for its 11/3 after-close print alongside AMD, per JPM's IR-sourced date confirmation. Neither this desk's valuation call nor the trader's rule-6 block on this name depends on tomorrow's print outcome.
+6. **Rate input: no fresher dated figure found again this run.** The standing 5.10% (FRED DGS10, 10/15-dated) reference is retained across all WACC builds; a stray undated "4.95% as of 9/10" figure surfaced in one source this run but is older than the figure already on file and was not adopted.
 
 No trade recommended off this report (research-only mandate, as always).
 
 ---
 
-## 1. SNDK (Sandisk) — full from-scratch DCF rebuild on confirmed Q1 FY2027 beat-and-raise, per GS's explicit ask
+## 1. GEHC — corrected equity bridge off the now-filed Q3 2026 10-Q, plus the pending SOFIE Biosciences acquisition
 
-**Why a full rebuild and not a price roll:** This desk's prior SNDK figures ($493-984/sh) predate any confirmed actual results and were explicitly flagged by both JPM and GS this morning as stale and due for replacement. JPM's 09:41 ET report carries genuine, dated, company-sourced Q1 FY2027 actuals; this desk's own fresh WebSearches this run reproduced the identical chronic dateline wall logged for 62+ consecutive runs on SNDK-specific queries (price, shares outstanding, market cap), so — consistent with how OMCL's and GEHC's post-print rebuilds were sourced — the fundamental inputs below lean on JPM's internal confirmation rather than this desk's own search snippets.
+**Why a correction and not a fresh full rebuild:** the underlying 5-year revenue/FCF projection built 10/28 off the confirmed Q3 beat-and-raise (guidance: adj. EPS $4.95-5.05, organic growth ~4%, FCF >$1.6B) has had no superseding fundamental news since — no further guidance change, no new print. What *has* changed is that the two balance-sheet inputs that build explicitly flagged as weak are now resolvable against the actual filed 10-Q, and a real M&A announcement has landed. Correcting the equity bridge (enterprise value → equity value → per-share value) without re-deriving the firm-level cash-flow forecast is the right-sized response — the mandate's own "update numbers briefly rather than rebuild from scratch" instruction, applied to the piece that actually needs updating.
 
-### Reference price — a sourcing conflict this desk is resolving, not ignoring
+### What changed, sourced to the Q3 2026 10-Q (filed; SEC EDGAR, gehc-20260930.htm) and the Q3 earnings release
 
-JPM flagged a genuine sourcing conflict on SNDK's post-print price: one set of sources cites "up 8%/+8.51% to $223.50," another carries a clean pre-print close of $1,404.77 (10/28) with a separate "+~8%" reaction cited elsewhere. **This desk is explicitly rejecting the $223.50 figure.** SNDK's pending 1-for-8 stock split is not effective until reportedly ~Nov 19-20 — three weeks away — so a genuine post-print price cannot plausibly be ~1/8th of the pre-print ~$1,400s level yet. $223.50 × 8 ≈ $1,788, which is too far above even an +8.5% reaction (~$1,524) to be a simple pre-emptive split-adjustment error at a clean 8x ratio, but it is close enough in that direction that this desk reads it as some data vendor mis-handling the announced-but-not-yet-effective split rather than a real price level. **Working reference price: ~$1,520/sh**, derived from the pre-print $1,404.77 close (10/28) grossed up by the +8.0% to +8.51% reaction range most sources converge on ($1,517 to $1,524) — the midpoint of that range. This is a derived estimate, not a found live quote, and is flagged as the single largest input-quality risk in this build.
+| Input | 10/28 rebuild (assumed/estimated) | Now (10-Q actual) | Effect |
+|---|---|---|---|
+| Net debt | ~$8.0B (Q2 10-Q, BW-sourced, explicitly flagged as stale) | **$7.119B** = total debt $9.973B − cash & equivalents $2.854B | Reduces net debt by $0.881B → raises equity value |
+| Diluted weighted-avg shares | ~478M (back-solved from market cap, explicitly flagged as unverified) | **453M** (Q3 2026 10-Q, three months ended 9/30/26) | Fewer shares → raises fair value per share for a given equity value |
+| Pending M&A (new this run) | not modeled | **SOFIE Biosciences acquisition: $945M, all-cash**, announced October 2026, expected to close H1 2027 (10-Q subsequent-event disclosure; not yet reflected on the 9/30 balance sheet) | A known near-term cash outflow — this desk adds it to net debt on a pro-forma basis rather than ignoring a signed deal because the cash hasn't moved yet |
 
-### Confirmed Q1 FY2027 actuals (via JPM's 09:41 ET report, company-sourced)
+**Revenue/FCF model: unchanged, no new guidance to incorporate.** The 10/28-built 5-year projection (FY2026E revenue $21.8B tapering to ~3.5% growth by FY2031E, EBIT margin glide path 15.6%→16.5%, FCF path $1.65B→$2.40B) still reflects the most current guidance on file. Because enterprise value (the present value of that FCF stream) does not depend on share count or net debt, this desk backed out the implied EV from the 10/28 figures and re-ran the equity bridge with the corrected inputs — a clean, exact recalculation, not an approximation:
 
-- Revenue **~$11.03B**, up ~23% sequentially, above the company's own $10.3-10.8B guide
-- Non-GAAP EPS **~$49.51** vs. ~$46.19 consensus; GAAP diluted EPS ~$52.60 (includes a ~$513M one-time equity-securities gain — excluded from this desk's non-GAAP-based model, consistent with how OMCL's and SNDK's own GAAP/non-GAAP gaps have been handled elsewhere on this sheet)
-- **Segment split (first time this team has a real breakdown):** Data Center $4.802B (+61% QoQ, the primary driver), Edge $5.832B (+7% QoQ), Consumer $397M (-29% QoQ, the one soft line)
-- Non-GAAP gross margin **85.1%**, up from 84.6% prior quarter
-- **Balance sheet: $5.1B cash, no debt** — the cleanest on this desk's coverage list, which materially simplifies the WACC build below (100% equity weight)
-- Guidance: Q2 FY2027 revenue $12.2-12.6B, non-GAAP EPS $55-57 (pre-split) — a third consecutive raise
-- Shares outstanding: conflicting sources this run put the count at **~146-157M**; this desk uses **150M** as a working midpoint, flagged as a real input-quality gap (no single authoritative dated figure found)
+- **Implied EV (base, unchanged):** $71.2/sh × 478M shares + $8.0B net debt = **$42.03B**
+- **Pro-forma net debt (base):** $7.119B (actual) + $0.945B (pending SOFIE, cash-funded assumption) = **$8.064B**
+- **New equity value (base):** $42.03B − $8.064B = **$33.97B**
+- **New fair value/share (base):** $33.97B ÷ 453M = **$75.0/sh**
 
-### 5-year projection — deliberately does not extrapolate peak-cycle margins
+The same arithmetic applied to the bull and bear EVs:
 
-**This is the key judgment call in this build, and it is the reason this desk's number differs sharply from a naive "flow the Q1 beat straight through" model.** SNDK's current non-GAAP net margin run-rate is roughly 65-67% of revenue (non-GAAP net income ≈ EPS $49.51 × ~150M shares ≈ $7.4B against $11.03B revenue) — an extraordinary level driven by a data-center-led memory up-cycle. Memory/NAND is a structurally cyclical business (this desk notes GS's own screen shows MU, a direct peer, trading at ~7-8x forward earnings precisely because the market already prices in margin mean-reversion for this sector). This model tapers net margin from today's cyclical peak toward a more defensible long-run level as the cycle normalizes, rather than treating 65%+ margins as the new steady state.
-
-| Fiscal Year | Revenue ($B) | Rev. growth | Net margin | Net income ($B) | FCF conversion | FCF ($B) |
+| Scenario | WACC | Terminal g | Implied EV | Pro-forma equity value | Fair Value/sh (new) | Fair Value/sh (10/28, for reference) |
 |---|---|---|---|---|---|---|
-| FY2027E | 50.0 | ~+47% (Q1 actual + guided Q2, tapering Q3/Q4) | 65% | 32.5 | 55% | 17.9 |
-| FY2028E | 58.0 | +16% | 55% | 31.9 | 58% | 18.5 |
-| FY2029E | 63.0 | +8.6% | 45% | 28.4 | 60% | 17.0 |
-| FY2030E | 66.5 | +5.6% | 40% | 26.6 | 62% | 16.5 |
-| FY2031E | 69.5 | +4.5% | 38% | 26.4 | 65% | 17.2 |
+| Bull | 7.0% | 3.0% | $52.69B | $44.63B | **$98.5** | $93.5 |
+| **Base** | **8.0%** | **3.0%** | **$42.03B** | **$33.97B** | **$75.0** | $71.2 |
+| Bear | 9.0% | 3.0% | $28.19B | $20.12B | **$44.4** | $42.2 |
 
-FCF conversion is set well below 100% of net income throughout (55-65%) to reflect the fab-capex-heavy nature of memory manufacturing — a capital-intensity assumption, not a company-guided figure (SNDK does not separately guide full-year FCF).
+**Net effect: fair value rises ~5% across all three scenarios**, almost entirely from the share-count correction (453M actual vs. ~478M back-solved — a ~5.5% reduction) rather than the net-debt correction, which is nearly a wash once SOFIE is layered in (net debt improves by $0.881B on the 10-Q, but the pending $945M acquisition more than offsets it, for a net pro-forma increase of ~$64M — immaterial on its own). **This is the specific failure mode this desk's own prior report flagged as its "single most important open item," and it resolved in the direction of a cleaner balance sheet than assumed, substantially offset by a real new use of cash.**
 
-### WACC build
+### WACC — unchanged, capital-structure mix checked and found immaterial
 
-- Risk-free rate: **5.10%** (FRED DGS10, 2026-10-15, updated 10/16 — the first genuinely-sourced break in the chronic dateline wall for this input; see top-line note #7)
-- Equity risk premium: 4.5%
-- Beta: **1.5** (memory/NAND is a high-beta, cyclical semiconductor sub-sector — materially more volatile than this book's megacap names)
-- Cost of equity: 5.10% + 1.5 × 4.5% = **11.85%**
-- Cost of debt: n/a — **SNDK carries no debt** ($5.1B cash, zero debt per Q1 FY27 confirmed balance sheet)
-- Capital structure: 100% equity → **WACC (base) = 11.85%**
+Market cap at today's price: $79.33 × 453M = $35.94B. Debt weight using actual net debt ($7.119B, pre-SOFIE): 7.119/(7.119+35.94) = 16.5%, vs. the 10/28 build's 18.1% — a ~1.6pp shift. Re-running the WACC formula (cost of equity 8.79%, after-tax cost of debt 3.98%) at the corrected weights moves WACC by under 10bps, below this desk's own standing threshold for triggering a rebuild (the same bar applied to the 9bps Treasury-yield revision logged 10/16). **WACC held at 8.0%/7.0%/9.0% (base/bull/bear), unchanged.**
 
-### Sensitivity table — fair value at different WACC/terminal-growth/margin-durability assumptions
+### DCF vs. market price and verdict
 
-| Scenario | WACC | Terminal g | Margin/FCF path | Fair Value/sh | Gap vs. ~$1,520 |
-|---|---|---|---|---|---|
-| Bull (up-cycle runs longer, margins decay more slowly, beta 1.3) | 10.95% | 3.5% | Base FCF × 1.15 | **$1,620** | **+6.6% undervalued** |
-| **Base** | **11.85%** | **3.0%** | **Base case above** | **$1,218** | **-19.9% overvalued** |
-| Bear (cycle rolls over on schedule, margins mean-revert faster, beta 1.7) | 12.75% | 2.0% | Base FCF × 0.75 | **$792** | **-47.9% overvalued** |
+| Scenario | Fair Value/sh | Price | Gap |
+|---|---|---|---|
+| Bull | $98.5 | $79.33 | **+24.2% undervalued** |
+| **Base** | **$75.0** | **$79.33** | **-5.46% overvalued** |
+| Bear | $44.4 | $79.33 | **-44.0% overvalued** |
 
-### DCF vs. market price
-
-At a derived ~$1,520/sh, SNDK trades **above this desk's base-case fair value ($1,218) by nearly 20%, and even the bull case ($1,620, which assumes the current up-cycle persists longer than historical memory cycles typically do) offers only ~6.6% of headroom.** That is a thin, one-sided risk/reward: there is very little room left for things to go right that the market hasn't already priced in, and substantial room for a normal cyclical margin rollover — which this sector has experienced repeatedly — to reprice the stock sharply lower.
-
-### Verdict: OVERVALUED — the print was real, the price has already outrun it
-
-GS's upgrade of SNDK's risk score is well-founded on the fundamentals (a genuine, confirmed beat-and-raise with margin expansion and a debt-free balance sheet). But this desk's full rebuild — which treats the current ~65%+ net margin as a cyclical peak to be faded, not a new baseline — finds the stock has already priced in more durability than memory-sector history supports. **Not a buy on this desk's model; "re-screen-worthy fundamentals" and "undervalued" are not the same conclusion.**
+**Verdict: OVERVALUED at base case, but the margin has genuinely narrowed** — from -8.23% on Friday's stale inputs to -5.46% today, on better-sourced data rather than a friendlier price (the price in fact rose further, +3.61%, which on its own would have *widened* the gap). This is the closest GEHC has read to fair value since the 10/28 beat-and-raise rebuild first closed the -10.53%→-6.0% gap. Still not a buy signal under rule 2 (the stock is extended, now ~15% above the 10/28 pre-print level) or rule 6 (no overweight case has been made by BR), but the valuation discipline itself has less to object to than it did Friday.
 
 ### Key assumptions that could break this model
 
-- **Shares outstanding (150M working midpoint) is this desk's own estimate** — conflicting sources this run ranged 146-157M; a materially different actual count moves per-share fair value directly and proportionally.
-- **The reference price (~$1,520) is derived, not a found live quote** — this desk's own WebSearches could not independently verify a 10/30-dated SNDK price; if the true post-print price differs meaningfully from the +8.0-8.51% reaction range most sources cite, the gap recalculates accordingly.
-- **The margin-normalization path (65%→38% net margin over 5 years) is the single biggest judgment call in this build.** If the AI/data-center-driven demand shift proves structurally different from prior memory cycles (i.e., margins stabilize at a genuinely higher sustained level than this desk assumes), the base case materially understates fair value. Conversely, a sharper-than-modeled cyclical rollover (the bear case) is a real, historically-precedented risk for this sector.
-- **Beta (1.5 base) reflects this desk's own judgment on memory-sector volatility, not a sourced figure** — a lower beta assumption would narrow the gap meaningfully.
-- **The pending 1-for-8 split (~Nov 19-20) is cosmetic, not fundamental** — this model is built entirely on pre-split share counts and prices; the next reviewer should re-anchor to post-split-adjusted figures once that date passes, consistent with GS's own flag.
+- **The SOFIE acquisition's revenue/EBITDA contribution is unmodeled.** This desk treated it purely as a cash outflow because no acquired-company financials have been disclosed; if GEHC discloses SOFIE's revenue/margin profile before the H1 2027 close, this fair value should be revisited to add the accretive (or dilutive) earnings contribution, not just the purchase price.
+- **The deal could be debt-funded rather than cash-funded**, in which case the $945M lands as incremental debt with incremental interest expense rather than a straight cash draw-down — a modeling nuance this desk did not distinguish because the funding method hasn't been disclosed; the per-share effect is the same either way at this level of precision, but the WACC capital-structure mix would shift further if debt-funded.
+- **The $55M Q3 tariff refund remains non-recurring** (flagged 10/28, still true) — the FCF path already treats it as a one-off, not baked into the terminal run rate.
+- **Margin durability**: one quarter of 180bps EBIT margin expansion is encouraging but still only one data point; the bear case assumes partial reversion.
 
 ---
 
-## 2. OMCL — price-roll plus a direct response to GS's bear-case-proximity flag
+## 2. OMCL — price-roll, bear-case cushion re-widens on the weekend/Monday recovery
 
-**Fundamentals unchanged since yesterday's full post-print rebuild (base $46.75, bull $55.27, bear $35.24, WACC 9.43%/8.43%/10.43%) — this desk is not rebuilding OMCL again off the same confirmed Q3 print.** GS's screener explicitly asked this desk to "re-check the bear-case assumptions against today's move" after OMCL's live price fell to $35.64 (-3.36%, a fresh post-print low), closing to within ~1.1% of the $35.24 bear case.
-
-**This desk's answer: the bear case does not need revising — it was already built to capture exactly this scenario.** The bear case's defining assumption (WACC 10.43%, terminal growth 2.5%, FCF path at 90% of base) was constructed around the single open risk flagged at the time of the rebuild: that the soft Q4 revenue guide (~$298M, below Street) turns out to be genuine demand deceleration rather than deal-timing noise. Nothing about today's price move supplies new evidence either way on that question — no fresh OMCL-specific news or balance-sheet data surfaced this run (same chronic dateline wall as every other query). **The price moving toward the bear case is the market pricing in more of that risk, not new information this model needs to absorb.** The number to watch remains exactly what this desk flagged yesterday: a trade through $35.24 is the live signal distinguishing normal post-print profit-taking from the Q4-softness thesis becoming real, and would warrant an actual rebuild (likely a lower bear case, if Q4 commentary firms up) — not today's price action on its own.
+**Fundamentals unchanged since the 10/29 post-print rebuild** (base $46.75, bull $55.27, bear $35.24; WACC 9.43%/8.43%/10.43%). Friday's close ($35.64) sat only ~1.1% above the $35.24 bear case — the thinnest margin since the rebuild. Today's live price has recovered to $37.39 (+2.02%), re-widening that cushion.
 
 | Scenario | WACC | Terminal g | Fair Value/sh | Price | Gap |
 |---|---|---|---|---|---|
-| Bull | 8.43% | 3.0% | $55.27 | $35.64 | **+55.1%** |
-| **Base** | **9.43%** | **3.0%** | **$46.75** | **$35.64** | **+31.2%** |
-| Bear | 10.43% | 2.5% | $35.24 | $35.64 | **-1.1%** (price now only ~1.1% above the bear case) |
+| Bull | 8.43% | 3.0% | $55.27 | $37.39 | **+47.8%** |
+| **Base** | **9.43%** | **3.0%** | **$46.75** | **$37.39** | **+25.0%** |
+| Bear | 10.43% | 2.5% | $35.24 | $37.39 | **-5.75%** (price now ~5.75% above the bear case, vs. Friday's ~1.1%) |
 
-**Verdict: UNDERVALUED on base case, but with the thinnest live margin of safety this name has shown since the rebuild.** DCA-gate sizing mechanics are BR's domain, not this desk's.
+**Verdict: UNDERVALUED on base case, cushion above the bear case restored to a more comfortable level.** This is the mirror image of Friday's move — a price swing toward or away from the bear case is not itself new evidence about the underlying Q4-demand-deceleration question; the number that would actually warrant a rebuild remains a trade *through* $35.24, not a close approach from either side.
 
 ---
 
-## 3. GEHC, NVDA, XLE — price-roll updates (fundamentals/WACC unchanged since 10/28 rebuild / 9/23 build / 10/15 Brent rebuild)
+## 3. NVDA, XLE — price-roll updates (fundamentals/WACC unchanged since 9/23 build / 10/15 Brent rebuild)
 
 | Ticker | Fair Value (unchanged) | Price (was → now) | Gap (was → now) | Verdict |
 |---|---|---|---|---|
-| GEHC | $71.2 (10/28 rebuild, WACC 8.0%; bull $93.5, bear $42.2) | $76.865 → **$77.5842** | -7.37% → **-8.23%** | **OVERVALUED**, widening on a seventh straight extending session |
-| NVDA | $192.0 (WACC 11.59%) | $212.29 → **$207.81** | -9.55% → **-7.61%** | **OVERVALUED**, easing further on continued pullback |
-| XLE | $63.4 (Brent-rebuild, WACC ~11.0%; bull $71.8, bear $50.9) | $68.875 → **$70.03** | -7.95% → **-9.47%** | **OVERVALUED**, widening on a fresh post-entry-area high |
-| VTI | N/A | $377.63 → **$373.715** | N/A | HOLD BY CONSTRUCTION |
-| VXUS | N/A | $83.365 → **$82.52** | N/A | HOLD BY CONSTRUCTION |
+| NVDA | $192.0 (WACC 11.59%) | $207.81 → **$207.68** | -7.61% → **-7.55%** | **OVERVALUED**, essentially flat |
+| XLE | $63.4 (Brent-rebuild, WACC ~11.0%; bull $71.8, bear $50.9) | $70.03 → **$68.625** | -9.47% → **-7.61%** | **OVERVALUED**, narrowing on today's pullback |
+| VTI | N/A | $373.715 → **$373.96** | N/A | HOLD BY CONSTRUCTION |
+| VXUS | N/A | $82.52 → **$83.135** | N/A | HOLD BY CONSTRUCTION |
 
-**GEHC's gap widens to -8.23%** purely on continued price strength (a seventh straight session of gains) against the unmoved $71.2 base case. Standing open item unchanged: GEHC's Q3 10-Q net-debt figure (model still runs off the Q2-dated ~$8.0B estimate) has not yet been independently sourced.
+**NVDA** barely moves (-7.55% from -7.61%) — still overvalued, no new fundamental input, next print ~11/18 (now within ~16 days).
 
-**NVDA's gap narrows to -7.61%** (from -9.55%) on today's broad-sleeve pullback against the unmoved $192.0 fair value — still overvalued, now the least extended reading in over a week. Next print ~11/18.
-
-**XLE's gap widens to -9.47%** as the stock pushes to a fresh post-entry-area high against the unmoved 10/15 Brent rebuild. No fresher Brent data found this run (same undated/conflicting spread logged for weeks) — discarded per rule 4. The standing flag stands: a from-scratch constituent-level rebuild remains queued, now behind both SNDK's build and the standing OMCL/GEHC 10-Q re-checks in priority.
+**XLE's** gap narrows to -7.61% (from -9.47%) as the stock pulled back -1.99% today, the session's one sleeve decliner, with no sourced catalyst found (same chronic dateline-wall pattern on Brent-specific queries, now logged for 69+ consecutive runs — discarded per rule 4). The standing flag stands: a from-scratch constituent-level rebuild remains queued behind this run's GEHC correction in priority.
 
 ---
 
-## 4. Astera Labs (ALAB) — unheld, no longer GS's #1 unheld pick — carried forward unchanged
+## 4. SNDK (Sandisk) — no fundamental change; split timeline now SEC-confirmed
 
-Full fundamental build done 2026-10-13 (see git history). SNDK has displaced ALAB as GS's top unheld idea this run, so this desk is not devoting fresh work to ALAB today — but the standing valuation call is unaffected and worth stating briefly for continuity.
+**No new print, no new guidance since the 10/30 from-scratch rebuild** (base $1,218/sh, bull $1,620, bear $792; WACC 11.85%/10.95%/12.75%). This desk's own fresh WebSearch this run reproduced the identical chronic dateline wall logged for 70+ consecutive runs on SNDK-specific price queries — one source returned a $1,787.69 figure explicitly dated "Oct 02, 2026," which this desk is treating as a stale or mislabeled page, not a current quote (it sits well outside the post-print reaction range this desk's own 10/30 build already reconciled, and "Oct 02" pre-dates the Q1 FY2027 print entirely). **Working reference price held at ~$1,520/sh** (derived, pre-split basis — see 10/30 report for the full sourcing derivation).
 
-**Reference price: no fresher pull than GS's $286.735 — now carried forward unchanged for a tenth consecutive week.** Verdict unchanged, per the 10/23 robustness check: **OVERVALUED, hard pass stands** — the -58.41%/-80.89% gap survives even a generous ±15% error band. ALAB's print (nominally 11/3, date-disputed across sources) does not change this call either way; rule-6 blocked regardless of outcome.
+**What is new: GS's screener confirmed the split mechanics via SEC EDGAR this morning** — Sandisk's 10/29 Form 8-K specifies an **8-for-1 forward split** (not 10-for-1), record date **November 9**, distribution after close **November 19**, post-split trading begins **November 20, 2026**. This is a timing clarification, not a valuation input: this desk's fair-value figures above are and remain pre-split-basis, and any quote pulled between now and 11/20 should be read on that same pre-split basis — exactly the discipline GS's screener flagged this morning.
 
-| Scenario | Fair Value | Price (carryforward, 10 weeks stale) | Gap |
+| Scenario | Fair Value/sh (pre-split) | Reference Price | Gap |
+|---|---|---|---|
+| Bull | $1,620 | $1,520 | **+6.6% undervalued** |
+| **Base** | **$1,218** | **$1,520** | **-19.9% overvalued** |
+| Bear | $792 | $1,520 | **-47.9% overvalued** |
+
+**Verdict: OVERVALUED, unchanged.** Even the bull case offers almost no margin of safety; the bear case (a normal memory-cycle rollover, which this desk's build deliberately does not treat as avoided) implies nearly 48% downside.
+
+---
+
+## 5. Astera Labs (ALAB) — unheld, no longer GS's #1 unheld pick, carried forward unchanged
+
+Full fundamental build done 2026-10-13 (see git history); SNDK remains GS's top unheld idea, so this desk is not devoting fresh work to ALAB today. Worth noting for continuity: JPM's report this morning finally resolved the standing print-date dispute (IR-sourced: **Tuesday 11/3, after close, 4:30pm ET call**), confirmed via Astera Labs' own press release — ALAB and AMD both now report tomorrow. This changes nothing for this desk's call either way: the gap is wide enough that no plausible print outcome closes it, and the position is unheld and rule-6-blocked regardless.
+
+| Scenario | Fair Value | Price (carryforward, 11 weeks stale) | Gap |
 |---|---|---|---|
 | Bull | $119.3/sh | $286.735 | **-58.41%** |
 | Base | $54.8/sh | $286.735 | **-80.89%** |
 
----
-
-## Rate-check note (Rf input) — a genuine, sourced update this run
-
-Today's dedicated WebSearch for the 10-year Treasury yield broke the chronic dateline wall for the first time in weeks on this specific input: **FRED's DGS10 series shows 5.10% as of 2026-10-15** (page last updated 10/16), a directly government-sourced, clearly dated figure. This differs by only ~9bps from the ~5.19% figure this book has carried since 10/14 from a less clearly sourced page — immaterial to GEHC/NVDA/XLE's existing WACC builds (not worth triggering a full rebuild for a sub-10bps move), but this desk used 5.10% directly in today's SNDK build above, and recommends the team adopt 5.10%/FRED as the standing reference going forward given its clearer provenance. No fresher (10/16-10/30-dated) print was found this run.
+**Verdict: OVERVALUED, hard pass stands** — survives even a generous ±15% error band, per the 10/23 robustness check.
 
 ---
 
-## Key assumptions that could break these models
+## Rate-check note (Rf input)
 
-**SNDK-specific (fresh rebuild this run — see §1 for full detail):**
-- Shares outstanding (150M working midpoint) is this desk's own estimate amid a 146-157M conflicting range.
-- The ~$1,520 reference price is derived from a sourced reaction percentage, not a found live quote.
-- The 65%→38% net-margin normalization path over 5 years is the single biggest judgment call in the entire build.
-- Beta (1.5) is this desk's own volatility judgment, not a sourced figure.
+No fresher dated figure found this run (dedicated WebSearch for the 10-year Treasury yield). One source surfaced a "4.95% as of 2026-09-10" figure, which is both older and lower than the standing reference — not adopted, since it would mean reverting to a staler, less-sourced print. **Standing reference held at 5.10% (FRED DGS10, 10/15-dated)**, used across all WACC builds above (GEHC's rebuild included).
 
-**OMCL-specific (carried from 10/29 rebuild, re-checked not rebuilt this run):**
-- The Q4 revenue guide softness remains the single most important open thread — now live-tested by price action within ~1.1% of the bear case.
-- Balance sheet is Q2-dated; Q3's 10-Q not yet independently reviewed.
+---
 
-**GEHC-specific (carried from 10/28 rebuild):**
-- Net debt staleness (Q2 10-Q figure) — the single highest-priority open item on this name.
+## Key assumptions that could break these models (cross-name)
 
-**XLE-specific (carried from 10/15):**
-- The price-deck reversion path (Hormuz disruption fading over ~3-4 years back to a $76/bbl long-run view) remains the single biggest judgment call.
-
-**Legacy names (standing, unchanged in substance):**
-- NVDA's growth/margin trajectory vs. FY28 guidance — unchanged since 9/23; next print ~11/18.
-- ALAB's fundamental build — unchanged since 10/13; reference price now stale for a tenth straight week.
+- **GEHC**: the SOFIE Biosciences deal's financing method and target financials are both undisclosed — both could move the equity bridge further once known (see §1 for detail).
+- **OMCL**: the Q4 revenue guide (~$298M, below Street) is the single thesis the bear case is built around; a trade through $35.24 is the live signal, not price proximity alone.
+- **NVDA**: next print ~11/18, now inside the ~14-day earnings-coverage window — expect a dedicated pre-print brief from JPM soon, with a WACC/fair-value re-check warranted if guidance moves materially.
+- **XLE**: this desk's Brent input is now 18 days stale (10/15) with no fresher dated print found across 11 consecutive runs of trying — the single largest unresolved data gap on this sheet after GEHC's (now largely resolved).
+- **SNDK**: unheld, but the 11/20 post-split trading date is the one calendar risk worth flagging to the team now — any live quote check after that date must confirm whether a given source has adjusted for the 8-for-1 split, or the team will misread a routine mechanical price change as an 8x crash.
 
 ---
 
 ## Cross-check with GS screener and JPM earnings desk
 
-**No disagreement in substance, but a genuine valuation-call divergence on SNDK worth stating plainly.** GS's screener upgraded SNDK's risk score from "9, hard pass" to a provisional "4, re-screen required" and explicitly asked this desk to rebuild the DCF — this desk did exactly that and lands at **OVERVALUED, not a buy**, because the rebuild deliberately fades the current cyclical-peak margin rather than extrapolating it. This is not a contradiction of GS's work (GS correctly flagged that the old $493-984/sh range was stale and needed replacing) but it is a different conclusion on investability than "re-screen-worthy" might imply on its own — this desk's valuation discipline is the intended counterweight here. On OMCL, this desk's answer to GS's bear-case-proximity flag (§2 above) is that the model needs re-checking, not revising, and that check came back clean. JPM's 09:41 ET report is the primary source for all of today's SNDK fundamental inputs; nothing here contradicts it on the facts, only on the investment conclusion GS's upgrade might otherwise imply.
+**GS's 11/2 ~08:44 ET report** carries all six held names at Friday's 10/30 close (2.5-day-stale baseline, explicitly flagged as such pending the trader's own live read) and SNDK/ALAB at the same carryforward figures this desk uses. No disagreement in substance — GS's screener and this desk are both treating this morning's trader snapshot as the superseding source for live pricing, consistent with rule 4.
 
-## Explicit read on trader's current positions (all six held) plus GS's current #1 unheld pick
-
-**OMCL**: still undervalued, gap ≈ **+31.2%** base case — but today's price sits only ~1.1% above this desk's own bear case, the thinnest margin of safety since the 10/29 rebuild. Bear-case assumptions re-checked per GS's flag and found to still hold; the $35.24 level is the number to watch. DCA gate mechanics are BR's domain.
-**GEHC**: overvalued, gap ≈ **-8.23%** (was -7.37%), widening on a seventh straight extending session — hold, no add, no trim.
-**NVDA**: overvalued, gap ≈ **-7.61%** (was -9.55%), easing on today's pullback but still rich — hold, no add, no trim; BR's no-new-cash instruction stands.
-**XLE**: overvalued, gap ≈ **-9.47%** (was -7.95%) — the 10/15 Brent/Hormuz rebuild still governs; base case holds, no add, no trim.
-**VTI / VXUS**: hold, no valuation view — defer to BR/BW.
-**SNDK** (GS's current #1 unheld pick, not held): fresh full rebuild this run — **OVERVALUED**, gap ≈ **-19.9%** base case (bull +6.6%, bear -47.9%). The confirmed beat-and-raise is real, but this desk's model says the price has already outrun it. Not investable on this desk's call despite GS's upgrade.
-**ALAB** (GS's prior #1 unheld pick, not held): hard pass stands, gap ≈ **-58.41% (bull) to -80.89% (base)**, now a secondary coverage name behind SNDK.
-
-**Standing flag for the next run:** this desk will prioritize (1) OMCL's Q3 10-Q once filed (to replace today's Q2-dated/estimated inputs and sharpen the bear-case watch), (2) a GEHC Q3 10-Q net-debt re-check once filed, (3) a real SNDK shares-outstanding/price confirmation once the dateline wall breaks for this name, and (4) XLE's queued from-scratch constituent-level rebuild, in that order.
+**JPM's 11/2 ~08:2x ET report** is this run's only genuinely fresh cross-desk input: it resolved the ALAB print-date dispute (11/3, IR-sourced) and confirmed AMD also reports 11/3 after close. Neither fact changes any valuation call on this sheet — both names are already hard-pass-blocked regardless of outcome.
 
 ---
 
-Sources (this run's searches):
-- SNDK Q1 FY2027 confirmed actuals and guidance: via analysts/jpm-earnings-analyzer.md's 2026-10-30 09:41 ET report (Brief 1), itself company-sourced.
-- SNDK post-print price search: no reliably-dated 10/30/2026 figure found independently; most recent clean dated figure remains the 10/28 close ($1,404.77, down 5.3% that session per one source) grossed up by the +8.0-8.51% reaction range JPM's sources cite. [tickertape.in](https://www.tickertape.in/us-stocks/sandisk-corp-SNDK-share-price), [Nasdaq via search snippet, 10/14 close $1,403.34]
-- SNDK shares outstanding/market cap search: conflicting figures (146-157M shares); no single authoritative October-2026-dated figure found. [macrotrends.net](https://www.macrotrends.net/stocks/charts/SNDK/sandisk/shares-outstanding), [google.com/finance](https://www.google.com/finance/quote/SNDK:NASDAQ)
-- 10-year Treasury yield search: **genuine dated update found** — FRED DGS10, 5.10% as of 2026-10-15 (page updated 10/16/2026). [fred.stlouisfed.org](https://fred.stlouisfed.org/graph/?g=1q06w)
-- OMCL price search: no reliably-dated 10/30/2026 figure found independently; this desk relies on state.md's live Robinhood snapshot (below) per rule 4. [investing.com](https://www.investing.com/equities/omnicell)
-- Internal: trading-experiment/state.md (2026-10-30 ~10:07 ET live Robinhood snapshot), analysts/gs-stock-screener.md and analysts/jpm-earnings-analyzer.md (both 2026-10-30), this desk's own 2026-10-29 (OMCL rebuild), 10-28 (GEHC rebuild), 10-15 (Brent rebuild), 9-23 (NVDA build), and 10-13 (ALAB build) reports (git history).
+## Explicit read on trader's current positions (all six held) plus GS's current #1 unheld pick
+
+| Position | Avg Cost | Current Price | Unrealized | MS Verdict |
+|---|---|---|---|---|
+| NVDA | $201.40 | $207.68 | +3.12% | Overvalued (-7.55%); hold, no add (rule 20) |
+| VTI | — | $373.96 | +0.96% | Hold by construction |
+| VXUS | — | $83.135 | -1.18% | Hold by construction |
+| OMCL | $46.99 | $37.39 | -20.43% | Undervalued (+25.0%); bear-case cushion restored to ~5.8% |
+| XLE | ~$57.62 | $68.625 | +19.10% | Overvalued (-7.61%), narrowing |
+| GEHC | $68.69 | $79.33 | +15.48% | Overvalued (-5.46%), narrowing sharply on this desk's own data correction |
+| SNDK (unheld, GS #1 unheld pick) | — | ~$1,520 (derived) | — | Overvalued (-19.9%); split-mechanics timing note only |
+
+This desk does not place trades or touch Robinhood — research only, per mandate. Sizing, DCA-gate mechanics, and any overweight case remain BR's domain; structural-break risk framing remains BW's.
+
+---
+
+## Sources
+
+- GEHC Q3 2026 10-Q: [SEC EDGAR, gehc-20260930.htm](https://www.sec.gov/Archives/edgar/data/0001932393/000193239326000059/gehc-20260930.htm) — net debt ($9.973B total debt, $2.854B cash & equivalents), diluted weighted-average shares (453M, three months ended 9/30/26), SOFIE Biosciences subsequent-event disclosure ($945M cash, expected close H1 2027)
+- GE HealthCare Q3 2026 earnings release: [gehealthcare.com](https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-reports-third-quarter-2026-financial-results), [finviz copy](https://finviz.com/news/409757/ge-healthcare-reports-third-quarter-2026-financial-results)
+- SOFIE Biosciences acquisition detail: corroborated via multiple aggregator summaries of the Q3 10-Q subsequent-events footnote (see search trail this run)
+- SanDisk split mechanics: relayed from GS's 11/2 report, sourced to SEC EDGAR Form 8-K (10/29 filing)
+- Internal: trading-experiment/state.md (2026-11-02 ~09:57 ET live Robinhood snapshot), analysts/gs-stock-screener.md and analysts/jpm-earnings-analyzer.md (both 2026-11-02), this desk's own 10/28 GEHC rebuild, 10/29 OMCL rebuild, 10/30 SNDK rebuild, and 10/15 XLE Brent rebuild (all git history)

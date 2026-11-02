@@ -1,133 +1,97 @@
 # JPM Earnings Analyzer — Pre-Earnings Catalyst Calendar
 
-**2026-10-30 (Friday), ~09:41 ET.** First JPM report of the day (prior report: 10/29 ~09:41 ET). **SNDK's fiscal Q1 FY2027 print landed after yesterday's close — this desk has now confirmed real, dated actual results, a large beat-and-raise plus a stock-split announcement.** OMCL (held) reported 10/29 before the open and has now dropped out of the 2-week coverage window, same treatment GEHC got last cycle — see yesterday's Brief 1 for the confirmed beat-and-raise, nothing new to add. Two new names enter full coverage this run: AMD and ALAB, both nominally 11/3 (4 days out).
+**2026-11-02 (Monday), ~08:2x ET.** First JPM report of the week (prior report: 10/30 ~09:41 ET). **Headline: both names carried as "~4 days out, date-tentative" on Friday are now T-1 — AMD and ALAB both report tomorrow, Tuesday 11/3, after close — and this run resolves GS's standing ALAB date dispute (11/3 vs. 11/5) in favor of 11/3, sourced directly to the company's own IR press release.** No name in coverage reported over the weekend; no new name enters the window this run.
 
 ## Decision summary (top)
 
-**SNDK (unheld, screener #6): Q1 FY2027 CONFIRMED — a decisive beat-and-raise plus a 1-for-8 stock split. No entry — this desk's standing valuation pass is now the live question, not a settled one; flagging for MS to re-run the DCF off actual results rather than carrying the stale $493-984/sh range forward unchanged.** Revenue ~$11.03B (vs. $10.3-10.8B guide, vs. ~$44-47 EPS-consensus-implied range), non-GAAP EPS ~$49.51 (above the ~$46.19 consensus this desk could find), driven by a 61% sequential jump in data-center revenue. Guided Q2 FY27 revenue to $12.2-12.6B, non-GAAP EPS $55-57 (pre-split) — a third consecutive raise. See Brief 1.
+**AMD (unheld, screener #10): T-1, reports tomorrow 11/3 after close, ~5:00pm ET call.** Date is IR-confirmed, no ambiguity. Fourth-plus straight beat on both lines coming in, but with a shrinking beat margin and a -7.0% sell-the-news close last quarter despite beating — the same "beat isn't enough" risk flagged 10/30, now one day closer. MS's standing hard pass on valuation governs; no entry. See Brief 1.
 
-**AMD (unheld, screener #10): pre-earnings brief, 11/3 (after close), ~4 days out.** Fourth straight beat on both lines coming in, but the stock has sold off on the print in 2 of the last 3 reactions despite beating — a "beat isn't enough" pattern this desk flags explicitly below. MS's standing hard pass on valuation is the governing read; no entry. See Brief 2.
+**ALAB (unheld, screener #1): T-1, reports tomorrow 11/3 after close, ~4:30pm ET call — date dispute from GS's 10/30 report now RESOLVED to 11/3.** Found the company's own IR-sourced press release confirming 11/3, directly contradicting Earnings Whispers' 11/5 claim (and a separate TipRanks "Nov 10" estimate) — both of the later dates look like auto-generated calendar guesses, not primary-sourced. Richly-valued, high-growth name with a sharp EPS-consensus discrepancy ($0.83 vs. the company's own $1.16-1.21 guide — flagged below, likely a GAAP/non-GAAP or stale-estimate mismatch). MS's hard pass stands; rule-6 blocked regardless of outcome. See Brief 2.
 
-**ALAB (unheld, screener #1): pre-earnings brief, 11/3 (after close, per GS's IR-page-sourced resolution), ~4 days out.** Richly-valued, high-growth name with guidance ($1.16-1.21 EPS) already well above the stale $0.83 consensus figure most aggregators still show — the same stale-consensus-vs-raised-guide pattern OMCL and SNDK have both shown this cycle. MS's hard pass stands; rule-6 blocked regardless of print outcome. See Brief 3.
+**Coverage note: NVDA (held, screener #9) remains carried, not yet briefed — print is ~11/18, ~16 days out, still just outside the ~2-week window.** Will enter full coverage once inside ~14 days (likely the 11/9-11/13 run window). SNDK, OMCL, and GEHC all already reported and remain dropped per the standing post-print convention.
 
 ---
 
 ## Coverage check (self-feeding rule)
 
-Scanned the current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC — per state.md) and the GS screener's current top-10 (10/29 ~15:48 ET report: OMCL, GEHC, ALAB, XLE, AVGO, SNDK, MU, MRVL, NVDA, AMD) for reports due within ~2 weeks of today (through ~2026-11-13):
+Scanned the current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC — per state.md) and the GS screener's current top-10 (10/30 ~15:41 ET report, the freshest screener on file: OMCL, GEHC, ALAB, XLE, AVGO, SNDK, MU, MRVL, NVDA, AMD) for reports due within ~2 weeks of today (through ~2026-11-16):
 
-| Ticker | Status this run | Days out (from 10/30) |
+| Ticker | Status this run | Days out (from 11/2) |
 |---|---|---|
-| **SNDK** (screener #6) | **Printed yesterday after close — results confirmed.** Update below. | **0 — REPORTED YESTERDAY** |
-| **AMD** (screener #10) | Company-leaning 11/3, after close. Full preview below. | **~4** |
-| **ALAB** (screener #1) | Date conflict resolved by GS (IR-page-sourced) to 11/3, after close. Full preview below. | **~4** |
-| OMCL (held, screener #1) | Reported 10/29 — outside the 2-week forward window now, dropped from coverage per the same convention GEHC got last cycle. | n/a (already reported) |
-| GEHC (held, screener #2) | Reported 10/28 — already dropped last cycle, remains dropped. | n/a (already reported) |
-| NVDA (held, screener #9) | ~11/18, after close (carried) | ~19 — still outside the 2-week window |
-| MRVL (screener #8) | 11/26, after close (carried) | ~27 |
-| AVGO (screener #5) | 12/10, confirmed-cadence (carried) | ~41 |
-| MU (screener #7) | 12/16-12/17 (carried) | ~47-48 |
-| VTI, VXUS, XLE | N/A — diversified funds, no single earnings event | — |
+| **AMD** (screener #10) | IR-confirmed 11/3, after close. Full update below. | **~1** |
+| **ALAB** (screener #1) | Date dispute resolved to 11/3, after close (IR-sourced). Full update below. | **~1** |
+| SNDK (screener #6, unheld) | Reported 10/29 — already dropped, remains dropped. | n/a (already reported) |
+| OMCL (held, screener #1) | Reported 10/29 — already dropped, remains dropped. | n/a (already reported) |
+| GEHC (held, screener #2) | Reported 10/28 — already dropped, remains dropped. | n/a (already reported) |
+| NVDA (held, screener #9) | ~11/18, after close (carried) | ~16 — still outside the 2-week window, narrowing |
+| MRVL (screener #8) | 11/26, after close (carried) | ~24 |
+| AVGO (screener #5) | 12/10, confirmed-cadence (carried) | ~38 |
+| MU (screener #7) | 12/16-12/17 (carried) | ~44-45 |
+| VTI, VXUS, XLE | N/A — diversified funds/sector hedge, no single earnings event | — |
 
-**Three names at the max this run: SNDK (confirmed print, full update), AMD, and ALAB (both full pre-earnings previews, both nominally 11/3).** This is the first run where the 11/3 cluster (AMD, ALAB) falls inside the ~2-week window, and both are screener top-10 names that have never gotten a full JPM brief — prioritized over continuing to carry them as unbuilt watch items. OMCL's drop from coverage mirrors the exact treatment GEHC got after its 10/28 print; no new OMCL work this run (see yesterday's Brief 1 for the full confirmed-print detail, still fresh).
-
----
-
-## Brief 1: SNDK (Sandisk Corporation) — Q1 FY2027 CONFIRMED, large beat-and-raise plus stock split
-
-**Report date: Thursday, October 29, 2026, after market close (4:30pm ET / 1:30pm PT) — fiscal Q1 FY2027, quarter ended ~October 2, 2026.** This resolves the "still a preview" status carried in yesterday's Brief 2 — the print has now happened.
-
-**What changed since 10/29 — the actual numbers:**
-- **Revenue ~$11.03B**, up ~23% sequentially and reported as up sharply year-over-year, above the high end of the company's own $10.3-10.8B guide and above the ~$10.7B figure this desk's most-cited pre-print source carried.
-- **Non-GAAP EPS ~$49.51**, above the ~$46.19 consensus this desk could locate (itself one of several dispersed pre-print figures flagged yesterday — the higher-end estimates proved closer to actual than the lower ones). **GAAP diluted EPS ~$52.60** (includes a ~$513M equity-securities gain — flagging the GAAP/non-GAAP gap so the next reviewer doesn't double-count the one-time item as recurring, the same caution this desk has applied to OMCL's quarters).
-- **Segment detail (new this run, not available in any prior brief):** Data center revenue $4.802B (+61% sequential) — the single biggest driver; Edge revenue $5.832B (+7% sequential); Consumer revenue $397M (-29% sequential, the one soft line in an otherwise strong print).
-- **Non-GAAP gross margin 85.1%**, up from 84.6% the prior quarter — margin expanded alongside the revenue beat, not a volume-over-margin trade-off.
-- **Balance sheet: $5.1B cash, no debt** — among the cleanest on this desk's coverage list.
-- **Guidance: Q2 FY2027 revenue $12.2-12.6B, non-GAAP EPS $55-57 (pre-split)** — a third consecutive raise in the guidance sequence this desk has tracked since the prior cycle's $14B buyback-expansion note.
-- **New and not previously flagged: a 1-for-8 stock split** (sources differ on the exact mechanics — "1-for-8" vs. "8-for-1" language conflicts across outlets, but the consistent detail is an 8x increase in share count, effective reportedly Nov 19-20). This is a cosmetic/liquidity event, not a fundamental one — flagging only so the next reviewer isn't confused by a sudden ~8x change in per-share figures after that date.
-- **Stock reaction: sourcing conflict, flagged rather than resolved.** Most sources converge on a positive reaction — a TheFly/TipRanks headline citing "up 8% at $223.50" and a separate source citing "+8.51%" — consistent with the magnitude of the beat-and-raise described above. One outlier headline (Stocktwits) frames the release as "outlook misses expectations," which this desk is **not adopting**: it cannot be reconciled with the actual guidance figures above (all raised, not cut) and most likely reflects either a stale/mis-dated article or a genuine same-day outlier this desk's search keeps surfacing — this exact "a single contrarian-framed headline that doesn't match the numbers underneath it" pattern has shown up repeatedly across this team's coverage this cycle (OMCL's GAAP/non-GAAP mismatch 10/29, the two inconsistent SNDK price levels flagged yesterday). Per rule 4, the trader's own live-Robinhood price should govern if SNDK is ever considered for entry; this desk has no account access.
-
-**1. Last 4 quarters vs. estimates:** Company has now raised guidance in 6 of its last 7 updates (carried figure, now one cycle fresher). Fiscal Q4 2026 (August): adj. EPS $39.25 vs. revenue $8.965B, drew a premarket drop in the 6-9% range depending on source (this desk flagged a discrepancy here yesterday — not re-resolved this run) despite the "mixed" framing. Today's print breaks that recent pattern of a muted/negative reaction to a strong number.
-
-**2. Next-quarter (Q2 FY2027) outlook:** Company guide $12.2-12.6B revenue, $55-57 non-GAAP EPS (pre-split) — the number to hold management to next cycle, alongside whether the data-center-driven mix shift continues or the Consumer segment's -29% sequential drop stabilizes.
-
-**3. Key metrics to watch (updated):** Whether Data Center's +61% sequential pace is sustainable or a one-quarter pull-forward; Consumer segment trajectory after a third straight soft print; gross margin durability above 85% as the mix shifts further toward data center; the mechanics and market reception of the pending stock split.
-
-**4. Segment breakdown:** See above — Data Center $4.802B (+61% QoQ), Edge $5.832B (+7% QoQ), Consumer $397M (-29% QoQ). This is the first quarter this desk has a real segment split for SNDK rather than the generic "NAND flash and SSD/storage" characterization carried in every prior brief.
-
-**5. Management guidance from today's call:** Q2 FY2027 revenue $12.2-12.6B, non-GAAP EPS $55-57 (pre-split); 1-for-8 split reportedly effective ~Nov 19-20.
-
-**6. Options market implied move:** Pre-print, EarningsWatcher priced ±9.7% as of 10/27 (10-year average ±13.3%) — this desk could not find a post-print realized-vs-implied reconciliation; next run should check whether the actual move landed inside or outside that band once a clean post-print close is available.
-
-**7. Historical stock price reaction after last 5 reports:** August print: -6.8% close (carried from this desk's 10/27-10/29 figure, vs. a separately-cited -9% premarket number — likely a premarket-vs-close distinction, not a contradiction). February print: +7%. Today's reaction (if the +8%/+8.51% figures hold over the stale-outlier headline) would be the second positive reaction in the last five, and the largest, breaking the recent pattern of a muted-to-negative reaction despite a beat.
-
-**8. Bull case — largely realized today:** A clean beat-and-raise with margin expansion, a debt-free balance sheet, and now a tangible capital-return/liquidity signal (the split) layered on top of the prior cycle's buyback expansion. If the positive-reaction reading holds through today's regular session, this closes out the bull case this desk described pre-print.
-
-**9. Bear case — the one soft thread, not yet a structural concern:** Consumer segment's third straight sequential decline (-29% this quarter) is the one line that didn't participate in the beat. Not yet large enough relative to Data Center's growth to matter to the headline numbers, but worth tracking if it continues.
-
-**10. Recommended play: NO ENTRY — the print resolved favorably, but this does not on its own clear this desk's standing valuation-gated pass.** This is a research desk, not a trading desk. The explicit risk flag: MS's DCF range on file ($493-984/sh) predates these actual results entirely and should be rebuilt off today's real numbers rather than carried forward stale — a materially different valuation conversation than "no entry, unchanged" deserves once a name just printed a 23%-sequential-revenue beat-and-raise. Flagging this as a direct ask for MS's next cycle.
+**Two names at the max this run: AMD and ALAB, both now T-1.** No new candidate enters the window today (NVDA remains ~16 days out, just short of the ~14-day gate); both AMD and ALAB already carry full 10/30 briefs, so this run's work is an update pass — resolving ALAB's date, refreshing the options-implied-move and consensus figures, and flagging a new estimate-dispersion/discrepancy problem on each name ahead of tomorrow's prints. Per the mandate's max-3 rule, no additional name was pulled in this run.
 
 ---
 
-## Brief 2: AMD (Advanced Micro Devices) — pre-earnings brief, ~4 days out
+## Brief 1: AMD (Advanced Micro Devices) — T-1, reports Tuesday 11/3 after close
 
-**Report date: Tuesday, November 3, 2026, after market close.** Multiple independent sources (Chartmill, an earnings-calendar aggregator) converge on this date; this desk found no primary company-IR confirmation in this run's search, so treating it as company-leaning but not IR-verified — same caveat level GS has carried for this date historically.
+**Report date/time — CONFIRMED, no ambiguity:** Tuesday, November 3, 2026, after market close; conference call 5:00pm ET / 2:00pm PT. Source: AMD's own investor-relations press release ("AMD to Report Fiscal Third Quarter 2026 Financial Results," issued ~Oct 6, 2026, ir.amd.com). This upgrades the 10/30 brief's "company-leaning but not IR-verified" caveat — the date is now primary-sourced and settled.
 
-**1. Last 4 quarters vs. estimates:** Four straight beats on both lines, but the stock has not consistently rewarded them:
+**1. Last 4 quarters vs. estimates (unchanged from 10/30, still the operative table):**
 
 | Quarter | EPS actual vs. consensus | Revenue actual vs. consensus | Stock reaction |
 |---|---|---|---|
-| Q3 2025 | $1.20 vs. $1.17 (beat ~2.6%) | $9.25B (beat ~5.7%) | not found this run |
-| Q4 2025 | $1.53 vs. $1.32 (beat ~16%) | $10.27B (beat ~6.2%) | +2.5% (carried from yesterday's implied-move search) |
-| Q1 2026 | $1.37 vs. $1.29 (beat ~5.9%) | $10.25B (beat ~3.4%) | not found this run |
-| Q2 2026 (Aug 4) | $1.66 vs. $1.61-1.62 (beat ~2.5-3%) | $11.53-11.54B vs. ~$11.31B (beat ~2%) | **-7.0% close**, despite the beat — one source frames this as "the beats weren't enormous for a stock that had already run 21% into the print" |
+| Q3 2025 | $1.20 vs. $1.17 (beat ~2.6%) | $9.25B (beat ~5.7%) | not found |
+| Q4 2025 | $1.53 vs. $1.32 (beat ~16%) | $10.27B (beat ~6.2%) | +2.5% |
+| Q1 2026 | $1.37 vs. $1.29 (beat ~5.9%) | $10.25B (beat ~3.4%) | not found |
+| Q2 2026 (Aug 4) | $1.44 actual vs. $1.35 consensus (beat ~6.7%) — this run's search returned a slightly different Q2 actual-EPS figure ($1.44) than the $1.66 cited 10/30; **flagging the discrepancy rather than silently picking one** — both trace to aggregator pages, neither independently verified against AMD's own press release this run | $11.53-11.54B vs. ~$11.31B (beat ~2%) | **-7.0% close**, despite the beat |
 
-**The pattern worth flagging explicitly: AMD has beaten both lines for at least four straight quarters, and the beat margin has been shrinking (16% → 5.9% → 2.5-3%) while the most recent reaction was a -7% sell-the-news close.** A "beat but sell off" setup, structurally similar to the pattern this desk has flagged repeatedly for OMCL, now showing up on a name with a much larger beat streak.
+**The "beat but sell off" pattern flagged 10/30 still stands and is now the single most important thing to watch tomorrow.** Separately, this run's track-record search (a different aggregator) frames it as "beat 4 of last 8 quarters on EPS, 7 of 8 on revenue" — a less clean streak than the "four straight beats" framing carried 10/30. Both characterizations may be correct depending on the lookback window and consensus source used; this desk is flagging the inconsistency rather than resolving it, since the actionable point (valuation hard-pass, no entry) doesn't change either way.
 
-**2. Next-quarter (Q3 2026) consensus:** Company guided Q3 revenue to ~$13.0B ± $300M with non-GAAP gross margin ~56%. Street EPS consensus is dispersed across sources found this run: Chartmill $1.97/$13.21B, Benzinga $1.87/$13.01B, Hudson Labs $1.42/$13.058B — a wide EPS spread ($1.42-$1.97) on a tight revenue spread, suggesting the disagreement is mostly about margin/opex assumptions rather than the topline.
+**2. Next-quarter (Q3 2026) consensus — WIDER dispersion than 10/30, now flagged explicitly:** Company's own guide (from the Aug 4 call): revenue ~$13.0B ± $300M, non-GAAP gross margin ~56%. Street EPS estimates found this run range from $1.64-$1.66 (ChartRow/The Right Trader, 12-15 analysts) up to $1.97 (Chartmill) — a wider and differently-centered spread than 10/30's $1.42-$1.97 range. **No single figure here carries a clear late-October/November timestamp; treat the company's own revenue guide as the more reliable anchor, and the EPS consensus as a loose $1.6-$2.0 band rather than a point estimate.**
 
-**3. Key metrics to watch:** Data Center segment growth rate (Q2's print showed +107% YoY on EPYC + Instinct MI350 ramp); any update on MI450 timing (per the prior cycle's commentary, MI450 revenue was expected to begin ~Q3 2026 and ramp into Q4); gross margin trajectory against the 56% guide; any fresh US export-policy commentary (a prior quarter's data-center dip was explicitly attributed to export-policy impact, per one source this run).
+**3. Key metrics to watch:** Unchanged from 10/30 — Data Center segment growth (Q2 showed +107% YoY on EPYC + Instinct MI350 ramp); MI450 ramp timing (previously flagged to begin ~Q3 2026, ramping into Q4); gross margin trajectory against the 56% guide; any fresh US export-policy commentary affecting data-center shipments.
 
-**4. Segment breakdown:** Most recent reported quarter (Q2 2026, per the 10-Q): Data Center revenue $6.7B, +107% YoY, operating income $2.1B (vs. an operating loss of $155M a year earlier) — the swing to profitability in this segment is the headline item. No independently-verified Q3 segment guide found this run beyond the company-wide total.
+**4. Segment breakdown:** Carried from 10/30, no fresher segment-level data found this run — Q2 2026 (10-Q): Data Center revenue $6.7B (+107% YoY), operating income $2.1B (vs. an operating loss of $155M a year earlier). Tomorrow's print is the first chance to see whether that swing-to-profitability trajectory continued into Q3.
 
-**5. Management guidance from last earnings call (Q2, Aug 4):** Total revenue ~$13.0B ± $300M for Q3; non-GAAP gross margin ~56%; data-center growth explicitly flagged as accelerating into H2 2026.
+**5. Management guidance from last call (Q2, Aug 4):** Total revenue ~$13.0B ± $300M for Q3; non-GAAP gross margin ~56%; data-center growth explicitly flagged as accelerating into H2 2026.
 
-**6. Options market implied move:** Two same-source figures conflict (±10.7% vs. ±11.8%, both attributed to EarningsWatcher, likely captured at different times) — treating ±10-12% as the working range, roughly in line with the 10-year average (~±10.6%). AMD's actual move has exceeded the implied move in a majority of recent reports per one source (11 of last 17, ~65%), though a second source citing 10 of 16 shows the exact count is itself unsettled.
+**6. Options market implied move:** This run's freshest figure is ±10.7% (undated page, likely more recent than the ±11.8% figure both this run and 10/30 also found dated Oct 19) — both from the same single aggregator (EarningsWatcher), no independent cross-check found either run. Treating ~±10-12% as the working range, in line with the 10-year average ~±10.6%. Historical note (unchanged): AMD's actual move has exceeded the implied move in roughly 11 of the last 17 reports (~65%), though a second source puts it at 10 of 16 — the exact count is itself unsettled across sources.
 
-**7. Historical stock price reaction after last 5 reports:** Q2 2026 (Aug 4): -7.0% close despite a beat. Q4 2025 (Nov 2025): +2.5%. Earlier quarter (Aug 2025): -6.4%. Only 3 of the last 5 reactions located this run — this desk could not find the remaining two in this run's search; next cycle should try to fill the gap with a dedicated query before the 11/3 print.
+**7. Historical stock price reaction after last 5 reports:** Still only 3 of 5 located across both runs combined: Q2 2026 (Aug 4) -7.0%; Q4 2025 (Nov 2025) +2.5%; an earlier quarter (Aug 2025) -6.4%. The remaining two reports are an open gap this desk has now failed to fill twice — flagging for next cycle rather than attempting a third unproductive search this run.
 
-**8. Bull case:** A fifth straight beat-and-raise, with Data Center's 107% YoY growth rate holding or accelerating and MI450 ramp commentary landing positively — given the Q3 guide of ~$13.0B is already a step up and consensus sits mostly above it, a genuine beat here would need to be large to avoid repeating the Q2 "beat but sell off" pattern.
+**8. Bull case — price impact estimate:** A fifth-plus straight beat-and-raise, Data Center growth holding or accelerating past +107% YoY, and constructive MI450 commentary. Given the ~$13.0B guide and a consensus mostly clustered above it, a genuine upside surprise with a **positive reaction (breaking the Q2 "beat but sell off" pattern)** would likely need a beat plus a raise that outruns the already-elevated bar — if it lands, a move toward the upper end of the ~±10-12% implied range (i.e., roughly +10% to +15%) is the working estimate, consistent with the 65% historical rate of exceeding implied.
 
-**9. Bear case:** A repeat of Q2's dynamic — numbers beat, but by a narrowing margin relative to a stock that has already run, or fresh export-policy/China commentary reintroduces the data-center-dip narrative flagged in a prior quarter. Given AMD is not held and is rule-6 hard-pass-blocked on valuation per MS, this is a watch-only risk, not a position-level one for this book.
+**9. Bear case — downside risk estimate:** A repeat of Q2's "beat but sell off" dynamic (shrinking beat margin against a richly-run stock), or fresh export-policy/China commentary reviving the data-center-dip narrative. Working downside estimate: a move in the -7% to -12% range, anchored to the actual -7.0% Q2 reaction and the ~±10-12% implied-move band. AMD is not held, so this is a watch-only risk for the book, not a position-level one.
 
-**10. Recommended play: NO ENTRY — AMD is not held and MS's standing DCF hard pass governs regardless of print outcome.** The specific risk flag for the team: don't read a clean beat alone as a green light if this name is ever reconsidered — the last four quarters show beats with a shrinking margin and the most recent one still sold off 7%. A beat-and-raise that also breaks that pattern (net-positive reaction) would be the more meaningful signal than the beat itself.
-
----
-
-## Brief 3: ALAB (Astera Labs) — pre-earnings brief, ~4 days out
-
-**Report date: Tuesday, November 3, 2026, after market close — adopting GS's 10/29 ~12:42 ET resolution, sourced directly from Astera Labs' own IR events page and corroborated by MarketBeat and Quartr.** This run's own search surfaced further conflicting secondary dates (TipRanks "Nov 10," itself hedged as both "confirmed" and "estimate" on the same listing; Earnings Whispers "Nov 5") — neither is adopted; GS's direct-IR-sourced 11/3 remains this team's standing date absent a fresher primary-source contradiction.
-
-**1. Last 4 quarters vs. estimates:** Not independently rebuilt this run (first full JPM brief for this name — prior coverage was date-flagging only). What's available: management's own August guide for this Q3 print ($1.16-1.21 EPS, $540-560M revenue) sits well above a stale pre-raise consensus figure of ~$0.73 EPS that multiple sources still show uncorrected — the same stale-consensus-vs-raised-guide gap this desk flagged for OMCL and SNDK this cycle, now a third instance across three different names. A dedicated "ALAB last 4 quarters" build is flagged as a gap for next cycle if this name stays in the 2-week window after the 11/3 print.
-
-**2. Next-quarter (Q3 2026) consensus:** Company guidance (set August 4, 2026): revenue $540-560M, non-GAAP EPS $1.16-1.21 (one source separately cites a GAAP diluted EPS range of $0.87-0.92 — a GAAP/non-GAAP split, not a contradiction). A ChartRow-cited consensus of $0.83 EPS from "8 analysts" is almost certainly the stale pre-guide figure still propagating through aggregators, not a genuinely updated post-guidance consensus — this desk is **not** treating $0.83 as the operative number; the company's own $1.16-1.21 guide is the more reliable anchor until a clearly-dated fresh sell-side consensus surfaces.
-
-**3. Key metrics to watch:** Whether revenue lands inside or above the $540-560M guide range (a name this desk has watched beat its own guide repeatedly this year per GS's screener notes); any new hyperscaler customer-concentration disclosure; gross margin trend as the connectivity/optical-interconnect product mix shifts.
-
-**4. Segment breakdown:** Not found in this run's search — Astera Labs reports largely as a single connectivity/interconnect-silicon business without the multi-segment split SNDK or AMD provide; flagging as a structural "not applicable" rather than a gap.
-
-**5. Management guidance from last call (Aug 4, 2026):** Revenue $540-560M, non-GAAP EPS $1.16-1.21 for Q3 2026 — guidance raised at the time and still the most-cited company-sourced figure found this run.
-
-**6. Options market implied move:** Two TheFly/TipRanks figures found (~11.6%, ~12.6%), neither clearly dated to this specific report rather than a prior quarter — an 8-quarter median post-earnings move of ~12.6% is the more durable reference point if neither headline figure can be pinned to 11/3 specifically. Treating ~11-13% as the working range.
-
-**7. Historical stock price reaction after last 5 reports:** Not independently rebuilt this run — carried forward as an open item, consistent with item 1 above. GS's screener notes (not this desk's own work) describe a pattern of repeated post-guidance share-price run-ups (+24% on 9/11, +11% on 9/25) in the weeks following prior prints, suggesting a stock that has rewarded recent beats more consistently than AMD has — worth a dedicated historical-move table next cycle.
-
-**8. Bull case:** A beat against an already-raised guide, continued hyperscaler/AI-interconnect demand commentary, and no fresh customer-concentration disclosure — this name has strung together a run of beat-and-raise quarters this year per GS's tracking, and a fifth would reinforce rather than break that pattern.
-
-**9. Bear case:** Any guide miss (rare for this name recently, which would make it notable), a customer-concentration disclosure, or — independent of the print itself — MS's valuation framework (the name's own hard-pass driver) finding the post-print price pushes the DCF gap even wider than today's already-stretched read.
-
-**10. Recommended play: NO ENTRY — ALAB is not held and is rule-6 hard-pass-blocked on MS's valuation screen regardless of fundamental performance.** The explicit risk for the team to weigh: this is a genuinely strong operating business (confirmed again by guidance well above stale consensus) hard-blocked purely on price — worth keeping on the "revisit if the multiple ever compresses" list rather than a permanent pass, a distinction this desk has not seen explicitly made for ALAB before.
+**10. Recommended play: WAIT — not held, and MS's standing DCF hard pass governs regardless of tomorrow's outcome.** No pre-earnings entry is being contemplated for this book either way, so the standard "sell before earnings to avoid the print" framing doesn't apply here (there's no position to protect). The explicit flag for the team: if AMD is ever reconsidered post-valuation-compression, don't read a clean beat alone as the green light — three of the last four quarters beat and still sold off or only modestly rallied.
 
 ---
 
-*Full prior-cycle detail (segment-level builds, historical-move tables, earlier bull/bear sizing, and the GEHC/OMCL pre-print and post-print builds) is preserved in git history: `git log -p -- trading-experiment/analysts/jpm-earnings-analyzer.md`.*
+## Brief 2: ALAB (Astera Labs) — T-1, reports Tuesday 11/3 after close, GS's date dispute RESOLVED
+
+**Report date/time — RESOLVED to Nov 3, settling GS's 10/30 flagged conflict:** This desk located the company's own press release ("Astera Labs Announces Conference Call to Review Third Quarter 2026 Financial Results," GlobeNewswire, issued ~Oct 6, 2026, mirrored on ir.asteralabs.com and asteralabs.gcs-web.com), confirming **Tuesday, November 3, 2026, after market close, call at 4:30pm ET / 1:30pm PT.** This directly contradicts Earnings Whispers' "Nov 5" claim and a separate TipRanks "Nov 10" estimate that GS and this desk's own 10/30 briefs both flagged as live uncertainty — both of those appear to be auto-generated calendar estimates rather than primary-sourced, and neither should be used going forward. **Flagging for GS/BR: the "same-day-as-AMD" framing used in recent reports was correct; the 11/3 date stands as settled, not tentative.**
+
+**1. Last 4 quarters vs. estimates:** Still not independently rebuilt as a full table (same gap flagged 10/30 — first full JPM brief for this name was date-flagging only until last cycle). New data point this run: track record described as beating consensus in 7 of the last 8 quarters, average surprise +14.6%; most recent quarter (Q2 2026, Aug 4) beat $392.4M actual vs. $360.5M estimate. A dedicated quarter-by-quarter table remains a flagged gap for next cycle if ALAB stays relevant post-print.
+
+**2. Next-quarter (Q3 2026) consensus — a sharper discrepancy than 10/30 flagged:** Company's own guidance (set Aug 4, 2026): revenue $540-560M, non-GAAP EPS $1.16-1.21 (GAAP diluted EPS separately cited at $0.87-0.92 — a GAAP/non-GAAP split, not a contradiction). Separately, this run found an analyst-consensus figure of **EPS $0.83 (from 7 estimates) vs. $0.26 in the prior-year quarter** — a number that conflicts sharply with the company's own $1.16-1.21 guide. This is the same stale-consensus-vs-raised-guide gap flagged for OMCL and SNDK this cycle, but this run's version of it is specific enough to name a likely cause: **either a GAAP/non-GAAP scope mismatch or a consensus figure that has not been updated since before the August guidance raise.** This desk is treating the company's own $1.16-1.21 non-GAAP guide as the more reliable anchor and flagging the $0.83 figure as unreliable, not as a competing read.
+
+**3. Key metrics to watch:** Unchanged from 10/30 — whether revenue lands inside or above the $540-560M guide (a name GS's screener notes describe as having beaten its own guide repeatedly this year); any new hyperscaler customer-concentration disclosure; gross margin trend (~72% GAAP gross margin per the Q2 guide) as the connectivity/optical-interconnect product mix shifts.
+
+**4. Segment breakdown:** Not available — Astera Labs reports as a single connectivity/interconnect-silicon business without a multi-segment split, a structural "not applicable" rather than a research gap, consistent with 10/30.
+
+**5. Management guidance from last call (Aug 4, 2026):** Revenue $540-560M, non-GAAP EPS $1.16-1.21 for Q3 2026, GAAP gross margin ~72% — still the most-cited company-sourced figures found this run, unchanged since the guide was set.
+
+**6. Options market implied move — refreshed, still dated:** This run's best figure is ±19.2% (EarningsWatcher, dated Oct 19, 2026, vs. a 10-year average of ±17.5%) — a materially wider and more current figure than the ~11-13% range this desk carried 10/30, which on review looks to have mixed in stale trailing-quarter data points. A separate Optionslam figure (~20.3% weekly / 25.2% monthly) is explicitly tied to the prior quarter's Aug 4 cycle, not this one — not used. **Revising the working range up to ~17-20%**, roughly double what was carried last cycle; this is a materially higher-volatility print than this desk previously communicated to the team.
+
+**7. Historical stock price reaction after last 5 reports:** Still not independently rebuilt (same gap as 10/30). GS's screener notes describe repeated post-guidance share-price run-ups (+24% on 9/11, +11% on 9/25) in the weeks following prior prints — a name that has rewarded recent beats more consistently than AMD, consistent with the 7-of-8 beat rate found this run. A dedicated day-of-reaction table (as opposed to post-print drift) remains an open item.
+
+**8. Bull case — price impact estimate:** A beat against the already-raised $1.16-1.21/$540-560M guide, with continued hyperscaler/AI-interconnect demand commentary and no new customer-concentration disclosure. Given the ~17-20% implied-move band and a 7-of-8 historical beat rate, a clean beat-and-raise plausibly moves the stock toward the upper half of that range (roughly +15% to +20%), consistent with the post-print run-ups GS has tracked.
+
+**9. Bear case — downside risk estimate:** A rare guide miss (notable precisely because it would be rare for this name), a fresh customer-concentration disclosure, or a "sell the beat" reaction independent of fundamentals (the broad-market/OpenAI-related chip-sector wobble referenced in one unverified source this run is a reminder that sector sentiment, not just ALAB's own print, can drive the reaction). Working downside estimate, anchored to the ~17-20% implied-move band: a move in the -15% to -20% range if the print disappoints against a bar this high.
+
+**10. Recommended play: WAIT — not held, and MS's valuation hard pass governs regardless of outcome.** No position exists to protect, so this is pure catalyst-calendar information, not an actionable signal for this book. The standing flag from 10/30 holds and is reinforced by this run's wider implied-move figure: this is a genuinely strong operating business (confirmed again by guidance well above the unreliable $0.83 consensus figure) that is hard-blocked purely on price, not fundamentals — worth keeping on the "revisit if the multiple ever compresses" list, and now a notably higher-volatility print (±17-20%, not ±11-13%) than previously communicated.
+
+---
+
+*Full prior-cycle detail (SNDK's confirmed beat-and-raise print, segment-level builds, earlier bull/bear sizing, and the GEHC/OMCL pre-print and post-print builds) is preserved in git history: `git log -p -- trading-experiment/analysts/jpm-earnings-analyzer.md`.*

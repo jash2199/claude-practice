@@ -1,8 +1,8 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
 
-**Date: 2026-11-09 (Monday), ~09:17 ET** (14:17:41 UTC scheduler fire time, converted; DST ended 11/1, so ET = UTC-5). First report of the week. **Headline: NVDA traded through the book's own $180 contingency-plan-v2 line for the first time ever this morning (pre-market), and in doing so crossed deeper into undervalued territory on this desk's $192 fair value — not toward overvalued, as a falling price against a fixed DCF might suggest at first glance.** OMCL, XLE, GEHC are price-rolls; no fundamental or WACC input has changed for any of the six holdings since the last full rebuild of each (NVDA 9/23, OMCL 10/29, XLE 11/6, GEHC 11/2).
+**Date: 2026-11-10 (Tuesday), ~09:17 ET** (14:17:44 UTC scheduler fire time, converted; DST ended 11/1, so ET = UTC-5). First report of the week-day. **Headline: NVDA is now in its fourth calendar day below the book's own $180 contingency-plan-v2 line, and the gap to this desk's unchanged $192 fair value has widened again — to +9.18% undervalued, the widest yet. OMCL's base-case gap also widened (to +25.3%, the sheet's largest percentage opportunity) but its bear-case cushion narrowed to ~5.9%, the tightest reading logged in weeks. GEHC continued richening against an unmoved fair value.** No fundamental or WACC input has changed for any of the six holdings since the last full rebuild of each (NVDA 9/23, OMCL 10/29, XLE 11/6, GEHC 11/2) — every figure below is a price-roll.
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC) per state.md's 2026-11-09 ~08:42 ET pre-market snapshot. GS's current #1 pick (analysts/gs-stock-screener.md, 2026-11-09 ~08:41 ET) is GEHC — already held and covered in full below, so no separate unheld-pick section is needed this run.*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC) per state.md's 2026-11-10 ~08:39 ET pre-market snapshot. GS's current #1 pick (analysts/gs-stock-screener.md, 2026-11-10 ~08:55 ET) is GEHC — already held and covered in full below, so no separate unheld-pick section is needed this run.*
 
 ---
 
@@ -10,116 +10,117 @@
 
 | Ticker | Current Price | Fair Value | Gap | Verdict |
 |---|---|---|---|---|
-| **NVDA** (held) | **$176.64** (state.md 11/9 ~08:42 ET, pre-market, tight spread — liquid) | **$192.0/sh base** (WACC 11.59%, unchanged since 9/23 build) | **+8.69%** | **UNDERVALUED — widened sharply from +1.43% (11/6). First-ever trade through the $180 structural re-read line (headline above).** |
-| **OMCL** (held) | **$38.15** (11/9 ~08:42 ET, pre-market, illiquid/wide spread — directional only) | **$46.75/sh base** (unchanged, 10/29 rebuild; bull $55.27, bear $35.24; WACC 8.43%/9.43%/10.43%) | **+22.5%** base | **UNDERVALUED at base — bear-case cushion ~8.3%, essentially flat vs. Friday's ~7.6%** |
-| **XLE** (held) | **$61.30** (11/9 ~08:42 ET) | **$58.5/sh base** (unchanged, 11/6 oil-attribution rebuild; bull $66.3, bear $47.0; WACC ~11.0%) | **-4.57%** | **OVERVALUED at base, essentially flat vs. Friday's -5.03%** |
-| **GEHC** (held) | **$83.23** (11/9 ~08:42 ET, pre-market, illiquid/wide spread — directional only) | **$75.0/sh base** (unchanged, 11/2 10-Q correction; bull $98.5, bear $44.4; WACC 7.0%/8.0%/9.0%) | **-9.89%** | **OVERVALUED, widening from -8.65% (11/6) — richer, not cheaper, over the weekend** |
-| **VTI** | $365.51 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund — not a DCF candidate) |
-| **VXUS** | $82.1955 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund — not a DCF candidate) |
+| **NVDA** (held) | **$175.85** (state.md 11/10 ~08:39 ET, pre-market, tight spread — liquid) | **$192.0/sh base** (WACC 11.59%, unchanged since 9/23 build) | **+9.18%** | **UNDERVALUED — widened again from +8.69% (11/9). Fourth calendar day below the $180 structural re-read line.** |
+| **OMCL** (held) | **$37.31** (11/10 ~08:39 ET, pre-market, illiquid/wide spread — directional only) | **$46.75/sh base** (unchanged, 10/29 rebuild; bull $55.27, bear $35.24; WACC 8.43%/9.43%/10.43%) | **+25.3%** base | **UNDERVALUED at base — but bear-case cushion has narrowed to ~5.87%, the tightest in weeks (was ~8.3% on 11/9).** |
+| **XLE** (held) | **$61.26** (11/10 ~08:39 ET) | **$58.5/sh base** (unchanged, 11/6 oil-attribution rebuild; bull $66.3, bear $47.0; WACC ~11.0%) | **-4.51%** | **OVERVALUED at base, essentially flat vs. yesterday's -4.57%** |
+| **GEHC** (held) | **$84.00** (11/10 ~08:39 ET, pre-market, illiquid/wide spread — directional only) | **$75.0/sh base** (unchanged, 11/2 10-Q correction; bull $98.5, bear $44.4; WACC 7.0%/8.0%/9.0%) | **-10.71%** | **OVERVALUED, widening slightly from -9.89% (11/9)** |
+| **VTI** | $369.12 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund — not a DCF candidate) |
+| **VXUS** | $83.22 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund — not a DCF candidate) |
 
 **Bottom line for the trader:**
 
-1. **NVDA breached $180 pre-market for the first time this book has ever recorded ($176.64, -5.36% vs. Friday's $186.64 close, ~1.87% below the line) — and this desk's own fair-value math says that move took the stock from modestly undervalued to meaningfully undervalued, not the other way around.** No WACC or FCF input has changed since the 9/23 build; this is 100% price action. The trader's own contingency-plan-v2 mandates a re-read against four named structural disqualifiers (Data Center deceleration, a guide undershoot, a negative China/export development, a sourced Blackwell/GB300 supply problem) before any sizing action — this desk's independent read, consistent with state.md's own this morning: **none of the four has fired.** The fresh Huang/Megaspeed congressional-scrutiny story (committee letter dated 11/4, briefing requested 11/18, the day after NVDA's 11/17 print) is a genuine new risk category — CEO-personal/governance, not operating — but it is not one of the plan's own named triggers and this desk is not treating it as a DCF input absent a revenue, margin, or guidance linkage, which nothing found this run supplies. **This desk's valuation discipline says: the cheaper the stock gets without a structural break, the wider the undervaluation gap — which is exactly what's happening, and exactly the scenario rule 20/rule 4 exist to keep the team from reacting to with a reflexive trim.**
-2. **GEHC continues to richen, not cheapen, even as the broader tape wobbles.** Price is up to $83.23 from Friday's $82.10 — the base-case overvaluation gap has widened to -9.89% from -8.65%, consistent with GS's own 11/9 "trigger masked by NVDA's strength" framing (BR's 7.5%-pool drift-trim trigger stays ~1.3pp away only because NVDA's dollar weight is also falling, not because GEHC got any cheaper). This desk's valuation view and BR's concentration-trigger mechanics are now pulling in different directions for the first time in a few weeks — worth flagging explicitly, though the trim decision remains BR's domain, not this desk's.
-3. **OMCL and XLE are both essentially unchanged**, within normal day-to-day pre-market noise of Friday's close. OMCL's bear-case cushion (~8.3%) held up despite being quoted illiquid pre-market (wide bid/ask, directional only per rule 4).
-4. **Rate input unchanged: still no fresher dated 10-year Treasury figure than 5.10% (FRED DGS10, 10/15/2026).** A dedicated WebSearch this run again found nothing reliably dated past that print (stale mid-2026 readings in the 4.4-4.6% range found and rejected as outdated, consistent with every prior run's search). **Held at 5.10% across all WACC builds below, unchanged.**
-5. **Brent crude (XLE's input): also unchanged.** A dedicated WebSearch this run found nothing reliably dated to this week — the chronic dateline wall that has affected oil-specific searches on and off throughout this book's history. The 11/6 oil-attribution rebuild (Brent ~$98.77, -5.48% net from the 11/2 $104.5 reference) stands as the freshest sourced figure on file; XLE's fair value is carried forward unchanged from that build.
+1. **NVDA's undervaluation gap keeps widening as the price keeps falling against an unmoved $192 fair value.** Price $175.85 is -2.31% below the $180 contingency-plan-v2 line (vs. -1.87% at yesterday's pre-market check), now a fourth consecutive calendar day below it. No WACC or FCF input has changed since the 9/23 build. The plan's four named structural disqualifiers (Data Center deceleration, a guide undershoot vs. the $108.0B±2% band, a negative China/export development, a sourced Blackwell/GB300 supply problem) — **none has fired.** A dedicated WebSearch this run confirms the Huang/Megaspeed congressional story is still at the same stage as 11/6-11/7 coverage: the House committee chairs' accept-or-counter deadline is **tomorrow, 11/11**, and as of the latest dated coverage found, neither Huang nor Nvidia has formally responded. This remains a governance/headline risk category this desk is not pricing into WACC or FCF absent a revenue, margin, or guidance linkage — none found. **Same framing as yesterday: the cheaper the stock gets without a structural break, the wider the gap — exactly what rule 20/rule 4 exist to keep the team from reflexively trimming into.**
+2. **OMCL's bear-case cushion is the one number on this sheet that actually deserves a closer look today.** Base-case gap widened to the sheet's largest (+25.3%) as price fell to $37.31, but the cushion to MS's own $35.24 bear-case floor has compressed to **~5.87%** — down from ~8.3% yesterday and ~7.5% the afternoon before, the narrowest reading in several weeks. The contingency-plan trigger is a trade *through* $35.24, not a near-touch, and that line has still never been breached — but the trend (narrowing on each of the last three checks) is worth flagging plainly rather than quietly re-noting. Pre-market quote is illiquid (wide bid/ask) — confirm against the regular-session open per rule 4 before treating this as decision-relevant.
+3. **GEHC continues to richen, not cheapen.** Price ticked up to $84.00 from $83.23 — this desk's base-case overvaluation gap widened modestly to -10.71% from -9.89% (price-denominator convention, held consistent with every prior report from this desk). GS's own report today, using its own FV-denominator convention, independently reads the same move as -12.0% (vs. -12.42% yesterday, essentially flat on GS's math — small numeric differences are convention/reference-timing, not a disagreement in direction). BR's 7.5%-pool/+3.5pp drift-trim trigger sits ~1.29pp away and, per GS, has stayed masked for three-plus consecutive days specifically because NVDA's falling dollar weight is propping up the pool-weight denominator — not because GEHC got any cheaper. This desk's valuation signal and the trigger mechanics remain pulled in different directions.
+4. **XLE is essentially unchanged**, within normal day-to-day pre-market noise.
+5. **Rate input unchanged: still no fresher dated 10-year Treasury figure than 5.10% (FRED DGS10, 10/15/2026).** A dedicated WebSearch this run again returned no results reliably dated to November 2026 — only stale mid-2026 readings (4.1-4.6% range, various undated months) and search-engine noise. **Held at 5.10% across all WACC builds below, unchanged for a fourth-plus consecutive run.**
+6. **Brent crude (XLE's input): also unchanged.** A dedicated WebSearch this run returned no reliably-dated November 2026 Brent print — only undated aggregator snapshots and a stale 3/16/2026 reference. The 11/6 oil-attribution rebuild (Brent ~$98.77) stands as the freshest sourced figure on file; XLE's fair value is carried forward unchanged.
 
 No trade recommended off this report (research-only mandate, as always).
 
 ---
 
-## 1. NVDA — the $180 crossing, and why "cheaper" here means "more undervalued," not "more overvalued"
+## 1. NVDA — fourth day below $180; widest undervaluation gap on file
 
-| Metric | Was (11/6, 09:19 ET) | Now (11/9, pre-market) |
+| Metric | Was (11/9, pre-market) | Now (11/10, pre-market) |
 |---|---|---|
-| Price | $189.30 | **$176.64** (-6.69% in the intervening session-plus-weekend) |
+| Price | $176.64 | **$175.85** (-0.45%) |
 | Fair value (base) | $192.0 (WACC 11.59%, unchanged) | $192.0 (unchanged) |
-| Gap | +1.43% (modestly undervalued) | **+8.69% (meaningfully undervalued)** |
-| Buffer to $180 contingency-plan-v2 line | +5.17% (above the line) | **-1.87% (below the line — first-ever breach)** |
+| Gap | +8.69% | **+9.18% (widest reading yet)** |
+| Buffer to $180 line | -1.87% (below) | **-2.31% (below, 4th calendar day)** |
 
-**No fundamental, revenue, margin, or WACC input has changed.** NVDA's 5-year build (9/23) and $192.0 base fair value (WACC 11.59%) are unchanged; JPM's 11/9 brief confirms the print is 8 days out (Tue 11/17 AMC, Q3 FY2027), company guide $108.0B revenue ±2% / 74.0% gross margin ±50bps, and an options market pricing a genuinely large ±8.5-8.8% implied move for the print — above NVDA's own ~10-year ~8% average. None of that has moved this desk's model; it is forward-looking context for the 11/17 re-check, not a today input.
+**No fundamental, revenue, margin, or WACC input has changed.** NVDA's 5-year build (9/23) and $192.0 base fair value (WACC 11.59%) are unchanged. JPM's 11/10 08:22 ET brief confirms the print is 7 days out (Tue 11/17, 5pm ET, Q3 FY2027) and that the options market's implied move has *compressed* to ±7.9% (from ±8.7-8.8% a week ago) — now near NVDA's own ~10-year average rather than meaningfully above it, i.e. the market is not pricing a record-sized event into the print itself. The Huang/Megaspeed accept-or-counter deadline lands tomorrow (11/11) — a headline-risk date, not a fundamentals input to this model.
 
-**Illustrative WACC sensitivity** (this desk's own convexity estimate, scaled off the comparable moves already disclosed for this book's other high-growth name, OMCL — not a company-disclosed sensitivity; flagged explicitly as an estimate):
+**Illustrative WACC sensitivity** (this desk's own convexity estimate, not a company-disclosed sensitivity — flagged explicitly as an estimate):
 
 | WACC | Fair Value/sh | Price | Gap |
 |---|---|---|---|
-| 10.59% (-100bp) | **~$240.0** (+25% est.) | $176.64 | +35.9% |
-| **11.59% (base)** | **$192.0** | **$176.64** | **+8.69%** |
-| 12.59% (+100bp) | **~$134.4** (-30% est.) | $176.64 | -23.9% |
+| 10.59% (-100bp) | **~$240.0** (+25% est.) | $175.85 | +36.5% |
+| **11.59% (base)** | **$192.0** | **$175.85** | **+9.18%** |
+| 12.59% (+100bp) | **~$134.4** (-30% est.) | $175.85 | -23.6% |
 
-**Verdict: UNDERVALUED at base case, and more so than at any point this desk has logged.** The $180 line is a trader-defined mandatory-review trigger, not this desk's own fair-value estimate — the two have simply diverged further this morning, which is itself worth naming plainly: the trader's structural-break discipline and this desk's DCF are not in tension here, they're both saying the same thing from different angles (no fundamental deterioration found; price moved on sentiment/event-risk, not cash flows).
+**Verdict: UNDERVALUED at base case, and more so than at any point this desk has logged.** The $180 line is a trader-defined mandatory-review trigger, not this desk's own fair-value estimate; the two keep diverging further on pure price action, not fundamentals.
 
 ### Key assumptions that could break this model
-- **The 11.59% WACC and the underlying 5-year Data Center growth path (9/23 build) have not been revisited since**, despite four quarters of beats since. A full rebuild incorporating the 8/26 guide and the 11/17 print (once reported) is queued and increasingly overdue given how much has changed operationally even as this desk's price-rolls have held the model fixed.
-- **The Huang/Megaspeed congressional-scrutiny story is a genuine new risk category this model does not price**: a closed-door briefing has been requested for 11/18 (the day after the print) over Nvidia CEO Jensen Huang's reported ties to a Megaspeed executive under investigation for alleged Chinese-intelligence activity; Megaspeed affiliates reportedly purchased ~$4.8B of Nvidia AI equipment 6/2024-2/2026 while under chip-diversion investigation. Nvidia has pushed back; no charges have been filed; this is a request for a voluntary briefing, not a subpoena. **This desk is not adjusting WACC or FCF for this** absent any confirmed revenue, customer-relationship, or export-policy linkage — but it is a name-brand/governance tail risk that could escalate quickly and is worth the team's attention heading into the 11/17-18 window.
-- **The four named structural disqualifiers in the trader's own contingency-plan-v2** (Data Center deceleration below ~100%+ YoY, a miss against the $108.0B±2% guide, a negative China/export development, a sourced Blackwell/GB300 supply problem) remain the actual triggers that would force this desk into an off-cycle rebuild before 11/17 — none has fired as of this report.
+- **The 11.59% WACC and underlying 5-year Data Center growth path (9/23 build) are now seven weeks stale** against four quarters of beats since. A full rebuild incorporating the 11/17 print (once reported) is queued and increasingly overdue.
+- **The Huang/Megaspeed congressional-scrutiny story remains unpriced** — a genuine governance/headline-risk tail with a hard deadline tomorrow (11/11), but this desk is not adjusting WACC or FCF absent a confirmed revenue, customer-relationship, or export-policy linkage.
+- **The four named structural disqualifiers in contingency-plan-v2** remain the actual triggers for an off-cycle rebuild before 11/17 — none has fired as of this report.
 
 ---
 
-## 2. OMCL — price-roll; bear-case cushion holding
+## 2. OMCL — base-case gap widens, but bear-case cushion narrows — the one item worth watching today
 
 **Fundamentals unchanged since the 10/29 post-print rebuild** (base $46.75, bull $55.27, bear $35.24; WACC 9.43%/8.43%/10.43%).
 
 | Scenario | WACC | Fair Value/sh | Price (pre-market, illiquid — directional only) | Gap |
 |---|---|---|---|---|
-| Bull | 8.43% | $55.27 | $38.15 | **+44.9%** |
-| **Base** | **9.43%** | **$46.75** | **$38.15** | **+22.5%** |
-| Bear | 10.43% | $35.24 | $38.15 | price is $2.91 (**+8.26%**) above the bear-case floor |
+| Bull | 8.43% | $55.27 | $37.31 | **+48.1%** |
+| **Base** | **9.43%** | **$46.75** | **$37.31** | **+25.3%** |
+| Bear | 10.43% | $35.24 | $37.31 | price is $2.07 (**+5.87%**) above the bear-case floor |
 
-**Verdict: UNDERVALUED at base case.** The bear-case cushion (~8.3%) is essentially unchanged from Friday's ~7.6% and well off Wednesday's ~1.6% near-miss. No change to this desk's inputs; the contingency-plan trigger (a trade *through* $35.24, not a near-touch) has still never fired. Note the pre-market quote is illiquid (wide bid/ask) — treat as directional only per rule 4, to be confirmed against the regular-session open.
+**Verdict: UNDERVALUED at base case, but flag the trend.** The base-case gap is the widest on this desk's sheet (+25.3%), but the bear-case cushion has now compressed on three consecutive checks: ~7.5% (11/9 afternoon) → ~8.3% (11/9 pre-market, a brief widening) → **~5.87% today**. The contingency-plan trigger requires a trade *through* $35.24, which has still never happened — this is not a fire, and pre-market OMCL quotes have been unreliable before (rule 4) — but a sub-6% cushion is close enough to the historical near-miss range (the book has seen cushions compress to ~1.6% before without firing) that it deserves a same-day regular-session recheck rather than a routine carry-forward.
 
 ---
 
 ## 3. XLE — price-roll off the 11/6 oil-attribution rebuild
 
-**No fresher Brent print found this run** (dedicated WebSearch returned nothing reliably dated this week) — the 11/6 rebuild (Brent ~$98.77, -5.48% net from the 11/2 $104.5 reference, ×1.4x FCF elasticity estimate) stands unchanged: base $58.5, bull $66.3, bear $47.0, WACC ~11.0%.
+**No fresher Brent print found this run** (dedicated WebSearch returned nothing reliably dated to November 2026) — the 11/6 rebuild (Brent ~$98.77, ×1.4x FCF elasticity estimate) stands unchanged: base $58.5, bull $66.3, bear $47.0, WACC ~11.0%.
 
 | Scenario | Fair Value/sh (11/6 build) | Price | Gap |
 |---|---|---|---|
-| Bull | $66.3 | $61.30 | **+8.16%** |
-| **Base** | **$58.5** | **$61.30** | **-4.57%** (essentially flat vs. -5.03% on 11/6) |
-| Bear | $47.0 | $61.30 | **-23.3%** |
+| Bull | $66.3 | $61.26 | **+8.23%** |
+| **Base** | **$58.5** | **$61.26** | **-4.51%** (essentially flat vs. -4.57% on 11/9) |
+| Bear | $47.0 | $61.26 | **-23.3%** |
 
-**Verdict: OVERVALUED at base case, essentially unchanged.** No new fundamental input; the 1.4x Brent elasticity remains this desk's own estimate, not XOM/CVX's disclosed sensitivity, and a full from-scratch rebuild (company-sourced oil-sensitivity figures, re-derived 5-year FCF path) remains queued.
+**Verdict: OVERVALUED at base case, essentially unchanged.** No new fundamental input; the 1.4x Brent elasticity remains this desk's own estimate, not a disclosed XOM/CVX sensitivity, and a full from-scratch rebuild remains queued.
 
 ---
 
-## 4. GEHC — price-roll; richening, not cheapening, over the weekend
+## 4. GEHC — richening continues; valuation gap and BR's trigger mechanics still pulling apart
 
 **Fundamentals and fair value unchanged since the 11/2 equity-bridge correction** (base $75.0, bull $98.5, bear $44.4; WACC 8.0%/7.0%/9.0%).
 
 | Scenario | Fair Value/sh | Price (pre-market, illiquid — directional only) | Gap |
 |---|---|---|---|
-| Bull | $98.5 | $83.23 | **+18.35%** |
-| **Base** | **$75.0** | **$83.23** | **-9.89%** (widening from -8.65% on 11/6) |
-| Bear | $44.4 | $83.23 | **-46.65%** |
+| Bull | $98.5 | $84.00 | **+17.3%** |
+| **Base** | **$75.0** | **$84.00** | **-10.71%** (widening from -9.89% on 11/9) |
+| Bear | $44.4 | $84.00 | **-47.1%** |
 
-**Verdict: OVERVALUED at base case, and getting modestly more so.** No fundamental revision — this is pure price appreciation against an unmoved fair value, consistent with GS's own 11/9 read that GEHC "kept climbing" over the weekend read-through (GS's own math independently put the gap at roughly -10.67% using a slightly different intraday reference, same direction and same magnitude as this desk's). **Open item, unresolved since 11/2:** SOFIE Biosciences acquisition financing terms remain undisclosed; a fresh search this run surfaced only a mandatory-redemption-date reference (if the deal doesn't close on or before 11/20) with no financing detail — not enough to move the model, flagged again for whenever primary-source terms surface. GEHC remains the held name sitting closest to BR's 7.5%-pool/+3.5pp drift-trim trigger (~1.3pp away) — this desk's widening valuation gap modestly strengthens the case for that trigger if it fires, but the trim decision itself remains BR's domain.
+**Verdict: OVERVALUED at base case, and getting modestly more so.** No fundamental revision — pure price appreciation against an unmoved fair value. GS's independent 11/10 read (its own FV-denominator convention) puts the gap at -12.0%, essentially flat with yesterday's -12.42%; same direction, same conclusion, numeric difference is methodology/reference-timing, not a disagreement. **Open item, unresolved since 11/2:** SOFIE Biosciences acquisition financing terms remain undisclosed; nothing new surfaced this run. GEHC's pool weight (~6.21%) sits ~1.29pp from BR's 7.5%-pool/+3.5pp drift-trim trigger, which per GS has stayed masked for three-plus days by NVDA's falling dollar weight, not by GEHC getting any cheaper — this desk's widening gap modestly strengthens the case for that trigger if/when it fires, but the trim decision itself remains BR's domain.
 
 ---
 
 ## Rate and oil input note
 
-- **10-year Treasury (WACC input):** dedicated WebSearch this run again found nothing reliably dated past 5.10% (FRED DGS10, 10/15/2026); several stale mid-2026 readings (4.4-4.6% range) found and **not adopted**. **Held at 5.10%, 10/15-dated**, across all WACC builds above.
-- **Brent crude (XLE input):** dedicated WebSearch this run found nothing reliably dated this week. **Held at the 11/6 rebuild's ~$98.77 reference (-5.48% net from the 11/2 $104.5/bbl standing build)**, unchanged.
+- **10-year Treasury (WACC input):** dedicated WebSearch this run again found nothing reliably dated to November 2026; stale mid-2026 readings (4.1-4.6% range, various undated/old months) found and **not adopted**. **Held at 5.10%, 10/15-dated**, across all WACC builds above.
+- **Brent crude (XLE input):** dedicated WebSearch this run found nothing reliably dated to November 2026. **Held at the 11/6 rebuild's ~$98.77 reference**, unchanged.
 
 ---
 
 ## Key assumptions that could break these models (cross-name)
 
-- **NVDA**: the model is unrebuilt since 9/23 despite four beat-and-raise quarters since; the $180 trader line and this desk's $192 DCF line are two different numbers for two different purposes and will keep moving independently — don't conflate a breach of one with a signal about the other. The Huang/Megaspeed governance story (above) is the freshest qualitative risk not yet priced into any input.
-- **OMCL**: the $35.24 bear case is built on the Q4 revenue guide (~$298M, below Street); contingency-plan trigger is a trade *through* that line, never yet fired.
-- **XLE**: the 1.4x Brent elasticity is still an estimate, not a disclosed company sensitivity; a full from-scratch rebuild remains the eventual right fix.
-- **GEHC**: the SOFIE Biosciences deal's financing terms remain undisclosed (flagged 11/2, still open, a 11/20 mandatory-redemption date now on file if unclosed); the valuation gap has widened for two straight reports while BR's concentration trigger stays masked by NVDA's falling dollar weight — a genuine divergence between this desk's signal and the trigger mechanics worth the team's attention.
+- **NVDA**: unrebuilt since 9/23 despite four beat-and-raise quarters since; the $180 trader line and this desk's $192 DCF line are two different numbers for two different purposes. The Huang/Megaspeed deadline (tomorrow, 11/11) is the freshest qualitative risk not yet priced into any input.
+- **OMCL**: the $35.24 bear case rests on the Q4 revenue guide (~$298M, below Street); the cushion has now narrowed on three straight checks (~5.87% today) — worth a same-day regular-session recheck, not yet a fired trigger.
+- **XLE**: the 1.4x Brent elasticity is still an estimate, not a disclosed company sensitivity.
+- **GEHC**: SOFIE Biosciences financing terms remain undisclosed; the valuation gap has widened for three straight reports while BR's concentration trigger stays masked by NVDA's falling dollar weight.
 
 ---
 
 ## Cross-check with GS screener and JPM earnings desk
 
-**GS's 11/9 ~08:41 ET report** ranks GEHC #1 (held) again and independently reports GEHC "kept climbing" through the weekend read-through to a base-case overvaluation gap of roughly -10.67% on its own math — directionally and materially consistent with this desk's -9.89% here (small gap differences are reference-price timing, not a methodology disagreement). GS also flags NVDA's pre-market move and the SNDK split-day selloff as its own headlines this run; this desk defers to GS/JPM on SNDK and ALAB since neither is held nor GS's #1 pick this run.
+**GS's 11/10 ~08:55 ET report** ranks GEHC #1 (held), independently reading its overvaluation gap at -12.0% (its own convention) vs. this desk's -10.71%, same direction and magnitude. GS also flags NVDA's fourth-day $180 breach and the Huang/Megaspeed T-1 deadline, and OMCL's bear-cushion narrowing to ~5.9% — all three independently corroborate this desk's own read above, not a disagreement on any point.
 
-**JPM's 11/9 ~08:23 ET report** confirms NVDA's print at T-8 (11/17 AMC), sources the options market's ±8.5-8.8% implied move, and recommends WAIT/HOLD-THROUGH with no structural disqualifier named — fully consistent with this desk's §1 read above. No disagreement in substance with any other desk's current posted reports.
+**JPM's 11/10 ~08:22 ET report** confirms NVDA's print at T-7 (11/17, 5pm ET) and sources the options market's implied-move compression to ±7.9% — fully consistent with this desk's §1 read. No disagreement in substance with any other desk's current posted reports.
 
 ---
 
@@ -127,21 +128,22 @@ No trade recommended off this report (research-only mandate, as always).
 
 | Position | Avg Cost | Current Price | Unrealized | MS Verdict |
 |---|---|---|---|---|
-| NVDA | $201.40 | $176.64 | -12.3% | Undervalued at base (+8.69%), widening — first-ever breach of the $180 trader line; no structural disqualifier found; hold, no add (rule 20) |
-| VTI | ~$370.40 | $365.51 | -1.3% | Hold by construction |
-| VXUS | $84.13 | $82.1955 | -2.3% | Hold by construction |
-| OMCL | $46.99 | $38.15 | -18.8% | Undervalued at base (+22.5%); bear-case cushion ~8.3%, holding |
-| XLE | $57.62 | $61.30 | +6.4% | Overvalued at base (-4.57%), essentially flat |
-| GEHC | $68.69 | $83.23 | +21.2% | Overvalued at base (-9.89%), widening — richest reading yet on this desk's model |
+| NVDA | $201.40 | $175.85 | -12.69% | Undervalued at base (+9.18%), widest reading yet — fourth calendar day below the $180 trader line; no structural disqualifier found; hold, no add (rule 20) |
+| VTI | ~$370.40 | $369.12 | -0.35% | Hold by construction |
+| VXUS | $84.13 | $83.22 | -1.08% | Hold by construction |
+| OMCL | $46.99 | $37.31 | -20.60% | Undervalued at base (+25.3%); bear-case cushion ~5.87%, narrowing — watch item |
+| XLE | $57.62 | $61.26 | +6.32% | Overvalued at base (-4.51%), essentially flat |
+| GEHC | $68.69 | $84.00 | +22.28% | Overvalued at base (-10.71%), widening — richest reading yet on this desk's model |
 
-This desk does not place trades or touch Robinhood — research only, per mandate. Sizing, DCA-gate mechanics, and any overweight/trim case remain BR's domain; structural-break risk framing remains BW's. On NVDA specifically: today's crossing is this desk's valuation read on a price move, not a sizing recommendation — the contingency-plan-v2 governs the trader's actual decision process, and this desk's job is to confirm (as above) that no structural disqualifier has fired, not to override that framework.
+This desk does not place trades or touch Robinhood — research only, per mandate. Sizing, DCA-gate mechanics, and any overweight/trim case remain BR's domain; structural-break risk framing remains BW's. On NVDA specifically: today's reading is this desk's valuation read on a price move, not a sizing recommendation — the contingency-plan-v2 governs the trader's actual decision process, and this desk's job is to confirm (as above) that no structural disqualifier has fired, not to override that framework.
 
 ---
 
 ## Sources
 
-- 10-year Treasury (DGS10): FRED series, 5.10% confirmed through 10/15/2026; dedicated WebSearch this run found nothing fresher dated (stale mid-2026 readings in the 4.4-4.6% range found and rejected as outdated)
-- Brent crude: dedicated WebSearch this run found nothing reliably dated this week; carried forward from the 11/6 oil-attribution rebuild (Washington Post, Business Standard, Yahoo Finance/oilprice.com, CNBC, DealPlexus — full sourcing in git history, 11/6 report)
-- NVDA/Huang-Megaspeed congressional-scrutiny story: multiple corroborating outlets dated 11/4-11/6 (letter from House committee chairs Brian Mast, John Moolenaar, Rick Crawford dated 11/4; briefing requested for 11/18; Nvidia's on-record pushback) — consistent with state.md's own 11/9 08:42 ET sourcing of the same story
-- GEHC: dedicated WebSearch this run found no fresher dated news than the already-known Q3 print (10/28) and the SOFIE Biosciences mandatory-redemption-date reference (11/20, if deal unclosed); no new financing terms surfaced
-- Internal: trading-experiment/state.md (2026-11-09 ~08:42 ET pre-market snapshot, the freshest on file as of this run), analysts/gs-stock-screener.md (2026-11-09 ~08:41 ET), analysts/jpm-earnings-analyzer.md (2026-11-09 ~08:23 ET); this desk's own 11/6 price-roll/XLE oil-attribution rebuild, 10/29 OMCL rebuild, 11/2 GEHC equity-bridge correction, 9/23 NVDA build (all git history where applicable)
+- 10-year Treasury (DGS10): FRED series, 5.10% confirmed through 10/15/2026; dedicated WebSearch this run (query: "10 year treasury yield today November 10 2026") found nothing fresher dated — stale/undated readings in the 4.1-4.6% range found and rejected
+- Brent crude: dedicated WebSearch this run (query: "Brent crude oil price today November 10 2026") found nothing reliably dated to November 2026 — undated aggregator snapshots and a stale 3/16/2026 reference found and rejected; carried forward from the 11/6 oil-attribution rebuild
+- NVDA/Huang-Megaspeed congressional-scrutiny story: dedicated WebSearch this run confirmed the story is unchanged since 11/4-11/7 coverage (The National, AI Weekly, TFTC, Zerohedge, Gadget Review, Free Press Journal, among others) — accept-or-counter deadline tomorrow (11/11), no confirmed response from Huang/Nvidia found as of the latest dated coverage
+- GEHC: dedicated WebSearch this run (query: "GE HealthCare GEHC news November 10 2026") found no news dated to November 2026 beyond the already-known Q3 print (10/28) and background product/IR items; no new SOFIE Biosciences financing terms surfaced
+- OMCL: dedicated WebSearch this run (query: "Omnicell OMCL stock news November 2026") found no company announcement dated to November 2026 beyond the already-known 10/29 print and the sell-off coverage already on file; price aggregator reference (~$38.03 as of 11/6) consistent with state.md's own live tracking, not adopted over Robinhood-verified figures per rule 4
+- Internal: trading-experiment/state.md (2026-11-10 ~08:39 ET pre-market snapshot, the freshest on file as of this run), analysts/gs-stock-screener.md (2026-11-10 ~08:55 ET), analysts/jpm-earnings-analyzer.md (2026-11-10 ~08:22 ET), analysts/bw-risk-assessment.md (2026-11-09 ~13:42 ET), analysts/br-portfolio-builder.md (2026-11-09 ~15:13 ET); this desk's own 11/6 price-roll/XLE oil-attribution rebuild, 10/29 OMCL rebuild, 11/2 GEHC equity-bridge correction, 9/23 NVDA build (all git history where applicable)

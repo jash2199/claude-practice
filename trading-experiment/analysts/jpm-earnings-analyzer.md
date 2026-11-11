@@ -1,102 +1,98 @@
 # JPM Earnings Analyzer — Report
 
-**2026-11-10 (Tuesday), ~08:22 ET** (verified via `TZ=America/New_York date`). Persona file re-read fresh this run (no edits by Jash since last run — mandate, format, and stance all unchanged). Coverage scan: trader's current holdings (state.md, as of last 11/9 14:37 ET verified check) are NVDA, VTI, VXUS, OMCL, XLE, GEHC; GS's current top-10 screener (11/9 14:45 ET) adds ALAB, AMD, SNDK, MU, AVGO, MRVL. VTI/VXUS/XLE are diversified ETFs/baskets with no single-company earnings print — excluded from coverage by definition.
+**2026-11-11 (Wednesday), ~08:18 ET.** Persona file re-read fresh this run (no edits by Jash since last run — mandate, format, and stance all unchanged). Coverage scan: trader's current holdings (state.md, as of last 2026-11-10 ~13:40 ET verified check) are NVDA, VTI, VXUS, OMCL, XLE, GEHC. GS's current top-10 screener (dated 2026-11-10, ~14:41 ET quotes) adds AVGO, ALAB, AMD, SNDK, MU, MRVL. VTI/VXUS/XLE are diversified ETFs/baskets with no single-company earnings print — excluded from coverage by definition.
 
 ## Coverage result — one name reports within the 2-week window
 
-**NVDA (held) remains the only covered name with a print inside ~2 weeks: Tuesday, 2026-11-17, after market close (Q3 FY2027), now 7 days from today.** A fresh dedicated WebSearch this run found one additional independent confirmation of the 11/17 AMC date (an earnings-call venue notice, Santa Clara) alongside the prior sourcing; a minority of aggregators (OptionsAI, ApexVol) still carry an unresolved 11/18 placeholder — same minor disagreement as the 11/9 brief, still unresolved, still treated as noise against the stronger 11/17 sourcing.
+**NVDA (held) remains the only covered name with a print inside ~2 weeks: Tuesday, 2026-11-17, after market close (Q3 FY2027), now 6 days from today.** Multiple independent sources (MarketBeat, eciks.org venue notice for Santa Clara, EarningsWatcher) converge on 11/17 AMC, 5:00pm ET call. A minority of aggregators (Zacks, ApexVol) still carry an unresolved 11/18 placeholder — same minor disagreement flagged in the last two briefs, still unresolved, still treated as noise against the stronger 11/17 sourcing.
 
-All other covered/screened names remain outside the window: **GEHC** (reported 10/28, next ~Feb 2027) and **OMCL** (already reported this FY26 Q3 cycle) are both done for this cycle; **AMD** and **ALAB** both printed 11/3; **SNDK**'s only near-term corporate event was its 8-for-1 split (record date 11/9, already passed), not an earnings print, next print well out; **MU**'s next print is tentatively ~12/16-17 (unchanged, outside window); **AVGO**'s next print firms up slightly this run to a best estimate of **~12/10** (still company-unconfirmed, but a sharper read than the prior brief's generic "early December" — outside the window, which runs to ~11/24); **MRVL** remains split between 11/26 (TipRanks, "confirmed") and 12/1 (Investor Signals, unsourced) — both outside the window either way, no change from the prior brief.
-
-Per the mandate's "max 3 per run" cap, only one name clears the window, so only one brief follows.
+All other covered/screened names remain outside the window or already done this cycle: **GEHC** (reported 10/28, next ~Feb 2027) and **OMCL** (reported 10/29) are both closed for this FY cycle; **AMD** and **ALAB** both printed 11/3; **SNDK**'s only near-term corporate event is its 8-for-1 split (distribution 11/19, post-split trading opens 11/20) — not an earnings print; **MU**'s next print remains ~12/16-17 (outside window); **AVGO**'s next print firms to a best estimate of ~12/10 (unconfirmed, outside window); **MRVL** sits split between **11/26** (TipRanks) and **12/1** (Investor Signals, unsourced) — both just outside the ~2-week cutoff (~11/25), flagged for next run to pick up once inside the window.
 
 ---
 
-# NVDA — Pre-Earnings Brief: Q3 FY2027 (reports Tue 2026-11-17, after close)
+# NVDA — Pre-Earnings Brief: Q3 FY2027 (reports Tue 2026-11-17, AMC, 5:00pm ET call, Santa Clara)
 
-## Decision summary (top-line)
+## Decision summary
 
-**Recommended play: WAIT — do not trade ahead of the print; hold through it per the book's own standing contingency plan v2.** No change from the 11/9 brief. NVDA remains the trader's largest single position (~8.85-11.5% of equity/pool across recent checks), the book's own NVDA earnings contingency plan v2 (state.md, written 11/3) pre-commits to a structural-break-only post-print reaction rule, and nothing found this run disturbs that framework. The options market's implied move has actually **compressed slightly** since the last brief — now reading **±7.9%** (EarningsWatcher, updated 11/3) versus the prior ±8.7-8.8% reads sourced to late-October snapshots — landing almost exactly on NVDA's own ~10-year average (~±8.4%) rather than above it. This marginally softens, but does not reverse, the "large two-sided event risk" framing: the market is now pricing a roughly average-sized move for this name, not an unusually large one, though the August print (priced ±5.9%, delivered +8.7%) is a live reminder that NVDA has recently blown through its priced move in the direction of a beat. If you are not already positioned, this is still not a reason to chase an entry ahead of the print; if you are already holding (as this book is), the existing contingency plan governs and this brief does not recommend deviating from it.
+**Hold through the print. No buy-before, no sell-before.** No structural thesis break is on file today (no guidance cut, no confirmed Blackwell/GB300 supply or demand problem, no adverse incremental China/export development beyond the already-priced zero-China assumption). This is the trader's single largest position (~9.8%/8.6% equity/pool as of yesterday's 13:40 ET check, with the stock still trading ~6-7% below the $180 contingency-plan-v2 revisit line) entering a binary event the options market now prices at roughly historically-average size (±7.9%). **The dominant recent pattern is "beat but sell off anyway" — 4 of the last 5 prints beat on both lines and the stock fell or round-tripped lower within 1-2 sessions regardless.** Holding through this print is a conscious risk the trader is choosing to take by following its own pre-committed contingency plan (v2, written 2026-11-03), not a risk-free default — see Risk note below. Per the plan: no same-minute decision on the print itself; use the next scheduled run after the ~5pm ET call to decide with a fresh full 5-analyst read against the plan's five named triggers.
 
-## 1. Last four quarters: earnings vs. estimates
+## Last 4 quarters: earnings vs. estimates
 
-| Quarter (reported) | Revenue actual vs. estimate | EPS actual vs. estimate | Result |
+| Quarter | Reported | Revenue (est.) | Revenue (actual) | EPS (est.) | EPS (actual) | Data Center (est. vs actual) | Result |
+|---|---|---|---|---|---|---|---|
+| Q4 FY26 | 2026-02-25 | n/a (record-quarter framing in sourcing, est. not isolated) | Record quarter; Data Center $62.3B (>91% of revenue) | n/a | Beat (described as historic beat across sources) | n/a | **Beat**, but stock fell -5.46% the next session (-$260B market cap, largest single-day drop in ~3 quarters) and a further ~-4% the session after — a ~-9%+ two-day drawdown on a beat, because pre-print implied vol (5.6%, a 3-year low) had already priced most of it in |
+| Q1 FY27 | 2026-05-20/21 | Rev $79.19B; EPS $1.77; DC $73.48B | Rev $81.62B; EPS $1.87; DC $75.2B | — | — | **Beat** on all three lines | **Beat**, but stock declined post-print anyway — the second consecutive quarter of a "beat and sell" reaction |
+| Q2 FY27 | 2026-08-27 | EPS $2.09 | Rev $96.22B (+106% YoY); EPS $2.22; DC $89.0B (+117% YoY) | — | — | **Beat** on all three lines; guided FY2028 growth ~70% | **Beat and pop +5.75%** — the first clean beat-and-pop in this stretch, snapping the prior two quarters' pattern |
+| Q3 FY27 | 2026-11-17 (upcoming) | see below | — | — | — | — | — |
+
+(Q3 FY26, Nov 2025, included below under the 5-report price-reaction history for continuity with that mandate line, since it falls just outside a strict "last 4" quarter count but inside the most recent 5 reports.)
+
+## Revenue and EPS consensus — Q3 FY2027 (reporting 11/17)
+
+Company guidance (from the 8/27 call): **revenue $108.0B ± 2%** (i.e., ~$105.84B-$110.16B), **non-GAAP gross margin 74.0% ± 50bps**. That guide assumes **zero Data Center compute revenue from China**.
+
+Street consensus is **not single-sourced** this cycle — figures diverge meaningfully across aggregators, flagged honestly rather than papered over:
+- MarketBeat (most widely repeated): **EPS $2.47, revenue $108.80B** — essentially at the top of the company's own guided band.
+- Benzinga's guidance page: **EPS $2.34, revenue $103.95B** — below the low end of the company's own guided range, a notably more conservative read.
+- One older/stale pull (Rex Shares, sourced to an August 12 yfinance snapshot): revenue ~$103.1B — likely superseded by fresher consensus since, kept here only to show the spread.
+
+**Working view for this brief: revenue consensus ~$104-109B (effectively in line with or slightly above the company's own $108B±2% guide), EPS consensus ~$2.34-2.47.** Confirm against a live consensus source morning-of; the spread itself is a data point — it suggests less analyst conviction on exactly where within the guided band NVDA lands than headline "beat" stories usually imply.
+
+## Key metrics to watch this print
+
+1. **Data Center revenue growth rate** — running at +106-117% YoY the last two quarters and ~92.5% of total revenue per this desk's own prior sizing; any deceleration meaningfully below the ~100%+ run rate is the single biggest swing factor and one of the plan's five named structural triggers.
+2. **Gross margin vs. the 74.0% ± 50bps guide** — a miss alone is a watch item per the standing contingency plan, not an automatic disqualifier absent one of the other four triggers.
+3. **China/export-policy commentary** — the guide already assumes zero China Data Center compute revenue; the signal is a *worsening* of that assumption (not the assumption itself).
+4. **Blackwell/GB300 ramp commentary** — any credible, sourced supply or demand problem is a named trigger.
+5. **FY2028 growth-rate guidance** — last call guided ~70%; reaffirming, raising, or walking this back matters more than the headline beat/miss on Q3 itself.
+6. **Any Huang/Megaspeed-related commentary on the call** — the requested congressional closed-door briefing (proposed for 11/18, one day after this print) is headline risk, not a named structural trigger under the plan, but worth noting if addressed on the call. As of this morning (the 11/11 deadline day itself), no public confirmation of whether Huang has accepted, declined, or countered the Nov. 11 reply deadline.
+
+## Segment-by-segment revenue breakdown and trends
+
+- **Data Center: ~92.5% of total revenue (per this desk's prior brief), $89.0B last quarter (+117% YoY).** The dominant swing factor by a wide margin; everything else is largely rounding error against this line.
+- **Gaming:** a modest single-digit-percent share of total revenue at this scale; not separately sized with precision in this run's sourcing, no material trend flagged.
+- **Professional Visualization:** small, low-single-digit share; no material trend flagged this cycle.
+- **Automotive/Robotics:** small in dollar terms but a recurring narrative item (robotics/self-driving platform wins) on recent calls; watch for any fresh design-win commentary but it will not move the headline number.
+
+## Management guidance from the last earnings call (2026-08-27, Q2 FY27)
+
+- Revenue guide for Q3 FY27: **$108.0B ± 2%**.
+- Non-GAAP gross margin guide: **74.0% ± 50bps**.
+- **FY2028 growth guided at ~70%** — a clean guide-up, the first unambiguous "beat and raise with no caveats" read in this stretch per the trade log's own characterization of that print.
+- Guide explicitly assumes **zero China Data Center compute revenue** (unchanged policy assumption, not a new disclosure).
+
+## Options market implied move for earnings day
+
+**Most current figure: ±7.9%** (EarningsWatcher, dated as of 2026-11-03), close to NVDA's own ~10-year average implied move (~8.4%) and roughly in line with its trailing-12-quarter average realized post-earnings move (~7.4%). This is **down from the ±8.7-8.8% read cited in this desk's 11/9-11/10 briefs** — a modest de-escalation in priced-in volatility, not a dramatic one. One stale/conflicting data point (ApexVol, dated 10/27, showing an 11/18 date and only ±4.6%) predates the more recent, more consistent EarningsWatcher figure and should be discounted. Confirm against a live options chain morning-of for the final pre-print read.
+
+## Historical stock price reaction — last 5 reports
+
+| Report date | Quarter | Result | Next-session/near-term reaction |
 |---|---|---|---|
-| Q3 FY26 (~11/19/2025) | $57.0B vs. ~$54.5-55.1B consensus | $1.30 vs. ~$1.18-1.26 consensus | Beat both |
-| Q4 FY26 (~2/25/2026) | $68.1B vs. ~$65.6-66.1B consensus | $1.62 vs. ~$1.52-1.54 consensus | Beat both |
-| Q1 FY27 (5/20/2026) | $81.6B vs. ~$78.4-78.8B consensus (+85.2% YoY) | $1.87 vs. ~$1.76-1.77 consensus | Beat both |
-| Q2 FY27 (8/26/2026) | $96.2B vs. ~$92.1-92.3B consensus (+106% YoY); Data Center $89.0B (+117% YoY, 93% of revenue) | Non-GAAP $2.22 vs. ~$2.09-2.10 consensus | Beat both |
+| 2025-08-27 | Q2 FY26 | Beat on EPS (+5% vs. Zacks est.) and headline revenue (+56% YoY); **Data Center narrowly missed** ($41.1B vs. ~$41.2B est.) | Fell ~2-4% in after-hours/early trading; roughly flat-to-down at next-day open — first "beat but Data Center wobble" print in the stretch |
+| 2025-11-19 | Q3 FY26 | Beat on revenue ($57.0B vs. ~$55.1B est., +62% YoY) and EPS ($1.30 vs. ~$1.26-1.27 est.); Q4 guide also beat (~$65B vs. ~$62B est.) | Popped as much as +5-6% after-hours, but gave back most of the gain — down ~2% by the next afternoon session (sell-the-news) |
+| 2026-02-25 | Q4 FY26 | Beat (record quarter, Data Center $62.3B, >91% of revenue) | **-5.46% the next session** (~$260B market-cap loss, largest single-day drop in ~3 quarters) **and a further ~-4% the session after** — pre-print implied vol had been a 3-year low (5.6%), so the beat was already priced in |
+| 2026-05-20/21 | Q1 FY27 | Beat on all three lines (Rev $81.62B vs. $79.19B est.; EPS $1.87 vs. $1.77 est.; DC $75.2B vs. $73.48B est.) | Declined post-print — second consecutive quarter of a beat-and-sell reaction |
+| 2026-08-27 | Q2 FY27 | Beat on all three lines (Rev $96.22B +106% YoY; EPS $2.22 vs. $2.09 est.; DC $89.0B +117% YoY); FY28 guided to ~70% growth | **+5.75%, a clean beat-and-pop** — the first of the stretch, snapping four straight quarters of "beat but stock falls/round-trips lower" |
 
-**NVDA has beaten both lines in each of the last four quarters** — a clean, unbroken beat streak, unchanged from the prior brief (no new quarter has reported since). Source figures vary slightly by provider; treat ranges as the honest spread across aggregators rather than a single authoritative number.
+**Pattern: 4 of the last 5 reports beat and the stock fell or gave back its gains anyway; only the most recent print (Aug 2026) broke that pattern with a clean pop.** A beat alone has not been a reliable buy signal for this stock over the last five quarters — the market has repeatedly treated "in line with a very high bar" as a sell trigger. This is the core empirical basis for the contingency plan's rule 1 ("a miss alone, or a beat-but-sell-off, is not by itself a sell/trim signal" — it cuts both ways: a beat is also not by itself a buy signal).
 
-## 2. Revenue/EPS consensus for the upcoming quarter (Q3 FY2027)
+## Bull case
 
-- **Company's own guidance (set 8/26/2026):** revenue $108.0B ±2% ($105.8-110.2B band); GAAP and non-GAAP gross margin 74.0% ±50bps.
-- **This run found a cleaner, more convergent Street read than the prior brief's scattered range:** MarketBeat and Benzinga both now cluster around **~$108.8-109B revenue / ~$2.47 EPS** — sitting just above the company's own guide midpoint, consistent with NVDA's pattern of guiding conservatively and modestly beating its own band. An older ~$103.95B/$2.34 snapshot (cited in the 11/9 brief as one of the scattered figures) predates the August guide and should now be discarded as stale.
-- **Working reference for this brief: ~$108.8-109B / ~$2.47 EPS consensus against the company's $108.0B ±2% / 74.0% ±50bps guide.** The real test on 11/17 is still less "beat vs. miss" (likely, given the streak and the modest consensus premium over guidance) and more "beat by how much, and what does the Q4 FY27 guide say" — NVDA's own recent pattern of selling off on clean beats when the forward guide underwhelms (see §4, §6) is the mechanism that actually moves the stock.
+Data Center sustains or reaccelerates above the ~100%+ YoY run rate on continued Blackwell/GB300 ramp, the company beats the $108B±2% guide meaningfully (toward or above the $108.80B MarketBeat consensus), gross margin holds at/above 74%, FY2028 growth guidance is reaffirmed or raised, and no adverse China/export or Huang-related development surfaces on the call. **Estimated price impact: a repeat of the August pattern, roughly +5% to +8% on the print itself**, with potential for continued follow-through toward the Street's high-end targets ($300-352) over the following weeks if the AI-capex narrative is reinforced by hyperscaler commentary. This is the scenario the trader's current full-size position is implicitly underwriting.
 
-## 3. Key metrics to watch this print
+## Bear case
 
-1. **Data Center revenue growth rate** — 93% of total revenue; decelerating meaningfully below the ~100%+ YoY run rate is explicitly named in the book's own contingency plan as a structural-break trigger. No new information this run.
-2. **Blackwell Ultra / GB300 ramp and supply commentary** — Q2's call flagged Vera Rubin production shipments beginning, with management guiding Vera Rubin to be ~20% of Data Center revenue in Q3. Watch whether that materializes. No fresh dated commentary found this run; carries forward unchanged.
-3. **China/export-policy delta** — the August guide assumed **zero** China data-center compute revenue. Watch whether any China data-center revenue gets explicitly included in the new guide (upside surprise) or whether the assumption worsens (the plan's named trigger). No new dated development found this run.
-4. **Gross margin vs. the 74.0% ±50bps guide** — a miss here alone is a watch item per the standing plan, not an automatic disqualifier, absent one of the structural triggers above.
-5. **Q4 FY27 / FY2028 guide** — management's August call already previewed FY2028 revenue growth of ~70%; any walk-back of that framing would be the single most market-moving data point, consistent with the beat-but-sell-off pattern already on file (May 2026).
-6. **New this run — the Huang/Megaspeed congressional story's own clock now overlaps the print window.** Three House committee chairs (letter dated 11/4) have asked Jensen Huang to accept or counter-propose a date for a closed-door briefing by **tomorrow, 11/11** — one day from this brief — with the briefing itself requested for **11/18, the day after** NVDA's 11/17 print. Nvidia has publicly characterized the underlying customer-meeting story as "routine" and has not confirmed Huang's attendance either way. This is not a financial-statement item and is not one of the contingency plan's named structural triggers, but a live congressional-scrutiny story landing in the same week as the earnings call is a headline-risk factor the trader should be aware of going into 11/17, independent of the print itself.
+Data Center decelerates meaningfully below the ~100% YoY run rate, the guide undershoots the $108B±2% band (or the sharper ~$108.8B Street read), gross margin misses materially below 74%±50bps without a clean structural explanation, a negative incremental China/export development surfaces, or a credible sourced Blackwell/GB300 supply or demand problem emerges — any one of which is a named structural trigger under the standing contingency plan. **Estimated downside risk: a repeat of the February 2026 pattern is plausible even on a technical beat if the market judges the quarter "priced in already" — a -5% to -9%+ two-day move is within the historical range for this stock**, which would likely push NVDA meaningfully through the already-breached $180 contingency-plan-v2 line (last check: ~$168, already -6 to -7% below it) toward MS's $192.0 base-case DCF reference or lower, independent of any structural break. A genuine structural break (not just a soft number) is the threshold for the plan to reopen the trim/exit question; a non-structural "sell the news" move, however large, is explicitly not a sell signal under rules 1/2.
 
-## 4. Segment-by-segment revenue breakdown and trends
+## Recommended play: wait / hold through — do not buy before, do not sell before
 
-**Caveat up front:** NVIDIA changed its segment reporting starting Q1 FY27 — Gaming, Professional Visualization, Automotive, and OEM & Other were consolidated into a single **"Edge Computing"** line, and Data Center was split into **Hyperscale/AI Cloud** and **Enterprise/Industrial (ACIE)** sub-segments. Comparisons to pre-FY27 quarters on the old basis are not apples-to-apples.
-
-- **Data Center (Q2 FY27): $89.0B, +117% YoY, ~93% of total revenue** — Hyperscale/AI Cloud ~$49B, ACIE ~$40B (secondary-aggregator figures, not NVIDIA's own release language — directional only).
-- **Edge Computing (Q2 FY27):** not separately reported in search results; inferred as the ~$7B residual of $96.2B total minus $89.0B Data Center (JPM's own arithmetic, not a reported figure).
-- **Last comparable old-basis quarter (Q2 FY26):** Gaming ~$4.3B; Automotive ~$586M; Professional Visualization ~$601M — a historical anchor showing how small the non-Data-Center business has become; it is now a rounding error against a $96B quarter.
-- **Trend, unchanged:** the business has gone from a semi-diversified compute/gaming/auto mix to a near-single-segment Data Center story. This concentration is itself a risk factor the trader's own concentration triggers (NVDA 18-20% single-name, NVDA+OMCL 25% combined) exist to manage at the portfolio level.
-
-## 5. Management guidance from last earnings call (Q2 FY27, 8/26/2026)
-
-- Q3 FY27 revenue guide: **$108.0B ±2%**; gross margin **74.0% ±50bps** (GAAP and non-GAAP).
-- China: guide assumes **zero data-center compute revenue from China**; Hopper (H200) shipments to China were under 1% of Data Center revenue in Q2.
-- Vera Rubin production shipments **began** in Q2; management guided Vera Rubin to be **~20% of Data Center revenue in Q3**.
-- Management gave a preliminary **FY2028 revenue growth outlook of ~70%** — the single biggest standing bullish anchor and the item most likely to move the stock if revised either way on the 11/17 call.
-
-## 6. Options market implied move for earnings day
-
-- **Updated read this run: ±7.9% (EarningsWatcher, updated 11/3/2026)** for the 11/17 AMC report — a step down from the prior brief's ±8.7-8.8% reads (sourced to 10/29-10/30 snapshots). This now sits almost exactly on NVDA's own ~10-year average implied move (~±8.4%), rather than meaningfully above it as the late-October reads suggested. The compression likely reflects both the passage of time since the stock's late-October peak and normal decay in a straddle's implied-move read as new data points accrue closer to the event — not evidence of a structural change in the underlying risk.
-- **Context, unchanged: NVDA's actual move has exceeded its implied move in only ~29% (5 of 17) of its past reports** per EarningsWatcher — the base rate still favors a move smaller than what's priced. The one most recent data point this book has (August: priced ±5.9%, delivered +8.7%) broke that base rate.
-- **Read for position-sizing purposes:** the market is now pricing a roughly historically-average two-sided move, not a record one, on a position that is already the book's largest single holding. This modestly reduces (does not eliminate) the urgency of the "large event risk" framing from the prior brief, while the underlying case for the existing structural-break-only reaction discipline is unchanged.
-
-## 7. Historical stock price reaction after last 5 reports
-
-Data quality caveat, unchanged from the prior brief: third-party aggregators disagree on exact signs/magnitudes for two of the five dates below.
-
-| Report date | Next-session/initial reaction | Note |
-|---|---|---|
-| 8/26/2026 (Q2 FY27) | **+8.7%** (clean beat-and-pop) | Highest-confidence figure; options had priced only ±5.9%. |
-| 5/20/2026 (Q1 FY27) | **-1.8%** (sold off despite an EPS beat) | Beat-but-sell-off pattern. |
-| 2/25/2026 (Q4 FY26) | **Conflicting: one source -5.46%, another +10.1%** | Unresolved; not re-chased this run, logged as a standing data-quality gap. |
-| 11/19/2025 (Q3 FY26) | **Not found** — options had implied ~7% ahead of the print, no actual reaction figure located. | Gap, unchanged. |
-| Prior to 11/19/2025 | Not pulled | Out of scope for "last 5." |
-
-**Pattern read, unchanged:** across what's verifiable, NVDA has shown at least one clean beat-and-pop (8/26) and at least one beat-but-sell-off (5/20) within just the last two prints — a beat alone has not reliably predicted direction even over this short a window, which is exactly why the book's own contingency plan (rule 1) refuses to treat a miss, or even a "beat but sell off," as an automatic sell signal on its own.
-
-## 8. Bull case and bear case
-
-**Bull case:** A clean beat-and-raise in the Wedbush/Evercore/Loop Capital mold — Data Center growth holds near the ~100%+ YoY run rate, Vera Rubin ramps roughly on the guided ~20%-of-Data-Center-revenue schedule, gross margin holds inside the 74.0% ±50bps band, and management reiterates or strengthens the ~70% FY2028 growth framing. Street high-end targets cluster around **$300-352** (BofA/Citi/JPMorgan house target $300; KeyBanc $300; Loop Capital $350; Evercore $352) — a further **~45-85% above** the ~$187-207 reference range cited in recent reports. No update to these targets found this run; carried forward.
-
-**Bear case:** A repeat of the May pattern — the quarter beats, but a soft Q4 FY27 guide, a walked-back FY2028 framing, a gross-margin miss without a clear one-off explanation, or a negative incremental China/export-policy development triggers a "beat but sell off" reaction. The now-more-moderate implied move (±7.9%, down from ±8.7-8.8%) means a disappointment would be unwinding a historically-average-sized bet rather than an unusually large one — modestly lower optionality-driven downside than the prior brief implied, though the dollar move is unchanged by this repricing. The lowest Street target on file remains **$200** (Phillip Securities), essentially at-or-below recent reference prices. The structural downside-risk flag named in the book's own plan (MS's bear-case anchor ~$180, the contingency-plan-v2 revisit line) remains the operative line, not any sell-side bear target.
-
-## 9. Recommended play
-
-**WAIT / HOLD THROUGH — do not buy before, do not sell before.** Specifically:
-- **Do not add before the print.** NVDA sits near BR's pool-weight target band already; adding into an event — even one now pricing a closer-to-average implied move — on top of an unbroken four-quarter beat streak that the market plausibly already prices in, remains exactly the kind of "it's cheaper, chase the dip" reasoning the book's NVDA contingency plan v2 (rule 4) declines to authorize without a fresh overweight case from BR.
-- **Do not trim before the print either.** No structural thesis break is on file today (no guidance cut, no confirmed Blackwell supply/demand problem, no adverse China development beyond the already-priced zero-China assumption). The Huang/Megaspeed congressional story remains unresolved headline risk, not a structural disqualifier — it is not one of the plan's named triggers and should not be treated as one absent a concrete adverse development (e.g., an export-control or subpoena action, not just a scheduling letter).
-- **The actionable item for the trader is procedural, not directional:** per the standing contingency plan, make no same-minute decision on the 11/17 print — use the next scheduled run after the ~5pm ET call to decide with a fresh full 5-analyst read, checking specifically for (a) a Data Center deceleration below the ~100%+ run rate, (b) a miss against the $108.0B ±2% guide (or the sharper ~$108.8-109B Street consensus now on file), (c) a negative China/export development, (d) a sourced Blackwell/GB300 supply or demand problem, and (e) whether NVDA has traded below the ~$180 revisit line — any one of which reopens the sizing question; none of which has fired as of this brief. Separately, watch for news on whether Huang meets the 11/11 congressional deadline (tomorrow) — purely as a headline-risk input, not a trigger.
+No pre-print action is indicated. The position is already held at essentially the account's full prior sizing (rule 20's no-new-cash instruction stands regardless of this print), and the standing contingency plan v2 already pre-commits the decision framework: no same-minute reaction to the print or the call, a fresh full 5-analyst read at the next scheduled run after the ~5pm ET call checking specifically for (a) Data Center deceleration below the ~100%+ run rate, (b) a miss against the $108.0B±2% guide (or the sharper Street consensus), (c) a negative China/export development, (d) a sourced Blackwell/GB300 supply or demand problem, and (e) whether NVDA has traded below the ~$180 revisit line (already true as of yesterday) — any one of which reopens the sizing question. None of the five has fired as of this brief. Separately, watch for any news on the Huang/Megaspeed congressional-briefing deadline (today, 11/11) purely as a headline-risk input, not a trigger in itself.
 
 ## Risk note (JPM house stance)
 
-This remains the single largest position in a small account heading into an event the options market now prices as roughly historically average in size (±7.9%, down from the prior ±8.7-8.8% read) — a modest de-escalation from the last brief, not a green light. The beat-but-sell-off pattern (May 2026) is real and recent, and NVDA's own August print shows it can also blow through a modest implied move to the upside. Layer onto that an unresolved congressional-scrutiny story whose own internal deadline (11/11) lands the day before this brief's next scheduled check, and whose requested briefing (11/18) lands the day after the print — a coincidence of timing, not a known catalyst, but one worth having on the radar heading into next week. Holding through this print remains a conscious risk the trader is choosing to take by following its own pre-committed framework, not a risk-free default.
+This remains the single largest position in a small account heading into a binary event the options market prices at roughly historically-average size (±7.9%). The empirical record over the last five reports argues for real caution: **four of five beats were followed by the stock falling or giving back its gains, including one -9%+ two-day drawdown (Feb 2026) on a print widely described as a historic beat.** Only the most recent print broke that pattern. Holding through this print is a conscious, pre-committed risk choice, not a free lunch — the trader is betting that the framework that correctly avoided reactive mistakes on four prior binary events (OMCL twice, XLE, NVDA's own August print) will continue to outperform a same-minute reaction, not that this specific print is low-risk. Earnings are exactly where undiversified, concentrated small accounts get hurt; this brief's job is to make that risk explicit, not to talk the trader out of its own standing framework.
 
 ---
 
-*Prepared by the JPM Earnings Analyzer persona. Next scheduled coverage check: every run, per the persona's self-feeding mandate. Sources for figures above come from WebSearch aggregation (MarketBeat, Benzinga, EarningsWatcher, eciks.org, OptionsAI/ApexVol, Fintool/S&P Global, Shacknews, Barchart, Wedbush/Evercore/Loop Capital/KeyBanc/BofA/Citi/JPMorgan sell-side notes, congressional letter reporting) — third-party, not primary-sourced NVIDIA filings; flagged inline wherever sources disagreed. One stale item explicitly screened out this run: a "JPMorgan-Pinto AI correction" story that surfaced in search is dated November 2025 (last year's Q3 FY26 cycle), not current — not cited above.
+*Prepared by the JPM Earnings Analyzer persona. Next scheduled coverage check: every run, per the persona's self-feeding mandate. Sources for figures above come from WebSearch aggregation (MarketBeat, Benzinga, eciks.org, EarningsWatcher, ApexVol, Rex Shares/yfinance, SiliconANGLE, Wccftech, Fintool, Insider Monkey, Nasdaq/Zacks, 247wallst, Pepperstone, Upstox, AlphaStreet, tftc.io/implicator.ai/zerohedge on the congressional story) — third-party, not primary-sourced NVIDIA filings; conflicting figures flagged inline wherever sources disagreed rather than silently picking one. MRVL's earnings date (11/26 vs. 12/1) remains genuinely unresolved across sources and is noted for next run, not treated as settled.

@@ -1,8 +1,8 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
 
-**Date: 2026-11-12 (Thursday), ~09:17 ET** (14:14:31 UTC scheduler fire time, converted; ET = UTC-5). **HEADLINE — CONFIRMED, MATERIAL: Jensen Huang has resigned as Nvidia's President and CEO, effective immediately; CFO Colette Kress is interim CEO.** This is corroborated by CNBC, CNN, Investing.com, Yahoo Finance, and IBTimes, all dated today (11/12), describing a company announcement — not the unresolved "board weighing removal" speculation that state.md's 08:45 ET pre-market snapshot and all four other analyst reports on file (JPM 08:18 ET, GS 08:42 ET, BW/BR 11/11-dated) were still working from. **None of those five sources reflects the actual resignation — this desk's WebSearch found it first, this run.** Per the trader's own standing NVDA earnings contingency plan v2, this is disqualifier (f) ("Huang's resignation, removal, or any board action limiting his authority") **actually firing**, not merely approaching, for the first time. This desk does not make the trade decision, but flags it as the single highest-priority item for every other desk and the trader's next run.
+**Date: 2026-11-13 (Friday), ~09:56 ET** (14:56 UTC scheduler fire time, converted; ET = UTC-5). **This is the full ground-up NVDA rebuild flagged as mandatory in the 11/12 ~09:17 ET report** (which only bounded the governance shock with a WACC-only adjustment on the stale 9/23 cash-flow schedule). Revenue, margin, and WACC are all rebuilt this run. OMCL/XLE/GEHC are brief price-rolls — no fresh fundamental data found for any of the three (dedicated WebSearches this run hit the same chronic same-day dateline wall every desk on this book has hit all week; nothing reliably dated past 11/6 (OMCL) or 11/9 (GEHC), nothing at all for Brent/XLE or the 10-year Treasury past 10/15).
 
-*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC) per state.md's 2026-11-12 ~08:45 ET pre-market snapshot (the freshest on file, itself now stale relative to the resignation news that broke after it), plus a brief carryforward note on AVGO (GS's #1 not-yet-vetted idea; GS's own rank-1 pick, OMCL, is already held and covered below).*
+*Persona: VP-level valuation coverage for the "Claude Robinhood Trader" experiment. Coverage this run: the six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC), plus GS's current #1-ranked screener pick — which is OMCL, already a holding and already covered below, so no separate unheld name requires a fresh build this run. AVGO (GS's #6, a standing not-yet-rule-6-ready idea) gets a one-line carryforward for continuity.*
 
 ---
 
@@ -10,82 +10,134 @@
 
 | Ticker | Current Price | Fair Value | Gap | Verdict |
 |---|---|---|---|---|
-| **NVDA** (held) | **$158.38** (state.md 08:45 ET pre-market, Robinhood-verified — **predates the resignation announcement**; multiple sources report the stock fell further, one citing "more than 10%" incremental, on the resignation itself, but no fresh verified quote found this run) | **Base (pre-crisis) $192.0/sh** (WACC 11.59%, 9/23 build, unchanged) vs. **this desk's governance-stress estimate ~$115-125/sh** (WACC stressed to ~13.5-14.0%, see §1) | **+9.70%** on the stale base case; **roughly -20% to -27%** against the stress case at the last verified price (and likely narrower still if the post-resignation price is in fact meaningfully lower) | **VERDICT CHANGED — no longer a clean "undervalued."** The stale 9/23 base case should not be read as this desk's live opinion through a confirmed CEO departure. A full ground-up rebuild is now mandatory, not merely overdue. |
-| **OMCL** (held) | **$35.70** (state.md 08:45 ET pre-market, illiquid bid/ask, last-trade basis per rule 4) | **$46.75/sh base** (unchanged, 10/29 rebuild; bull $55.27, bear $35.24; WACC 8.43%/9.43%/10.43%) | **+30.9%** base | **UNDERVALUED at base — cushion to the $35.24 bear floor ~+1.31%, still this sheet's tightest-watched line, essentially unchanged.** |
-| **XLE** (held) | **$64.13** (state.md 08:45 ET pre-market) | **$58.5/sh base** (unchanged, 11/6 oil-attribution rebuild; bull $66.3, bear $47.0; WACC ~11.0%) | **-9.02%** | **OVERVALUED at base, widening further** — no fresher Brent print found; price keeps rising against an un-rebuilt fair value. |
-| **GEHC** (held) | **$82.95** (state.md 08:45 ET pre-market) | **$75.0/sh base** (unchanged, 11/2 10-Q correction; bull $98.5, bear $44.4; WACC 7.0%/8.0%/9.0%) | **-9.56%** | **OVERVALUED at base, essentially flat vs. yesterday's -10.33%.** |
-| **VTI** | $371.76 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund) |
-| **VXUS** | $82.69 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund) |
-| **AVGO** (unheld — GS's #1 not-yet-vetted idea, carryforward) | n/a this run | **$365.5/sh base** (11/11 first build, unchanged) | n/a | **No fresher data this run — carried forward from yesterday's first build. Still not rule-6 sizing-ready** (see 11/11 report in git history for full build). GS's actual rank-1 pick is OMCL, already held and covered above. |
+| **NVDA** (held) | **$163.58** (state.md 11/12 ~14:37 ET, last verified Robinhood pull on file; GS's 09:45 ET addendum cites an unverified ~$169-170 premarket bounce today — not adopted without a live confirmation) | **Base (full rebuild) $119/sh** (WACC 13.0%, g 3.0%) \| Bull $209/sh (WACC 11.75%, g 3.0%) \| Bear $58/sh (WACC 14.6%, g 2.5%) | **Base: -27.3% (price above fair value)**; Bull: +27.6% (price below fair value); Bear: -64.9% | **VERDICT: OVERVALUED at base case — a reversal from yesterday's "modestly overvalued to fairly valued" WACC-only bound.** Once growth and margin assumptions are stressed alongside WACC (not WACC alone), the post-resignation selloff looks like a partial, not full, repricing of the governance/execution risk. See §1. |
+| **OMCL** (held) | **$35.22** (state.md 11/12 ~14:37 ET) | **$46.75/sh base** (unchanged, 10/29 rebuild; bull $55.27, bear $35.24; WACC 9.43%/8.43%/10.43%) | **+32.75%** base | **UNDERVALUED at base — price is $0.02 (-0.06%) through the $35.24 bear floor on a last-trade basis, the lowest reading yet on this line.** Per the standing precedent (resolved HOLD on every prior touch/graze this week), this is not treated as a fresh structural break absent a sustained close below the line. |
+| **XLE** (held) | **$64.705** (state.md 11/12 ~14:37 ET) | **$58.5/sh base** (unchanged, 11/6 oil-attribution rebuild; bull $66.3, bear $47.0; WACC ~11.0%) | **-9.59%** | **OVERVALUED at base, widening slightly further from yesterday's -9.02%.** No fresher Brent print found; this remains the single most overdue rebuild on this sheet (now 7 days since the last one, per GS's own flag). |
+| **GEHC** (held) | **$82.195** (state.md 11/12 ~14:37 ET) | **$75.0/sh base** (unchanged, 11/2 10-Q correction; bull $98.5, bear $44.4; WACC 7.0%/8.0%/9.0%) | **-8.76%** | **OVERVALUED at base, essentially flat vs. yesterday's -9.56%.** |
+| **VTI** | $373.155 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund) |
+| **VXUS** | $82.695 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund) |
+| **AVGO** (unheld — GS's #6, standing not-yet-rule-6-ready idea, carryforward) | ~$293.69-301.58 (GS's 11/5-11/6 dated cluster, no fresher data found by this desk this run) | **$365.5/sh base** (11/11 first build, unchanged) | ~+21-24% at GS's price reference | **No rebuild this run — carried forward.** GS's actual rank-1 pick is OMCL, already held and covered above; AVGO remains a secondary idea, still not rule-6 sizing-ready. |
 
 **Bottom line for the trader:**
 
-1. **The NVDA resignation is confirmed across five independent outlets dated today, not a single-source leak.** CNBC, CNN, Investing.com, Yahoo Finance, and IBTimes all report: Nvidia announced Jensen Huang resigned as President, CEO, and board member effective immediately; CFO Colette Kress becomes interim CEO while the board searches internally and externally for a permanent successor. The affair/foreign-intelligence-target allegations that triggered the board's investigation are the reported context, not something this desk can independently verify — but the resignation and interim-CEO appointment themselves are corroborated by multiple mainstream outlets, which this desk treats as a different and much higher evidentiary bar than the "board is weighing it" reporting from earlier this week.
-2. **This fires the named structural disqualifier in the trader's own contingency plan v2** — "Huang's resignation, removal, or any board action limiting his authority." That plan explicitly calls for a same-day (not same-minute) full 5-analyst re-read once this fires. As of this report, this desk believes it is the first to confirm it; the trader's own next run should verify independently via Robinhood/Gmail/a fresh search before acting, consistent with rule 3 (no same-minute decisions) and rule 4 (don't trust a single source without a second confirming one — now satisfied).
-3. **This desk's valuation discipline requires flagging that the 9/23-vintage $192.0 base fair value is no longer a reliable read of NVDA's intrinsic value.** A DCF's output is a function of its inputs, and "33-year founder-CEO abruptly gone, interim leadership, permanent-successor search underway, five days before a Q3 print the new CEO will have to deliver" is exactly the kind of key-person/execution-risk event a WACC is supposed to price — not something a stale build captures. See §1 for a first-pass stress estimate; a full rebuild (new WACC, re-examined growth assumptions given potential execution risk during the transition, and the 11/17 print itself) should happen at the next cycle, not be deferred further.
-4. **This desk is not calling NVDA a sell.** A confirmed leadership change is a real negative catalyst, but it is not automatically a thesis-ending one for a company with Nvidia's moat, backlog, and bench (Kress has been CFO since 2013 and is a known, credible operator, not an unknown placeholder) — the stress estimate in §1 is a bound on how far a defensible WACC repricing could reasonably move fair value, not a prediction of where the stock will trade. The honest read is: **this name has gone from "clean undervalued" to "genuinely uncertain, pending a rebuild," and that uncertainty itself is the finding.**
-5. **OMCL, XLE, and GEHC are unchanged price-rolls** — no fresher fundamental or price data found for any of the three this run (dedicated WebSearches again hit the same chronic same-day dateline wall). OMCL's bear-case cushion (~1.31%, last-trade basis) remains the second-most-watched number on this sheet, now a distant second to NVDA.
-6. **Rate and oil inputs unchanged.** 10-year Treasury held at 5.10% (no fresher reliably-dated print found); Brent held at the 11/6 rebuild's ~$98.77 reference (dedicated search again found only the stale 11/4-11/5 sub-$95-to-$96 range, nothing for November 12 specifically).
+1. **The headline finding this run: a full ground-up NVDA rebuild — not just a WACC bump on the old schedule — lands on a base case of ~$119/sh, which is *below* the current price even after Thursday's governance-driven selloff.** Yesterday's first-pass stress estimate ($112-125/sh) was built by taking the stale 9/23 cash-flow schedule and only widening the discount rate. This run rebuilds revenue growth and operating-margin assumptions from scratch to reflect the leadership transition, and the base case lands almost exactly inside yesterday's WACC-only bound ($119 vs. the $112-125 range) — a useful cross-check that the WACC adjustment alone was already capturing most of the reasonable stress, not an argument that the market has now fully priced the event. **Read plainly: on this desk's base-case assumptions, NVDA is overvalued by about 27% at the last verified price, not fairly valued.**
+2. **The range is wide and the spread itself is the honest finding, not a false-precision point estimate.** Bull case ($209/sh, a smooth Kress transition with growth/margins holding close to the pre-crisis trajectory) still shows NVDA undervalued by ~28%. Bear case ($58/sh, a leadership vacuum that visibly dents growth and margins) shows it overvalued by ~65%. **This desk's practical lean is toward the base/bear half of that range** given three unresolved facts stacking in the same direction: (a) Kress runs her first call as CEO in 4 days with the Street's own consensus (~$104B revenue, ~$2.35 EPS per this run's research) already sitting *below* the company's own $108B±2% guidance — a setup for a miss-the-guide print even before any transition-specific wobble; (b) a congressional hearing involving Huang personally is dated one day after the print (11/18), an unresolved overhang that did not exist when the 9/23 base case was built; (c) a sector-wide chip selloff (SOX -12.25% on 11/5, per GS's addendum) means NVDA's governance risk is compounding on top of, not instead of, a broader AI-infrastructure de-rating.
+3. **This desk is still not calling NVDA a sell, and does not place trades.** The bull case is not a fringe scenario — Kress is a 13-year insider, not an unknown, and the moat/backlog facts this desk has repeated all week remain true. What has changed is that a full rebuild, not just a discount-rate bound, now puts the *base* case on the overvalued side of the ledger. BR's own 10%→7% target cut (11/12) is a sizing decision in the same direction as this finding, for what it's worth as a cross-check, though BR and this desk arrived at it independently and through different mechanics.
+4. **OMCL's bear-case line has now been traded through on a last-trade basis for the first time (price $35.22 vs. floor $35.24, -0.06%)** — flagged plainly, but per the standing precedent (six prior touches/grazes this week, every one resolved HOLD absent a sustained close below the line, most recently BW's 13:41 ET report explicitly recommending exactly this treatment), this desk does not treat a one-day, penny-level graze as a structural break on its own. If OMCL *closes* a session below $35.24, that would be this desk's first genuine bear-case confirmation and should be treated with NVDA-escalation-level urgency, consistent with BW's framing.
+5. **XLE remains this sheet's most overdue rebuild — now 7 days stale relative to Brent**, which this desk again could not refresh (WebSearch found nothing dated past 11/9 for Brent or XLE specifically). Recommend prioritizing this ahead of GEHC next cycle, since XLE's gap has now widened for three consecutive reports on price action alone.
+6. **GEHC is an unchanged, essentially-flat price-roll.** No fresh fundamental data found; BR's 7.5%/+3.5pp drift-trim trigger remains ~1.4pp away per the team's last reading, unchanged.
+7. **Rate and oil inputs unchanged** — 10-year Treasury held at 5.10% (10/15-dated, still the freshest reliably-dated print this desk can find, despite GS's qualitative "pushing above 5%" framing, which this desk could not independently pin to a dated figure); Brent held at the 11/6 rebuild's ~$98.77 reference.
 
 No trade recommended off this report (research-only mandate, as always).
 
 ---
 
-## 1. NVDA — CONFIRMED CEO resignation; stale base case retired pending full rebuild; first-pass governance-stress estimate
+## 1. NVDA — full ground-up rebuild (revenue, margin, and WACC all rebuilt)
 
-**What changed, and the evidentiary bar.** Earlier this week's story was "board investigating an alleged foreign-intelligence-linked affair, no finding yet, company says Huang stays CEO without interruption." As of today, multiple mainstream outlets (CNBC, CNN, Investing.com, Yahoo Finance, IBTimes) report Nvidia's board has announced Huang's resignation as President, CEO, and board member, effective immediately, with CFO Colette Kress named interim CEO pending a permanent search. This is a company-announced fact pattern reported by several independent newsrooms the same day — a materially higher confidence level than the single-source "preparing to oust" reporting this desk and the rest of the team were working from as recently as this morning. This desk did **not** find a primary-source Nvidia 8-K or press release directly (WebSearch access only, no filing database), so it is relying on the convergence of multiple reputable outlets rather than a single primary document — flagged as this build's one real evidentiary caveat, but a convergence of five independent outlets is treated here as sufficient to act on for valuation purposes, distinct from the single-source VideoCardz item found earlier in the same search session (which this desk does not rely on alone).
+### 1a. Why a full rebuild, and why now
 
-**Why this desk will not simply carry forward the 9/23 $192.0 base case unchanged.** A DCF is only as good as its inputs. The 9/23 build's WACC (11.59%) and growth path were set under a "Huang as stable founder-CEO" assumption with no leadership-transition risk priced in at all. That assumption just broke. Continuing to quote $192.0 as this desk's live fair value, with no adjustment, would misrepresent this desk's own analysis — exactly the kind of stale-model risk this persona's mandate exists to catch in others' work, now showing up in its own.
+Yesterday's report flagged, correctly, that a WACC bump alone on a stale cash-flow schedule was a stop-gap, not a real answer — a DCF's growth and margin assumptions matter at least as much as its discount rate, and neither had been touched since 9/23, before the leadership transition existed as a fact. This run does the full job: a fresh 5-year revenue path, a fresh operating-margin path, and a WACC rebuilt from CAPM rather than just bumped by a judgmental add-on.
 
-**First-pass governance-stress estimate (not a full rebuild — a bound, to be replaced by a proper rebuild next cycle):**
+**What this desk could and could not verify this run.** A dedicated research pass hit the same chronic dateline wall every desk has hit all week: no reliably-dated 11/12 or 11/13 NVDA price was found independently (WebSearch returned a mix of stale 11/4-dated figures and undated numbers spanning $170-220 — not usable). This desk defers to **state.md's own last live Robinhood pull ($163.58, 11/12 ~14:37 ET)** as the authoritative current price, consistent with rule 4 (don't substitute a worse, undated WebSearch figure for a better, dated internal one). GS's 09:45 ET addendum cites an unverified ~$169-170 premarket bounce today; this desk notes it but does not adopt it without a live confirmation, since it is a secondhand WebSearch figure, not a Robinhood pull.
 
-| Scenario | WACC | Basis | Fair Value/sh (illustrative) |
+**Consensus for the 11/17 print**, per this run's research: Benzinga and Motley Fool converge on **revenue ~$103.9-104.0B, EPS ~$2.34-2.37** — notably *below* the company's own guided **$108.0B ±2% / GM 74.0% ±50bps** from the 8/27 call. That gap between Street consensus and company guidance, four days before the print, is itself informative: either the Street has already priced in some transition-related conservatism, or a beat against a lowered bar is the more likely outcome than a miss against the official guide. This desk treats it as a genuine open question, not a tell in either direction.
+
+### 1b. Five-year revenue, margin, and FCF schedule (all three scenarios)
+
+**Starting point (FY2027, current fiscal year, ending Jan 2027):** Q1 $81.62B (actual) + Q2 $96.22B (actual) + Q3 ~$104B (Street consensus, below the $108B guide) + Q4 ~$120B (desk estimate, assuming the historical Q4 seasonal step-up continues at a tempered pace) ≈ **$402B FY2027 total**, rounded to **$400B** as the base-year anchor for all three scenarios below. This is a desk estimate for the unreported Q3/Q4 figures, not a verified actual — flagged explicitly as the schedule's first assumption.
+
+| Scenario | FY28 growth | FY29 growth | FY30 growth | FY31 growth | FY32 growth | Op margin path (FY28→FY32) |
+|---|---|---|---|---|---|---|
+| **Bull** (smooth Kress transition, moat/backlog thesis intact, growth/margin stay close to the pre-crisis trajectory) | +55% | +32% | +20% | +13% | +8% | 63% → 63% → 64% → 64% → 64% |
+| **Base** (moderate deceleration + a genuine governance/transition drag on top of normal hypergrowth fade) | +42% | +25% | +15% | +10% | +6% | 61% → 59% → 58% → 57% → 56% |
+| **Bear** (visible leadership-vacuum effect: guide walk-backs, competitive/regulatory pressure compounds, China assumption worsens) | +25% | +14% | +8% | +5% | +4% | 58% → 54% → 52% → 50% → 48% |
+
+| Year (FY) | Revenue — Bull | Revenue — Base | Revenue — Bear | FCF — Bull* | FCF — Base* | FCF — Bear* |
+|---|---|---|---|---|---|---|
+| FY28 (Y1) | $620.0B | $568.0B | $500.0B | $285.2B | $227.2B | $165.0B |
+| FY29 (Y2) | $818.4B | $710.0B | $570.0B | $368.3B | $269.8B | $176.7B |
+| FY30 (Y3) | $982.1B | $816.5B | $615.6B | $441.9B | $302.1B | $178.5B |
+| FY31 (Y4) | $1,109.8B | $898.2B | $646.4B | $488.3B | $323.4B | $181.0B |
+| FY32 (Y5) | $1,198.6B | $952.1B | $672.3B | $527.4B | $333.2B | $181.5B |
+
+*FCF = unlevered free cash flow, approximated as revenue × an FCF-margin assumption (op margin less a haircut for cash taxes, rising capex intensity on data-center/foundry commitments, and working capital — the bridge is not broken out line-by-line here to keep the memo readable, but the margin haircut widens through the bear case to reflect lower-efficiency scale). FCF margins used: Bull 46%→44%; Base 40%→35%; Bear 33%→27%.
+
+### 1c. WACC rebuild (CAPM, not a judgmental bump)
+
+- **Risk-free rate: 5.10%** (held — 10/15-dated, still the freshest reliably-dated print this or any desk on this book has found; GS's "pushing above 5%" framing today is qualitative, not a dated figure this desk could independently confirm).
+- **Beta: 2.15** (this run's research converged on NVDA's reported beta clustering around ~2.2 across sources (Yahoo 5yr-monthly 2.20-2.21, GuruFocus 1.98, one risk report 2.33); this desk uses 2.15, inside that cluster).
+- **Equity risk premium: 3.0%** (desk assumption, held consistent with the methodology implied by the 9/23 base build, to keep this rebuild comparable rather than introducing a second moving part).
+- **Unstressed cost of equity ≈ 5.10% + 2.15 × 3.0% = 11.55%**, rounded to **11.6%** — consistent with (and a validation of) the 9/23 build's 11.59% base WACC.
+- **Governance/transition risk premium, added directly to the unstressed rate per scenario** (same mechanic as yesterday's first-pass bound, now applied inside a full rebuild rather than as the whole analysis):
+
+| Scenario | WACC | Terminal growth (g) |
+|---|---|---|
+| Bull | 11.75% (+15bp) | 3.0% |
+| **Base** | **13.0%** (+140bp) | **3.0%** |
+| Bear | 14.6% (+300bp) | 2.5% (reduced to reflect weaker long-run moat-durability conviction in this scenario) |
+
+**Balance-sheet inputs (flagged as this build's weakest data point):** this run's research found genuinely conflicting figures for NVDA's total debt ($12.8B-$38.9B depending on whether lease obligations are included) and market cap (pre-selloff figures only). This desk uses **net cash ≈ $25B** (cash ~$55B less debt ~$30B, a midpoint estimate) and **shares outstanding ≈ 24.3B**, both desk estimates pending a cleaner source — flagged explicitly in the assumptions section below rather than presented as verified.
+
+### 1d. DCF output
+
+| Scenario | Sum PV of FCF (Y1-5) | PV of terminal value | Enterprise value | + Net cash | Equity value | ÷ Shares (24.3B) | **Fair Value/sh** |
+|---|---|---|---|---|---|---|---|
+| Bull | $1,482.6B | $3,563.4B | $5,046.0B | +$25B | $5,071.0B | 24.3B | **$208.7** |
+| **Base** | **$1,001.0B** | **$1,862.9B** | **$2,863.9B** | **+$25B** | **$2,888.9B** | **24.3B** | **$118.9** |
+| Bear | $594.0B | $777.8B | $1,371.8B | +$25B | $1,396.8B | 24.3B | **$57.5** |
+
+### 1e. Sensitivity table — fair value per share at different WACC/g combinations (base-case cash flows held fixed)
+
+| WACC \ g | 2.0% | 3.0% | 4.0% |
 |---|---|---|---|
-| Pre-crisis base (9/23 build, now stale) | 11.59% | Founder-CEO stability assumed, no transition risk priced | $192.0 |
-| **Governance-stress, low end** | **~13.0%** (+~140bp) | A moderate key-person/execution-risk premium — Kress is a credible, long-tenured insider, not an unknown; backlog/moat intact; the main real risk is distraction/permanent-successor uncertainty into and through the 11/17 print | **~$125 (desk estimate)** |
-| **Governance-stress, high end** | **~14.0%** (+~240bp) | A larger premium if the resignation reflects deeper board/trust issues than disclosed, or if the permanent-CEO search drags and creates visible strategic drift | **~$112 (desk estimate)** |
+| 12.0% | $122.7 | $132.4 | $144.4 |
+| **13.0%** | **$111.2** | **$118.9** | **$128.2** |
+| 14.0% | $101.7 | $107.9 | $115.3 |
+| 15.0% | $93.7 | $98.7 | $104.6 |
 
-*(These two figures are this desk's own judgmental extension of the existing WACC-sensitivity convexity from the 9/23 build, not a line-by-line rebuild of the 5-year revenue/margin/FCF schedule — that full rebuild is now the top-priority item for the next MS cycle, informed by whatever the 11/17 print and the first few days of Kress's interim tenure actually show.)*
+Fair value is meaningfully sensitive to both inputs, as expected for a long-duration, high-growth name — a 300bp WACC swing (12%→15%) moves the base-case output by roughly 30%, and a 2pp g swing moves it by roughly 20%. Neither input is unusually sensitive relative to the 9/23 build; this is simply what a DCF on a name of this growth profile looks like.
 
-**Implied read against price:** at the last Robinhood-verified price ($158.38, which itself predates the resignation and is reported to have fallen further on the news), the stress-case range of ~$112-125 would put NVDA somewhere between **modestly overvalued and roughly fairly valued** — a sharp reversal from the stale base case's +9.70% "undervalued" reading, and the opposite directional conclusion from simply re-running the old model against a lower price. **This is the valuation-discipline point of this report: a falling price does not automatically mean "more undervalued" when the thing that just happened is precisely the kind of event a rational WACC repricing exists to capture.**
+### 1f. Implied read against price
 
-**What would move this desk off the stress estimate and into a real rebuild:** (a) a primary Nvidia filing or press release this desk can cite directly, (b) any detail on the board's timeline/process for naming a permanent CEO, (c) the 11/17 Q3 print itself — now the first earnings call Nvidia will run without Huang in 33 years, a genuine test of whether the business (not just the man) drives the thesis, and (d) a cleaner, verified live price than the one available via WebSearch alone (this desk has no direct Robinhood access; the trader's own next pull is the authoritative number).
+At the last verified price ($163.58): **base case implies -27.3% (overvalued)**; **bull case implies +27.6% (undervalued)**; **bear case implies -64.9% (overvalued)**. If GS's unverified ~$169-170 premarket figure holds, the base-case overvaluation gap widens slightly further (to roughly -30%), not narrows — directionally the same conclusion either way.
 
-### Key assumptions that could break this (interim) estimate
-- **Kress's "credible insider" framing is this desk's own judgment**, not a market-tested fact — an unexpectedly rocky interim period or a messy permanent-CEO search could justify a materially larger risk premium than modeled here.
-- **The affair/foreign-intelligence allegations themselves remain unverified by this desk** — if a harder national-security or export-control finding eventually surfaces (the actual investigation outcome, still pending per all prior reporting), that would be a second, separate shock beyond the leadership-transition risk priced above.
-- **The 5-year revenue/FCF schedule itself has not been touched** — only the discount rate. A genuine rebuild could move fair value in either direction depending on whether the transition is a one-time shock or produces lasting strategic drift (data-center roadmap continuity, customer-relationship risk, etc.).
-- **No confirmed verified live price was available to this desk this run** — treat the implied-gap read above as directional, not precise, until the trader's own next Robinhood pull updates it.
+### Key assumptions that could break this rebuild
 
-**Verdict: VERDICT CHANGED FROM "UNDERVALUED" TO "UNCERTAIN, PENDING REBUILD."** This is not a sell call — it is a flag that this desk's prior clean-undervaluation read no longer holds through a confirmed CEO resignation, and a full rebuild is now the top-priority item for next cycle, not an optional nice-to-have.
+- **FY2027 Q3/Q4 revenue is a desk estimate, not an actual** — Q3 reports in 4 days and could land anywhere in or outside the $104-108B Street-vs-guide range; Q4 is pure extrapolation pending any Q3 commentary.
+- **Net cash ($25B) and shares outstanding (24.3B) are both desk estimates** built on conflicting source data (debt figures ranged $12.8B-$38.9B depending on lease treatment) — this is the single weakest input in the rebuild and could move the per-share output by several dollars in either direction once a clean 10-Q figure is available.
+- **The FCF-margin haircut (op margin less capex/tax/working-capital drag) is a simplified, judgmental bridge, not a line-by-line build** — a more granular capex schedule (NVDA's own data-center and foundry capacity commitments are rising) could push FCF margins lower than modeled here in any scenario.
+- **The beta (2.15) and ERP (3.0%) are desk assumptions chosen for continuity with the 9/23 build's implied methodology, not independently re-derived from a regression this run** — if NVDA's true beta has risen further post-transition (plausible, given a widely-reported CDS-spread-widening claim this desk could not independently verify this run), the base case WACC and fair value could both move further in the bear direction than modeled.
+- **This remains a scenario range, not a point forecast** — the bull/base/bear spread ($57.5-$208.7) is wide by design, reflecting genuine two-sided uncertainty around an unresolved leadership transition, not imprecision in the arithmetic.
+
+**Verdict: OVERVALUED at base case ($119/sh vs. $163.58, -27.3%).** This supersedes yesterday's "modestly overvalued to roughly fairly valued" WACC-only bound with a fuller, if still assumption-heavy, analysis. Not a sell call — a bull case where the transition goes smoothly still shows meaningful undervaluation — but this desk's base-case read has moved further toward "overvalued" than yesterday's framing, not stayed in place. This desk does not place trades; sizing and timing remain BR's domain.
 
 ---
 
-## 2. OMCL — unchanged price-roll, bear-case cushion essentially flat
+## 2. OMCL — unchanged fundamentals; bear-case line touched through for the first time on a last-trade basis
 
-**Fundamentals unchanged since the 10/29 post-print rebuild** (base $46.75, bull $55.27, bear $35.24; WACC 9.43%/8.43%/10.43%). No fresher data found this run — a dedicated WebSearch again surfaced only the same 11/6-dated $37.34 reference seen in prior cycles, not adopted over state.md's own 08:45 ET pre-market last-trade price ($35.70) per rule 4.
+**Fundamentals unchanged since the 10/29 post-print rebuild** (base $46.75, bull $55.27, bear $35.24; WACC 9.43%/8.43%/10.43%). No fresher data found this run — research confirms the most recent dated reference remains 11/6 ($37.34-38.03 depending on source), already known and already stale.
 
 | Scenario | WACC | Fair Value/sh | Price | Gap |
 |---|---|---|---|---|
-| Bull | 8.43% | $55.27 | $35.70 | **+54.9%** |
-| **Base** | **9.43%** | **$46.75** | **$35.70** | **+30.9%** |
-| Bear | 10.43% | $35.24 | $35.70 | price is $0.46 (**+1.31%**) above the bear-case floor |
+| Bull | 8.43% | $55.27 | $35.22 | **+57.0%** |
+| **Base** | **9.43%** | **$46.75** | **$35.22** | **+32.75%** |
+| Bear | 10.43% | $35.24 | $35.22 | price is **$0.02 (-0.06%) through** the bear-case floor — the first last-trade-basis trade-through on record |
 
-**Verdict: UNDERVALUED at base case, bear-case cushion essentially unchanged from yesterday's ~1.87% reading (now ~1.31% on a pre-market last-trade basis, within the usual pre-market noise band).** Still this sheet's second most-watched line, now a distant second to NVDA's governance event. No structural break found; nothing changes this desk's standing read.
+**Verdict: UNDERVALUED at base case. The bear-case line has been touched/traded-through on a last-trade basis for the first time this run.** Per the standing precedent established over six prior touches/grazes this week (every one resolving to "no structural break, hold," most recently BW's 13:41 ET explicit recommendation that any single trade-through be treated carefully but not reflexively as a disqualifier), this desk does not treat a one-cent, single-print graze as a structural break on its own. **What would change this read: a sustained session *close* below $35.24, not another intraday graze** — that would be this sheet's first genuine OMCL bear-case confirmation and this desk would recommend treating it with the same urgency the team applied to NVDA's governance disqualifier.
 
 ---
 
-## 3. XLE — price-roll, overvaluation gap widening further, rebuild increasingly overdue
+## 3. XLE — price-roll, overvaluation gap widening further, rebuild now 7 days overdue
 
 **No fresher Brent print found this run** — the 11/6 rebuild (Brent ~$98.77, ×1.4x FCF elasticity estimate) stands unchanged: base $58.5, bull $66.3, bear $47.0, WACC ~11.0%.
 
 | Scenario | Fair Value/sh (11/6 build) | Price | Gap |
 |---|---|---|---|
-| Bull | $66.3 | $64.13 | **+3.38%** |
-| **Base** | **$58.5** | **$64.13** | **-9.02%** (widening from -7.09% yesterday) |
-| Bear | $47.0 | $64.13 | **-26.5%** |
+| Bull | $66.3 | $64.705 | **+2.47%** |
+| **Base** | **$58.5** | **$64.705** | **-9.59%** (widening from -9.02% yesterday) |
+| Bear | $47.0 | $64.705 | **-27.37%** |
 
-**Verdict: OVERVALUED at base case, modestly more so than yesterday — purely on price action, no new fundamental input.** The 1.4x Brent elasticity remains this desk's own estimate. A full from-scratch rebuild remains queued and is now meaningfully overdue — XLE has decoupled from Brent for over two weeks running per GS's own tracking.
+**Verdict: OVERVALUED at base case, modestly more so than yesterday — purely on price action, no new fundamental input.** This is now the most overdue rebuild on this sheet (7 days since the last Brent-linked refresh), with the gap widening for three consecutive reports on price drift alone. Recommend this desk prioritize XLE's rebuild next cycle, ahead of GEHC, since GEHC's gap has been comparatively flat while XLE's keeps moving away from its last-known fair value.
 
 ---
 
@@ -95,24 +147,24 @@ No trade recommended off this report (research-only mandate, as always).
 
 | Scenario | Fair Value/sh | Price | Gap |
 |---|---|---|---|
-| Bull | $98.5 | $82.95 | **+18.8%** |
-| **Base** | **$75.0** | **$82.95** | **-9.56%** (essentially flat vs. -10.33% yesterday) |
-| Bear | $44.4 | $82.95 | **-46.5%** |
+| Bull | $98.5 | $82.195 | **+19.85%** |
+| **Base** | **$75.0** | **$82.195** | **-8.76%** (essentially flat vs. -9.56% yesterday) |
+| Bear | $44.4 | $82.195 | **-46.0%** |
 
-**Verdict: OVERVALUED at base case, essentially unchanged.** No fundamental revision this run. BR's 7.5%-pool drift-trim trigger remains ~1.3-1.4pp away per the last reading on file; the trim decision itself remains BR's domain.
+**Verdict: OVERVALUED at base case, essentially unchanged.** No fundamental revision this run. BR's 7.5%-pool drift-trim trigger remains ~1.4pp away per the team's last reading on file; the trim decision itself remains BR's domain.
 
 ---
 
 ## 5. AVGO — carryforward, no rebuild this run
 
-First built 11/11 in response to GS's 4+ week rule-6 escalation (base $365.5/sh, WACC 10.5%, g 4.0%; see that report in git history for the full build). No fresher company data or price reference found this run to justify a rebuild. **GS's actual #1-ranked pick in its screener table is OMCL — already a holding, already covered above** — so AVGO remains a secondary, not-yet-vetted idea per this persona's coverage rule, still flagged as not rule-6 sizing-ready pending a cleaner share-count/net-debt re-verification and resolution of the $301.58-vs-$336.17 price discrepancy noted in the 11/11 build.
+First built 11/11 (base $365.5/sh, WACC 10.5%, g 4.0%; see that report in git history for the full build). No fresher company data found this run to justify a rebuild; price reference is GS's own 11/5-11/6 dated cluster ($293.69-301.58), not an independent WebSearch finding by this desk this run. GS's actual #1-ranked pick in its screener table is OMCL — already a holding, already covered above — so AVGO remains a secondary, not-yet-vetted idea per this persona's coverage rule.
 
 ---
 
 ## Rate and oil input note
 
-- **10-year Treasury (WACC input):** dedicated WebSearch this run again found nothing reliably dated to November 2026; stale/undated readings (4.1-4.7% range) found and **not adopted**. **Held at 5.10%, 10/15-dated**, unchanged.
-- **Brent crude (XLE input):** dedicated WebSearch this run found only the same 11/4-11/5-dated sub-$95-to-$96 range seen previously; nothing confirmed for 11/12. **Held at the 11/6 rebuild's ~$98.77 reference**, unchanged.
+- **10-year Treasury (WACC input):** dedicated WebSearch this run again found nothing reliably dated to November 2026 — one undated figure (4.736%) and one stale mid-June reading (4.42-4.47%) were found and **not adopted**. **Held at 5.10%, 10/15-dated**, unchanged.
+- **Brent crude (XLE input):** dedicated WebSearch this run found only previously-seen stale references (March/May/June 2026 datapoints), nothing for November. **Held at the 11/6 rebuild's ~$98.77 reference**, unchanged.
 
 ---
 
@@ -120,23 +172,27 @@ First built 11/11 in response to GS's 4+ week rule-6 escalation (base $365.5/sh,
 
 | Position | Avg Cost | Current Price | Unrealized | MS Verdict |
 |---|---|---|---|---|
-| NVDA | $201.40 | $158.38 (pre-resignation; likely lower now, unverified) | -21.37% | **Verdict changed — no longer clean "undervalued"; see §1. Confirmed CEO resignation, disqualifier (f) fired, full rebuild mandatory next cycle. This desk does not place the trade — flagging only.** |
-| VTI | ~$370.40 | $371.76 | +0.37% | Hold by construction |
-| VXUS | $84.13 | $82.69 | -1.71% | Hold by construction |
-| OMCL | $46.99 | $35.70 | -24.02% | Undervalued at base (+30.9%); bear-case cushion ~1.31%, tight but not fired |
-| XLE | $57.62 | $64.13 | +11.30% | Overvalued at base (-9.02%), widening on price alone |
-| GEHC | $68.69 | $82.95 | +20.76% | Overvalued at base (-9.56%), essentially flat |
-| **AVGO (unheld)** | n/a | n/a this run | n/a | Carryforward from 11/11 first build; not rule-6 sizing-ready |
+| NVDA | $201.40 | $163.58 | -18.78% | **Full rebuild complete this run — OVERVALUED at base case ($119/sh, -27.3%); undervalued only in the bull (smooth-transition) scenario. See §1.** |
+| VTI | $370.40 | $373.155 | +0.74% | Hold by construction |
+| VXUS | $84.13 | $82.695 | -1.71% | Hold by construction |
+| OMCL | $46.99 | $35.22 | -25.05% | Undervalued at base (+32.75%); bear-case floor touched-through by $0.02 on a last-trade basis, not treated as a structural break absent a sustained close below it |
+| XLE | $57.62 | $64.705 | +12.31% | Overvalued at base (-9.59%), widening on price alone; most overdue rebuild on the sheet |
+| GEHC | $68.69 | $82.195 | +19.66% | Overvalued at base (-8.76%), essentially flat |
+| **AVGO (unheld)** | n/a | ~$293.69-301.58 (GS reference) | n/a | Carryforward from 11/11 first build; not rule-6 sizing-ready |
 
-This desk does not place trades or touch Robinhood — research only, per mandate. Sizing, DCA-gate mechanics, and any overweight/trim case remain BR's domain; structural-break risk framing remains BW's. **The one action item this desk explicitly recommends: the trader's next run should independently re-verify the NVDA resignation (via Robinhood news/quote behavior and/or a fresh search) before treating it as acted-upon fact, consistent with rules 3 and 4 — this desk's WebSearch-only sourcing is not a substitute for that live check.**
+This desk does not place trades or touch Robinhood — research only, per mandate. Sizing, DCA-gate mechanics, and any overweight/trim case remain BR's domain; structural-break risk framing remains BW's. **This desk's one explicit action item: NVDA's base case has moved from yesterday's "modestly overvalued to roughly fairly valued" bound to a clearer "overvalued at base, undervalued only if the transition goes smoothly" read once growth and margins are rebuilt alongside WACC — worth the team weighing against BR's existing 7% target ahead of Tuesday's print, not treated as a new, independent signal in isolation.**
 
 ---
 
 ## Sources
 
-- NVDA resignation (primary finding this run): WebSearch ("Nvidia Jensen Huang board removal decision November 12 2026") surfaced a single-source VideoCardz claim alongside multiple "no decision yet" pieces — **not relied upon alone**; a follow-up WebSearch ("Nvidia Colette Kress interim CEO Jensen Huang resigns Reuters") returned independent corroboration from CNBC (cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html), CNN (cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns), Investing.com (investing.com/news/company-news/nvidia-ceo-jensen-huang-resigns-colette-kress-named-interim-93CH-5021973), Yahoo Finance, and IBTimes, all dated 11/12 and describing the same resignation/interim-CEO fact pattern — this desk's confidence rests on that convergence, not any single outlet.
-- NVDA price: state.md's 2026-11-12 ~08:45 ET Robinhood-verified pre-market pull ($158.38) — the freshest figure this desk has access to; a WebSearch for a live post-resignation NVDA quote ("NVDA stock price drop after Huang resignation today percent") found only qualitative reports of a further decline ("plunged more than 10%" per one source), no precise verified figure — flagged, not adopted, per this desk's own sourcing discipline.
-- 10-year Treasury (DGS10): dedicated WebSearch this run found nothing dated to November 2026; held at the 5.10%, 10/15/2026-confirmed reference.
-- Brent crude: dedicated WebSearch this run found only the previously-seen 11/4-11/5-dated sub-$95-to-$96 range; carried forward from the 11/6 oil-attribution rebuild.
-- OMCL, XLE, GEHC prices: state.md's 2026-11-12 ~08:45 ET pre-market Robinhood snapshot (OMCL $35.70 last-trade basis, bid/ask too wide to use per rule 4; XLE $64.13; GEHC $82.95); dedicated WebSearches for each found nothing fresher than previously-seen stale references (OMCL 11/6 $37.34; GEHC undated/stale; XLE 10/26 close).
-- Internal: trading-experiment/state.md (2026-11-12 ~08:45 ET pre-market snapshot and NVDA earnings contingency plan v2 escalation addendum), analysts/gs-stock-screener.md (2026-11-12 ~08:42 ET), analysts/jpm-earnings-analyzer.md (2026-11-12 ~08:18 ET), analysts/bw-risk-assessment.md and analysts/br-portfolio-builder.md (both 11/11-dated, freshest on file for those two desks); this desk's own 11/6 price-roll/XLE oil-attribution rebuild, 10/29 OMCL rebuild, 11/2 GEHC equity-bridge correction, 9/23 NVDA build (now retired pending rebuild, see §1), and 11/11 AVGO first build (all git history where applicable).
+- NVDA price: state.md's 2026-11-12 ~14:37 ET last verified Robinhood pull ($163.58) — the freshest figure this desk has direct access to; a dedicated WebSearch for a live 11/13 quote found only a stale 11/4-dated figure ($200.13, clearly pre-selloff) and undated numbers spanning $170-220 — **not adopted**. GS's 09:45 ET addendum's ~$169-170 premarket figure noted but not adopted (secondhand, unverified by this desk).
+- NVDA Q3 FY2027 consensus: this run's WebSearch (Benzinga, Motley Fool) converging on ~$103.9-104.0B revenue / ~$2.34-2.37 EPS, against the company's own 8/27-call guide of $108.0B±2%/GM 74.0%±50bps.
+- NVDA beta: this run's WebSearch across Yahoo Finance (5yr monthly, 2.20-2.21), GuruFocus (1.98), and one risk-report citation (2.33); this desk used 2.15.
+- NVDA balance-sheet inputs (net cash, shares outstanding): this run's WebSearch found materially conflicting debt figures ($12.8B-$38.9B) and only pre-selloff market-cap references — both net cash (~$25B) and shares outstanding (~24.3B) are desk estimates pending a cleaner source, flagged explicitly in §1's assumptions.
+- 10-year Treasury (DGS10): dedicated WebSearch this run found nothing reliably dated to November 2026; held at the 5.10%, 10/15/2026-confirmed reference.
+- Brent crude: dedicated WebSearch this run found only stale March/May/June 2026 datapoints; carried forward from the 11/6 oil-attribution rebuild.
+- OMCL price: state.md's 2026-11-12 ~14:37 ET pull ($35.22); WebSearch found nothing fresher than the already-known 11/6 $37.34-38.03 range.
+- GEHC price: state.md's 2026-11-12 ~14:37 ET pull ($82.195); WebSearch's most recent dated reference remains Fox Business's 11/9 close ($82.38), consistent, no material gap.
+- XLE price: state.md's 2026-11-12 ~14:37 ET pull ($64.705); no fresher Brent/XLE-specific print found.
+- Internal: trading-experiment/state.md (2026-11-12 ~14:37 ET snapshot, the freshest full live portfolio read on file as of this run), analysts/gs-stock-screener.md (2026-11-13 ~09:20/09:45 ET), analysts/jpm-earnings-analyzer.md (2026-11-13 ~09:25 ET), analysts/bw-risk-assessment.md (2026-11-12 ~13:41 ET, freshest on file for that desk), analysts/br-portfolio-builder.md (2026-11-12 ~15:14 ET, freshest on file for that desk); this desk's own 9/23 NVDA build (retired, superseded by §1's full rebuild this run), 11/6 XLE oil-attribution rebuild, 10/29 OMCL rebuild, 11/2 GEHC equity-bridge correction, and 11/11 AVGO first build (all git history where applicable).

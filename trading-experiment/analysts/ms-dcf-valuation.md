@@ -1,6 +1,8 @@
 # MS DCF Valuation — Investment Banking Valuation Memo
 
-**Date: 2026-11-18 (Wednesday), ~09:16 ET** (14:14 UTC run-fire time, converted; ET = UTC-5). **This is the mandatory full ground-up NVDA rebuild**, promised in the 11/17 report for "the first run after tonight's print," and now triggered by state.md's own 11/18 ~08:38 ET entry naming this the single highest-priority task for the team. Persona file re-read fresh this run — unchanged since last cycle. Coverage this run per the persona's self-feeding rule: (1) all six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC); (2) GS's current #1-ranked pick is **NVDA** — already a holding, already rebuilt below, so no separate unheld build is required. AVGO (GS's #6, a standing not-rule-6-ready idea, not GS's #1) gets a one-line carryforward only, consistent with the persona's coverage rule.
+**Date: 2026-11-19 (Thursday), ~09:14 ET** (14:14 UTC run-fire time, converted; ET = UTC-5 in November). **This is an update cycle, not a full rebuild** — persona file re-read fresh this run, unchanged since last cycle (ms-dcf-valuation.md persona instructs: "if a name was fully valued in your previous report and nothing material changed, update the numbers briefly rather than rebuilding from scratch"). Coverage per the persona's self-feeding rule: (1) all six current holdings (NVDA, VTI, VXUS, OMCL, XLE, GEHC); (2) GS's current #1-ranked pick is **NVDA** — already a holding, already covered, so no separate unheld build is required this run (AVGO, GS's #6, is not GS's #1 — carryforward only, consistent with last cycle).
+
+**One substantive change this run: the NVDA risk-free-rate input is finally re-pointed.** GS's 11/19 ~08:4x ET report explicitly flagged (for the second cycle running) that this desk's NVDA WACC still carries the stale ~4.87% Rf rather than the team's now-adopted 5.12% figure (BW's 11/16 four-source-corroborated read, BR-adopted per its 11/18 ~15:13 ET report). That gap is closed below by re-pointing WACC off this report's own standing sensitivity grid — a legitimate "update the numbers" move, not a fundamentals rebuild, since nothing about NVDA's cash-flow path has changed since 11/18's post-print rebuild.
 
 ---
 
@@ -8,177 +10,121 @@
 
 | Ticker | Current Price | Fair Value | Gap | Verdict |
 |---|---|---|---|---|
-| **NVDA** (held) | **~$160.11** (state.md 11/18 ~08:38 ET pre-market read, +3.0% vs. 11/17's $155.46 close; this desk has no direct Robinhood access, defers to the trader's freshest internal pull per rule 4) | **Base $159.2/sh** (full rebuild — WACC 12.72%, g 3.0%) \| Bull $302.1/sh (WACC 11.47%) \| Bear $57.5/sh (WACC 14.50%) | **Base: -0.6%**; Bull: +88.7%; Bear: -64.1% | **VERDICT: ROUGHLY FAIRLY VALUED at base case — a genuine re-rating from last week's -22.2% "overvalued" read, driven entirely by the actual print flowing through a rebuilt cash-flow base, not by any loosening of the WACC/risk framework.** See §1. |
-| **OMCL** (held) | **$34.00** (11/17 official close, freshest dated figure found; today's search again hit the chronic stale-dateline wall) | **$46.75/sh base** (unchanged, 10/29 rebuild) \| Bull $55.27 \| Bear $35.24 | **+37.5%** base | **UNDERVALUED at base — and 11/17 produced a fresh sub-floor close ($34.00, below the $35.24 bear line), the sixth live test of this mechanism, resolved HOLD per state.md (no structural cause found).** See §2. |
-| **XLE** (held) | **$63.32** (trader 11/17 ~14:37 ET pull) | **$58.5/sh base** (11/6 build, now **12 days stale** — no fresher Brent print found again this run) | **-7.6%** | **OVERVALUED at base, unchanged in substance.** Still this sheet's single most overdue rebuild, a flag now repeated for a fourth consecutive report. See §3. |
-| **GEHC** (held) | **$82.54** (trader 11/17 ~14:37 ET pull) | **$75.0/sh base** (unchanged, 11/2 build) | **-9.1%** | **OVERVALUED at base, flat price-roll.** See §4. |
-| **VTI** | $363.58 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund) |
-| **VXUS** | $80.61 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund) |
-| **AVGO** (unheld, carryforward — not GS's #1, no rebuild required this run) | Data-quality flag persists per GS; last adopted reference $332.10 (10/16 close) | $365.5/sh base (11/11 build, unchanged) | ~+10.0% at the $332.10 reference | **No rebuild this run — GS's actual #1 pick is NVDA (already held, covered above).** |
+| **NVDA** (held) | **$152.67** (state.md 11/19 ~08:37 ET premarket read, +1.13% vs. 11/18's $150.96 close; this desk has no direct Robinhood access, defers to the trader's freshest internal pull per rule 4) | **Base $155.2/sh** (Rf re-pointed 4.87%→5.12%, WACC 12.72%→12.97%, read off this report's own standing sensitivity grid) \| Bull ~$294.5/sh (WACC ~11.72%) \| Bear ~$56.1/sh (WACC ~14.75%) | **Base: +1.7%**; Bull: +92.9%; Bear: -63.3% | **VERDICT: ROUGHLY FAIRLY VALUED at base case, essentially unchanged in substance from 11/18's -0.6% read — closing the Rf gap moves fair value down modestly, and the stock's own modest premarket gain moves the gap back toward flat.** See §1. |
+| **OMCL** (held) | **$34.66** (11/18 official close; 11/19 premarket again too illiquid to use per rule 4, consistent with every prior run) | **$46.75/sh base** (unchanged, 10/29 rebuild) \| Bull $55.27 \| Bear $35.24 | **+34.9%** base | **UNDERVALUED at base — and still $0.58 (-1.65%) below MS's bear-case floor, the second consecutive sub-floor close (11/17 $34.00, 11/18 $34.66), resolved HOLD per state.md with no structural cause found across seven-plus live tests of this line.** See §2. |
+| **XLE** (held) | **$61.65** (trader 11/19 ~08:37 ET premarket pull) | **$58.5/sh base** (11/6 build, now **13 days stale** — no fresher Brent print found again this run) | **-5.1%** | **OVERVALUED at base, unchanged in substance.** Still this sheet's single most overdue rebuild, a flag now repeated for a fifth consecutive report. See §3. |
+| **GEHC** (held) | **$83.66** (11/18 official close) | **$75.0/sh base** (unchanged, 11/2 build) | **-10.3%** | **OVERVALUED at base, flat price-roll.** BR's 7.5%-pool drift-trim trigger (~1.08pp away, the book's narrowest live gate) remains the operative mechanism here, not this desk's domain. See §4. |
+| **VTI** | $362.78 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund) |
+| **VXUS** | $79.43 | N/A | N/A | **HOLD BY CONSTRUCTION** (diversified index fund) |
+| **AVGO** (unheld, carryforward — not GS's #1 this cycle, no rebuild required) | Data-quality flag persists per GS, now a seventh-plus consecutive cycle; last adopted reference $332.10 (10/16 close) | $365.5/sh base (11/11 build, unchanged) | ~+10.0% at the $332.10 reference | **No rebuild this run — GS's actual #1 pick is NVDA (already held, covered above).** |
 
 **Bottom line for the trader:**
 
-1. **NVDA's base case moved from -22.2% (overvalued) to essentially flat, on the real numbers.** Revenue $115.8B actual Q3 + $130B±3% Q4 guide replaced stale Street-consensus placeholders; Data Center accelerated to +110% YoY rather than decelerating. That alone is worth roughly +30% of fair value per share. The governance/legal-risk WACC premium was *not* loosened to produce this result — if anything it was nudged slightly wider (bear-case WACC +18bp) given the legal overhang widened, not narrowed, this week (DOJ-probe reports, the Warren export-testimony invite, the open Kim-led board probe, the newly-surfaced Kistenmacher securities suit). The re-rating is a fundamentals story, not a risk-discount story.
-2. **This is not this desk capitulating to GS's bullishness, nor manufacturing a bearish call to stay "consistent" with last week.** The stance mandate is to call the math as it is. Run on the actual print, the math lands close to the current tape. That is itself the finding.
-3. **No trade implied.** Rule 6a's rate-shock pause and rule 20's no-new-cash-to-NVDA instruction both independently block any add regardless of how this rebuild reads. This desk does not place trades.
-4. **OMCL's bear floor got touched again (11/17's $34.00 close), by state.md's own account with no structural cause found** — a price-level story, not a fundamentals one; base case remains comfortably undervalued (+37.5%).
-5. **XLE remains the most overdue rebuild on this sheet — now 12 days stale on Brent**, which this desk again could not refresh. Recommend prioritizing this ahead of GEHC next cycle, repeated for a fourth consecutive report.
-6. **GEHC is a flat overvaluation read**, unchanged; BR's drift-trim trigger is the live mechanism here, not this desk's domain.
+1. **The Rf gap GS flagged twice is now closed.** Re-pointing WACC from a 4.87%-based 12.72% to a 5.12%-based 12.97% (same +140bp governance premium, same equity-risk spread — only the risk-free leg moves) pulls base fair value from $159.2/sh to ~$155.2/sh, read directly off this report's own standing WACC×g sensitivity grid rather than a full re-derivation. That is a ~2.5% haircut to fair value for a 25bp Rf correction — in line with this model's own duration sensitivity.
+2. **Net effect on the verdict is small.** NVDA's own +1.13% premarket gain roughly offsets the Rf-driven fair-value haircut, so the base-case gap moves from -0.6% to +1.7% — still squarely "roughly fairly valued," not a re-rating in either direction. This is a model-hygiene correction, not a new finding about NVDA.
+3. **No trade implied.** Rule 6a's rate-shock pause and rule 20's no-new-cash-to-NVDA instruction both independently block any add regardless of how this reads. This desk does not place trades.
+4. **OMCL remains the standout undervaluation call (+34.9% base), with its bear floor touched for a second straight close** — a price-level story with no fundamentals behind it, per state.md's own repeated structural checks.
+5. **XLE is now 13 days stale on Brent and the most overdue rebuild on this sheet — a fifth consecutive flag.** This desk's own WebSearch again returned only undated or months-stale spot references (a spread from ~$71 to ~$109/bbl depending on source and date, none reliably dated to November 2026); recommend prioritizing this ahead of GEHC next cycle.
+6. **GEHC is a flat overvaluation read, unchanged.** BR's drift-trim trigger is the live mechanism here, not this desk's domain.
 7. **This desk does not place trades.** Sizing, DCA-gate mechanics, and trim/hold calls remain BR's/BW's domain.
 
 No trade recommended off this report (research-only mandate, as always).
 
 ---
 
-## 1. NVDA — full ground-up rebuild on the actual Q3 FY2027 print
+## 1. NVDA — Rf re-pointing, no fundamentals change
 
-### 1a. What changed and why this is a full rebuild, not a roll
+### 1a. What changed and why this is a re-pointing, not a rebuild
 
-The 11/13 and 11/16 builds carried a base case of $122.7/sh constructed on **Street-consensus placeholders** for Q3 revenue (~$108.8-109.3B) because the actual print hadn't happened yet. It has now happened — confirmed directly from NVIDIA's own 11/17 press release / 8-K (not just a third-party recap): **Q3 FY2027 revenue $115.8B** (+103% YoY, +20% QoQ), **Data Center $107.6B** (+110% YoY), **GAAP/non-GAAP diluted EPS $2.70/$2.68**, **GAAP/non-GAAP gross margin 74.8%/74.9%**. **Q4 FY27 guide: $130.0B ±3%** ($126.1-$133.9B), **gross margin guided down to 71.0-72.0%** (still assuming zero China Data Center compute revenue), **$28.1B returned to shareholders in Q3 alone** under an authorization topped up by $150B in September 2026. Combined with confirmed actuals for Q1 FY27 ($81.6B revenue, ~$75.25B Data Center) and Q2 FY27 ($96.2B revenue, $89.0B Data Center, +117% YoY, 75% GAAP gross margin), **this desk now has four of the four quarters needed to anchor FY2027 as a real base year — three actual, one company-guided — instead of three actual-or-stale plus one Street guess.** That is a materially different, and materially stronger, foundation than every report since 11/3, and is why this is being rebuilt from the ground up rather than rolled.
+The 11/18 post-print ground-up rebuild (base $159.2/sh, WACC 12.72%, g 3.0%) stands on its cash-flow build: nothing new on Data Center growth, the Q4 guide, gross margin, or the governance/legal-disqualifier checklist was found this run (fresh WebSearch reproduced the already-on-file board-probe-opened-11/8, Kistenmacher-suit, Megaspeed/DOJ-adjacent reporting — no new dated-11/19 development on any of it). **What did change: the team's own working risk-free-rate input.** BW's 11/16 report (four independently-corroborated sources) put the current 10-year Treasury at 5.12%, materially above the ~4.87% this desk had been carrying for weeks on a chronic same-day-dateline wall. BR adopted the 5.12% figure in its 11/18 ~15:13 ET report; GS's 11/19 report explicitly called out, for the second cycle running, that this desk's NVDA WACC had not yet been re-run on it. That is closed this run.
 
-**FY2027 base year (estimate): revenue ≈ $423.6B** (81.6 + 96.2 + 115.8 + 130.0 guide midpoint), up roughly 2x from FY2026. This is the anchor for the five-year explicit forecast below.
+### 1b. Re-pointing the WACC and reading the new fair value off the standing sensitivity grid
 
-**Balance sheet inputs (estimated — the actual Q3 FY27 10-Q was not located this run):** diluted shares outstanding **~24.1B** (Q2 FY27 10-Q cover page, 8/21/26); net cash & marketable securities **~$37B estimated** (Q1 FY27 10-Q showed $13.2B cash + $37.1B marketable securities = $50.3B gross, less ~$10B long-term debt and net of the $28.1B of Q3 shareholder returns against this year's own FCF generation — a rough estimate, not a verified Q3 balance-sheet figure, and flagged as such).
+**Base-case WACC:** 4.87% Rf + equity-risk/beta spread + +140bp governance-transition premium (unchanged) = 12.72% (11/18 figure). Swapping in 5.12% Rf (+25bp) with every other component held fixed: **new base WACC ≈ 12.97%.**
 
-### 1b. Five-year revenue/margin/FCF schedule — three scenarios
-
-**Governance/legal context carried into the WACC, not the revenue build:** the structural disqualifier checklist (Data Center growth, guide vs. band, China/export incremental deterioration, Blackwell/GB300 supply-demand) came back clean on every leg per state.md's own fresh check this run — **zero of four fired.** Separately, the governance/legal overhang (open Kim-led board probe, Semafor's reported-but-unconfirmed DOJ-probe threads, Sen. Warren's China-export testimony invite, the single-sourced SEC-investigation item, and GS's newly-surfaced Kistenmacher securities class action) **widened rather than narrowed this week** — that belongs in the discount rate, not in a fundamentals haircut, and is why the bear-case WACC is nudged wider below rather than the bear-case revenue path being cut further.
-
-| FY (fwd) | Growth (Base/Bull/Bear) | Revenue $B (Base) | Op. margin (Base) | FCF margin (Base) | FCF $B (Base) |
-|---|---|---|---|---|---|
-| FY28 | +35% / +55% / +10% | 571.9 | 62% | 46% | 263.1 |
-| FY29 | +20% / +35% / 0% | 686.3 | 61% | 47% | 322.6 |
-| FY30 | +12% / +22% / -5% | 768.7 | 60% | 48% | 369.0 |
-| FY31 | +8% / +15% / +3% | 830.2 | 60% | 49% | 406.8 |
-| FY32 | +6% / +12% / +5% | 879.9 | 60% | 50% | 440.0 |
-
-**Why these growth rates:** Base case assumes meaningful deceleration from the current >100% YoY run-rate purely on law-of-large-numbers grounds (going from ~$424B to ~$880B over 5 years is still a near-tripling), not on any negative catalyst — consistent with "zero disqualifiers fired." Bull assumes the Vera Rubin ramp ("off to an explosive start" per Kress) and hyperscaler capex supercycle persist longer than consensus expects. Bear assumes a demand air-pocket / hyperscaler capex-digestion pause (a scenario this book has tracked as a live macro risk independent of NVDA's own execution) plus incremental China/export deterioration beyond the guide's already-zero baseline.
-
-**Why FCF margin (46-50%) sits meaningfully below operating margin (60-62%):** NVDA's historical FCF conversion has been exceptionally high for a company this size, but the current cycle carries unusually heavy capex and supply-chain prepayment commitments (CoWoS/HBM capacity, direct AI-infrastructure investment stakes) that this desk has not seen NVDA operate at before — the single least-precedented assumption in this model (see Key Assumptions below).
-
-### 1c. Three-scenario DCF — WACC and outputs
-
-| Scenario | WACC | Terminal g | PV explicit FCFs ($B) | PV terminal value ($B) | Enterprise value ($B) | + Net cash ($B) | Equity value ($B) | ÷ Shares (B) | Fair value/sh |
-|---|---|---|---|---|---|---|---|---|---|
-| Bull | 11.47% | 3.0% | 1,928.3 | 5,309.6 | 7,237.9 | +37 | 7,274.9 | 24.1 | **$302.1** |
-| **Base** | **12.72%** | **3.0%** | **1,238.4** | **2,561.3** | **3,799.7** | **+37** | **3,836.7** | **24.1** | **$159.2** |
-| Bear | 14.50% | 3.0% | 563.4 | 784.1 | 1,347.5 | +37 | 1,384.5 | 24.1 | **$57.5** |
-
-**WACC build:** base-case WACC of 12.72% carries forward the team's standing Rf ~4.87% (unchanged — this run's own dedicated WebSearch for a fresher 10-year Treasury print again found nothing dated to November 2026, the identical chronic dateline wall every desk has hit for weeks) plus an equity-risk/beta spread and the standing governance-transition premium (+140bp base, unchanged). **Bull WACC (11.47%) is unchanged.** **Bear WACC is widened from 14.32% to 14.50% (+18bp)** specifically to reflect that the legal/governance overhang got wider, not narrower, this week even though the print itself was clean — a deliberate, isolated adjustment to the risk discount, not to the cash-flow build.
-
-**Implied read against price ($160.11):** Base **-0.6%** (roughly fairly valued — within noise of a model built on estimated capex/FCF-margin assumptions); Bull **+88.7%** (undervalued if the growth/margin path holds at the high end); Bear **-64.1%** (overvalued if a demand air-pocket or a legal-overhang escalation materializes). **The directional read has flipped from five-plus consecutive "overvalued at base case" reports to "fairly valued" — this is the headline finding of this run, and it is a function of the real print, not a looser risk framework.**
-
-### 1d. Sensitivity table — fair value per share (base-case cash-flow build), WACC × terminal growth
+Rather than re-deriving the five-year FCF schedule and terminal value from scratch (unchanged since 11/18 — no fundamentals news this run), this desk reads the new fair value directly off its own standing WACC×terminal-growth sensitivity grid (reproduced below, built 11/18, g held at 3.0% to match the base case):
 
 | WACC ↓ / g → | 2.0% | 2.5% | 3.0% | 3.5% | 4.0% |
 |---|---|---|---|---|---|
 | 11.72% | $164.5 | $171.0 | $178.3 | $186.5 | $195.7 |
 | 12.22% | $155.9 | $161.8 | $168.2 | $175.4 | $183.4 |
-| **12.72%** | **$148.3** | **$153.4** | **$159.2** | **$165.5** | **$172.5** |
+| 12.72% | $148.3 | $153.4 | $159.2 | $165.5 | $172.5 |
+| **12.97% (interpolated)** | **$144.6** | **$149.7** | **~$155.2** | **$161.8** | **$168.6** |
 | 13.22% | $141.5 | $146.1 | $151.2 | $156.7 | $162.9 |
 | 13.72% | $135.0 | $139.1 | $143.7 | $148.6 | $154.1 |
 
-At $160.11, the current price sits almost exactly inside this grid's base-case cell — the stock is priced for very close to this desk's own base-case assumptions, across a reasonable range of discount-rate/terminal-growth combinations, not just at one knife-edge input.
+**New base fair value: ~$155.2/sh** (interpolated between the 12.72% and 13.22% rows at g=3.0%), a **-2.5% haircut** from 11/18's $159.2/sh — consistent with the grid's own observed ~5.0-5.2% sensitivity per 50bp of WACC.
 
-### 1e. Key assumptions that could break this model
+**Bull/Bear re-pointing (approximation, not a full re-derivation):** the bull and bear scenarios run on different cash-flow paths and WACCs entirely, so they cannot be read off the base-case grid directly. Applying the same ~2.5%-per-25bp duration sensitivity observed in the base-case grid as a proxy (a reasonable approximation for a pure Rf shift with no cash-flow change, not precision-grade):
+- **Bull:** WACC 11.47%→11.72% (+25bp); $302.1/sh × (1-2.5%) ≈ **$294.5/sh**
+- **Bear:** WACC 14.50%→14.75% (+25bp); $57.5/sh × (1-2.5%) ≈ **$56.1/sh**
 
-1. **Data Center growth deceleration path (base: +35%/+20%/+12%/+8%/+6% over FY28-32)** — the single biggest swing factor; a sharper hyperscaler capex-digestion pause collapses fair value toward the bear case, a longer boom pushes it toward the bull case.
-2. **Gross margin trajectory** — the Q4 guide already shows compression to 71-72% from 74.9%; this model assumes that compression is a transient Blackwell/Vera Rubin ramp cost, not structural. If it proves structural, base-case operating margin (60-62%) is too high.
-3. **FCF conversion / capex intensity** — the 46-50% FCF-margin band (vs. 60-62% operating margin) is this model's least-precedented assumption; NVDA's growing direct AI-infrastructure investment commitments could structurally compress FCF margin further below what's modeled here.
-4. **Share count** — relies on continued net buyback-driven share-count decline off ~24.1B; a change in capital-return policy moves fair value per share directly.
-5. **Governance/legal-overhang WACC premium** — held at +140bp base (unchanged) / widened slightly in the bear case; if any of the open threads (DOJ-probe reports, the Kim-led board probe, the Kistenmacher suit, the Warren export-testimony invite) converts from "reported, unconfirmed" to "confirmed, material," WACC should move up (fair value down) independent of the fundamentals rebuilt here.
-6. **Risk-free rate** — held at ~4.87% on the same chronic dateline wall every desk has hit for weeks; Waller's hawkish December-hike signal (25bp likely, 50bp not ruled out) is a specific, named, *not-yet-reflected* upside risk to this input.
-7. **China/export policy** — the guide already assumes zero China Data Center compute revenue; this model has not built a downside case for further deterioration *beyond* that zero floor outside the generic bear-case deceleration.
+**Implied read against price ($152.67):** Base **+1.7%** (roughly fairly valued, essentially flat vs. 11/18's -0.6%); Bull **+92.9%**; Bear **-63.3%**. **The net move is small and goes in opposite directions** — the Rf correction pulls fair value down ~2.5%, NVDA's own premarket gain (+1.13%) pulls the gap back up — leaving the headline verdict unchanged: roughly fairly valued at base case, not a re-rating.
 
-**Verdict: ROUGHLY FAIRLY VALUED at base case ($159.2/sh vs. $160.11, -0.6%).** Not a buy or sell call. This desk does not place trades; sizing and timing remain BR's domain, and both rule 6a's pause and rule 20's no-new-cash instruction independently block any add regardless of this verdict.
+### 1c. Key assumptions that could break this model (unchanged from 11/18, Rf item now resolved)
+
+1. **Data Center growth deceleration path** — still the single biggest swing factor; unchanged since 11/18.
+2. **Gross margin trajectory** (Q4 guide compression to 71-72% from 74.9%) — unchanged, still assumed transient.
+3. **FCF conversion/capex intensity** (46-50% FCF margin vs. 60-62% operating margin) — still this model's least-precedented assumption.
+4. **Share count** (~24.1B diluted, buyback-driven decline assumed) — unchanged.
+5. **Governance/legal-overhang WACC premium** (+140bp base, unchanged) — if the board probe, the Kistenmacher suit, or the Megaspeed/DOJ-adjacent reporting converts from "reported, unconfirmed" to "confirmed, material," this premium should widen further, independent of today's Rf fix.
+6. **Risk-free rate — now resolved this run** (5.12%, BW/BR-adopted), closing the two-cycle-old gap GS flagged. Any further Treasury move should be re-pointed the same way next cycle.
+7. **China/export policy** — unchanged; guide already assumes zero China Data Center compute revenue.
+
+**Verdict: ROUGHLY FAIRLY VALUED at base case (~$155.2/sh vs. $152.67, +1.7%).** Not a buy or sell call. This desk does not place trades; sizing and timing remain BR's domain, and both rule 6a's pause and rule 20's no-new-cash instruction independently block any add regardless of this verdict.
 
 ---
 
-## 2. OMCL — fundamentals unchanged; a fresh, second sub-floor close logged
+## 2. OMCL — fundamentals unchanged; second sub-floor close logged
 
-**Fundamentals unchanged since the 10/29 post-print rebuild** (base $46.75, bull $55.27, bear $35.24; WACC 9.43%/8.43%/10.43%). This run's dedicated WebSearch again found nothing dated past a stale 11/6 reference ($37.34, already flagged as inconsistent by this desk's own prior reports and by GS) — the chronic dateline wall holds for this name specifically.
+**Fundamentals unchanged since the 10/29 post-print rebuild** (base $46.75, bull $55.27, bear $35.24; WACC 9.43%/8.43%/10.43%). This run's dedicated WebSearch again found nothing dated past stale mid-year references ($44.92-$45.80 depending on source, none newer than mid-2026) — the chronic dateline wall holds for this name specifically, as it has for weeks.
 
-**The new fact, per state.md's own 11/18 run note: 11/17's official close printed $34.00 — a fresh close below MS's $35.24 bear-case line**, following the 11/12-11/13 streak that had already resolved favorably on 11/16's $35.44 close. State.md's own extended re-read this run found **no structural cause** (no guidance cut, no contract loss, no margin/bookings deterioration — only two stale-ish analyst price-target trims, both still well above the live price) and resolved HOLD, now the **sixth** live test of this exact price-level mechanism to the identical outcome.
+**The live fact, per state.md's own 11/19 ~08:37 ET read: 11/18's official close printed $34.66 — still below MS's $35.24 bear-case line, the second consecutive sub-floor close** (11/17 $34.00, 11/18 $34.66), following an earlier streak that had resolved favorably on 11/16's $35.44 close. State.md's repeated structural checks have found **no structural cause** (no guidance cut, no contract loss, no margin/bookings deterioration) across seven-plus live tests of this exact mechanism, all resolved HOLD.
 
-| Scenario | WACC | Fair Value/sh | Price (11/17 close) | Gap |
+| Scenario | WACC | Fair Value/sh | Price (11/18 close) | Gap |
 |---|---|---|---|---|
-| Bull | 8.43% | $55.27 | $34.00 | **+62.6%** |
-| **Base** | **9.43%** | **$46.75** | **$34.00** | **+37.5%** |
-| Bear | 10.43% | $35.24 | $34.00 | price is **$1.24 (-3.5%) below** the bear-case floor |
+| Bull | 8.43% | $55.27 | $34.66 | **+59.4%** |
+| **Base** | **9.43%** | **$46.75** | **$34.66** | **+34.9%** |
+| Bear | 10.43% | $35.24 | $34.66 | price is **$0.58 (-1.65%) below** the bear-case floor |
 
-**Key assumptions that could break this model:** a guidance cut, a lost major health-system contract, or a bookings/margin-deterioration trend — none of which has been found by any desk across six consecutive price-level tests of this line since July. A structural deterioration, not another price-level breach, is what would actually move this desk's numbers.
+**Key assumptions that could break this model:** a guidance cut, a lost major health-system contract, or a bookings/margin-deterioration trend — none of which has been found by any desk across this many consecutive price-level tests. A structural deterioration, not another price-level breach, is what would actually move this desk's numbers.
 
-**Verdict: UNDERVALUED at base case (+37.5%).** This desk does not make the structural-break-vs-price-level call (BW's/BR's domain) — it confirms, on the data, that no OMCL-specific fundamental deterioration has been found by any desk since the print.
+**Verdict: UNDERVALUED at base case (+34.9%).** This desk does not make the structural-break-vs-price-level call (BW's/BR's domain) — it confirms, on the data, that no OMCL-specific fundamental deterioration has been found by any desk since the print.
 
 ---
 
-## 3. XLE — price-roll, now 12 days overdue for a rebuild
+## 3. XLE — price-roll, now 13 days overdue for a rebuild
 
-**No fresher Brent print found this run** — this desk's own dedicated WebSearch returned the same spread of undated or stale (March-September 2026) spot-price references every desk has hit for weeks, nothing reliably dated to November. The 11/6 rebuild (Brent ~$98.77, ×1.4x FCF elasticity estimate) stands unchanged: base $58.5, bull $66.3, bear $47.0, WACC ~11.0%.
+**No fresher Brent print found this run** — this desk's dedicated WebSearch returned the same spread of undated or stale references every desk has hit for weeks (figures ranging roughly $71-$109/bbl depending on source and vintage, none reliably dated to November 2026). The 11/6 rebuild (Brent ~$98.77, ×1.4x FCF elasticity estimate) stands unchanged: base $58.5, bull $66.3, bear $47.0, WACC ~11.0%.
 
-| Scenario | Fair Value/sh (11/6 build) | Price | Gap |
+| Scenario | Fair Value/sh (11/6 build) | Price (11/19 premarket) | Gap |
 |---|---|---|---|
-| Bull | $66.3 | $63.32 | **+4.71%** |
-| **Base** | **$58.5** | **$63.32** | **-7.61%** |
-| Bear | $47.0 | $63.32 | **-25.77%** |
+| Bull | $66.3 | $61.65 | **+7.5%** |
+| **Base** | **$58.5** | **$61.65** | **-5.1%** |
+| Bear | $47.0 | $61.65 | **-23.8%** |
 
-**Key assumptions that could break this model:** the Brent elasticity multiple (1.4x FCF sensitivity) is now nearly two weeks stale and has never been re-validated against an actual November print; a genuine demand-side shock would not be captured by this model as built, per the standing hedge-role rule.
+**Key assumptions that could break this model:** the Brent elasticity multiple (1.4x FCF sensitivity) is now over two weeks stale and has never been re-validated against an actual November print; a genuine demand-side shock would not be captured by this model as built, per the standing hedge-role rule.
 
-**Verdict: OVERVALUED at base case, unchanged in substance.** Still this sheet's single most overdue rebuild (12 days since the last Brent-linked refresh), a recommendation now repeated for a fourth consecutive report.
+**Verdict: OVERVALUED at base case, unchanged in substance.** Still this sheet's single most overdue rebuild (13 days since the last Brent-linked refresh), a recommendation now repeated for a fifth consecutive report.
 
 ---
 
 ## 4. GEHC — flat price-roll
 
-**Fundamentals and fair value unchanged since the 11/2 equity-bridge correction** (base $75.0, bull $98.5, bear $44.4; WACC 8.0%/7.0%/9.0%). No new company-specific fact found this run beyond what's already on file; GS's own 11/17 report independently flagged the 19-analyst Street consensus 12-month target at ~$82.5, essentially at today's price — a corroborating, non-DCF data point only.
+**Fundamentals and fair value unchanged since the 11/2 equity-bridge correction** (base $75.0, bull $98.5, bear $44.4; WACC 8.0%/7.0%/9.0%). This run's WebSearch found Q3 results (reported 10/28, EPS $1.34 on $5.51B revenue, guidance raised) and the previously-known Neal Sandy PCS-CEO transition (effective 11/16) — both already reflected or non-material, no new structural fact. A bond-filing reference to a mandatory-redemption date tied to an unnamed pending acquisition surfaced this run but could not be tied to a specific deal or dollar figure with any confidence — flagged for the team, not adopted into the model.
 
-| Scenario | Fair Value/sh | Price | Gap |
+| Scenario | Fair Value/sh | Price (11/18 close) | Gap |
 |---|---|---|---|
-| Bull | $98.5 | $82.54 | **+19.36%** |
-| **Base** | **$75.0** | **$82.54** | **-9.14%** |
-| Bear | $44.4 | $82.54 | **-46.21%** |
+| Bull | $98.5 | $83.66 | **+17.8%** |
+| **Base** | **$75.0** | **$83.66** | **-10.3%** |
+| Bear | $44.4 | $83.66 | **-46.9%** |
 
-**Key assumptions that could break this model:** the 11/2 equity-bridge correction's net-debt and backlog assumptions are now over two weeks old; the Neal Sandy PCS-CEO leadership change (effective 11/16, flagged last run) remains non-material on its own but is worth re-checking if a second such change follows.
+**Key assumptions that could break this model:** the 11/2 equity-bridge correction's net-debt and backlog assumptions are now over two weeks old; the unidentified acquisition/redemption-date item flagged above is worth a dedicated follow-up if a name attaches to it.
 
-**Verdict: OVERVALUED at base case, flat.** BR's 7.5%-pool drift-trim trigger remains the live mechanism here; the trim decision itself is BR's domain.
+**Verdict: OVERVALUED at base case, flat.** BR's 7.5%-pool drift-trim trigger (~1.08pp away per state.md, the book's narrowest live mechanical gate) remains the operative mechanism here; the trim decision itself is BR's domain.
 
 ---
 
 ## 5. AVGO — carryforward only; not GS's #1 pick, no rebuild required this run
 
-First built 11/11 (base $365.5/sh, WACC 10.5%, g 4.0%; see that report in git history). No work done on this name this run — GS's current #1-ranked pick is NVDA, already a holding and already rebuilt above, so this persona's coverage rule does not require an AVGO build this cycle. Carried forward at the last reference ($332.10, 10/16 close, per GS's own prior data-quality flag) for continuity only: implied **~+10.0% undervalued** at that stale reference, not re-verified this run.
-
----
-
-## Rate and oil input note
-
-- **10-year Treasury (WACC input): held at ~4.87%** (team's standing figure). This desk's own dedicated fresh WebSearch today again found no reading dated to November 2026 anywhere — the same chronic same-day dateline wall every desk has hit for weeks. No basis to revise. **Flagging explicitly: Fed's Waller has signaled a likely 25bp December hike, open to 50bp** — a genuine, named upside risk to this input that is not yet reflected anywhere in this build.
-- **Brent crude (XLE input): held at the 11/6 rebuild's ~$98.77 reference, now 12 days stale.** Dedicated WebSearch this run again found nothing reliably dated to November.
-
----
-
-## Explicit read on trader's current positions (all six held) + AVGO (unheld)
-
-| Position | Avg Cost | Current Price | Unrealized | MS Verdict |
-|---|---|---|---|---|
-| NVDA | $201.40 | $160.11 | -20.5% | **Full rebuild this run — base case moved from -22.2% (overvalued) to -0.6% (roughly fairly valued), on the actual print flowing through the cash-flow base, not a loosened risk discount.** See §1. |
-| VTI | $370.40 | $363.58 | -1.84% | Hold by construction |
-| VXUS | $84.13 | $80.61 | -4.18% | Hold by construction |
-| OMCL | $46.99 | $34.00 | -27.6% | Undervalued at base (+37.5%); a fresh sub-floor close logged 11/17, resolved HOLD by state.md, no structural cause found. See §2. |
-| XLE | $57.62 | $63.32 | +9.9% | Overvalued at base (-7.61%); still the most overdue rebuild on the sheet (now 12 days) |
-| GEHC | $68.69 | $82.54 | +20.1% | Overvalued at base (-9.14%), flat price-roll |
-| **AVGO (unheld)** | n/a | not re-verified — carryforward $332.10 (10/16 close) | n/a | Not GS's #1 pick this run; no rebuild required |
-
-This desk does not place trades or touch Robinhood — research only, per mandate. Sizing, DCA-gate mechanics, and any overweight/trim case remain BR's domain; structural-break risk framing remains BW's. **This desk's one explicit action item satisfied this run: the mandatory post-print NVDA rebuild that state.md's 11/18 entry named as the team's single highest-priority task.** The next genuinely consequential task for the team is getting BW's and BR's own fresh post-print reads on file — both still predate the 11/17 print as of this writing.
-
----
-
-## Sources
-
-- NVDA Q1/Q2/Q3 FY2027 actuals and Q4 FY2027 guidance: NVIDIA's own 11/17/2026 press release / SEC 8-K (sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm; investor.nvidia.com; nvidianews.nvidia.com; globenewswire.com), cross-checked against Q1/Q2 FY27 actuals (nvidianews.nvidia.com Q2 FY27 release; Q1 FY27 10-Q via s201.q4cdn.com) and third-party trackers (MarketBeat) reporting the identical headline figures — a materially stronger, primary-source basis than prior reports' Street-consensus placeholders.
-- NVDA shares outstanding (~24.1B) and cash/securities (~$50.3B gross, Q1 FY27): NVIDIA's own Q1/Q2 FY2027 10-Q filings (opencapital.sh filing mirror; s201.q4cdn.com). The Q3 FY27 10-Q itself was not located this run — net cash of ~$37B is this desk's own estimate, not a verified Q3 balance-sheet figure, and is flagged as such in §1a.
-- NVDA/OMCL/XLE/GEHC prices: trading-experiment/state.md's 2026-11-18 ~08:38 ET pre-market note (NVDA) and the trader's 2026-11-17 ~14:37 ET pull (XLE, GEHC), corroborated by analysts/gs-stock-screener.md's 2026-11-18 report (OMCL's 11/17 $34.00 official close).
-- 10-year Treasury: this run's dedicated WebSearch ("10 year treasury yield today November 18 2026") again found nothing dated to November 2026 — the chronic dateline wall every desk has hit for weeks. Held at the team's standing ~4.87% figure.
-- Brent crude: this run's dedicated WebSearch ("Brent crude oil price today November 18 2026") again found only undated or stale (March-September 2026) references. Not adopted; held at the 11/6 rebuild's ~$98.77 reference.
-- Fed/Waller: corroborating context carried from analysts/gs-stock-screener.md's 2026-11-18 report, not independently re-sourced this run.
-- Internal: trading-experiment/state.md (2026-11-18 ~08:38 ET entry — the NVDA print resolution, structural-checklist walkthrough, and the explicit instruction naming this desk's rebuild as the team's top priority), analysts/gs-stock-screener.md (2026-11-18, OMCL 11/17 close, NVDA post-print price/governance detail), analysts/jpm-earnings-analyzer.md (2026-11-18 ~08:17 ET, referenced via state.md and GS's report), this desk's own 11/17 and 11/16 reports (WACC-input and price-roll history, git history), 11/13 NVDA pre-print build, 11/6 XLE oil-attribution rebuild, 10/29 OMCL rebuild, 11/2 GEHC equity-bridge correction, and 11/11 AVGO first build (all git history where applicable).
+First built 11/11 (base $365.5/sh, WACC 10.5%, g 4.0%; see that report in git history). No work done on this name this run — GS's current #1-ranked pick is NVDA, already a holding and already covered above, so this persona's coverage rule does not require an AVGO build this cycle. Carried forward at the last reference ($332.10, 10/16 close, per GS's own standing data-quality flag, now seventh-plus consecutive cycle unresolved) for continuity only: implied **~+10.0% undervalued** at that stale reference, not re-verified this run.

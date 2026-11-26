@@ -1,18 +1,18 @@
 # BW Risk Assessment
 
-**Report date: 2026-11-26 (Thursday, Thanksgiving Day), ~15:0x ET** (verified via `TZ=America/New_York date`; persona file re-read fresh this run, unchanged since last cycle). Live Robinhood `get_portfolio`/`get_equity_positions`/`get_equity_quotes` on account 424593861. **US equity markets are closed today for the Thanksgiving holiday** — confirmed via frozen/stale, artificially wide bid/ask spreads on every holding (e.g. NVDA bid $134.72/ask $151.39, VXUS bid $76.50/ask $83.00) and `last_trade_price` timestamps that all cluster at Wednesday 2026-11-25's 20:59:59 UTC close. This report is therefore a **price-action-frozen update, not a fresh structural read** — every number below is Wednesday 11/25's regular-session close, carried forward. No new fundamental fact exists to find today; the holiday itself is the only "event." Prior BW read: 2026-11-25 ~13:41 ET.
+**Report date: 2026-11-26 (Thursday, Thanksgiving Day), ~13:4x ET** (verified via `TZ=America/New_York date`; persona file re-read fresh this run, unchanged since last cycle). Live Robinhood `get_portfolio`/`get_equity_positions`/`get_equity_quotes` on account 424593861. **US equity markets remain closed today for the Thanksgiving holiday** — reconfirmed via the same frozen/stale, artificially wide bid/ask spreads on every holding (e.g. NVDA bid $134.72/ask $151.39, VTI bid $345.10/ask $390.00) and `last_trade_price`/`venue_last_trade_time` stamps that all still cluster at Wednesday 2026-11-25's 20:59:59 UTC close — identical to this morning's 09:45 ET read. This report is therefore a **second price-action-frozen update today, not a fresh structural read** — every number below is still Wednesday 11/25's regular-session close, carried forward unchanged. Two dedicated WebSearches this run (10-year Treasury/Brent crude; NVDA/AI-semis news, both dated "November 26 2026") returned nothing newer than late-September/October material — the same chronic dateline wall every analyst on this desk has hit all week, consistent with a genuine market holiday producing no fresh data to find. Prior BW read: 2026-11-26 ~09:45 ET (same day, same numbers).
 
 ## Overall Portfolio Risk Grade: **D** (held, not upgraded)
 
 ## Single biggest risk right now
 
-**This book still runs with zero hedge against its own largest, most volatile, most event-prone exposure — NVDA and the AI/semis complex it's wired into — and a quiet holiday changes nothing about that.** Look-through the two broad ETFs and the real AI/semis exposure isn't the ~9% NVDA line item alone: VTI (31.7% of equity) is itself a cap-weighted US index with heavy Mag-7/semis weighting, and VXUS carries a smaller but real slice too. Combined look-through tech/AI exposure across NVDA + VTI's + VXUS's embedded tech sleeves runs to roughly **23-24% of equity** — more than double what the position list on its face suggests, and the single number this desk considers most under-appreciated by the rest of the book's run-of-show risk checks (which track NVDA's own line-item weight against mechanical triggers, not the look-through total). This book has now lived through, in the span of three weeks, a confirmed CEO resignation, an interim-CEO handoff, a full reinstatement, a +34% single-session reinstatement spike, and a sector-wide AI/semis selloff (AMD/ADI/ALAB/SNDK/MU all down double digits on 11/24) — proof that this factor bet can move ~9-30 points in a single session with no insurance against any of it. **Grade held at D**: nothing structural changed today (it couldn't — the market is closed), but nothing has been fixed either. The standing, now multi-week-old ask for a built defensive/diversifying sleeve remains open and unbuilt.
+**This book still runs with zero hedge against its own largest, most volatile, most event-prone exposure — NVDA and the AI/semis complex it's wired into — and a second quiet check four hours later changes nothing about that.** Look-through the two broad ETFs and the real AI/semis exposure isn't the ~9% NVDA line item alone: VTI (31.7% of equity) is itself a cap-weighted US index with heavy Mag-7/semis weighting, and VXUS carries a smaller but real slice too. Combined look-through tech/AI exposure across NVDA + VTI's + VXUS's embedded tech sleeves runs to roughly **23-24% of equity** — more than double what the position list on its face suggests, and the single number this desk considers most under-appreciated by the rest of the book's run-of-show risk checks (which track NVDA's own line-item weight against mechanical triggers, not the look-through total). This book has now lived through, in the span of three weeks, a confirmed CEO resignation, an interim-CEO handoff, a full reinstatement, a +34% single-session reinstatement spike, and a sector-wide AI/semis selloff (AMD/ADI/ALAB/SNDK/MU all down double digits on 11/24) — proof that this factor bet can move ~9-30 points in a single session with no insurance against any of it. **Grade held at D**: nothing structural can change on a day with no trading session, and nothing has been fixed either. The standing, now multi-week-old ask for a built defensive/diversifying sleeve remains open and unbuilt.
 
 ---
 
-## Portfolio snapshot (ground truth, this run — Wednesday 11/25 close basis, market closed today)
+## Portfolio snapshot (ground truth, this run — Wednesday 11/25 close basis, market still closed)
 
-`get_portfolio`: total_value **$97.003071026** = cash $56.10 + equity $40.903071026 — unchanged to the penny vs. yesterday's final reading. Trading pool (= total − $50 off-limits reserve) = **$47.003071026**, a **-$2.996928974 / -5.99%** accumulated loss against the $50 base. Deployable cash $6.10 (**12.98% of pool**).
+`get_portfolio`: total_value **$97.003071026** = cash $56.10 + equity $40.903071026 — unchanged to the penny vs. this morning's 09:45 ET reading and every prior check today. Trading pool (= total − $50 off-limits reserve) = **$47.003071026**, a **-$2.996928974 / -5.99%** accumulated loss against the $50 base. Deployable cash $6.10 (**12.98% of pool**).
 
 | Symbol | Qty | Avg Cost | Last Px (11/25 close) | Mkt Value | Cost Basis | Unrealized P&L | % of Equity | % of Pool |
 |---|---|---|---|---|---|---|---|---|
@@ -23,7 +23,7 @@
 | XLE | 0.086775 | $57.62 | $60.88 | $5.28 | $5.00 | +$0.28 / +5.6% | 12.92% | 11.24% |
 | GEHC | 0.036393 | $68.69 | $83.30 | $3.03 | $2.50 | +$0.53 / +21.3% | 7.41% | 6.45% |
 
-Mechanical gates checked, all clean (no change possible with markets closed, carried forward from 11/25 ~12:36 ET):
+Mechanical gates checked, all clean (no change possible with markets closed, carried forward unchanged from this morning):
 - GEHC drift-trim trigger (BR's 7.5%-of-pool line): **~1.05pp away**, not fired — the closest live gate on the book.
 - NVDA drift-trim trigger (BR's 10.5%-of-pool line, adopted 11/24): **~2.61pp away**, not fired.
 - NVDA+OMCL combined concentration: **18.06% of equity** (25% hard trigger, ~6.94pp buffer; 20% soft line, ~1.94pp buffer) — clean on both.
@@ -31,7 +31,7 @@ Mechanical gates checked, all clean (no change possible with markets closed, car
 - NVDA $180 contingency-plan-v2 revisit line: last $149.33 is **-17.0%** below it — a continuation of the already-fired-and-resolved 11/12 governance disqualifier, not a fresh trigger.
 - OMCL's MS-recalibrated $33.00 bear floor: last $34.59 is **+4.8%** above it — recovered, not breached.
 - GEHC's $62 revisit line: last $83.30 is **+34.4%** above it — no issue.
-- Rule 6a rate-shock pause: last confirmed 10-year Treasury print **5.051% (11/19)**, vs. the 4.75% reopening threshold — **~30bp buffer, pause still in effect.** A fresh WebSearch this run found no reading dated 11/25-26 (expected — bond markets closed early/holiday); nothing newer than 11/19 exists to update this with.
+- Rule 6a rate-shock pause: last confirmed 10-year Treasury print **5.051% (11/19)**, vs. the 4.75% reopening threshold — **~30bp buffer, pause still in effect.** A fresh WebSearch this run again found nothing dated 11/25-26 (expected — bond markets closed for the holiday); nothing newer than 11/19 exists to update this with.
 
 ---
 
@@ -70,12 +70,12 @@ Mechanical gates checked, all clean (no change possible with markets closed, car
 |---|---|---|
 | NVDA | **High** | Long-duration growth DCF; MS's own model has repeatedly swung NVDA between undervalued/overvalued purely on WACC/risk-free-rate inputs with zero fundamentals change |
 | OMCL | **High** | Small-cap growth-ish healthcare IT; same WACC-sensitivity profile as NVDA, demonstrated by its own DCF's repeated re-ratings |
-| GEHC | **Moderate-High** | Mid/large-cap medtech with a real growth premium; MS's 10/1 coordinated WACC rebuild flipped it to mildly overvalued on a rate move alone |
+| GEHC | **Moderate-High** | Mid/large-cap medtech with a real growth premium; MS's coordinated WACC rebuild flipped it to mildly overvalued on a rate move alone |
 | VTI | **Moderate** | Broad index, but cap-weighted toward the same rate-sensitive mega-cap growth names that drive NVDA's own sensitivity |
 | VXUS | **Moderate** | Lower US-growth weighting than VTI reduces sensitivity somewhat, but global rate co-movement limits the offset |
 | XLE | **Low** | Cash-generative energy; historically the least rate-sensitive name in the book, sometimes an inflation/rate-regime beneficiary rather than a victim |
 
-**Aggregate read:** roughly 85%+ of equity sits in names with moderate-to-high rate sensitivity. The rule 6a rate-shock pause (adopted after the 10/1 WACC rebuild) is doing real work — it should stay in force until the 10-year genuinely reopens the ~4.75% line, not just eases a few bps.
+**Aggregate read:** roughly 85%+ of equity sits in names with moderate-to-high rate sensitivity. The rule 6a rate-shock pause remains in force and should stay there until the 10-year genuinely reopens the ~4.75% line, not just eases a few bps.
 
 ## 5. Recession stress test — estimated drawdown
 
@@ -109,7 +109,7 @@ Today's holiday quotes show artificially blown-out spreads across *every* name (
 ## 7. Single stock risk and position sizing recommendations
 
 - **NVDA (9.06% equity / 7.89% pool):** below both its own 10.5% drift trigger and the 25%/20% combined-concentration lines, but this is the name that has produced a CEO resignation, reinstatement, and a +34% single-session move in the last month alone — the realized-volatility profile of a name sized far larger than its current weight suggests. **Recommendation: hold current sizing, do not add** (rule 20/6a already block this); the risk here is event risk, not weight risk, and weight alone won't fix it.
-- **OMCL (9.00% equity / 7.83% pool):** the book's single worst performer (-26.4% unrealized), a small-cap with real liquidity risk (§6) and a bear-case floor that's already been breached and recalibrated once. **Recommendation: no add** (DCA gate deeply unfired per §portfolio snapshot); size is appropriately contained given the name's own volatility and liquidity profile — do not let it grow further without a fresh structural all-clear.
+- **OMCL (9.00% equity / 7.83% pool):** the book's single worst performer (-26.4% unrealized), a small-cap with real liquidity risk (§6) and a bear-case floor that's already been breached and recalibrated once. **Recommendation: no add** (DCA gate deeply unfired per the snapshot above); size is appropriately contained given the name's own volatility and liquidity profile — do not let it grow further without a fresh structural all-clear.
 - **GEHC (7.41% equity / 6.45% pool):** the book's best-performing satellite (+21.3%), approaching (not at) its own drift-trim trigger. **Recommendation: no action needed yet, but this is the single gate most likely to fire next** given its momentum — the trader should expect and honor the trim mechanically if/when it fires, not treat a winning position as exempt from discipline.
 - **XLE (12.92% equity / 11.24% pool):** diversified basket, genuinely uncorrelated performer, the book's best risk-adjusted holding this month. No sizing concern.
 
@@ -143,4 +143,4 @@ Current (% of pool): NVDA 7.89% / VTI 27.58% / VXUS 25.64% / OMCL 7.83% / XLE 11
 
 ---
 
-*Radical transparency note: nothing in this report should be read as "the book is fine because the market happened to be closed today." The structural concentration (look-through tech ~23-24% of equity), the single worst liquidity-risk holding (OMCL), and the still-unbuilt defensive sleeve are all exactly as true today as they were Wednesday — a holiday is a pause in prices, not a pause in risk.*
+*Radical transparency note: nothing in this report should be read as "the book is fine because the market happened to be closed today, twice now." The structural concentration (look-through tech ~23-24% of equity), the single worst liquidity-risk holding (OMCL), and the still-unbuilt defensive sleeve are all exactly as true at 13:4x ET as they were at 09:45 ET, and as they were Wednesday — a holiday is a pause in prices, not a pause in risk.*
